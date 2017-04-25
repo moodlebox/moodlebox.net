@@ -8,4 +8,4 @@ layout: page
 permalink: https://moodlebox.net/fr/aucun-acces/
 published: true
 ---
-[dlm_no_access] lab
+[dlm_no_access]
