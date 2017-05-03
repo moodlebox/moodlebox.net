@@ -8,7 +8,7 @@ layout: page
 permalink: https://moodlebox.net/fr/using/
 published: true
 ---
-Les informations concernant l'utilisation de la MoodleBox sont accessible via les <a href="https://moodlebox.net/fr/help/">pages d'aide</a>, une <a href="https://moodlebox.net/fr/help/">base de connaissances</a> des questions fréquentes et problèmes rencontrés.
+Les informations concernant l'utilisation de la MoodleBox sont accessibles via les <a href="https://moodlebox.net/fr/help/">pages d'aide</a>, une <a href="https://moodlebox.net/fr/help/">base de connaissances</a> des questions fréquentes et problèmes rencontrés.
 <h2>Connexion Wi-Fi</h2>
 Consultez la page d'aide <a href="https://moodlebox.net/fr/help/connexion-wi-fi/">Connexion au réseau Wi-Fi</a>.
 <h2>Connexion SSH à la MoodleBox</h2>
