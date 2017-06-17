@@ -22,7 +22,7 @@ On tape les commandes suivantes dans le terminal :
 
 On charge ensuite dans le navigateur l'URL <a class="_blanktarget" href="http://moodlebox.home/admin">http://moodlebox.home/admin</a>, et on suit les instructions de mise à jour, comme avec un Moodle standard (voir la documentation ici : <a class="_blanktarget" href="https://docs.moodle.org/fr/Mise_%C3%A0_jour" target="_blank" rel="noopener noreferrer">https://docs.moodle.org/fr/Mise_à_jour</a>).
 
-Pour une mise à jour à une <strong>version majeure</strong> de Moodle (3.3, 3.4, etc.), on tape <strong>en plus</strong> les commandes suivantes :
+Pour une mise à jour à une <strong>version majeure</strong> de Moodle (3.4, 3.5, etc.), on tape <strong>en plus</strong> les commandes suivantes :
 
 <code>sudo git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"</code>
 <code>sudo git fetch origin</code>
