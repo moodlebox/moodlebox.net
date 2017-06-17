@@ -27,4 +27,4 @@ Pour une mise à jour à une <strong>version majeure</strong> de Moodle (3.4, 3.
 <code>sudo git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"</code>
 <code>sudo git fetch origin</code>
 <code>sudo git pull</code>
-<code>sudo git checkout MOODLE_33_STABLE</code>
+<code>sudo git checkout MOODLE_34_STABLE</code>
