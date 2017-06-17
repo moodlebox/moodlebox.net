@@ -22,9 +22,9 @@ Type the following commands in the terminal:
 
 Visit then in your browser the URL <a class="_blanktarget" href="http://moodlebox.home/admin">http://moodlebox.home/admin</a> and follow the update instructions, like any Moodle installation (see the documentation here: <a class="_blanktarget" href="https://docs.moodle.org/en/Upgrading" target="_blank" rel="noopener noreferrer">https://docs.moodle.org/en/Upgrading</a>).
 
-To update to the next <strong>major version</strong> of Moodle (3.3, 3.4, etc.), type the <strong>additional</strong> following commands:
+To update to the next <strong>major version</strong> of Moodle (3.4, 3.5, etc.), type the <strong>additional</strong> following commands:
 
 <code>sudo git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"</code>
 <code>sudo git fetch origin</code>
 <code>sudo git pull</code>
-<code>sudo git checkout MOODLE_33_STABLE</code>
+<code>sudo git checkout MOODLE_34_STABLE</code>
