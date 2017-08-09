@@ -2,12 +2,12 @@
 ID: 414
 post_title: 'Configuration de l&rsquo;environnement Moodle'
 author: nicolas.martignoni.admin
-post_date: 2017-04-17 22:03:51
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/fr/help/configuration-initiale-de-lenvironnement-moodle/
 published: true
+post_date: 2017-04-17 22:03:51
 ---
 L'environnement Moodle installé sur la MoodleBox n'a aucune configuration particulière, hormis quelques réglages. Les réglages décrits ci-dessous ont été modifiés pour faciliter son utilisation ou améliorer ses performances.
 <dl>

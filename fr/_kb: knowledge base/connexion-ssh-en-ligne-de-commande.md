@@ -2,12 +2,12 @@
 ID: 389
 post_title: Connexion en ligne de commande (SSH)
 author: nicolas.martignoni.admin
-post_date: 2017-04-17 21:12:14
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/fr/help/connexion-ssh-en-ligne-de-commande/
 published: true
+post_date: 2017-04-17 21:12:14
 ---
 En tant qu’utilisateur, il n'est en principe pas nécessaire de vous connecter en ligne de commande à la MoodleBox. Cependant, vous pouvez y accéder au besoin via SSH en utilisant l’adresse <strong>moodlebox.home</strong>, avec les informations d’authentification par défaut :
 <ul>

@@ -2,12 +2,12 @@
 ID: 406
 post_title: Matériel nécessaire
 author: nicolas.martignoni.admin
-post_date: 2017-04-17 21:38:52
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/fr/help/materiel-necessaire/
 published: true
+post_date: 2017-04-17 21:38:52
 ---
 Pour mettre en oeuvre la MoodleBox, le matériel suivant est nécessaire :
 <ul>

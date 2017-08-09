@@ -4,12 +4,12 @@ post_title: >
   Démarrer, arrêter et redémarrer la
   MoodleBox
 author: nicolas.martignoni.admin
-post_date: 2017-04-17 22:09:27
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/fr/help/demarrer-arreter-redemarrer/
 published: true
+post_date: 2017-04-17 22:09:27
 ---
 <h3>Démarrer la MoodleBox</h3>
 Insérer dans la Raspberry Pi 3 la carte microSD (sur laquelle l'image-disque a été copiée) et brancher l’alimentation ainsi qu’un câble ethernet pour la connexion au réseau. La diode rouge s’allume, puis, après quelques secondes, la diode verte s’allume de façon intermittente.

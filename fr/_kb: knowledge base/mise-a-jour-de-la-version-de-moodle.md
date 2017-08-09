@@ -2,12 +2,12 @@
 ID: 404
 post_title: Mise à jour de la version de Moodle
 author: nicolas.martignoni.admin
-post_date: 2017-04-17 21:33:38
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/fr/help/mise-a-jour-de-la-version-de-moodle/
 published: true
+post_date: 2017-04-17 21:33:38
 ---
 Afin de permettre une mise à jour simplifiée de Moodle, son installation a été faite au moyen de Git. Pour mettre à jour Moodle, on effectuera donc les opérations suivantes, en ligne de commande.
 

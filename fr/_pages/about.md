@@ -2,13 +2,11 @@
 ID: 16
 post_title: À propos
 author: nicolas.martignoni.admin
-post_date: 2016-09-01 20:14:42
 post_excerpt: ""
 layout: page
 permalink: https://moodlebox.net/fr/about/
 published: true
-mtm_data:
-  - 'a:1:{i:0;a:4:{s:9:"reference";s:0:"";s:4:"type";s:4:"name";s:5:"value";s:11:"description";s:7:"content";s:79:"MoodleBox est un projet libre et gratuit de serveur Moodle sur une Raspberry Pi";}}'
+post_date: 2016-09-01 20:14:42
 ---
 La MoodleBox est un projet libre et gratuit qui étend et complète celui de <a href="http://bibliobox.net/" target="_blank">BiblioBox</a> ou de <a href="https://piratebox.cc/" target="_blank">PirateBox</a> qui ont fleuri dès l'année 2014, en ajoutant l'élément essentiel de l'environnement d'apprentissage.
 

@@ -4,12 +4,12 @@ post_title: >
   Utilisation de fichiers avec la
   MoodleBox
 author: nicolas.martignoni.admin
-post_date: 2017-04-17 21:57:11
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/fr/help/utilisation-de-fichiers-avec-la-moodlebox/
 published: true
+post_date: 2017-04-17 21:57:11
 ---
 <h3>Fichiers sur une clef USB</h3>
 Quand une clef USB est insérée dans l'un des ports USB de la MoodleBox, tous les fichiers sur la clef sont automatiquement disponibles pour les administrateurs et les enseignants définis dans Moodle, au moyen du sélecteur de fichiers, via un dépôt dont le nom est <strong>Clef USB</strong>.

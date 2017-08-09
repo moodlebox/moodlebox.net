@@ -2,11 +2,11 @@
 ID: 37
 post_title: Créer son image-disque MoodleBox
 author: nicolas.martignoni.admin
-post_date: 2016-09-01 21:25:25
 post_excerpt: ""
 layout: page
 permalink: https://moodlebox.net/fr/diy/
 published: true
+post_date: 2016-09-01 21:25:25
 ---
 Il est possible de créer sa propre image-disque de la MoodleBox et ainsi de la configurer selon ses propres besoins.
 

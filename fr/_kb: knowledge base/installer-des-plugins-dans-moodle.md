@@ -2,12 +2,12 @@
 ID: 499
 post_title: Installer des plugins dans Moodle
 author: nicolas.martignoni.admin
-post_date: 2017-04-18 21:57:02
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/fr/help/installer-des-plugins-dans-moodle/
 published: true
+post_date: 2017-04-18 21:57:02
 ---
 L'installation de plugins Moodle est possible comme sur toute installation de Moodle.
 

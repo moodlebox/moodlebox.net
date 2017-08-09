@@ -2,11 +2,11 @@
 ID: 200
 post_title: Soutenir la MoodleBox
 author: nicolas.martignoni.admin
-post_date: 2016-10-28 13:24:15
 post_excerpt: ""
 layout: page
 permalink: https://moodlebox.net/fr/give/
 published: true
+post_date: 2016-10-28 13:24:15
 ---
 Si la MoodleBox est libre, c'est parce que son développement est effectué afin qu’elle réponde aux besoins des utilisateurs, sans exiger de contrepartie financière. Mais ce n’est pas gratuit de développer la MoodleBox, de créer son image-disque, de proposer un site de téléchargement, de la documentation et de maintenir la MoodleBox.
 <h4>Parce que libre ne veut pas dire gratuit…</h4>

@@ -2,11 +2,11 @@
 ID: 19
 post_title: Installer la MoodleBox
 author: nicolas.martignoni.admin
-post_date: 2016-09-01 20:39:10
 post_excerpt: ""
 layout: page
 permalink: https://moodlebox.net/fr/install/
 published: true
+post_date: 2016-09-01 20:39:10
 ---
 Télécharger Etcher à cette adresse : <a href="https://etcher.io/" target="_blank">https://etcher.io</a> et suivez les instructions dans Etcher pour copier sur votre carte microSD le fichier <strong>moodlebox-x.y.z.img.gz</strong> que <a href="https://moodlebox.net/fr/dl/">vous avez téléchargé</a>.
 

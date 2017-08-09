@@ -2,11 +2,11 @@
 ID: 35
 post_title: 'Télécharger l&rsquo;image-disque'
 author: nicolas.martignoni.admin
-post_date: 2016-09-01 21:24:07
 post_excerpt: ""
 layout: page
 permalink: https://moodlebox.net/fr/dl/
 published: true
+post_date: 2016-09-01 21:24:07
 ---
 Après avoir téléchargé l'image-disque, suivez les instructions pour la <a href="https://moodlebox.net/fr/install/">copier sur la carte microSD</a> et <a href="https://moodlebox.net/fr/install/">configurer votre MoodleBox</a> pour la première utilisation.
 

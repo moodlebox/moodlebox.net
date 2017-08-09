@@ -2,12 +2,12 @@
 ID: 408
 post_title: Accès à Moodle
 author: nicolas.martignoni.admin
-post_date: 2017-04-17 21:53:54
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/fr/help/acces-a-moodle/
 published: true
+post_date: 2017-04-17 21:53:54
 ---
 L'installation initiale de Moodle ne comporte qu'un seul compte utilisateur (un administrateur) et aucun cours n'y a été créé. La configuration de l'environnement doit être effectuée par vous-même, tout comme la gestion de ses contenus (ressources, activités, etc.). Consultez la <a href="https://docs.moodle.org/fr/Guide_rapide_d'administration" target="_blank">documentation de Moodle</a> si vous ne savez pas comment le faire.
 

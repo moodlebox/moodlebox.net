@@ -2,12 +2,12 @@
 ID: 391
 post_title: Télécharger l’image-disque
 author: nicolas.martignoni.admin
-post_date: 2017-04-17 21:19:44
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/fr/help/telecharger-limage-disque/
 published: true
+post_date: 2017-04-17 21:19:44
 ---
 <h3>Image disque MoodleBox</h3>
 <ul class="downloads">
