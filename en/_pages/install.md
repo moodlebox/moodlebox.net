@@ -2,11 +2,11 @@
 ID: 19
 post_title: MoodleBox Installation
 author: nicolas.martignoni.admin
-post_date: 2016-09-01 20:39:10
 post_excerpt: ""
 layout: page
 permalink: https://moodlebox.net/en/install/
 published: true
+post_date: 2016-09-01 20:39:10
 ---
 Download Etcher here: <a href="https://etcher.io/" target="_blank">https://etcher.io</a> and follow the instructions in Etcher to flash the <strong>moodlebox-x.y.z.img.gz</strong> file <a href="https://moodlebox.net/en/dl/">you've downloaded</a> on your microSD card.
 

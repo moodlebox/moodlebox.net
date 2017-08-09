@@ -2,12 +2,12 @@
 ID: 478
 post_title: Support the MoodleBox project
 author: nicolas.martignoni.admin
-post_date: 2017-04-21 11:52:18
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/support-the-moodlebox-project/
 published: true
+post_date: 2017-04-21 11:52:18
 ---
 MoodleBox is free and open source because its development is carried out so that it meets the needs of users without requiring any financial compensation. On the other hand, the development and the documentation of the MoodleBox, the creation and maintaining of the disk image, the web site and its hosting are not free.
 <h4>FREE AS SPEECH IS NOT ALWAYS FREE AS BEER…</h4>

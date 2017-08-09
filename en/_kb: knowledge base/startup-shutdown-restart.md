@@ -4,12 +4,12 @@ post_title: >
   Start-up, shutdown and restart the
   MoodleBox
 author: nicolas.martignoni.admin
-post_date: 2017-04-20 21:03:11
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/startup-shutdown-restart/
 published: true
+post_date: 2017-04-20 21:03:11
 ---
 <h3>Startup</h3>
 Insert your microSD card into the Raspberry Pi 3 slot, power it up and connect it to the network via an Ethernet cable. The red LED lights up, and after a few seconds the green LED lights up intermittently.

@@ -2,11 +2,11 @@
 ID: 35
 post_title: Download the disk image
 author: nicolas.martignoni.admin
-post_date: 2016-09-01 21:24:07
 post_excerpt: ""
 layout: page
 permalink: https://moodlebox.net/en/dl/
 published: true
+post_date: 2016-09-01 21:24:07
 ---
 After having downloaded the disk image, follow the instructions to <a href="https://moodlebox.net/en/help/copy-the-disk-image-on-a-sd-card/">copy it to the microSD card</a> and <a href="https://moodlebox.net/en/help/startup-shutdown-restart/">set up your MoodleBox</a> for the first use.
 

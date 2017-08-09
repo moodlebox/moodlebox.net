@@ -2,12 +2,12 @@
 ID: 471
 post_title: What is the MoodleBox?
 author: nicolas.martignoni.admin
-post_date: 2017-04-21 11:42:15
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/what-is-the-moodlebox/
 published: true
+post_date: 2017-04-21 11:42:15
 ---
 The MoodleBox is small footprint ubiquitous device, Internet independent, providing a wireless network for your smartphone, tablet or computer. It provides a complete <a href="https://moodle.org/" target="_blank" rel="noopener noreferrer">Moodle</a> learning management system platform, enabling to supply online learning activities and sharing files with your users.
 

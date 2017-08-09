@@ -2,13 +2,11 @@
 ID: 16
 post_title: About
 author: nicolas.martignoni.admin
-post_date: 2016-09-01 20:14:42
 post_excerpt: ""
 layout: page
 permalink: https://moodlebox.net/en/about/
 published: true
-mtm_data:
-  - 'a:1:{i:0;a:4:{s:9:"reference";s:0:"";s:4:"type";s:4:"name";s:5:"value";s:11:"description";s:7:"content";s:94:"MoodleBox is a free (as in speech and as in beer) project of a Moodle server on a Raspberry Pi";}}'
+post_date: 2016-09-01 20:14:42
 ---
 MoodleBox is a free (as in speech and as in beer) project that extends and complements the <a href="http://bibliobox.net/" target="_blank">BiblioBox</a> or <a href="https://piratebox.cc/" target="_blank">PirateBox</a> projects, around there since 2014, adding to it the essential element of a Learning Management System.
 

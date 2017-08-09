@@ -4,12 +4,12 @@ post_title: >
   Access to the database management
   interface
 author: nicolas.martignoni.admin
-post_date: 2017-04-20 21:58:04
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/access-to-the-database-management-interface/
 published: true
+post_date: 2017-04-20 21:58:04
 ---
 The MoodleBox allows access to the Moodle database for administration purpose, via the PhpMyAdmin software. To access to login interface, type the following URL <a href="http://moodlebox.home/phpmyadmin" target="_blank" rel="noopener noreferrer">http://moodlebox.home/phpmyadmin</a> in the address bar of your browser, and type the credentials below:
 <ul>

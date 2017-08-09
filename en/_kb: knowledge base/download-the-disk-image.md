@@ -2,12 +2,12 @@
 ID: 419
 post_title: Download the disk image
 author: nicolas.martignoni.admin
-post_date: 2017-04-20 18:32:11
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/download-the-disk-image/
 published: true
+post_date: 2017-04-20 18:32:11
 ---
 <h3>MoodleBox Disk Image</h3>
 <ul class="downloads">

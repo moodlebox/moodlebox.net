@@ -4,12 +4,12 @@ post_title: >
   Make your own customized MoodleBox
   disk-image
 author: nicolas.martignoni.admin
-post_date: 2017-04-21 11:51:01
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/make-your-own-customized-moodlebox-disk-image/
 published: true
+post_date: 2017-04-21 11:51:01
 ---
 You may make your own MoodleBox disk image and configure it to your own needs.
 

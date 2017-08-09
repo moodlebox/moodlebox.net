@@ -2,12 +2,12 @@
 ID: 426
 post_title: Wi-Fi connection
 author: nicolas.martignoni.admin
-post_date: 2017-04-20 18:41:46
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/wi-fi-connection/
 published: true
+post_date: 2017-04-20 18:41:46
 ---
 On your device, choose <strong>MoodleBox</strong> wireless network. When prompted type the password: <b id="yui_3_17_2_1_1489832111910_415">moodlebox</b> (all lowercase) and confirm your connection.
 

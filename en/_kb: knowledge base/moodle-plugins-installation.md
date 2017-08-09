@@ -2,12 +2,12 @@
 ID: 457
 post_title: Moodle plugins installation
 author: nicolas.martignoni.admin
-post_date: 2017-04-20 21:52:18
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/moodle-plugins-installation/
 published: true
+post_date: 2017-04-20 21:52:18
 ---
 The installation of Moodle plugins is possible like on any Moodle installation.
 

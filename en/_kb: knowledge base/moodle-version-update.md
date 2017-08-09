@@ -2,12 +2,12 @@
 ID: 462
 post_title: Moodle version update
 author: nicolas.martignoni.admin
-post_date: 2017-04-20 22:03:31
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/moodle-version-update/
 published: true
+post_date: 2017-04-20 22:03:31
 ---
 In order to allow a simplified update of Moodle, its installation was done using Git. To update Moodle, perform the following operations, using the command line.
 

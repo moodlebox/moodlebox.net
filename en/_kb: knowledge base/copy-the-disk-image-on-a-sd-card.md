@@ -2,12 +2,12 @@
 ID: 423
 post_title: Copy the disk image on a SD card
 author: nicolas.martignoni.admin
-post_date: 2017-04-20 18:37:28
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/copy-the-disk-image-on-a-sd-card/
 published: true
+post_date: 2017-04-20 18:37:28
 ---
 Download Etcher here: <a href="https://etcher.io/" target="_blank">https://etcher.io</a> and follow the instructions in Etcher to flash the <strong>moodlebox-x.y.z.img.gz</strong> file <a href="https://moodlebox.net/en/help/download-the-disk-image/">you've downloaded</a> on your microSD card.
 

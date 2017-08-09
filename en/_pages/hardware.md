@@ -2,11 +2,11 @@
 ID: 54
 post_title: Hardware needed
 author: nicolas.martignoni.admin
-post_date: 2016-09-02 14:50:43
 post_excerpt: ""
 layout: page
 permalink: https://moodlebox.net/en/hardware/
 published: true
+post_date: 2016-09-02 14:50:43
 ---
 Here is the stuff you will need to build your MoodleBox:
 <ul>

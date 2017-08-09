@@ -2,12 +2,12 @@
 ID: 451
 post_title: Moodle configuration
 author: nicolas.martignoni.admin
-post_date: 2017-04-20 21:41:38
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/moodle-configuration/
 published: true
+post_date: 2017-04-20 21:41:38
 ---
 The Moodle environment on the MoodleBox doesn't have any special configuration. Only the following settings were changed to facilitate its use or to enhance its performance.
 <dl>

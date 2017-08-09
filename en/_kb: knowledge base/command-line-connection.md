@@ -2,12 +2,12 @@
 ID: 432
 post_title: Command line connection (SSH)
 author: nicolas.martignoni.admin
-post_date: 2017-04-20 18:49:52
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/command-line-connection/
 published: true
+post_date: 2017-04-20 18:49:52
 ---
 As a normal user, you should not need to connect into the command line interface of the MoodleBox. Anyway, you may access it if necessary via SSH, using the address <strong>moodlebox.home</strong>, using its default credentials:
 <ul>

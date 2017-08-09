@@ -2,11 +2,11 @@
 ID: 505
 post_title: Contact
 author: nicolas.martignoni.admin
-post_date: 2017-05-06 12:30:35
 post_excerpt: ""
 layout: page
 permalink: https://moodlebox.net/en/contact/
 published: true
+post_date: 2017-05-06 12:30:35
 ---
 <h3>Need help?</h3>
 If you have technical questions or need support, <a href="https://moodlebox.net/fr/help/">check our the MoodleBox knowledge base</a>.

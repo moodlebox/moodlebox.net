@@ -2,12 +2,12 @@
 ID: 449
 post_title: Using files with the MoodleBox
 author: nicolas.martignoni.admin
-post_date: 2017-04-20 21:29:08
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
   https://moodlebox.net/en/help/using-files-with-the-moodlebox/
 published: true
+post_date: 2017-04-20 21:29:08
 ---
 <h3><span id="Files_on_a_USB_stick">Files on a USB stick</span></h3>
 When a USB stick is inserted into one of the MoodleBox USB ports, all the files on the stick are automatically available to administrators and teachers in the file picker of Moodle, via a repository called <strong>Clef USB</strong>.
