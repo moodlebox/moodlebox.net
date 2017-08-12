@@ -11,6 +11,7 @@ permalink: >
 published: true
 post_date: 2017-08-12 18:20:08
 ---
+<h3>Changer le mot de passe du réseau Wi-Fi</h3>
 Pour éviter que des intrus ne se connectent au réseau Wi-Fi, il est possible de modifier son mot de passe.
 
 Pour ce faire, après s'être connecté comme administrateur dans le Moodle de la MoodleBox, on visite <a href="http://moodlebox.home/admin/tool/moodlebox/index.php" target="_blank" rel="noopener">Administration du site &gt; Serveur &gt; MoodleBox</a> dans le bloc d'administration, et l'on saisit un mot de passe, composé d'au minimum 8 caractères et au maximum 63 caractères.
