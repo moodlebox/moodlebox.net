@@ -5,7 +5,7 @@ author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
-  https://moodlebox.net/en/help/moodle-access/
+  https://moodlebox.net/en/help/access-to-moodle/
 published: true
 post_date: 2017-04-20 21:23:42
 ---
