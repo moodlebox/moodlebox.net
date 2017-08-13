@@ -18,7 +18,7 @@ post_date: 2017-04-17 21:19:44
 <div class="image-details">Version : <strong>[download_data id='90' data='version']</strong></div>
 <div class="image-details">Taille : <strong>[download_data id='90' data='filesize']</strong></div>
 <div class="image-details">Date : <strong>[download_data id='90' data='file_date']</strong></div>
-<div class="image-details">Notes de mise à jour : <strong><a href="https://github.com/martignoni/make-moodlebox#release-notes" target="_blank" rel="noopener noreferrer">sur Github</a></strong></div>
+<div class="image-details">Notes de mise à jour : <strong><a href="https://github.com/martignoni/make-moodlebox/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">sur Github</a></strong></div>
 <div class="image-details sha1">SHA-1: <strong>[download_data id='90' data='sha1']</strong></div>
 <div class="image-download-links"><a class="btn dl-zip piwik_download" href="[download_data id='90' data='download_link']">Télécharger</a></div>
 </div></li>
