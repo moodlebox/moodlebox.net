@@ -1,10 +1,10 @@
 ---
-ID: 505
+ID: 615
 post_title: Contact
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: page
-permalink: https://moodlebox.net/en/contact/
+permalink: https://moodlebox.net/fr/contact-2/
 published: true
 post_date: 2017-05-06 12:30:35
 ---
