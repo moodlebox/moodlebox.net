@@ -5,7 +5,7 @@ author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
-  https://moodlebox.net/fr/help/using-files-with-the-moodlebox/
+  https://moodlebox.net/en/help/using-files-with-the-moodlebox/
 published: true
 post_date: 2017-04-20 21:29:08
 ---
