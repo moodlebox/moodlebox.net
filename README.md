@@ -4,6 +4,8 @@ This repository contains the content pages of the [moodlebox.net](https://moodle
 
 You're welcome to enhance the text, fix typos, etc. and to add other translations.
 
+As for everything else in the project, the contributions to MoodleBox project are governed by our [Code of Conduct](https://github.com/martignoni/moodlebox.net/blob/master/CODE_OF_CONDUCT.md).
+
 ## How to contribute a new language translation?
 
 1. [Fork this repository][fork], then clone your fork to you computer.
