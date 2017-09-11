@@ -32,7 +32,7 @@ L’<a class="piwik_download" href="[download_data id='90' data='download_link']
 <h3>En cas de difficulté</h3>
 Quelques utilisateurs ont annoncé des difficultés lors du téléchargement. Dans ce cas, on peut utiliser la ligne de commande pour télécharger l'image-disque, soit au moyen de cette commande
 
-<code>wget -c https://moodlebox.net/fr/download/image-disque/ -O moodlebox.img.gz</code>
+<code>wget -c -O moodlebox.img.gz https://moodlebox.net/fr/download/image-disque/</code>
 
 soit avec celle-ci :
 
