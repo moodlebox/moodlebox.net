@@ -36,4 +36,4 @@ Quelques utilisateurs ont annoncé des difficultés lors du téléchargement. Da
 
 soit avec celle-ci :
 
-<code>curl -o moodlebox.img.gz -C - http://moodlebox.net/fr/download/image-disque/</code>
+<code>curl -C - -o moodlebox.img.gz http://moodlebox.net/fr/download/image-disque/</code>
