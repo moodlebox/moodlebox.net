@@ -36,4 +36,4 @@ Some users have experienced troubles when trying to download the image. In this 
 
 or this one
 
-<code>curl -o moodlebox.img.gz -C - https://moodlebox.net/en/download/268/</code>
+<code>curl -C - https://moodlebox.net/en/download/268/ -o moodlebox.img.gz</code>
