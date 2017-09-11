@@ -28,7 +28,7 @@ Après avoir téléchargé l’image-disque, suivez les <a href="https://moodleb
 
 Si vous le souhaitez, vous pouvez <a href="http://moodlebox.net/fr/give/">soutenir le développement de la MoodleBox</a> en faisant un don, tout à fait facultatif.
 
-L’<a class="piwik_download" href="[download_data id='90' data='download_link']">image-disque MoodleBox</a> est construite sur la base de la distribution <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Jessie Lite pour Raspberry Pi</a>.
+L’<a class="piwik_download" href="[download_data id='90' data='download_link']">image-disque MoodleBox</a> est construite sur la base de la distribution <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite pour Raspberry Pi</a>.
 <h3>En cas de difficulté</h3>
 Quelques utilisateurs ont annoncé des difficultés lors du téléchargement. Dans ce cas, on peut utiliser la ligne de commande pour télécharger l'image-disque, soit au moyen de cette commande
 
