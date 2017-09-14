@@ -16,7 +16,7 @@ post_date: 2017-04-20 18:32:11
 <div class="image-info">
 <div class="image-description">MoodleBox disk image for microSD card</div>
 <div class="image-details">Version: <strong>[download_data id='268' data='version']</strong></div>
-<div class="image-details">Moodle version : <strong>3.3.1+ (Build: 20170901)</strong></div>
+<div class="image-details">Moodle version : <strong>3.3.2 (Build: 20170911)</strong></div>
 <div class="image-details">Size: <strong>[download_data id='268' data='filesize']</strong></div>
 <div class="image-details">Date: <strong>[download_data id='268' data='file_date']</strong></div>
 <div class="image-details">Release notes: <strong><a href="https://github.com/martignoni/make-moodlebox/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">on Github</a></strong></div>
@@ -28,7 +28,7 @@ After having downloaded the disk image, follow the instructions to <a href="http
 
 If you wish, you can <a href="https://moodlebox.net/en/give/">support the development of MoodleBox</a> by making an optional donation.
 
-The <a class="piwik_download" href="https://moodlebox.net/en/download/268/">MoodleBox disk image</a> is built on <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Jessie Lite for Raspberry Pi</a> distribution.
+The <a class="piwik_download" href="https://moodlebox.net/en/download/268/">MoodleBox disk image</a> is built on <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite for Raspberry Pi</a> distribution.
 <h3>In case of trouble</h3>
 Some users have experienced troubles when trying to download the image. In this case, you may try to use your command line interface to download the disk-image, for example with this command
 
@@ -36,4 +36,4 @@ Some users have experienced troubles when trying to download the image. In this 
 
 or this one
 
-<code>curl -o moodlebox.img.gz -C - https://moodlebox.net/en/download/268/</code>
+<code>curl -C - https://moodlebox.net/en/download/268/ -o moodlebox.img.gz</code>

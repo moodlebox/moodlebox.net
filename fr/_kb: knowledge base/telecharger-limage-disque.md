@@ -16,7 +16,7 @@ post_date: 2017-04-17 21:19:44
 <div class="image-info">
 <div class="image-description">Image disque MoodleBox pour carte microSD</div>
 <div class="image-details">Version : <strong>[download_data id='90' data='version']</strong></div>
-<div class="image-details">Version de Moodle : <strong>3.3.1+ (Build: 20170901)</strong></div>
+<div class="image-details">Version de Moodle : <strong>3.3.2 (Build: 20170911)</strong></div>
 <div class="image-details">Taille : <strong>[download_data id='90' data='filesize']</strong></div>
 <div class="image-details">Date : <strong>[download_data id='90' data='file_date']</strong></div>
 <div class="image-details">Notes de mise à jour : <strong><a href="https://github.com/martignoni/make-moodlebox/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">sur Github</a></strong></div>
@@ -28,12 +28,12 @@ Après avoir téléchargé l’image-disque, suivez les <a href="https://moodleb
 
 Si vous le souhaitez, vous pouvez <a href="http://moodlebox.net/fr/give/">soutenir le développement de la MoodleBox</a> en faisant un don, tout à fait facultatif.
 
-L’<a class="piwik_download" href="[download_data id='90' data='download_link']">image-disque MoodleBox</a> est construite sur la base de la distribution <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Jessie Lite pour Raspberry Pi</a>.
+L’<a class="piwik_download" href="[download_data id='90' data='download_link']">image-disque MoodleBox</a> est construite sur la base de la distribution <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite pour Raspberry Pi</a>.
 <h3>En cas de difficulté</h3>
 Quelques utilisateurs ont annoncé des difficultés lors du téléchargement. Dans ce cas, on peut utiliser la ligne de commande pour télécharger l'image-disque, soit au moyen de cette commande
 
-<code>wget -c http://moodlebox.net/fr/download/image-disque/ -O moodlebox.img.gz</code>
+<code>wget -c https://moodlebox.net/fr/download/image-disque/ -O moodlebox.img.gz</code>
 
 soit avec celle-ci :
 
-<code>curl -o moodlebox.img.gz -C - http://moodlebox.net/fr/download/image-disque/</code>
+<code>curl -C - https://moodlebox.net/fr/download/image-disque/ -o moodlebox.img.gz</code>
