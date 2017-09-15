@@ -13,3 +13,4 @@ post_date: 2016-09-01 20:39:10
 <h3>Étape 3: copier l’image-disque sur votre carte MicroSD;</h3>
 <h3>Étape 4: démarrer votre MoodleBox;</h3>
 <h3>Étapes suivantes:</h3>
+Configuration de Moodle, Connexion Wi-Fi et configuration du réseau Wi-Fi, Accès SSH à la MoodleBox, Soutenir le projet MoodleBox, Pour plus d’informations, consultez la documentation.
