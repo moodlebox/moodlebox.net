@@ -22,9 +22,9 @@ Insérer dans la Raspberry Pi 3 la carte microSD (sur laquelle l’image-disque 
 Il n’y a pas d’autre manipulation à effectuer : dès la fin de son démarrage, la MoodleBox est prête et fonctionnelle.
 <h3>Étapes suivantes</h3>
 <ul>
- 	<li><a href="https://moodlebox.net/en/help/moodle-configuration/">Moodle configuration</a></li>
- 	<li><a href="https://moodlebox.net/en/help/wi-fi-connection/">Wi-Fi connection</a> and <a href="https://moodlebox.net/en/help/updating-wi-fi-network-configuration/">configuration</a></li>
- 	<li><a href="https://moodlebox.net/en/help/command-line-connection/">SSH access</a> to the MoodleBox</li>
- 	<li><a href="https://moodlebox.net/en/help/support-the-moodlebox-project/">Support the MoodleBox project</a></li>
+ 	<li><a href="https://moodlebox.net/fr/help/configuration-initiale-de-lenvironnement-moodle/">Configuration de Moodle</a></li>
+ 	<li><a href="https://moodlebox.net/fr/help/connexion-wi-fi/">Connexion Wi-Fi</a> et <a href="https://moodlebox.net/fr/help/modification-de-la-configuration-du-reseau-wi-fi/">configuration du réseau Wi-Fi</a></li>
+ 	<li><a href="https://moodlebox.net/fr/help/connexion-ssh-en-ligne-de-commande/">Accès SSH</a> à la MoodleBox</li>
+ 	<li><a href="https://moodlebox.net/fr/help/soutenir-le-projet-moodlebox/">Soutenir le projet MoodleBox</a></li>
 </ul>
-For more information, browse the <a href="https://moodlebox.net/en/help/">knowledge base</a>.
+Pour plus d'informations, <a href="https://moodlebox.net/fr/help/">consultez la documentation</a>.
