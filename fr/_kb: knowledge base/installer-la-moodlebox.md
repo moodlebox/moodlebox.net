@@ -22,7 +22,7 @@ Insérer dans la Raspberry Pi 3 la carte microSD (sur laquelle l’image-disque 
 Il n’y a pas d’autre manipulation à effectuer : dès la fin de son démarrage, la MoodleBox est prête et fonctionnelle.
 <h3>Étapes suivantes</h3>
 <ul>
- 	<li><a href="https://moodlebox.net/fr/help/configuration-initiale-de-lenvironnement-moodle/">Configuration de Moodle</a></li>
+ 	<li><a href="https://moodlebox.net/fr/help/acces-a-moodle/">Accès à Moodle</a></li>
  	<li><a href="https://moodlebox.net/fr/help/connexion-wi-fi/">Connexion Wi-Fi</a> et <a href="https://moodlebox.net/fr/help/modification-de-la-configuration-du-reseau-wi-fi/">configuration du réseau Wi-Fi</a></li>
  	<li><a href="https://moodlebox.net/fr/help/connexion-ssh-en-ligne-de-commande/">Accès SSH</a> à la MoodleBox</li>
  	<li><a href="https://moodlebox.net/fr/help/soutenir-le-projet-moodlebox/">Soutenir le projet MoodleBox</a></li>
