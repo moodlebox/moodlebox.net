@@ -22,7 +22,7 @@ Insert your microSD card into the Raspberry Pi 3 slot, power it up and connect
 There is no other manipulation to do: after the boot, your MoodleBox ready and totally functional.
 <h3>Next steps</h3>
 <ul>
- 	<li><a href="https://moodlebox.net/en/help/moodle-configuration/">Moodle configuration</a></li>
+ 	<li><a href="https://moodlebox.net/en/help/access-to-moodle/">Access to Moodle</a></li>
  	<li><a href="https://moodlebox.net/en/help/wi-fi-connection/">Wi-Fi connection</a> and <a href="https://moodlebox.net/en/help/updating-wi-fi-network-configuration/">configuration</a></li>
  	<li><a href="https://moodlebox.net/en/help/command-line-connection/">SSH access</a> to the MoodleBox</li>
  	<li><a href="https://moodlebox.net/en/help/support-the-moodlebox-project/">Support the MoodleBox project</a></li>
