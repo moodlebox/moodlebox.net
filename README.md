@@ -8,7 +8,7 @@ As for everything else in the project, the contributions to MoodleBox project ar
 
 ## How to contribute a new language translation?
 
-__Note:__ _It's important that the versions of the web site in different languages are in synchronisation (i.e. reflect the same meaning). Your translation must be __equivalent to the original content of the English pages__ (same structure, same meaning). If you would like to add content of a page (or change its meaning) or add new help pages, please [contact me][contact] beforehand!_
+__Note:__ _It's important that the versions of the web site in different languages are in synchronisation (i.e. have the same structure and reflect the same meaning). Your translation must be __equivalent to the original content of the English pages__ (same structure, same meaning). If you would like to add content of a page (or change its meaning) or add new help pages, please [contact me][contact] beforehand!_
 
 1. [Fork this repository][fork], then clone your fork to your computer.
 1. Duplicate the directory containing the English version of the pages ("en") and rename it to your [language ISO code](https://www.w3schools.com/tags/ref_language_codes.asp) (e.g. de for German, ja for Japanese, zh for Chinese, ru for russian, etc.)
