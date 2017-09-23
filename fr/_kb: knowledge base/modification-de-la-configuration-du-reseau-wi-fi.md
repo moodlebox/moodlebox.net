@@ -11,11 +11,14 @@ permalink: >
 published: true
 post_date: 2017-08-12 18:20:08
 ---
-<h3>Changer le mot de passe du réseau Wi-Fi</h3>
-Pour éviter que des intrus ne se connectent au réseau Wi-Fi, il est possible de modifier son mot de passe.
+En tant qu'administrateur, il est possible de modifier différents réglages du point d'accès sans fils de la MoodleBox. Pour ce faire, on visite <a href="http://moodlebox.home/admin/tool/moodlebox/index.php" target="_blank" rel="noopener">Administration du site &gt; Serveur &gt; MoodleBox</a> dans le bloc d'administration.
 
-Pour ce faire, après s'être connecté comme administrateur dans le Moodle de la MoodleBox, on visite <a href="http://moodlebox.home/admin/tool/moodlebox/index.php" target="_blank" rel="noopener">Administration du site &gt; Serveur &gt; MoodleBox</a> dans le bloc d'administration, et l'on saisit un mot de passe, composé d'au minimum 8 caractères et au maximum 63 caractères.
-
-<a href="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/08/wifipassword-fr-1.png"><img class="alignnone wp-image-652 size-full" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/08/wifipassword-fr-1.png" alt="" width="768" height="266" /></a>
+<a href="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/08/Wi-Fi-settings-fr.png"><img class="alignnone size-full wp-image-699" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2017/08/Wi-Fi-settings-fr.png" alt="" width="730" height="347" /></a>
 <h3>Changer le nom du réseau Wi-Fi (SSID)</h3>
-(À venir)
+Pour changer le nom du réseau (SSID), saisir un nouveau SSID dans le champ adéquat et cliquer sur le bouton « Changer les réglages Wi-Fi ».
+<h3>Changer le canalWi-Fi du point d'accès</h3>
+Pour changer le canal Wi-Fi du point d'accès de la MoodleBox, sélectionner un numéro de canal et cliquer sur le bouton « Changer les réglages Wi-Fi ».
+<h3>REtirer le mot de passe du réseau Wi-Fi ou le changer</h3>
+Pour permettre un accès simplifié au point d'accès sans fils de la MoodleBox, il est possible de permettre son accès sans mot de passe. Pour ce faire, décocher la case « Réseau Wi-Fi protégé par mot de passe ». Ce réglage peut être modifié en tout temps.
+
+Il est également possible de modifier le mot de passe du point d'accès sans fils de la MoodleBox. Pour ce faire, saisir un nouveau mot de passe, composé d'au minimum 8 caractères et au maximum 63 caractères. Si le mot de passe choisi n'est pas valide, le mot de passe par défaut « moodlebox » sera automatiquement remis.
