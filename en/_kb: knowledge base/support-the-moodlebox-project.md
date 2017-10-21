@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-04-21 11:52:18
 ---
-The project MoodleBox is provided to meet the needs of users without requiring any financial compensation. However, the development and maintenance of the MoodleBox, the building of the disk image, the writing of the documentation and its hosting on a web site are not free.
+The project MoodleBox tries to meet the needs of users without requiring any financial compensation. However, the development and maintenance of the MoodleBox, the building of the disk image, the writing of the documentation and its hosting on a web site are not free.
 
 A contribution, totally optional, allows to participate in the costs for the hosting of the website. It boosts and increases the motivation to continue the work on the project MoodleBox.
 
