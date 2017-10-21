@@ -21,4 +21,4 @@ The MoodleBox project is made by <a href="https://twitter.com/nmartignoni" targe
 <h3>Disclaimer</h3>
 The MoodleBox disk image and the information of the web site are provided “as is”. The author has made every effort to ensure the proper functioning of the MoodleBox and the accuracy of the information given. However, he declines all responsibility for any direct or indirect damage that would harm the users during use of the MoodleBox. In particular, it can not be held responsible for deterioration of material or loss of data.
 
-The author does not commit himself to any correction of the disk image or of the user manual.
+The author does not commit himself to any correction of the disk image or of this website and documentation.
