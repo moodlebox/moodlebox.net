@@ -16,7 +16,7 @@ post_date: 2017-04-20 18:32:11
 <div class="image-info">
 <div class="image-description">MoodleBox disk image for microSD card</div>
 <div class="image-details">Version: <strong>[download_data id='268' data='version']</strong></div>
-<div class="image-details">Moodle version : <strong>3.3.2 (Build: 20170911)</strong></div>
+<div class="image-details">Moodle version : <strong>3.3.2+ (Build: 20171027)</strong></div>
 <div class="image-details">Size: <strong>[download_data id='268' data='filesize']</strong></div>
 <div class="image-details">Date: <strong>[download_data id='268' data='file_date']</strong></div>
 <div class="image-details">Release notes: <strong><a href="https://github.com/martignoni/make-moodlebox/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">on Github</a></strong></div>
