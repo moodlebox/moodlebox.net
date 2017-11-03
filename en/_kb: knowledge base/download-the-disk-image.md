@@ -32,8 +32,8 @@ The <a class="piwik_download" href="https://moodlebox.net/en/download/268/">Mood
 <h3>In case of trouble</h3>
 Some users have experienced troubles when trying to download the image. In this case, you may try to use your command line interface to download the disk-image, for example with this command
 
-<code>wget -c https://moodlebox.net/en/download/268/ -O moodlebox.img.gz</code>
+<code>wget -c https://moodlebox.net/en/download/disk-image/ -O moodlebox.img.gz</code>
 
 or this one
 
-<code>curl -C - https://moodlebox.net/en/download/268/ -o moodlebox.img.gz</code>
+<code>curl -C - https://moodlebox.net/en/download/disk-image/ -o moodlebox.img.gz</code>
