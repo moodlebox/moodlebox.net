@@ -1,6 +1,8 @@
 ---
 ID: 426
-post_title: Wi-Fi connection
+post_title: >
+  How can I connect to the MoodleBox via
+  Wi-Fi?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
