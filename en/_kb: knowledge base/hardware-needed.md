@@ -11,10 +11,10 @@ post_date: 2017-04-20 18:19:15
 ---
 Here is the stuff you will need to build your MoodleBox:
 <ul>
- 	<li><a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/" target="_blank">Raspberry Pi 3</a>,</li>
- 	<li><a href="https://www.raspberrypi.org/products/universal-power-supply/" target="_blank">Power supply</a>,</li>
- 	<li><a href="http://thewirecutter.com/reviews/best-microsd-card/" target="_blank">MicroSD card</a>, 32 GB (minimum),</li>
- 	<li><a href="https://www.raspberrypi.org/products/raspberry-pi-case/" target="_blank">Raspberry Pi case</a> (not essential, but very useful to protect the Raspberry Pi 3).</li>
+ 	<li><a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/" target="_blank" rel="noopener">Raspberry Pi 3</a>,</li>
+ 	<li><a href="https://www.raspberrypi.org/products/universal-power-supply/" target="_blank" rel="noopener">Power supply</a>,</li>
+ 	<li><a href="http://thewirecutter.com/reviews/best-microsd-card/" target="_blank" rel="noopener">MicroSD card</a>, 32 GB (minimum),</li>
+ 	<li><a href="https://www.raspberrypi.org/products/raspberry-pi-3-case/" target="_blank" rel="noopener">Raspberry Pi case</a> (not essential, but very useful to protect the Raspberry Pi 3).</li>
 </ul>
 The total hardware amount is approximately USD 90, CHF 90 or 80 €.
 
