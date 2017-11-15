@@ -1,6 +1,6 @@
 ---
 ID: 451
-post_title: Moodle configuration
+post_title: 'What&#8217;s the default Moodle configuration?'
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
