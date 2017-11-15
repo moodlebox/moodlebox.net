@@ -11,10 +11,10 @@ post_date: 2017-04-17 21:38:52
 ---
 Pour mettre en oeuvre la MoodleBox, le matériel suivant est nécessaire :
 <ul>
- 	<li>une <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/" target="_blank">Raspberry Pi 3</a>,</li>
- 	<li>une <a href="https://www.raspberrypi.org/products/universal-power-supply/" target="_blank">alimentation</a>,</li>
- 	<li>une <a href="http://thewirecutter.com/reviews/best-microsd-card/" target="_blank">carte microSD</a> de 32 Go (au minimum),</li>
- 	<li>un <a href="https://www.raspberrypi.org/products/raspberry-pi-case/" target="_blank">boîtier</a> pour Raspberry Pi 3 (pas indispensable, mais très utile pour protéger la Raspberry Pi 3).</li>
+ 	<li>une <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/" target="_blank" rel="noopener">Raspberry Pi 3</a>,</li>
+ 	<li>une <a href="https://www.raspberrypi.org/products/universal-power-supply/" target="_blank" rel="noopener">alimentation</a>,</li>
+ 	<li>une <a href="http://thewirecutter.com/reviews/best-microsd-card/" target="_blank" rel="noopener">carte microSD</a> de 32 Go (au minimum),</li>
+ 	<li>un <a href="https://www.raspberrypi.org/products/raspberry-pi-3-case/">boîtier pour Raspberry Pi 3</a> (pas indispensable, mais très utile pour protéger la Raspberry Pi 3).</li>
 </ul>
 La totalité de l’investissement matériel nécessaire est d’environ 80 €, USD 90 ou CHF 90.
 
