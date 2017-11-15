@@ -1,6 +1,6 @@
 ---
 ID: 572
-post_title: MoodleBox credentials
+post_title: What are the MoodleBox credentials?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
