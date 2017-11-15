@@ -1,6 +1,8 @@
 ---
 ID: 446
-post_title: Access to Moodle
+post_title: >
+  How can I log into the Moodle site of
+  the MoodleBox?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
