@@ -1,6 +1,6 @@
 ---
 ID: 462
-post_title: Moodle version update
+post_title: How to update Moodle?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
