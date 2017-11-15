@@ -1,8 +1,6 @@
 ---
 ID: 460
-post_title: >
-  Access to the database management
-  interface
+post_title: How can I manage the Moodle database?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
