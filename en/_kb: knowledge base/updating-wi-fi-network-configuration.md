@@ -1,6 +1,8 @@
 ---
 ID: 526
-post_title: Updating Wi-Fi network configuration
+post_title: >
+  How to update the Wi-Fi network
+  configuration?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
