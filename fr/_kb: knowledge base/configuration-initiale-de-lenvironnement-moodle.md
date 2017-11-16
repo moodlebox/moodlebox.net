@@ -25,6 +25,6 @@ L'environnement Moodle installé sur la MoodleBox n'a aucune configuration parti
  	<dd>Les mécanismes de cache de Moodle sont configurés pour <strong>optimiser la réactivité</strong> de la MoodleBox.</dd>
  	<dt>Plugin MoodleBox</dt>
  	<dd>Le <a href="https://moodle.org/plugins/tool_moodlebox" target="_blank" rel="noopener">plugin d'administration MoodleBox</a> pour Moodle est installé. Ce plugin permet à un administrateur Moodle de redémarrer et d'arrêter la MoodleBox, de changer ses date et heure, d'en modifier certains paramètres et de surveiller son fonctionnement au moyen d'une interface graphique simple.</dd>
- 	<dt>Bibliothèque MathJax library</dt>
+ 	<dt>Bibliothèque MathJax</dt>
  	<dd>Dès la version 2.0 et ultérieures, la bibliothèque MathJax est installée en local, permettant au filtre MathJax de fonctionner correctement même is la MoodleBox n'est pas connectée à Internet.</dd>
 </dl>
