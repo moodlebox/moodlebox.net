@@ -1,8 +1,8 @@
 ---
 ID: 438
 post_title: >
-  Start-up, shutdown and restart the
-  MoodleBox
+  How to start-up, shutdown and restart
+  the MoodleBox?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
