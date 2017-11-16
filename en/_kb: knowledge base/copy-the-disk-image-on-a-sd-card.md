@@ -1,6 +1,6 @@
 ---
 ID: 423
-post_title: Copy the disk image on a SD card
+post_title: How to copy the disk image to a SD card?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
