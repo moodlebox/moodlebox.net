@@ -38,4 +38,4 @@ soit avec celle-ci :
 
 <code>curl -C - https://moodlebox.net/fr/download/image-disque/ -o moodlebox.img.gz</code>
 
-Bla [grd_list] : [grd_latest_version], [grd_count]
+Bla [grd_list hide_description=1 latest=1] : [grd_latest_version], [grd_count]
