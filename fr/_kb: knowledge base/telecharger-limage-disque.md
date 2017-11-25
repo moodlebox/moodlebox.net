@@ -38,4 +38,6 @@ soit avec celle-ci :
 
 <code>curl -C - https://moodlebox.net/fr/download/image-disque/ -o moodlebox.img.gz</code>
 
-Bla [grd_list hide_description=1 latest=1 hide_source_code=1]
+<ul class="downloads">
+<li>[grd_list hide_description=1 latest=1 hide_source_code=1]</li>
+</ul>
