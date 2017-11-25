@@ -37,7 +37,3 @@ Quelques utilisateurs ont annoncé des difficultés lors du téléchargement. Da
 soit avec celle-ci :
 
 <code>curl -C - [github_download_data data='download_link']</code>
-
-[github_download_data data='download_link']
-
-[github_download_data data='download_count']
