@@ -38,4 +38,4 @@ soit avec celle-ci :
 
 <code>curl -C - https://moodlebox.net/fr/download/image-disque/ -o moodlebox.img.gz</code>
 
-[github_download_data data='download_link' repo='blu']
+[github_download_data data='download_link' repo='blu' user='xYYx']
