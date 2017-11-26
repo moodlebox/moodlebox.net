@@ -27,7 +27,7 @@ After having downloaded the disk image, follow the instructions to <a href="http
 
 If you wish, you can <a href="https://moodlebox.net/en/give/">support the development of MoodleBox</a> by making an optional donation.
 
-The <a class="piwik_download" href="https://moodlebox.net/en/download/disk-image/">MoodleBox disk image</a> is built on <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite for Raspberry Pi</a> distribution.
+The <a class="piwik_download" href="[github_download_data data='download_link']">MoodleBox disk image</a> is built on <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener noreferrer">Raspbian Stretch Lite for Raspberry Pi</a> distribution.
 <h3>In case of trouble</h3>
 Some users have experienced troubles when trying to download the image. In this case, you may try to use your command line interface to download the disk-image, for example with this command
 
