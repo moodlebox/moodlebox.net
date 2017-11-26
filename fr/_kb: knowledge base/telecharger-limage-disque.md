@@ -15,7 +15,7 @@ post_date: 2017-04-17 21:19:44
 <div class="image-icon"><a class="piwik_download" href="[github_download_data data='download_link']"><img class="alignnone wp-image-308 size-full" src="https://moodlebox.net/fr/wp-content/uploads/sites/4/2016/09/MoodleBox-SD-150x150-orange-1.png" width="150" height="150" /></a></div>
 <div class="image-info">
 <div class="image-description">Image disque MoodleBox pour carte microSD</div>
-<div class="image-details">Version : <strong>[github_download_data data='version' tag='v1.9.5']</strong></div>
+<div class="image-details">Version : <strong>[github_download_data data='version']</strong></div>
 <div class="image-details">Version de Moodle : <strong>3.4+ (Build: 20171116)</strong></div>
 <div class="image-details">Taille : <strong>[github_download_data data='file_size']</strong></div>
 <div class="image-details">Date : <strong>[github_download_data data='file_date']</strong></div>
