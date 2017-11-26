@@ -32,10 +32,10 @@ L’<a class="piwik_download" href="[github_download_data data='download_link']"
 <h3>En cas de difficulté</h3>
 Quelques utilisateurs ont annoncé des difficultés lors du téléchargement. Dans ce cas, on peut utiliser la ligne de commande pour télécharger l'image-disque, soit au moyen de cette commande
 
-<code>wget -c [github_download_data data='download_link']</code>
+<code>wget -c [github_download_data id='90' data='download_link']</code>
 
 soit avec celle-ci :
 
-<code>curl -C - [github_download_data data='download_link']</code>
+<code>curl -C - [github_download_data id='90' data='download_link']</code>
 
-[github_download_data tag='v1.9.5' data='file_date']
+[github_download_data data='file_date']
