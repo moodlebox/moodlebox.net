@@ -20,7 +20,6 @@ post_date: 2017-04-17 21:19:44
 <div class="image-details">Taille : <strong>[github_download_data data='file_size']</strong></div>
 <div class="image-details">Date : <strong>[github_download_data data='file_date']</strong></div>
 <div class="image-details">Notes de mise à jour : <strong><a href="https://github.com/martignoni/make-moodlebox/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">sur Github</a></strong></div>
-<div class="image-details sha1">SHA-1: <strong>[download_data id='90' data='sha1']</strong></div>
 <div class="image-download-links"><a class="btn dl-zip piwik_download" href="[github_download_data data='download_link']">Télécharger</a></div>
 </div></li>
 </ul>
@@ -37,7 +36,3 @@ Quelques utilisateurs ont annoncé des difficultés lors du téléchargement. Da
 soit avec celle-ci :
 
 <code>curl -C - [github_download_data data='download_link']</code>
-
-[github_download_data data='file_date']<br />
-[github_download_data data='file_size']<br />
-[github_download_data data='download_link']
