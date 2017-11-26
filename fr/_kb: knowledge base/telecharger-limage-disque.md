@@ -39,5 +39,5 @@ soit avec celle-ci :
 <code>curl -C - [github_download_data data='download_link']</code>
 
 [github_download_data data='file_date']<br />
-[github_download_data data='file_date']<br />
+[github_download_data data='file_size']<br />
 [github_download_data data='download_link']
