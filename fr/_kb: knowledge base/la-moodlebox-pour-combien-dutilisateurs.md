@@ -2,7 +2,7 @@
 ID: 467
 post_title: >
   Combien de personnes peuvent utiliser la
-  MoodleBox en même temps ?
+  MoodleBox en même temps ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
