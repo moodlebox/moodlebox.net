@@ -1,6 +1,6 @@
 ---
 ID: 419
-post_title: Download the disk image
+post_title: Where can I download the disk image?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
