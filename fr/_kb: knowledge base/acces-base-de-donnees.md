@@ -1,7 +1,7 @@
 ---
 ID: 401
 post_title: >
-  Comment peut-on accéder à la base de
+  Comment peut-on gérer la base de
   données ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
