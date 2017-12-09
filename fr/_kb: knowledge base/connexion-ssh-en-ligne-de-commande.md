@@ -1,6 +1,6 @@
 ---
 ID: 389
-post_title: Connexion en ligne de commande (SSH)
+post_title: 'Comment accéder à l&rsquo;interface en ligne de commande ?'
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
