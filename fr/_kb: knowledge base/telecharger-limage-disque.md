@@ -19,7 +19,7 @@ post_date: 2017-04-17 21:19:44
 <div class="image-details">Version de Moodle : <strong>3.4+ (Build: 20171123)</strong></div>
 <div class="image-details">Taille : <strong>[github_download_data data='file_size']</strong></div>
 <div class="image-details">Date : <strong>[github_download_data data='file_date']</strong></div>
-<div class="image-details">Notes de mise à jour : <strong><a href="https://github.com/martignoni/make-moodlebox/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">sur Github</a></strong></div>
+<div class="image-details">Notes de mise à jour : <strong><a href="https://github.com/martignoni/moodlebox/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">sur Github</a></strong></div>
 <div class="image-download-links"><a class="btn dl-zip piwik_download" href="[github_download_data data='download_link']">Télécharger</a></div>
 </div></li>
 </ul>
