@@ -1,6 +1,6 @@
 ---
 ID: 386
-post_title: Connexion au réseau Wi-Fi
+post_title: Comment se connecter au réseau Wi-Fi ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
