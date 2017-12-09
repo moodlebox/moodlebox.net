@@ -1,6 +1,6 @@
 ---
 ID: 406
-post_title: Matériel nécessaire
+post_title: Quel matériel faut-il se procurer ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
