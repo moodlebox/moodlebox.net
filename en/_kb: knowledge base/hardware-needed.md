@@ -1,6 +1,6 @@
 ---
 ID: 415
-post_title: Hardware needed
+post_title: What hardware should I get?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
