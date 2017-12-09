@@ -1,6 +1,8 @@
 ---
 ID: 432
-post_title: Command line connection (SSH)
+post_title: >
+  How to access to the command line
+  interface?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
