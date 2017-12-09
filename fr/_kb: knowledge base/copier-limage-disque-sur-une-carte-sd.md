@@ -1,6 +1,6 @@
 ---
 ID: 393
-post_title: 'Copier l&rsquo;image-disque sur une carte SD'
+post_title: 'Comment copier l&rsquo;image-disque sur une carte SD ?'
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
