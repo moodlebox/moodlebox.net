@@ -1,8 +1,8 @@
 ---
 ID: 412
 post_title: >
-  Utilisation de fichiers avec la
-  MoodleBox
+  Comment mettre à disposition des
+  fichiers ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
