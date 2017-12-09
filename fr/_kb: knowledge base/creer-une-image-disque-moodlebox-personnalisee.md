@@ -1,8 +1,8 @@
 ---
 ID: 465
 post_title: >
-  Créer une image-disque MoodleBox
-  personnalisée
+  Comment créer son image-disque
+  MoodleBox ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
