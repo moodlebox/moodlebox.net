@@ -1,6 +1,8 @@
 ---
 ID: 683
-post_title: 'Noms d&rsquo;utilisateur et mots de passe'
+post_title: >
+  Quels sont les mots de passe de la
+  MoodleBox ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
