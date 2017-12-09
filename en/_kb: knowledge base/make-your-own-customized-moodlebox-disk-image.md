@@ -1,8 +1,8 @@
 ---
 ID: 476
 post_title: >
-  Make your own customized MoodleBox
-  disk-image
+  How to make your own customized
+  disk-image ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
