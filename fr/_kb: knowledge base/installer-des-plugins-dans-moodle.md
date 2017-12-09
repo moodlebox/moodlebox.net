@@ -1,6 +1,6 @@
 ---
 ID: 499
-post_title: Installer des plugins dans Moodle
+post_title: Comment installer des plugins ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
