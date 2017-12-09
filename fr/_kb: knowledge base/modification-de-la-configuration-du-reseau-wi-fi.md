@@ -1,8 +1,8 @@
 ---
 ID: 586
 post_title: >
-  Modification de la configuration du
-  réseau Wi-Fi
+  Peut-on modifier la configuration du
+  réseau Wi-Fi ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
