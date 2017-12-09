@@ -1,6 +1,8 @@
 ---
 ID: 485
-post_title: Connexion à Internet
+post_title: >
+  Comment connecter la MoodleBox à
+  Internet ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
