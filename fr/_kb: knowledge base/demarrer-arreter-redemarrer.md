@@ -1,8 +1,8 @@
 ---
 ID: 418
 post_title: >
-  Démarrer, arrêter et redémarrer la
-  MoodleBox
+  Comment démarrer et arrêter la
+  MoodleBox ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
