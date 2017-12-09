@@ -1,6 +1,6 @@
 ---
 ID: 666
-post_title: Installer la MoodleBox
+post_title: Comment installer la MoodleBox ?
 author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
