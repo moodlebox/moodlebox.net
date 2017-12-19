@@ -13,7 +13,7 @@ The project MoodleBox tries to meet the needs of users without requiring any fin
 
 A contribution, totally optional, allows to participate in the costs for the hosting of the website. It boosts and increases the motivation to continue the work on the project MoodleBox.
 
-As of september 15, 2017, the project MoodleBox collected 215€ in donations. This amount enabled the payment of the subscription fees for the domain names: moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de and moodlebox.ch, as well as the web hosting subscription for one year.
+As of december 19, 2017, the project MoodleBox collected 235€ in donations. This amount enabled the payment of the subscription fees for the domain names: moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de and moodlebox.ch, as well as the web hosting subscription for one year.
 <h4>MAKE A DONATION TO SUPPORT MOODLEBOX</h4>
 [give_form id="215" show_title="false" show_goal="false" show_content="below" display_style="modal" float_labels="enabled"]
 <h4>SUPPORT MOODLEBOX ANOTHER WAY</h4>
