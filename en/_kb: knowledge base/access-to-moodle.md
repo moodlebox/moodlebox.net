@@ -13,7 +13,7 @@ post_date: 2017-04-20 21:23:42
 ---
 To access to the Moodle installation of the MoodleBox, you must be <a href="https://moodlebox.net/en/help/wi-fi-connection/">connected to its Wi-Fi network</a>. On your device, choose <strong>MoodleBox</strong> wireless network. When prompted type the password: <b id="yui_3_17_2_1_1489832111910_415">moodlebox</b> (all lowercase) and confirm your connection.
 
-You may now log into Moodle in your browser. Open your browser and type <a href="http://moodlebox.home/" target="_blank" rel="noopener">http://moodlebox.home/</a> in the address bar. Click on <strong>Log in</strong> and type the following credentials:
+You may now log into Moodle in your browser. Open your browser and type <a href="http://moodlebox.home/" target="_blank" rel="noopener">http://moodlebox.home/</a> in the address bar. The home page of Moodle opens. Click on <strong>Log in</strong> and type the following credentials:
 <ul>
  	<li>username: <strong>admin</strong></li>
  	<li>password: <strong>Moodlebox4$</strong></li>
