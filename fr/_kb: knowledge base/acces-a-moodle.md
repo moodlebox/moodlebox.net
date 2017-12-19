@@ -11,7 +11,7 @@ post_date: 2017-04-17 21:53:54
 ---
 Pour accéder à Moodle sur la MoodleBox, vous devez d'abord <a href="https://moodlebox.net/fr/help/connexion-wi-fi/">être connecté à son réseau Wi-Fi</a>. Sur votre appareil, sélectionnez le réseau sans fil <strong>MoodleBox</strong>. Lorsque le mot de passe vous est demandé, tapez <strong>moodlebox</strong> (attention, tout en minuscules) et confirmez votre connexion.
 
-Vous pouvez maintenant accéder à Moodle au moyen de votre navigateur. Ouvrez votre navigateur et tapez dans la barre d'adresse <a href="http://moodlebox.home/" target="_blank" rel="noopener">http://moodlebox.home/</a>. La page d'accueil de votre environnement Moodle s'affiche alors. Cliquez sur <strong>Connexion</strong> et saisissez les informations de connexion suivantes :
+Vous pouvez maintenant accéder à Moodle au moyen de votre navigateur. Ouvrez votre navigateur et tapez dans la barre d'adresse <a href="http://moodlebox.home/" target="_blank" rel="noopener">http://moodlebox.home/</a>. La page d'accueil de l'environnement Moodle s'affiche alors. Cliquez sur <strong>Connexion</strong> et saisissez les informations de connexion suivantes :
 <ul>
  	<li>nom d'utilisateur : <strong>admin</strong></li>
  	<li>mot de passe : <strong>Moodlebox4$</strong></li>
