@@ -14,7 +14,7 @@ Comme mesure de sécurité régulière, il est recommandé de mettre à jour les
 Pour cette opération, la MoodleBox doit être connectée à Internet.
 <h3>Mise à jour des logiciels de la MoodleBox</h3>
 <ol>
- 	<li>Se connecter à <a href="https://moodlebox.net/fr/help/connexion-ssh-en-ligne-de-commande/">l'interface en ligne de commande de la MoodleBox</a> via SSH, en utilisant les nom et mot de passe appropriés. Consulter au besoin les <a href="https://moodlebox.net/fr/help/noms-dutilisateur-et-mots-de-passe/">les noms d’utilisateur et des mots de passe par défaut</a>.</li>
+ 	<li>Se connecter à <a href="https://moodlebox.net/fr/help/connexion-ssh-en-ligne-de-commande/">l'interface en ligne de commande de la MoodleBox</a> via SSH, en utilisant les nom et mot de passe appropriés. Consulter au besoin les <a href="https://moodlebox.net/fr/help/noms-dutilisateur-et-mots-de-passe/">noms d’utilisateur et des mots de passe par défaut</a>.</li>
  	<li>Brancher la MoodleBox à un réseau local ayant accès à Internet, au moyen d'un câble Ethernet.</li>
  	<li>Taper la commande suivante dans l'interface du terminal :
 <code>sudo apt-get update &amp;&amp; sudo apt-get upgrade -y</code>
