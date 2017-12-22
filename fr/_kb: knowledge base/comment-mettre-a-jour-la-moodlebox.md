@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2017-12-22 11:37:36
 ---
-Comme mesure de sécurité régulière, il est recommandé de mettre à jour les logiciels serveur de la MoodleBox, afin de combler les éventuelles failles trouvées dans la distribution Raspbian et de corriger d'autres bogues découverts.
+Comme mesure de sécurité régulière, il est recommandé de mettre à jour les logiciels serveur de la MoodleBox afin de combler les éventuelles failles trouvées dans la distribution Raspbian et de corriger d'autres bogues découverts.
 
 Pour cette opération, la MoodleBox doit être connectée à Internet.
 <h3>Mise à jour des logiciels de la MoodleBox</h3>
