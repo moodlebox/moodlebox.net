@@ -20,5 +20,5 @@ For this operation, the MoodleBox must be connected to the Internet.
 <code>sudo apt-get update &amp;&amp; sudo apt-get upgrade -y</code>
 and confirm with Return.</li>
  	<li>This operation will take a couple of minutes. The duration depends on your Internet bandwidth and on the quality of your microSD card.</li>
- 	<li>When the update end, type <code>exit</code>, and confirm with Return.</li>
+ 	<li>At the end of the update process, type <code>exit</code>, and confirm with Return.</li>
 </ol>
