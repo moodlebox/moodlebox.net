@@ -26,5 +26,5 @@ Otherwise, you may use the following procedure.
 1. Send a pull request.
 
 [issues]: https://github.com/martignoni/make-moodlebox/issues
-[fork]: https://github.com/martignoni/moodlebox.net#fork-destination-box
+[fork]: https://github.com/martignoni/moodlebox.net/fork
 [contact]: mailto:nicolas@martignoni.net
