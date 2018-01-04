@@ -12,9 +12,9 @@ published: true
 post_date: 2017-12-23 17:20:51
 ---
 The MoodleBox is not intended to serve client devices over Ethernet. However, it is possible to access it via Ethernet with some extra work.
+<h3>Configure your router's DNS server</h3>
+It is necessary that on your Ethernet network, the domain name <strong>moodlebox.home </strong>is assigned to the MoodleBox. This requires a DNS server on your Ethernet network (e.g. on your router). This DNS server will assign the domain name to the numerical IP address of your MoodleBox, which is itself distributed by the router's DHCP server (usually this address is something like 192.168.1.143).
 
-To achieve this, you should assign to the MoodleBox the fully qualified domain name <strong>moodlebox.home</strong>. This involves having on your Ethernet network a DNS server (e.g. on your router) to assign this domain name to the IP address of your MoodleBox, which is given by the DHCP server of the router (usually something like 192.168.1.143).
+Once this change is made, the client devices on the wired network can easily access the MoodleBox (without needing to remember its numeric IP address) using http://moodlebox.home/, and the Moodle instance of the MoodleBox will respond correctly. Devices that connect via Wi-Fi can also continue to do so.
 
-This way, client devices can access easily the MoodleBox (without having to remember a numeric IP address), and the Moodle instance on the MoodleBox will answer correctly.
-
-If what you need is only SSH access over the Ethernet to the MoodleBox, you may do it via its numeric IP address, without further configuration.
+If you only need to access the MoodleBox over Ethernet via SSH, you can do so using its numeric IP address, without requiring any modification.
