@@ -7,7 +7,7 @@ author: nicolas.martignoni.admin
 post_excerpt: ""
 layout: epkb_post_type_1
 permalink: >
-  https://moodlebox.net/fr/help/comment-acceder-a-la-moodlebox-par-ethernet/
+  https://moodlebox.net/fr/help/acces-par-ethernet/
 published: true
 post_date: 2017-12-23 17:31:15
 ---
