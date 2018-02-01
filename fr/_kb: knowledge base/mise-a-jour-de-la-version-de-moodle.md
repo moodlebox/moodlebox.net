@@ -17,7 +17,7 @@ Connexion à la MoodleBox via SSH, avec le mot de passe habituel <strong>Moodleb
 <h3>Mise à jour vers une version <strong>mineure</strong></h3>
 Pour une mise à jour à une <strong>version mineure</strong> de Moodle (3.4.1, 3.4.2, etc.), on tape les commandes suivantes dans le terminal :
 
-<code>cd /var/www/html/</code>
+<code>cd /var/www/moodle/</code>
 <code>sudo -u www-data git pull</code>
 
 On charge ensuite dans le navigateur l'URL <a class="_blanktarget" href="http://moodlebox.home/admin">http://moodlebox.home/admin</a>, et on suit les instructions de mise à jour, comme avec un Moodle standard (voir la documentation ici : <a class="_blanktarget" href="https://docs.moodle.org/fr/Mise_%C3%A0_jour" target="_blank" rel="noopener noreferrer">https://docs.moodle.org/fr/Mise_à_jour</a>).
