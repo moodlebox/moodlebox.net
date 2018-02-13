@@ -1,10 +1,10 @@
 # Website moodlebox.net
 
-This repository contains the content pages of the MoodleBox website, [moodlebox.net](https://moodlebox.net).
+This repository contains the content pages of the [MoodleBox][moodlebox] website, [moodlebox.net][moodlebox].
 
 ## Contributing
 
-You're welcome to enhance the text, fix typos, etc. and to add other translations. Pages are written in Markdown format.
+You're welcome to enhance the text, fix typos, etc. and to add other translations. Pages are written in [Markdown format][markdown].
 
 As for everything else in the project, the contributions to MoodleBox project are governed by our [Code of Conduct](https://github.com/martignoni/moodlebox.net/blob/master/CODE_OF_CONDUCT.md).
 
@@ -30,5 +30,7 @@ We want the MoodleBox documentation to be the best it can be. We've open-sourced
 1. Push your changes to Github: `git push`.
 1. Create a pull request by visiting `https://github.com/<you-username>/moodlebox.net` and following the instructions at the top of the screen.
 
+[moodlebox]: https://moodlebox.net
 [issues]: https://github.com/martignoni/make-moodlebox/issues
 [contact]: mailto:nicolas@martignoni.net
+[markdown]: https://daringfireball.net/projects/markdown/
