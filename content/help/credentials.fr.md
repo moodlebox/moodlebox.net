@@ -2,7 +2,7 @@
 title: Quels sont les mots de passe de la MoodleBox
 author: Nicolas Martignoni
 type: kb
-date: 2017-09-16T17:41:48+00:00
+date: 2017-09-16
 slug: noms-dutilisateur-et-mots-de-passe
 weight: 8
 categories:
