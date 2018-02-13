@@ -16,7 +16,7 @@ Um die Aktualisierung von Moodle möglichst einfach zu machen, wurde die Install
 ssh moodlebox@moodlebox.home
 ```
 
-### Aktualisierung auf __Minor Version__ (kleiner Versionssprung)
+### Aktualisierung auf eine __Minor Version__ (kleiner Versionssprung)
 
 Um Ihr Moodle auf die nächste __Minor Version__ (3.4.1, 3.4.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:
 
@@ -28,7 +28,7 @@ sudo -u www-data git pull
 Rufen Sie anschließend im Browser die URL http://moodlebox.home/admin auf und folgen Sie der Anleitung für jede beliebige Moodle-Installation. ([Lesen Sie die Dokumentation][1]).
 
 
-### Aktualisierung auf __Major Version__ (großer Versionssprung)
+### Aktualisierung auf eine __Major Version__ (großer Versionssprung)
 
 Um mit Ihrem Moodle auf die nächste __Major Version__ (3.5, 3.6, usw.) zu gelangen, verwenden Sie folgende __zusätzliche__ Anweisungen:
 
