@@ -19,9 +19,9 @@ __Note:__ _It's important that the versions of the web site in different languag
 1. Push your changes to Github: `git push`.
 1. Create a pull request by visiting `https://github.com/<you-username>/moodlebox.net` and following the instructions at the top of the screen.
 
-### What about file name?
+### What about the file name?
 
-The main part of the file (before the first dot) must __not be changed__, as it is used to put the page in relation with its translations, in the language switcher of the web site.
+The main part of the file name (before the first dot) must __not be changed__, as it is used to keep the page in relation with its translations, via the language switcher of the web site.
 
 The last part of the file name, the extension `.md`, must also __not be changed__.
 
