@@ -33,14 +33,25 @@ Every page comes with a header, not directly displayed in the website, but very 
 
 - __title__: The title of the page. It is displayed in the main heading of the page, and serves as the title of internal links. Words of the title have too more weight in the internal search engine.
 
-- __author__: The author(s) of the page. When you edit an already existing page, please add your name after the existing name(s), with a comma, for example: `Jane Doe, Nicolas Martignoni`. Note: The author name is __not__ displayed anywhere on the website.
+- __author__: The author(s) of the page. When you edit an already existing page, please add your name after the existing name(s), with a comma, for example:
+  ```yml
+  author: Jane Doe, Nicolas Martignoni
+  ```
+  Note: The author name is __not__ displayed anywhere on the website.
 
 - __type__: Should __not be changed__. Has to remain exactly identical to the english version of the translated version.
 
-- __date__: The date of the creation of a new page, in YYYY-MM-DD format, e.g. `2018-01-23`. Do not change it if you edit an existing page, as this is intended as a date marker of the first creation of the page.
+- __date__: The date of the creation of a new page, in YYYY-MM-DD format, e.g.
+  ```yml
+  date: 2018-01-23
+  ```
+  Do not change it if you edit an existing page, as this is intended as a date marker of the first creation of the page.
 
-- __slug__: Sets the permalink of the page. It should obviously be something related with the title and the content of the page.\
-  The slug should only contain lower-case characters and hyphens. No special characters, no punctuation.  E.g. if the slug is `une-page-inutile` for a french translated page, its permalink will read `https://moodlebox.net/fr/help/une-page-inutile`. Don't try this link, there's no useless page in this web site.
+- __slug__: Sets the permalink of the page. It should obviously be something related with the title and the content of the page. The slug should __only contain lower-case characters and hyphens__. No special characters, no punctuation. For a french translated page, the following slug
+  ```yml
+  slug: une-page-inutile
+  ```
+  will give the permalink `https://moodlebox.net/fr/help/une-page-inutile`.
 
 - __categories__: Should __not be changed__. Has to remain exactly identical to the english version of the translated version.
 
