@@ -1,6 +1,6 @@
 ---
 title: Unterstützen Sie das Projekt MoodleBox
-author: Nicolas Martignoni
+author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-04-21T09:52:18+00:00
 slug: unterstuetzen-sie-das-projekt-moodlebox
