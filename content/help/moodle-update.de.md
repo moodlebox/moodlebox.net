@@ -1,9 +1,9 @@
 ---
-title: Wie kann Moodle aktualisiert werden
-author: Ralf Krause
+title: Wie wird Moodle aktualisiert?
+author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2018-02-13
-slug: moodle-version-update
+slug: moodle-aktualisieren
 categories:
   - Maintenance
 
@@ -25,7 +25,7 @@ cd /var/www/moodle/
 sudo -u www-data git pull
 ```
 
-Rufen Sie anschließend im Browser die URL http://moodlebox.home/admin auf und folgen Sie der Anleitung für jede beliebige Moodle-Installation. ([Lesen Sie die Dokumentation][1]).
+Rufen Sie anschließend im Browser die URL http://moodlebox.home/admin auf und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Lesen Sie die Dokumentation][1]).
 
 
 ### Aktualisierung auf eine __Major Version__ (großer Versionssprung)
@@ -39,7 +39,7 @@ sudo -u www-data git pull
 sudo -u www-data git checkout MOODLE_35_STABLE
 ```
 
-Rufen Sie anschließend die URL http://moodlebox.home/admin auf und folgen Sie genau wie oben der Anleitung.
+Rufen Sie auch hier die URL http://moodlebox.home/admin auf und folgen Sie genau wie oben der Anleitung.
 
- [1]: https://docs.moodle.org/en/Upgrading
- [2]: {{< relref "command-line-access.en.md" >}}
+ [1]: https://docs.moodle.org/de/Aktualisierung_von_Moodle
+ [2]: {{< relref "command-line-access.de.md" >}}

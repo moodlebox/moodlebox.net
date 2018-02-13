@@ -1,9 +1,9 @@
 ---
-title: Was ist MoodleBox
-author: Visvanath Ratnaweera
+title: Was ist die MoodleBox?
+author: Nicolas Martignoni, Visvanath Ratnaweera. Ralf Krause
 type: kb
-date: 2018-01-31
-slug: was-ist-moodlebox
+date: 2017-04-21
+slug: was-ist-die-moodlebox
 weight: 2
 categories:
   - About
@@ -11,26 +11,28 @@ aliases:
   - de/about
 
 ---
-Die MoodleBox ist ein mobiles Gerät mit geringem Raumbedarf, internetunabhängig und bietet ein drahtloses Netzwerk für Ihr Smartphone, Tablett oder Ihren Computer. Es stellt eine komplette [Moodle][1] Learning Management System Plattform zur Verfügung, die es ermöglicht, Online-Lernaktivitäten anzubieten und Dateien mit Ihren Benutzern auszutauschen.
+Die MoodleBox ist ein kleines Gerät, mobil und internetunabhängig. Die MoodleBox bietet ein drahtloses Netzwerk für Smartphones, Tablets oder Computer. Die MoodleBox stellt eine vollständige [Moodle][1]-Lernplattform zur Verfügung, auf der Lernaktivitäten online angeboten und Dateien untereinander ausgetauscht werden können.
 
-Wenn die MoodleBox über ein verkabeltes Netzwerk (Ethernet) mit dem Internet verbunden ist, bietet sie auch den Internetzugang für Geräte, die über Wi-Fi mit dem Internet verbunden sind.
+Wenn die MoodleBox über ein Kabel mit dem Netzwerk (Ethernet) und dem Internet-Router verbunden ist, liefert sie für alle über WLAN angebundenen Geräte neben der lokalen Lernplattform auch einen Internetzugang.
 
-MoodleBox [basiert][2] auf einem Mini-Computer [Raspberry Pi 3][3] und der [Moodle-Lernumgebung][1], dem in der Welt meistgenutzten Open-Source-LMS.
+Die MoodleBox [basiert][2] auf einem Mini-Computer [Raspberry Pi 3][3] und der [Moodle-Lernumgebung][1], dem in der Welt meistgenutzten Open-Source-LMS.
+
 
 ### MoodleBox Projekt
 
-MoodleBox ist Freie Software (frei wie in Redefreiheit und in Freibier). Die Idee zu einer MoodleBox ging aus der Diskussion im [Forum der frankophonen Community vom Moodle][4] um den [Internetzugang einer lokalen Installation][5] hervor. Die Idee damals [Moodle auf Raspberry Pi 2][6] wurde nach der Einführung von Raspberry Pi 3 mit eingebautem Wi-Fi machbar geworden. Dank dem Einsatz von [Christian Westphal][7] wurde dann [MoodleBox auf Raspberry Pi 3][8] vorgeschlagen.
+Die MoodleBox ist freie Software (frei wie in Redefreiheit oder in Freibier). Die Idee zur MoodleBox stammt aus einer 2016 geführten Diskussion im [Forum der französischen Moodle-Community][4] über die Schaffung einer [Moodle-Plattform auf einem mobilen Computer][5]. Die [Idee für eine Box][6] wuchs schnell weiter und wurde mit dem Raspberry Pi 3 mit eingebautem WLAN umsetzbar. Von [Christian Westphal][7] wurde ein [erster Konzeptentwurf][8] für eine MoodleBox vorgeschlagen.
 
-MoodleBox Projekt wird von [Nicolas Martignoni][9] in seiner Freizeit entwickelt.
+Das MoodleBox-Projekt wird von [Nicolas Martignoni][9] in seiner Freizeit entwickelt.
+
 
 ### Haftungsausschluss
 
-Das Image der MoodleBox und die Informationen auf dieser Website werden "wie besehen" der Allgemeinheit zur Verfügung gestellt. Der Autor hat sich bemüht das einwandfreie Funktionieren der MoodleBox und die Richtigkeit der Informationen zu gewährleisten. Er lehnt jedoch jegliche Verantwortung für direkte oder indirekte Schäden, die den Nutzern bei der Nutzung der MoodleBox anfallen können. Insbesondere kann er nicht für materiellen Verlust oder den Verlust von Daten verantwortlich gemacht werden.
+Das Disk-Image der MoodleBox und alle Informationen auf dieser Website werden "wie besehen" der Allgemeinheit zur Verfügung gestellt. Der Autor bemüht sich, das einwandfreie Funktionieren der MoodleBox und die Richtigkeit der Informationen zu gewährleisten. Er lehnt jedoch jegliche Verantwortung für direkte oder indirekte Schäden ab, die bei der Nutzung der MoodleBox anfallen können. Insbesondere kann er nicht für materiellen Verlust oder den Verlust von Daten verantwortlich gemacht werden.
 
-Der Autor ist nicht verpflichtet irgendwelche Fehler in der Software oder in der Dokumentation zu beheben.
+Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in der Dokumentation zu beheben.
 
  [1]: https://moodle.org
- [2]: {{< relref "help/hardware-needed.en.md" >}}
+ [2]: {{< relref "help/hardware-needed.de.md" >}}
  [3]: https://www.raspberrypi.org
  [4]: https://moodle.org/course/view.php?id=20
  [5]: https://moodle.org/mod/forum/discuss.php?d=318719
