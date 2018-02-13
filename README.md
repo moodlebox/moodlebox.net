@@ -14,8 +14,8 @@ __Note:__ _It's important that the versions of the web site in different languag
 
 1. Fork this repository by clicking "Fork" in the top right corner of this page.
 1. Clone your fork to your computer: `git clone https://github.com/<your-username>/moodlebox.net`.
-1. Duplicate the directory containing the English version of the pages ("en") and rename it to your [language ISO code](https://www.w3schools.com/tags/ref_language_codes.asp) (e.g. de for German, ja for Japanese, zh for Chinese, ru for russian, etc.)
-1. Translate the pages and commit your changes: `git add *; git commit -a`.
+1. Duplicate the english page you want to translated (ending with `.en.md`) and rename the extension with your [language ISO code](https://www.w3schools.com/tags/ref_language_codes.asp) (e.g. `.de.md` for German, `.ja.md` for Japanese, `.zh.md` for Chinese, `.ru.md` for russian, etc.)
+1. Translate the page and commit your changes: `git add *; git commit -a`.
 1. Push your changes to Github: `git push`.
 1. Create a pull request by visiting `https://github.com/<you-username>/moodlebox.net` and following the instructions at the top of the screen.
 
