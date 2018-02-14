@@ -20,7 +20,7 @@ Die MoodleBox [basiert][2] auf einem Mini-Computer [Raspberry Pi 3][3] und der [
 
 ### MoodleBox Projekt
 
-Die MoodleBox ist freie Software (frei wie in Redefreiheit oder in Freibier). Die Idee zur MoodleBox stammt aus einer 2016 geführten Diskussion im [Forum der französischen Moodle-Community][4] über die Schaffung einer [Moodle-Plattform auf einem mobilen Computer][5]. Die [Idee für eine Box][6] wuchs schnell weiter und wurde mit dem Raspberry Pi 3 mit eingebautem WLAN umsetzbar. Von [Christian Westphal][7] wurde ein [erster Konzeptentwurf][8] für eine MoodleBox vorgeschlagen.
+Die MoodleBox ist freie Software (frei wie in Redefreiheit oder in Freibier). Die Idee zur MoodleBox stammt aus einer 2016 geführten Diskussion im [Forum der französischsprachigen Moodle-Community][4] über die Schaffung einer [Moodle-Plattform auf einem mobilen Computer][5]. Die [Idee für eine Box][6] wuchs schnell weiter und wurde mit dem Raspberry Pi 3 mit eingebautem WLAN umsetzbar. Von [Christian Westphal][7] wurde ein [erster Konzeptentwurf][8] für eine MoodleBox vorgeschlagen.
 
 Das MoodleBox-Projekt wird von [Nicolas Martignoni][9] in seiner Freizeit entwickelt.
 
