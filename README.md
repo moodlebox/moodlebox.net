@@ -47,6 +47,8 @@ Every page comes with a header, not directly displayed in the website, but very 
   ```
   Do not change it if you edit an existing page, as this is intended as a date marker of the first creation of the page.
 
+- __weight__: Should __not be changed__. Has to remain exactly identical to the english version of the translated version.
+
 - __slug__: Sets the permalink of the page. It should obviously be something related with the title and the content of the page. The slug should __only contain lower-case characters and hyphens__. No special characters, no punctuation. For a french translated page, the following slug
   ```yml
   slug: une-page-inutile
