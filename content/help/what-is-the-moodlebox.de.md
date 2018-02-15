@@ -1,6 +1,6 @@
 ---
 title: Was ist die MoodleBox?
-author: Nicolas Martignoni, Visvanath Ratnaweera. Ralf Krause
+author: Visvanath Ratnaweera, Ralf Krause
 type: kb
 date: 2017-04-21
 slug: was-ist-die-moodlebox
@@ -32,7 +32,7 @@ Das Disk-Image der MoodleBox und alle Informationen auf dieser Website werden "w
 Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in der Dokumentation zu beheben.
 
  [1]: https://moodle.org
- [2]: {{< relref "help/hardware-needed.de.md" >}}
+ [2]: {{< relref "help/hardware-needed.en.md" >}}
  [3]: https://www.raspberrypi.org
  [4]: https://moodle.org/course/view.php?id=20
  [5]: https://moodle.org/mod/forum/discuss.php?d=318719

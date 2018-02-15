@@ -1,5 +1,5 @@
 ---
-title: "Thank you"
+title: "Danke"
 ---
 
 ### Vielen Dank für Ihre Mitteilung

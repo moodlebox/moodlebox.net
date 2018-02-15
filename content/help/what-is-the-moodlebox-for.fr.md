@@ -2,7 +2,7 @@
 title: À quoi sert la MoodleBox
 author: Nicolas Martignoni
 type: kb
-date: 2017-04-17T18:44:42+00:00
+date: 2017-04-17
 slug: a-quoi-sert-la-moodlebox
 weight: 1
 categories:
@@ -14,7 +14,7 @@ La MoodleBox permet de profiter d'un environnement d'apprentissage [Moodle][1] e
 Elle est utilisée pour permettre l'apprentissage et l'enseignement en ligne :
 
   * là où les infrastructures sont inexistantes ou insuffisantes ;
-  * là où les infrastructures ont été détruites (guerre) ;
+  * là où les infrastructures ont été détruites (guerre, catastrophes naturelles) ;
   * lorsque les infrastructures existantes ne conviennent pas pour des projets spécifiques.
 
 Elle offre à des petits groupes (environ 20-30 participants) la possibilité de travailler dans un environnement d'apprentissage, sans nécessité de configuration lourde.

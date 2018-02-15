@@ -2,8 +2,8 @@
 title: Wie funktioniert der Zugriff auf das Betriebssystem?
 author: Nicolas Martignoni, Ralf Krause
 type: kb
-date: 2017-04-20T16:49:52+00:00
-slug: zugriff-auf-das-betriebssytem
+date: 2017-04-20
+slug: zugriff-auf-das-betriebssystem
 weight: 15
 categories:
   - Maintenance

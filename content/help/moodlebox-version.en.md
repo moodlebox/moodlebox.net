@@ -2,7 +2,7 @@
 title: What is the version of my MoodleBox
 author: Nicolas Martignoni
 type: kb
-date: 2017-11-12T16:53:08+00:00
+date: 2017-11-12
 slug: what-is-the-version-of-my-moodlebox
 categories:
   - Maintenance
