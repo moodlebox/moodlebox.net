@@ -10,6 +10,7 @@ categories:
   - First steps
 aliases:
   - en/hardware
+  - de/hardware
 
 ---
 Here is the stuff you will need to build your MoodleBox:

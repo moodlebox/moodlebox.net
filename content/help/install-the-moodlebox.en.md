@@ -9,6 +9,7 @@ categories:
   - First steps
 aliases:
   - en/install
+  - de/install
 
 ---
 This is the procedure to install the MoodleBox for its first utilisation.
