@@ -48,7 +48,7 @@ After having downloaded the disk image, follow the instructions to [copy it to t
 
 If you wish, you can [support the development][3] of MoodleBox by [making an donation][3].
 
-The MoodleBox disk image is built on [Raspbian Stretch Lite for Raspberry Pi][6] distribution.
+The MoodleBox disk image is built on [Raspbian Lite for Raspberry Pi][6] distribution.
 
 ### In case of trouble
 
