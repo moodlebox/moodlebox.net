@@ -2,7 +2,7 @@
 title: What is the default Moodle configuration
 author: Nicolas Martignoni
 type: kb
-date: 2017-04-20T19:41:38+00:00
+date: 2017-04-20
 slug: moodle-configuration
 categories:
   - Maintenance
@@ -17,7 +17,7 @@ File upload size
 :   The maximal file upload size is set to __50MB__ (via the PHP settings _post\_max\_size_ and _upload\_max\_filesize_).
 
 Cron
-:   The _cron_ is configured to be run __every 3 minutes__. Some scheduled tasks need an Internet access. It's recommended to connect the MoodleBox to the Internet with an Ethernet cable.
+:   The _cron_ is configured to be run __every minute__ (every 3 minutes before version 2.2.0). Some scheduled tasks need an Internet access. It's recommended to connect the MoodleBox to the Internet with an Ethernet cable.
 
 Multi-language filter
 :   The Multi-Language Content filter is enabled.

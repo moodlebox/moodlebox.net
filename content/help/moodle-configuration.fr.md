@@ -18,7 +18,7 @@ Taille des fichiers déposés
 :   La taille maximale des fichiers déposés est fixée à __50 Mo__ (au moyen des variables _post\_max\_size_ et _upload\_max\_filesize_ de PHP).
 
 Cron
-:   Le _cron_ est configuré de sorte à être lancé __toutes les 3 minutes__. Certaines tâches programmées nécessitent un accès à Internet. Il est recommandé de connecter la MoodleBox à Internet au moyen d'un câble Ethernet.
+:   Le _cron_ est configuré de sorte à être lancé __toutes les minutes__ (toutes les 3 minutes avant la version 2.2.0). Certaines tâches programmées nécessitent un accès à Internet. Il est recommandé de connecter la MoodleBox à Internet au moyen d'un câble Ethernet.
 
 Filtre multilingue
 :   Le filtre Contenu multilingue est activé.
