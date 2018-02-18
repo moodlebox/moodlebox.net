@@ -9,7 +9,7 @@ categories:
   - About
 
 ---
-Die MoodleBox stellt eine [Moodle][1]-Plattform außerhalb jeder Netzwerk-Infrastruktur bereit, u.z. unter Verwendung eines kleinen, preiswerten und vielseitigen Geräts.
+Die MoodleBox stellt eine [Moodle][1]-Plattform außerhalb jeder Netzwerk-Infrastruktur bereit, und zwar unter Verwendung eines kleinen, preiswerten und sehr vielseitigen Geräts.
 
 Die MoodleBox wird verwendet, um Online-Lernen und Online-Lehren zu unterstützen:
 
@@ -17,6 +17,6 @@ Die MoodleBox wird verwendet, um Online-Lernen und Online-Lehren zu unterstütze
   * wo die Infrastruktur zerstört wurde (Krieg, Erdbeben, Unwetter)
   * wo die vorhandene Infrastruktur für bestimmte Projekte nicht geeignet ist
 
-Die MoodleBox bietet kleinen Gruppen (mit bis zu 20 oder 30 Teilnehmern) die Möglichkeit, in einer Lernplattform zu arbeiten, ohne ein aufwendiges Setup zu vorauszusetzen.
+Die MoodleBox bietet kleinen Gruppen (mit bis zu 20 oder 30 Teilnehmern) die Möglichkeit, in einer Lernplattform zu arbeiten, ohne ein aufwendiges Setup zu erfordern.
 
  [1]: https://moodle.org/

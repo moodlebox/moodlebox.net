@@ -1,7 +1,7 @@
 ---
-title: "Moodlebox unterstützt die Ausbildung von Gefangenen"
+title: "Moodlebox unterstützt Ausbildung von Gefangenen"
 author: Nicolas Martignoni, Ralf Krause
-description: "MoodleBox wird im Gefängniszentrum in Caen, Frankreich, eingesetzt, um die Ausbildung von Gefangenen zu unterstützen."
+description: "Die MoodleBox wird im Gefängnis von Caen in Frankreich eingesetzt, um die Ausbildung von Gefangenen zu unterstützen."
 date: 2018-02-14
 slug: "caen-gefaengniszentrum"
 
@@ -12,5 +12,5 @@ Eine entscheidende Schwierigkeit beim Bereitstellen von hochwertigen Lernangebot
 
 Dank der MoodleBox haben ab sofort Gefangene, die dies wünschen, Zugriff auf die gleichen digitalen und interaktiven Kursinhalte wie Studierende in Universitäten. 
 
-{{< youtube id="B1D5ztTFkk0" >}}
 
+{{< youtube id="B1D5ztTFkk0" >}}

@@ -1,9 +1,9 @@
 ---
-title: Dateien für die MoodleBox bereitstellen
+title: Dateien für MoodleBox bereitstellen
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-04-20
-slug: dateien-fuer-die-moodlebox
+slug: dateien-fuer-moodlebox
 weight: 7
 categories:
   - Usage

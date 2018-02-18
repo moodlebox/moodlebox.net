@@ -1,14 +1,14 @@
 ---
-title: Welche Version hat meine MoodleBox
-author: Ralf Krause
+title: MoodleBox-Version anzeigen
+author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2018-02-13
-slug: welche-version-hat-meine-moodlebox
+slug: moodlebox-version-anzeigen
 categories:
   - Maintenance
 
 ---
-Sie können die Version Ihrer MoodleBox feststellen, wenn Sie die Einstellungsseite zur MoodleBox [Website-Administration > Server > MoodleBox][1] aufrufen.
+Sie können die Version Ihrer MoodleBox anzeigen, wenn Sie die Einstellungsseite zur MoodleBox [Website-Administration > Server > MoodleBox][1] aufrufen.
 
 Diese Information ist seit der MoodleBox-Version 1.9.5 vom 1. November 2017 verfügbar.
 
