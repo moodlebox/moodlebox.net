@@ -1,5 +1,5 @@
 ---
-title: Wofür ist die MoodleBox?
+title: Wofür ist die MoodleBox
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-04-21
@@ -9,9 +9,9 @@ categories:
   - About
 
 ---
-Die MoodleBox stellt eine [Moodle][1]-Lernplattform außerhalb jeder Netzwerk-Infrastruktur bereit, u.z. unter Verwendung eines kleinen, preiswerten und vielseitigen Geräts.
+Die MoodleBox stellt eine [Moodle][1]-Plattform außerhalb jeder Netzwerk-Infrastruktur bereit, und zwar unter Verwendung eines kleinen, preiswerten und sehr vielseitigen Geräts.
 
-Die MoodleBox wird verwendet, um Online-Lernen und -Lehren zu unterstützen:
+Die MoodleBox wird verwendet, um Online-Lernen und Online-Lehren zu unterstützen:
 
   * wo die Infrastruktur nicht vorhanden oder nur unzureichend ist
   * wo die Infrastruktur zerstört wurde (Krieg, Erdbeben, Unwetter)
