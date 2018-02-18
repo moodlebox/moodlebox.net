@@ -1,13 +1,16 @@
 ---
 title: "Moodlebox unterstützt die Ausbildung von Gefangenen"
+author: Nicolas Martignoni, Ralf Krause
 description: "MoodleBox wird im Gefängniszentrum in Caen, Frankreich, eingesetzt, um die Ausbildung von Gefangenen zu unterstützen."
 date: 2018-02-14
-slug: "caen-gefangniszentrum"
+slug: "caen-gefaengniszentrum"
+
 ---
-Seit gestern wird MoodleBox im Gefängnis von Caen eingesetzt.
+Seit gestern wird die MoodleBox im Gefängnis von Caen in Frankreich eingesetzt.
 
-Die Hauptschwierigkeit bei der Bereitstellung von qualitativ hochwertigem Lernen in Gefängnissen ist der fehlende Internetzugang. Im digitalen Zeitalter, in dem Studenten die Inhalte des Internets, insbesondere der Universitäten, nutzen, wurden Caens Insassen wieder fast darauf reduziert, ihre Kurse auf Handzetteln durchblättern zu müssen, da in Haft das Internet einfach verboten ist.
+Eine entscheidende Schwierigkeit beim Bereitstellen von hochwertigen Lernangeboten in Gefängnissen ist der fehlende Internetzugang. Im digitalen Zeitalter nutzen Studierende in Universitäten vermehrt Inhalte, die im Internet oder auf Servern der Universitäten verfügbar sind. Diesbezüglich waren die Insassen von Caen stark eingeschränkt, weil im Gefängnis das Internet einfach verboten ist. Sie mussten ihre Kurse in der Regel auf ausgedruckten Arbeitsblättern durcharbeiten.
 
-Dank der MoodleBox haben Gefangene, die dies wünschen, nun Zugriff auf dieselben Kursinhalte wie an der Universität.
+Dank der MoodleBox haben ab sofort Gefangene, die dies wünschen, Zugriff auf die gleichen digitalen und interaktiven Kursinhalte wie Studierende in Universitäten. 
 
 {{< youtube id="B1D5ztTFkk0" >}}
+
