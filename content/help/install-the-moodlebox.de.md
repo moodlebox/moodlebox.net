@@ -8,7 +8,6 @@ weight: 1
 categories:
   - First steps
 aliases:
-  - en/install
   - de/install
 
 ---
@@ -32,7 +31,6 @@ Setzen Sie die kopierte MicroSD-Karte in den Steckplatz im Raspberry Pi 3 ein. V
 
 Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die MoodleBox fertig und voll funktionsfähig.
 
-
 ### Nächste Schritte
 
   * [Moodle öffnen][4]
@@ -40,7 +38,6 @@ Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die Mo
   * [WLAN konfigurieren][6]
   * [SSH Zugriff][7] auf die MoodleBox
   * [Projekt MoodleBox unterstützen][8]
-
 
 Weitere Informationen finden Sie, wenn Sie in unserer [Knowledge Base][9] stöbern.
 

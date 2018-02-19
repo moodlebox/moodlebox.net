@@ -27,7 +27,6 @@ sudo -u www-data git pull
 
 Öffnen Sie anschließend im Browser die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][1]).
 
-
 ### Aktualisierung auf eine __Major Version__ (großer Versionssprung)
 
 Um mit Ihrem Moodle auf die nächste __Major Version__ (3.5, 3.6, usw.) zu gelangen, verwenden Sie folgende __zusätzliche__ Anweisungen:

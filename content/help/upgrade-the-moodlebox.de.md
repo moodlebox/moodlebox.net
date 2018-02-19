@@ -1,5 +1,5 @@
 ---
-title: Wie wird die MoodleBox aktualisiert 
+title: Wie wird die MoodleBox aktualisiert
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-12-22
@@ -27,4 +27,4 @@ For this operation, the MoodleBox must be connected to the Internet.
   5. At the end of the update process, type `exit`, and confirm with Return.
 
  [1]: {{< relref "command-line-access.de.md" >}}
- [2]: {{< relref "credentials.en.md" >}}
+ [2]: {{< relref "credentials.de.md" >}}

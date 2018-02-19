@@ -1,5 +1,5 @@
 ---
-title: Zugang zum Betriebssystem 
+title: Zugang zum Betriebssystem
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-04-20
@@ -15,13 +15,11 @@ Für normale Nutzer besteht keinerlei Notwendigkeit, auf das Betriebssystem der 
   * Anmeldename: __moodlebox__
   * Kennwort: __Moodlebox4$__
 
-
 ### Mit PuTTY (bei Windows)
 
 Öffnen Sie eine neue Verbindung, schreiben Sie die Adresse __moodlebox.home__ in das Feld _Host Name_, klicken Sie dann auf _Öffnen_ und geben Sie das Kennwort __Moodlebox4$__ ein.
 
 {{< figure link="/img/media/putty-moodlebox.png" caption="Verbindung mit PuTTY" caption-position="bottom" caption-effect="appear" width="516px" >}}
-
 
 ### Im klassischen Terminal (Linux, macOS)
 

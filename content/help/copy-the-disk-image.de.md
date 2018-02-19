@@ -2,8 +2,8 @@
 title: Disk-Image auf eine MicroSD-Karte kopieren
 author: Nicolas Martignoni, Ralf Krause
 type: kb
-date: 2017-04-20T16:37:28+00:00
-slug: copy-the-disk-image-on-a-sd-card
+date: 2017-04-20
+slug: disk-image-kopieren
 weight: 4
 categories:
   - First steps
@@ -14,7 +14,6 @@ Haben Sie das [Disk-Image][1] heruntergeladen?
 Installieren Sie zuerst [Etcher][2] auf Ihrem Computer. Befolgen Sie dann die Anleitung für Etcher, um das Disk-Image __moodlebox-x.y.z.img.gz__ auf Ihre MicroSD-Karte zu flashen.
 
 {{< figure link="/img/media/etcher-copy.png" caption="Kopieren mit Etcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
-
 
 ### Für Experten
 
