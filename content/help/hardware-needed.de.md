@@ -9,7 +9,6 @@ categories:
   - About
   - First steps
 aliases:
-  - en/hardware
   - de/hardware
 
 ---
@@ -20,8 +19,7 @@ Hier ist eine Übersicht der Dinge, die Sie zur Erstellung einer eigenen MoodleB
   * [MicroSD-Karte][3], 32 GB (mindestens),
   * [Gehäuse für Raspberry Pi][4] (nicht notwendig, aber nützlich, um den Raspberry Pi 3 zu schützen).
 
-
-Die Kosten für die gesamte Hardware betragen ungefähr USD 90, 80 € or CHF 90.
+Die Kosten für die gesamte Hardware betragen ungefähr USD 90, 80 € oder CHF 90.
 
 {{< gallery >}}
 {{< figure src="/img/media/rpi3.png" caption="Raspberry Pi 3" >}}

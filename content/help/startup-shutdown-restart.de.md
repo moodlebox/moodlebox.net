@@ -1,9 +1,9 @@
 ---
-title: MoodleBox einschalten, ausschalten und neustarten 
+title: MoodleBox einschalten, ausschalten und neustarten
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-04-20
-slug: startup-shutdown-restart
+slug: einschalten-ausschalten-neustarten
 weight: 1
 categories:
   - Maintenance
@@ -25,7 +25,7 @@ Falls es möglich ist, sollten Sie die MoodleBox bei jedem Start über Ethernet 
 Um das Risiko von Datenbeschädigungen auf der MicroSD-Karte zu minimieren, fahren Sie zuerst die MoodleBox manuell herunter, bevor Sie die Stromversorgung ausschalten.
 {{% /notice %}}
 
-Über die grafische Benutzeroberfläche können Sie die MoodleBox sicher stoppen und neu starten. 
+Über die grafische Benutzeroberfläche können Sie die MoodleBox sicher stoppen und neu starten.
 
 Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleBox an und rufen Sie die Einstellungsseite [Website-Administration > Server > MoodleBox] [1] auf.
 

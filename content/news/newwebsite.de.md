@@ -3,7 +3,6 @@ date: 2018-02-04
 title: "MoodleBox mit neuer Webseite"
 description: "Die MoodleBox-Website wurde technisch komplett überarbeitet, um eine bessere Leistung und mehr Sicherheit zu gewährleisten."
 slug: new-webseite
-
 ---
 Um die Geschwindigkeit zu optimieren und die Sicherheit zu erhöhen, wurde die Website des MoodleBox-Projekts komplett überarbeitet. Die Website verwendet jetzt [Hugo][3], einen [statischen Website-Generator][1], anstelle des [WordPress CMS][2]. Die Verwendung eines statischen Website-Generators hat mehrere Vorteile gegenüber der Verwendung eines CMS, wie z.B.
 
