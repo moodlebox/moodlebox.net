@@ -69,6 +69,6 @@ We want the MoodleBox documentation to be the best it can be. We've open-sourced
 1. Create a pull request by visiting `https://github.com/<you-username>/moodlebox.net` and following the instructions at the top of the screen.
 
 [moodlebox]: https://moodlebox.net
-[issues]: https://github.com/martignoni/make-moodlebox/issues
+[issues]: https://github.com/martignoni/moodlebox.net/issues
 [contact]: mailto:nicolas@martignoni.net
 [markdown]: https://daringfireball.net/projects/markdown/
