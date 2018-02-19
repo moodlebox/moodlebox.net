@@ -1,6 +1,6 @@
 ---
 title: Disk-Image herunterladen
-author: Visvanath Ratnaweera
+author: Visvanath Ratnaweera, Ralf Krause
 type: kb
 date: 2018-02-02
 slug: disk-image-herunterladen
@@ -46,9 +46,10 @@ aliases:
 
 Folgen Sie nach dem Herunterladen des Disk-Images den Anweisungen für [Kopieren auf die microSD-Karte][1] und [Stelle deine MoodleBox][2] zur ersten Verwendung ein.
 
-Wenn Sie möchten, können Sie [die Entwicklung der MoodleBox unterstützen][3], indem Sie eine freiwillige Spende machen.
+Wenn Sie möchten, können Sie die [Entwicklung der MoodleBox unterstützen][3], indem Sie eine freiwillige Spende machen.
 
-Das MoodleBox Disk-Image  wird auf der Grundlage der Verteilung [Raspbian Lite für Raspberry Pi][6] gebaut.
+Das MoodleBox Disk-Image  wird auf der Basis der Distribution [Raspbian Lite für Raspberry Pi][6] gebaut.
+
 
 ### In case of trouble
 
@@ -64,9 +65,9 @@ or this one
 curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
 ```
 
- [1]: {{< relref "help/copy-the-disk-image.en.md" >}}
- [2]: {{< relref "help/startup-shutdown-restart.en.md" >}}
- [3]: {{< relref "help/support-the-moodlebox-project.en.md" >}}
+ [1]: {{< relref "help/copy-the-disk-image.de.md" >}}
+ [2]: {{< relref "help/startup-shutdown-restart.de.md" >}}
+ [3]: {{< relref "help/support-the-moodlebox-project.de.md" >}}
  [4]: {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
- [5]: {{< relref "help/install-the-moodlebox.en.md" >}}
+ [5]: {{< relref "help/install-the-moodlebox.de.md" >}}
  [6]: https://www.raspberrypi.org/downloads/raspbian/
