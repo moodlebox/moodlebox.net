@@ -10,7 +10,7 @@ categories:
   - Usage
 
 ---
-Für normale Nutzer besteht keine Notwendigkeit, auf das Betriebssystem der MoodleBox zuzugreifen. Bei Bedarf können Sie aber über SSH eine Verbindung zum Betriebssystem herstellen, indem Sie die Adresse __moodlebox.home__ und standardmäßig die folgenden Anmeldedaten verwenden:
+Für normale Nutzer besteht keinerlei Notwendigkeit, auf das Betriebssystem der MoodleBox zuzugreifen. Als Administrator können Sie aber bei Bedarf über SSH eine Verbindung zum Betriebssystem herstellen, indem Sie die Adresse __moodlebox.home__ und die folgenden Anmeldedaten verwenden:
 
   * Anmeldename: __moodlebox__
   * Kennwort: __Moodlebox4$__

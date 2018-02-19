@@ -28,19 +28,19 @@ Wenn Sie nur über SSH auf die MoodleBox über Ethernet zugreifen müssen, könn
 Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der numerischen IP-Adresse der MoodleBox vorzunehmen, ist die Konfigurationsdatei hosts, die es irgendwo im Betriebssystem Ihres Nutzergeräts gibt. Den oberen Teil der Datei dürfen Sie nicht ändern, aber Sie können unten ein paar Zeilen hinzufügen.
 
 
-    ```bash
-    ##
-    # Host Database
-    #
-    # localhost is used to configure the loopback interface
-    # when the system is booting.  Do not change this entry.
-    ##
-    127.0.0.1       localhost
-    255.255.255.255	broadcasthost
-    ::1             localhost
-    ##
-    # MoodleBox connection via Ethernet
-    # MoodleBox must get a static ip address from dhcp
-    192.168.1.143   moodlebox.home    moodlebox
-    ##
-    ```
+```bash
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1        localhost
+255.255.255.255	 broadcasthost
+::1              localhost
+##
+# MoodleBox connection via Ethernet
+# MoodleBox must get a static ip address from dhcp
+192.168.1.143    moodlebox.home    moodlebox
+##
+```

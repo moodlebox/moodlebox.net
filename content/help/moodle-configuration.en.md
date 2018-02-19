@@ -1,36 +1,35 @@
 ---
-title: Wie sind die Einstellungen von Moodle
-author: Nicolas Martignoni, Ralf Krause
+title: What is the default Moodle configuration
+author: Nicolas Martignoni
 type: kb
 date: 2017-04-20
-slug: moodle-einstellungen
+slug: moodle-configuration
 categories:
   - Maintenance
 
 ---
-Die Moodle-Plattform auf der MoodleBox hat keine besondere Konfiguration. Lediglich die folgenden Einstellungen sind angepasst, um die Verwendung zu erleichtern oder die Leistung zu verbessern.
+The Moodle environment on the MoodleBox doesn't have any special configuration. Only the following settings were changed to facilitate its use or to enhance its performance.
 
 Mobile App
-:   Der mobile Webservice für die offizielle [Moodle Mobile App][1] ist aktiviert. Die Moodle Mobile App kann über über den [Moodle Download][2] heruntergeladen werden.
+:   The mobile service for the official [Moodle Mobile app][1] is enabled. The Moodle Mobile app can be download at https://download.moodle.org/mobile/.
 
-Maximale Dateigröße
-:   Die maximale Dateigröße beim Hochladen in der MoodleBox ist auf __50MB__ gesetzt, und zwar über die PHP-Einstellungen _post\_max\_size_ und _upload\_max\_filesize_.
+File upload size
+:   The maximal file upload size is set to __50MB__ (via the PHP settings _post\_max\_size_ and _upload\_max\_filesize_).
 
 Cron
-:   Der _cron_ ist so konfiguriert, dass er __jede Minute__ abläuft (alle 3 Minuten vor Version 2.2.0). Mehrere zeitgesteuerte Prozesse benötigen einen Internetzugang. Es wird empfohlen, die MoodleBox über ein Ethernet-Kabel mit dem Internet zu verbinden.
+:   The _cron_ is configured to be run __every minute__ (every 3 minutes before version 2.2.0). Some scheduled tasks need an Internet access. It's recommended to connect the MoodleBox to the Internet with an Ethernet cable.
 
-Multi-Language Filter
-:   Der Multi-Language Inhaltsfilter ist aktiviert.
+Multi-language filter
+:   The Multi-Language Content filter is enabled.
 
 Cache
-:   Der Cache von Moodle ist so konfiguriert, dass eine __optimierte Reaktionsgeschwindigkeit__ der MoodleBox sichergestellt wird.
+:   The cache of Moodle is configured to __optimize the reactivity__ of the MoodleBox.
 
 MoodleBox Plugin
-:   Das Plugin zur [MoodleBox Administration][3] ist in Moodle installiert. Dieses Plugin ermöglicht einem Moodle-Administrator, eine Reihe von Dingen über eine GUI einzustellen: MoodleBox neustarten und ausschalten, Datum und Uhrzeit einstellen, WLAN-Einstellungen ändern, Hardware kontrollieren.
+:   The [MoodleBox Administration plugin][2] for Moodle is installed. This plugin enables a Moodle administrator to restart and shutdown, to set the date, to change some other settings and to monitor the hardware of the MoodleBox using a GUI.
 
-MathJax Bibliothek
-:   Ab der Version 2.0.0 ist die MathJax Bibliothek lokal auf der MoodleBox installiert. damit der MathJax Filter auch dann aktiviert werden kann und richtig arbeitet, wenn die MoodleBox nicht mit dem Internet verbunden ist.
+MathJax library
+:   As of version 2.0 and later, the MathJax library is installed locally, enabling the MathJax filter to work correctly even when the MoodleBox is not connected to Internet.
 
- [1]: https://docs.moodle.org/de/Moodle_App
- [2]: https://download.moodle.org/mobile/
- [3]: https://moodle.org/plugins/tool_moodlebox
+ [1]: https://download.moodle.org/mobile/
+ [2]: https://moodle.org/plugins/tool_moodlebox
