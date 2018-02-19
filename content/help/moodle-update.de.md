@@ -1,5 +1,5 @@
 ---
-title: Wie wird Moodle aktualisiert?
+title: Moodle aktualisieren
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2018-02-13
@@ -8,9 +8,9 @@ categories:
   - Maintenance
 
 ---
-Um die Aktualisierung von Moodle möglichst einfach zu machen, wurde die Installation über Git durchgeführt. Für eine Aktualisierung führen Sie folgende Anweisungen über die Kommandozeile im Terminal aus.
+Um die Aktualisierung von Moodle auf der MoodleBox möglichst einfach zu machen, wurde die Installation über Git durchgeführt. Für eine Aktualisierung führen Sie folgende Anweisungen über die Kommandozeile im Terminal aus.
 
-[Melden Sie sich bei der MoodleBox über SSH an][2] und geben Sie das standardmäßige Kennwort __Moodlebox4$__ ein.
+[Verbinden Sie sich mit der MoodleBox über SSH][2] und geben Sie das standardmäßige Kennwort __Moodlebox4$__ ein. Falls Sie das Kennwort geändert haben, müssen sie natürlich das neue Kennwort eingeben.
 
 ```bash
 ssh moodlebox@moodlebox.home
@@ -25,7 +25,7 @@ cd /var/www/moodle/
 sudo -u www-data git pull
 ```
 
-Rufen Sie anschließend im Browser die URL http://moodlebox.home/admin auf und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Lesen Sie die Dokumentation][1]).
+Öffnen Sie anschließend im Browser die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][1]).
 
 
 ### Aktualisierung auf eine __Major Version__ (großer Versionssprung)
@@ -39,7 +39,7 @@ sudo -u www-data git pull
 sudo -u www-data git checkout MOODLE_35_STABLE
 ```
 
-Rufen Sie auch hier die URL http://moodlebox.home/admin auf und folgen Sie genau wie oben der Anleitung.
+Öffnen Sie auch hier die URL http://moodlebox.home/admin und folgen Sie genau wie oben der Anleitung.
 
  [1]: https://docs.moodle.org/de/Aktualisierung_von_Moodle
  [2]: {{< relref "command-line-access.de.md" >}}
