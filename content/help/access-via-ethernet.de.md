@@ -36,7 +36,7 @@ Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der nume
 # when the system is booting.  Do not change this entry.
 ##
 127.0.0.1        localhost
-255.255.255.255	 broadcasthost
+255.255.255.255  broadcasthost
 ::1              localhost
 ##
 # MoodleBox connection via Ethernet

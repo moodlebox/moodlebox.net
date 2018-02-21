@@ -25,7 +25,7 @@ Falls es möglich ist, sollten Sie die MoodleBox bei jedem Start über Ethernet 
 Um das Risiko von Datenbeschädigungen auf der MicroSD-Karte zu minimieren, fahren Sie zuerst die MoodleBox manuell herunter, bevor Sie die Stromversorgung ausschalten.
 {{% /notice %}}
 
-Über die grafische Benutzeroberfläche können Sie die MoodleBox neu starten und sicher ausschalten. 
+Über die grafische Benutzeroberfläche können Sie die MoodleBox neu starten und sicher ausschalten.
 
 Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleBox an und rufen Sie die Einstellungsseite [Website-Administration > Server > MoodleBox] [1] auf.
 
