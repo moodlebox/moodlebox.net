@@ -11,6 +11,12 @@ categories:
 ---
 La MoodleBox n'est pas destinée à servir ses appareils clients par Ethernet. Cependant, il est possible de s'y connecter via Ethernet, moyennant la configuration de votre routeur.
 
+La plateforme Moodle ne fonctionne correctement que si elle est appelée via son nom de domaine __moodlebox.home__. Par défaut, ce nom de domaine n'est pas connu dans le réseau Ethernet, et c'est là que réside la difficulté !
+
+{{% notice warning %}}
+En raison de la diversité du matériel installé chez les utilisateurs, aucun support ne peut être assuré pour la configuration de votre routeur ou de votre appareil. N'effectuez de telles modifications que si vous savez vraiment ce que vous faites.
+{{% /notice %}}
+
 ### Configurer le serveur DNS de votre routeur
 
 Il est nécessaire que, sur votre réseau Ethernet, le nom de domaine __moodlebox.home__ soit attribué à la MoodleBox. Ceci requiert de disposer d'un serveur DNS sur votre réseau Ethernet (par exemple sur votre routeur). Ce serveur DNS va attribuer le nom de domaine à l'adresse IP numérique de votre MoodleBox. L'adresse IP numérique est elle-même distribuée par le serveur DHCP du routeur (habituellement, cette adresse est quelque chose comme 192.168.1.143).

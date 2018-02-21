@@ -11,8 +11,10 @@ categories:
 ---
 Normalerweise ist es nicht vorgesehen, mit kabelgebundenen Nutzergeräten im Ethernet-Netzwerk auf die MoodleBox zuzugreifen. Trotzdem ist dies aber möglich, wenn man ein paar zusätzliche Einstellungen vornimmt.
 
-Die Moodle-Plattform funktioniert nur dann korrekt, wenn sie über ihren Domänenname __moodlebox.home__ aufgerufen wird. Standardmäßig ist dieser Domänenname aber im Ethernet-Netzwerk nicht bekannt ... und hier liegt die Schwierigkeit!
+Die Moodle-Plattform funktioniert nur dann korrekt, wenn sie über ihren Domänenname __moodlebox.home__ aufgerufen wird. Standardmäßig ist dieser Domänenname aber im Ethernet-Netzwerk nicht bekannt, und hier liegt die Schwierigkeit!
 
+{{% notice warning %}}
+Aufgrund der Vielfalt der installierten Hardware kann keine Unterstützung für die Konfiguration Ihres Routers oder Geräts geleistet werden. Nehmen Sie solche Änderungen nur dann vor, wenn Sie wirklich wissen, was Sie tun.{{% /notice %}}
 
 ### DNS-Server im Kabel-Netzwerk konfigurieren
 
@@ -22,11 +24,9 @@ Sobald diese Änderung vorgenommen wurde, können alle Nutzergeräte im Kabelnet
 
 Wenn Sie nur über SSH auf die MoodleBox über Ethernet zugreifen müssen, können Sie dies mit der numerischen IP-Adresse tun, ohne dass Änderungen erforderlich sind.
 
-
-### Konfigurationsdatei hosts erweitern
+### Konfigurationsdatei hosts Ihres Nutzergeräts erweitern
 
 Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der numerischen IP-Adresse der MoodleBox vorzunehmen, ist die Konfigurationsdatei hosts, die es irgendwo im Betriebssystem Ihres Nutzergeräts gibt. Den oberen Teil der Datei dürfen Sie nicht ändern, aber Sie können unten ein paar Zeilen hinzufügen.
-
 
 ```bash
 ##
