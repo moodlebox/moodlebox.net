@@ -20,7 +20,7 @@ Nachdem Sie mit dem WLAN der MoodleBox verbunden sind, können Sie über Ihren B
 
 Sie sind jetzt mit dem Administratorkonto im Moodle auf der MoodleBox verbunden. __Es wird dringend empfohlen, das Initialkennwort__ des Administratorkontos bei der ersten Anmeldung zu ändern.
 
-Die Moodle-Plattform hat genau ein Nutzerkonto (Administrator), wenn es bereit gestellt wird. Beim Start ist die Moodle-Plattform leer und es sind noch keine Kurse angelegt. Die Moodle-Plattform muss von Ihnen selber angepasst werden, genauso wie Sie auch alle Kursinhalte (Materialien, Aktivitäten, etc.) und Nutzerkonten selber einfügen müssen. Falls Sie nicht genau wissen wie das geht, finden Sie alle Infos in der [Moodle-Dokumentation][3].
+Die Moodle-Plattform hat genau ein Nutzerkonto (Administrator), wenn es bereit gestellt weird. Beim Start ist die Moodle-Plattform leer und es sind noch keine Kurse angelegt. Die Moodle-Plattform muss von Ihnen selber angepasst werden, genauso wie Sie auch alle Kursinhalte (Materialien, Aktivitäten, etc.) und Nutzerkonten selber einfügen müssen. Falls Sie nicht genau wissen wie das geht, finden Sie alle Infos in der [Moodle-Dokumentation][3].
 
  [1]: {{< relref "help/wi-fi-connection.de.md" >}}
  [2]: http://moodlebox.home/
