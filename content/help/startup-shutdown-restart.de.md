@@ -17,7 +17,7 @@ Setzen Sie die kopierte MicroSD-Karte in den Steckplatz im Raspberry Pi 3 ein. V
 Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die MoodleBox fertig und voll funktionsfähig.
 
 Falls es möglich ist, sollten Sie die MoodleBox bei jedem Start über Ethernet mit dem Netzwerk zu verbinden. Nur dann können die Wartungsaufgaben erfolgreich durchgeführt werden, die eine Internetverbindung erfordern (z.B. die Synchronisation der internen Systemuhr).
-
+ 
 
 #### Ausschalten
 
@@ -32,18 +32,20 @@ Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleB
 {{< figure link="/img/media/restart-shutdown-en.png" caption="Neustarten und ausschalten" caption-position="bottom" caption-effect="appear" width="722px" >}}
 
 Im Abschnitt __Neustarten und ausschalten__ zeigt die Benutzeroberfläche zwei Schaltflächen, mit denen Sie die MoodleBox neustarten oder ausschalten können. Tippen Sie auf die Schaltfläche __MoodleBox ausschalten__, warten Sie einige Sekunden und kontrollieren Sie, dass die grüne LED nicht mehr leuchtet. Jetzt können Sie das Netzteil entfernen.
+ 
 
 ### Neustarten
 
 Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleBox an und rufen Sie die Einstellungsseite [Website-Administration > Server > MoodleBox] [1] auf.
 
 Tippen Sie auf die Schaltfläche __MoodleBox neustarten__. Warten Sie einige Sekunden, bis die MoodleBox wieder verfügbar ist.
+ 
 
 ### Hardware zum Ein- und Ausschalten erweitern
 
-Es ist möglich, eine Hardwaretaste zu installieren, um die MoodleBox ein- und auszuschalten. Das [MoodleBox Disk-Image][2] erlaubt die Verwendung einer solchen Taste ohne Konfigurationsänderungen.
+Wenn Sie möchten, können Sie eine Hardwaretaste installieren, um die MoodleBox ein- und auszuschalten. Das [MoodleBox Disk-Image][2] erlaubt die Verwendung einer solchen Taste ohne Konfigurationsänderungen.
 
-Die Installation einer Hardwaretaste ist sehr einfach. Sie müssen lediglich eine Taste kaufen, z.B. diese [kapazitive Taste][3], und sie mit [Jumperkabeln][4] an die richtigen Pins des GPIO-Ports der MoodleBox anschließen (siehe Bild unten, dank an Laurent Fleron). Danach starten Sie die MoodleBox neu.
+Die Installation einer Hardwaretaste ist sehr einfach. Sie müssen lediglich eine Taste kaufen, z.B. eine [kapazitive Taste][3], und sie mit [Jumperkabeln][4] an die richtigen Pins des GPIO-Ports der MoodleBox anschließen (siehe Bild unten, dank an Laurent Fleron). Danach starten Sie die MoodleBox neu.
 
 {{< figure link="/img/media/hardware-button.jpg" thumb="-small" caption="Hardwaretaste" caption-position="bottom" caption-effect="appear" width="400px" >}}
 

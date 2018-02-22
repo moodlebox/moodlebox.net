@@ -1,9 +1,9 @@
 ---
-title: WLAN-Einstellungen aktualisieren
+title: WLAN-Einstellungen ändern
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-08-12
-slug: wlan-einstellungen-aktualisieren
+slug: wlan-einstellungen-aendern
 weight: 6
 categories:
   - First steps
@@ -18,12 +18,12 @@ Wenn Sie die MoodleBox einschalten, arbeitet die MoodleBox wie ein WLAN-AccessPo
 ### WLAN-Namen (SSID) ändern
 
 Sie können den WLAN-Namen (SSID) der MoodleBox ändern. Geben Sie einen neuen WLAN-Namen in das entsprechende Feld ein und tippen Sie auf die Taste __Einstellungen ändern__.
-
+ 
 
 ### WLAN-Kanal ändern
 
 Um den WLAN-Kanal der MoodleBox zu ändern, wählen Sie einen Kanal und tippen Sie auf die Taste __Einstellungen ändern__.
-
+ 
 
 ### WLAN-Kennwort entfernen oder ändern
 

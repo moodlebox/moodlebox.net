@@ -12,12 +12,12 @@ aliases:
   - de/hardware
 
 ---
-Hier ist eine Übersicht der Dinge, die Sie zur Erstellung einer eigenen MoodleBox brauchen:
+Hier ist eine Übersicht alle Dinge, die Sie für Ihre eigene MoodleBox brauchen:
 
   * [Raspberry Pi 3][1],
   * [Stromversorgung][2],
   * [MicroSD-Karte][3], 32 GB (mindestens),
-  * [Gehäuse für Raspberry Pi][4] (nicht notwendig, aber nützlich, um den Raspberry Pi 3 zu schützen).
+  * [Gehäuse für Raspberry Pi][4] (nicht notwendig, aber Sie sollten den Raspberry Pi 3 schützen).
 
 Die Kosten für die gesamte Hardware betragen ungefähr USD 90, 80 € oder CHF 90.
 

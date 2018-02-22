@@ -8,23 +8,23 @@ categories:
   - Maintenance
 
 ---
-As a routine security measure, it is recommended to update regularly the server software on the MoodleBox to patch vulnerabilities found in the Raspbian distribution and to fix other discovered bugs.
+Als routinemäßige Sicherheitsmaßnahme wird empfohlen, die Serversoftware auf der MoodleBox regelmäßig zu aktualisieren. Mit dieser Maßnahme können mögliche Schwachstellen in der Raspbian-Distribution gepatcht und andere entdeckte Fehler behoben werden.
 
-For this operation, the MoodleBox must be connected to the Internet.
+Für diese Operation muss die MoodleBox über ein Ethernetkabel mit dem Internet verbunden sein.
+ 
 
-### Updating the MoodleBox software
+### MoodleBox-Software aktualisieren
 
-  1. Connect to [the command line interface of the MoodleBox][1] via SSH, using your credentials. Here are the [defaults credentials][2].
-  2. Branch the MoodleBox with an Ethernet cable to a local network with Internet access.
-  3. Type the following command in the terminal interface:
+  1. Melden Sie sich im Terminal über SSH für die [Eingabezeile der Moodlebox][1] an. Hier sind die [standardmäßigen Anmeldedaten][2].
+  2. Verbinden Sie die MoodleBox über ein Ethernetkabel mit einem Internetrouter oder einem lokalen Netzwerk mit Internetzugang.
+  3. Schreiben Sie die folgenden Anweisung ins Terminal und bestätigen Sie dies mit der Eingabetaste:
 
     ```bash
     sudo apt-get update && sudo apt-get upgrade -y
     ```
 
-    and confirm with Return.
-  4. This operation will take a couple of minutes. The duration depends on the number of the softwares to update, on your Internet bandwidth and on the quality of your microSD card.
-  5. At the end of the update process, type `exit`, and confirm with Return.
+  4. Die Verarbeitung dieser Anweisung wird wohl eine Weile dauern, wahrscheinlich mehrere Minuten. Die Dauer hängt vom Umfang der zu aktualisierenden Software, von der Bandbreite Ihrer Internetverbindung und von der Qualität Ihrer MicroSD-Karte ab.
+  5. Am Ende des Update-Vorgangs geben Sie `exit` ein und bestätigen dies mit der Eingabetaste.
 
  [1]: {{< relref "command-line-access.de.md" >}}
  [2]: {{< relref "credentials.de.md" >}}
