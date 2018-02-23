@@ -11,7 +11,6 @@ categories:
 Als routinemäßige Sicherheitsmaßnahme wird empfohlen, die Serversoftware auf der MoodleBox regelmäßig zu aktualisieren. Mit dieser Maßnahme können mögliche Schwachstellen in der Raspbian-Distribution gepatcht und andere entdeckte Fehler behoben werden.
 
 Für diese Operation muss die MoodleBox über ein Ethernetkabel mit dem Internet verbunden sein.
- 
 
 ### MoodleBox-Software aktualisieren
 

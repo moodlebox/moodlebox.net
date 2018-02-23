@@ -23,7 +23,6 @@ In Ihrem Ethernet-Netzwerk muss der Domänenname __moodlebox.home__ für die Moo
 Sobald diese Änderung vorgenommen wurde, können alle Nutzergeräte im Kabelnetzwerk auf die MoodleBox zugreifen (ohne selber deren numerische IP-Adresse zu kennen). Sie verwenden die Adresse http://moodlebox.home/, und die Moodle-Plattform auf der MoodleBox wird korrekt antworten. Alle Geräte, die sich über WLAN verbinden, können dies weiterhin tun.
 
 Wenn Sie nur über SSH auf die MoodleBox über Ethernet zugreifen müssen, können Sie dies mit der numerischen IP-Adresse tun, ohne dass Änderungen erforderlich sind.
- 
 
 ### Konfigurationsdatei `hosts` Ihres Computers erweitern
 

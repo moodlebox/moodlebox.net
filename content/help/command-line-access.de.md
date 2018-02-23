@@ -14,7 +14,6 @@ Für normale Nutzer besteht keinerlei Notwendigkeit, auf das Betriebssystem der 
 
   * Anmeldename: __moodlebox__
   * Kennwort: __Moodlebox4$__
-  
 
 ### Mit PuTTY (bei Windows)
 
