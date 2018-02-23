@@ -17,7 +17,6 @@ Setzen Sie die kopierte MicroSD-Karte in den Steckplatz im Raspberry Pi 3 ein. V
 Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die MoodleBox fertig und voll funktionsfähig.
 
 Falls es möglich ist, sollten Sie die MoodleBox bei jedem Start über Ethernet mit dem Netzwerk zu verbinden. Nur dann können die Wartungsaufgaben erfolgreich durchgeführt werden, die eine Internetverbindung erfordern (z.B. die Synchronisation der internen Systemuhr).
- 
 
 #### Ausschalten
 
@@ -38,7 +37,6 @@ Im Abschnitt __Neustarten und ausschalten__ zeigt die Benutzeroberfläche zwei S
 Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleBox an und rufen Sie die Einstellungsseite [Website-Administration > Server > MoodleBox] [1] auf.
 
 Tippen Sie auf die Schaltfläche __MoodleBox neustarten__. Warten Sie einige Sekunden, bis die MoodleBox wieder verfügbar ist.
- 
 
 ### Hardware zum Ein- und Ausschalten erweitern
 

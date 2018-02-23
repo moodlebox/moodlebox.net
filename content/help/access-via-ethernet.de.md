@@ -15,7 +15,6 @@ Die Moodle-Plattform funktioniert nur dann korrekt, wenn sie über ihren Domäne
 
 {{% notice warning %}}
 Aufgrund der Vielfalt der installierten Hardware kann keine Unterstützung für die Konfiguration Ihres Routers oder Geräts geleistet werden. Nehmen Sie solche Änderungen nur dann vor, wenn Sie wirklich wissen, was Sie tun.{{% /notice %}}
-  
 
 ### DNS-Server im Kabel-Netzwerk konfigurieren
 
@@ -24,11 +23,11 @@ In Ihrem Ethernet-Netzwerk muss der Domänenname __moodlebox.home__ für die Moo
 Sobald diese Änderung vorgenommen wurde, können alle Nutzergeräte im Kabelnetzwerk auf die MoodleBox zugreifen (ohne selber deren numerische IP-Adresse zu kennen). Sie verwenden die Adresse http://moodlebox.home/, und die Moodle-Plattform auf der MoodleBox wird korrekt antworten. Alle Geräte, die sich über WLAN verbinden, können dies weiterhin tun.
 
 Wenn Sie nur über SSH auf die MoodleBox über Ethernet zugreifen müssen, können Sie dies mit der numerischen IP-Adresse tun, ohne dass Änderungen erforderlich sind.
-  
+ 
 
-### Konfigurationsdatei hosts erweitern
+### Konfigurationsdatei `hosts` Ihres Computers erweitern
 
-Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der numerischen IP-Adresse der MoodleBox vorzunehmen, ist die Konfigurationsdatei hosts, die es irgendwo im Betriebssystem Ihres Computers gibt. Den oberen Teil der Datei dürfen Sie auf keinen Fall ändern, aber Sie können unten ein paar Zeilen hinzufügen. Wenn Sie den unteren Abschnitt mit der richtigen IP-Adresse der MoodleBox hinzugefügt haben, sollten Sie im Browser Ihres Computers die Startseite der Moodlebox __moodlebox.home__ aufrufen können.
+Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der numerischen IP-Adresse der MoodleBox vorzunehmen, ist die Konfigurationsdatei `hosts`, die es irgendwo im Betriebssystem Ihres Computers gibt. Den oberen Teil der Datei dürfen Sie auf keinen Fall ändern, aber Sie können unten ein paar Zeilen hinzufügen. Wenn Sie den unteren Abschnitt mit der richtigen IP-Adresse der MoodleBox hinzugefügt haben, sollten Sie im Browser Ihres Computers die Startseite der Moodlebox __moodlebox.home__ aufrufen können.
 
 ```bash
 ##
@@ -38,11 +37,11 @@ Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der nume
 # when the system is booting.  Do not change this entry.
 ##
 127.0.0.1        localhost
-255.255.255.255	 broadcasthost
+255.255.255.255  broadcasthost
 ::1              localhost
 ##
 # MoodleBox connection via Ethernet
-# MoodleBox must get a static ip address from dhcp
+# MoodleBox must get an ip address via dhcp
 192.168.1.143    moodlebox.home    moodlebox
 ##
 ```

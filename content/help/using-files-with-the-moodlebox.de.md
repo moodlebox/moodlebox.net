@@ -20,7 +20,7 @@ Wenn mehrere USB-Sticks in die MoodleBox eingesteckt werden, sind ausschließlic
 An Stelle eines USB-Sticks kann auch eine USB-Festplatte oder eine USB-SSD an die MoodleBox angeschlossen und als Repository __USB Drive__ bereit gestellt werden. Beachten Sie bitte, dass eine USB-Festplatte möglicherweise zu viel Strom benötigt, mehr als der USB-Port der MoodleBox liefert.
 
 Die MoodleBox kommt mit folgenden Formatierungen zurecht: fat32, vfat, ext2, ext3, ext4 und hfs+. Die Formatierung ntfs funktioniert bisher nicht, soll aber in einer zukünftigen Version der MoodleBox hinzugefügt werden.
- 
+
 
 ### Dateien über SFTP
 
