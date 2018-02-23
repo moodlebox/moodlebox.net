@@ -25,7 +25,7 @@ cd /var/www/moodle/
 sudo -u www-data git pull
 ```
 
-Öffnen Sie anschließend im Browser die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][1]).
+Öffnen Sie anschließend im Browser die URL __http://moodlebox.home/admin/__ und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][1]).
 
 ### Aktualisierung auf eine __Major Version__ (großer Versionssprung)
 

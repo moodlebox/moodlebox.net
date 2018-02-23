@@ -9,9 +9,9 @@ categories:
   - Usage
 
 ---
-Verbinden Sie die MoodleBox über ein Ethernetkabel mit einem Internetrouter oder einem Netzwerk, das einen Zugang zum Internet bietet. Dann fungiert die MoodleBox als Router und schaltet ihrerseits den Internetzugang für alle Geräte frei, die mit ihr über WLAN verbunden sind.
+Verbinden Sie die MoodleBox über ein Ethernetkabel mit einem Internetrouter oder einem Netzwerk, das den Zugang zum Internet bietet. In diesem Fall fungiert die MoodleBox als Router und schaltet ihrerseits den Internetzugang für alle Geräte frei, die mit ihr über das WLAN __MoodleBox__ verbunden sind.
 
-Wenn der WLAN-Internetzugang nicht gewünscht wird, entfernen Sie einfach das Ethernetkabel von der MoodleBox. Ohne Ethernetkabel wird kein WLAN-Internetzugang bereitgestellt.
+Wenn der Internetzugang für die WLAN-Geräte nicht gewünscht wird, entfernen Sie einfach das Ethernetkabel von der MoodleBox. Ohne Ethernetkabel wird kein WLAN-Internetzugang bereitgestellt.
 
 Weitere Informationen hierzu finden Sie in der [MoodleBox Netzwerktopologie][1].
 

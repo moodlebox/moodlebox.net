@@ -49,17 +49,17 @@ Folgen Sie nach dem Herunterladen des Disk-Images den Anweisungen für [Kopieren
 Wenn Sie möchten, können Sie die [Entwicklung der MoodleBox unterstützen][3], indem Sie eine freiwillige Spende machen.
 
 Das MoodleBox Disk-Image  wird auf der Basis der Distribution [Raspbian Lite für Raspberry Pi][6] gebaut.
+ 
 
+### Probleme beim Herunterladen
 
-### In case of trouble
-
-If you experience any trouble when downloading the disk image, use your command line interface, for example with this command
+Wenn beim Herunterladen des Disk-Images nicht erklärbare Probleme auftreten, verwenden Sie die Eingabezeile im Terminal, z.B. mit diesem Befehl
 
 ```bash
 wget -c {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
 ```
 
-or this one
+oder mit diesem
 
 ```bash
 curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}

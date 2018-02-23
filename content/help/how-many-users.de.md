@@ -1,15 +1,15 @@
 ---
-title: Wie viele Benutzer können die MoodleBox gleichzeitig nutzen
-author: Nicolas Martignoni
+title: Wie viele Benutzer können die MoodleBox gleichzeitig verwenden
+author: Nicolas Martignoni, Ralf Krause
 type: kb
-date: 2017-04-20T16:46:31+00:00
+date: 2017-04-20
 slug: moodlebox-wie-viele-benutzer
 weight: 10
 categories:
   - Usage
 
 ---
-Die MoodleBox wurde auf Basis eines Mini-Computers [Raspberry Pi 3][1] erstellt. Seine schlanke Architektur ermöglicht den Einsatz mit 20 bis 30 mobilen Geräten.
+Die MoodleBox wurde auf Basis des Mini-Computers [Raspberry Pi 3][1] erstellt. Seine Architektur ermöglicht den Einsatz mit 20 bis 30 mobilen Geräten.
 
 Die MoodleBox nicht darauf ausgelegt, größere Gruppen und noch mehr mobile Geräte zu versorgen.
 
