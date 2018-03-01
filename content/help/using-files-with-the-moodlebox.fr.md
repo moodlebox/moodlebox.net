@@ -19,7 +19,7 @@ Si plusieurs clefs USB sont insérées dans la MoodleBox, seuls les fichiers de 
 
 Au lieu d'une clef USB, un disque dur (ou SSD) USB peut également être connecté à la MoodleBox et rendu disponible via le dépôt __USB Drive__. Veuillez noter qu'un disque dur USB peut nécessiter plus de courant que le port USB de la MoodleBox peut en fournir, et nécessitera donc une alimentation externe.
 
-Le MoodleBox prend en charge les formats suivants : fat32, vfat, ext2, ext3, ext4 et hfs+. Le formatage ntfs sera ajouté dans une prochaine version de la MoodleBox.
+La MoodleBox prend en charge les formats suivants : FAT32, VFAT, ext2, ext3, ext4 et HFS+. Les versions 2.2.0 et ultérieures de la MoodleBox prennent également en charge les clefs et disques formatés en NTFS et en exFAT.
 
 ### Fichiers via SFTP
 

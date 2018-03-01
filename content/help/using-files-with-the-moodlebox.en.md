@@ -19,7 +19,7 @@ If several USB sticks are inserted into the MoodleBox, only the files of the fir
 
 Instead of a USB stick, a USB hard disk (or SSD) can also be connected to the MoodleBox and made available via the repository __USB Drive__. Please note that a USB hard disk may need more power than the USB port of the MoodleBox provides and require an external power supply.
 
-The MoodleBox handles the following formats: fat32, vfat, ext2, ext3, ext4 and hfs+. The ntfs formatting will be added in a future version of the MoodleBox.
+The MoodleBox handles the following formats: FAT32, VFAT, ext2, ext3, ext4 and HFS+. Version 2.2.0 and later of the MoodleBox supports also NTFS and exFAT formatted drives.
 
 ### Files via SFTP
 
