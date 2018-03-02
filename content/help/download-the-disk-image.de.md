@@ -26,7 +26,7 @@ aliases:
       Version: <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="version" >}}</strong>
     </div>
     <div class="image-details">
-      Moodle Version: <strong>3.4+ (Build: 20171123)</strong>
+      Moodle Version: <strong>3.4.1+ (Build: 20180228)</strong>
     </div>
     <div class="image-details">
       Größe: <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="file_size" >}} MB</strong>
@@ -64,9 +64,9 @@ oder mit diesem
 curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
 ```
 
- [1]: {{< relref "help/copy-the-disk-image.de.md" >}}
- [2]: {{< relref "help/startup-shutdown-restart.de.md" >}}
- [3]: {{< relref "help/support-the-moodlebox-project.de.md" >}}
+ [1]: {{< relref "copy-the-disk-image.de.md" >}}
+ [2]: {{< relref "startup-shutdown-restart.de.md" >}}
+ [3]: {{< relref "support-the-moodlebox-project.de.md" >}}
  [4]: {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
- [5]: {{< relref "help/install-the-moodlebox.de.md" >}}
+ [5]: {{< relref "install-the-moodlebox.de.md" >}}
  [6]: https://www.raspberrypi.org/downloads/raspbian/
