@@ -1,6 +1,6 @@
 ---
 title: "Disk image version 2.2.0"
-description: "MoodleBox 2.2.0 is based on Moodle version 2.4.1. Various improvements have also been made."
+description: "MoodleBox 2.2.0 is based on Moodle version 3.4.1. Various improvements have also been made."
 date: 2018-03-02
 slug: "version-2.2.0"
 ---

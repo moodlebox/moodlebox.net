@@ -1,6 +1,6 @@
 ---
 title: "Version 2.2.0 de l'image disque"
-description: "MoodleBox 2.2.0 est basée sur la version 2.4.1 de Moodle. Diverses améliorations ont sont également présentes."
+description: "MoodleBox 2.2.0 est basée sur la version 3.4.1 de Moodle. Diverses améliorations ont sont également présentes."
 date: 2018-03-02
 slug: "version-2.2.0"
 ---
