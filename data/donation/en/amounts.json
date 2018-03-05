@@ -1,0 +1,41 @@
+[{
+    "id": "1",
+    "name": "Symbolic thank you",
+    "price": 5,
+    "image": "",
+    "description": "",
+    "url": "//en/help/support-the-moodlebox-project/",
+    "default": false
+}, {
+    "id": "2",
+    "name": "Motivation bonus",
+    "description": "",
+    "price": 10,
+    "image": "",
+    "url": "//en/help/support-the-moodlebox-project/",
+    "default": false
+}, {
+    "id": "3",
+    "name": "Web hosting, 1 month",
+    "description": "",
+    "price": 20,
+    "image": "",
+    "url": "//en/help/support-the-moodlebox-project/",
+    "default": true
+}, {
+    "id": "4",
+    "name": "Web hosting, 3 months",
+    "description": "",
+    "price": 50,
+    "image": "",
+    "url": "//en/help/support-the-moodlebox-project/",
+    "default": false
+}, {
+    "id": "5",
+    "name": "Web hosting, 6 months",
+    "description": "",
+    "price": 100,
+    "image": "",
+    "url": "//en/help/support-the-moodlebox-project/",
+    "default": false
+}]

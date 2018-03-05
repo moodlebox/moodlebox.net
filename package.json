@@ -1,0 +1,28 @@
+{
+  "name": "moodlebox.net",
+  "version": "1.0.0",
+  "description": "MoodleBox website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:martignoni/new-moodlebox.net",
+  "author": "Nicolas Martignoni",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/martignoni/new-moodlebox.net/issues"
+  },
+  "homepage": "https://moodlebox.net/",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-remove-empty-lines": "^0.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-rename-plus": "^0.0.5",
+    "gulp-if": "^2.0.2"
+  }
+}

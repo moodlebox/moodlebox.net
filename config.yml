@@ -1,0 +1,340 @@
+baseurl: https://moodlebox.netlify.com/
+title: MoodleBox
+theme: moodlebox
+languageCode: en-us
+
+# Do not inject generator meta tag on homepage
+disableHugoGeneratorInject: true
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage: en
+# Enable comments by entering your Disqus shortname
+# disqusShortname: ''
+# Enable Google Analytics by entering your tracking code
+# googleAnalytics: ''
+
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir: true
+
+# Show a placeholder instead of the default value or an empty string if a translation is missing
+# enableMissingTranslationPlaceholders: false
+
+# Log File path (if set, logging enabled automatically)
+# logFile: "./hugolog.txt"
+
+# Define the number of posts per page
+paginate: 5
+
+# Allow taxonomy term with special characters
+preserveTaxonomyNames: true
+
+# Disable incomplete languages
+#disableLanguages: [ "de" ]
+
+languages:
+  en:
+    languageName: English
+    title: MoodleBox
+    description: "A Moodle platform on Raspberry Pi"
+    about_us: MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://twitter.com/nmartignoni).
+    footertext: MoodleBox project is made by [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    copyright: Copyright © 2016 onwards
+    weight: 1
+    # Format dates with Go's time formatting
+    date_format: January 2, 2006
+    menu:
+      main:
+      - identifier: help
+        name: Using MoodleBox
+        weight: 2
+
+      - parent: help
+        name: Knowledge base
+        url: /help/
+        weight: 1
+      - parent: help
+        name: Support MoodleBox
+        url: /give/
+        weight: 2
+      - parent: help
+        name: About MoodleBox
+        url: /about/
+        weight: 3
+      - parent: help
+        name: Contact
+        url: /contact/
+        weight: 4
+
+      - identifier: get
+        name: Get MoodleBox
+        weight: 3
+      - parent: get
+        name: Download the disk image
+        url: /dl/
+        weight: 1
+      - parent: get
+        name: Get the hardware
+        url: /hardware/
+        weight: 2
+      - parent: get
+        name: Install MoodleBox
+        url: /install/
+        weight: 3
+      - parent: get
+        name: Make your own disk image
+        url: /diy/
+        weight: 4
+
+    testimonials:
+      enable: true
+      subtitle: Have a look at what teachers around the world said about the MoodleBox.
+      title: What teachers say
+
+  fr:
+    languageName: Français
+    title: MoodleBox
+    description: "Une plateforme Moodle sur Raspberry Pi"
+    about_us: MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://twitter.com/nmartignoni).
+    footertext: MoodleBox est un projet réalisé par [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    copyright: Copyright © 2016 et suivantes
+    weight: 2
+    # Format dates with Go's time formatting
+    date_format: 2 January 2006
+    menu:
+      main:
+      - identifier: help
+        name: Utiliser la MoodleBox
+        weight: 2
+
+      - parent: help
+        name: Assistance
+        url: /help/
+        weight: 1
+      - parent: help
+        name: Soutenir MoodleBox
+        url: /give/
+        weight: 2
+      - parent: help
+        name: À propos de MoodleBox
+        url: /about/
+        weight: 3
+      - parent: help
+        name: Contact
+        url: /contact/
+        weight: 4
+
+      - identifier: get
+        name: Obtenir la MoodleBox
+        weight: 3
+
+      - parent: get
+        name: Télécharger l'image-disque
+        url: /dl/
+        weight: 1
+      - parent: get
+        name: Obtenir le matériel
+        url: /hardware/
+        weight: 2
+      - parent: get
+        name: Installer MoodleBox
+        url: /install/
+        weight: 3
+      - parent: get
+        name: Créer son image-disque
+        url: /diy/
+        weight: 4
+
+    testimonials:
+      enable: true
+      subtitle: Découvrez ce que des enseignants du monde entier disent de la MoodleBox.
+      title: Ce que les enseignants en disent
+
+  de:
+    languageName: Deutsch
+    title: MoodleBox
+    description: "Eine Moodle-Plattform auf dem Raspberry Pi"
+    about_us: MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://twitter.com/nmartignoni).
+    footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    copyright: Copyright © 2016 und später
+    weight: 3
+    # Format dates with Go's time formatting
+    date_format: 2. January 2006
+    menu:
+      main:
+      - identifier: help
+        name: MoodleBox benutzen
+        weight: 2
+
+      - parent: help
+        name: Dokumentation
+        url: /help/
+        weight: 1
+      - parent: help
+        name: MoodleBox unterstützen
+        url: /give/
+        weight: 2
+      - parent: help
+        name: Über MoodleBox
+        url: /about/
+        weight: 3
+      - parent: help
+        name: Kontakt
+        url: /contact/
+        weight: 4
+
+      - identifier: get
+        name: MoodleBox erhalten
+        weight: 3
+      - parent: get
+        name: Disk-Image herunterladen
+        url: /dl/
+        weight: 1
+      - parent: get
+        name: Hardware beschaffen
+        url: /hardware/
+        weight: 2
+      - parent: get
+        name: MoodleBox installieren
+        url: /install/
+        weight: 3
+      - parent: get
+        name: Disk-Image selber erstellen
+        url: /diy/
+        weight: 4
+
+    testimonials:
+      enable: true
+      subtitle: Finden Sie die Meinungen von Lehrkräften aus aller Welt über die MoodleBox heraus.
+      title: Was Lehrer dazu sagen
+
+menu:
+  topbar:
+  - name: GitHub
+    pre: <i class='fa fa-2x fa-github'></i>
+    url: https://github.com/martignoni/moodlebox
+    weight: 1
+#  - name: Facebook
+#    pre: <i class='fa fa-2x fa-facebook'></i>
+#    url: https://facebook.com
+#    weight: 2
+  - name: Twitter
+    pre: <i class='fa fa-2x fa-twitter'></i>
+    url: https://twitter.com
+    weight: 3
+  - name: Email
+    pre: <i class='fa fa-2x fa-envelope'></i>
+    url: mailto:nicolas@martignoni.net
+    weight: 4
+
+params:
+  author: Nicolas Martignoni
+  address: ''
+  defaultDescription: MoodleBox, a Moodle platform on Raspberry Pi
+  defaultKeywords:
+  - MoodleBox
+  - Moodle
+  - Raspberry
+  - Raspberry Pi
+  - RPi
+
+  # Since this template is static, the contact form uses www.formspree.io as a
+  # proxy. The form makes a POST request to their servers to send the actual
+  # email. Visitors can send up to a 1000 emails each month for free.
+  #
+  # What you need to do for the setup?
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email yourself to confirm your account
+  # - click the confirm link in the email from www.formspree.io
+  # - you're done. Happy mailing!
+  #
+  # Enable the contact form by entering your Formspree.io email
+  email: nicolas@martignoni.net
+
+  logo: img/logo.png
+
+  carousel:
+    enable: true
+
+  news:
+    enable: true
+
+  clients:
+    enable: false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more information take a look at the README.
+    subtitle: ''
+    title: Our Clients
+
+  features:
+    enable: true
+
+  recent_posts:
+    enable: true
+    subtitle: ''
+    title: ''
+
+  see_more:
+    enable: false
+    icon: fa fa-file-code-o
+    link_text: Check other homepages
+    link_url: '#'
+    subtitle: We have prepared for you more than 40 different HTML pages, including
+      5 variations of homepage.
+    title: Do you want to see more?
+
+  topbar:
+    enable: false
+    text: ""
+
+#  viewMorePostLink: /help/
+
+  widgets:
+    categories: false
+    search: true
+    tags: false
+    related: true
+    recentnews: true
+
+  # Enable Matomo analytics by entering your tracking code
+  matomoAnalytics:
+    siteid: 2
+    matomoroot: "stats.martignoni.net" # Do not add slashes
+
+related:
+  threshold: 50
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: "keywords"
+      weight: 200
+
+    - name: "categories"
+      weight: 100
+
+    - name: "tags"
+      weight: 50
+
+    - name: "date"
+      weight: 1
+      pattern: "2006"
+
+blackfriday:
+  hrefTargetBlank: false
+
+pygmentsCodeFences: true
+pygmentsCodeFencesGuessSyntax: true
+pygmentsUseClasses: true
+pygmentsstyle: "friendly"
+
+enableMissingTranslationPlaceholders: true
+
+outputs:
+  home: ["HTML", "JSON", "RSS"]
+  page: ["HTML"]
+
+permalinks:
+  help: /help/:slug
+  # kb: /kb/:slug
+  # blog: "/blog/:year/:month/:day/:filename/"

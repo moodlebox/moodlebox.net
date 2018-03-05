@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "head.html" . }}
+  <body>
+    <div id="all">
+      <header>
+        {{ partial "top.html" . }}
+        {{ partial "nav.html" . }}
+      </header>
+      {{ partial "carousel.html" . }}
+      {{ partial "news.html" . }}
+      {{ partial "features.html" . }}
+      {{ partial "testimonials.html" . }}
+      {{ partial "see_more.html" . }}
+      {{- if false -}}
+        {{ partial "recent_posts.html" . }}
+      {{- end -}}
+      {{ partial "clients.html" . }}
+      {{ partial "footer.html" . }}
+    </div>
+    <!-- /#all -->
+  {{ partial "scripts.html" . }}
+  </body>
+</html>

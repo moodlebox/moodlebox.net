@@ -1,0 +1,4 @@
+weight: 3
+name: "Wi-Fi-Zugangspunkt"
+icon: "fa fa-wifi"
+description: "Wenn es an Ihr Ethernet-Netzwerk angeschlossen ist, bietet die MoodleBox Internetzugang zu allen drahtlos verbundenen Geräten."

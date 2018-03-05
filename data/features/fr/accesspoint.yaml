@@ -1,0 +1,4 @@
+weight: 3
+name: "Point d'accès Wi-Fi"
+icon: "fa fa-wifi"
+description: "Branchée à un réseau câblé connecté à Internet, la MoodleBox donne accès à Internet aux appareils connectés par Wi-Fi."

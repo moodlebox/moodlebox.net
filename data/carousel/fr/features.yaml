@@ -1,0 +1,9 @@
+weight: 2
+title: "Petit, polyvalent et autonome"
+description: >
+  <ul class="list-style-none">
+     <li>Pas besoin d'Internet</li>
+     <li>Pas besoin de réseau câblé ou sans fils</li>
+     <li>Aucune infrastructure nécessaire</li>
+   </ul>
+image: "/img/carousel/small-versatile.png"

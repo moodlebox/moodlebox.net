@@ -1,0 +1,41 @@
+[{
+    "id": "1",
+    "name": "Remerciement symbolique",
+    "price": 5,
+    "image": "",
+    "description": "",
+    "url": "//fr/help/soutenir-le-projet-moodlebox//",
+    "default": false
+}, {
+    "id": "2",
+    "name": "Bonus de motivation",
+    "description": "",
+    "price": 10,
+    "image": "",
+    "url": "//fr/help/soutenir-le-projet-moodlebox//",
+    "default": false
+}, {
+    "id": "3",
+    "name": "Hébergement web, 1 mois",
+    "description": "",
+    "price": 20,
+    "image": "",
+    "url": "//fr/help/soutenir-le-projet-moodlebox//",
+    "default": true
+}, {
+    "id": "4",
+    "name": "Hébergement web, 3 mois",
+    "description": "",
+    "price": 50,
+    "image": "",
+    "url": "//fr/help/soutenir-le-projet-moodlebox//",
+    "default": false
+}, {
+    "id": "5",
+    "name": "Hébergement web, 6 mois",
+    "description": "",
+    "price": 100,
+    "image": "",
+    "url": "//fr/help/soutenir-le-projet-moodlebox//",
+    "default": false
+}]
