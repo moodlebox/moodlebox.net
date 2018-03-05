@@ -47,7 +47,7 @@ gulp.task('hugo', ['reset', 'css'], function (fetch) {
 })
 
 gulp.task('html', ['hugo'], function() {
-  return gulp.src('public/**/*.html')
+  return gulp.src(['public/**/*.html', 'public/**/*.xml'])
     .pipe(beautify({indent_char: ' ', indent_size: 2}))
     .pipe(trim())
     .pipe(gulp.dest('public'))
