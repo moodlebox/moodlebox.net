@@ -19,7 +19,4 @@ hugo -b ${BASEURL} --ignoreCache --gc --cleanDestinationDir && rsync -avz --dele
 # Delete Hugo generated files
 rm -rf public/
 
-# Sync content folder to moodlebox.net repository
-rsync -avz --delete --exclude '.*' --iconv=utf-8-mac,utf-8 content/ ../moodlebox.net/content/
-
 exit 0
