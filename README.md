@@ -1,5 +1,7 @@
 # Website moodlebox.net
 
+[![Build Status](https://travis-ci.org/martignoni/moodlebox.net.svg?branch=master)](https://travis-ci.org/martignoni/moodlebox.net/)
+
 This repository contains the content pages of the [MoodleBox][moodlebox] website, [moodlebox.net][moodlebox].
 
 ## Contributing
