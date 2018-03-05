@@ -1,11 +1,16 @@
-# General
+# Hugo
+public/
+
+# Node
+node_modules/
+
+# Mac finder files and hidden folders
 *.DS_Store
 .AppleDouble
 .LSOverride
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
