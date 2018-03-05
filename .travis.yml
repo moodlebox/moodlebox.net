@@ -35,3 +35,7 @@ cache:
 notifications:
   email:
     on_success: never
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_682f6865c22e_key -iv $encrypted_682f6865c22e_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
