@@ -39,7 +39,7 @@ gulp.task('js', function(){
 
 // gulp.task('hugo', ['reset', 'css', 'js'], function (fetch) {
 gulp.task('hugo', ['reset', 'css'], function (fetch) {
-  return exec('hugo -b https://moodlebox.net/', function (err, stdout, stderr) {
+  return exec('hugo', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
     fetch(err);
