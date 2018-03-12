@@ -12,6 +12,8 @@
   {{- end }}
   {{ if .Description -}}
   <meta name="description" content="{{ .Description }}">
+  {{- else if .Site.Params.Description -}}
+  <meta name="description" content="{{ .Site.Params.Description }}">
   {{- else if .Site.Params.DefaultDescription -}}
   <meta name="description" content="{{ .Site.Params.DefaultDescription }}">
   {{- end }}
