@@ -11,7 +11,7 @@ categories:
 ---
 Haben Sie das [Disk-Image][1] heruntergeladen?
 
-Installieren Sie zuerst [Etcher][2] auf Ihrem Computer. Befolgen Sie dann die Anleitung für Etcher, um das Disk-Image __moodlebox-x.y.z.img.gz__ auf Ihre MicroSD-Karte zu flashen.
+Installieren Sie zuerst [Etcher][2] auf Ihrem Computer. Befolgen Sie dann die Anleitung für Etcher, um das Disk-Image __{{< ghrelease user="martignoni" repo="moodlebox" data="file_name" >}}__ auf Ihre MicroSD-Karte zu flashen.
 
 {{< figure link="/img/media/etcher-copy.png" caption="Kopieren mit Etcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
 
