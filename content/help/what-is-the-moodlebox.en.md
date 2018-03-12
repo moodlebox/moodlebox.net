@@ -23,7 +23,7 @@ The MoodleBox project is a free (as in speech and in beer) project. The idea of 
 
 The MoodleBox project is made by [Nicolas Martignoni][9] on his spare time.
 
-The translation of the website into German was mainly done by [Ralf Krause][10], translator of Moodle into German and support pillar of the German Moodle community. [Visvanath Ratnaweera][11] also took part.
+The translation of the website into German was mainly done by [Ralf Krause][10]. He is the maintainer of the German Moodle language packages (de, de_du, de_kids) and is very active in the German and international Moodle community. [Visvanath Ratnaweera][11] also took part.
 
 ### Disclaimer
 
