@@ -23,6 +23,8 @@ The MoodleBox project is a free (as in speech and in beer) project. The idea of 
 
 The MoodleBox project is made by [Nicolas Martignoni][9] on his spare time.
 
+The translation of the website into German was mainly done by [Ralf Krause][10], translator of Moodle into German and support pillar of the German Moodle community. [Visvanath Ratnaweera][11] also took part.
+
 ### Disclaimer
 
 The MoodleBox disk image and the information of the web site are provided "as is". The author has made every effort to ensure the proper functioning of the MoodleBox and the accuracy of the information given. However, he declines all responsibility for any direct or indirect damage that would harm the users during use of the MoodleBox. In particular, it can not be held responsible for deterioration of material or loss of data.
@@ -38,3 +40,5 @@ The author does not commit himself to any correction of the disk image or of thi
  [7]: http://moodlebox.tuxfamily.org/
  [8]: https://moodle.org/mod/forum/discuss.php?d=331170
  [9]: https://twitter.com/nmartignoni
+ [10]: https://moodle.org/user/profile.php?id=70180
+ [11]: https://moodle.org/user/profile.php?id=41095

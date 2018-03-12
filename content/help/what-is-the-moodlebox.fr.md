@@ -1,5 +1,5 @@
 ---
-title: "C'est quoi la MoodleBox"
+title: C'est quoi la MoodleBox
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-17T18:46:38+00:00
@@ -23,6 +23,8 @@ Le projet MoodleBox est un projet libre et gratuit. L'idée d'une MoodleBox es
 
 Le projet MoodleBox est une réalisation de [Nicolas Martignoni][9] sur son temps libre.
 
+La traduction du site web en allemand a été effectuée essentiellement par [Ralf Krause][10], traducteur de Moodle en allemand et pilier de la communauté Moodle germanophone. [Visvanath Ratnaweera][11] y a également participé.
+
 ### Responsabilité
 
 L'image-disque de la MoodleBox et les informations présentées sur ce site web sont fournies « telles quelles ». L'auteur a fait tout son possible pour assurer le bon fonctionnement de la MoodleBox et l'exactitude des informations données. Cependant il décline toute responsabilité pour tout dommage direct ou indirect qui porterait préjudice aux utilisateurs lors de l'utilisation de la MoodleBox. Notamment, il ne saurait être rendu responsable de détérioration de matériel ou de perte de données.
@@ -38,3 +40,5 @@ L'auteur ne s'engage par ailleurs à aucune correction de l'image-disque ou de c
  [7]: http://moodlebox.tuxfamily.org/
  [8]: https://moodle.org/mod/forum/discuss.php?d=331170
  [9]: https://twitter.com/nmartignoni
+ [10]: https://moodle.org/user/profile.php?id=70180
+ [11]: https://moodle.org/user/profile.php?id=41095

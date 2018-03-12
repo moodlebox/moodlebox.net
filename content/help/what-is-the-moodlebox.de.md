@@ -24,6 +24,7 @@ Die MoodleBox ist freie Software (frei wie in Redefreiheit oder in Freibier). Di
 
 Das Projekt MoodleBox wird von [Nicolas Martignoni][9] in seiner Freizeit entwickelt.
 
+Die Übersetzung der Website ins Deutsche wurde hauptsächlich von[Ralf Krause][10], Übersetzer von Moodle ins Deutsche und Stützpfeiler der deutschsprachigen Moodle-Community, durchgeführt. [Visvanath Ratnaweera][11] hat ebenfalls mitgemacht.
 
 ### Haftungsausschluss
 
@@ -40,3 +41,5 @@ Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in de
  [7]: http://moodlebox.tuxfamily.org/
  [8]: https://moodle.org/mod/forum/discuss.php?d=331170
  [9]: https://twitter.com/nmartignoni
+ [10]: https://moodle.org/user/profile.php?id=70180
+ [11]: https://moodle.org/user/profile.php?id=41095
