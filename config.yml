@@ -34,7 +34,7 @@ languages:
   en:
     languageName: English
     title: MoodleBox
-    description: MoodleBox, a Moodle platform on Raspberry Pi, providing a Wi-Fi network.
+    description: MoodleBox, a Moodle platform on Raspberry Pi
     about_us: MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://twitter.com/nmartignoni).
     footertext: MoodleBox project is made by [Nicolas Martignoni](https://twitter.com/nmartignoni)
     copyright: Copyright © 2016 onwards
@@ -92,7 +92,7 @@ languages:
   fr:
     languageName: Français
     title: MoodleBox
-    description: MoodleBox, une plateforme Moodle sur Raspberry Pi, fournissant un réseau Wi-Fi
+    description: MoodleBox, une plateforme Moodle sur Raspberry Pi
     about_us: MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://twitter.com/nmartignoni).
     footertext: MoodleBox est un projet réalisé par [Nicolas Martignoni](https://twitter.com/nmartignoni)
     copyright: Copyright © 2016 et suivantes
@@ -151,7 +151,7 @@ languages:
   de:
     languageName: Deutsch
     title: MoodleBox
-    description: MoodleBox, eine Moodle-Plattform auf dem Raspberry Pi, die ein WLAN-Netzwerk bereitstellt
+    description: MoodleBox, eine Moodle-Plattform auf dem Raspberry Pi
     about_us: MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://twitter.com/nmartignoni).
     footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://twitter.com/nmartignoni)
     copyright: Copyright © 2016 und später
@@ -228,7 +228,7 @@ menu:
 params:
   author: Nicolas Martignoni
   address: ''
-  defaultDescription: MoodleBox, a Moodle platform on Raspberry Pi, providing a Wi-Fi network.
+  defaultDescription: MoodleBox, a Moodle platform on Raspberry Pi
   defaultKeywords:
   - MoodleBox
   - Moodle
