@@ -1,5 +1,6 @@
 ---
-title: "Thank you"
+title: Thank you
+description: Thank you for your message. We will contact you as soon as possible
 ---
 
 ### Thanks for your message

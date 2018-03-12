@@ -1,5 +1,6 @@
 ---
-title: "Danke"
+title: Danke
+description: Vielen Dank für Ihre Nachricht. Wir werden uns in Kürze mit Ihnen in Verbindung setzen
 ---
 
 ### Vielen Dank für Ihre Mitteilung

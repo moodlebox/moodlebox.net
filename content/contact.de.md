@@ -1,6 +1,7 @@
 ---
 title: "Kontakt"
 id: "contact"
+description: Haben Sie eine Frage zum MoodleBox-Projekt? Füllen Sie das Formular aus und wir setzen uns mit Ihnen in Verbindung
 ---
 
 ### Benötigen Sie Hilfe?

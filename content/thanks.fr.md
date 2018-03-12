@@ -1,5 +1,6 @@
 ---
-title: "Merci"
+title: Merci
+description: Merci pour votre message. Nous prendrons contact dès que possible.
 ---
 
 ### Merci pour votre message

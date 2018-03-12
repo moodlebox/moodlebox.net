@@ -1,6 +1,7 @@
 ---
-title: "Get in touch"
-id: "contact"
+title: Get in touch
+id: contact
+description: Do you have a question about the MoodleBox project? complete the form and we'll get back to you
 ---
 
 ### Need help?
