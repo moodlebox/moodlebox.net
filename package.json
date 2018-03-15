@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "github:martignoni/moodlebox.net",
+  "repository": "github:moodlebox/moodlebox.net",
   "author": "Nicolas Martignoni",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/martignoni/moodlebox.net/issues"
+    "url": "https://github.com/moodlebox/moodlebox.net/issues"
   },
   "homepage": "https://moodlebox.net/",
   "dependencies": {},

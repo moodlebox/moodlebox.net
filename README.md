@@ -1,6 +1,6 @@
 # Website moodlebox.net
 
-[![Build Status](https://travis-ci.org/martignoni/moodlebox.net.svg?branch=master)](https://travis-ci.org/martignoni/moodlebox.net/)
+[![Build Status](https://travis-ci.org/moodlebox/moodlebox.net.svg?branch=master)](https://travis-ci.org/moodlebox/moodlebox.net/)
 
 This repository contains the content pages of the [MoodleBox][moodlebox] website, [moodlebox.net][moodlebox].
 
@@ -8,7 +8,7 @@ This repository contains the content pages of the [MoodleBox][moodlebox] website
 
 You're welcome to enhance the text, fix typos, etc. and to add other translations. Pages are written in [Markdown format][markdown].
 
-As for everything else in the project, the contributions to MoodleBox project are governed by our [Code of Conduct](https://github.com/martignoni/moodlebox.net/blob/master/CODE_OF_CONDUCT.md).
+As for everything else in the project, the contributions to MoodleBox project are governed by our [Code of Conduct](https://github.com/moodlebox/moodlebox.net/blob/master/CODE_OF_CONDUCT.md).
 
 ## How to contribute a new language translation
 
@@ -71,6 +71,6 @@ We want the MoodleBox documentation to be the best it can be. We've open-sourced
 1. Create a pull request by visiting `https://github.com/<you-username>/moodlebox.net` and following the instructions at the top of the screen.
 
 [moodlebox]: https://moodlebox.net
-[issues]: https://github.com/martignoni/moodlebox.net/issues
+[issues]: https://github.com/moodlebox/moodlebox.net/issues
 [contact]: mailto:nicolas@martignoni.net
 [markdown]: https://daringfireball.net/projects/markdown/
