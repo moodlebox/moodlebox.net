@@ -1,8 +1,8 @@
 {
-  "url": "https://api.github.com/repos/martignoni/moodlebox/releases/9236848",
-  "assets_url": "https://api.github.com/repos/martignoni/moodlebox/releases/9236848/assets",
-  "upload_url": "https://uploads.github.com/repos/martignoni/moodlebox/releases/9236848/assets{?name,label}",
-  "html_url": "https://github.com/martignoni/moodlebox/releases/tag/v2.2.0",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/9236848",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/9236848/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/9236848/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.2.0",
   "id": 9236848,
   "tag_name": "v2.2.0",
   "target_commitish": "master",
@@ -32,7 +32,7 @@
   "published_at": "2018-03-02T17:56:35Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/martignoni/moodlebox/releases/assets/6385217",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/6385217",
       "id": 6385217,
       "name": "moodlebox-2.2.0.img.gz",
       "label": null,
@@ -58,13 +58,13 @@
       "content_type": "application/x-gzip",
       "state": "uploaded",
       "size": 626938804,
-      "download_count": 100,
+      "download_count": 152,
       "created_at": "2018-03-02T17:55:17Z",
       "updated_at": "2018-03-02T18:15:47Z",
-      "browser_download_url": "https://github.com/martignoni/moodlebox/releases/download/v2.2.0/moodlebox-2.2.0.img.gz"
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.2.0/moodlebox-2.2.0.img.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/martignoni/moodlebox/tarball/v2.2.0",
-  "zipball_url": "https://api.github.com/repos/martignoni/moodlebox/zipball/v2.2.0",
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.2.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.2.0",
   "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/martignoni/moodlebox/v2.2.0/total.svg)\r\n### Changed\r\n- Updated to Moodle 3.4.1 (issue #54).\r\n- Changed frequency of Moodle cron to 1 minute (issue #58).\r\n\r\n### Added\r\n- Enabled startup/shutdown with hardware button, if present (issue #53).\r\n- Now supports NTFS and exFAT formatted drives (issue #59 and #61).\r\n- Moodle themes SCSS are now compiled after installation (issue #55).\r\n\r\n### Fixed\r\n- Cron spamming the logs (issue #60).\r\n"
 }
