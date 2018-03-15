@@ -9,13 +9,13 @@ categories:
   - First steps
 
 ---
-First [download Etcher][2], then follow the instructions in Etcher to flash the __{{< ghrelease user="martignoni" repo="moodlebox" data="file_name" >}}__ file [you've downloaded][1] on your microSD card.
+First [download Etcher][2], then follow the instructions in Etcher to flash the __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ file [you've downloaded][1] on your microSD card.
 
 {{< figure link="/img/media/etcher-copy.png" caption="Copy with Etcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
 
 ### For the geeks
 
-If you prefer to use a command line interface to flash your card: extract the __{{< ghrelease user="martignoni" repo="moodlebox" data="file_name" >}}__ file [you've downloaded][1] and follow the [instructions][3] to copy the disk image __moodlebox-{{< ghrelease user="martignoni" repo="moodlebox" data="version" >}}.img__ to your microSD card.
+If you prefer to use a command line interface to flash your card: extract the __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ file [you've downloaded][1] and follow the [instructions][3] to copy the disk image __moodlebox-{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}.img__ to your microSD card.
 
   * [Mac OS instructions][4]
   * [Windows instructions][5]

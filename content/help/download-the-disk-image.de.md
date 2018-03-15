@@ -16,29 +16,29 @@ aliases:
 <ul class="downloads">
   <li>
   <div class="image-icon">
-    <a class="piwik_download" href="{{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}"><img alt="MoodleBox SD card" src="/img/media/moodlebox-sdcard.png" width="150" height="150"></a>
+    <a class="piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><img alt="MoodleBox SD card" src="/img/media/moodlebox-sdcard.png" width="150" height="150"></a>
   </div>
   <div class="image-info">
     <div class="image-description">
       MoodleBox Disk-Image für microSD-Karte
     </div>
     <div class="image-details">
-      Version: <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="version" >}}</strong>
+      Version: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}</strong>
     </div>
     <div class="image-details">
       Moodle Version: <strong>3.4.1+ (Build: 20180228)</strong>
     </div>
     <div class="image-details">
-      Größe: <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="file_size" >}} MB</strong>
+      Größe: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" >}} MB</strong>
     </div>
     <div class="image-details">
-      Datum: <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="file_date" >}}</strong>
+      Datum: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_date" >}}</strong>
     </div>
     <div class="image-details">
       Update weitere Informationen: <strong><a href="https://github.com/moodlebox/moodlebox/blob/master/CHANGELOG.md" target="_blank">on Github</a></strong>
     </div>
     <div class="image-download-links">
-      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download"></i>Disk-Image herunterladen</a>
+      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download"></i>Disk-Image herunterladen</a>
     </div>
  </div>
  </li>
@@ -55,18 +55,18 @@ Das MoodleBox Disk-Image  wird auf der Basis der Distribution [Raspbian Lite fü
 Wenn beim Herunterladen des Disk-Images nicht erklärbare Probleme auftreten, verwenden Sie die Eingabezeile im Terminal, z.B. mit diesem Befehl
 
 ```bash
-wget -c {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
+wget -c {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
 ```
 
 oder mit diesem
 
 ```bash
-curl -C - {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
+curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
 ```
 
  [1]: {{< relref "copy-the-disk-image.de.md" >}}
  [2]: {{< relref "startup-shutdown-restart.de.md" >}}
  [3]: {{< relref "support-the-moodlebox-project.de.md" >}}
- [4]: {{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}
+ [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
  [5]: {{< relref "install-the-moodlebox.de.md" >}}
  [6]: https://www.raspberrypi.org/downloads/raspbian/
