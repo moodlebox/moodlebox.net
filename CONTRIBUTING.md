@@ -15,5 +15,5 @@ There are many ways to contribute. For example, you might:
 - [Propose][issues] and/or [develop improvements][pull requests].
 
 [documentation]: https://moodlebox.net
-[issues]: https://github.com/martignoni/make-moodlebox/issues
-[pull requests]: https://github.com/martignoni/make-moodlebox/issues
+[issues]: https://github.com/moodlebox/moodlebox/issues
+[pull requests]: https://github.com/moodlebox/moodlebox/issues

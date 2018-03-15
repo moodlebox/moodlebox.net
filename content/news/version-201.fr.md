@@ -10,4 +10,4 @@ La version 2.0.1 de l'[image of the MoodleBox][1] est publiée aujourd'hui. [Cet
 Consultez les [notes de mise à jour sur Github][2] pour plus de détails.
 
  [1]: {{< relref "download-the-disk-image.fr.md" >}}
- [2]: https://github.com/martignoni/moodlebox/releases/tag/v2.0.1
+ [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.0.1

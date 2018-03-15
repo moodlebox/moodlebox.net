@@ -210,7 +210,7 @@ menu:
   topbar:
   - name: GitHub
     pre: <i class='fa fa-2x fa-github'></i>
-    url: https://github.com/martignoni/moodlebox
+    url: https://github.com/moodlebox/moodlebox
     weight: 1
 #  - name: Facebook
 #    pre: <i class='fa fa-2x fa-facebook'></i>

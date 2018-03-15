@@ -10,6 +10,6 @@ This program is free software; you can redistribute it and/or modify it under th
 
 [hugo]: https://gohugo.io
 [moodlebox]: https://moodlebox.net
-[issues]: https://github.com/martignoni/make-moodlebox/issues
+[issues]: https://github.com/moodlebox/moodlebox/issues
 [contact]: mailto:nicolas@martignoni.net
 [markdown]: https://daringfireball.net/projects/markdown/

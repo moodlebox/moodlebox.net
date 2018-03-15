@@ -35,10 +35,10 @@ aliases:
       Date : <strong>{{< ghrelease user="martignoni" repo="moodlebox" data="file_date" >}}</strong>
     </div>
     <div class="image-details">
-      Notes de mise à jour : <strong><a href="https://github.com/martignoni/moodlebox/blob/master/CHANGELOG.md" target="_blank">sur Github</a></strong>
+      Notes de mise à jour : <strong><a href="https://github.com/moodlebox/moodlebox/blob/master/CHANGELOG.md" target="_blank">sur Github</a></strong>
     </div>
     <div class="image-download-links">
-      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="martignoni" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download"></i>Télécharger l'image</a>
+      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download"></i>Télécharger l'image</a>
     </div>
  </div>
  </li>
