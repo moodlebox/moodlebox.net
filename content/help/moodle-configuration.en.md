@@ -29,7 +29,7 @@ MoodleBox Plugin
 :   The [MoodleBox Administration plugin][2] for Moodle is installed. This plugin enables a Moodle administrator to restart and shutdown, to set the date, to change some other settings and to monitor the hardware of the MoodleBox using a GUI.
 
 MathJax library
-:   As of version 2.0 and later, the MathJax library is installed locally, enabling the MathJax filter to work correctly even when the MoodleBox is not connected to Internet.
+:   As of version 2.0.0 and later, the MathJax library is installed locally, enabling the MathJax filter to work correctly even when the MoodleBox is not connected to Internet.
 
  [1]: https://download.moodle.org/mobile/
  [2]: https://moodle.org/plugins/tool_moodlebox

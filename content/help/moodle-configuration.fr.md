@@ -30,7 +30,7 @@ Plugin MoodleBox
 :   Le [plugin d'administration MoodleBox][2] pour Moodle est installé. Ce plugin permet à un administrateur Moodle de redémarrer et d'arrêter la MoodleBox, de changer ses date et heure, d'en modifier certains paramètres et de surveiller son fonctionnement au moyen d'une interface graphique simple.
 
 Bibliothèque MathJax
-:   Dès la version 2.0 et ultérieures, la bibliothèque MathJax est installée en local, permettant au filtre MathJax de fonctionner correctement même is la MoodleBox n'est pas connectée à Internet.
+:   À partir de la version 2.0.0 de MoodleBox, la bibliothèque MathJax est installée en local, permettant au filtre MathJax de fonctionner correctement même is la MoodleBox n'est pas connectée à Internet.
 
  [1]: https://download.moodle.org/mobile/
  [2]: https://moodle.org/plugins/tool_moodlebox
