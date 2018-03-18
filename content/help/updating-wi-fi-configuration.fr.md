@@ -16,7 +16,7 @@ En tant qu'administrateur, il est possible de modifier différents réglages du 
 
 ### Changer le nom du réseau Wi-Fi (SSID)
 
-Pour changer le nom du réseau (SSID), saisir un nouveau SSID dans le champ adéquat et cliquer sur le bouton « Changer les réglages Wi-Fi ».
+Pour changer le nom du réseau (SSID), saisir un nouveau SSID dans le champ adéquat et cliquer sur le bouton « Changer les réglages Wi-Fi ». À partir de la version 2.3.0 de la MoodleBox, il est possible de choisir un SSID comportant des espaces.
 
 ### Changer le canal Wi-Fi du point d'accès
 

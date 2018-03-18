@@ -16,7 +16,7 @@ Wenn Sie die MoodleBox einschalten, arbeitet die MoodleBox wie ein WLAN-AccessPo
 
 ### WLAN-Namen (SSID) ändern
 
-Sie können den WLAN-Namen (SSID) der MoodleBox ändern. Geben Sie einen neuen WLAN-Namen in das entsprechende Feld ein und tippen Sie auf die Taste __Einstellungen ändern__.
+Sie können den WLAN-Namen (SSID) der MoodleBox ändern. Geben Sie einen neuen WLAN-Namen in das entsprechende Feld ein und tippen Sie auf die Taste __Einstellungen ändern__. Ab MoodleBox Version 2.3.0 ist es möglich, SSIDs mit Leerzeichen einzugeben.
 
 ### WLAN-Kanal ändern
 
