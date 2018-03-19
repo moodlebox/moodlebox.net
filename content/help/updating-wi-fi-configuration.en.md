@@ -16,7 +16,7 @@ As an administrator, you may change several settings of the access point Wi-Fi s
 
 ### Change Wi-Fi network name (SSID)
 
-You may change the network name (SSID). Type in a new SSID in the adequate field and click the button __Change Wi-Fi setting__. Starting with MoodleBox version 2.3.0, it is possible to enter SSIDs with spaces.
+You may change the network name (SSID). Type in a new SSID in the adequate field and click the button __Change Wi-Fi setting__. Starting with MoodleBox version 2.3.0, it is possible to enter SSIDs with specials characters such as emojis, including spaces.
 
 ### Change Wi-Fi access point channel
 
