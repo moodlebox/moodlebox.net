@@ -3,6 +3,7 @@ title: Disk-Image herunterladen
 author: Visvanath Ratnaweera, Ralf Krause
 type: kb
 date: 2018-02-02
+description: Das MoodleBox Disk-Image ist auf dieser Seite verfügbar.
 slug: disk-image-herunterladen
 weight: 3
 categories:
@@ -48,7 +49,7 @@ Folgen Sie nach dem Herunterladen des Disk-Images den Anweisungen für [Kopieren
 
 Wenn Sie möchten, können Sie die [Entwicklung der MoodleBox unterstützen][3], indem Sie eine freiwillige Spende machen.
 
-Das MoodleBox Disk-Image  wird auf der Basis der Distribution [Raspbian Lite für Raspberry Pi][6] gebaut.
+Das MoodleBox Disk-Image wird auf der Basis der Distribution [Raspbian Lite für Raspberry Pi][6] gebaut.
 
 ### Probleme beim Herunterladen
 

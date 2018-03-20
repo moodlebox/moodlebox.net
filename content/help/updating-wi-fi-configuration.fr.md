@@ -2,7 +2,8 @@
 title: Comment configurer le réseau Wi-Fi
 author: Nicolas Martignoni
 type: kb
-date: 2017-08-12T16:20:08+00:00
+date: 2017-08-12
+description: Il est possible de modifier différents réglages du point d'accès WiFi de la MoodleBox.
 slug: modification-de-la-configuration-du-reseau-wi-fi
 weight: 6
 categories:

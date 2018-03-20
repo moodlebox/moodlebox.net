@@ -2,7 +2,8 @@
 title: Where to download the disk image
 author: Nicolas Martignoni
 type: kb
-date: 2017-04-20T16:32:11+00:00
+date: 2017-04-20
+description: The MoodleBox disk image is available on this page.
 slug: download-the-disk-image
 weight: 3
 categories:

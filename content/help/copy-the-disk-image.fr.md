@@ -1,8 +1,9 @@
 ---
-title: "Comment copier l'image-disque sur une carte SD"
+title: Comment copier l'image-disque sur une carte SD
 author: Nicolas Martignoni
 type: kb
-date: 2017-04-17T19:20:59+00:00
+date: 2017-04-17
+description: Pour copier l'image-disque MoodleBox sur une carte SD, suivez ces instructions.
 slug: copier-limage-disque-sur-une-carte-sd
 weight: 4
 categories:

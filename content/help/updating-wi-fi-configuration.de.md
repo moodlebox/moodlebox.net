@@ -3,6 +3,7 @@ title: WLAN-Einstellungen ändern
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-08-12
+description: Es ist möglich, zahlreiche WiFi-Einstellungen des MoodleBox AccessPoint zu ändern.
 slug: wlan-einstellungen-aendern
 weight: 6
 categories:

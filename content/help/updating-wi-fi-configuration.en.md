@@ -2,7 +2,8 @@
 title: How to update the Wi-Fi network configuration
 author: Nicolas Martignoni
 type: kb
-date: 2017-08-12T16:35:41+00:00
+date: 2017-08-12
+description: It is possible to change several settings of the access point WiFi settings of the MoodleBox.
 slug: updating-wi-fi-network-configuration
 weight: 6
 categories:

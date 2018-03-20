@@ -3,6 +3,7 @@ title: Disk-Image auf eine MicroSD-Karte kopieren
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-04-20
+description: Um das MoodleBox Disk-Image auf eine SD-Karte zu kopieren, folgen Sie diese Anweisungen.
 slug: disk-image-kopieren
 weight: 4
 categories:
