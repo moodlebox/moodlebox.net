@@ -3,6 +3,7 @@ title: How can I connect to the MoodleBox via Wi-Fi
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20
+description: Here is how you can connect to the MoodleBox WiFi network
 slug: wi-fi-connection
 weight: 5
 categories:

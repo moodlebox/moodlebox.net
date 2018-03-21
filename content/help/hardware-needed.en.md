@@ -2,7 +2,8 @@
 title: Which hardware to get
 author: Nicolas Martignoni
 type: kb
-date: 2017-04-20T16:19:15+00:00
+date: 2017-04-20
+description: Here is the stuff you will need to build your MoodleBox
 slug: hardware-needed
 weight: 3
 categories:

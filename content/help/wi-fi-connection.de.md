@@ -3,6 +3,7 @@ title: Mit der MoodleBox verbinden
 author: Ralf Krause
 type: kb
 date: 2018-02-13
+description: Hier erfahren Sie, wie Sie sich mit dem MoodleBox WiFi-Netzwerk verbinden können
 slug: wlan-verbindung
 weight: 5
 categories:
@@ -12,7 +13,7 @@ categories:
 ---
 Wählen Sie auf Ihrem Endgerät das drahtlose Netzwerk __MoodleBox__ aus. Geben Sie das Kennwort __moodlebox__ (alles Kleinbuchstaben) ein und bestätigen Sie die Verbindung.
 
-Sie sind jetzt über WLAN drahtlos mit der MoodleBox verbunden und können im Browser auf Moodle zugreifen. Verwenden Sie die Adresse http://moodlebox.home/, um die Startseite der Moodle-Plattform anzuzeigen. 
+Sie sind jetzt über WLAN drahtlos mit der MoodleBox verbunden und können im Browser auf Moodle zugreifen. Verwenden Sie die Adresse http://moodlebox.home/, um die Startseite der Moodle-Plattform anzuzeigen.
 
 {{< figure link="/img/media/moodlebox-home-en.png" thumb="-small" caption="Startseite der MoodleBox" caption-position="bottom" caption-effect="appear" width="550px" >}}
 

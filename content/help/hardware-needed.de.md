@@ -3,6 +3,7 @@ title: Welche Hardware ist notwendig
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-04-20
+description: Hier ist eine Übersicht alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
 slug: hardware-beschaffen
 weight: 3
 categories:

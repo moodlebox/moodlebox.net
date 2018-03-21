@@ -2,7 +2,8 @@
 title: How to install the MoodleBox
 author: Nicolas Martignoni
 type: kb
-date: 2017-09-15T20:31:08+00:00
+date: 2017-09-15
+description: The procedure to install the MoodleBox for its first utilisation is described here
 slug: install-the-moodlebox
 weight: 1
 categories:

@@ -2,7 +2,8 @@
 title: Comment se connecter au réseau Wi-Fi
 author: Nicolas Martignoni
 type: kb
-date: 2017-04-17T19:09:17+00:00
+date: 2017-04-17
+description: Voici comment se connecter au réseau WiFi de la MoodleBox
 slug: connexion-wi-fi
 weight: 5
 categories:
