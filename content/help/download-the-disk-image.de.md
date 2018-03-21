@@ -27,7 +27,7 @@ aliases:
       Version: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}</strong>
     </div>
     <div class="image-details">
-      Moodle Version: <strong>3.4.1+ (Build: 20180228)</strong>
+      Moodle Version: <strong>3.4.2 (Build: 20180319)</strong>
     </div>
     <div class="image-details">
       Größe: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" >}} MB</strong>
