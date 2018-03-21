@@ -1,12 +1,12 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/9236848",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/9236848/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/9236848/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.2.0",
-  "id": 9236848,
-  "tag_name": "v2.2.0",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/10088731",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/10088731/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/10088731/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.3.0",
+  "id": 10088731,
+  "tag_name": "v2.3.0",
   "target_commitish": "master",
-  "name": "v2.2.0",
+  "name": "v2.3.0",
   "draft": false,
   "author": {
     "login": "martignoni",
@@ -28,13 +28,13 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2018-03-02T15:57:03Z",
-  "published_at": "2018-03-02T17:56:35Z",
+  "created_at": "2018-03-21T09:00:09Z",
+  "published_at": "2018-03-21T17:46:30Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/6385217",
-      "id": 6385217,
-      "name": "moodlebox-2.2.0.img.gz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/6586369",
+      "id": 6586369,
+      "name": "moodlebox-2.3.0.img.gz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -57,14 +57,14 @@
       },
       "content_type": "application/x-gzip",
       "state": "uploaded",
-      "size": 626938804,
-      "download_count": 154,
-      "created_at": "2018-03-02T17:55:17Z",
-      "updated_at": "2018-03-02T18:15:47Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.2.0/moodlebox-2.2.0.img.gz"
+      "size": 629791993,
+      "download_count": 1,
+      "created_at": "2018-03-21T17:46:40Z",
+      "updated_at": "2018-03-21T17:51:05Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.3.0/moodlebox-2.3.0.img.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.2.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.2.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.2.0/total.svg)\r\n### Changed\r\n- Updated to Moodle 3.4.1 (issue #54).\r\n- Changed frequency of Moodle cron to 1 minute (issue #58).\r\n\r\n### Added\r\n- Enabled startup/shutdown with hardware button, if present (issue #53).\r\n- Now supports NTFS and exFAT formatted drives (issue #59 and #61).\r\n- Moodle themes SCSS are now compiled after installation (issue #55).\r\n\r\n### Fixed\r\n- Cron spamming the logs (issue #60).\r\n"
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.3.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.3.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.3.0/total.svg)\r\n### Changed\r\n- Based on Raspbian Stretch Lite version of 2018-03-13 (issue #63).\r\n- Updated to Moodle 3.4.2 (issue #64).\r\n- Arbitrary chars in SSIDs now supported (issues https://github.com/moodlebox/moodle-tool_moodlebox/issues/31 and https://github.com/moodlebox/moodle-tool_moodlebox/issues/38).\r\n\r\n\r\n### Added\r\n- Support Raspberry Pi 3 B+ (issue #65).\r\n\r\n### Fixed\r\n- Nothing yet."
 }
