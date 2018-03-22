@@ -17,7 +17,7 @@ This is the procedure to install the MoodleBox for its first utilisation.
 
 ### Step 1: Buy the hardware
 
-The [stuff you will need][1] to build your MoodleBox is essentially a Raspberry Pi (preferably a model B3) with a power supply and a MicroSD card. [More information here][1].
+The [stuff you will need][1] to build your MoodleBox is essentially a Raspberry Pi Model 3B or 3B+ with a power supply and a MicroSD card. [More information here][1].
 
 ### Step 2: Download the MoodleBox disk image
 

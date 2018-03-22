@@ -9,7 +9,7 @@ categories:
   - Usage
 
 ---
-Die MoodleBox wurde auf Basis des Mini-Computers [Raspberry Pi 3][1] erstellt. Seine Architektur ermöglicht den Einsatz mit 20 bis 30 mobilen Geräten.
+Die MoodleBox wurde auf Basis des Mini-Computers [Raspberry Pi 3][1] Model B oder Model B+ erstellt. Seine Architektur ermöglicht den Einsatz mit 20 bis 30 mobilen Geräten.
 
 Die MoodleBox nicht darauf ausgelegt, größere Gruppen und noch mehr mobile Geräte zu versorgen.
 

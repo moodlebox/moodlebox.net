@@ -16,7 +16,7 @@ Die folgende Vorgehensweise ist notwendig, um die MoodleBox für die erste Verwe
 
 ### Schritt 1: Hardware kaufen
 
-Die [Sachen, die Sie für Ihre MoodleBox benötigen][1], sind im Wesentlichen ein Raspberry Pi 3, ein Netzteil und eine MicroSD-Karte. [Weitere Informationen][1].
+Die [Sachen, die Sie für Ihre MoodleBox benötigen][1], sind im Wesentlichen ein Raspberry Pi Model 3B oder Model 3B+, ein Netzteil und eine MicroSD-Karte. [Weitere Informationen][1].
 
 ### Schritt 2: MoodleBox Disk-Image herunterladen
 
