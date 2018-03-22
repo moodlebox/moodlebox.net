@@ -3,6 +3,7 @@ title: How to manage the Moodle database
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20
+description: To access the Moodle database using PhpMyAdmin, see the information below
 slug: access-to-the-database-management-interface
 categories:
   - Maintenance

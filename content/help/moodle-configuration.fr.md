@@ -1,9 +1,9 @@
 ---
 title: Quelle est la configuration par défaut de Moodle
-author:
-  - Nicolas Martignoni
+author: Nicolas Martignoni
 type: kb
-date: 2017-04-17T20:03:51+00:00
+date: 2017-04-17
+description: Voici des informations détaillées sur la configuration de l'installation de Moodle de la MoodleBox
 slug: configuration-initiale-de-lenvironnement-moodle
 categories:
   - Maintenance

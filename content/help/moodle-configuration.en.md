@@ -3,6 +3,7 @@ title: What is the default Moodle configuration
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20
+description: Detailed information on the configuration of the MoodleBox Moodle installation is provided here
 slug: moodle-configuration
 categories:
   - Maintenance

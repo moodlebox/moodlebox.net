@@ -3,6 +3,7 @@ title: Quels sont les mots de passe de la MoodleBox
 author: Nicolas Martignoni
 type: kb
 date: 2017-09-16
+description: Tous les identifiants utilisés sur la MoodleBox (WiFi, SSH, Moodle, base de données) sont indiqués ici
 slug: noms-dutilisateur-et-mots-de-passe
 weight: 8
 categories:

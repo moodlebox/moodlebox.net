@@ -3,6 +3,7 @@ title: Wie lauten die Zugangsdaten
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-09-16
+description: Alle auf der MoodleBox verwendeten Anmeldedaten (WiFi, SSH, Moodle, Datenbank) sind hier aufgelistet
 slug: zugangsdaten
 weight: 8
 categories:

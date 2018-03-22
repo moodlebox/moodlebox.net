@@ -3,6 +3,7 @@ title: Wie sind die Einstellungen von Moodle
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-04-20
+description: Ausführliche Informationen zur Konfiguration der Moodle-Installation der MoodleBox finden Sie hier
 slug: moodle-einstellungen
 categories:
   - Maintenance

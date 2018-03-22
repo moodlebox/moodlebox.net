@@ -1,8 +1,9 @@
 ---
-title: "Comment accéder à l'interface en ligne de commande"
+title: Comment accéder à l'interface en ligne de commande
 author: Nicolas Martignoni
 type: kb
-date: 2017-04-17T19:12:14+00:00
+date: 2017-04-17
+description: Si nécessaire, on peut se connecter au système d'exploitation de la MoodleBox en via SSH
 slug: connexion-ssh-en-ligne-de-commande
 weight: 15
 categories:

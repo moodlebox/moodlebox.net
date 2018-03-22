@@ -3,6 +3,7 @@ title: Disk-Image selber erstellen
 author: Nicolas Martignoni, Visvanath Ratnaweera, Ralf Krause
 type: kb
 date: 2018-02-01
+description: Wenn Sie Ihr eigenes Disk-Image der MoodleBox erstellen möchten, hier sind die gewünschten Informationen
 slug: disk-image-selber-erstellen
 weight: 4
 categories:

@@ -2,7 +2,8 @@
 title: What are the MoodleBox credentials
 author: Nicolas Martignoni
 type: kb
-date: 2017-09-16T17:22:02+00:00
+date: 2017-09-16
+description: All credentials used in the MoodleBox (WiFi, SSH, Moodle, database) are provided here
 slug: moodlebox-credentials
 weight: 8
 categories:

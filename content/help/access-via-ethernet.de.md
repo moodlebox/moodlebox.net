@@ -3,6 +3,7 @@ title: Zugang über Ethernet
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-12-23
+description: Es ist möglich, Ihr lokales Netzwerk für den Zugriff auf die MoodleBox über eine Ethernet-Verbindung zu konfigurieren
 slug: zugang-ueber-ethernet
 weight: 95
 categories:
