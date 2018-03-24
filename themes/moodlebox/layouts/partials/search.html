@@ -51,6 +51,7 @@
               this.use(lunr.{{ .Site.Language.Lang | safeJS }});
               {{ end -}}
               this.field("title");
+              this.field("description");
               this.field("content");
               this.ref("url");
               pagesIndex.forEach(function(page) {
