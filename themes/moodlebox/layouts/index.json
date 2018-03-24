@@ -2,7 +2,7 @@
 {{/*- range where .Site.Pages "Type" "not in" (slice "page" "json") -*/}}
 {{- range where .Site.Pages "Type" "in" (slice "kb" "news") -}}
   {{ if ne .Plain "" }}
-    {{- $.Scratch.Add "index" (dict "url" .URL "title" .Title "content" .Plain) -}}
+    {{- $.Scratch.Add "index" (dict "url" .URL "title" .Title "description" .Description "content" .Plain) -}}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
