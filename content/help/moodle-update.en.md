@@ -3,6 +3,7 @@ title: How to update Moodle
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-20
+description: Want to update Moodle on the MoodleBox? Follow these instructions
 slug: moodle-version-update
 categories:
   - Maintenance

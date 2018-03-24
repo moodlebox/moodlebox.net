@@ -2,7 +2,8 @@
 title: Quelle est la version de ma MoodleBox
 author: Nicolas Martignoni
 type: kb
-date: 2017-11-12T16:56:36+00:00
+date: 2017-11-12
+description: La version de votre MoodleBox en visitant le tableau de bord dans l'interface d'administration
 slug: quelle-est-la-version-de-ma-moodlebox
 categories:
   - Maintenance

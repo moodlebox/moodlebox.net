@@ -1,9 +1,9 @@
 ---
 title: Comment mettre à jour Moodle
-author:
-  - Nicolas Martignoni
+author: Nicolas Martignoni
 type: kb
-date: 2017-04-17T19:33:38+00:00
+date: 2017-04-17
+description: Vous voulez mettre à jour Moodle sur la MoodleBox ? Suivez ces instructions
 slug: mise-a-jour-de-la-version-de-moodle
 categories:
   - Maintenance

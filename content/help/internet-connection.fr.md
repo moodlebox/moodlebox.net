@@ -2,7 +2,8 @@
 title: Comment connecter la MoodleBox à Internet
 author: Nicolas Martignoni
 type: kb
-date: 2017-04-18T18:43:52+00:00
+date: 2017-04-18
+description: Pour fournir une connexion Internet aux utilisateurs de la MoodleBox, il suffit de la relier à un réseau Ethernet connecté à Internet
 slug: connexion-a-internet
 weight: 9
 categories:
