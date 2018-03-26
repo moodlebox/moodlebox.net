@@ -2,7 +2,8 @@
 title: C'est quoi la MoodleBox
 author: Nicolas Martignoni
 type: kb
-date: 2017-04-17T18:46:38+00:00
+date: 2017-04-17
+description: La MoodleBox est un dispositif mobile indépendant d'Internet permettant de créer un réseau local auquel chacun peut se connecter par WiFi. Elle fournit un environnement d'apprentissage Moodle complet
 slug: cest-quoi-la-moodlebox
 weight: 2
 categories:

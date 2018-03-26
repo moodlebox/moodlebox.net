@@ -2,7 +2,8 @@
 title: MoodleBox network topology
 author: Nicolas Martignoni
 type: kb
-date: 2017-09-23T10:17:27+00:00
+date: 2017-09-23
+description: The diagram below describes the network topology of the MoodleBox
 slug: moodlebox-network-topology
 weight: 90
 categories:

@@ -3,6 +3,7 @@ title: Soutenir le projet MoodleBox
 author: Nicolas Martignoni
 type: kb
 date: 2018-03-07
+description: Vous pouvez soutenir concrètement le projet MoodleBox en participant aux frais et en augmentant la motivation pour son développement continu
 slug: soutenir-le-projet-moodlebox
 weight: 100
 categories:

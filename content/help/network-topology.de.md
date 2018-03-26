@@ -3,6 +3,7 @@ title: MoodleBox Netzwerktopologie
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2017-09-23
+description: Das folgende Diagramm beschreibt die Netzwerktopologie der MoodleBox
 slug: moodlebox-netzwerktopologie
 weight: 90
 categories:

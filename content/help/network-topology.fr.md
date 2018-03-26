@@ -2,7 +2,8 @@
 title: Topologie du réseau de la MoodleBox
 author: Nicolas Martignoni
 type: kb
-date: 2017-09-23T10:52:23+00:00
+date: 2017-09-23
+description: Le diagramme ci-dessous décrit la topologie du réseau de la MoodleBox
 slug: topologie-du-reseau-de-la-moodlebox
 weight: 90
 categories:

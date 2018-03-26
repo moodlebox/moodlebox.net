@@ -3,6 +3,7 @@ title: Projekt MoodleBox unterstützen
 author: Nicolas Martignoni, Ralf Krause
 type: kb
 date: 2018-03-07
+description: Sie können das MoodleBox-Projekt konkret unterstützen, indem Sie zu den Kosten beitragen und die Motivation für seine Weiterentwicklung erhöhen
 slug: projekt-moodlebox-unterstuetzen
 weight: 100
 categories:
