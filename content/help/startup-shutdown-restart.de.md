@@ -43,7 +43,7 @@ Tippen Sie auf die Schaltfläche __MoodleBox neustarten__. Warten Sie einige Sek
 
 Wenn Sie möchten, können Sie eine Hardwaretaste installieren, um die MoodleBox ein- und auszuschalten. Das [MoodleBox Disk-Image][2] erlaubt die Verwendung einer solchen Taste ohne Konfigurationsänderungen.
 
-Die Installation einer Hardwaretaste ist sehr einfach. Sie müssen lediglich eine Taste kaufen, z.B. eine [kapazitive Taste][3], und sie mit [Jumperkabeln][4] an die richtigen Pins des GPIO-Ports (pins 5 und 6) der MoodleBox anschließen (siehe Bild unten, dank an Laurent Fleron). Danach starten Sie die MoodleBox neu.
+Die Installation einer Hardwaretaste ist sehr einfach. Sie müssen lediglich eine Taste kaufen, z.B. eine [kapazitive Taste][3], und sie mit [Jumperkabeln][4] an die richtigen Pins des GPIO-Ports (Pins 5 und 6) der MoodleBox anschließen (siehe Bild unten, dank an Laurent Fleron). Danach starten Sie die MoodleBox neu.
 
 {{< figure link="/img/media/hardware-button.jpg" thumb="-small" caption="Hardwaretaste" caption-position="bottom" caption-effect="appear" width="400px" >}}
 
