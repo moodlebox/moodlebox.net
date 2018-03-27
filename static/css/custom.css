@@ -204,6 +204,138 @@ ul.downloads li .image-download-links a.btn i.fa {
   padding: 0;
 }
 
+/* Donation form */
+#give-recurring-form,form.give-form,form[id*=give-form] {
+  margin: 0 0 25px;
+  padding: 0;
+}
+.give-clearfix:after, .give-clearfix:before {
+  content: " ";
+  display: table;
+}
+.give-clearfix:after {
+  clear: both;
+}
+.give-hidden {
+  display: none;
+}
+.give-donation-amount {
+  margin: 0 0 15px;
+}
+.give-donation-amount .give-currency-symbol {
+  background-color: #f2f2f2;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+  margin: 0;
+  padding: 0 12px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+.form-row-wide {
+  clear: both;
+}
+.form-row-wide:after, .form-row-wide:before {
+  content: " ";
+  display: table;
+}
+.form-row-wide:after {
+  clear: both;
+}
+.give-donation-amount .give-currency-symbol.give-currency-position-before {
+  border-left: 1px solid #ccc;
+  border-right: none;
+}
+.give-donation-amount .give-currency-symbol.give-currency-position-after {
+  border-left: none;
+  border-right: 1px solid #ccc;
+}
+.give-donation-amount #give-amount,form[id*=give-form] .give-donation-amount #give-amount-text {
+  border: 1px solid #ccc;
+  background: #FFF;
+  border-radius: 0;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 12px;
+  margin: 0;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 125px;
+  float: left;
+}
+.give-donation-amount input.give-amount-top { width: 125px; }
+#give-donation-level-radio-list {
+  margin: 0 0 15px;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+#give-donation-level-radio-list>li {
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+#give-donation-level-radio-list>li label {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+}
+#give-donation-level-radio-list>li input[type=radio] {
+  margin: 0 .5em 0 0;
+  outline: 0;
+  width: auto;
+}
+#give-gateway-radio-list {
+  margin: 0 0 15px;
+  padding: 0;
+  list-style: none;
+}
+#give-gateway-radio-list:after, #give-gateway-radio-list:before {
+  content: " ";
+  display: table;
+}
+#give-gateway-radio-list:after {
+  clear: both;
+}
+#give-gateway-radio-list>li {
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width:480px) {
+  #give-gateway-radio-list>li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 0;
+  }
+}
+#give-gateway-radio-list>li label.give-gateway-option {
+  cursor: pointer;
+  display: inline;
+  margin: 0;
+}
+#give-gateway-radio-list>li input[type=radio] {
+  margin: 0 .25em 0 0;
+  outline: 0;
+  width: auto;
+  display: inline;
+}
+.give-submit-button-wrap input.give-cancel-login,[id^=give-user-login-submit] input.give-cancel-login {
+  margin-left: 5px;
+}
+.give-submit-button-wrap .give-submit,[id^=give-user-login-submit] .give-submit {
+  float: left;
+}
+
 /* Knowledge base */
 #kb-container {
   margin: 0 auto;
