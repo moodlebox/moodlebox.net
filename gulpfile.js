@@ -22,7 +22,7 @@ gulp.task('reset', function(){
 });
 
 gulp.task('css', function(){
-  return gulp.src('./static/css/**/*.css')
+  return gulp.src(['./static/css/**/*.css', './themes/moodlebox/static/css/**/*.css'])
 //     .pipe(concat('main.css'))
     .pipe(gulpif(file => !(file.path.includes('.min.css')), rename({suffix:'min.css'})))
     .pipe(minify())
