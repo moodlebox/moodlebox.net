@@ -43,7 +43,7 @@ Click on the button __Restart MoodleBox__. Wait a few seconds and the MoodleBox 
 
 It is possible to install a hardware button to shutdown and start the MoodleBox. The [MoodleBox Disk Image][2] allows the use of such a button without any configuration changes.
 
-The installation of a hardware button is very simple: you just have to buy a button, for example [this capacitive button][3], and connect it to the pins of the MoodleBox GPIO port using [jumpers][4] (see the image below, thanks to Laurent Fleron), then restart the MoodleBox.
+The installation of a hardware button is very simple: you just have to buy a button, for example [this capacitive button][3], and connect it to the pins of the MoodleBox GPIO (pins 5 and 6) port using [jumpers][4] (see the image below, thanks to Laurent Fleron), then restart the MoodleBox.
 
 {{< figure link="/img/media/hardware-button.jpg" thumb="-small" caption="Hardware button" caption-position="bottom" caption-effect="appear" width="400px" >}}
 
