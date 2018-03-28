@@ -15,8 +15,8 @@ gulp.task('default', [ 'reset', 'css', 'hugo', 'html', 'clean' ]);
 gulp.task('reset', function(){
   return del([
     'public/**/*',
-    'static/css/**/*.min.css',
-//       'static/js/**/*',
+    'themes/moodlebox/static/css/**/*.min.css',
+//       'themes/moodlebox/static/static/js/**/*',
     ''
   ]);
 });
@@ -26,15 +26,15 @@ gulp.task('css', function(){
 //     .pipe(concat('main.css'))
     .pipe(gulpif(file => !(file.path.includes('.min.css')), rename({suffix:'min.css'})))
     .pipe(minify())
-    .pipe(gulp.dest('static/css'))
+    .pipe(gulp.dest('themes/moodlebox/static/css'))
 });
 
 gulp.task('js', function(){
-  return gulp.src('./static/js/**/*.js')
+  return gulp.src(['./static/js/**/*.js', './themes/moodlebox/static/js/**/*.js'])
 //     .pipe(gulpif(file => !(file.path.includes('.min.js')), rename({suffix:'min.js'})))
 //     .pipe(concat('main.js'))
 //     .pipe(uglify())
-    .pipe(gulp.dest('static/js'))
+    .pipe(gulp.dest('themes/moodlebox/static/js'))
 });
 
 // gulp.task('hugo', ['reset', 'css', 'js'], function (fetch) {
@@ -55,8 +55,8 @@ gulp.task('html', ['hugo'], function() {
 
 gulp.task('clean', ['html'], function () {
   return del([
-    'static/css/**/*.min.css',
-//     'static/js/**/*',
+    'themes/moodlebox/static/css/**/*.min.css',
+//     'themes/moodlebox/static/js/**/*',
     ''
   ]);
 });
