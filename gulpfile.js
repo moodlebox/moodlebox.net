@@ -15,26 +15,26 @@ gulp.task('default', [ 'reset', 'css', 'hugo', 'html', 'clean' ]);
 gulp.task('reset', function(){
   return del([
     'public/**/*',
-    'themes/moodlebox/static/css/**/*.min.css',
-//       'themes/moodlebox/static/static/js/**/*',
+    'themes/hugo-moodlebox-theme/static/css/**/*.min.css',
+//       'themes/hugo-moodlebox-theme/static/static/js/**/*',
     ''
   ]);
 });
 
 gulp.task('css', function(){
-  return gulp.src(['./static/css/**/*.css', './themes/moodlebox/static/css/**/*.css'])
+  return gulp.src(['./static/css/**/*.css', './themes/hugo-moodlebox-theme/static/css/**/*.css'])
 //     .pipe(concat('main.css'))
     .pipe(gulpif(file => !(file.path.includes('.min.css')), rename({suffix:'min.css'})))
     .pipe(minify())
-    .pipe(gulp.dest('themes/moodlebox/static/css'))
+    .pipe(gulp.dest('themes/hugo-moodlebox-theme/static/css'))
 });
 
 gulp.task('js', function(){
-  return gulp.src(['./static/js/**/*.js', './themes/moodlebox/static/js/**/*.js'])
+  return gulp.src(['./static/js/**/*.js', './themes/hugo-moodlebox-theme/static/js/**/*.js'])
 //     .pipe(gulpif(file => !(file.path.includes('.min.js')), rename({suffix:'min.js'})))
 //     .pipe(concat('main.js'))
 //     .pipe(uglify())
-    .pipe(gulp.dest('themes/moodlebox/static/js'))
+    .pipe(gulp.dest('themes/hugo-moodlebox-theme/static/js'))
 });
 
 // gulp.task('hugo', ['reset', 'css', 'js'], function (fetch) {
@@ -55,8 +55,8 @@ gulp.task('html', ['hugo'], function() {
 
 gulp.task('clean', ['html'], function () {
   return del([
-    'themes/moodlebox/static/css/**/*.min.css',
-//     'themes/moodlebox/static/js/**/*',
+    'themes/hugo-moodlebox-theme/static/css/**/*.min.css',
+//     'themes/hugo-moodlebox-theme/static/js/**/*',
     ''
   ]);
 });
