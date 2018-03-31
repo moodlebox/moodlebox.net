@@ -1,6 +1,6 @@
 baseurl: https://moodlebox.net/
 title: MoodleBox
-theme: moodlebox
+theme: hugo-moodlebox-theme
 languageCode: en-us
 
 # Do not inject generator meta tag on homepage
