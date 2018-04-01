@@ -1,7 +1,8 @@
 ---
 date: 2018-02-04
-title: "MoodleBox has a new web site"
-description: "MoodleBox web site has been completely redesigned and changed its technology, for better performance and security."
+title: MoodleBox has a new web site
+description: MoodleBox web site has been completely redesigned and changed its technology, for better performance and security.
+author: Nicolas Martignoni
 slug: new-web-site
 ---
 

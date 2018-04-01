@@ -1,8 +1,9 @@
 ---
-title: "Moodlebox supports the education of detainees"
-description: "MoodleBox is used at the penitentiary centre in Caen, France, to support the education of detainees."
+title: Moodlebox supports the education of detainees
+description: MoodleBox is used at the penitentiary centre in Caen, France, to support the education of detainees.
+author: Nicolas Martignoni
 date: 2018-02-14
-slug: "caen-detention-centre"
+slug: caen-detention-centre
 ---
 Since yesterday, MoodleBox has been used at the penitentiary centre in Caen.
 

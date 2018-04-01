@@ -1,8 +1,9 @@
 ---
-title: "Disk-Image Version 2.2.0"
-description: "MoodleBox 2.2.0 basiert auf Moodle Version 3.4.1. Außerdem wurden verschiedene Verbesserungen vorgenommen."
+title: Disk-Image Version 2.2.0
+description: MoodleBox 2.2.0 basiert auf Moodle Version 3.4.1. Außerdem wurden verschiedene Verbesserungen vorgenommen.
 date: 2018-03-02
-slug: "version-2.2.0"
+author: Nicolas Martignoni
+slug: version-2.2.0
 ---
 
 Die [Version 2.2.0][2] des [Disk-Image der MoodleBox][1]  wurde heute veröffentlicht.

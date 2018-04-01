@@ -1,8 +1,9 @@
 ---
 date: 2018-01-02
-title: "Version 2.1.0 de l'image disque"
-description: "MoodleBox 2.1.0 est basée sur l'image Raspbian Stretch Lite du 29-11-2017. Le processus de création de l'image a été repensé."
-slug: "version-2.1.0"
+title: Version 2.1.0 de l'image disque
+description: MoodleBox 2.1.0 est basée sur l'image Raspbian Stretch Lite du 29-11-2017. Le processus de création de l'image a été repensé.
+author: Nicolas Martignoni
+slug: version-2.1.0
 ---
 
 La version 2.1.0 de l'[image of the MoodleBox][1] est publiée aujourd'hui. [Cette version][4] ne change pas grand chose pour les utilisateurs finals. Cependant il y a de gros changements sous le capot.

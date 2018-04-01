@@ -1,8 +1,9 @@
 ---
-title: "Moodlebox soutient la formation des détenus"
-description: "MoodleBox est utilisée au centre pénitentiaire de Caen, France, pour soutenir la formation des détenus."
+title: Moodlebox soutient la formation des détenus
+description: MoodleBox est utilisée au centre pénitentiaire de Caen, France, pour soutenir la formation des détenus.
+author: Nicolas Martignoni
 date: 2018-02-14
-slug: "centre-detention-caen"
+slug: centre-detention-caen
 ---
 Depuis hier, MoodleBox est utilisée au centre pénitentiaire de Caen.
 
