@@ -33,7 +33,7 @@ L'image-disque de la MoodleBox et les informations présentées sur ce site web 
 L'auteur ne s'engage par ailleurs à aucune correction de l'image-disque ou de ce site web et de cette documentation.
 
  [1]: https://moodle.org
- [2]: {{< relref "hardware-needed.fr.md" >}}
+ [2]: {{< relref "hardware-needed.md" >}}
  [3]: https://www.raspberrypi.org
  [4]: https://moodle.org/course/view.php?id=20
  [5]: https://moodle.org/mod/forum/discuss.php?d=318719

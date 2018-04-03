@@ -40,8 +40,8 @@ Ces données d'identification doivent être utilisées pour [accéder à l'inter
   * Nom d'utilisateur : __moodlebox__
   * Mot de passe : __Moodlebox4$__
 
- [1]: {{< relref "command-line-access.fr.md" >}}
- [2]: {{< relref "using-files-with-the-moodlebox.fr.md" >}}
- [3]: {{< relref "wi-fi-connection.fr.md" >}}
- [4]: {{< relref "access-to-moodle.fr.md" >}}
- [5]: {{< relref "access-to-the-database.fr.md" >}}
+ [1]: {{< relref "command-line-access.md" >}}
+ [2]: {{< relref "using-files-with-the-moodlebox.md" >}}
+ [3]: {{< relref "wi-fi-connection.md" >}}
+ [4]: {{< relref "access-to-moodle.md" >}}
+ [5]: {{< relref "access-to-the-database.md" >}}

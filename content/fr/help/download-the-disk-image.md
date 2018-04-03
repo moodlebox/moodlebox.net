@@ -65,9 +65,9 @@ soit avec celle-ci
 curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
 ```
 
- [1]: {{< relref "copy-the-disk-image.fr.md" >}}
- [2]: {{< relref "startup-shutdown-restart.fr.md" >}}
- [3]: {{< relref "support-the-moodlebox-project.fr.md" >}}
+ [1]: {{< relref "copy-the-disk-image.md" >}}
+ [2]: {{< relref "startup-shutdown-restart.md" >}}
+ [3]: {{< relref "support-the-moodlebox-project.md" >}}
  [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
- [5]: {{< relref "install-the-moodlebox.fr.md" >}}
+ [5]: {{< relref "install-the-moodlebox.md" >}}
  [6]: https://www.raspberrypi.org/downloads/raspbian/

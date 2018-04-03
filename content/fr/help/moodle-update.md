@@ -42,4 +42,4 @@ sudo -u www-data git checkout MOODLE_35_STABLE
 Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et continuez comme ci-dessus.
 
  [1]: https://docs.moodle.org/fr/Mise_à_jour
- [2]: {{< relref "command-line-access.fr.md" >}}
+ [2]: {{< relref "command-line-access.md" >}}

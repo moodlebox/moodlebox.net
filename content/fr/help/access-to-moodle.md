@@ -23,6 +23,6 @@ Vous êtes alors connecté au compte administrateur de Moodle sur la MoodleBox. 
 
 L'installation initiale de Moodle ne comporte qu'un seul compte utilisateur (un administrateur) et aucun cours n'y a été créé. La configuration de l'environnement doit être effectuée par vous-même, tout comme la gestion de ses contenus (ressources, activités, etc.). Consultez la [documentation de Moodle][3] si vous ne savez pas comment le faire.
 
- [1]: {{< relref "wi-fi-connection.fr.md" >}}
+ [1]: {{< relref "wi-fi-connection.md" >}}
  [2]: http://moodlebox.home/
  [3]: https://docs.moodle.org/fr/Guide_rapide_d'administration

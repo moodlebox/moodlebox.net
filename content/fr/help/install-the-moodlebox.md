@@ -41,13 +41,13 @@ Il n'y a pas d'autre manipulation à effectuer : dès la fin de son démarrage,
 
 Pour plus d'informations, [consultez la documentation][9].
 
- [1]: {{< relref "hardware-needed.fr.md" >}}
- [2]: {{< relref "download-the-disk-image.fr.md" >}}
- [3]: {{< relref "copy-the-disk-image.fr.md" >}}
- [4]: {{< relref "access-to-moodle.fr.md" >}}
- [5]: {{< relref "wi-fi-connection.fr.md" >}}
- [6]: {{< relref "updating-wi-fi-configuration.fr.md" >}}
- [7]: {{< relref "command-line-access.fr.md" >}}
- [8]: {{< relref "support-the-moodlebox-project.fr.md" >}}
+ [1]: {{< relref "hardware-needed.md" >}}
+ [2]: {{< relref "download-the-disk-image.md" >}}
+ [3]: {{< relref "copy-the-disk-image.md" >}}
+ [4]: {{< relref "access-to-moodle.md" >}}
+ [5]: {{< relref "wi-fi-connection.md" >}}
+ [6]: {{< relref "updating-wi-fi-configuration.md" >}}
+ [7]: {{< relref "command-line-access.md" >}}
+ [8]: {{< relref "support-the-moodlebox-project.md" >}}
  [9]: /fr/help
  [10]: https://etcher.io
