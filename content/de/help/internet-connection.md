@@ -16,4 +16,4 @@ Wenn der Internetzugang für die WLAN-Geräte nicht gewünscht wird, entfernen S
 
 Weitere Informationen hierzu finden Sie in der [MoodleBox Netzwerktopologie][1].
 
- [1]: {{< relref "network-topology.de.md" >}}
+ [1]: {{< relref "network-topology.md" >}}

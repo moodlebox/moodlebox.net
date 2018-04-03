@@ -15,7 +15,7 @@ Die Version 2.1.0 des [Disk-Image der MoodleBox][1] wurde heute veröffentlicht.
 
 Weitere Informationen finden Sie in den [Release Notes auf Github][4].
 
- [1]: {{< relref "download-the-disk-image.de.md" >}}
+ [1]: {{< relref "download-the-disk-image.md" >}}
  [2]: https://www.raspberrypi.org/downloads/raspbian/
  [3]: https://www.ansible.com
  [4]: https://github.com/moodlebox/moodlebox/releases/tag/v2.1.0

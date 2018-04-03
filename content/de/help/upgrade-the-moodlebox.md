@@ -26,5 +26,5 @@ Für diese Operation muss die MoodleBox über ein Ethernetkabel mit dem Internet
   4. Die Verarbeitung dieser Anweisung wird wohl eine Weile dauern, wahrscheinlich mehrere Minuten. Die Dauer hängt vom Umfang der zu aktualisierenden Software, von der Bandbreite Ihrer Internetverbindung und von der Qualität Ihrer MicroSD-Karte ab.
   5. Am Ende des Update-Vorgangs geben Sie `exit` ein und bestätigen dies mit der Eingabetaste.
 
- [1]: {{< relref "command-line-access.de.md" >}}
- [2]: {{< relref "credentials.de.md" >}}
+ [1]: {{< relref "command-line-access.md" >}}
+ [2]: {{< relref "credentials.md" >}}

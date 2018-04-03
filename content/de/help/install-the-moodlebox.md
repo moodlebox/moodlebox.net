@@ -42,13 +42,13 @@ Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die Mo
 
 Weitere Informationen finden Sie, wenn Sie in unserer [Knowledge Base][9] stöbern.
 
- [1]: {{< relref "hardware-needed.de.md" >}}
- [2]: {{< relref "download-the-disk-image.de.md" >}}
- [3]: {{< relref "copy-the-disk-image.de.md" >}}
- [4]: {{< relref "access-to-moodle.de.md" >}}
- [5]: {{< relref "wi-fi-connection.de.md" >}}
- [6]: {{< relref "updating-wi-fi-configuration.de.md" >}}
- [7]: {{< relref "command-line-access.de.md" >}}
- [8]: {{< relref "support-the-moodlebox-project.de.md" >}}
+ [1]: {{< relref "hardware-needed.md" >}}
+ [2]: {{< relref "download-the-disk-image.md" >}}
+ [3]: {{< relref "copy-the-disk-image.md" >}}
+ [4]: {{< relref "access-to-moodle.md" >}}
+ [5]: {{< relref "wi-fi-connection.md" >}}
+ [6]: {{< relref "updating-wi-fi-configuration.md" >}}
+ [7]: {{< relref "command-line-access.md" >}}
+ [8]: {{< relref "support-the-moodlebox-project.md" >}}
  [9]: /de/help
  [10]: https://etcher.io

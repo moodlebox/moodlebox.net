@@ -40,8 +40,8 @@ Diese Anmeldedaten ermöglichen den [Zugang zur Datenbank-Verwaltungsoberfläche
   * Anmeldename: __moodlebox__
   * Kennwort: __Moodlebox4$__
 
- [1]: {{< relref "command-line-access.de.md" >}}
- [2]: {{< relref "using-files-with-the-moodlebox.de.md" >}}
- [3]: {{< relref "wi-fi-connection.de.md" >}}
- [4]: {{< relref "access-to-moodle.de.md" >}}
- [5]: {{< relref "access-to-the-database.de.md" >}}
+ [1]: {{< relref "command-line-access.md" >}}
+ [2]: {{< relref "using-files-with-the-moodlebox.md" >}}
+ [3]: {{< relref "wi-fi-connection.md" >}}
+ [4]: {{< relref "access-to-moodle.md" >}}
+ [5]: {{< relref "access-to-the-database.md" >}}

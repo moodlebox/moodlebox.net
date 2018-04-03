@@ -25,7 +25,7 @@ Falls Sie es als Experte bevorzugen, zum Flashen der MicroSD-Karte einige Befehl
   * [Anleitung für Linux][6]
 
 
- [1]: {{< relref "download-the-disk-image.de.md" >}}
+ [1]: {{< relref "download-the-disk-image.md" >}}
  [2]: https://etcher.io/
  [3]: https://www.raspberrypi.org/documentation/installation/installing-images/README.md
  [4]: https://www.raspberrypi.org/documentation/installation/installing-images/mac.md
