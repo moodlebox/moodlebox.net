@@ -16,4 +16,4 @@ When this is not desired, simply remove the Ethernet cable from the MoodleBox d
 
 Have a look at the [MoodleBox network topology][1] for more information about this.
 
- [1]: {{< relref "network-topology.en.md" >}}
+ [1]: {{< relref "network-topology.md" >}}

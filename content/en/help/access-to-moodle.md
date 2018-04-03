@@ -23,6 +23,6 @@ You're now logged into the Moodle administrator account of the MoodleBox. It's _
 
 The initial Moodle installation has only one account (administrator) and no course is created. The Moodle environment should be configured by yourself, as well as the management of its contents (resources, activities, etc.). See the [Moodle documentation][3] if you don't know how to do this.
 
- [1]: {{< relref "wi-fi-connection.en.md" >}}
+ [1]: {{< relref "wi-fi-connection.md" >}}
  [2]: http://moodlebox.home/
  [3]: https://docs.moodle.org/en/Admin_quick_guide

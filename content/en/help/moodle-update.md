@@ -42,4 +42,4 @@ sudo -u www-data git checkout MOODLE_35_STABLE
 Then visit the URL http://moodlebox.home/admin and follow the update instructions, just like above.
 
  [1]: https://docs.moodle.org/en/Upgrading
- [2]: {{< relref "command-line-access.en.md" >}}
+ [2]: {{< relref "command-line-access.md" >}}

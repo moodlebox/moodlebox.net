@@ -42,13 +42,13 @@ There is no other manipulation to do: after the boot, your MoodleBox is ready an
 
 For more information, browse the [knowledge base][9].
 
- [1]: {{< relref "hardware-needed.en.md" >}}
- [2]: {{< relref "download-the-disk-image.en.md" >}}
- [3]: {{< relref "copy-the-disk-image.en.md" >}}
- [4]: {{< relref "access-to-moodle.en.md" >}}
- [5]: {{< relref "wi-fi-connection.en.md" >}}
- [6]: {{< relref "updating-wi-fi-configuration.en.md" >}}
- [7]: {{< relref "command-line-access.en.md" >}}
- [8]: {{< relref "support-the-moodlebox-project.en.md" >}}
+ [1]: {{< relref "hardware-needed.md" >}}
+ [2]: {{< relref "download-the-disk-image.md" >}}
+ [3]: {{< relref "copy-the-disk-image.md" >}}
+ [4]: {{< relref "access-to-moodle.md" >}}
+ [5]: {{< relref "wi-fi-connection.md" >}}
+ [6]: {{< relref "updating-wi-fi-configuration.md" >}}
+ [7]: {{< relref "command-line-access.md" >}}
+ [8]: {{< relref "support-the-moodlebox-project.md" >}}
  [9]: /en/help
  [10]: https://etcher.io

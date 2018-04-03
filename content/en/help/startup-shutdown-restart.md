@@ -48,6 +48,6 @@ The installation of a hardware button is very simple: you just have to buy a but
 {{< figure link="/img/media/hardware-button.jpg" thumb="-small" caption="Hardware button" caption-position="bottom" caption-effect="appear" width="400px" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
- [2]: {{< relref "download-the-disk-image.en.md" >}}
+ [2]: {{< relref "download-the-disk-image.md" >}}
  [3]: https://www.aliexpress.com/item/5pcs-TTP223-TTP223B-Jog-digital-touch-sensor-capacitive-touch-touch-switch-modules-Accessories/32694092023.html
  [4]: https://www.aliexpress.com/item/40pcs-lot-10cm-2-54mm-1pin-feMale-to-feMale-jumper-wire-Dupont-cable/32800215149.html

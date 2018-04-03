@@ -10,5 +10,5 @@ Version 2.0.1 of the [image of the MoodleBox][1] is released today. [This minor 
 
 See the [release notes on Github][2] for more info.
 
- [1]: {{< relref "download-the-disk-image.en.md" >}}
+ [1]: {{< relref "download-the-disk-image.md" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.0.1

@@ -40,8 +40,8 @@ These credentials should be used to [access to the database management interfac
   * Username: __moodlebox__
   * Password: __Moodlebox4$__
 
- [1]: {{< relref "command-line-access.en.md" >}}
- [2]: {{< relref "using-files-with-the-moodlebox.en.md" >}}
- [3]: {{< relref "wi-fi-connection.en.md" >}}
- [4]: {{< relref "access-to-moodle.en.md" >}}
- [5]: {{< relref "access-to-the-database.en.md" >}}
+ [1]: {{< relref "command-line-access.md" >}}
+ [2]: {{< relref "using-files-with-the-moodlebox.md" >}}
+ [3]: {{< relref "wi-fi-connection.md" >}}
+ [4]: {{< relref "access-to-moodle.md" >}}
+ [5]: {{< relref "access-to-the-database.md" >}}

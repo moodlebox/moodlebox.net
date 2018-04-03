@@ -33,7 +33,7 @@ The MoodleBox disk image and the information of the web site are provided "as is
 The author does not commit himself to any correction of the disk image or of this website and documentation.
 
  [1]: https://moodle.org
- [2]: {{< relref "hardware-needed.en.md" >}}
+ [2]: {{< relref "hardware-needed.md" >}}
  [3]: https://www.raspberrypi.org
  [4]: https://moodle.org/course/view.php?id=20
  [5]: https://moodle.org/mod/forum/discuss.php?d=318719
