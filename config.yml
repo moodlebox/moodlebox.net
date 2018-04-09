@@ -90,6 +90,11 @@ languages:
       subtitle: Have a look at what teachers around the world said about the MoodleBox.
       title: What teachers say
 
+    clients:
+      enable: false
+      subtitle: Institutions that use the MoodleBox for their own projects
+      title: Our users
+
   fr:
     languageName: Français
     title: MoodleBox
@@ -150,6 +155,11 @@ languages:
       subtitle: Découvrez ce que des enseignants du monde entier disent de la MoodleBox.
       title: Ce que les enseignants en disent
 
+    clients:
+      enable: false
+      subtitle: Les institutions qui utilisent la MoodleBox pour leurs projets
+      title: Nos utilisateurs
+
   de:
     languageName: Deutsch
     title: MoodleBox
@@ -209,6 +219,11 @@ languages:
       subtitle: Finden Sie die Meinungen von Lehrkräften aus aller Welt über die MoodleBox heraus.
       title: Was Lehrer dazu sagen
 
+    clients:
+      enable: false
+      subtitle: Institutions that use the MoodleBox for their own projects
+      title: Our users
+
 menu:
   topbar:
   - name: GitHub
@@ -264,14 +279,6 @@ params:
 
   news:
     enable: true
-
-  clients:
-    enable: false
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more information take a look at the README.
-    subtitle: ''
-    title: Our Clients
 
   features:
     enable: true
