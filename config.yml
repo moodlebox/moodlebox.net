@@ -250,12 +250,15 @@ params:
   defaultKeywords:
   - MoodleBox
   - Moodle
+  - Moodle Box
   - Raspberry
   - Raspberry Pi
   - RPi
+  - Pi
   - Classroom
   - Wi-Fi
   - WiFi
+  - Box
 
   # Since this template is static, the contact form uses www.formspree.io as a
   # proxy. The form makes a POST request to their servers to send the actual
