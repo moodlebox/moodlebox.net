@@ -1,6 +1,8 @@
 ---
 title: MoodleBox Netzwerktopologie
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2017-09-23
 description: Das folgende Diagramm beschreibt die Netzwerktopologie der MoodleBox
@@ -12,6 +14,6 @@ categories:
   - Usage
 
 ---
-Das folgende Diagramm beschreibt die Netzwerktopologie der MoodleBox.
+Das folgende Diagramm beschreibt die Netzwerktopologie der MoodleBox. Der Hostname der MoodleBox ist __moodlebox__. Ihr fully qualified Domain Name (_FQDN_) ist __moodlebox.home__.
 
 {{< figure link="/img/media/moodlebox-network.png" thumb="-small" caption="MoodleBox Netzwerktopologie" caption-position="bottom" caption-effect="appear" width="400px"  >}}

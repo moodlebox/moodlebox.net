@@ -1,6 +1,7 @@
 ---
 title: How to access to the command line interface
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 description: If necessary, you can connect to the MoodleBox operating system via SSH
@@ -31,3 +32,5 @@ ssh moodlebox@moodlebox.home
 ```
 
 then type the password __Moodlebox4$__.
+
+The hostname of the MoodleBox is __moodlebox__. Its fully qualified domain name (_FQDN_) is __moodlebox.home__.

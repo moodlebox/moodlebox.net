@@ -1,6 +1,8 @@
 ---
 title: Zugang über Ethernet
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2017-12-23
 description: Es ist möglich, Ihr lokales Netzwerk für den Zugriff auf die MoodleBox über eine Ethernet-Verbindung zu konfigurieren
@@ -24,6 +26,8 @@ In Ihrem Ethernet-Netzwerk muss der Domänenname __moodlebox.home__ für die Moo
 Sobald diese Änderung vorgenommen wurde, können alle Nutzergeräte im Kabelnetzwerk auf die MoodleBox zugreifen (ohne selber deren numerische IP-Adresse zu kennen). Sie verwenden die Adresse http://moodlebox.home/, und die Moodle-Plattform auf der MoodleBox wird korrekt antworten. Alle Geräte, die sich über WLAN verbinden, können dies weiterhin tun.
 
 Wenn Sie nur über SSH auf die MoodleBox über Ethernet zugreifen müssen, können Sie dies mit der numerischen IP-Adresse tun, ohne dass Änderungen erforderlich sind.
+
+Der Hostname der MoodleBox ist __moodlebox__. Ihr fully qualified Domain Name (_FQDN_) ist __moodlebox.home__.
 
 ### Konfigurationsdatei `hosts` Ihres Computers erweitern
 

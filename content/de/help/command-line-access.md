@@ -1,6 +1,8 @@
 ---
 title: Zugang zum Betriebssystem
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2017-04-20
 description: Bei Bedarf können Sie über SSH auf das Betriebssystem der MoodleBox zugreifen
@@ -31,3 +33,5 @@ ssh moodlebox@moodlebox.home
 ```
 
 und dann tippen Sie unsichtbar das notwendige Kennwort __Moodlebox4$__.
+
+Der Hostname der MoodleBox ist __moodlebox__. Ihr fully qualified Domain Name (_FQDN_) ist __moodlebox.home__.

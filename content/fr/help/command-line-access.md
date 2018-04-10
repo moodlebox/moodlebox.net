@@ -1,6 +1,7 @@
 ---
 title: Comment accéder à l'interface en ligne de commande
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-17
 description: Si nécessaire, on peut se connecter au système d'exploitation de la MoodleBox en via SSH
@@ -31,3 +32,5 @@ ssh moodlebox@moodlebox.home
 ```
 
 et saisissez le mot de passe __Moodlebox4$__.
+
+Le nom d'hôte (_hostname_) de la MoodleBox est __moodlebox__. Son nom de domaine complet (_FQDN_) est __moodlebox.home__.
