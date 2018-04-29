@@ -28,7 +28,7 @@ gulp.task('js', function(){
     .pipe(gulp.dest('themes/hugo-moodlebox-theme/static/js'))
 });
 
-gulp.task('hugo', gulp.series('reset', 'css', 'js', function (fetch) {
+gulp.task('hugo', gulp.series('reset', 'css', function (fetch) {
   return exec('hugo', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
