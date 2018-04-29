@@ -16,13 +16,13 @@
   "dependencies": {},
   "devDependencies": {
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-clean-css": "^3.9.2",
     "gulp-concat": "^2.6.1",
-    "gulp-html-prettify": "0.0.1",
-    "gulp-remove-empty-lines": "^0.1.0",
     "gulp-uglify": "^3.0.0",
-    "gulp-rename-plus": "^0.0.5",
+    "gulp-jsbeautifier": "^2.1.2",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-replace": "^0.6.1",
     "gulp-if": "^2.0.2"
   }
 }
