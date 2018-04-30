@@ -25,10 +25,12 @@ gulp.task('css', function(){
 
 gulp.task('js', function(){
   return gulp.src(['./static/js/**/*.js', './themes/hugo-moodlebox-theme/static/js/**/*.js'])
+    .pipe(gulpif(file => !(file.path.includes('.min.js')), rename('min.js')))
+    .pipe(uglify())
     .pipe(gulp.dest('themes/hugo-moodlebox-theme/static/js'))
 });
 
-gulp.task('hugo', gulp.series('reset', 'css', function (fetch) {
+gulp.task('hugo', gulp.series('reset', 'css', 'js', function (fetch) {
   return exec('hugo', function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
