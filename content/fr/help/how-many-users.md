@@ -3,6 +3,7 @@ title: Combien de personnes peuvent utiliser la MoodleBox en même temps ?
 author: Nicolas Martignoni
 type: kb
 date: 2017-04-18
+description : Vous obtenez ici des informations sur le nombre d'utilisateurs que la MoodleBox peut accueillir simultanément
 slug: la-moodlebox-pour-combien-dutilisateurs
 weight: 10
 categories:
