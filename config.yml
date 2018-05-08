@@ -27,6 +27,9 @@ paginate: 5
 # Allow taxonomy term with special characters
 preserveTaxonomyNames: true
 
+# Enable robots.txt generation
+enableRobotsTXT: true
+
 # Disable incomplete languages
 #disableLanguages: [ "de" ]
 
