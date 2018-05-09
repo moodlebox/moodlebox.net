@@ -1,6 +1,7 @@
 ---
 title: Merci
 description: Merci pour votre message. Nous prendrons contact dès que possible.
+robotsdisallow: true
 ---
 
 ### Merci pour votre message

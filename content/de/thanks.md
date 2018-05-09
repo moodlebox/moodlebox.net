@@ -1,6 +1,7 @@
 ---
 title: Danke
 description: Vielen Dank für Ihre Nachricht. Wir werden uns in Kürze mit Ihnen in Verbindung setzen
+robotsdisallow: true
 ---
 
 ### Vielen Dank für Ihre Mitteilung
