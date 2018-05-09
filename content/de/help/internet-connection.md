@@ -1,6 +1,8 @@
 ---
 title: MoodleBox mit dem Internet verbinden
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2017-04-20
 description: Um eine Internetverbindung für Nutzer der MoodleBox bereitzustellen, verbinden Sie diese mit einem Ethernet-Netzwerk, das mit dem Internet verbunden ist

@@ -2,7 +2,8 @@
 title: Version 2.2.0 de l'image disque
 description: MoodleBox 2.2.0 est basée sur la version 3.4.1 de Moodle. Diverses améliorations sont également présentes.
 date: 2018-03-02
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 slug: version-2.2.0
 ---
 

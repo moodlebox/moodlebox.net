@@ -1,6 +1,7 @@
 ---
 title: Comment gérer la base de données
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 description: Pour accéder à la base de données de Moodle au moyen de PhpMyAdmin, consultez les informations ci-dessous

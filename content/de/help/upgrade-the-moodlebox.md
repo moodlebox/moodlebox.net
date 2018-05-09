@@ -1,6 +1,8 @@
 ---
 title: Wie wird die MoodleBox aktualisiert
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2017-12-22
 description: Folgen Sie den Anweisungen unten, um Ihre MoodleBox regelmäßig zu aktualisieren

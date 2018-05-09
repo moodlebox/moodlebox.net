@@ -1,6 +1,7 @@
 ---
 title: What is the MoodleBox
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-21
 description: The MoodleBox is an Internet-independent mobile device that creates a local network to which everyone can connect via WiFi. It provides a complete Moodle learning management system

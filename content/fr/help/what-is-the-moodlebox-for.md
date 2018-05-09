@@ -1,6 +1,7 @@
 ---
 title: À quoi sert la MoodleBox
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-17
 description: La MoodleBox permet de profiter d'un environnement d'apprentissage Moodle en dehors de toute infrastructure réseau, au moyen d'un petit appareil nomade et bon marché

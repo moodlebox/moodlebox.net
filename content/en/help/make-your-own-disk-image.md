@@ -1,6 +1,7 @@
 ---
 title: How to make your own customized disk-image
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-21
 description: If you wish to create your own MoodleBox disk image, here is the desired information

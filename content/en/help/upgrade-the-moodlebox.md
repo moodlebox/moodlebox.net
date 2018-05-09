@@ -1,6 +1,7 @@
 ---
 title: How to upgrade the MoodleBox
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-12-22
 description: Follow the instructions below to regularly update your MoodleBox

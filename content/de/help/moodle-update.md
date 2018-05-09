@@ -1,6 +1,8 @@
 ---
 title: Moodle aktualisieren
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2018-02-13
 description: Möchten Sie Moodle auf der MoodleBox aktualisieren? Folgen Sie diesen Anweisungen

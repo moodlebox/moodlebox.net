@@ -1,6 +1,7 @@
 ---
 title: Where to download the disk image
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 description: The MoodleBox disk image is available on this page.

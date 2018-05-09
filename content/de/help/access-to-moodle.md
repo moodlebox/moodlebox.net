@@ -1,6 +1,9 @@
 ---
 title: Anmelden in Moodle
-author: Nicolas Martignoni, Visvanath Ratnaweera, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Visvanath Ratnaweera
+  - Ralf Krause
 type: kb
 date: 2018-02-01
 description: Für die Anmeldung in der Moodle-Plattform auf der MoodleBox müssen Sie sich zunächst in deren drahtlosem WLAN-Netzwerk verbinden, dann http://moodlebox.home/ öffnen

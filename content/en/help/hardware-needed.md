@@ -1,6 +1,7 @@
 ---
 title: Which hardware to get
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 description: Here is the stuff you will need to build your MoodleBox

@@ -1,6 +1,7 @@
 ---
 title: Mit der MoodleBox verbinden
-author: Ralf Krause
+authors:
+  - Ralf Krause
 type: kb
 date: 2018-02-13
 description: Hier erfahren Sie, wie Sie sich mit dem MoodleBox WiFi-Netzwerk verbinden können

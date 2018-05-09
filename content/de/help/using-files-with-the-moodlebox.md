@@ -1,6 +1,8 @@
 ---
 title: Dateien für MoodleBox bereitstellen
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2017-04-20
 description: Die MoodleBox macht es einfach, Dateien mit den unten beschriebenen Methoden zur Verfügung zu stellen

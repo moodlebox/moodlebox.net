@@ -1,6 +1,8 @@
 ---
 title: Disk-Image herunterladen
-author: Visvanath Ratnaweera, Ralf Krause
+authors:
+  - Visvanath Ratnaweera
+  - Ralf Krause
 type: kb
 date: 2018-02-02
 description: Das MoodleBox Disk-Image ist auf dieser Seite verfügbar.

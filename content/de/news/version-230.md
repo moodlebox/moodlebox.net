@@ -2,7 +2,8 @@
 title: Disk-Image Version 2.3.0
 description: MoodleBox 2.3.0 basiert auf Raspbian Stretch Lite vom 13.03.2018 und Moodle Version 3.4.2. Es unterstützt den neuen Raspberry Pi 3B+.
 date: 2018-03-21
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 slug: version-2.3.0
 ---
 

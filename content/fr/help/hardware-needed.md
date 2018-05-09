@@ -1,6 +1,7 @@
 ---
 title: Quel matériel se procurer
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-17
 description: Voici le matériel nécessaire pour construire votre MoodleBox

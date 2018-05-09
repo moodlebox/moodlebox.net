@@ -1,6 +1,7 @@
 ---
 title: How to log into the Moodle site of the MoodleBox
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 description: To access to the Moodle installation of the MoodleBox, you must be connected to its Wi-Fi network and open http://moodlebox.home/

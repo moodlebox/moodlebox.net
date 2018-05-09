@@ -1,6 +1,7 @@
 ---
 title: Comment créer sa propre image-disque personnalisée
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-18
 description: Si vous désirez créer votre propre image-disque de MoodleBox, voici les informations souhaitées

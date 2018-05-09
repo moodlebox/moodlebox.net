@@ -1,6 +1,7 @@
 ---
 title: How to provide files on the Moodlebox
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 description: The MoodleBox makes it easy to make files available to its users, using the methods described below

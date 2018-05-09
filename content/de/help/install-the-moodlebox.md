@@ -1,6 +1,8 @@
 ---
 title: Wie wird die MoodleBox installiert
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2017-09-15
 description: Diese Vorgehensweise ist notwendig, um die MoodleBox für die erste Verwendung zu installieren

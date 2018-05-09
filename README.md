@@ -35,9 +35,11 @@ Every page comes with a header, not directly displayed in the website, but very 
 
 - __title__: The title of the page. It is displayed in the main heading of the page, and serves as the title of internal links. Words of the title have too more weight in the internal search engine.
 
-- __author__: The author(s) of the page. When you edit an already existing page, please add your name after the existing name(s), with a comma, for example:
+- __authors__: The author(s) of the page. When you edit an already existing page, please add your name on a new line after the existing name(s), with a dash, for example:
   ```yml
-  author: Jane Doe, Nicolas Martignoni
+  authors:
+    - Jane Doe
+    - Nicolas Martignoni
   ```
   Note: The author name is __not__ displayed anywhere on the website.
 

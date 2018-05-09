@@ -1,6 +1,8 @@
 ---
 title: MoodleBox einschalten, ausschalten und neustarten
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2017-04-20
 description: Wenn Sie wissen wollen, wie Sie Ihre MoodleBox richtig starten, stoppen oder neu starten können, finden Sie hier die gewünschten Informationen

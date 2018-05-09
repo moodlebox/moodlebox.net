@@ -1,6 +1,7 @@
 ---
 title: Comment mettre à disposition des fichiers sur la MoodleBox
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 description: La MoodleBox permet de mettre facilement des fichiers à disposition de ses utilisateurs, au moyen des méthodes décrites ci-dessous

@@ -1,6 +1,7 @@
 ---
 title: Comment mettre à jour la MoodleBox
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-12-22
 description: Suivez les instructions ci-dessous pour mettre à jour régulièrement votre MoodleBox

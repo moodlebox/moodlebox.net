@@ -2,7 +2,8 @@
 date: 2018-01-02
 title: Disk image version 2.1.0
 description: MoodleBox 2.1.0 is based on the Raspbian Stretch Lite image released on 2017-11-29. The image building process was refactored.
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 slug: version-2.1.0
 ---
 

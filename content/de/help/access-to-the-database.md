@@ -1,6 +1,9 @@
 ---
 title: Zugriff auf die Datenbank
-author: Nicolas Martignoni, Visvanath Ratnaweera, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Visvanath Ratnaweera
+  - Ralf Krause
 type: kb
 date: 2018-02-02
 description: Um mit PhpMyAdmin auf die Moodle-Datenbank zuzugreifen, lesen Sie die folgende Informationen

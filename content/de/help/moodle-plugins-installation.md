@@ -1,6 +1,8 @@
 ---
 title: Moodle-Plugins installieren
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2017-04-20
 description: Moodle-Plugins werden auf der MoodleBox wie auf jedem anderen Moodle-Server installiert

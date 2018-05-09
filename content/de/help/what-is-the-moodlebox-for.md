@@ -1,6 +1,8 @@
 ---
 title: Wofür ist die MoodleBox
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2017-04-21
 description: Die MoodleBox stellt eine Moodle-Plattform außerhalb jeder Netzwerk-Infrastruktur bereit, und zwar unter Verwendung eines kleinen, preiswerten und sehr vielseitigen Geräts

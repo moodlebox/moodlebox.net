@@ -1,6 +1,8 @@
 ---
 title: MoodleBox-Version anzeigen
-author: Nicolas Martignoni, Ralf Krause
+authors:
+  - Nicolas Martignoni
+  - Ralf Krause
 type: kb
 date: 2018-02-13
 description: Sie können die Version Ihrer MoodleBox anzeigen, wenn Sie die Einstellungsseite aufrufen

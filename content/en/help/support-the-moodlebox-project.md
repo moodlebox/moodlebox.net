@@ -1,6 +1,7 @@
 ---
 title: Support the MoodleBox project
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2018-03-07
 description: You can concretely support the MoodleBox project by contributing to the costs and increasing motivation for its continued development

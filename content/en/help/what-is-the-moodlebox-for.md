@@ -1,6 +1,7 @@
 ---
 title: What is the MoodleBox for
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-21
 description: The MoodleBox provides a Moodle learning management system outside of any network infrastructure, by using a small, cheap and versatile device

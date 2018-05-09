@@ -1,6 +1,7 @@
 ---
 title: How to start-up, shutdown and restart the MoodleBox
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 description: If you want to know how to start, switch off or restart your MoodleBox correctly, here is the desired information

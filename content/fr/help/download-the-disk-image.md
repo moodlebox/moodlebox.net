@@ -1,6 +1,7 @@
 ---
 title: Où télécharger l'image-disque
-author: Nicolas Martignoni
+authors:
+  - Nicolas Martignoni
 type: kb
 date: 2017-04-17
 description: L'image-disque de la MoodleBox est disponible sur cette page.
