@@ -1,12 +1,12 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/10088731",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/10088731/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/10088731/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.3.0",
-  "id": 10088731,
-  "tag_name": "v2.3.0",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/10471920",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/10471920/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/10471920/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.4.0",
+  "id": 10471920,
+  "tag_name": "v2.4.0",
   "target_commitish": "master",
-  "name": "v2.3.0",
+  "name": "v2.4.0",
   "draft": false,
   "author": {
     "login": "martignoni",
@@ -28,13 +28,13 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2018-03-21T09:00:09Z",
-  "published_at": "2018-03-21T17:46:30Z",
+  "created_at": "2018-05-17T17:24:42Z",
+  "published_at": "2018-05-17T19:23:37Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/6586369",
-      "id": 6586369,
-      "name": "moodlebox-2.3.0.img.gz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/7214579",
+      "id": 7214579,
+      "name": "moodlebox-2.4.0.img.gz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -57,14 +57,14 @@
       },
       "content_type": "application/x-gzip",
       "state": "uploaded",
-      "size": 629791993,
+      "size": 608749971,
       "download_count": 1,
-      "created_at": "2018-03-21T17:46:40Z",
-      "updated_at": "2018-03-21T17:51:05Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.3.0/moodlebox-2.3.0.img.gz"
+      "created_at": "2018-05-17T19:22:04Z",
+      "updated_at": "2018-05-17T19:23:37Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.4.0/moodlebox-2.4.0.img.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.3.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.3.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.3.0/total.svg)\r\n### Changed\r\n- Based on Raspbian Stretch Lite version of 2018-03-13 (issue #63).\r\n- Updated to Moodle 3.4.2 (issue #64).\r\n- Arbitrary chars in SSIDs now supported (issues https://github.com/moodlebox/moodle-tool_moodlebox/issues/31 and https://github.com/moodlebox/moodle-tool_moodlebox/issues/38).\r\n\r\n\r\n### Added\r\n- Support Raspberry Pi 3 B+ (issue #65).\r\n\r\n### Fixed\r\n- Nothing yet."
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.4.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.4.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.4.0/total.svg) \r\n### Changed\r\n- Change DNS to new Cloudflare ones, for privacy (issue #67).\r\n- Custom Moodle course backup directory officially supported (issue #68).\r\n- Updated to Moodle 3.5 (issue #69).\r\n- Based on Raspbian Stretch Lite version of 2018-04-18 (issue #70).\r\n- Module iptables_raw for Ansible updated (issue #72).\r\n\r\n### Added\r\n- Allow installation of unstable Moodle version (issue #73).\r\n\r\n### Fixed\r\n- Deprecated usage of tests as filters in Ansible 2.5.0 (issue #71)."
 }
