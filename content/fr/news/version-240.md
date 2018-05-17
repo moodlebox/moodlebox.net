@@ -1,7 +1,7 @@
 ---
 title: Version 2.4.0 de l'image disque
 description: MoodleBox 2.4.0 est basée sur Raspbian Stretch Lite du 18.04.2018 et sur Moodle 3.5.0. D'autres changements mineurs ont été opérés.
-date: 2018-05-18
+date: 2018-05-17
 authors:
   - Nicolas Martignoni
 slug: version-2.4.0
