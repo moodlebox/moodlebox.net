@@ -20,7 +20,7 @@ ssh moodlebox@moodlebox.home
 
 ### Update to a __minor version__
 
-To update to the next __minor version__ of Moodle (3.4.1, 3.4.2, etc.), type the following commands in the terminal:
+To update to the next __minor version__ of Moodle (3.5.1, 3.5.2, etc.), type the following commands in the terminal:
 
 ```bash
 cd /var/www/moodle/
@@ -31,7 +31,7 @@ Visit then in your browser the URL http://moodlebox.home/admin and follow the up
 
 ### Update to a __major version__
 
-To update to the next __major version__ of Moodle (3.5, 3.6, etc.), type the __additional__ following commands:
+To update to the next __major version__ of Moodle (3.6, 3.7, etc.), type the __additional__ following commands:
 
 ```bash
 sudo -u www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
