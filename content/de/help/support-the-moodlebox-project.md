@@ -19,7 +19,7 @@ Das Projekt MoodleBox versucht, die Bedürfnisse von Anwendern ohne finanzielle 
 
 Mit einem finanziellen Beitrag können Sie sich an den Kosten für das Webhosting beteiligen. Dies steigert außerdem die Motivation, die Arbeit am Projekt MoodleBox fortzusetzen.
 
-Bis zum 31. März 2018 hat das Projekt MoodleBox insgesamt 326 € an Spenden eingesammelt. Dieser Betrag ermöglicht die Zahlung der Kosten für die Domainnamen moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de und moodlebox.ch sowie das Webhosting für ein Jahr.
+Bis zum 21. Mai 2018 hat das Projekt MoodleBox insgesamt 376 € an Spenden eingesammelt. Dieser Betrag ermöglicht  die Finanzierung einiger Hardware und der Domainnamen moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de und moodlebox.ch sowie der Webhosting für ein Jahr.
 
 
 ### Spenden Sie einen Geldbetrag
