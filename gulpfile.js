@@ -12,7 +12,8 @@ var gulp      = require('gulp'),
 gulp.task('reset', function(){
   return del([
     'public/**/*',
-    'themes/hugo-moodlebox-theme/static/css/**/*.min.css'
+    'themes/hugo-moodlebox-theme/static/css/**/*.min.css',
+    'themes/hugo-moodlebox-theme/static/js/**/*.min.js'
   ]);
 });
 
@@ -49,7 +50,8 @@ gulp.task('html', function() {
 
 gulp.task('clean', function () {
   return del([
-    'themes/hugo-moodlebox-theme/static/css/**/*.min.css'
+    'themes/hugo-moodlebox-theme/static/css/**/*.min.css',
+    'themes/hugo-moodlebox-theme/static/js/**/*.min.js'
   ]);
 });
 
