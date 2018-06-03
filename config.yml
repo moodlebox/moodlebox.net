@@ -308,9 +308,6 @@ params:
       5 variations of homepage.
     title: Do you want to see more?
 
-  custom_css:
-    - custom-styles.css
-
   topbar:
     enable: false
     text: ""
