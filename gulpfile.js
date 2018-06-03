@@ -18,7 +18,7 @@ gulp.task('reset', function () {
 })
 
 gulp.task('css', function () {
-  return gulp.src(['static/css/**/*.css', 'themes/hugo-moodlebox-theme/static/css/**/*.css'])
+  return gulp.src(['themes/hugo-moodlebox-theme/static/css/**/*.css', 'static/css/**/*.css'])
     .pipe(gulpif(file => !(file.path.includes('.min.css')), rename('min.css')))
     // .pipe(concat('main.css'))
     .pipe(minify())
@@ -26,7 +26,7 @@ gulp.task('css', function () {
 })
 
 gulp.task('js', function () {
-  return gulp.src(['static/js/**/*.js', 'themes/hugo-moodlebox-theme/static/js/**/*.js'])
+  return gulp.src(['themes/hugo-moodlebox-theme/static/js/**/*.js', 'static/js/**/*.js'])
     .pipe(gulpif(file => !(file.path.includes('.min.js')), rename('min.js')))
     // .pipe(concat('main.css'))
     .pipe(uglify())
