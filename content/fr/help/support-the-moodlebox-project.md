@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-03-07
+lastmod: 2018-06-23
 description: Vous pouvez soutenir concrètement le projet MoodleBox en participant aux frais et en augmentant la motivation pour son développement continu
 slug: soutenir-le-projet-moodlebox
 weight: 100
@@ -19,7 +20,7 @@ Le projet MoodleBox est offert dans le but de répondre aux besoins des utilisat
 
 Une contribution permet de participer aux frais d'hébergement du site web. Elle encourage et augmente la motivation à continuer le travail sur la MoodleBox.
 
-Jusqu'au 21 mai 2018, le projet MoodleBox a reçu un total de 376 €, qui ont permis de payer du matériel et l'abonnement des noms de domaines moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de et moodlebox.ch, ainsi que l'hébergement web pour un peu plus d'une année.
+Jusqu'au 19 juin 2018, le projet MoodleBox a reçu un total de 386 €, qui ont permis de payer du matériel et l'abonnement des noms de domaines moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de et moodlebox.ch, ainsi que l'hébergement web pour un peu plus d'une année.
 
 ### Faire un don pour soutenir la MoodleBox
 
