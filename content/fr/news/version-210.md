@@ -9,11 +9,9 @@ slug: version-2.1.0
 
 La version 2.1.0 de l'[image of the MoodleBox][1] est publiée aujourd'hui. [Cette version][4] ne change pas grand chose pour les utilisateurs finals. Cependant il y a de gros changements sous le capot.
 
-- Le processus de création de l'image a été complètement revu. Au lieu d'utiliser un script bash, on utilise maintenant [Ansible][3], qui permet une génération plus robuste de l'image. Ansible est un outil libre et gratuit pour automatiser l'installation et la maintenance de serveurs.
-
-- Cette version est basée sur l'[image Raspbian Stretch Lite][2] publiée le 2017-11-29.
-
-- D'autres petites modifications et additions ont été faites. Consultez les [notes de mise à jour sur Github][4] pour plus de détails.
+  - Le processus de création de l'image a été complètement revu. Au lieu d'utiliser un script bash, on utilise maintenant [Ansible][3], qui permet une génération plus robuste de l'image. Ansible est un outil libre et gratuit pour automatiser l'installation et la maintenance de serveurs.
+  - Cette version est basée sur l'[image Raspbian Stretch Lite][2] publiée le 2017-11-29.
+  - D'autres petites modifications et additions ont été faites. Consultez les [notes de mise à jour sur Github][4] pour plus de détails.
 
  [1]: {{< relref "download-the-disk-image.md" >}}
  [2]: https://www.raspberrypi.org/downloads/raspbian/

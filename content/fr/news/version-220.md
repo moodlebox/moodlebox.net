@@ -10,8 +10,8 @@ slug: version-2.2.0
 La [version 2.2.0][2] de l'[image of the MoodleBox][1] est publiée aujourd'hui.
 
 Les principaux changement apportés par [cette version][2] pour les utilisateurs finals sont
-- la mise à jour à Moodle 3.4.1+, et
-- la prise en charge des clefs USB et disque durs formatés en NTFS et en exFAT. Merci à Ralf Krause pour la suggestion de cette nouvelle fonctionnalité.
+  - la mise à jour à Moodle 3.4.1+, et
+  - la prise en charge des clefs USB et disque durs formatés en NTFS et en exFAT. Merci à Ralf Krause pour la suggestion de cette nouvelle fonctionnalité.
 
 Le `cron` de Moodle est désormais effectué toutes les minutes, suivant la [recommandation officielle][3], puisque la charge processeur occasionnée n'impacte pas les performances de la MoodleBox.
 

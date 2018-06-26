@@ -9,13 +9,10 @@ slug: version-2.3.0
 
 Die [Version 2.3.0][2] des [Disk-Image der MoodleBox][1]  wurde heute veröffentlicht.
 
-- Dieses Release basiert auf den Distribution-Image von [Raspbian Stretch Lite][2], das am 13.03.2018 veröffentlicht wurde.
-
-- Es stellt Moodle Version 3.4.2 zur Verfügung.
-
-- Es ist voll kompatibel mit dem [neuen Raspberry Pi Modell 3B+][4], das Anfang des Monats veröffentlicht wurde.
-
-- Es erlaubt, den Namen des WLAN-Netzwerks (SSID) mit beliebigen Zeichen zu ändern, einschließlich Leerzeichen und Emojis, zum Beispiel "MoodleBox 🇨🇭".
+  - Dieses Release basiert auf den Distribution-Image von [Raspbian Stretch Lite][2], das am 13.03.2018 veröffentlicht wurde.
+  - Es stellt Moodle Version 3.4.2 zur Verfügung.
+  - Es ist voll kompatibel mit dem [neuen Raspberry Pi Modell 3B+][4], das Anfang des Monats veröffentlicht wurde.
+  - Es erlaubt, den Namen des WLAN-Netzwerks (SSID) mit beliebigen Zeichen zu ändern, einschließlich Leerzeichen und Emojis, zum Beispiel "MoodleBox 🇨🇭".
 
 Weitere Informationen über alle Änderungen an dieser Version finden Sie in den [Release Notes auf Github][2].
 
