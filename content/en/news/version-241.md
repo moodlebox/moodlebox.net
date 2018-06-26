@@ -10,6 +10,7 @@ slug: version-2.4.1
 [Version 2.4.1][2] of the [MoodleBox disk image][1] is released today.
 
 This version contains only small modifications, essentially:
+
 - The Wi-Fi access point channel is initially set to 11 instead of 13, to improve compatibility with some older devices;
 - A new version of the [MoodleBox plugin for Moodle][3] allows more reliable detection of the Raspberry Pi model used. In particular, the Zero W model is correctly recognized.
 
