@@ -7,7 +7,7 @@ date: 2018-07-09
 lastmod: 2018-07-09
 description: Pour redimensionner la partition de votre carte SD, suivez ces instructions.
 slug: redimensionner-partition-carte-sd
-weight: 10
+weight: 100
 categories:
   - Maintenance
 draft: true
