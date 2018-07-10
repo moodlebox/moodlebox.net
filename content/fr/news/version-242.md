@@ -9,7 +9,7 @@ slug: version-2.4.2
 
 La [version 2.4.2][2] de l'[image of the MoodleBox][1] est publiée aujourd'hui.
 
-  - Cette version est basée sur l'[image Raspbian Stretch Lite][4] publiée le 27 juin 2018.
+  - Cette version est basée sur l'[image Raspbian Stretch Lite][4] publiée le 27 juin 2018, ainsi que sur Moodle 3.5.1.
   - Grâce à une nouvelle version du [plugin MoodleBox pour Moodle][3], il est désormais possible de redimensionner la partition de la carte SD, si cela est nécessaire.
 
 Il n'y a pas d'autres modification. Consultez les [notes de mise à jour sur Github][2] pour plus de détails sur la totalité des modifications de cette version.

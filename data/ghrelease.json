@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/11403614",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/11403614/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/11403614/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.4.1",
-  "id": 11403614,
-  "node_id": "MDc6UmVsZWFzZTExNDAzNjE0",
-  "tag_name": "v2.4.1",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/11845550",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/11845550/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/11845550/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.4.2",
+  "id": 11845550,
+  "node_id": "MDc6UmVsZWFzZTExODQ1NTUw",
+  "tag_name": "v2.4.2",
   "target_commitish": "master",
-  "name": "v2.4.1",
+  "name": "v2.4.2",
   "draft": false,
   "author": {
     "login": "martignoni",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2018-06-12T12:58:44Z",
-  "published_at": "2018-06-12T16:48:13Z",
+  "created_at": "2018-07-10T17:09:11Z",
+  "published_at": "2018-07-10T19:48:53Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/7507802",
-      "id": 7507802,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDc1MDc4MDI=",
-      "name": "moodlebox-2.4.1.img.gz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/7829352",
+      "id": 7829352,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDc4MjkzNTI=",
+      "name": "180710-moodlebox-2.4.2.img.gz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,14 +61,14 @@
       },
       "content_type": "application/x-gzip",
       "state": "uploaded",
-      "size": 609725432,
+      "size": 626585706,
       "download_count": 0,
-      "created_at": "2018-06-12T16:41:30Z",
-      "updated_at": "2018-06-12T16:47:58Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.4.1/moodlebox-2.4.1.img.gz"
+      "created_at": "2018-07-10T19:47:39Z",
+      "updated_at": "2018-07-10T19:48:47Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.4.2/180710-moodlebox-2.4.2.img.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.4.1",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.4.1",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.4.1/total.svg)\r\n### Changed\r\n- Module iptables_raw for Ansible updated (issue #75).\r\n- Updated to version v1.10.4 of MoodleBox plugin (issue #76).\r\n\r\n### Added\r\n- Continuous integration with Travis CI added (first step).\r\n\r\n### Fixed\r\n- Default Wi-Fi AP channel changed to 11 (issue #74).\r\n- Ansible Lint errors and warning fixed."
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.4.2",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.4.2",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.4.2/total.svg)\r\n### Changed\r\n- Based on Raspbian Stretch Lite version of 2018-06-27 (issue #79).\r\n- Updated to version v1.11.0 of MoodleBox plugin (issue #81).\r\n\r\n### Added\r\n- Incron job added to support SD card partition resizing (issue #80).\r\n"
 }
