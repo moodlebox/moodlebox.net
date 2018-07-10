@@ -1,6 +1,6 @@
 ---
 title: Release of MoodleBox 2.4.2
-description: MoodleBox 2.4.0 is based on the Raspbian Stretch Lite image of 2018-06-27. It is now possible to resize the SD card as needed.
+description: MoodleBox 2.4.2 is based on the Raspbian Stretch Lite image of 2018-06-27. It is now possible to resize the SD card as needed.
 date: 2018-07-10
 authors:
   - Nicolas Martignoni
