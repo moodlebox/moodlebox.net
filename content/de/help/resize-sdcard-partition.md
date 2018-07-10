@@ -11,7 +11,6 @@ slug: sd-karte-partition-vergroessern
 weight: 100
 categories:
   - Maintenance
-draft: true
 ---
 
 ### Folgende Schritte sind notwendig

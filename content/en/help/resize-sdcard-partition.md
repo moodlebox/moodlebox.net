@@ -10,7 +10,6 @@ slug: resize-sdcard-partition
 weight: 100
 categories:
   - Maintenance
-draft: true
 ---
 
 ### Steps to follow

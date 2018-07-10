@@ -10,7 +10,6 @@ slug: redimensionner-partition-carte-sd
 weight: 100
 categories:
   - Maintenance
-draft: true
 ---
 
 ### Marche à suivre
