@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
+lastmod: 2018-07-15
 description: Pour accéder à Moodle sur la MoodleBox, vous devez d'abord être connecté à son réseau Wi-Fi, puis visiter http://moodlebox.home/
 slug: acces-a-moodle
 weight: 6
@@ -18,7 +19,7 @@ Vous pouvez maintenant accéder à Moodle au moyen de votre navigateur. Ouvrez v
   * nom d'utilisateur : __admin__
   * mot de passe : __Moodlebox4$__
 
-{{< figure link="/img/media/moodle-login-fr.png" caption="Connexion à Moodle" caption-position="bottom" caption-effect="appear" width="601px" >}}
+{{< figure link="/img/media/moodle-login-fr.png" caption="Connexion à Moodle" caption-position="bottom" caption-effect="appear" width="610px" >}}
 
 Vous êtes alors connecté au compte administrateur de Moodle sur la MoodleBox. Il est __fortement recommandé de modifier le mot de passe initial__ du compte administrateur de Moodle dès la première connexion.
 

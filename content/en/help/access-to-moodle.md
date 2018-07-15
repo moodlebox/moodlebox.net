@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
+lastmod: 2018-07-15
 description: To access to the Moodle installation of the MoodleBox, you must be connected to its Wi-Fi network and open http://moodlebox.home/
 slug: access-to-moodle
 weight: 6
@@ -18,7 +19,7 @@ You may now log into Moodle in your browser. Open your browser and type [http://
   * username: __admin__
   * password: __Moodlebox4$__
 
-{{< figure link="/img/media/moodle-login-en.png" caption="Moodle Login" caption-position="bottom" caption-effect="appear" width="601px" >}}
+{{< figure link="/img/media/moodle-login-en.png" caption="Moodle Login" caption-position="bottom" caption-effect="appear" width="610px" >}}
 
 You're now logged into the Moodle administrator account of the MoodleBox. It's __strongly recommended that you change the default password__ of the Moodle admin account at the first login.
 
