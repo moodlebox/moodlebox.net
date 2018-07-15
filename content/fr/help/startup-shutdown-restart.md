@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
+lastmod: 2018-07-15
 description: Si vous voulez savoir comment démarrer votre MoodleBox, l'arrêter ou la redémarrer correctement, voici les informations souhaitées
 slug: demarrer-arreter-redemarrer
 weight: 1
@@ -30,7 +31,7 @@ L'interface graphique de la MoodleBox permet d'arrêter et de redémarrer la Moo
 
 Pour ce faire, après s'être connecté comme administrateur dans le Moodle de la MoodleBox, on visite [Administration du site > Serveur > MoodleBox][1] dans l'interface d'administration.
 
-{{< figure link="/img/media/restart-shutdown-fr.png" caption="Éteindre et redémarrer" caption-position="bottom" caption-effect="appear" width="722px" >}}
+{{< figure link="/img/media/restart-shutdown-fr.png" caption="Éteindre et redémarrer" caption-position="bottom" caption-effect="appear" width="735px" >}}
 
 Dans la section __Redémarrage et arrêt__, l'interface présente deux boutons, permettant de redémarrer et d'arrêter la MoodleBox. Après avoir cliqué sur le bouton __Arrêter la MoodleBox__, patienter quelques secondes et vérifier que la diode verte ne clignote plus. L'alimentation peut alors être débranchée sans risque.
 

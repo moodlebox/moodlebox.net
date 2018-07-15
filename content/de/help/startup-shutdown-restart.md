@@ -5,6 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
+lastmod: 2018-07-15
 description: Wenn Sie wissen wollen, wie Sie Ihre MoodleBox richtig starten, stoppen oder neu starten können, finden Sie hier die gewünschten Informationen
 slug: einschalten-ausschalten-neustarten
 weight: 1
@@ -31,7 +32,7 @@ Um das Risiko von Datenbeschädigungen auf der MicroSD-Karte zu minimieren, fahr
 
 Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleBox an und rufen Sie die Einstellungsseite [Website-Administration > Server > MoodleBox] [1] auf.
 
-{{< figure link="/img/media/restart-shutdown-en.png" caption="Neustarten und ausschalten" caption-position="bottom" caption-effect="appear" width="722px" >}}
+{{< figure link="/img/media/restart-shutdown-de.png" caption="Neustarten und ausschalten" caption-position="bottom" caption-effect="appear" width="735px" >}}
 
 Im Abschnitt __Neustarten und ausschalten__ zeigt die Benutzeroberfläche zwei Schaltflächen, mit denen Sie die MoodleBox neustarten oder ausschalten können. Tippen Sie auf die Schaltfläche __MoodleBox ausschalten__, warten Sie einige Sekunden und kontrollieren Sie, dass die grüne LED nicht mehr leuchtet. Jetzt können Sie das Netzteil entfernen.
 

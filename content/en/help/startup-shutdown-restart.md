@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
+lastmod: 2018-07-15
 description: If you want to know how to start, switch off or restart your MoodleBox correctly, here is the desired information
 slug: startup-shutdown-restart
 weight: 1
@@ -30,7 +31,7 @@ The graphical interface of the MoodleBox allows you to safely stop and restart t
 
 Log in the Moodle instance of the MoodleBox and visit [Site administration > Server > MoodleBox][1] in the administration interface.
 
-{{< figure link="/img/media/restart-shutdown-en.png" caption="Shutdown and restart" caption-position="bottom" caption-effect="appear" width="722px" >}}
+{{< figure link="/img/media/restart-shutdown-en.png" caption="Shutdown and restart" caption-position="bottom" caption-effect="appear" width="735px" >}}
 
 In the section __Restart and shutdown__, the interface displays two buttons allowing to restart and shutdown the MoodleBox. Click on the button __Shutdown MoodleBox__, wait a few seconds and check that the green LED doesn't lights up any more. You may now safely unplug the power supply.
 
