@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-08-12
+lastmod: 2018-07-15
 description: It is possible to change several settings of the access point WiFi settings of the MoodleBox.
 slug: updating-wi-fi-network-configuration
 weight: 6

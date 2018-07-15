@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-08-12
+lastmod: 2018-07-15
 description: Il est possible de modifier différents réglages du point d'accès WiFi de la MoodleBox.
 slug: modification-de-la-configuration-du-reseau-wi-fi
 weight: 6
