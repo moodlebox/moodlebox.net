@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
+lastmod: 2018-07-10
 description: L'image-disque de la MoodleBox est disponible sur cette page.
 slug: telecharger-limage-disque
 weight: 3

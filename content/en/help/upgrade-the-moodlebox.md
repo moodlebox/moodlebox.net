@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-22
+lastmod: 2018-01-06
 description: Follow the instructions below to regularly update your MoodleBox
 slug: how-to-upgrade-the-moodlebox
 categories:

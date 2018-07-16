@@ -5,6 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-02
+lastmod: 2018-07-10
 description: Das MoodleBox Disk-Image ist auf dieser Seite verfügbar.
 slug: disk-image-herunterladen
 weight: 3

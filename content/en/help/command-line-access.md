@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
+lastmod: 2018-04-10
 description: If necessary, you can connect to the MoodleBox operating system via SSH
 slug: command-line-connection
 weight: 15

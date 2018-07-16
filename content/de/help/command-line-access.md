@@ -5,6 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
+lastmod: 2018-04-10
 description: Bei Bedarf können Sie über SSH auf das Betriebssystem der MoodleBox zugreifen
 slug: zugang-zum-betriebssystem
 weight: 15

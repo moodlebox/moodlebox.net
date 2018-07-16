@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-22
+lastmod: 2018-01-06
 description: Suivez les instructions ci-dessous pour mettre à jour régulièrement votre MoodleBox
 slug: comment-mettre-a-jour-la-moodlebox
 categories:

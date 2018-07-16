@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
+lastmod: 2018-04-10
 description: Si nécessaire, on peut se connecter au système d'exploitation de la MoodleBox en via SSH
 slug: connexion-ssh-en-ligne-de-commande
 weight: 15

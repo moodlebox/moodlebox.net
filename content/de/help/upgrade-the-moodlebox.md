@@ -5,6 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-12-22
+lastmod: 2018-02-23
 description: Folgen Sie den Anweisungen unten, um Ihre MoodleBox regelmäßig zu aktualisieren
 slug: moodlebox-aktualisieren
 categories:
