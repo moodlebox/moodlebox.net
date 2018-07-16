@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
+lastmod: 2017-07-16
 description: La MoodleBox est un dispositif mobile indépendant d'Internet permettant de créer un réseau local auquel chacun peut se connecter par WiFi. Elle fournit un environnement d'apprentissage Moodle complet
 slug: cest-quoi-la-moodlebox
 weight: 2
@@ -21,7 +22,7 @@ Elle est [construite][2] autour d'un mini-ordinateur [Raspberry Pi 3][3] et de
 
 ### Le projet MoodleBox
 
-Le projet MoodleBox est un projet libre et gratuit. L'idée d'une MoodleBox est issue d'une discussion survenue au printemps 2016 [dans les forums de la communauté francophone de Moodle][4] autour de la mise à disposition d'une [plateforme Moodle depuis un ordinateur local][5], afin de fournir un environnement d'apprentissage même dans des régions éloignées de toute infrastructure réseau. L'[idée a rapidement émergé][6] de construire une telle configuration avec une Raspberry Pi 3, et de la rendre accessible directement par Wi-Fi. Grâce à la persévérance de [Christian Westphal][7], un premier _[proof of concept][8]_ a été proposé.
+Le projet MoodleBox est un projet libre et gratuit. L'idée d'une MoodleBox est issue de discussions [dans les forums de la communauté francophone de Moodle][4] dès janvier 2015 autour de la mise à disposition d'une [plateforme Moodle dans une petite boîte][12] ou [sur un ordinateur local][5], afin de fournir un environnement d'apprentissage même dans des régions éloignées de toute infrastructure réseau. L'[idée a rapidement émergé][6] de construire une telle configuration avec une Raspberry Pi 3, et de la rendre accessible directement par Wi-Fi. Grâce à la persévérance de [Christian Westphal][7], un premier _[proof of concept][8]_ a été proposé.
 
 Le projet MoodleBox est une réalisation de [Nicolas Martignoni][9] sur son temps libre.
 
@@ -44,3 +45,4 @@ L'auteur ne s'engage par ailleurs à aucune correction de l'image-disque ou de c
  [9]: https://twitter.com/nmartignoni
  [10]: https://moodle.org/user/profile.php?id=70180
  [11]: https://moodle.org/user/profile.php?id=41095
+ [12]: https://moodle.org/mod/forum/discuss.php?d=278493

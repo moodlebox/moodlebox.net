@@ -5,6 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-21
+lastmod: 2017-07-16
 description: Die MoodleBox ist ein kleines Gerät, mobil und internetunabhängig. Sie bietet ein drahtloses Netzwerk, mit dem sich jeder über WiFi verbinden kann. Sie stellt eine vollständige Moodle-Lernplattform zur Verfügung
 slug: was-ist-die-moodlebox
 weight: 2
@@ -20,10 +21,9 @@ Wenn die MoodleBox über ein Kabel mit dem Netzwerk (Ethernet) und dem Internet-
 
 Die MoodleBox [basiert][2] auf dem Mini-Computer [Raspberry Pi 3][3] und der [Moodle-Lernumgebung][1], dem weltweit meistgenutzten Open-Source-Learning-Management-System.
 
-
 ### Projekt MoodleBox
 
-Die MoodleBox ist freie Software (frei wie in Redefreiheit oder in Freibier). Die Idee zur MoodleBox stammt aus einer 2016 geführten Diskussion im [Forum der französischsprachigen Moodle-Community][4] über die Schaffung einer [Moodle-Plattform auf einem mobilen Computer][5]. Die [Idee für eine Box][6] wuchs schnell weiter und wurde mit dem Raspberry Pi 3 mit integriertem WLAN umsetzbar. Von [Christian Westphal][7] stammt ein [erster Konzeptentwurf][8] für die MoodleBox.
+Die MoodleBox ist freie Software (frei wie in Redefreiheit oder in Freibier). Die Idee zur MoodleBox stammt aus einigen 2015-2016 geführten Diskussion im [Forum der französischsprachigen Moodle-Community][4] über die Schaffung einer [Moodle-Plattform in einer kleinen Box][12] oder [auf einem mobilen Computer][5]. Die [Idee für eine Box][6] wuchs schnell weiter und wurde mit dem Raspberry Pi 3 mit integriertem WLAN umsetzbar. Von [Christian Westphal][7] stammt ein [erster Konzeptentwurf][8] für die MoodleBox.
 
 Das Projekt MoodleBox wird von [Nicolas Martignoni][9] in seiner Freizeit entwickelt.
 
@@ -46,3 +46,4 @@ Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in de
  [9]: https://twitter.com/nmartignoni
  [10]: https://moodle.org/user/profile.php?id=70180
  [11]: https://moodle.org/user/profile.php?id=41095
+ [12]: https://moodle.org/mod/forum/discuss.php?d=278493
