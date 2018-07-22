@@ -1,17 +1,18 @@
 ---
-title: What is the MoodleBox for
+title: What is the MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-21
 lastmod: 2018-07-22
 description: The MoodleBox provides a Moodle learning management system outside of any network infrastructure, by using a small, cheap and versatile device
-slug: what-is-the-moodlebox-for
+slug: what-is-the-moodlebox
 weight: 1
 categories:
   - About
 aliases:
   - en/about
+  - en/what-is-the-moodlebox-for
 
 ---
 The MoodleBox is a small footprint mobile device, Internet independent, providing a wireless network for your smartphone, tablet or computer. It provides a complete [Moodle][1] learning management system platform, enabling to supply online learning activities and sharing files with your users.

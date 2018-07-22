@@ -10,8 +10,7 @@ slug: moodlebox-project
 weight: 2
 categories:
   - About
-aliases:
-  - en/what-is-the-moodlebox
+
 ---
 
 The MoodleBox project is a free (as in speech and in beer) project. The idea of MoodleBox arose between january 2015 and spring 2016 in some forum discussions [in the french community][4] of [Moodle][1], when discussing about the construction of a [Moodle platform in a little box][12] or [on a local computer][5], to provide an LMS in regions without any network infrastructure. The [idea quickly emerged][6] to build it with a Raspberry Pi 3, and to make it accessible via Wi-Fi. Thanks to the perseverance of [Christian Westphal][7], a [first proof of concept][8] was proposed.
