@@ -24,12 +24,12 @@ Die deutsche Übersetzung der Website wurde hauptsächlich von [Ralf Krause][10]
 
 ### Haftungsausschluss
 
-Das Disk-Image für die MoodleBox und alle Informationen auf dieser Website werden "wie besehen" der Allgemeinheit zur Verfügung gestellt. Der Autor bemüht sich, das einwandfreie Funktionieren der MoodleBox und die Richtigkeit der Informationen zu gewährleisten. Der Autor lehnt jedoch jegliche Verantwortung für direkte oder indirekte Schäden ab, die bei der Nutzung der MoodleBox auftreten können. Insbesondere kann er nicht für materiellen Verlust oder den Verlust von Daten verantwortlich gemacht werden.
+Das [Disk-Image für die MoodleBox][13] und alle Informationen auf dieser Website werden "wie besehen" der Allgemeinheit zur Verfügung gestellt. Der Autor bemüht sich, das einwandfreie Funktionieren der MoodleBox und die Richtigkeit der Informationen zu gewährleisten. Der Autor lehnt jedoch jegliche Verantwortung für direkte oder indirekte Schäden ab, die bei der Nutzung der MoodleBox auftreten können. Insbesondere kann er nicht für materiellen Verlust oder den Verlust von Daten verantwortlich gemacht werden.
 
 Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in der Dokumentation zu beheben.
 
  [1]: https://moodle.org
- [2]: {{< relref "help/hardware-needed.md" >}}
+ [2]: {{< relref "hardware-needed.md" >}}
  [3]: https://www.raspberrypi.org
  [4]: https://moodle.org/course/view.php?id=20
  [5]: https://moodle.org/mod/forum/discuss.php?d=318719
@@ -40,3 +40,4 @@ Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in de
  [10]: https://moodle.org/user/profile.php?id=70180
  [11]: https://moodle.org/user/profile.php?id=41095
  [12]: https://moodle.org/mod/forum/discuss.php?d=278493
+ [13]: {{< relref "download-the-disk-image.md" >}}

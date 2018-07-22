@@ -27,6 +27,6 @@ Sie sind jetzt mit dem Administratorkonto im Moodle auf der MoodleBox verbunden.
 
 Die Moodle-Plattform hat genau ein Nutzerkonto (Administrator), wenn es bereit gestellt wird. Alle weiteren Nutzerkonten müssen Sie selber hinzufügen. Beim Start ist die Moodle-Plattform leer und es sind keine Kurse angelegt. Die Moodle-Plattform muss von Ihnen selber angepasst werden, genauso wie Sie auch alle Kursinhalte (Materialien, Aktivitäten, etc.) erstellen müssen. Falls Sie nicht genau wissen wie das geht, finden Sie alle notwendigen Infos in der [Moodle-Dokumentation][3].
 
- [1]: {{< relref "help/wi-fi-connection.md" >}}
+ [1]: {{< relref "wi-fi-connection.md" >}}
  [2]: http://moodlebox.home/
  [3]: https://docs.moodle.org/de/Kurzanleitung_für_Administrator/innen
