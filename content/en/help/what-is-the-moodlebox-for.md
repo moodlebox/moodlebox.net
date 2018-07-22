@@ -4,14 +4,22 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-21
-lastmod: 2018-06-26
+lastmod: 2018-07-22
 description: The MoodleBox provides a Moodle learning management system outside of any network infrastructure, by using a small, cheap and versatile device
 slug: what-is-the-moodlebox-for
 weight: 1
 categories:
   - About
+aliases:
+  - en/about
 
 ---
+The MoodleBox is a small footprint mobile device, Internet independent, providing a wireless network for your smartphone, tablet or computer. It provides a complete [Moodle][1] learning management system platform, enabling to supply online learning activities and sharing files with your users.
+
+When connected to the Internet via a wired network (Ethernet), the MoodleBox also provides Internet access to devices connected to it via Wi-Fi.
+
+It is [built][2] around a mini-computer [Raspberry Pi 3][3] and the [Moodle learning environment][1], the most used open source LMS in the world.
+
 The MoodleBox provides a [Moodle][1] learning management system outside of any network infrastructure, by using a small, cheap and versatile device.
 
 It's used to enhance online learning and teaching:
@@ -24,3 +32,5 @@ It's used to enhance online learning and teaching:
 It offers small groups (about 20-30 participants) the opportunity to work in a learning environment without the need for heavy setup.
 
  [1]: https://moodle.org/
+ [2]: {{< relref "hardware-needed.md" >}}
+ [3]: https://www.raspberrypi.org
