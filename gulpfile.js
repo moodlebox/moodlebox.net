@@ -12,7 +12,7 @@ var del = require('del')
 gulp.task('reset', function () {
   return del([
     'public',
-    'static/css/**/*.min.css',
+    //'static/css/**/*.min.css',
     'static/js/**/*.min.js'
   ])
 })
@@ -33,7 +33,7 @@ gulp.task('js', function () {
     .pipe(gulp.dest('static/js'))
 })
 
-gulp.task('hugo', gulp.series('reset', 'css', 'js', function (fetch) {
+gulp.task('hugo', gulp.series('reset', 'js', function (fetch) {
   return exec('hugo', function (err, stdout, stderr) {
     console.log(stdout)
     console.log(stderr)
@@ -50,7 +50,7 @@ gulp.task('html', function () {
 
 gulp.task('clean', function () {
   return del([
-    'static/css/**/*.min.css',
+    // 'static/css/**/*.min.css',
     'static/js/**/*.min.js'
   ])
 })
