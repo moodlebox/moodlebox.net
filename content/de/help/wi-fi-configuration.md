@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-08-12
-lastmod: 2018-07-15
+lastmod: 2018-07-31
 description: Es ist möglich, zahlreiche WiFi-Einstellungen des MoodleBox AccessPoint zu ändern.
 slug: wlan-einstellungen-aendern
 weight: 6
@@ -25,6 +25,14 @@ Sie können den WLAN-Namen (SSID) der MoodleBox ändern. Geben Sie einen neuen W
 ### WLAN-Kanal ändern
 
 Um den WLAN-Kanal der MoodleBox zu ändern, wählen Sie einen Kanal und tippen Sie auf die Taste __Einstellungen ändern__.
+
+### WLAN Regulierungsland ändern (ab Version 2.5.0)
+
+Um das WLAN Regulierungsland der MoodleBox zu ändern, Wählen Sie ein Land aus der Dropdown-Liste und tippen Sie auf die Taste __Einstellungen ändern__.
+
+{{% notice info %}}
+Autorisierte WLAN-Kanäle hängen vom Regulierungsland ab. Je nach gewähltem Land stehen einige Kanäle nicht mehr zur Verfügung.
+{{% /notice %}}
 
 ### WLAN-Kennwort entfernen oder ändern
 

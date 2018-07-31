@@ -5,6 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-09-15
+lastmod: 2018-07-31
 description: Diese Vorgehensweise ist notwendig, um die MoodleBox für die erste Verwendung zu installieren
 slug: moodlebox-installieren
 weight: 1
@@ -49,7 +50,7 @@ Weitere Informationen finden Sie, wenn Sie in unserer [Knowledge Base][9] stöbe
  [3]: {{< relref "copy-the-disk-image.md" >}}
  [4]: {{< relref "access-to-moodle.md" >}}
  [5]: {{< relref "wi-fi-connection.md" >}}
- [6]: {{< relref "updating-wi-fi-configuration.md" >}}
+ [6]: {{< relref "wi-fi-configuration.md" >}}
  [7]: {{< relref "command-line-access.md" >}}
  [8]: {{< relref "support-the-moodlebox-project.md" >}}
  [9]: /de/help
