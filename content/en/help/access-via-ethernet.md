@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-23
-lastmod: 2018-02-19
+lastmod: 2018-08-02
 description: It is possible to configure your local network to access the MoodleBox via an Ethernet connection
 slug: how-to-access-the-moodlebox-via-ethernet
 weight: 95
@@ -17,7 +17,7 @@ The MoodleBox is not intended to serve client devices over Ethernet. However, it
 The Moodle platform only works correctly if it is called via its domain name __moodlebox.home__. By default, however, this domain name is not known in the Ethernet network, and this is where the difficulty lies!
 
 {{% notice warning %}}
-Due to the diversity of hardware installed in the users' homes, no support can be provided for the configuration of your router or device. Do only make such changes if you really know what you are doing.
+Due to the diversity of hardware installed in the users' homes, __no support can be provided__ for the configuration of your router or device. Do only make such changes if you really know what you are doing.
 {{% /notice %}}
 
 ### Configure your router's DNS server

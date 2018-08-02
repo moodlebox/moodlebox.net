@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-12-23
-lastmod: 2018-02-19
+lastmod: 2018-08-02
 description: Es ist möglich, Ihr lokales Netzwerk für den Zugriff auf die MoodleBox über eine Ethernet-Verbindung zu konfigurieren
 slug: zugang-ueber-ethernet
 weight: 95
@@ -18,7 +18,8 @@ Normalerweise ist es nicht vorgesehen, mit kabelgebundenen Nutzergeräten im Eth
 Die Moodle-Plattform funktioniert nur dann korrekt, wenn sie über ihren Domänenname __moodlebox.home__ aufgerufen wird. Standardmäßig ist dieser Domänenname aber im Ethernet-Netzwerk nicht bekannt, und hier liegt die Schwierigkeit!
 
 {{% notice warning %}}
-Aufgrund der Vielfalt der installierten Hardware kann keine Unterstützung für die Konfiguration Ihres Routers oder Geräts geleistet werden. Nehmen Sie solche Änderungen nur dann vor, wenn Sie wirklich wissen, was Sie tun.{{% /notice %}}
+Aufgrund der Vielfalt der installierten Hardware kann __keine Unterstützung__ für die Konfiguration Ihres Routers oder Geräts geleistet werden. Nehmen Sie solche Änderungen nur dann vor, wenn Sie wirklich wissen, was Sie tun.
+{{% /notice %}}
 
 ### DNS-Server im Kabel-Netzwerk konfigurieren
 
