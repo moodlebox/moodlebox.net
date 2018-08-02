@@ -45,7 +45,7 @@ Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die Mo
 
 Weitere Informationen finden Sie, wenn Sie in unserer [Knowledge Base][9] stöbern.
 
- [1]: {{< relref "hardware-needed.md" >}}
+ [1]: {{< relref "hardware.md" >}}
  [2]: {{< relref "download-the-disk-image.md" >}}
  [3]: {{< relref "copy-the-disk-image.md" >}}
  [4]: {{< relref "access-to-moodle.md" >}}

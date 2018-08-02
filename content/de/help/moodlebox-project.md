@@ -29,7 +29,7 @@ Das [Disk-Image für die MoodleBox][13] und alle Informationen auf dieser Websit
 Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in der Dokumentation zu beheben.
 
  [1]: https://moodle.org
- [2]: {{< relref "hardware-needed.md" >}}
+ [2]: {{< relref "hardware.md" >}}
  [3]: https://www.raspberrypi.org
  [4]: https://moodle.org/course/view.php?id=20
  [5]: https://moodle.org/mod/forum/discuss.php?d=318719

@@ -44,7 +44,7 @@ There is no other manipulation to do: after the boot, your MoodleBox is ready an
 
 For more information, browse the [knowledge base][9].
 
- [1]: {{< relref "hardware-needed.md" >}}
+ [1]: {{< relref "hardware.md" >}}
  [2]: {{< relref "download-the-disk-image.md" >}}
  [3]: {{< relref "copy-the-disk-image.md" >}}
  [4]: {{< relref "access-to-moodle.md" >}}

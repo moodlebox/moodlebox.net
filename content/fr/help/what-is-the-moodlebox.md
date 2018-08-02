@@ -32,5 +32,5 @@ Elle est utilisée pour permettre l'apprentissage et l'enseignement en ligne :
 Elle offre à des petits groupes (environ 20-30 participants) la possibilité de travailler dans un environnement d'apprentissage, sans nécessité de configuration lourde.
 
  [1]: https://moodle.org/
- [2]: {{< relref "hardware-needed.md" >}}
+ [2]: {{< relref "hardware.md" >}}
  [3]: https://www.raspberrypi.org

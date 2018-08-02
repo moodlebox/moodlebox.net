@@ -43,7 +43,7 @@ Il n'y a pas d'autre manipulation à effectuer : dès la fin de son démarrage,
 
 Pour plus d'informations, [consultez la documentation][9].
 
- [1]: {{< relref "hardware-needed.md" >}}
+ [1]: {{< relref "hardware.md" >}}
  [2]: {{< relref "download-the-disk-image.md" >}}
  [3]: {{< relref "copy-the-disk-image.md" >}}
  [4]: {{< relref "access-to-moodle.md" >}}

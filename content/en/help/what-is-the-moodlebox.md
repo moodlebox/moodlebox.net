@@ -33,5 +33,5 @@ It's used to enhance online learning and teaching:
 It offers small groups (about 20-30 participants) the opportunity to work in a learning environment without the need for heavy setup.
 
  [1]: https://moodle.org/
- [2]: {{< relref "hardware-needed.md" >}}
+ [2]: {{< relref "hardware.md" >}}
  [3]: https://www.raspberrypi.org
