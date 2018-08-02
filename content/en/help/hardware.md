@@ -24,6 +24,12 @@ Here is the stuff you will need to build your MoodleBox:
 
 The total hardware amount is approximately USD 90, 80 € or CHF 90.
 
+{{% notice warning %}}
+Selecting a good quality microSD card and an adequate power supply are __essential__ for the proper operation of the MoodleBox.
+
+We recommend the [official Raspberry Foundation power supply](https://www.raspberrypi.org/products/universal-power-supply/) and a microSD card with tested performance, for example [those recommended by Wirecutter](http://thewirecutter.com/reviews/best-microsd-card/). The use of other power supplies, as well as microSD cards from dubious sources, can cause systematic malfunctions, for which __no support can be provided__.
+{{% /notice %}}
+
 {{< figure src="/img/media/rpi3.png" caption="Raspberry Pi 3" caption-position="bottom" caption-effect="appear" >}}
 {{< figure src="/img/media/rpi-power-supply.png" caption="Raspberry Pi power supply" caption-position="bottom" caption-effect="appear" >}}
 {{< figure src="/img/media/rpi-case.png" caption="Raspberry Pi case" caption-position="bottom" caption-effect="appear" >}}
