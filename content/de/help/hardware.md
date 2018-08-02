@@ -5,6 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
+lastmod: 2018-08-02
 description: Hier ist eine Übersicht alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
 slug: hardware-beschaffen
 weight: 3
@@ -24,11 +25,9 @@ Hier ist eine Übersicht alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
 
 Die Kosten für die gesamte Hardware betragen ungefähr USD 90, 80 € oder CHF 90.
 
-{{< gallery >}}
-{{< figure src="/img/media/rpi3.png" caption="Raspberry Pi 3" >}}
-{{< figure src="/img/media/rpi-power-supply.png" caption="Stromversorgung" >}}
-{{< figure src="/img/media/rpi-case.png" caption="Gehäuse" >}}
-{{< /gallery >}}
+{{< figure src="/img/media/rpi3.png" caption="Raspberry Pi 3" caption-position="bottom" caption-effect="appear" >}}
+{{< figure src="/img/media/rpi-power-supply.png" caption="Stromversorgung" caption-position="bottom" caption-effect="appear" >}}
+{{< figure src="/img/media/rpi-case.png" caption="Gehäuse" caption-position="bottom" caption-effect="appear" >}}
 
  [1]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
  [2]: https://www.raspberrypi.org/products/universal-power-supply/
