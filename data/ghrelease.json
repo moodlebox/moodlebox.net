@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/11845550",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/11845550/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/11845550/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.4.2",
-  "id": 11845550,
-  "node_id": "MDc6UmVsZWFzZTExODQ1NTUw",
-  "tag_name": "v2.4.2",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/12062477",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/12062477/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/12062477/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.5.0",
+  "id": 12062477,
+  "node_id": "MDc6UmVsZWFzZTEyMDYyNDc3",
+  "tag_name": "v2.5.0",
   "target_commitish": "master",
-  "name": "v2.4.2",
+  "name": "v2.5.0",
   "draft": false,
   "author": {
     "login": "martignoni",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2018-07-10T17:09:11Z",
-  "published_at": "2018-07-10T19:48:53Z",
+  "created_at": "2018-08-16T11:41:13Z",
+  "published_at": "2018-08-16T18:46:45Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/7829352",
-      "id": 7829352,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDc4MjkzNTI=",
-      "name": "moodlebox-2.4.2.img.gz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/8281441",
+      "id": 8281441,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDgyODE0NDE=",
+      "name": "moodlebox-2.5.0.img.gz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,14 +61,14 @@
       },
       "content_type": "application/x-gzip",
       "state": "uploaded",
-      "size": 626585706,
+      "size": 629538593,
       "download_count": 0,
-      "created_at": "2018-07-10T19:47:39Z",
-      "updated_at": "2018-07-10T20:23:34Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.4.2/moodlebox-2.4.2.img.gz"
+      "created_at": "2018-08-16T18:47:07Z",
+      "updated_at": "2018-08-16T18:48:28Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.5.0/moodlebox-2.5.0.img.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.4.2",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.4.2",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.4.2/total.svg)\r\n### Changed\r\n- Based on Raspbian Stretch Lite version of 2018-06-27 (issue #79).\r\n- Updated to version v1.11.0 of MoodleBox plugin (issue #81).\r\n\r\n### Added\r\n- Incron job added to support SD card partition resizing (issue #80).\r\n"
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.5.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.5.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.5.0/total.svg)\r\n### Changed\r\n- Updated to [version v1.12.0](\r\nhttps://github.com/moodlebox/moodle-tool_moodlebox/releases/tag/v1.12.0) of [MoodleBox plugin](https://moodle.org/plugins/tool_moodlebox) (issue #84).\r\n- MathJax library updated to [version v2.7.5](https://github.com/mathjax/MathJax/releases/tag/2.7.5) (issue #87).\r\n- Prevent wrong change of database password from within phpMyAdmin (issue #85).\r\n- Tasks re-ordered and reboot added (issue #82).\r\n\r\n### Added\r\n- Add sudoers file to allow new feature of MoodleBox plugin (issue #83)."
 }
