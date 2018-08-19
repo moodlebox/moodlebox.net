@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
-lastmod: 2018-07-15
+lastmod: 2018-08-19
 description: Wenn Sie wissen wollen, wie Sie Ihre MoodleBox richtig starten, stoppen oder neu starten können, finden Sie hier die gewünschten Informationen
 slug: einschalten-ausschalten-neustarten
 weight: 1
@@ -17,6 +17,8 @@ categories:
 #### Einschalten
 
 Setzen Sie die kopierte MicroSD-Karte in den Steckplatz im Raspberry Pi 3 ein. Verbinden Sie die MoodleBox über ein Ethernet-Kabel mit dem Netzwerk oder dem Internetrouter. Schalten Sie die Stromversorgung ein. Die rote LED leuchtet und nach einigen Sekunden beginnt die grüne LED zu blinken.
+
+{{< figure link="/img/media/pi-plug-in.gif" caption="Einschalten" caption-position="bottom" caption-effect="appear" width="750px" >}}
 
 Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die MoodleBox fertig und voll funktionsfähig.
 

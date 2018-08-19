@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2018-07-15
+lastmod: 2018-08-19
 description: If you want to know how to start, switch off or restart your MoodleBox correctly, here is the desired information
 slug: startup-shutdown-restart
 weight: 1
@@ -16,6 +16,8 @@ categories:
 #### Startup
 
 Insert your microSD card into the Raspberry Pi 3 slot, power it up and connect it to the network via an Ethernet cable. The red LED lights up, and after a few seconds the green LED lights up intermittently.
+
+{{< figure link="/img/media/pi-plug-in.gif" caption="Startup" caption-position="bottom" caption-effect="appear" width="750px" >}}
 
 There is no other manipulation to do: after the boot, your MoodleBox ready and totally functional.
 
