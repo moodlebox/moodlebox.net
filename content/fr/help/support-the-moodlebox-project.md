@@ -20,7 +20,7 @@ Le projet MoodleBox est offert dans le but de répondre aux besoins des utilisat
 
 Une contribution permet de participer aux frais d'hébergement du site web. Elle encourage et augmente la motivation à continuer le travail sur la MoodleBox.
 
-Jusqu'au 20 août 2018, le projet MoodleBox a reçu un total de 446 €, qui ont permis de payer du matériel et l'abonnement des noms de domaines moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de et moodlebox.ch, ainsi que l'hébergement web pour un peu plus d'une année.
+De septembre 2016 au 20 août 2018, le projet MoodleBox a reçu un total de 446 €, qui ont permis de payer du matériel et l'abonnement des noms de domaines moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de et moodlebox.ch, ainsi que l'hébergement web pour un peu plus d'une année.
 
 ### Faire un don pour soutenir la MoodleBox
 
