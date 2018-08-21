@@ -13,11 +13,11 @@ weight: 20
 
 Unless otherwise specified, everything on this website is covered by the following license:
 
-[![Creative Commons License][4]][3]
+{{< figure src="/img/media/cc-by-sa.png" alt="CC-BY-SA" link="https://creativecommons.org/licenses/by-nc-sa/4.0/" >}}
 
 The MoodleBox website and all documentation is licensed under a Creative Commons Attribution 4.0 International License.
 
-Some illustrations and documents are derived from content by the [Raspberry Pi Foundation][5].
+Some illustrations and documents are derived from content by the [Raspberry Pi Foundation][3].
 
 ### MoodleBox software
 
@@ -25,6 +25,4 @@ The [source code of the MoodleBox][1] is distributed under the [GPL3 license][2]
 
  [1]: https://github.com/moodlebox/moodlebox
  [2]: https://www.gnu.org/licenses/gpl-3.0.en.html
- [3]: https://creativecommons.org/licenses/by-nc-sa/4.0/
- [4]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
- [5]: https://www.raspberrypi.org
+ [3]: https://www.raspberrypi.org
