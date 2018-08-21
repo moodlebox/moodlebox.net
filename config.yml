@@ -46,8 +46,10 @@ languages:
     about: MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://twitter.com/nmartignoni).
     footertext: MoodleBox project is made by [Nicolas Martignoni](https://twitter.com/nmartignoni)
     copyright: Copyright © 2016 onwards
-    weight: 1
+    privacy: "[Privacy](/en/privacy)"
+    license: "[License](/en/license)"
     contentDir: content/en
+    weight: 1
     # Format dates with Go's time formatting
     date_format: January 2, 2006
     menu:
@@ -114,6 +116,8 @@ languages:
     about: MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://twitter.com/nmartignoni).
     footertext: MoodleBox est un projet réalisé par [Nicolas Martignoni](https://twitter.com/nmartignoni)
     copyright: Copyright © 2016 et suivantes
+    privacy: "[Confidentialité](/fr/confidentialite)"
+    license: "[Licence](/fr/licence)"
     contentDir: content/fr
     weight: 2
     # Format dates with Go's time formatting
@@ -183,6 +187,8 @@ languages:
     about: MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://twitter.com/nmartignoni).
     footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://twitter.com/nmartignoni)
     copyright: Copyright © 2016 und später
+    privacy: "[Datenschutz](/de/datenschutz)"
+    license: "[Lizenz](/de/lizenz)"
     contentDir: content/de
     weight: 3
     # Format dates with Go's time formatting
