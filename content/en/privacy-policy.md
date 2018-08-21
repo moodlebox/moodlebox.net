@@ -31,7 +31,7 @@ This website uses its own Piwik server (stats.martignoni.net) to collect anonymo
 
 ### Testimonials
 
-The __MoodleBox__ project publishes on its website a list of MoodleBox users' testimonials, including the names and origins of the people concerned. We commit ourselves to obtain the authorization of each person before publication of any testimony on this site. If you wish to be removed from the list of testimonials, you can send us an email to nicolas@martignoni.net.
+The __MoodleBox__ project publishes on its website a list of MoodleBox users' testimonials, including the names and origins of the people concerned. We commit ourselves to obtain the authorization of each person before publication of any testimonial on this site. If you wish to be removed from the list of testimonials, you can send us an email to nicolas@martignoni.net.
 
 ### Identity and contact details of the data controller
 
