@@ -372,7 +372,15 @@ pygmentsstyle: "friendly"
 
 enableMissingTranslationPlaceholders: true
 
+#outputFormats:
+#  JS:
+#    mediaType: application/javascript
+#    baseName: 'search '
+#    path: 'js'
+#    isPlainText: true
+
 outputs:
+#  home: ["HTML", "JSON", "RSS", "JS"]
   home: ["HTML", "JSON", "RSS"]
   page: ["HTML"]
 
