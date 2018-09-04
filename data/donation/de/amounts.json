@@ -21,7 +21,7 @@
     "price": 20,
     "image": "",
     "url": "//de/help/support-the-moodlebox-project/",
-    "default": true
+    "default": false
 }, {
     "id": "4",
     "name": "Webhosting, 3 Monaten",
@@ -29,7 +29,7 @@
     "price": 50,
     "image": "",
     "url": "//de/help/support-the-moodlebox-project/",
-    "default": false
+    "default": true
 }, {
     "id": "5",
     "name": "Webhosting, 6 Monaten",

@@ -21,7 +21,7 @@
     "price": 20,
     "image": "",
     "url": "//fr/help/soutenir-le-projet-moodlebox//",
-    "default": true
+    "default": false
 }, {
     "id": "4",
     "name": "Hébergement web, 3 mois",
@@ -29,7 +29,7 @@
     "price": 50,
     "image": "",
     "url": "//fr/help/soutenir-le-projet-moodlebox//",
-    "default": false
+    "default": true
 }, {
     "id": "5",
     "name": "Hébergement web, 6 mois",
