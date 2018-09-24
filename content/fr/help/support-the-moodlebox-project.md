@@ -12,6 +12,7 @@ categories:
   - À propos
   - Premiers pas
 aliases:
+  - soutenir
   - fr/give
   - fr/donate
 

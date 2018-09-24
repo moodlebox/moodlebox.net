@@ -12,6 +12,7 @@ categories:
   - About
   - First steps
 aliases:
+  - give
   - en/give
   - en/donate
 
