@@ -17,7 +17,7 @@ La MoodleBox n'est pas destinée à servir ses appareils clients par Ethernet. C
 La plateforme Moodle ne fonctionne correctement que si elle est appelée via son nom de domaine __moodlebox.home__. Par défaut, ce nom de domaine n'est pas connu dans le réseau Ethernet, et c'est là que réside la difficulté !
 
 {{% notice warning %}}
-En raison de la diversité du matériel installé chez les utilisateurs, __aucune assisance ne peut être assurée__ pour la configuration de votre routeur ou de votre appareil. N'effectuez de telles modifications que si vous savez vraiment ce que vous faites.
+En raison de la diversité du matériel installé chez les utilisateurs, __aucune assistance ne peut être assurée__ pour la configuration de votre routeur ou de votre appareil. N'effectuez de telles modifications que si vous savez vraiment ce que vous faites.
 {{% /notice %}}
 
 ### Configurer le serveur DNS de votre routeur
