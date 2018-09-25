@@ -7,7 +7,7 @@ date: 2017-09-23
 lastmod: 2018-01-02
 description: Le diagramme ci-dessous décrit la topologie du réseau de la MoodleBox
 slug: topologie-du-reseau-de-la-moodlebox
-weight: 90
+weight: 70
 categories:
   - Maintenance
   - Premiers pas

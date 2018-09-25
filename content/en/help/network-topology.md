@@ -7,7 +7,7 @@ date: 2017-09-23
 lastmod: 2018-01-02
 description: The diagram below describes the network topology of the MoodleBox
 slug: moodlebox-network-topology
-weight: 90
+weight: 70
 categories:
   - First steps
   - Maintenance
