@@ -34,7 +34,7 @@ gulp.task('js', function () {
 })
 
 gulp.task('hugo', gulp.series('reset', 'js', function (fetch) {
-  return exec('/snap/bin/hugo', function (err, stdout, stderr) {
+  return exec('hugo', function (err, stdout, stderr) {
     console.log(stdout)
     console.log(stderr)
     fetch(err)
