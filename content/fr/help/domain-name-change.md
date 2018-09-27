@@ -56,8 +56,6 @@ Accéder à votre MoodleBox au moyen votre navigateur en utilisant la nouvelle a
 
 - [Changer le nom du réseau Wi-Fi][1] de la MoodleBox.
 - Rendre accessible la MoodleBox [depuis un réseau câblé Ethernet][2].
-<!-- - Rendre accessible la MoodleBox [depuis Internet][3]. -->
 
  [1]: {{< relref "wi-fi-configuration.md" >}}
  [2]: {{< relref "access-via-ethernet.md" >}}
-<!--  [3]: {{< relref "access-from-internet.md" >}} -->
