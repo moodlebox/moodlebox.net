@@ -6,7 +6,7 @@ type: kb
 date: 2018-09-27
 lastmod: 2018-09-27
 description: Der Domainname der MoodleBox kann so geändert werden, dass er besser zu Ihrer eigenen lokalen Situation passt. In diesem Leitfaden wird erklärt, wie Sie den Domänennamen Ihrer MoodleBox ändern können.
-slug: domain-name-change
+slug: domainname-aenderung
 weight: 90
 categories:
   - Usage
