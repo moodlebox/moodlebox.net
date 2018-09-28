@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-09-15
-lastmod: 2018-07-31
+lastmod: 2018-09-28
 description: Diese Vorgehensweise ist notwendig, um die MoodleBox für die erste Verwendung zu installieren
 slug: moodlebox-installieren
 weight: 1
@@ -31,7 +31,7 @@ Für diese Aufgabe empfehlen wir Ihnen vorzugsweise [Etcher][10]. [Weitere Infor
 
 ### Schritt 4: MoodleBox starten
 
-Setzen Sie die kopierte MicroSD-Karte in den Steckplatz im Raspberry Pi 3 ein. Verbinden Sie die MoodleBox über ein Ethernet-Kabel mit dem Netzwerk oder dem Internetrouter. Schalten Sie die Stromversorgung ein. Die rote LED leuchtet und nach einigen Sekunden beginnt die grüne LED zu blinken.
+Setzen Sie die kopierte MicroSD-Karte in den Steckplatz im Raspberry Pi 3 ein. Schalten Sie die Stromversorgung ein. Die rote LED leuchtet und nach einigen Sekunden beginnt die grüne LED zu blinken. Auf Wunsch verbinden Sie die MoodleBox mit dem Netzwerk oder einem Internetrouter über ein Ethernet-Kabel, damit angeschlossene Geräte auf das Internet zugreifen können.
 
 Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die MoodleBox fertig und voll funktionsfähig.
 
