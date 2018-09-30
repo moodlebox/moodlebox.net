@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-09-27
-lastmod: 2018-09-27
+lastmod: 2018-09-30
 description: The domain name of the MoodleBox can be changed to better match your own local situation. This guide explains how to change the domain name of your MoodleBox.
 slug: domain-name-change
 weight: 90
@@ -20,7 +20,7 @@ We accept no responsibility for any direct or indirect damage caused by the use 
 
 ### How to proceed
 
-The example below shows how to change the domain name of a MoodleBox, which will allow a local computer to reach it with a new URL. The example shows how to give the MoodleBox the domain name `mybox.me`.
+The example below shows how to change the domain name of a MoodleBox, which will allow a local device to reach it with a new URL. The example shows how to give the MoodleBox the domain name `mybox.me`.
 
 {{% notice info %}}
 This operation has no influence on access to the MoodleBox from an Ethernet network or from the Internet: the MoodleBox __will remain accessible only from the Wi-Fi network it provides__, from the devices that have connected to it.
