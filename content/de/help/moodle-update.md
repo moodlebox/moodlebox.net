@@ -14,15 +14,15 @@ categories:
 ---
 Um die Aktualisierung von Moodle auf der MoodleBox möglichst einfach zu machen, wurde die Installation über Git durchgeführt. Für eine Aktualisierung führen Sie folgende Anweisungen über die Kommandozeile im Terminal aus.
 
+{{% notice info %}}
+Ab MoodleBox Version 2.5.1 und höher verwenden Sie `sudo -u moodlebox -g www-data git pull` anstelle von `sudo -u www-data git pull` in den unten angegebenen Anweisungen.
+{{% /notice %}}
+
 [Verbinden Sie sich mit der MoodleBox über SSH][2] und geben Sie das standardmäßige Kennwort __Moodlebox4$__ ein. Falls Sie das Kennwort geändert haben, müssen sie natürlich das neue Kennwort eingeben.
 
 ```bash
 ssh moodlebox@moodlebox.home
 ```
-
-{{% notice info %}}
-Ab MoodleBox Version 2.5.1 und höher verwenden Sie `sudo -u moodlebox -g www-data git pull` anstelle von `sudo -u www-data git pull` in den unten angegebenen Anweisungen.
-{{% /notice %}}
 
 ### Aktualisierung auf eine __Minor Version__ (kleiner Versionssprung)
 

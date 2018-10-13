@@ -13,15 +13,15 @@ categories:
 ---
 Afin de permettre une mise à jour simplifiée de Moodle, son installation a été faite au moyen de Git. Pour mettre à jour Moodle, on effectuera donc les opérations suivantes, en ligne de commande.
 
+{{% notice info %}}
+À partir de la version 2.5.1 de MoodleBox, utilisez `sudo -u moodlebox -g www-data git pull` au lieu de `sudo -u www-data git pull` dans les commandes indiquées ci-dessous.
+{{% /notice %}}
+
 [Connectez-vous à la MoodleBox via SSH][2], avec le mot de passe habituel __Moodlebox4$__.
 
 ```bash
 ssh moodlebox@moodlebox.home
 ```
-
-{{% notice info %}}
-À partir de la version 2.5.1 de MoodleBox, utilisez `sudo -u moodlebox -g www-data git pull` au lieu de `sudo -u www-data git pull` dans les commandes indiquées ci-dessous.
-{{% /notice %}}
 
 ### Mise à jour vers une __version mineure__
 
