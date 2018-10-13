@@ -11,6 +11,7 @@ weight: 3
 categories:
   - First steps
 aliases:
+  - download
   - en/dl
 
 ---
