@@ -5,6 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-13
+lastmod: 2018-10-13
 description: Möchten Sie Moodle auf der MoodleBox aktualisieren? Folgen Sie diesen Anweisungen
 slug: moodle-aktualisieren
 categories:
@@ -18,6 +19,10 @@ Um die Aktualisierung von Moodle auf der MoodleBox möglichst einfach zu machen,
 ```bash
 ssh moodlebox@moodlebox.home
 ```
+
+{{% notice info %}}
+Ab MoodleBox Version 2.5.1 und höher verwenden Sie `sudo -u moodlebox -g www-data git pull` anstelle von `sudo -u www-data git pull` in den unten angegebenen Anweisungen.
+{{% /notice %}}
 
 ### Aktualisierung auf eine __Minor Version__ (kleiner Versionssprung)
 

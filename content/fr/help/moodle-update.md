@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
+lastmod: 2018-10-13
 description: Vous voulez mettre à jour Moodle sur la MoodleBox ? Suivez ces instructions
 slug: mise-a-jour-de-la-version-de-moodle
 categories:
@@ -17,6 +18,10 @@ Afin de permettre une mise à jour simplifiée de Moodle, son installation a ét
 ```bash
 ssh moodlebox@moodlebox.home
 ```
+
+{{% notice info %}}
+À partir de la version 2.5.1 de MoodleBox, utilisez `sudo -u moodlebox -g www-data git pull` au lieu de `sudo -u www-data git pull` dans les commandes indiquées ci-dessous.
+{{% /notice %}}
 
 ### Mise à jour vers une __version mineure__
 

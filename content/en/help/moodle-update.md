@@ -4,6 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
+lastmod: 2018-10-13
 description: Want to update Moodle on the MoodleBox? Follow these instructions
 slug: moodle-version-update
 categories:
@@ -17,6 +18,10 @@ In order to allow a simplified update of Moodle, its installation was done using
 ```bash
 ssh moodlebox@moodlebox.home
 ```
+
+{{% notice info %}}
+As of MoodleBox version 2.5.1 and later, use `sudo -u moodlebox -g www-data git pull` instead of `sudo -u www-data git pull` in the commands indicated below.
+{{% /notice %}}
 
 ### Update to a __minor version__
 
