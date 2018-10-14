@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-03-07
-lastmod: 2018-08-20
+lastmod: 2018-10-14
 description: Sie können das MoodleBox-Projekt konkret unterstützen, indem Sie zu den Kosten beitragen und die Motivation für seine Weiterentwicklung erhöhen
 slug: projekt-moodlebox-unterstuetzen
 weight: 100
@@ -20,7 +20,7 @@ Das Projekt MoodleBox versucht, die Bedürfnisse von Anwendern ohne finanzielle 
 
 Mit einem finanziellen Beitrag können Sie sich an den Kosten für das Webhosting beteiligen. Dies steigert außerdem die Motivation, die Arbeit am Projekt MoodleBox fortzusetzen.
 
-Vom September 2016 bis zum 20. August 2018 hat das Projekt MoodleBox insgesamt 446 € an Spenden eingesammelt. Dieser Betrag ermöglicht die Finanzierung einiger Hardware und der Domainnamen moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de und moodlebox.ch sowie der Webhosting für ein Jahr.
+Vom September 2016 bis zum 14. Oktober 2018 hat das Projekt MoodleBox insgesamt 451 € an Spenden eingesammelt. Dieser Betrag ermöglicht die Finanzierung einiger Hardware und der Domainnamen moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de und moodlebox.ch sowie der Webhosting für ein Jahr.
 
 ### Spenden Sie einen Geldbetrag
 
