@@ -16,15 +16,15 @@ aliases:
   - de/give
 
 ---
-Das Projekt MoodleBox versucht, die Bedürfnisse von Anwendern ohne finanzielle Kompensation zu erfüllen. Die Entwicklung und Unterstützung der MoodleBox, das Erstellen des Disk-Images, das Schreiben der Dokumentation und das Webhosting sind deswegen trotzdem nicht kostenfrei.
-
-Mit einem finanziellen Beitrag können Sie sich an den Kosten für das Webhosting beteiligen. Dies steigert außerdem die Motivation, die Arbeit am Projekt MoodleBox fortzusetzen.
-
-Vom September 2016 bis zum 14. Oktober 2018 hat das Projekt MoodleBox insgesamt 451 € an Spenden eingesammelt. Dieser Betrag ermöglicht die Finanzierung einiger Hardware und der Domainnamen moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de und moodlebox.ch sowie der Webhosting für ein Jahr.
+Das MoodleBox-Projekt ist ein Non-Profit- und Freizeitprojekt. Ihre Spende dient der Finanzierung der Ausrüstung, die für die Entwicklung der MoodleBox und die Dokumentation benötigt wird.
 
 ### Spenden Sie einen Geldbetrag
 
 {{< donationform >}}
+
+### Wohin geht Ihr Geld?
+
+Vom September 2016 bis zum 14. Oktober 2018 hat das Projekt MoodleBox insgesamt 451 € an Spenden eingesammelt. Dieser Betrag ermöglicht die Finanzierung einiger Hardware und der Domainnamen moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de und moodlebox.ch sowie der Webhosting für ein Jahr.
 
 ### Unterstützen Sie das Projekt auf andere Weise
 

@@ -17,15 +17,15 @@ aliases:
   - en/donate
 
 ---
-The project MoodleBox tries to meet the needs of users without requiring any financial compensation. However, the development and maintenance of the MoodleBox, the building of the disk image, the writing of the documentation and its hosting on a web site are not free.
-
-A contribution allows to participate in the costs for the hosting of the website. It boosts and increases the motivation to continue the work on the project MoodleBox.
-
-From September 2016 to October 14, 2018, the project MoodleBox collected 451€ in donations. This amount enabled the payment of some hardware and the subscription fees for the domain names: moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de and moodlebox.ch, as well as the web hosting subscription for just over one year.
+The MoodleBox project is a non-profit, spare time project. Your donation will help fund the equipment needed to develop the MoodleBox and host its documentation.
 
 ### Make a donation to support MoodleBox
 
 {{< donationform >}}
+
+### Where does your money go?
+
+From September 2016 to October 14, 2018, the project MoodleBox collected 451€ in donations. This amount enabled the payment of some hardware and the subscription fees for the domain names: moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de and moodlebox.ch, as well as the web hosting subscription for just over one year.
 
 ### Support MoodleBox another way
 

@@ -17,7 +17,7 @@ aliases:
   - fr/donate
 
 ---
-Le projet MoodleBox est développé à temps perdu par son auteur, sans but lucratif. Votre don permettra de contribuer au financement du matériel nécessaire au développement de la MoodleBox et à l'hébergement de sa documentation.
+Le projet MoodleBox est développé à temps perdu, sans but lucratif. Votre don permettra de contribuer au financement du matériel nécessaire au développement de la MoodleBox et à l'hébergement de sa documentation.
 
 ### Faites un don maintenant !
 
