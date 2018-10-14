@@ -31,7 +31,7 @@
   },
   "prerelease": false,
   "created_at": "2018-10-13T14:37:01Z",
-  "published_at": "2018-10-14T09:27:54Z",
+  "published_at": "2018-10-13T21:27:54Z",
   "assets": [
     {
       "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/9132552",
@@ -63,8 +63,8 @@
       "state": "uploaded",
       "size": 611400707,
       "download_count": 0,
-      "created_at": "2018-10-14T09:26:16Z",
-      "updated_at": "2018-10-14T09:27:54Z",
+      "created_at": "2018-10-13T21:27:54Z",
+      "updated_at": "2018-10-13T21:27:54Z",
       "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.5.1/moodlebox-2.5.1.img.gz"
     }
   ],
