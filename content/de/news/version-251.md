@@ -1,6 +1,6 @@
 ---
 title: Herausgabe der MoodleBox 2.5.1
-description: MoodleBox 2.5.1 basiert auf Raspbian Stretch Lite vom 9. Oktober 2018. Manuelle [Aktualisieren von Moodle][5] möglich ist.
+description: MoodleBox 2.5.1 basiert auf Raspbian Stretch Lite vom 9. Oktober 2018. Manuelle Aktualisieren von Moodle möglich ist.
 date: 2018-10-13
 authors:
   - Nicolas Martignoni
