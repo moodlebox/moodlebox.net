@@ -1,6 +1,6 @@
 ---
 title: Herausgabe der MoodleBox 2.5.0
-description: MoodleBox 2.5.0 bietet in erster Linie Verbesserungen am MoodleBox-Dashboard, einschließlich einer viel besseren kontextuellen Hilfe.
+description: MoodleBox 2.5.0 bietet Verbesserungen am MoodleBox-Dashboard, einschließlich einer viel besseren kontextuellen Hilfe.
 date: 2018-08-16
 authors:
   - Nicolas Martignoni
