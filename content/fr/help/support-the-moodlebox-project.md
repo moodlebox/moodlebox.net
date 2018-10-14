@@ -17,15 +17,15 @@ aliases:
   - fr/donate
 
 ---
-Le projet MoodleBox est offert dans le but de répondre aux besoins des utilisateurs sans exiger de contrepartie financière. Cependant, le développement de la MoodleBox et sa maintenance, la fabrication de l'image-disque, l'écriture de la documentation et son hébergement sur le web ne sont pas sans coûts.
+Le projet MoodleBox est développé à temps perdu par son auteur, sans but lucratif. Votre don permettra de contribuer au financement du matériel nécessaire au développement de la MoodleBox et à l'hébergement de sa documentation.
 
-Une contribution permet de participer aux frais d'hébergement du site web. Elle encourage et augmente la motivation à continuer le travail sur la MoodleBox.
-
-De septembre 2016 au 14 octobre 2018, le projet MoodleBox a reçu un total de 451 €, qui ont permis de payer du matériel et l'abonnement des noms de domaines moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de et moodlebox.ch, ainsi que l'hébergement web pour un peu plus d'une année.
-
-### Faire un don pour soutenir la MoodleBox
+### Faites un don maintenant !
 
 {{< donationform >}}
+
+### Où va votre argent ?
+
+De septembre 2016 au 14 octobre 2018, le projet MoodleBox a reçu un total de 451 €, qui ont permis de payer du matériel et l'abonnement des noms de domaines moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de et moodlebox.ch, ainsi que l'hébergement web pour un peu plus d'une année.
 
 ### Soutenir la MoodleBox autrement
 
