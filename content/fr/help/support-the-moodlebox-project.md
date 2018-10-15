@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-03-07
-lastmod: 2018-10-14
+lastmod: 2018-10-15
 description: Vous pouvez soutenir concrètement le projet MoodleBox en participant aux frais et en augmentant la motivation pour son développement continu
 slug: soutenir-le-projet-moodlebox
 weight: 100
@@ -17,7 +17,7 @@ aliases:
   - fr/donate
 
 ---
-Le projet MoodleBox est développé à temps perdu, sans but lucratif. Votre don permettra de contribuer au financement du matériel nécessaire au développement de la MoodleBox et à l'hébergement de sa documentation.
+Le projet MoodleBox est développé à temps perdu, bénévolement et sans but lucratif. Votre don permettra de contribuer au financement du matériel nécessaire au développement de la MoodleBox et à l'hébergement de sa documentation.
 
 ### Faites un don maintenant !
 

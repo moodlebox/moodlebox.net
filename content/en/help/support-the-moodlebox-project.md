@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-03-07
-lastmod: 2018-10-14
+lastmod: 2018-10-15
 description: You can concretely support the MoodleBox project by contributing to the costs and increasing motivation for its continued development
 slug: support-the-moodlebox-project
 weight: 100
@@ -17,7 +17,7 @@ aliases:
   - en/donate
 
 ---
-The MoodleBox project is a non-profit, spare time project. Your donation will help fund the equipment needed to develop the MoodleBox and host its documentation.
+The MoodleBox project is a volunteer, non-profit, spare time project. Your donation will help fund the equipment needed to develop the MoodleBox and host its documentation.
 
 ### Make a donation to support MoodleBox
 
