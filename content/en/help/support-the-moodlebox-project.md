@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-03-07
-lastmod: 2018-10-15
+lastmod: 2018-10-18
 description: You can concretely support the MoodleBox project by contributing to the costs and increasing motivation for its continued development
 slug: support-the-moodlebox-project
 weight: 100
@@ -25,7 +25,7 @@ The MoodleBox project is a volunteer, non-profit, spare time project. Your donat
 
 ### Where does your money go?
 
-From September 2016 to October 14, 2018, the project MoodleBox collected 451€ in donations. This amount enabled the payment of some hardware and the subscription fees for the domain names: moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de and moodlebox.ch, as well as the web hosting subscription for just over one year.
+From September 2016 to October 18, 2018, the project MoodleBox collected 501€ in donations. This amount enabled the payment of some hardware and the subscription fees for the domain names: moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de and moodlebox.ch, as well as the web hosting subscription for just over one year.
 
 ### Support MoodleBox another way
 
