@@ -51,6 +51,6 @@ For more information, browse the [knowledge base][9].
  [5]: {{< relref "wi-fi-connection.md" >}}
  [6]: {{< relref "wi-fi-configuration.md" >}}
  [7]: {{< relref "command-line-access.md" >}}
- [8]: {{< relref "support-the-moodlebox-project.md" >}}
+ [8]: /en/support-the-moodlebox-project
  [9]: /en/help
  [10]: https://etcher.io

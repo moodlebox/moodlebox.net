@@ -3,17 +3,15 @@ title: Projekt MoodleBox unterstützen
 authors:
   - Nicolas Martignoni
   - Ralf Krause
-type: kb
 date: 2018-03-07
 lastmod: 2018-10-22
 description: Sie können das MoodleBox-Projekt konkret unterstützen, indem Sie zu den Kosten beitragen und die Motivation für seine Weiterentwicklung erhöhen
 slug: projekt-moodlebox-unterstuetzen
 weight: 100
-categories:
-  - About
-  - First steps
 aliases:
+  - spenden
   - de/give
+  - de/donate
 
 ---
 Das MoodleBox-Projekt ist ein freiwilliges, Non-Profit- und Freizeitprojekt. Ihre Spende dient der Finanzierung der Ausrüstung, die für die Entwicklung der MoodleBox und die Dokumentation benötigt wird.
