@@ -25,7 +25,7 @@ The MoodleBox project is a volunteer, non-profit, spare time project. Your donat
 
 ### Where does your money go?
 
-From September 2016 to October 22, 2018, the project MoodleBox collected 521€ in donations. This amount enabled the payment of some hardware and the subscription fees for the domain names: moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de and moodlebox.ch, as well as the web hosting subscription for just over one year.
+From September 2016 to October 22, 2018, the project MoodleBox collected 531€ in donations. This amount enabled the payment of some hardware and the subscription fees for the domain names: moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de and moodlebox.ch, as well as the web hosting subscription for just over one year.
 
 ### Support MoodleBox another way
 

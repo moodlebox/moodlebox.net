@@ -24,7 +24,7 @@ Das MoodleBox-Projekt ist ein freiwilliges, Non-Profit- und Freizeitprojekt. Ihr
 
 ### Wohin geht Ihr Geld?
 
-Vom September 2016 bis zum 22. Oktober 2018 hat das Projekt MoodleBox insgesamt 521 € an Spenden eingesammelt. Dieser Betrag ermöglicht die Finanzierung einiger Hardware und der Domainnamen moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de und moodlebox.ch sowie der Webhosting für ein Jahr.
+Vom September 2016 bis zum 22. Oktober 2018 hat das Projekt MoodleBox insgesamt 531 € an Spenden eingesammelt. Dieser Betrag ermöglicht die Finanzierung einiger Hardware und der Domainnamen moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de und moodlebox.ch sowie der Webhosting für ein Jahr.
 
 ### Unterstützen Sie das Projekt auf andere Weise
 
