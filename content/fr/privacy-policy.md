@@ -2,7 +2,6 @@
 title: Politique de confidentialité
 authors:
   - Nicolas Martignoni
-type: kb
 date: 2018-08-21
 lastmod: 2018-08-21
 slug: confidentialite
