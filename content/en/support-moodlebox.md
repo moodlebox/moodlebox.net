@@ -7,9 +7,6 @@ lastmod: 2018-10-22
 description: You can concretely support the MoodleBox project by contributing to the costs and increasing motivation for its continued development
 slug: support-the-moodlebox-project
 weight: 100
-categories:
-  - About
-  - First steps
 aliases:
   - give
   - en/give
