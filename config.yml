@@ -48,6 +48,7 @@ languages:
     copyright: Copyright © 2016 onwards
     privacy: "[Privacy](/en/privacy)"
     license: "[License](/en/license)"
+    donate: "[Donate](/en/give)"
     contentDir: content/en
     weight: 1
     # Format dates with Go's time formatting
@@ -118,6 +119,7 @@ languages:
     copyright: Copyright © 2016 et suivantes
     privacy: "[Confidentialité](/fr/confidentialite)"
     license: "[Licence](/fr/licence)"
+    donate: "[Faire un don](/fr/give)"
     contentDir: content/fr
     weight: 2
     # Format dates with Go's time formatting
@@ -189,6 +191,7 @@ languages:
     copyright: Copyright © 2016 und später
     privacy: "[Datenschutz](/de/datenschutz)"
     license: "[Lizenz](/de/lizenz)"
+    donate: "[Spenden](/de/give)"
     contentDir: content/de
     weight: 3
     # Format dates with Go's time formatting
