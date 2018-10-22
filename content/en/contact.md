@@ -15,4 +15,4 @@ If you have any questions or comments on the website, if you would like to share
 
 If you're looking for technical help, check out the [MoodleBox documentation][1].
 
- [1]: /en/help
+ [1]: {{< relref "/help" >}}

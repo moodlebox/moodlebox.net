@@ -15,4 +15,4 @@ Wenn Sie weitere Fragen oder Kommentare zu diesem Projekt oder dieser Site haben
 
 Wenn Sie nach technischer Hilfe suchen, lesen Sie zuerst die [Dokumentation][1].
 
- [1]: /de/help
+ [1]: {{< relref "/help" >}}
