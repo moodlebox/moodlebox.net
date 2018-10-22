@@ -17,7 +17,7 @@ install:
   - npm install
 
 before_script:
-  - npm install -g "gulpjs/gulp#4.0"
+  - npm install -g "gulpjs/gulp#v4.0.0"
 
 before_deploy:
   - openssl aes-256-cbc -K $encrypted_682f6865c22e_key -iv $encrypted_682f6865c22e_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
