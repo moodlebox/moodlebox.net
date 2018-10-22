@@ -50,7 +50,7 @@ aliases:
 
 Folgen Sie nach dem Herunterladen des Disk-Images den Anweisungen für [Kopieren auf die microSD-Karte][1] und [Stelle deine MoodleBox][2] zur ersten Verwendung ein.
 
-Wenn Sie möchten, können Sie die [Entwicklung der MoodleBox unterstützen][3], indem Sie eine freiwillige Spende machen.
+Wenn Sie möchten, können Sie die [Entwicklung der MoodleBox unterstützen][3], indem Sie eine [freiwillige Spende machen][3].
 
 Das MoodleBox Disk-Image wird auf der Basis der Distribution [Raspbian Lite für Raspberry Pi][6] gebaut.
 
@@ -70,7 +70,7 @@ curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" 
 
  [1]: {{< relref "copy-the-disk-image.md" >}}
  [2]: {{< relref "startup-shutdown-restart.md" >}}
- [3]: /de/projekt-moodlebox-unterstuetzen
+ [3]: {{< relref "/support-moodlebox.md" >}}
  [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
  [5]: {{< relref "install-the-moodlebox.md" >}}
  [6]: https://www.raspberrypi.org/downloads/raspbian/
