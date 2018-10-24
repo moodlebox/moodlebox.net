@@ -6,7 +6,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-01
-lastmod: 2018-07-15
+lastmod: 2018-10-24
 description: Für die Anmeldung in der Moodle-Plattform auf der MoodleBox müssen Sie sich zunächst in deren drahtlosem WLAN-Netzwerk verbinden, dann http://moodlebox.home/ öffnen
 slug: anmelden-in-moodle
 weight: 6
@@ -18,8 +18,10 @@ Für die Anmeldung in der Moodle-Plattform auf der MoodleBox müssen Sie sich zu
 
 Nachdem Sie mit dem WLAN der MoodleBox verbunden sind, können Sie über Ihren Browser auf Moodle zugreifen. Öffnen Sie mit Ihren Browser die Adresse [http://moodlebox.home/][2]. Die Startseite der Moodle-Plattform wird angezeigt. Klicken Sie auf __Anmelden__ und geben Sie die folgenden Zugangsdaten ein:
 
-  * Anmeldename: __admin__
+  * Anmeldename: __moodlebox__
   * Kennwort: __Moodlebox4$__
+
+Der bis zur Version 2.5.1 der MoodleBox verwendete Anmeldename __admin__ (mit dem gleichen Passwort __Moodlebox4$__) ist weiterhin gültig, wird aber nicht mehr empfohlen. Es wird in einer zukünftigen Version des Images gelöscht.
 
 {{< figure link="/img/media/moodle-login-de.png" caption="Anmelden in Moodle" caption-position="bottom" caption-effect="appear" width="610px" >}}
 
