@@ -13,7 +13,7 @@ categories:
   - Usage
 
 ---
-This page lists all the credentials used in the MoodleBox.
+This page lists all the credentials used in the MoodleBox. Of course the credentials are different if you have changed something.
 
 ### Wi-Fi access
 

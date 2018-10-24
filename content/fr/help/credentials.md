@@ -13,7 +13,7 @@ categories:
   - Utilisation
 
 ---
-Cette page fait l'inventaire des identifiants — noms d'utilisateur et mots de passe — utilisés sur la MoodleBox.
+Cette page fait l'inventaire des identifiants — noms d'utilisateur et mots de passe — utilisés sur la MoodleBox. Bien entendu ces identifiants sont différents vous les avez changés d'une façon ou d'une autre.
 
 ### Accès au réseau Wi-Fi
 
