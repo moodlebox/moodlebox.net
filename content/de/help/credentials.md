@@ -29,7 +29,9 @@ Diese Anmeldedaten werden für das [Anmelden in Moodle][4] verwendet, wenn Sie m
   * Anmeldename: __moodlebox__
   * Passwort: __Moodlebox4$__
 
+{{% notice info %}}
 Der bis zur Version 2.5.1 der MoodleBox verwendete Anmeldename __admin__ (mit dem gleichen Passwort __Moodlebox4$__) ist weiterhin gültig, wird aber nicht mehr empfohlen. Es wird in einer zukünftigen Version des Images gelöscht.
+{{% /notice %}}
 
 ### Zugang zum Betriebssystem (Unix Account, SSH, SFTP)
 

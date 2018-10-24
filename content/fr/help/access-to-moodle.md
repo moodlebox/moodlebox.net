@@ -19,7 +19,9 @@ Vous pouvez maintenant accéder à Moodle au moyen de votre navigateur. Ouvrez v
   * nom d'utilisateur : __moodlebox__
   * mot de passe : __Moodlebox4$__
 
+{{% notice info %}}
 Le nom d'utilisateur __admin__ (avec le même mot de passe __Moodlebox4$__), utilisé jusqu'à la version 2.5.1 de la MoodleBox, est encore valable, mais n'est plus conseillé. Il sera supprimé dans une version future de l'image.
+{{% /notice %}}
 
 {{< figure link="/img/media/moodle-login-fr.png" caption="Connexion à Moodle" caption-position="bottom" caption-effect="appear" width="610px" >}}
 
