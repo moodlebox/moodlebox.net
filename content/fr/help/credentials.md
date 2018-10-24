@@ -15,13 +15,6 @@ categories:
 ---
 Cette page fait l'inventaire des identifiants — noms d'utilisateur et mots de passe — utilisés sur la MoodleBox.
 
-### Accès en ligne de commande (compte Unix, SSH, SFTP)
-
-Ces données d'identification doivent être utilisées pour se connecter au compte Unix. À utiliser également pour [accéder à la MoodleBox par SSH][1] ou [par SFTP][2].
-
-  * Nom d'utilisateur : __moodlebox__
-  * Mot de passe : __Moodlebox4$__
-
 ### Accès au réseau Wi-Fi
 
 Ce mot de passe doit être utilisé pour [se connecter au réseau Wi-Fi][3] de la MoodleBox. Le nom du réseau (SSID) est __MoodleBox__.
@@ -38,6 +31,13 @@ Ces données d'identification doivent être utilisées pour [se connecter au com
 {{% notice info %}}
 Le nom d'utilisateur __admin__ (avec le même mot de passe __Moodlebox4$__), utilisé jusqu'à la version 2.5.1 de la MoodleBox, est encore valable, mais n'est plus conseillé. Il sera supprimé dans une version future de l'image.
 {{% /notice %}}
+
+### Accès en ligne de commande (compte Unix, SSH, SFTP)
+
+Ces données d'identification doivent être utilisées pour se connecter au compte Unix. À utiliser également pour [accéder à la MoodleBox par SSH][1] ou [par SFTP][2].
+
+  * Nom d'utilisateur : __moodlebox__
+  * Mot de passe : __Moodlebox4$__
 
 ### Accès à la base de données
 
