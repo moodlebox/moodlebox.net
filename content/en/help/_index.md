@@ -1,6 +1,13 @@
 ---
-title: Knowledge base
-description: Find answers to questions about MoodleBox and its use
+title: MoodleBox Knowledge Base
+description: Find answers to questions about MoodleBox and its usage.
+lastmod: 2018-10-25
 aliases:
   - en/using
 ---
+
+You will find below the most common and useful pages of the MoodleBox documentation. It is also possible to search through all the documentation.
+
+If you can't find an answer to your question, search the [MoodleBox support forum][1] to see if your question has already been answered. Otherwise, feel free to [open a new discussion][1] in the [forum][1].
+
+ [1]: https://discuss.moodlebox.net/
