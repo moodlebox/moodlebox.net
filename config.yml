@@ -64,21 +64,25 @@ languages:
         url: /help/
         weight: 1
       - parent: help
+        name: Forum
+        url: https://discuss.moodlebox.net/
+        weight: 2
+      - parent: help
         name: About MoodleBox
         url: /about/
-        weight: 2
+        weight: 3
       - parent: help
         name: MoodleBox Project
         url: /help/moodlebox-project/
-        weight: 3
+        weight: 4
       - parent: help
         name: Support MoodleBox
         url: /give/
-        weight: 4
+        weight: 5
       - parent: help
         name: Contact
         url: /contact/
-        weight: 5
+        weight: 6
 
       - identifier: get
         name: Get MoodleBox
@@ -131,25 +135,29 @@ languages:
         weight: 2
 
       - parent: help
-        name: Assistance
+        name: Documentation
         url: /help/
         weight: 1
       - parent: help
+        name: Forum
+        url: https://discuss.moodlebox.net/
+        weight: 2
+      - parent: help
         name: À propos de MoodleBox
         url: /about/
-        weight: 2
+        weight: 3
       - parent: help
         name: Le projet MoodleBox
         url: /help/projet-moodlebox/
-        weight: 3
+        weight: 4
       - parent: help
         name: Soutenir MoodleBox
         url: /give/
-        weight: 4
+        weight: 5
       - parent: help
         name: Contact
         url: /contact/
-        weight: 5
+        weight: 6
 
       - identifier: get
         name: Obtenir la MoodleBox
@@ -207,21 +215,25 @@ languages:
         url: /help/
         weight: 1
       - parent: help
+        name: Forum
+        url: https://discuss.moodlebox.net/
+        weight: 2
+      - parent: help
         name: Über MoodleBox
         url: /about/
-        weight: 2
+        weight: 3
       - parent: help
         name: MoodleBox Projekt
         url: /help/moodlebox-projekt
-        weight: 3
+        weight: 4
       - parent: help
         name: MoodleBox unterstützen
         url: /give/
-        weight: 4
+        weight: 5
       - parent: help
         name: Kontakt
         url: /contact/
-        weight: 5
+        weight: 6
 
       - identifier: get
         name: MoodleBox erhalten
