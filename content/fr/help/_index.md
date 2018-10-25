@@ -10,6 +10,6 @@ aliases:
 
 Vous trouvez ci-dessous les pages les plus courantes et les plus utiles de la documentation de la MoodleBox. Il est aussi possible de rechercher dans toute la documentation.
 
-Si vous ne trouvez pas de réponse à votre question, recherchez dans le [forum d'assistance de MoodleBox][1] si votre question a déjà été abordée. Si ce n'est pas le cas, n'hésitez pas à [ouvrir une nouvelle discussion][1] dans le [forum][1].
+Si vous ne trouvez pas de réponse à votre question, recherchez si votre question a déjà été abordée dans le [forum d'assistance de MoodleBox][1]. Si ce n'est pas le cas, n'hésitez pas à [ouvrir une nouvelle discussion][1] dans le [forum][1].
 
  [1]: https://discuss.moodlebox.net/
