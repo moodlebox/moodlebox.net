@@ -11,6 +11,7 @@ aliases:
   - soutenir
   - fr/give
   - fr/donate
+  - fr/help/soutenir-le-projet-moodlebox
 
 ---
 Le projet MoodleBox est développé à temps perdu, bénévolement et sans but lucratif. Votre don permettra de contribuer au financement du matériel nécessaire au développement de la MoodleBox et à l'hébergement de sa documentation.

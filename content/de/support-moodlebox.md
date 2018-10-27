@@ -12,6 +12,7 @@ aliases:
   - spenden
   - de/give
   - de/donate
+  - de/help/projekt-moodlebox-unterstuetzen
 
 ---
 Das MoodleBox-Projekt ist ein freiwilliges, Non-Profit- und Freizeitprojekt. Ihre Spende dient der Finanzierung der Ausrüstung, die für die Entwicklung der MoodleBox und die Dokumentation benötigt wird.

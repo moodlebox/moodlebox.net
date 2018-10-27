@@ -11,6 +11,7 @@ aliases:
   - give
   - en/give
   - en/donate
+  - en/help/support-the-moodlebox-project
 
 ---
 The MoodleBox project is a volunteer, non-profit, spare time project. Your donation will help fund the equipment needed to develop the MoodleBox and host its documentation.
