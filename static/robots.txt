@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /de/thanks/
+Disallow: /en/thanks/
+Disallow: /fr/thanks/
+Sitemap: https://moodlebox.net/sitemap.xml
+Sitemap: https://moodlebox.net/de/sitemap.xml
+Sitemap: https://moodlebox.net/en/sitemap.xml
+Sitemap: https://moodlebox.net/fr/sitemap.xml
