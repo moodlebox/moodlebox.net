@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-09-15
-lastmod: 2018-09-28
+lastmod: 2018-11-06
 description: Diese Vorgehensweise ist notwendig, um die MoodleBox für die erste Verwendung zu installieren
 slug: moodlebox-installieren
 weight: 1
@@ -37,9 +37,9 @@ Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die Mo
 
 ### Nächste Schritte
 
+  * [Ändern des Hauptkennworts][11]
   * [Moodle öffnen][4]
-  * [WLAN verbinden][5]
-  * [WLAN konfigurieren][6]
+  * [WLAN verbinden][5] und [WLAN konfigurieren][6]
   * [SSH Zugriff][7] auf die MoodleBox
   * [Projekt MoodleBox unterstützen][8]
 
@@ -55,3 +55,4 @@ Weitere Informationen finden Sie, wenn Sie in unserer [Knowledge Base][9] stöbe
  [8]: {{< relref "/support-moodlebox.md" >}}
  [9]: {{< relref "/help" >}}
  [10]: https://etcher.io
+ [11]: {{< relref "/change-password.md" >}}
