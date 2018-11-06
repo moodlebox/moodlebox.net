@@ -382,7 +382,8 @@ blackfriday:
 
 pygmentsCodeFences: true
 pygmentsCodeFencesGuessSyntax: true
-pygmentsStyle: "emacs"
+pygmentsUseClasses: true
+# pygmentsStyle: "emacs"
 
 enableMissingTranslationPlaceholders: true
 
