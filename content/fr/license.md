@@ -3,7 +3,7 @@ title: Licence
 authors:
   - Nicolas Martignoni
 date: 2018-08-21
-lastmod: 2018-08-21
+lastmod: 2018-11-27
 slug: licence
 description: Ce document présente la licence sous laquelle le site web et le logiciel MoodleBox sont publiés.
 weight: 20
@@ -20,8 +20,8 @@ Certaines illustrations et documents sont dérivés de contenus de la [Fondation
 
 ### Logiciel MoodleBox
 
-Le [code source de la MoodleBox][1] est distribué sous [Licence GPL3][2].
+Le [code source de la MoodleBox][1] est distribué sous [Licence publique générale GNU Affero version 3][2].
 
  [1]: https://github.com/moodlebox/moodlebox
- [2]: https://www.gnu.org/licenses/gpl-3.0.en.html
+ [2]: https://www.gnu.org/licenses/agpl-3.0.html
  [3]: https://www.raspberrypi.org
