@@ -9,7 +9,10 @@ slug: videos-dane-lyon
 
 Les [tutoriels vidéos publiés par la DANE de Lyon][1] expliquent de façon simple et compréhensible comment [assembler une MoodleBox][2], comment [copier l'image-disque sur une carte micro-SD][3], comment [mettre en route une MoodleBox][4] et comment [effectuer les premiers paramétrages][5].
 
-<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts" src="https://tube.ac-lyon.fr/videos/embed/510b6103-b408-4229-8e4b-1511dfda7498" frameborder="0" allowfullscreen></iframe>
+<video width="560" height="315" controls>
+  <source src="/img/media/MoodleBox-assemble-1080p.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
  [1]: https://tube.ac-lyon.fr/video-channels/moodlebox/videos
  [2]: https://tube.ac-lyon.fr/videos/watch/510b6103-b408-4229-8e4b-1511dfda7498
