@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-08-12
-lastmod: 2018-07-31
+lastmod: 2018-12-01
 description: It is possible to change several settings of the access point WiFi settings of the MoodleBox.
 slug: updating-wi-fi-network-configuration
 weight: 6
@@ -15,11 +15,19 @@ categories:
 ---
 As an administrator, you may change several settings of the access point Wi-Fi settings of the MoodleBox. To do this, visit the MoodleBox dashboard at [Site administration > Server > MoodleBox][1] in the administration interface.
 
-{{< figure link="/img/media/wifi-settings-en.png" thumb="-small" caption="Wi-Fi Settings" caption-position="bottom" caption-effect="appear" width="550px" >}}
+{{< figure link="/img/media/wifi-settings-en.png" caption="Wi-Fi Settings" caption-position="bottom" caption-effect="appear" width="800px" >}}
 
 ### Change Wi-Fi network name (SSID)
 
 You may change the network name (SSID). Type in a new SSID in the adequate field and click the button __Change Wi-Fi settings__. Starting with MoodleBox version 2.3.0, it is possible to enter SSIDs with specials characters such as emojis, including spaces.
+
+### Hide the Wi-Fi network
+
+Starting with MoodleBox version 2.6.0, it is possible to hide the MoodleBox's Wi-Fi network by checking the __Hidden Wi-Fi Network__ box.
+
+{{% notice warning %}}
+When the Wi-Fi network is hidden, it is difficult to know that a MoodleBox is active in the area. Only enable this option if you are sure of what you are doing, as users will probably have more trouble finding the MoodleBox.
+{{% /notice %}}
 
 ### Change Wi-Fi access point channel
 
