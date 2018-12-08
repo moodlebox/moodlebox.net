@@ -7,6 +7,10 @@ authors:
 slug: version-2.6.0
 ---
 
+{{% notice warning %}}
+This version __cannot be automatically updated with the update script__ under development. We recommend that you use version 2.6.1 instead.
+{{% /notice %}}
+
 [Version 2.6.0][2] of the [MoodleBox disk image][1] is released today.
 
   - This release provides [Moodle][6] version 3.6, which is released today.
