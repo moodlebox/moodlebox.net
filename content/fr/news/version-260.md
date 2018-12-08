@@ -7,7 +7,7 @@ authors:
 slug: version-2.6.0
 ---
 
-La [version 2.6.0][2] de l'[image of the MoodleBox][1] est publiée aujourd'hui.
+La [version 2.6.0][2] de l'[image de la MoodleBox][1] est publiée aujourd'hui.
 
   - Cette version fournit [Moodle][6] version 3.6, publiée également aujourd'hui.
   - Elle est basée sur l'[image Raspbian Stretch Lite][4] publiée 13 novembre 2018.
