@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/13819438",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/13819438/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/13819438/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.6.0",
-  "id": 13819438,
-  "node_id": "MDc6UmVsZWFzZTEzODE5NDM4",
-  "tag_name": "v2.6.0",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/14412982",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/14412982/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/14412982/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.6.1",
+  "id": 14412982,
+  "node_id": "MDc6UmVsZWFzZTE0NDEyOTgy",
+  "tag_name": "v2.6.1",
   "target_commitish": "master",
-  "name": "v2.6.0",
+  "name": "v2.6.1",
   "draft": false,
   "author": {
     "login": "martignoni",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2018-12-03T12:51:27Z",
-  "published_at": "2018-12-03T21:10:31Z",
+  "created_at": "2018-12-08T11:45:38Z",
+  "published_at": "2018-12-08T21:40:27Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/9973663",
-      "id": 9973663,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDk5NzM2NjM=",
-      "name": "moodlebox-2.6.0.img.gz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/10061824",
+      "id": 10061824,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDEwMDYxODI0",
+      "name": "moodlebox-2.6.1.img.gz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,14 +61,14 @@
       },
       "content_type": "application/x-gzip",
       "state": "uploaded",
-      "size": 622586946,
+      "size": 621763035,
       "download_count": 0,
-      "created_at": "2018-12-03T21:01:51Z",
-      "updated_at": "2018-12-03T21:09:53Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.6.0/moodlebox-2.6.0.img.gz"
+      "created_at": "2018-12-08T16:38:05Z",
+      "updated_at": "2018-12-08T16:40:53Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.6.1/moodlebox-2.6.1.img.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.6.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.6.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.6.0/total.svg)\r\n### Changed\r\n- Based on Raspbian Stretch Lite version of 2018-11-13 (issue #109).\r\n- Uses now PHP7.1, with a slight performance gain (issue #100).\r\n- Updated to Moodle 3.6 (issue #101).\r\n- Updated to [version v1.12.2](\r\nhttps://github.com/moodlebox/moodle-tool_moodlebox/releases/tag/v1.12.2) of [MoodleBox plugin](https://moodle.org/plugins/tool_moodlebox), enabling SSID hiding (issue #112).\r\n- Username of default admin account changed to _moodlebox_ (issue #96).\r\n- Updated to last version of `iptables_row` ansible module (issue #103).\r\n- License change to AGPLv3 (issue #105).\r\n\r\n### Added\r\n- Ghostscript is installed by default, enabling PDF annotations (issue #108).\r\n\r\n### Fixed\r\n- Save some space by cloning a shallow clone of MoodleBox plugin (issue #104).\r\n- Fix Ansible deprecation warning displayed when installing packages (issue #110)."
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.6.1",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.6.1",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.6.1/total.svg)\r\n### Changed\r\n- Updated to Moodle 3.6.1 (issue #113).\r\n- Revert to PHP7.0 (issue #114)."
 }
