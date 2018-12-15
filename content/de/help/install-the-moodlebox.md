@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-09-15
-lastmod: 2018-11-06
+lastmod: 2018-12-15
 description: Diese Vorgehensweise ist notwendig, um die MoodleBox für die erste Verwendung zu installieren
 slug: moodlebox-installieren
 weight: 1
@@ -27,7 +27,7 @@ Laden Sie das aktuelle [MoodleBox Disk-Image][2] aus dem Internet herunter und s
 
 ### Schritt 3: Disk-Image auf eine MicroSD-Karte kopieren
 
-Für diese Aufgabe empfehlen wir Ihnen vorzugsweise [Etcher][10]. [Weitere Informationen][3].
+Für diese Aufgabe empfehlen wir Ihnen vorzugsweise [balenaEtcher][10]. [Weitere Informationen][3].
 
 ### Schritt 4: MoodleBox starten
 
@@ -54,5 +54,5 @@ Weitere Informationen finden Sie, wenn Sie in unserer [Knowledge Base][9] stöbe
  [7]: {{< relref "command-line-access.md" >}}
  [8]: {{< relref "/support-moodlebox.md" >}}
  [9]: {{< relref "/help" >}}
- [10]: https://etcher.io
+ [10]: https://www.balena.io/etcher/
  [11]: {{< relref "/change-password.md" >}}

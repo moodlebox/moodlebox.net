@@ -5,6 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
+lastmod: 2018-12-15
 description: Um das MoodleBox Disk-Image auf eine SD-Karte zu kopieren, folgen Sie diese Anweisungen.
 slug: disk-image-kopieren
 weight: 4
@@ -14,9 +15,9 @@ categories:
 ---
 Haben Sie das [Disk-Image][1] heruntergeladen?
 
-Installieren Sie zuerst [Etcher][2] auf Ihrem Computer. Befolgen Sie dann die Anleitung für Etcher, um das Disk-Image __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ auf Ihre MicroSD-Karte zu flashen.
+Installieren Sie zuerst [balenaEtcher][2] (früher bekannt als _Etcher_) auf Ihrem Computer. Befolgen Sie dann die Anleitung für balenaEtcher, um das Disk-Image __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ auf Ihre MicroSD-Karte zu flashen.
 
-{{< figure link="/img/media/etcher-copy.png" caption="Kopieren mit Etcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
+{{< figure link="/img/media/etcher-copy.png" caption="Kopieren mit balenaEtcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
 
 ### Für Experten
 
@@ -28,7 +29,7 @@ Falls Sie es als Experte bevorzugen, zum Flashen der MicroSD-Karte einige Befehl
 
 
  [1]: {{< relref "download-the-disk-image.md" >}}
- [2]: https://etcher.io/
+ [2]: https://www.balena.io/etcher/
  [3]: https://www.raspberrypi.org/documentation/installation/installing-images/README.md
  [4]: https://www.raspberrypi.org/documentation/installation/installing-images/mac.md
  [5]: https://www.raspberrypi.org/documentation/installation/installing-images/windows.md

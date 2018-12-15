@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-09-15
-lastmod: 2018-11-06
+lastmod: 2018-12-15
 description: The procedure to install the MoodleBox for its first utilisation is described here
 slug: install-the-moodlebox
 weight: 1
@@ -27,7 +27,7 @@ The [MoodleBox disk image][2] is available [here][2].
 
 ### Step 3: Copy the disk image on your MicroSD card
 
-For this operation, use preferably [Etcher][10]. [More information here][3].
+For this operation, use preferably [balenaEtcher][10]. [More information here][3].
 
 ### Step 4: Startup your MoodleBox
 
@@ -54,5 +54,5 @@ For more information, browse the [knowledge base][9].
  [7]: {{< relref "command-line-access.md" >}}
  [8]: {{< relref "/support-moodlebox.md" >}}
  [9]: {{< relref "/help" >}}
- [10]: https://etcher.io
+ [10]: https://www.balena.io/etcher/
  [11]: {{< relref "/change-password.md" >}}

@@ -4,16 +4,17 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
+lastmod: 2018-12-15
 description: Pour copier l'image-disque MoodleBox sur une carte SD, suivez ces instructions.
 slug: copier-limage-disque-sur-une-carte-sd
 weight: 4
 categories:
   - Premiers pas
-
 ---
-Commencez par [télécharger Etcher][2], puis suivez les instructions dans Etcher pour copier sur votre carte microSD le fichier __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ que [vous avez téléchargé][1].
 
-{{< figure link="/img/media/etcher-copy.png" caption="Copie avec Etcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
+Commencez par [télécharger balenaEtcher][2] (anciennement appelé _Etcher_), puis suivez les instructions dans balenaEtcher pour copier sur votre carte microSD le fichier __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ que [vous avez téléchargé][1].
+
+{{< figure link="/img/media/etcher-copy.png" caption="Copie avec balenaEtcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
 
 ### Pour les geeks
 
@@ -24,7 +25,7 @@ Si vous préférez utiliser la ligne de commande pour copier l'image-disque sur 
   * [Instructions pour Linux][6]
 
  [1]: {{< relref "download-the-disk-image.md" >}}
- [2]: https://etcher.io/
+ [2]: https://www.balena.io/etcher/
  [3]: https://www.raspberrypi.org/documentation/installation/installing-images/README.md
  [4]: https://www.raspberrypi.org/documentation/installation/installing-images/mac.md
  [5]: https://www.raspberrypi.org/documentation/installation/installing-images/windows.md
