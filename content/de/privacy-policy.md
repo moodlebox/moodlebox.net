@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 date: 2018-08-21
 lastmod: 2018-08-21
-slug: datenschutz
+slug: privacy
 description: Die Datenschutzerklärung von MoodleBox stellt sicher, dass die Daten, die Sie bei der Nutzung unserer Dienste eingeben, geschützt sind.
 weight: 10
 ---

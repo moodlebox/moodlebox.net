@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 date: 2018-08-21
 lastmod: 2018-11-27
-slug: lizenz
+slug: license
 description: Dieses Dokument stellt die Lizenz dar, unter der die Website und die Software veröffentlicht werden.
 weight: 20
 ---

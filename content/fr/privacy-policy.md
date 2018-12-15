@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 date: 2018-08-21
 lastmod: 2018-08-21
-slug: confidentialite
+slug: privacy
 description: La politique de confidentialité de MoodleBox vous assure de la bonne protection des données que vous saisissez en utilisant nos services.
 weight: 10
 ---

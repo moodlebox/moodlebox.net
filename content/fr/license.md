@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 date: 2018-08-21
 lastmod: 2018-11-27
-slug: licence
+slug: license
 description: Ce document présente la licence sous laquelle le site web et le logiciel MoodleBox sont publiés.
 weight: 20
 ---
