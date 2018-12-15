@@ -385,8 +385,6 @@ pygmentsCodeFencesGuessSyntax: true
 pygmentsUseClasses: true
 # pygmentsStyle: "emacs"
 
-enableMissingTranslationPlaceholders: true
-
 #outputFormats:
 #  JS:
 #    mediaType: application/javascript
