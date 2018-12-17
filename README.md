@@ -16,24 +16,20 @@ __Note:__ _It's important that the versions of the web site in different languag
 
 1. Fork this repository by clicking "Fork" in the top right corner of this page.
 1. Clone your fork to your computer: `git clone https://github.com/<your-username>/moodlebox.net`.
-1. Duplicate the english page you want to translate (ending with `.en.md`) and rename the extension with your language [ISO code](https://www.w3schools.com/tags/ref_language_codes.asp), e.g. `.de.md` for German, `.ja.md` for Japanese, `.zh.md` for Chinese, `.ru.md` for russian, etc.
-1. Translate the page and commit your changes: `git add *; git commit -a`.
+1. Duplicate the folder containing the english content of the website. This folder is located here: `content/en`. Rename the duplicated folder with your language [ISO code](https://www.w3schools.com/tags/ref_language_codes.asp), e.g. `es` for Spanish, `ja` for Japanese, `zh` for Chinese, `ru` for russian, etc. Don't change the hierarchic structure of your new folder.
+1. Open the page(s) you want to translate with a text editor, translate it (them) and save. __Do not change the filenames.__ Then commit your changes, e.g.: `git add content/es/<name-of-the-translated-page>.md ; git commit -a`. Don't commit the files you didn't translate yet.
 1. Push your changes to Github: `git push`.
-1. Create a pull request by visiting `https://github.com/<you-username>/moodlebox.net` and following the instructions at the top of the screen.
+1. Create a pull request by visiting `https://github.com/<your-username>/moodlebox.net` and following the instructions at the top of the screen.
 
-### What about the file name?
+### What about the file names?
 
-The main part of the file name (before the first dot) must __not be changed__, as it is used to keep the page in relation with its translations, via the language switcher of the web site.
-
-The last part of the file name, the extension `.md`, must also __not be changed__.
-
-The only part that must be changed is the `.en` in between. This part has to match your language [ISO code](https://www.w3schools.com/tags/ref_language_codes.asp), e.g. `.de` for German, `.ja` for Japanese, `.zh` for Chinese, `.ru` for russian, etc.
+The file names, including the extension `.md`, must __absolutely not be changed__, as they are used to keep the page in relation with its translations, via the language switcher of the web site.
 
 ### What to do with the header of the file?
 
 Every page comes with a header, not directly displayed in the website, but very important to get correctly. These are some rules to get it right.
 
-- __title__: The title of the page. It is displayed in the main heading of the page, and serves as the title of internal links. Words of the title have too more weight in the internal search engine.
+- __title__: The title of the page, to be translated in your language. It is displayed in the main heading of the page, and serves as the title of internal links. Words of the title have also more weight in the internal search engine.
 
 - __authors__: The author(s) of the page. When you edit an already existing page, please add your name on a new line after the existing name(s), with a dash, for example:
   ```yml
@@ -47,13 +43,13 @@ Every page comes with a header, not directly displayed in the website, but very 
 
 - __date__: The date of the creation of a new page, in YYYY-MM-DD format, e.g.
   ```yml
-  date: 2018-01-23
+  date: 2018-12-23
   ```
   Do not change it if you edit an existing page, as this is intended as a date marker of the first creation of the page.
 
 - __weight__: Should __not be changed__. Has to remain exactly identical to the english version of the translated version.
 
-- __slug__: Sets the permalink of the page. It should obviously be something related with the title and the content of the page. The slug should __only contain lower-case characters and hyphens__. No special characters, no punctuation. For a french translated page, the following slug
+- __slug__: Sets the permalink of the page, in your language. It should obviously be something related with the title and the content of the page. The slug should __only contain lower-case characters and hyphens__. No special characters, no punctuation. For a french translated page, the following slug
   ```yml
   slug: une-page-inutile
   ```
@@ -70,7 +66,7 @@ We want the MoodleBox documentation to be the best it can be. We've open-sourced
 1. Fix the typos and/or reword the text.
 1. Commit your changes: `git commit -a`
 1. Push your changes to Github: `git push`.
-1. Create a pull request by visiting `https://github.com/<you-username>/moodlebox.net` and following the instructions at the top of the screen.
+1. Create a pull request by visiting `https://github.com/<your-username>/moodlebox.net` and following the instructions at the top of the screen.
 
 [moodlebox]: https://moodlebox.net
 [issues]: https://github.com/moodlebox/moodlebox.net/issues
