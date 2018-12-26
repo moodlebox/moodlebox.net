@@ -7,7 +7,7 @@ authors:
 slug: version-2.2.0
 ---
 
-[Version 2.2.0][2] of the [image of the MoodleBox][1] is released today.
+[Version 2.2.0][2] of the [image of the MoodleBox][2] is released today.
 
 The main changes provided by [this version][2] for end-users are
   - Moodle version 3.4.1+, and

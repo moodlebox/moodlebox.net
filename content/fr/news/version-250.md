@@ -7,7 +7,7 @@ authors:
 slug: version-2.5.0
 ---
 
-La [version 2.5.0][2] de l'[image of the MoodleBox][1] est publiée aujourd'hui. Cette version propose Moodle 3.5.1+ et offre une version améliorée du tableau de bord, avec une aide contextuelle nettement meilleure.
+La [version 2.5.0][2] de l'[image of the MoodleBox][2] est publiée aujourd'hui. Cette version propose Moodle 3.5.1+ et offre une version améliorée du tableau de bord, avec une aide contextuelle nettement meilleure.
 
   - Grâce à une nouvelle version du [plugin MoodleBox pour Moodle][3], la section permettant de redimensionner la partition de la carte SD ne s'affiche que si cette opération est nécessaire.
   - Le pays de régulation du réseau Wi-Fi fournit par la MoodleBox peut être désormais défini au moyen de l'interface graphique.

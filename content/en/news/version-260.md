@@ -11,7 +11,7 @@ slug: version-2.6.0
 This version __cannot be automatically updated with the update script__ under development. We recommend that you use version 2.6.1 instead.
 {{% /notice %}}
 
-[Version 2.6.0][2] of the [MoodleBox disk image][1] is released today.
+[Version 2.6.0][2] of the [MoodleBox disk image][2] is released today.
 
   - This release provides [Moodle][6] version 3.6, which is released today.
   - It is based on the [Raspbian Stretch Lite image][4] published on November 13, 2018.

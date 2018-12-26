@@ -7,7 +7,7 @@ authors:
 slug: version-2.4.1
 ---
 
-Die [Version 2.4.1][2] des [Disk-Image der MoodleBox][1] wurde heute veröffentlicht.
+Die [Version 2.4.1][2] des [Disk-Image der MoodleBox][2] wurde heute veröffentlicht.
 
 Diese Version enthält nur kleine Änderungen. Im Wesentlichen:
 

@@ -7,7 +7,7 @@ authors:
 slug: version-2.3.0
 ---
 
-Die [Version 2.3.0][2] des [Disk-Image der MoodleBox][1]  wurde heute veröffentlicht.
+Die [Version 2.3.0][2] des [Disk-Image der MoodleBox][2]  wurde heute veröffentlicht.
 
   - Dieses Release basiert auf den Distribution-Image von [Raspbian Stretch Lite][2], das am 13.03.2018 veröffentlicht wurde.
   - Es stellt Moodle Version 3.4.2 zur Verfügung.

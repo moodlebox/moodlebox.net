@@ -7,7 +7,7 @@ authors:
 slug: version-2.4.1
 ---
 
-[Version 2.4.1][2] of the [MoodleBox disk image][1] is released today.
+[Version 2.4.1][2] of the [MoodleBox disk image][2] is released today.
 
 This version contains only small modifications, essentially:
 

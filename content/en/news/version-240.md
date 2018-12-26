@@ -7,7 +7,7 @@ authors:
 slug: version-2.4.0
 ---
 
-[Version 2.4.0][2] of the [MoodleBox disk image][1] is released today.
+[Version 2.4.0][2] of the [MoodleBox disk image][2] is released today.
 
   - This version is based on the [Raspbian Stretch Lite image][3] published on 18 april 2018.
   - It provides [Moodle][4] version 3.5.0, which was also released today. Moodle 3.5 is the new long term supported version of Moodle (LTS version).

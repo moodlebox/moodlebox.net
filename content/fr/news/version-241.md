@@ -7,7 +7,7 @@ authors:
 slug: version-2.4.1
 ---
 
-La [version 2.4.1][2] de l'[image of the MoodleBox][1] est publiée aujourd'hui.
+La [version 2.4.1][2] de l'[image of the MoodleBox][2] est publiée aujourd'hui.
 
 Cette version ne comporte que de petites modifications, essentiellement :
 

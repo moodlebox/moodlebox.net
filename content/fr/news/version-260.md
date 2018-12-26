@@ -11,7 +11,7 @@ slug: version-2.6.0
 Cette version __ne peut pas être mise à jour automatiquement__ avec le script de mise à jour en développement. Nous vous recommandons d'utiliser plutôt la version 2.6.1.
 {{% /notice %}}
 
-La [version 2.6.0][2] de l'[image de la MoodleBox][1] est publiée aujourd'hui.
+La [version 2.6.0][2] de l'[image de la MoodleBox][2] est publiée aujourd'hui.
 
   - Cette version fournit [Moodle][6] version 3.6, publiée également aujourd'hui.
   - Elle est basée sur l'[image Raspbian Stretch Lite][4] publiée 13 novembre 2018.

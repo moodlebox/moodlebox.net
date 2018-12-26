@@ -7,7 +7,7 @@ authors:
 slug: version-2.5.1
 ---
 
-Die [Version 2.5.1][2] des [Disk-Image der MoodleBox][1] wurde heute veröffentlicht.
+Die [Version 2.5.1][2] des [Disk-Image der MoodleBox][2] wurde heute veröffentlicht.
 
   - Dieses Release basiert auf den Distribution-Image von [Raspbian Stretch Lite][4], das am 9. Oktober 2018 veröffentlicht wurde, und bietet Moodle 3.5.2+.
   - Eine neue Version des [MoodleBox-Plugins für Moodle][3] behebt einen falschen Hilfetext.

@@ -7,7 +7,7 @@ authors:
 slug: version-2.4.0
 ---
 
-La [version 2.4.0][2] de l'[image of the MoodleBox][1] est publiée aujourd'hui.
+La [version 2.4.0][2] de l'[image of the MoodleBox][2] est publiée aujourd'hui.
 
   - Cette version est basée sur l'[image Raspbian Stretch Lite][3] publiée le 18 avril 2018.
   - Elle fournit la version 3.5.0 de [Moodle][4], qui a été publiée aujourd'hui également. Moodle 3.5 est la nouvelle version supportée à long terme de Moodle (version LTS).

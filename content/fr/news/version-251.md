@@ -7,7 +7,7 @@ authors:
 slug: version-2.5.1
 ---
 
-La [version 2.5.1][2] de l'[image of the MoodleBox][1] est publiée aujourd'hui.
+La [version 2.5.1][2] de l'[image of the MoodleBox][2] est publiée aujourd'hui.
 
   - Cette version est basée sur l'[image Raspbian Stretch Lite][4] publiée 9 octobre 2018, ainsi que sur Moodle 3.5.2+.
   - Une nouvelle version du [plugin MoodleBox pour Moodle][3] corrige un texte d'aide incorrect.

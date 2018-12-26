@@ -7,7 +7,7 @@ authors:
 slug: version-2.2.0
 ---
 
-Die [Version 2.2.0][2] des [Disk-Image der MoodleBox][1]  wurde heute veröffentlicht.
+Die [Version 2.2.0][2] des [Disk-Image der MoodleBox][2]  wurde heute veröffentlicht.
 
 Die wichtigsten Änderungen, die von [dieser Version][2] für Endbenutzer bereitgestellt werden, sind
   - Moodle Version 3.4.1+, und

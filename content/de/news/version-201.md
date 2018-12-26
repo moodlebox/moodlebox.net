@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
 slug: version-2.0.1
 ---
-Die Version 2.0.1 des [Disk-Image der MoodleBox][1] wurde heute veröffentlicht. Dieses [Minor Release][2] korrigiert einen unangenehmen Fehler, der die Wiederherstellung von Kurssicherungen in der Moodle-Instanz auf der MoodleBox verhinderte.
+Die Version 2.0.1 des [Disk-Image der MoodleBox][2] wurde heute veröffentlicht. Dieses [Minor Release][2] korrigiert einen unangenehmen Fehler, der die Wiederherstellung von Kurssicherungen in der Moodle-Instanz auf der MoodleBox verhinderte.
 
 Weitere Informationen finden Sie in den [Release Notes auf Github][2].
 

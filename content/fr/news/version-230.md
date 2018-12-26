@@ -7,7 +7,7 @@ authors:
 slug: version-2.3.0
 ---
 
-La [version 2.3.0][2] de l'[image of the MoodleBox][1] est publiée aujourd'hui.
+La [version 2.3.0][2] de l'[image of the MoodleBox][2] est publiée aujourd'hui.
 
   - Cette version est basée sur l'[image Raspbian Stretch Lite][3] publiée le 23 mars 2018.
   - Elle fournit Moodle dans sa version 3.4.2.
