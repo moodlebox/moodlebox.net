@@ -3,7 +3,7 @@ title: Soutenir le projet MoodleBox
 authors:
   - Nicolas Martignoni
 date: 2018-03-07
-lastmod: 2018-10-22
+lastmod: 2018-27-27
 description: Vous pouvez soutenir concrètement le projet MoodleBox en participant aux frais et en augmentant la motivation pour son développement continu
 slug: soutenir-le-projet-moodlebox
 weight: 100
@@ -22,15 +22,21 @@ Le projet MoodleBox est développé à temps perdu, bénévolement et sans but l
 
 ### Où va votre argent ?
 
-De septembre 2016 au 22 octobre 2018, le projet MoodleBox a reçu un total de 531 €, qui ont permis de payer du matériel et l'abonnement des noms de domaines moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de et moodlebox.ch, ainsi que l'hébergement web pour un peu plus d'une année.
+De septembre 2016 au 27 décembre 2018, le projet MoodleBox a reçu un total de 558 €, qui ont permis le financement de matériel et de l'abonnement pour les noms de domaines moodlebox.net, moodlebox.org, moodlebox.me, moodlebox.fr, moodlebox.de et moodlebox.ch, ainsi que l'hébergement web pour un peu plus d'une année.
 
 ### Soutenir la MoodleBox autrement
 
 Vous êtes fauché ou ne voulez pas contribuer financièrement ? Pas grave, ne partez pas 😉. Vous pouvez soutenir la MoodleBox d'autres manières, par exemple
 
-  * partager votre expérience pédagogique ou votre cas d'utilisation avec nous,
-  * traduire la documentation dans d'autres langues,
-  * améliorer le design de ce site web,
-  * proposer des améliorations,
-  * programmer des améliorations,
-  * tout autre aide.
+  - [partager votre expérience pédagogique][1] avec nous,
+  - décrivez [votre scénario d'utilisation de la MoodleBox][1],
+  - [traduire la documentation][2] dans d'autres langues,
+  - [améliorer le design de ce site web][3],
+  - [proposer des améliorations][1],
+  - [programmer des améliorations][4],
+  - tout autre aide.
+
+ [1]: https://discuss.moodlebox.net/
+ [2]: https://github.com/moodlebox/moodlebox.net/blob/master/README.md
+ [3]: https://github.com/moodlebox/hugo-moodlebox-theme
+ [4]: https://github.com/moodlebox/moodle-tool_moodlebox
