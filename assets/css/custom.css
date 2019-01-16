@@ -183,3 +183,10 @@ ul.downloads li .image-download-links a.btn i.fa {
 .give-submit-button-wrap .give-submit,[id^=give-user-login-submit] .give-submit {
   float: left;
 }
+/* footnote link and back to footnote link */
+a[href^="#fn:"], a[href^="#fnref:"] {
+  text-decoration: none;
+  /* font-family: monospace; */
+}
+a[href^="#fn:"]:before{ content: '[' }
+a[href^="#fn:"]:after{ content: ']' }

@@ -386,6 +386,9 @@ pygmentsCodeFencesGuessSyntax: true
 pygmentsUseClasses: true
 # pygmentsStyle: "emacs"
 
+footnoteReturnLinkContents: ↩
+# footnoteReturnLinkContents: ↑
+
 #outputFormats:
 #  JS:
 #    mediaType: application/javascript
