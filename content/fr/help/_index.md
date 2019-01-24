@@ -1,7 +1,7 @@
 ---
-title: "MoodleBox documentation"
+title: "Documentation MoodleBox"
 description: Les réponses à vos questions à propos de MoodleBox et de son utilisation. Utilisez le forum de discussion.
-lastmod: 2018-11-14
+lastmod: 2019-01-24
 aliases:
   - fr/using
 ---
