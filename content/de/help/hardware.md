@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
-lastmod: 2018-08-02
+lastmod: 2019-02-02
 description: Hier ist eine Übersicht alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
 slug: hardware-beschaffen
 weight: 3
@@ -20,13 +20,13 @@ Hier ist eine Übersicht alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
 
   * [Raspberry Pi 3 Model B+][5] oder [Raspberry Pi 3 Model B][1],
   * [Stromversorgung][2],
-  * [MicroSD-Karte][3], 32 GB (mindestens),
+  * [MicroSD-Karte][3], 32 GB oder mehr (empfohlen) oder 16 GB (mindestens),
   * [Gehäuse für Raspberry Pi][4] (nicht notwendig, aber Sie sollten den Raspberry Pi 3 schützen).
 
-Die Kosten für die gesamte Hardware betragen ungefähr USD 90, 80 € oder CHF 90.
+Die Kosten für die gesamte Hardware betragen ungefähr 80€, USD 90 oder CHF 90.
 
 {{% notice warning %}}
-Der Erwerb einer hochqualitativen microSD-Karte und einer geeigneten Stromversorgung sind für den störungsfreien Betrieb der MoodleBox __unerlässlich__.
+Der Erwerb einer __hochqualitativen__ microSD-Karte und einer geeigneten Stromversorgung sind für den störungsfreien Betrieb der MoodleBox __unerlässlich__.
 
 Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/universal-power-supply/) der Raspberry Foundation und eine microSD-Karte mit geprüfter Leistung, z.B. [von Wirecutter empfohlen](http://thewirecutter.com/reviews/best-microsd-card/). Die Verwendung anderer Netzteile sowie von microSD-Karten aus zweifelhaften Quellen kann zu systematischen Störungen führen, für die __keine Unterstützung geleistet werden kann__.
 {{% /notice %}}
