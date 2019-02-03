@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2019-02-02
+lastmod: 2019-02-03
 description: Here is the stuff you will need to build your MoodleBox
 slug: hardware-needed
 weight: 3
@@ -18,8 +18,8 @@ aliases:
 Here is the stuff you will need to build your MoodleBox:
 
   * [Raspberry Pi 3 Model B+][5] or [Raspberry Pi 3 Model B][1],
-  * [Power supply][2],
-  * [MicroSD card][3], 32 GB or more (recommended) or 16 GB (minimum),
+  * High quality [Power supply][2],
+  * [MicroSD card][3] of sufficient size; we recommend a capacity of 32 GB or more, even if MoodleBox can work with a smaller card size,
   * [Raspberry Pi case][4] (not essential, but very useful to protect the Raspberry Pi 3).
 
 The total hardware amount is approximately USD 90, 80 € or CHF 90.
