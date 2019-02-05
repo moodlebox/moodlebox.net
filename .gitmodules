@@ -1,3 +1,6 @@
 [submodule "themes/hugo-moodlebox-theme"]
 	path = themes/hugo-moodlebox-theme
 	url = https://github.com/moodlebox/hugo-moodlebox-theme.git
+[submodule "themes/hugo-cloak-email"]
+	path = themes/hugo-cloak-email
+	url = https://github.com/martignoni/hugo-cloak-email.git
