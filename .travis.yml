@@ -1,15 +1,9 @@
+dist: xenial
 sudo: required
 
 language: node_js
 node_js:
   - "lts/*"
-go:
-  - master
-
-before_install:
-  # This workaround is required to avoid libstdc++ errors while running "extended" hugo with SASS support.
-  - wget -q -O libstdc++6 http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.10_amd64.deb
-  - sudo dpkg --force-all -i libstdc++6
 
 install:
   - wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
