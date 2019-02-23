@@ -105,8 +105,8 @@ languages:
 
     testimonials:
       enable: true
-      subtitle: Have a look at what teachers around the world said about the MoodleBox.
-      title: What teachers say
+      subtitle: Have a look at what users around the world said about the MoodleBox.
+      title: What users say
 
     clients:
       enable: true
@@ -178,8 +178,8 @@ languages:
 
     testimonials:
       enable: true
-      subtitle: Découvrez ce que des enseignants du monde entier disent de la MoodleBox.
-      title: Ce que les enseignants en disent
+      subtitle: Découvrez ce que des utilisateurs du monde entier disent de la MoodleBox.
+      title: Ce que les utilisateurs en disent
 
     clients:
       enable: true
@@ -250,13 +250,13 @@ languages:
 
     testimonials:
       enable: true
-      subtitle: Finden Sie die Meinungen von Lehrkräften aus aller Welt über die MoodleBox heraus.
-      title: Was Lehrer dazu sagen
+      subtitle: Finden Sie die Meinungen von Benutzern aus aller Welt über die MoodleBox heraus.
+      title: Was Benutzer dazu sagen
 
     clients:
       enable: true
       subtitle: ONG und Organisationen, die MoodleBox für eigene Projekte einsetzen
-      title: Our users
+      title: Unsere Benutzer
 
 menu:
   topbar:
