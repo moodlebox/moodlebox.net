@@ -1,3 +1,4 @@
 name: "Nomad"
 image: "img/clients/nomad.png"
 url: "http://nomadindia.net/"
+weight: 2
