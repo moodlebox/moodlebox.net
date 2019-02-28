@@ -14,7 +14,7 @@ categories:
 ---
 First [download balenaEtcher][2] (formerly known as _Etcher_), then follow the instructions in balenaEtcher to flash the __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ file [you've downloaded][1] on your microSD card.
 
-{{< figure link="/img/media/etcher-copy.png" caption="Copy with balenaEtcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
+{{< figure src="/img/media/etcher-copy.png" caption="Copy with balenaEtcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
 
 ### For the geeks
 

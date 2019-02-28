@@ -17,7 +17,7 @@ Haben Sie das [Disk-Image][1] heruntergeladen?
 
 Installieren Sie zuerst [balenaEtcher][2] (früher bekannt als _Etcher_) auf Ihrem Computer. Befolgen Sie dann die Anleitung für balenaEtcher, um das Disk-Image __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ auf Ihre MicroSD-Karte zu flashen.
 
-{{< figure link="/img/media/etcher-copy.png" caption="Kopieren mit balenaEtcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
+{{< figure src="/img/media/etcher-copy.png" caption="Kopieren mit balenaEtcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
 
 ### Für Experten
 

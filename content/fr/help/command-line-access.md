@@ -22,7 +22,7 @@ En tant qu'utilisateur, il n'est en principe pas nécessaire de vous connecter 
 
 Ouvrir une nouvelle connexion, saisissez l'adresse __moodlebox.home__ dans le champ adéquat (_host name_). Cliquer sur _Open_ et saisissez le mot de passe __Moodlebox4$__.
 
-{{< figure link="/img/media/putty-moodlebox.png" caption="Connexion avec PuTTY" caption-position="bottom" caption-effect="appear" width="516px" >}}
+{{< figure src="/img/media/putty-moodlebox.png" caption="Connexion avec PuTTY" caption-position="bottom" caption-effect="appear" width="516px" >}}
 
 ### Dans une interface de terminal classique
 

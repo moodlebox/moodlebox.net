@@ -23,7 +23,7 @@ You may now log into Moodle in your browser. Open your browser and type [http://
 The username __admin__ (with the same password __Moodlebox4$__), used up to version 2.5.1 of the MoodleBox, is still valid, but is no longer recommended. It will be removed in a future version of the image.
 {{% /notice %}}
 
-{{< figure link="/img/media/moodle-login-en.png" caption="Moodle Login" caption-position="bottom" caption-effect="appear" width="610px" >}}
+{{< figure src="/img/media/moodle-login-en.png" caption="Moodle Login" caption-position="bottom" caption-effect="appear" width="610px" >}}
 
 You're now logged into the Moodle administrator account of the MoodleBox. It's __strongly recommended that you change the default password__ of the Moodle admin account at the first login.
 

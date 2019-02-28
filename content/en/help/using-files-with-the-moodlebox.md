@@ -16,7 +16,7 @@ categories:
 
 When a USB stick is inserted into one of the MoodleBox USB ports, all the files on the stick are automatically available to administrators and teachers in the file picker of Moodle, via a repository called __USB Drive__.
 
-{{< figure link="/img/media/usb-drive.png" thumb="-small" caption="USB Drive repository" caption-position="bottom" caption-effect="appear" width="550px" >}}
+{{< figure src="/img/media/usb-drive.png" thumb="-small" caption="USB Drive repository" caption-position="bottom" caption-effect="appear" width="550px" >}}
 
 If several USB sticks are inserted into the MoodleBox, only the files of the first inserted one are available.
 
@@ -28,7 +28,7 @@ The MoodleBox handles the following formats: FAT32, VFAT, ext2, ext3, ext4 and H
 
 Files uploaded to the MoodleBox via SFTP, in the folder called __files__, are also available to administrators and teachers in the file picker of Moodle, via a repository called __SFTP Documents__.
 
-{{< figure link="/img/media/sftp-documents.png" thumb="-small" caption="SFTP Documents repository" caption-position="bottom" caption-effect="appear" width="550px" >}}
+{{< figure src="/img/media/sftp-documents.png" thumb="-small" caption="SFTP Documents repository" caption-position="bottom" caption-effect="appear" width="550px" >}}
 
 To upload the files, use a software such as [FileZilla][1], [Cyberduck][2], [WinSCP][3] or [Documents][4] and use the following credentials:
 

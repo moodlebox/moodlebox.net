@@ -24,7 +24,7 @@ The operation described below is not required if you have downloaded the disk im
 - Access the [administration interface][6] of the MoodleBox ([Site Administration > Server > MoodleBox][6] in the administration block).
 - Click on the button _Resize SD card partition_.
 
-{{< figure link="/img/media/resize-sdcard-en.png" caption="Resize SD card partition" caption-position="bottom" caption-effect="appear" width="800px" >}}
+{{< figure src="/img/media/resize-sdcard-en.png" caption="Resize SD card partition" caption-position="bottom" caption-effect="appear" width="800px" >}}
 
 The MoodleBox restarts immediately and is ready for use seconds after this operation.
 

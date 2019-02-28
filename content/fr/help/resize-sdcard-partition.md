@@ -24,7 +24,7 @@ L'opération décrite ci-dessous n'est pas requise si vous avez téléchargé l'
 - [accédez à l'interface d'administration][6] de la MoodleBox ([Administration du site > Serveur > MoodleBox][6] dans le bloc d'administration) ;
 - cliquez sur le bouton _Redimensionner la partition de la carte SD_.
 
-{{< figure link="/img/media/resize-sdcard-fr.png" caption="Redimensionner la carte SD" caption-position="bottom" caption-effect="appear" width="800px" >}}
+{{< figure src="/img/media/resize-sdcard-fr.png" caption="Redimensionner la carte SD" caption-position="bottom" caption-effect="appear" width="800px" >}}
 
 La MoodleBox redémarre immédiatement et est prête à l'emploi quelques secondes après cette opération.
 

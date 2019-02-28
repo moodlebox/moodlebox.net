@@ -20,7 +20,7 @@ Um das Hauptpasswort Ihrer MoodleBox zu ändern, besuchen Sie das Dashboard in d
 
 Dieses Passwort ist Teil der Hauptzugangsdaten Ihrer MoodleBox. Sie ermöglicht den [Zugang zum Betriebssystem][5] der MoodleBox, auf den [SFTP-Datei-Upload][6] sowie auf die [Datenbankverwaltung][7].
 
-{{< figure link="/img/media/change-password-de.png" caption="Ändern des Hauptkennworts" caption-position="bottom" caption-effect="appear" width="600px"  >}}
+{{< figure src="/img/media/change-password-de.png" caption="Ändern des Hauptkennworts" caption-position="bottom" caption-effect="appear" width="600px"  >}}
 
 Geben Sie im Abschnitt __MoodleBox-Kennwort__ Ihr neues Kennwort ein, in beiden Feldern gleich. Durch Klicken auf das Augensymbol können Sie sich die von Ihnen eingegebenen Zeichen anzeigen lassen. Wir empfehlen, ein sicheres Passwort zu wählen.
 

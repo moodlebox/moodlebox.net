@@ -25,7 +25,7 @@ Nachdem Sie mit dem WLAN der MoodleBox verbunden sind, können Sie über Ihren B
 Der bis zur Version 2.5.1 der MoodleBox verwendete Anmeldename __admin__ (mit dem gleichen Passwort __Moodlebox4$__) ist weiterhin gültig, wird aber nicht mehr empfohlen. Es wird in einer zukünftigen Version des Images gelöscht.
 {{% /notice %}}
 
-{{< figure link="/img/media/moodle-login-de.png" caption="Anmelden in Moodle" caption-position="bottom" caption-effect="appear" width="610px" >}}
+{{< figure src="/img/media/moodle-login-de.png" caption="Anmelden in Moodle" caption-position="bottom" caption-effect="appear" width="610px" >}}
 
 Sie sind jetzt mit dem Administratorkonto im Moodle auf der MoodleBox verbunden. __Es wird dringend empfohlen, das Initialkennwort__ des Administratorkontos bei der ersten Anmeldung zu ändern.
 
