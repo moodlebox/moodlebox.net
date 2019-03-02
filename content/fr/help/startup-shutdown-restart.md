@@ -49,7 +49,7 @@ Il est possible d'installer un bouton matériel permettant d'arrêter et de dém
 
 L'installation d'un bouton matériel est très simple : il suffit d'acheter un interrupteur, par exemple [ce bouton tactile][3], et de le relier aux broches du port GPIO de la MoodleBox (broches 5 et 6) grâce à [des cavaliers][4] (voir l'image ci-dessous, merci à Laurent Fleron), puis de redémarrer la MoodleBox.
 
-{{< figure src="/img/media/hardware-button.jpg" thumb="-small" caption="Bouton matériel" caption-position="bottom" caption-effect="appear" width="400px" >}}
+{{< figure src="/img/media/hardware-button.jpg" caption="Bouton matériel" caption-position="bottom" caption-effect="appear" width="400px" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
  [2]: {{< relref "download-the-disk-image.md" >}}
