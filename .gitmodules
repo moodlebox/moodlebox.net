@@ -4,3 +4,6 @@
 [submodule "themes/hugo-cloak-email"]
 	path = themes/hugo-cloak-email
 	url = https://github.com/martignoni/hugo-cloak-email.git
+[submodule "themes/hugo-notice"]
+	path = themes/hugo-notice
+	url = https://github.com/martignoni/hugo-notice.git
