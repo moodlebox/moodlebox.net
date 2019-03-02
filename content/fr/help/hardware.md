@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2019-02-03
+lastmod: 2019-03-02
 description: Voici le matériel nécessaire pour construire votre MoodleBox
 slug: materiel-necessaire
 weight: 3
@@ -13,6 +13,16 @@ categories:
   - Premiers pas
 aliases:
   - fr/hardware
+gallery_item:
+  - album: gallery
+    image: media/rpi-case.png
+    caption: Boîtier pour Raspberry Pi 3
+  - album: gallery
+    image: media/rpi-power-supply.png
+    caption: Alimentation pour Raspberry Pi
+  - album: gallery
+    image: media/rpi3.png
+    caption: Rapsberry Pi 3
 
 ---
 Pour mettre en oeuvre la MoodleBox, le matériel suivant est nécessaire :
@@ -30,9 +40,7 @@ Le choix d'une carte microSD de __bonne qualité__ ainsi que d'une alimentation 
 Nous recommandons l'[alimentation officielle](https://www.raspberrypi.org/products/universal-power-supply/) de la Fondation Raspberry et une carte microSD disposant de performances éprouvées, par exemple celles qui sont [recommandées par Wirecutter](http://thewirecutter.com/reviews/best-microsd-card/). L'utilisation d'autres alimentations, ainsi que de cartes microSD de provenances douteuses peuvent être en effet la cause de dysfonctionnements systématiques, pour lesquels __aucune assistance ne peut être assurée__.
 {{% /notice %}}
 
-{{< figure src="/img/media/rpi3.png" caption="Raspberry Pi 3" caption-position="bottom" caption-effect="appear" >}}
-{{< figure src="/img/media/rpi-power-supply.png" caption="Raspberry Pi power supply" caption-position="bottom" caption-effect="appear" >}}
-{{< figure src="/img/media/rpi-case.png" caption="Raspberry Pi case" caption-position="bottom" caption-effect="appear" >}}
+{{< gallery >}}
 
  [1]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
  [2]: https://www.raspberrypi.org/products/universal-power-supply/
