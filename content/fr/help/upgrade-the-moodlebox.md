@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-22
-lastmod: 2018-01-06
+lastmod: 2019-03-04
 description: Suivez les instructions ci-dessous pour mettre à jour régulièrement votre MoodleBox
 slug: comment-mettre-a-jour-la-moodlebox
 categories:
@@ -13,7 +13,7 @@ categories:
 ---
 Comme mesure de sécurité régulière, il est recommandé de mettre à jour les logiciels serveur de la MoodleBox afin de combler les éventuelles failles trouvées dans la distribution Raspbian et de corriger d'autres bogues découverts.
 
-Pour cette opération, la MoodleBox doit être connectée à Internet.
+Pour cette opération, la MoodleBox doit être connectée à Internet au moyen d'un câble Ethernet.
 
 ### Mise à jour des logiciels de la MoodleBox
 
@@ -22,7 +22,7 @@ Pour cette opération, la MoodleBox doit être connectée à Internet.
   3. Taper la commande suivante dans l'interface du terminal :
 
     ```bash
-    sudo apt-get update && sudo apt-get upgrade -y
+    sudo apt-get update && sudo apt-get dist-upgrade -y
     ```
 
     et confirmer avec la touche Retour.

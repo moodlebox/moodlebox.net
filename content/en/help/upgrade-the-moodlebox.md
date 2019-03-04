@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-22
-lastmod: 2018-01-06
+lastmod: 2019-03-04
 description: Follow the instructions below to regularly update your MoodleBox
 slug: how-to-upgrade-the-moodlebox
 categories:
@@ -13,7 +13,7 @@ categories:
 ---
 As a routine security measure, it is recommended to update regularly the server software on the MoodleBox to patch vulnerabilities found in the Raspbian distribution and to fix other discovered bugs.
 
-For this operation, the MoodleBox must be connected to the Internet.
+For this operation, the MoodleBox must be connected to the Internet via Ethernet cable.
 
 ### Updating the MoodleBox software
 
@@ -22,7 +22,7 @@ For this operation, the MoodleBox must be connected to the Internet.
   3. Type the following command in the terminal interface:
 
     ```bash
-    sudo apt-get update && sudo apt-get upgrade -y
+    sudo apt-get update && sudo apt-get dist-upgrade -y
     ```
 
     and confirm with Return.
