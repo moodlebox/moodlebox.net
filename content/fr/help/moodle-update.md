@@ -2,6 +2,7 @@
 title: Comment mettre à jour Moodle
 authors:
   - Nicolas Martignoni
+  - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-17
 lastmod: 2018-12-05
@@ -37,7 +38,6 @@ Pour une mise à jour à une __version majeure__ de Moodle (3.7, 3.8, etc.), tap
 ```bash
 sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git pull
 sudo -u moodlebox -g www-data git checkout MOODLE_36_STABLE
 ```
 
