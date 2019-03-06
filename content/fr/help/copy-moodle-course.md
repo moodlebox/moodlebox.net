@@ -5,7 +5,7 @@ authors:
 type: kb
 date: 2019-03-06
 lastmod: 2019-03-06
-description: il est facile de copier (déplacer) un cours Moodle situé sur un autre serveur Moodle vers une MoodleBox.
+description: Il est facile de copier (déplacer) un cours Moodle situé sur un autre serveur Moodle vers une MoodleBox.
 slug: copier-un-cours-moodle
 weight: 6
 categories:
