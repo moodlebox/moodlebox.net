@@ -2,3 +2,4 @@ weight: 4
 name: "Libre et bon marché"
 icon: "fa fa-gift"
 description: "La MoodleBox est un projet libre et très bon marché basé sur Raspberry Pi 3. Le matériel nécessaire se monte à environ 80 €."
+link: "/help/hardware"

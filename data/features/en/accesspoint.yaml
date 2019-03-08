@@ -2,3 +2,4 @@ weight: 3
 name: "Wi-Fi Access Point"
 icon: "fa fa-wifi"
 description: "When connected to your ethernet network, the MoodleBox provides Internet access to all devices that are wirelessly connected."
+link: "/help/wi-fi-connection"
