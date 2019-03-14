@@ -17,8 +17,7 @@ aliases:
 ---
 ### MoodleBox Disk Image
 
-<ul class="downloads">
-  <li>
+<div class="downloads">
   <div class="image-icon">
     <a class="piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><img alt="MoodleBox SD card" src="/img/media/moodlebox-sdcard.png" width="150" height="150"></a>
   </div>
@@ -44,9 +43,8 @@ aliases:
     <div class="image-download-links">
       <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download"></i>Download image</a>
     </div>
- </div>
- </li>
-</ul>
+  </div>
+</div>
 
 After having downloaded the disk image, follow the instructions to [copy it to the microSD card][1] and [set up your MoodleBox][2] for the first use. Read the [installation instructions][5] for more information.
 
