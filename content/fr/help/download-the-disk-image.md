@@ -16,8 +16,7 @@ aliases:
 ---
 ### Image disque MoodleBox
 
-<ul class="downloads">
-  <li>
+<div class="downloads">
   <div class="image-icon">
     <a class="piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><img alt="Carte microSD MoodleBox" src="/img/media/moodlebox-sdcard.png" width="150" height="150"></a>
   </div>
@@ -43,9 +42,8 @@ aliases:
     <div class="image-download-links">
       <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download"></i>Télécharger l'image</a>
     </div>
- </div>
- </li>
-</ul>
+  </div>
+</div>
 
 Après avoir téléchargé l'image-disque, suivez les [instructions pour la copier sur la carte microSD][1] et [démarrez votre MoodleBox][2]. Consultez les [instructions d'installation][5] pour plus d'informations.
 

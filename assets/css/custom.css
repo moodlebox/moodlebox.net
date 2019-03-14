@@ -1,54 +1,46 @@
 /* Download image layout */
-ul.downloads h3 {
-  margin-bottom: 3px;
-}
-ul.downloads {
+.downloads {
   margin: 8px 0;
   padding: 0;
   overflow: auto;
   clear: both;
 }
-ul.downloads li {
+.downloads .image-info {
   width: 100%;
   float: left;
   list-style-type: none;
 }
-ul.downloads li .image-icon {
+.downloads .image-icon {
   width: 172px;
   float: left;
 }
-ul.downloads li .image-info {
+.downloads .image-info {
   width: 60%;
   float: left;
   line-height: 1.5;
 }
-ul.downloads li .image-description {
+.downloads .image-description {
   margin-bottom: 5px;
   font-weight: bold;
 }
-ul.downloads li .image-details span {
+.downloads .image-details span {
   width: 160px;
   float: left;
 }
-ul.downloads li .image-details strong {
-}
-ul.downloads li .image-details.sha1 {
-  word-wrap: break-word;
-}
-ul.downloads li .image-download-links {
+.downloads .image-download-links {
   margin-top: 10px;
 }
-ul.downloads li .image-download-links a.btn {
+.downloads .image-download-links a.btn {
   background: #da4d4d;
   border: 1px solid #da4d4d;
   line-height: 20px;
   color: white;
 }
-ul.downloads li .image-download-links a.btn:hover {
+.downloads .image-download-links a.btn:hover {
   color: #da4d4d;
   background: white;
 }
-ul.downloads li .image-download-links a.btn i.fa {
+.downloads .image-download-links a.btn i.fa {
     margin-left: 0;
 }
 
