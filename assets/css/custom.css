@@ -1,4 +1,4 @@
-/* Download image layout */
+/* Download page */
 .downloads {
   margin: 8px 0;
   padding: 0;
@@ -175,10 +175,10 @@
 .give-submit-button-wrap .give-submit,[id^=give-user-login-submit] .give-submit {
   float: left;
 }
+
 /* footnote link and back to footnote link */
 a[href^="#fn:"], a[href^="#fnref:"] {
   text-decoration: none;
-  /* font-family: monospace; */
 }
 a[href^="#fn:"]:before{ content: '[' }
 a[href^="#fn:"]:after{ content: ']' }
