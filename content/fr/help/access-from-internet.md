@@ -19,7 +19,7 @@ La mise à disposition sur le web d'une MoodleBox __implique des risques de séc
 
 Les opérations décrites sur cette page sont susceptibles de __rendre votre MoodleBox inutilisable__, ce qui nécessiterait l'effacement complet de la carte SD et la __perte de toutes les données__ qui s'y trouvent (contenus de cours, plugins installés, configurations personnalisées, etc.). N'effectuez ces opérations que si vous savez exactement ce que vous faites. Dans tous les cas, __aucune assistance n'est assurée__ sur ce sujet.
 
-Nous déclinons toute responsabilité pour tout dommage direct ou indirect lors de l’utilisation de la MoodleBox, notamment suite à une modification de configuration en vue d'exposer la MoodleBox sur Internet.
+Nous déclinons toute responsabilité pour tout dommage direct ou indirect lors de l'utilisation de la MoodleBox, notamment suite à une modification de configuration en vue d'exposer la MoodleBox sur Internet.
 {{% /notice %}}
 
 La MoodleBox n'a pas été conçue comme fournir une plateforme Moodle accessible depuis Internet de façon permanente, comme l'est habituellement un serveur Moodle. Néanmoins, pour des scénarios spécifiques, une telle fonctionnalité peut être utile.

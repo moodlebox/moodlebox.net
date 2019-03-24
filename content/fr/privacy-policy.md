@@ -8,7 +8,7 @@ slug: privacy
 description: La politique de confidentialité de MoodleBox vous assure de la bonne protection des données que vous saisissez en utilisant nos services.
 weight: 10
 ---
-Le projet __MoodleBox__ est attaché au respect de la vie privée, et nous nous efforçons d’assurer que nos mesures techniques et organisationnelles respectent vos droits en matière de protection des données.
+Le projet __MoodleBox__ est attaché au respect de la vie privée, et nous nous efforçons d'assurer que nos mesures techniques et organisationnelles respectent vos droits en matière de protection des données.
 
 Cette politique de confidentialité décrit nos règles concernant la gestion, le traitement et le stockage des données personnelles vous concernant, récoltées afin que vous puissiez accéder à nos services.
 
@@ -26,11 +26,11 @@ Vous pouvez demander une copie de toutes les données personnelles vous concerna
 
 ### Statistiques
 
-Ce site web utilise son propre serveur Piwik (stats.martignoni.net) pour collecter à des fins statistiques des données anonymisées sur les visites. Elles ne sont utilisées qu’à des fins internes et ne sont pas transmises à des tiers. Ce service utilise un cookie. Vous pouvez, toutefois, désactiver l’enregistrement des cookies ou régler votre navigateur web de manière à ce qu’il vous informe dès que les cookies sont envoyés.
+Ce site web utilise son propre serveur Piwik (stats.martignoni.net) pour collecter à des fins statistiques des données anonymisées sur les visites. Elles ne sont utilisées qu'à des fins internes et ne sont pas transmises à des tiers. Ce service utilise un cookie. Vous pouvez, toutefois, désactiver l'enregistrement des cookies ou régler votre navigateur web de manière à ce qu'il vous informe dès que les cookies sont envoyés.
 
 ### Témoignages
 
-Le projet __MoodleBox__ publie sur son site une liste de témoignages d'utilisateurs de MoodleBox, comportant les noms et provenances des personnes concernées. Nous nous engageons à obtenir l’autorisation de chaque personne avant publication de tout témoignage sur ce site. Si vous souhaitez être retiré de la liste des témoignages, vous pouvez nous envoyer un courriel à l’adresse nicolas@martignoni.net.
+Le projet __MoodleBox__ publie sur son site une liste de témoignages d'utilisateurs de MoodleBox, comportant les noms et provenances des personnes concernées. Nous nous engageons à obtenir l'autorisation de chaque personne avant publication de tout témoignage sur ce site. Si vous souhaitez être retiré de la liste des témoignages, vous pouvez nous envoyer un courriel à l'adresse nicolas@martignoni.net.
 
 ### Identité et coordonnées du responsable de traitement de données
 
