@@ -76,7 +76,7 @@ languages:
         url: /help/moodlebox-project/
         weight: 4
       - parent: help
-        name: Support MoodleBox
+        name: Make a Donation
         url: /give/
         weight: 5
       - parent: help
@@ -148,7 +148,7 @@ languages:
         url: /help/projet-moodlebox/
         weight: 4
       - parent: help
-        name: Soutenir MoodleBox
+        name: Faire un don
         url: /give/
         weight: 5
       - parent: help
@@ -221,7 +221,7 @@ languages:
         url: /help/moodlebox-projekt
         weight: 4
       - parent: help
-        name: MoodleBox unterstützen
+        name: Spenden
         url: /give/
         weight: 5
       - parent: help
