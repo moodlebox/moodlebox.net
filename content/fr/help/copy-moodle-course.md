@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2019-03-06
-lastmod: 2019-03-06
+lastmod: 2019-04-01
 description: Il est facile de copier (déplacer) un cours Moodle situé sur un autre serveur Moodle vers une MoodleBox.
 slug: copier-un-cours-moodle
 weight: 6
@@ -26,11 +26,11 @@ Scénario 2
 - Si votre cours dépasse une taille de 50 Mo, il faut <a href="{{< relref "using-files-with-the-moodlebox" >}}">utiliser une clef USB ou l'option de serveur SFTP</a> de la MoodleBox pour pouvoir le restaurer.
 {{% /notice %}}
 
-Le processus de copie d'un cours d'un Moodle vers une MoodleBox est exactement le même qu'avec n'importe quel serveur Moodle. Il s'agit dans un premier temps d'effectuer sur le serveur Moodle de l'école ou de la première MoodleBox une [sauvegarde du cours][backup] que l'on veut copier, de l'enregistrer sur un support adéquat, puis de [restaurer cette sauvegarde][restore] sur la MoodleBox cible.
+Le processus de copie d'un cours d'un Moodle vers une MoodleBox est exactement le même qu'avec n'importe quel serveur Moodle. Il s'agit dans un premier temps d'effectuer sur le serveur Moodle de l'école ou de la première MoodleBox une [sauvegarde du cours (backup)][backup] que l'on veut copier, de l'enregistrer sur un support adéquat, puis de [restaurer cette sauvegarde][restore] sur la MoodleBox cible.
 
 ### Marche à suivre
 
-#### Effectuer la sauvegarde du cours à copier sur le Moodle de l'école ou de la première MoodleBox
+#### Effectuer la sauvegarde (backup) du cours à copier sur le Moodle de l'école ou de la première MoodleBox
 
 1. Sur le serveur Moodle où le cours est actuellement placé, se connecter et entrer dans le cours, avec au minimum un rôle d'enseignant.
 1. Dans le menu de gestion du cours (la roue dentée), choisir l'option « Sauvegarde », puis procéder comme pour n'importe quelle sauvegarde de cours Moodle.
