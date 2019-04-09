@@ -12,7 +12,7 @@ weight: 2
 categories:
   - About
 aliases:
-  - de/was-ist-die-moodlebox
+  - ../was-ist-die-moodlebox
 
 ---
 

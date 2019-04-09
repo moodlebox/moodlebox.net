@@ -9,10 +9,10 @@ description: Sie können das MoodleBox-Projekt konkret unterstützen, indem Sie 
 slug: projekt-moodlebox-unterstuetzen
 weight: 100
 aliases:
-  - spenden
-  - de/give
-  - de/donate
-  - de/help/projekt-moodlebox-unterstuetzen
+  - /spenden
+  - give
+  - donate
+  - help/projekt-moodlebox-unterstuetzen
 
 ---
 Das MoodleBox-Projekt ist ein freiwilliges, Non-Profit- und Freizeitprojekt. Ihre Spende dient der Finanzierung der Ausrüstung, die für die Entwicklung der MoodleBox und die Dokumentation benötigt wird.

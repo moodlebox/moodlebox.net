@@ -12,7 +12,7 @@ weight: 4
 categories:
   - About
 aliases:
-  - de/diy
+  - ../diy
 
 ---
 Sie können selber ein eigenes Disk-Image der MoodleBox erstellen und dies entsprechend Ihren Bedürfnissen anpassen.

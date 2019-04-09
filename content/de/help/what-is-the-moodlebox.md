@@ -12,7 +12,7 @@ weight: 1
 categories:
   - About
 aliases:
-  - de/about
+  - ../about
 
 ---
 Die MoodleBox ist ein kleines Gerät, mobil und internetunabhängig. Die MoodleBox bietet ein drahtloses Netzwerk für Smartphones, Tablets oder Computer. Die MoodleBox stellt eine vollständige [Moodle][1]-Lernplattform zur Verfügung, auf der Lernaktivitäten online angeboten und Dateien untereinander ausgetauscht werden können.

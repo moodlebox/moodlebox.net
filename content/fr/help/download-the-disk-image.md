@@ -11,7 +11,7 @@ weight: 3
 categories:
   - Premiers pas
 aliases:
-  - fr/dl
+  - ../dl
 
 ---
 ### Image disque MoodleBox

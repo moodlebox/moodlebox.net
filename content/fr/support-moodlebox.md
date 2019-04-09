@@ -8,10 +8,10 @@ description: Vous pouvez soutenir concrètement le projet MoodleBox en participa
 slug: soutenir-le-projet-moodlebox
 weight: 100
 aliases:
-  - soutenir
-  - fr/give
-  - fr/donate
-  - fr/help/soutenir-le-projet-moodlebox
+  - /soutenir
+  - give
+  - donate
+  - help/soutenir-le-projet-moodlebox
 
 ---
 Le projet MoodleBox est développé à temps perdu, bénévolement et sans but lucratif. Votre don permettra de contribuer au financement du matériel nécessaire au développement de la MoodleBox et à l'hébergement de sa documentation.

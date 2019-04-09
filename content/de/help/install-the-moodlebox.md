@@ -12,7 +12,7 @@ weight: 1
 categories:
   - First steps
 aliases:
-  - de/install
+  - ../install
 
 ---
 Die folgende Vorgehensweise ist notwendig, um die MoodleBox für die erste Verwendung zu installieren.

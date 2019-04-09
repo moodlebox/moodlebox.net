@@ -3,7 +3,7 @@ title: "Documentation MoodleBox"
 description: Les réponses à vos questions à propos de MoodleBox et de son utilisation. Utilisez le forum de discussion.
 lastmod: 2019-01-24
 aliases:
-  - fr/using
+  - using
 ---
 
 <!-- La MoodleBox est un dispositif mobile indépendant d'Internet qui fournit un environnement d'apprentissage Moodle complet pour des activités d'apprentissage et pour partager des fichiers. -->

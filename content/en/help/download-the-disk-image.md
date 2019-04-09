@@ -11,8 +11,8 @@ weight: 3
 categories:
   - First steps
 aliases:
-  - download
-  - en/dl
+  - /download
+  - ../dl
 
 ---
 ### MoodleBox Disk Image

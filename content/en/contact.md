@@ -5,7 +5,7 @@ layout: contact
 description: Do you have a question about the MoodleBox project? complete the form and we'll get back to you
 lastmod: 2018-11-16
 aliases:
-  - contact
+  - /contact
 ---
 
 ### Need help?

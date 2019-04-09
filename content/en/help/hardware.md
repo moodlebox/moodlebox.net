@@ -12,7 +12,7 @@ categories:
   - About
   - First steps
 aliases:
-  - en/hardware
+  - ../hardware
 gallery_item:
   - album: gallery
     image: media/rpi-case.png

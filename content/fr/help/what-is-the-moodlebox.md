@@ -11,7 +11,7 @@ weight: 1
 categories:
   - À propos
 aliases:
-  - fr/about
+  - ../about
 
 ---
 La MoodleBox est un dispositif mobile indépendant d'Internet permettant de créer un réseau local auquel chacun peut se connecter par Wi-Fi au moyen d'un smartphone, d'une tablette ou d'un ordinateur. Elle fournit un environnement d'apprentissage [Moodle][1] complet pour des activités d'apprentissage et pour partager des fichiers.

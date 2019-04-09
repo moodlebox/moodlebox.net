@@ -11,8 +11,8 @@ weight: 1
 categories:
   - About
 aliases:
-  - en/about
-  - en/what-is-the-moodlebox-for
+  - ../about
+  - ../what-is-the-moodlebox-for
 
 ---
 The MoodleBox is a small footprint mobile device, Internet independent, providing a wireless network for your smartphone, tablet or computer. It provides a complete [Moodle][1] learning management system platform, enabling to supply online learning activities and sharing files with your users.

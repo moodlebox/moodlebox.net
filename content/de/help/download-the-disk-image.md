@@ -12,7 +12,7 @@ weight: 3
 categories:
   - First steps
 aliases:
-  - de/dl
+  - ../dl
 
 ---
 ### MoodleBox Disk-Image
