@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-09-15
-lastmod: 2018-12-15
+lastmod: 2019-04-15
 description: The procedure to install the MoodleBox for its first utilisation is described here
 slug: install-the-moodlebox
 weight: 1
@@ -36,9 +36,10 @@ There is no other manipulation to do: after the boot, your MoodleBox is ready an
 
 ### Next steps
 
-  * [Change the main password][11]
+  * [Wi-Fi connection][5]
   * [Access to Moodle][4]
-  * [Wi-Fi connection][5] and [configuration][6]
+  * [Change the main password][11]
+  * [Wi-Fi configuration][6]
   * [SSH access][7] to the MoodleBox
   * [Support the MoodleBox project][8]
 

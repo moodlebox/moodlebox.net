@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-09-15
-lastmod: 2018-12-15
+lastmod: 2019-04-15
 description: La procédure pour installer la MoodleBox en vue de sa première utilisation est décrite ici
 slug: installer-la-moodlebox
 weight: 1
@@ -36,10 +36,11 @@ Il n'y a pas d'autre manipulation à effectuer : dès la fin de son démarrage,
 
 ### Étapes suivantes
 
-  * [Changer le mot de passe principal][11]
+  * [Se connecter en Wi-Fi][5]
   * [Accéder à Moodle][4]
-  * [Connexion Wi-Fi][5] et [configuration du réseau Wi-Fi][6]
-  * [Accès à la MoodleBox via SSH][7]
+  * [Changer le mot de passe principal][11]
+  * [Configurer le réseau Wi-Fi][6]
+  * [Accéder à la MoodleBox via SSH][7]
   * [Soutenir le projet MoodleBox][8]
 
 Pour plus d'informations, [consultez la documentation][9].
