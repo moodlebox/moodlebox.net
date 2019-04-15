@@ -35,9 +35,9 @@ To upload the files, use a software such as [FileZilla][1], [Cyberduck][2], [Win
   * username: __moodlebox__
   * password: __Moodlebox4$__
 
-{{% notice note %}}
+{{< notice note >}}
 For security reasons, connection via FTP is not possible. The SFTP protocol (Secure FTP, port 22) must be used.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: https://filezilla-project.org/
  [2]: https://cyberduck.io/

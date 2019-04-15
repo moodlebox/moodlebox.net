@@ -25,9 +25,9 @@ Pour changer le nom du réseau (SSID), saisir un nouveau SSID dans le champ adé
 
 À partir de la version 2.6.0 de la MoodleBox, il est possible de cacher le réseau Wi-Fi de la MoodleBox en cochant la case __Réseau Wi-Fi caché__.
 
-{{% notice warning %}}
+{{< notice warning >}}
 Lorsque le réseau Wi-Fi est caché, il est difficile de savoir qu'une MoodleBox est active dans les environs. N'activez cette option que si vous êtes sûr de ce que vous faites, car les utilisateurs auront alors sans doute plus de peine à trouver la MoodleBox.
-{{% /notice %}}
+{{< /notice >}}
 
 ### Changer le canal Wi-Fi du point d'accès
 
@@ -37,9 +37,9 @@ Pour changer le canal Wi-Fi du point d'accès de la MoodleBox, sélectionner un 
 
 Pour changer le pays de régulation du point d'accès sans fils de la MoodleBox, sélectionner un pays dans la liste déroulante et cliquer sur le bouton __Changer les réglages Wi-Fi__.
 
-{{% notice info %}}
+{{< notice info >}}
 Les canaux Wi-Fi autorisés dépendent du pays de régulation. Suivant le pays choisi, certains canaux ne seront plus disponibles.
-{{% /notice %}}
+{{< /notice >}}
 
 ### Retirer le mot de passe du réseau Wi-Fi ou le changer
 

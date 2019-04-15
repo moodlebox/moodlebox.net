@@ -34,11 +34,11 @@ Pour mettre en oeuvre la MoodleBox, le matériel suivant est nécessaire :
 
 La totalité de l'investissement matériel nécessaire est d'environ 80 €, USD 90 ou CHF 90.
 
-{{% notice warning %}}
+{{< notice warning >}}
 Le choix d'une carte microSD de __bonne qualité__ ainsi que d'une alimentation électrique adéquate sont __essentiels__ pour le bon fonctionnement de la MoodleBox.
 
 Nous recommandons l'[alimentation officielle](https://www.raspberrypi.org/products/universal-power-supply/) de la Fondation Raspberry et une carte microSD disposant de performances éprouvées, par exemple celles qui sont [recommandées par Wirecutter](http://thewirecutter.com/reviews/best-microsd-card/). L'utilisation d'autres alimentations, ainsi que de cartes microSD de provenances douteuses peuvent être en effet la cause de dysfonctionnements systématiques, pour lesquels __aucune assistance ne peut être assurée__.
-{{% /notice %}}
+{{< /notice >}}
 
 {{< gallery >}}
 

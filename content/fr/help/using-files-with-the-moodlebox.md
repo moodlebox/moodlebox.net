@@ -35,9 +35,9 @@ Pour déposer des fichiers, utiliser un logiciel comme [FileZilla][1], [Cyberduc
   * nom d'utilisateur : __moodlebox__
   * mot de passe : __Moodlebox4$__
 
-{{% notice note %}}
+{{< notice note >}}
 Pour des raisons de sécurité, la connexion via FTP n'est pas possible. L'utilisation du protocole SFTP (Secure FTP, port 22) est nécessaire.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: https://filezilla-project.org/
  [2]: https://cyberduck.io/

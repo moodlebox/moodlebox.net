@@ -25,9 +25,9 @@ You may change the network name (SSID). Type in a new SSID in the adequate field
 
 Starting with MoodleBox version 2.6.0, it is possible to hide the MoodleBox's Wi-Fi network by checking the __Hidden Wi-Fi Network__ box.
 
-{{% notice warning %}}
+{{< notice warning >}}
 When the Wi-Fi network is hidden, it is difficult to know that a MoodleBox is active in the area. Only enable this option if you are sure of what you are doing, as users will probably have more trouble finding the MoodleBox.
-{{% /notice %}}
+{{< /notice >}}
 
 ### Change Wi-Fi access point channel
 
@@ -37,9 +37,9 @@ To change the Wi-Fi channel of the wireless access point of the MoodleBox, selec
 
 To change the Wi-Fi regulatory country of the MoodleBox wireless access point, select a country from the drop-down list and click the __Change Wi-Fi settings__ button.
 
-{{% notice info %}}
+{{< notice info >}}
 Authorized Wi-Fi channels depend on the country of regulation. Depending on the country selected, some channels will no longer be available.
-{{% /notice %}}
+{{< /notice >}}
 
 ### Remove Wi-Fi network password or change it
 

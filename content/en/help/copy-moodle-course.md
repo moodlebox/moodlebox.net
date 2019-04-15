@@ -21,10 +21,10 @@ Scenario 1
 Scenario 2
 : You want to move a course located on one MoodleBox to another MoodleBox.
 
-{{% notice warning %}}
+{{< notice warning >}}
 - It is not possible to copy a course from a newer version of Moodle to an older version of Moodle. Before starting the operations described below, it is therefore necessary to ensure that the Moodle version of the target MoodleBox is __equal or more recent__ than that of the source Moodle server (on another MoodleBox or on your school server).
 - If your course exceeds a size of 50 MB, you must <a href="{{< relref "using-files-with-the-moodlebox" >}}">use a USB key or the SFTP server option</a> of the MoodleBox to restore it.
-{{% /notice %}}
+{{< /notice >}}
 
 The process of copying a course from a Moodle to a MoodleBox is exactly the same as with any Moodle server. The first step is to make a [backup of the course you want to copy][backup] on the school's Moodle server or the first MoodleBox, save it on a suitable storage medium, and then [restore this backup][restore] on the target MoodleBox.
 

@@ -14,9 +14,9 @@ slug: version-2.6.2
 
 This version also provides a preliminary version of the MoodleBox update script. The script is functional, but no documentation is yet provided.
 
-{{% notice note %}}
+{{< notice note >}}
 Version 2.6.0 of the MoodleBox image, released on December 3, 2018, __cannot be automatically updated with the update script__ under development. We recommend that you use this version instead.
-{{% /notice %}}
+{{< /notice >}}
 
 See the [release notes on Github][2] for all info about this release.
 

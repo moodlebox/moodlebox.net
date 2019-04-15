@@ -14,9 +14,9 @@ categories:
 
 ### Steps to follow
 
-{{% notice warning %}}
+{{< notice warning >}}
 The operation described below is not required if you have downloaded the disk image from this website. However, it may be necessary to run it if you have received a custom disk image.
-{{% /notice %}}
+{{< /notice >}}
 
 - [Copy your custom disk image][2] to the microSD card.
 - [Start your MoodleBox][3] in the usual way.
@@ -28,9 +28,9 @@ The operation described below is not required if you have downloaded the disk im
 
 The MoodleBox restarts immediately and is ready for use seconds after this operation.
 
-{{% notice info %}}
+{{< notice info >}}
 There is no problem clicking the _Resize SD card partition_ button when the SD card is already resized. The only consequence will be the restart of the MoodleBox.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: {{< relref "download-the-disk-image.md" >}}
  [2]: {{< relref "copy-the-disk-image.md" >}}

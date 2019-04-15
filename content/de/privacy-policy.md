@@ -36,8 +36,8 @@ Das Projekt __MoodleBox__ veröffentlicht auf seiner Website eine Liste von Test
 
 Personenbezogene Daten werden auf unserer Website erhoben von Nicolas Martignoni, Betreuer des MoodleBox-Projekts.
 
-{{% notice note %}}
+{{< notice note >}}
 Diese Datenschutzerklärung wurde zuletzt geändert am {{< lastmod >}}.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: {{< relref "contact.md" >}}

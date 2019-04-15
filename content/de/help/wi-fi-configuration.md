@@ -26,9 +26,9 @@ Sie können den WLAN-Namen (SSID) der MoodleBox ändern. Geben Sie einen neuen W
 
 Ab MoodleBox Version 2.6.0 ist es möglich, das Wi-Fi-Netzwerk der MoodleBox auszublenden, indem Sie das Kontrollkästchen __Hidden Wi-Fi Network__ aktivieren.
 
-{{% notice warning %}}
+{{< notice warning >}}
 Wenn das Wi-Fi-Netzwerk ausgeblendet ist, ist es schwierig zu wissen, dass eine MoodleBox in diesem Umfeld aktiv ist. Aktivieren Sie diese Option nur, wenn Sie sich sicher sind, was Sie tun, da Benutzer wahrscheinlich mehr Probleme haben werden, die MoodleBox zu finden.
-{{% /notice %}}
+{{< /notice >}}
 
 
 ### WLAN-Kanal ändern
@@ -39,9 +39,9 @@ Um den WLAN-Kanal der MoodleBox zu ändern, wählen Sie einen Kanal und tippen S
 
 Um das WLAN Regulierungsland der MoodleBox zu ändern, Wählen Sie ein Land aus der Dropdown-Liste und tippen Sie auf die Taste __Einstellungen ändern__.
 
-{{% notice info %}}
+{{< notice info >}}
 Autorisierte WLAN-Kanäle hängen vom Regulierungsland ab. Je nach gewähltem Land stehen einige Kanäle nicht mehr zur Verfügung.
-{{% /notice %}}
+{{< /notice >}}
 
 ### WLAN-Kennwort entfernen oder ändern
 

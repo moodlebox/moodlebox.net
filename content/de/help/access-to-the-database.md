@@ -17,8 +17,8 @@ Die MoodleBox erlaubt den direkten Zugriff auf die Moodle-Datenbank mit der Soft
   * Username: __moodlebox__
   * Password: __Moodlebox4$__
 
-{{% notice warning %}}
+{{< notice warning >}}
 Es wird dringend davon abgeraten, die Moodle-Datenbank direkt zu manipulieren, wenn Sie nicht ganz genau wissen, was Sie tun. Der Autor übernimmt keinerlei Verantwortung für Datenverluste.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: http://moodlebox.home/phpmyadmin/

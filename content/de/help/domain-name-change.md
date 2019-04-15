@@ -12,19 +12,19 @@ categories:
   - Usage
 
 ---
-{{% notice warning %}}
+{{< notice warning >}}
 Die auf dieser Seite beschriebenen Vorgänge können __Ihre MoodleBox unbrauchbar machen__, was ein vollständiges Löschen der SD-Karte und den __Verlust aller Daten__ (Kursinhalte, installierte Plugins, benutzerdefinierte Konfigurationen, etc.) erfordert. Tun Sie dies nur, wenn Sie genau wissen, was Sie tun. In jedem Fall wird __keine Unterstützung__ zu diesem Thema geleistet.
 
 Wir übernehmen keine Verantwortung für direkte oder indirekte Schäden, die durch die Nutzung der MoodleBox, insbesondere nach einem Domain-Namenwechsel, entstehen.
-{{% /notice %}}
+{{< /notice >}}
 
 ### Vorgehensweise
 
 Das folgende Beispiel zeigt, wie man den Domänennamen einer MoodleBox ändert, damit ein lokales Gerät sie mit einer neuen URL erreichen kann. Das Beispiel zeigt, wie man der MoodleBox den Domainnamen `mybox.me` gibt.
 
-{{% notice info %}}
+{{< notice info >}}
 Dieser Vorgang hat keinen Einfluss auf den Zugriff auf die MoodleBox von einem Ethernet-Netzwerk oder vom Internet aus: Die MoodleBox __bleibt nur über das von ihr bereitgestellte Wi-Fi-Netzwerk__, von den Geräten, die mit ihr verbunden sind, zugänglich.
-{{% /notice %}}
+{{< /notice >}}
 
 #### Schritt 1: Änderung des Hostnamens (_Hostname_).
 

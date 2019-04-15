@@ -36,9 +36,9 @@ Um Dateien über SFTP hochzuladen, nehmen Sie eine Software wie [FileZilla][1], 
   * Anmeldename: __moodlebox__
   * Kennwort: __Moodlebox4$__
 
-{{% notice note %}}
+{{< notice note >}}
 Aus Sicherheitsgründen ist eine Verbindung über FTP nicht möglich. Zur Dateiübertragung muss das Protokoll SFTP (Secure FTP, Port 22) verwendet werden.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: https://filezilla-project.org/
  [2]: https://cyberduck.io/

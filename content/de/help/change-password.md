@@ -12,9 +12,9 @@ categories:
   - Usage
 ---
 
-{{% notice warning %}}
+{{< notice warning >}}
 Es wird dringend empfohlen, das Hauptkennwort der MoodleBox __sofort zu ändern__, um zu verhindern, dass Unbefugte unerwünschte Änderungen vornehmen und es unbrauchbar machen.
-{{% /notice %}}
+{{< /notice >}}
 
 Um das Hauptpasswort Ihrer MoodleBox zu ändern, besuchen Sie das Dashboard in der Administrationsoberfläche: [Website-Administration > Server > MoodleBox][1].
 
@@ -24,9 +24,9 @@ Dieses Passwort ist Teil der Hauptzugangsdaten Ihrer MoodleBox. Sie ermöglicht 
 
 Geben Sie im Abschnitt __MoodleBox-Kennwort__ Ihr neues Kennwort ein, in beiden Feldern gleich. Durch Klicken auf das Augensymbol können Sie sich die von Ihnen eingegebenen Zeichen anzeigen lassen. Wir empfehlen, ein sicheres Passwort zu wählen.
 
-{{% notice info %}}
+{{< notice info >}}
 Das Kennwort für das Moodle-Administratorkonto __wird durch diesen Vorgang nicht geändert__. Um dieses Kennwort zu ändern, melden Sie sich bei Moodle an, besuchen Sie die <a href="http://moodlebox.home/user/preferences.php">Einstellungen für Ihr Profil</a> und <a href="http://moodlebox.home/login/change_password.php">ändern Sie das Kennwort</a>.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
  [2]: http://moodlebox.home/

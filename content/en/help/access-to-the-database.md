@@ -15,8 +15,8 @@ The MoodleBox allows access to the Moodle database for administration purpose,
   * Username: __moodlebox__
   * Password: __Moodlebox4$__
 
-{{% notice warning %}}
+{{< notice warning >}}
 It is strongly advised not to touch the Moodle database unless you know exactly what you are doing. The author is not responsible for any loss of data.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: http://moodlebox.home/phpmyadmin

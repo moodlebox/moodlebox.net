@@ -12,9 +12,9 @@ categories:
   - Utilisation
 ---
 
-{{% notice warning %}}
+{{< notice warning >}}
 Il est vivement recommandé de __changer immédiatement__ le mot de passe principal de la MoodleBox, afin d'éviter que des personnes non autorisées y pratiquent des modifications non désirées et la rendent inutilisable.
-{{% /notice %}}
+{{< /notice >}}
 
 Pour changer le mot de passe principal de votre MoodleBox, visitez le tableau de bord dans l'interface d'administration : [Administration du site > Serveur > MoodleBox][1].
 
@@ -24,9 +24,9 @@ Ce mot de passe fait partie des informations d'identification principales de la 
 
 Dans la section __Mot de passe MoodleBox__, saisissez votre nouveau mot de passe, le même dans les deux champs. En cliquant sur l'icône d'œil, vous pouvez faire apparaître les caractères que vous avez tapés. Nous recommandons de choisir un mot de passe fort.
 
-{{% notice info %}}
+{{< notice info >}}
 Le mot de passe du compte administrateur de Moodle __n'est pas modifié__ par cette opération. Pour changer ce mot de passe-là, connectez-vous à Moodle, visitez les <a href="http://moodlebox.home/user/preferences.php">préférences de votre profil</a> et <a href="http://moodlebox.home/login/change_password.php">changez le mot de passe</a>.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
  [2]: http://moodlebox.home/

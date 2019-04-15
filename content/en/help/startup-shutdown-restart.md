@@ -25,9 +25,9 @@ If possible, it is recommended to connect the MoodleBox via Ethernet to the netw
 
 #### Shutdown
 
-{{% notice warning %}}
+{{< notice warning >}}
 In order to minimize the risk of data corruption on the microSD card, it is not recommended to unplug the power supply without care to shutdown the MoodleBox. It is preferable to manually control its shutdown beforehand.
-{{% /notice %}}
+{{< /notice >}}
 
 The graphical interface of the MoodleBox allows you to safely stop and restart the MoodleBox.
 

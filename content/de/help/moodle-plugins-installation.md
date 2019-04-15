@@ -17,9 +17,9 @@ Um Moodle-Plugins installieren zu können, sollten Sie die MoodleBox über ein E
 
 Sie können jetzt Plugins installieren, indem Sie entweder auf die Schaltfläche __Plugin aus der Plugins-Datenbank installieren__ tippen (empfohlen) oder ein Plugin in einer ZIP-Datei hochladen und installieren.
 
-{{% notice warning %}}
+{{< notice warning >}}
 Stellen Sie sicher, dass Ihr Plugin mit der in der MoodleBox installierten Moodle-Version kompatibel ist!
-{{% /notice %}}
+{{< /notice >}}
 
 
  [1]: http://moodlebox.home/admin/tool/installaddon/index.php

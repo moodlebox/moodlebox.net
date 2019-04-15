@@ -12,19 +12,19 @@ categories:
   - Usage
 
 ---
-{{% notice warning %}}
+{{< notice warning >}}
 The operations described on this page may __render your MoodleBox unusable__, requiring the complete wiping of the SD card and the __loss of all data__ (course contents, installed plug-ins, custom configurations, etc.). Do this only if you know exactly what you are doing. In any case, __no support is provided__ on this subject.
 
 We accept no responsibility for any direct or indirect damage caused by the use of the MoodleBox, in particular following a change of domain name.
-{{% /notice %}}
+{{< /notice >}}
 
 ### How to proceed
 
 The example below shows how to change the domain name of a MoodleBox, which will allow a local device to reach it with a new URL. The example shows how to give the MoodleBox the domain name `mybox.me`.
 
-{{% notice info %}}
+{{< notice info >}}
 This operation has no influence on access to the MoodleBox from an Ethernet network or from the Internet: the MoodleBox __will remain accessible only from the Wi-Fi network it provides__, from the devices that have connected to it.
-{{% /notice %}}
+{{< /notice >}}
 
 #### Step 1: Change the host name (_hostname_)
 

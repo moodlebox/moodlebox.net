@@ -12,9 +12,9 @@ categories:
   - Usage
 ---
 
-{{% notice warning %}}
+{{< notice warning >}}
 It is strongly recommended to __immediately change__ the main password of the MoodleBox, in order to prevent unauthorized persons from making unwanted changes and rendering it unusable.
-{{% /notice %}}
+{{< /notice >}}
 
 To change the main password of your MoodleBox, visit the dashboard in the administration interface: [Site Administration > Server > MoodleBox][1].
 
@@ -24,9 +24,9 @@ This password is part of the main credentials of your MoodleBox. It gives access
 
 In the __MoodleBox password section__, enter your new password, the same in both fields. By clicking on the eye icon, you can display the characters you have typed. We recommend choosing a strong password.
 
-{{% notice info %}}
+{{< notice info >}}
 The password for the Moodle administrator account __is not changed__ by this operation. To change that password, log in to Moodle, visit the <a href="http://moodlebox.home/user/preferences.php">preferences for your profile</a> and <a href="http://moodlebox.home/login/change_password.php">change the password</a>.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
  [2]: http://moodlebox.home/

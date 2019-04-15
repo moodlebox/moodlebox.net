@@ -36,8 +36,8 @@ The __MoodleBox__ project publishes on its website a list of MoodleBox users' te
 
 Personal data is collected on our site by Nicolas Martignoni, Maintainer of the MoodleBox project.
 
-{{% notice note %}}
+{{< notice note >}}
 This privacy policy was last modified on {{< lastmod >}}.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: {{< relref "contact.md" >}}

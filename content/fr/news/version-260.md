@@ -7,9 +7,9 @@ authors:
 slug: version-2.6.0
 ---
 
-{{% notice warning %}}
+{{< notice warning >}}
 Cette version __ne peut pas être mise à jour automatiquement__ avec le script de mise à jour en développement. Nous vous recommandons d'utiliser plutôt la version 2.6.1.
-{{% /notice %}}
+{{< /notice >}}
 
 La [version 2.6.0][2] de l'[image de la MoodleBox][2] est publiée aujourd'hui.
 

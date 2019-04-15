@@ -25,9 +25,9 @@ Si possible, il est recommandé de brancher la MoodleBox au réseau câblé lors
 
 #### Arrêter la MoodleBox
 
-{{% notice warning %}}
+{{< notice warning >}}
 Afin de limiter au maximum les risques de corruption de données sur la carte microSD, pour éteindre la MoodleBox, il n'est pas recommandé de débrancher l'alimentation sans précaution. Il est préférable de commander manuellement son arrêt au préalable.
-{{% /notice %}}
+{{< /notice >}}
 
 L'interface graphique de la MoodleBox permet d'arrêter et de redémarrer la MoodleBox sans risque.
 

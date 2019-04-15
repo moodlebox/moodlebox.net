@@ -14,9 +14,9 @@ La [version 2.6.2][2] de l'[image  de la MoodleBox][1] est publiée aujourd'hui.
 
 Cette version fournit également une version préliminaire du script de mise à jour de la MoodleBox. Le script est fonctionnel, mais aucune documentation n'est encore fournie.
 
-{{% notice note %}}
+{{< notice note >}}
 La version 2.6.0 de l'image de la MoodleBox, publiée le 3 décembre 2018, __ne pourra pas être mise à jour automatiquement__ avec le script de mise à jour en développement. Nous vous recommandons d'utiliser plutôt cette version.
-{{% /notice %}}
+{{< /notice >}}
 
 Consultez les [notes de mise à jour sur Github][2] pour tous les détails de cette version.
 

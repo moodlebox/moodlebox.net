@@ -28,9 +28,9 @@ These credentials should be used to [log into the Moodle][4] default administrat
   * Username: __moodlebox__
   * Password: __Moodlebox4$__
 
-{{% notice info %}}
+{{< notice info >}}
 The username __admin__ (with the same password __Moodlebox4$__), used up to version 2.5.1 of the MoodleBox, is still valid, but is no longer recommended. It will be removed in a future version of the image.
-{{% /notice %}}
+{{< /notice >}}
 
 ### Command line access (Unix account, SSH, SFTP)
 

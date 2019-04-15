@@ -12,7 +12,7 @@ categories:
   - Usage
 
 ---
-{{% notice warning %}}
+{{< notice warning >}}
 The MoodleBox is built on a low-performance computer. It could quickly be overloaded and __become very slow__, or even totally frozen in the event of a massive amount of visitors.
 
 The availability of a MoodleBox on the web __implies significant security risks__. In particular, the server can be attacked and made unusable by various means. Change all MoodleBox passwords before making these modifications.
@@ -20,7 +20,7 @@ The availability of a MoodleBox on the web __implies significant security risks_
 The operations described on this page may __render your MoodleBox unusable__, requiring the complete wiping of the SD card and the __loss of all data__ (course contents, installed plug-ins, custom configurations, etc.). Do this only if you know exactly what you are doing. In any case, __no support is provided__ on this subject.
 
 We accept no responsibility for any direct or indirect damage caused by the use of the MoodleBox, in particular following a change in configuration in order to expose the MoodleBox on the Internet.
-{{% /notice %}}
+{{< /notice >}}
 
 The MoodleBox was not designed to provide a Moodle platform permanently accessible from the Internet, as it is usually the case with a Moodle server. However, for specific use cases, this feature may be useful.
 
@@ -34,9 +34,9 @@ The following items are required to make your MoodleBox accessible from the Inte
 1. a __fixed IP address__ or a functional __[dynamic DNS][1]__ configuration;
 1. the MoodleBox must be connected to your network or router using an Ethernet cable.
 
-{{% notice info %}}
+{{< notice info >}}
 This documentation does not explain how to manage a domain name, how to obtain a fixed IP address, or how to configure a dynamic DNS. Please refer to your Internet service provider for more information.
-{{% /notice %}}
+{{< /notice >}}
 
 ### How to proceed
 

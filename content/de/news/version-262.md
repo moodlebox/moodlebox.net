@@ -14,9 +14,9 @@ Die [Version 2.6.2][2] des [Disk-Image der MoodleBox][1] wurde heute veröffentl
 
 Diese Version enthält auch eine erste Version des MoodleBox-Update-Skripts. Das Skript ist funktional, aber es gibt noch keine Dokumentation.
 
-{{% notice note %}}
+{{< notice note >}}
 Die Version 2.6.0 des MoodleBox-Images, veröffentlicht am 3. Dezember 2018, __kann nicht automatisch mit dem in Entwicklung befindlichen Update-Skript aktualisiert werden__. Wir empfehlen Ihnen, stattdessen diese Version zu verwenden.
-{{% /notice %}}
+{{< /notice >}}
 
 Alle Informationen über dieser Version finden Sie in den [Release Notes auf Github][2].
 

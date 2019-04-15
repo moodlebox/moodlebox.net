@@ -12,7 +12,7 @@ categories:
   - Usage
 
 ---
-{{% notice warning %}}
+{{< notice warning >}}
 Die MoodleBox basiert auf einem leistungsschwachen Computer. Sie könnte schnell überlastet sein und __sehr langsam__ werden, oder sogar völlig blockiert bei einer massiven Besucherzahl.
 
 Die Verfügbarkeit einer MoodleBox im Web __beinhaltet erhebliche Sicherheitsrisiken__. Insbesondere kann der Server mit verschiedenen Methoden angegriffen und unbrauchbar gemacht werden. Verändern Sie alle MoodleBox-Passwörter, bevor Sie diese Modifikationen vornehmen.
@@ -20,7 +20,7 @@ Die Verfügbarkeit einer MoodleBox im Web __beinhaltet erhebliche Sicherheitsris
 Die auf dieser Seite beschriebenen Vorgänge können __Ihre MoodleBox unbrauchbar machen__, was ein vollständiges Löschen der SD-Karte und den __Verlust aller Daten__ (Kursinhalte, installierte Plugins, benutzerdefinierte Konfigurationen, etc.) erfordert. Tun Sie dies nur, wenn Sie genau wissen, was Sie tun. In jedem Fall wird __keine Unterstützung__ zu diesem Thema geleistet.
 
 Wir übernehmen keine Verantwortung für direkte oder indirekte Schäden, die durch die Nutzung der MoodleBox, insbesondere nach einer Konfigurationsänderung zur Veröffentlichung der MoodleBox im Internet, entstehen.
-{{% /notice %}}
+{{< /notice >}}
 
 Die MoodleBox wurde nicht so konzipiert, dass sie eine Moodle-Plattform zur Verfügung stellt, die dauerhaft über das Internet zugänglich ist, wie es normalerweise bei einem Moodle-Server der Fall ist. Für spezielle Anwendungsfälle kann diese Funktion jedoch nützlich sein.
 
@@ -34,9 +34,9 @@ Die folgenden Elemente sind Voraussetzung dafür, dass Ihre MoodleBox über das 
 1. eine __fixierte IP-Adresse__ oder eine funktionierende __[dynamische DNS][1]__ Konfiguration;
 1. die MoodleBox muss über ein Ethernet-Kabel mit Ihrem Netzwerk oder Router verbunden sein.
 
-{{% notice info %}}
+{{< notice info >}}
 Diese Dokumentation beschreibt nicht, wie man einen Domänennamen verwaltet, wie man eine fixierte IP-Adresse erhält oder wie man einen dynamischen DNS konfiguriert. Weitere Informationen erhalten Sie von Ihrem Internet-Provider.
-{{% /notice %}}
+{{< /notice >}}
 
 ### Vorgehensweise
 

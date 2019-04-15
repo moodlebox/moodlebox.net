@@ -36,8 +36,8 @@ Le projet __MoodleBox__ publie sur son site une liste de témoignages d'utilisat
 
 Les données personnelles sont collectées sur notre site par Nicolas Martignoni, responsable du projet MoodleBox.
 
-{{% notice note %}}
+{{< notice note >}}
 Cette politique de confidentialité a été modifiée pour la dernière fois le {{< lastmod >}}.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: {{< relref "contact.md" >}}

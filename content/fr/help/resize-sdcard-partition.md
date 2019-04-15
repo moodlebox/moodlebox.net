@@ -14,9 +14,9 @@ categories:
 
 ### Marche à suivre
 
-{{% notice warning %}}
+{{< notice warning >}}
 L'opération décrite ci-dessous n'est pas requise si vous avez téléchargé l'image-disque sur ce site web. Toutefois, il peut être nécessaire de l'exécuter si vous avez reçu une image-disque personnalisée.
-{{% /notice %}}
+{{< /notice >}}
 
 - [Copier votre image-disque personnalisée][2] sur la carte microSD ;
 - [démarrez votre MoodleBox][3] de la manière habituelle ;
@@ -28,9 +28,9 @@ L'opération décrite ci-dessous n'est pas requise si vous avez téléchargé l'
 
 La MoodleBox redémarre immédiatement et est prête à l'emploi quelques secondes après cette opération.
 
-{{% notice info %}}
+{{< notice info >}}
 Il n'y a aucune conséquence problématique à cliquer sur le bouton _Redimensionner la partition de la carte SD_ alors que la carte SD est déjà redimensionnée. La seule conséquence sera le redémarrage de la MoodleBox.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: {{< relref "download-the-disk-image.md" >}}
  [2]: {{< relref "copy-the-disk-image.md" >}}

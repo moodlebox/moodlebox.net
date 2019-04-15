@@ -43,9 +43,9 @@ sudo -u moodlebox -g www-data git checkout MOODLE_36_STABLE
 
 Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez les instructions de mise à jour, comme avec un Moodle standard ([voir la documentation][1]).
 
-{{% notice warning %}}
+{{< notice warning >}}
 Si vous possédez une version de MoodleBox version 2.5.0 ou antérieure, utilisez `sudo -u www-data git ...` au lieu de `sudo -u moodlebox -g www-data git ...` dans les commandes indiquées ci-dessus.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: https://docs.moodle.org/fr/Mise_à_jour
  [2]: {{< relref "command-line-access.md" >}}

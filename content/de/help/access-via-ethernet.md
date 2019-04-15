@@ -17,9 +17,9 @@ Normalerweise ist es nicht vorgesehen, mit kabelgebundenen Nutzergeräten im Eth
 
 Die Moodle-Plattform funktioniert nur dann korrekt, wenn sie über ihren Domänenname __moodlebox.home__ aufgerufen wird. Standardmäßig ist dieser Domänenname aber im Ethernet-Netzwerk nicht bekannt, und hier liegt die Schwierigkeit!
 
-{{% notice warning %}}
+{{< notice warning >}}
 Aufgrund der Vielfalt der installierten Hardware kann __keine Unterstützung__ für die Konfiguration Ihres Routers oder Geräts geleistet werden. Nehmen Sie solche Änderungen nur dann vor, wenn Sie wirklich wissen, was Sie tun.
-{{% /notice %}}
+{{< /notice >}}
 
 ### DNS-Server im Kabel-Netzwerk konfigurieren
 

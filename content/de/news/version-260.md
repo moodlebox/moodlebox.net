@@ -7,9 +7,9 @@ authors:
 slug: version-2.6.0
 ---
 
-{{% notice warning %}}
+{{< notice warning >}}
 Diese Version __kann nicht automatisch mit dem in Entwicklung befindlichen Update-Skript aktualisiert werden__. Wir empfehlen Ihnen, stattdessen Version 2.6.1 zu verwenden.
-{{% /notice %}}
+{{< /notice >}}
 
 Die [Version 2.6.0][2] des [Disk-Image der MoodleBox][2] wurde heute veröffentlicht.
 

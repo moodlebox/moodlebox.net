@@ -16,8 +16,8 @@ To install plugins, it is recommended to connect the MoodleBox to the Internet 
 
 You can now install plugins, either by clicking on the button __Install plugins from the Moodle plugins directory__ (preferably), or by uploading a ZIP file of a plugin.
 
-{{% notice warning %}}
+{{< notice warning >}}
 Make sure that your plugin is compatible with the Moodle version installed in the MoodleBox!
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/installaddon/index.php

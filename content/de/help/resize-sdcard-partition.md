@@ -15,9 +15,9 @@ categories:
 
 ### Folgende Schritte sind notwendig
 
-{{% notice warning %}}
+{{< notice warning >}}
 Die Operation ist nicht erforderlich, wenn Sie das Disk-Image von dieser Website heruntergeladen haben. Die Ausführung kann jedoch sinnvoll sein, wenn Sie ein angepasstes Disk-Image haben, das den Platz auf der SD-Karte nicht vollständig belegt.
-{{% /notice %}}
+{{< /notice >}}
 
 - [Kopieren Sie das Disk-Image][2] auf die microSD-Karte.
 - [Starten Sie Ihre MoodleBox][3] wie gewohnt.
@@ -29,9 +29,9 @@ Die Operation ist nicht erforderlich, wenn Sie das Disk-Image von dieser Website
 
 Die MoodleBox wird anschließend automatisch neu gestartet und ist einige Sekunden nach diesem Vorgang einsatzbereit.
 
-{{% notice info %}}
+{{< notice info >}}
 Kein Problem ist es, wenn Sie auf die Taste _Partitionsgröße der SD-Karte ändern_ klicken und die Partitionsgröße bereits vorher geändert wurde. Als einzige Konsequenz erfolgt ein Neustart der MoodleBox.
-{{% /notice %}}
+{{< /notice >}}
 
  [1]: {{< relref "download-the-disk-image.md" >}}
  [2]: {{< relref "copy-the-disk-image.md" >}}
