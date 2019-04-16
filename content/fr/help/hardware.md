@@ -1,5 +1,5 @@
 ---
-title: Quel matériel se procurer
+title: Matériel nécessaire
 authors:
   - Nicolas Martignoni
 type: kb
