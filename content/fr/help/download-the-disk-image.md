@@ -1,5 +1,5 @@
 ---
-title: Où télécharger l'image-disque
+title: Télécharger l'image-disque
 authors:
   - Nicolas Martignoni
 type: kb
