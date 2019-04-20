@@ -7,7 +7,7 @@ theme:
 languageCode: en-us
 
 # Do not inject generator meta tag on homepage
-disableHugoGeneratorInject: true
+# disableHugoGeneratorInject: true
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage: en
 # Enable comments by entering your Disqus shortname
