@@ -5,7 +5,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-20
-lastmod: 2018-12-05
+lastmod: 2019-05-15
 description: Want to update Moodle on the MoodleBox? Follow these instructions
 slug: moodle-version-update
 categories:
@@ -38,7 +38,7 @@ To update to the next __major version__ of Moodle (3.7, 3.8, etc.), type the com
 ```bash
 sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git checkout MOODLE_36_STABLE
+sudo -u moodlebox -g www-data git checkout MOODLE_37_STABLE
 ```
 
 Then visit the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the documentation][1]).

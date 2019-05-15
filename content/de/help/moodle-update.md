@@ -6,7 +6,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2018-12-05
+lastmod: 2019-05-15
 description: Möchten Sie Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 slug: moodle-aktualisieren
 categories:
@@ -39,7 +39,7 @@ Um mit Ihrem Moodle auf die nächste __Major Version__ (3.7, 3.8, usw.) zu gelan
 ```bash
 sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git checkout MOODLE_36_STABLE
+sudo -u moodlebox -g www-data git checkout MOODLE_37_STABLE
 ```
 
 Öffnen Sie auch hier die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][1]).
