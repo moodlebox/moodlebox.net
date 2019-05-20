@@ -3,8 +3,8 @@ title: Afficher les boutons de redémarrage et d'arrêt dans le pied de page
 authors:
   - Nicolas Martignoni
 type: kb
-date: 2019-04-30
-lastmod: 2019-04-30
+date: 2019-05-20
+lastmod: 2019-05-20
 description: Pour une administration plus simple, il est possible d'afficher les boutons de redémarrage et d'arrêt de la MoodleBox dans le pied de toutes les pages de Moodle.
 slug: boutons-dans-le-pied-de-page
 weight: 30

@@ -3,8 +3,8 @@ title: Display restart and shutdown buttons in the footer
 authors:
   - Nicolas Martignoni
 type: kb
-date: 2019-04-30
-lastmod: 2019-04-30
+date: 2019-05-20
+lastmod: 2019-05-20
 description: For easier administration, it is possible to display the MoodleBox restart and stop buttons in the footer of all Moodle pages.
 slug: buttons-in-footer
 weight: 30

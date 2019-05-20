@@ -3,8 +3,8 @@ title: Anzeigen von Neustart- und Ausschalten-Schaltflächen in der Fußzeile
 authors:
   - Nicolas Martignoni
 type: kb
-date: 2019-04-30
-lastmod: 2019-04-30
+date: 2019-05-20
+lastmod: 2019-05-20
 description: Für eine einfachere Administration ist es möglich, die MoodleBox Neustart- und Ausschalten-Schaltflächen in der Fußzeile aller Moodle-Seiten anzuzeigen.
 slug: schaltflaechen-in-fusszeile
 weight: 30

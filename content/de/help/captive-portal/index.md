@@ -3,8 +3,8 @@ title: Nutzung des Wi-Fi Captive-Portals der MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb
-date: 2019-04-30
-lastmod: 2019-04-30
+date: 2019-05-20
+lastmod: 2019-05-20
 description: Die MoodleBox verfügt über ein Captive-Portal für ihr Wi-Fi-Netzwerk, über das drahtlose Clients auf die MoodleBox-Startseite geleitet werden können.
 slug: captive-portal
 weight: 85
