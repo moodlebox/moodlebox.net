@@ -9,6 +9,7 @@ slug: soutenir-le-projet-moodlebox
 weight: 100
 aliases:
   - /soutenir
+  - /dons
   - give
   - donate
   - help/soutenir-le-projet-moodlebox
