@@ -50,4 +50,4 @@ These credentials should be used to [access to the database management interfac
  [2]: {{< relref "using-files-with-the-moodlebox.md" >}}
  [3]: {{< relref "wi-fi-connection.md" >}}
  [4]: {{< relref "access-to-moodle.md" >}}
- [5]: {{< relref "access-to-the-database.md" >}}
+ [5]: {{< relref "access-to-the-database" >}}
