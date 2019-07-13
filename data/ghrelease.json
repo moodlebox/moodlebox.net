@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/14413098",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/14413098/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/14413098/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v2.7.0",
-  "id": 14413098,
-  "node_id": "MDc6UmVsZWFzZTE0NDEzMDk4",
-  "tag_name": "v2.7.0",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/18523167",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/18523167/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/18523167/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.0.0",
+  "id": 18523167,
+  "node_id": "MDc6UmVsZWFzZTE4NTIzMTY3",
+  "tag_name": "v3.0.0",
   "target_commitish": "master",
-  "name": "v2.7.0",
+  "name": "v3.0.0",
   "draft": false,
   "author": {
     "login": "martignoni",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2019-05-20T15:51:35Z",
-  "published_at": "2019-05-20T18:45:59Z",
+  "created_at": "2019-07-13T08:18:57Z",
+  "published_at": "2019-07-13T08:36:44Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/12778955",
-      "id": 12778955,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDEyNzc4OTU1",
-      "name": "moodlebox-2.7.0.img.gz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/13691016",
+      "id": 13691016,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDEzNjkxMDE2",
+      "name": "moodlebox-3.0.0.img.gz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,14 +61,14 @@
       },
       "content_type": "application/x-gzip",
       "state": "uploaded",
-      "size": 641510755,
+      "size": 752370203,
       "download_count": 0,
-      "created_at": "2019-05-20T18:44:18Z",
-      "updated_at": "2019-05-20T18:45:44Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v2.7.0/moodlebox-2.7.0.img.gz"
+      "created_at": "2019-07-13T08:35:03Z",
+      "updated_at": "2019-07-13T08:36:34Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.0.0/moodlebox-3.0.0.img.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v2.7.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v2.7.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v2.7.0/total.svg)\r\n### Changed\r\n- Updated to [version v2.0.0](\r\nhttps://github.com/moodlebox/moodle-tool_moodlebox/releases/tag/v2.0.0) of [MoodleBox plugin](https://moodle.org/plugins/tool_moodlebox) (issue #127).\r\n- Updated to Moodle 3.6.4 (issue #128).\r\n- Based on Raspbian Stretch Lite version of 2019-04-08 (issue #122).\r\n- License is now AGPL (no issue number).\r\n\r\n### Added\r\n- Captive portal using [Nodogsplash](https://github.com/nodogsplash/nodogsplash) added (issue #120, PR #123). Inactive by default, needs to be started manually.\r\n- Install default english Moodle locale: en_AU.UTF-8 to prevent false alerts with Moodle 3.7.0 and later (no issue number).\r\n\r\n### Fixed\r\n- Fix a bug introduced by an update to `hostapd` (issue #121).\r\n- Fix plugin permissions on executable files (issue #126).\r\n- Fix some warnings to Ansible playbooks (issue #119).\r\n- Fix bad parameter in MariaDB configuration (no issue number).\r\n- Some cosmetic fixes to prevent errors in future external package updates (no issue number).\r\n- Some fixes to preliminary version of upgrade script, still undocumented (issue #111). Use at your own risk."
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.0.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.0.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.0.0/total.svg)\r\n### Changed\r\n- Updated to [version v2.2.0](\r\nhttps://github.com/moodlebox/moodle-tool_moodlebox/releases/tag/v2.2.0) of [MoodleBox plugin](https://moodle.org/plugins/tool_moodlebox) (issue #136).\r\n- Updated to Moodle 3.7.1 (issues #125 and #135).\r\n- Updated to PHP7.3 (issue #94).\r\n- Based on Raspbian Buster Lite version of 2019-07-10 (issue #139).\r\n- Updated MoodleBox CSS preset (no issue number).\r\n- Replace phpMyAdmin by Adminer (issue #132).\r\n\r\n### Added\r\n- Raspbian Buster support (issue #129).\r\n- Raspberry Pi 4B (all RAM models) support (issue #136).\r\n\r\n### Fixed\r\n- IP forwarding on Buster (issue #129).\r\n- Cleanup a database table (issue #138).\r\n- Renaming home directory logic updated (no issue number).\r\n- Broken image links in Nodogsplash (no issue number).\r\n- IP filter syntax fixed to work with Ansible 2.8 and later (no issue number).\r\n- Several warnings with Ansible 2.8 fixed (no issue number)."
 }
