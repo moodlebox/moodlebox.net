@@ -10,7 +10,7 @@ slug: version-2.7.0
 La [version 2.7.0][2] de l'[image  de la MoodleBox][1] est publiée aujourd'hui. Elle apporte de nombreuses nouvelles fonctionnalités.
 
   - Cette version fournit [Moodle][3] version 3.6.4+.
-  - Elle est basée sur l'[image Raspbian Stretch Lite][4] publiée 8 avril 2019.
+  - Elle est basée sur l'[image Raspbian Stretch Lite][4] publiée le 8 avril 2019.
   - Une nouvelle version du [plugin MoodleBox pour Moodle][5] permet de placer les [boutons de redémarrage et d'arrêt][7] dans le pied de toutes les pages de Moodle.
   - Un avertissement est affiché à l'administrateur de Moodle si l'alimentation de la MoodleBox délivre une tension insuffisante.
   - Un [portail captif][6] est intégré à la MoodleBox. Le portail captif est désactivé par défaut. [Lisez la documentation][6] pour en savoir plus.
