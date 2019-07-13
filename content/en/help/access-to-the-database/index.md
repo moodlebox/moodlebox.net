@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2019-11-12
+lastmod: 2019-07-12
 description: To access the MoodleBox Moodle database using Adminer, see the information below.
 slug: access-to-the-database-management-interface
 categories:

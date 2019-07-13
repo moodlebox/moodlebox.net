@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2019-11-12
+lastmod: 2019-07-12
 description: Pour accéder à la base de données de Moodle de la MoodleBox au moyen de Adminer, consultez les informations ci-dessous.
 slug: acces-base-de-donnees
 categories:
