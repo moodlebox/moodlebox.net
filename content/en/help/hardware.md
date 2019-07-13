@@ -37,13 +37,13 @@ The total hardware amount is approximately USD 90, 80 € or CHF 90.
 {{< notice warning >}}
 Selecting a __good quality__ microSD card and an adequate power supply are __essential__ for the proper operation of the MoodleBox.
 
-We recommend the [official Raspberry Foundation power supply](https://www.raspberrypi.org/products/universal-power-supply/) and a microSD card with tested performance, for example [those recommended by Wirecutter](http://thewirecutter.com/reviews/best-microsd-card/). The use of other power supplies, as well as microSD cards from dubious sources, can cause systematic malfunctions, for which __no support can be provided__.
+We recommend the [official Raspberry Foundation power supply](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) and a microSD card with tested performance, for example [those recommended by Wirecutter](http://thewirecutter.com/reviews/best-microsd-card/). The use of other power supplies, as well as microSD cards from dubious sources, can cause systematic malfunctions, for which __no support can be provided__.
 {{< /notice >}}
 
 {{< gallery >}}
 
  [1]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
- [2]: https://www.raspberrypi.org/products/universal-power-supply/
+ [2]: https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/
  [3]: http://thewirecutter.com/reviews/best-microsd-card/
  [4]: https://www.raspberrypi.org/products/raspberry-pi-3-case/
  [5]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/

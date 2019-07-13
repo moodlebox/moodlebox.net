@@ -23,7 +23,7 @@ The [stuff you will need][1] to build your MoodleBox is essentially a Raspberry 
 {{< notice warning >}}
 Selecting a __good quality__ microSD card and an adequate power supply are __essential__ for the proper operation of the MoodleBox.
 
-We recommend the [official Raspberry Foundation power supply](https://www.raspberrypi.org/products/universal-power-supply/) and a microSD card with tested performance, for example [those recommended by Wirecutter](http://thewirecutter.com/reviews/best-microsd-card/). The use of other power supplies, as well as microSD cards from dubious sources, can cause systematic malfunctions, for which __no support can be provided__.
+We recommend the [official Raspberry Foundation power supply](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) and a microSD card with tested performance, for example [those recommended by Wirecutter](http://thewirecutter.com/reviews/best-microsd-card/). The use of other power supplies, as well as microSD cards from dubious sources, can cause systematic malfunctions, for which __no support can be provided__.
 {{< /notice >}}
 
 ### Step 2: Download the MoodleBox disk image
