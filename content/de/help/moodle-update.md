@@ -23,7 +23,7 @@ ssh moodlebox@moodlebox.home
 
 ### Aktualisierung auf eine _Minor_ Version (kleiner Versionssprung)
 
-Um Ihr Moodle auf die nächste __Minor Version__ (3.6.1, 3.6.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^1]
+Um Ihr Moodle auf die nächste __Minor Version__ (3.7.1, 3.7.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^1]
 
 ```bash
 cd /var/www/moodle/
@@ -34,12 +34,12 @@ sudo -u moodlebox -g www-data git pull
 
 ### Aktualisierung auf eine _Major_ Version (großer Versionssprung)
 
-Um mit Ihrem Moodle auf die nächste __Major Version__ (3.7, 3.8, usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen:
+Um mit Ihrem Moodle auf die nächste __Major Version__ (3.8, 3.9, usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen:
 
 ```bash
 sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git checkout MOODLE_37_STABLE
+sudo -u moodlebox -g www-data git checkout MOODLE_38_STABLE
 ```
 
 Öffnen Sie auch hier die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][1]).
