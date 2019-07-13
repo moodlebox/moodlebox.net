@@ -1,5 +1,5 @@
 ---
-title: MoodleBox 3.3.0 est arrivée !
+title: MoodleBox 3.0.0 est arrivée !
 description: La version 3.0.0 supporte la nouvelle Raspberry Pi 4B. Elle est basée sur Raspbian Buster et fournit Moodle 3.7.1.
 date: 2019-07-13
 authors:
