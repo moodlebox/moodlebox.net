@@ -33,9 +33,9 @@ Die MoodleBox wird anschließend automatisch neu gestartet und ist einige Sekund
 Kein Problem ist es, wenn Sie auf die Taste _Partitionsgröße der SD-Karte ändern_ klicken und die Partitionsgröße bereits vorher geändert wurde. Als einzige Konsequenz erfolgt ein Neustart der MoodleBox.
 {{< /notice >}}
 
- [1]: {{< relref "download-the-disk-image.md" >}}
- [2]: {{< relref "copy-the-disk-image.md" >}}
- [3]: {{< relref "startup-shutdown-restart.md" >}}
- [4]: {{< relref "access-to-moodle.md" >}}
- [5]: {{< relref "credentials.md" >}}
+ [1]: {{< relref "download-the-disk-image" >}}
+ [2]: {{< relref "copy-the-disk-image" >}}
+ [3]: {{< relref "startup-shutdown-restart" >}}
+ [4]: {{< relref "access-to-moodle" >}}
+ [5]: {{< relref "credentials" >}}
  [6]: http://moodlebox.home/admin/tool/moodlebox/index.php

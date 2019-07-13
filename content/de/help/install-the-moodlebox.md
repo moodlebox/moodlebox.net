@@ -52,14 +52,14 @@ Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die Mo
 
 Weitere Informationen finden Sie, wenn Sie in unserer [Knowledge Base][9] stöbern.
 
- [1]: {{< relref "hardware.md" >}}
- [2]: {{< relref "download-the-disk-image.md" >}}
- [3]: {{< relref "copy-the-disk-image.md" >}}
- [4]: {{< relref "access-to-moodle.md" >}}
- [5]: {{< relref "wi-fi-connection.md" >}}
- [6]: {{< relref "wi-fi-configuration.md" >}}
- [7]: {{< relref "command-line-access.md" >}}
- [8]: {{< relref "/support-moodlebox.md" >}}
+ [1]: {{< relref "hardware" >}}
+ [2]: {{< relref "download-the-disk-image" >}}
+ [3]: {{< relref "copy-the-disk-image" >}}
+ [4]: {{< relref "access-to-moodle" >}}
+ [5]: {{< relref "wi-fi-connection" >}}
+ [6]: {{< relref "wi-fi-configuration" >}}
+ [7]: {{< relref "command-line-access" >}}
+ [8]: {{< relref "/support-moodlebox" >}}
  [9]: {{< relref "/help" >}}
  [10]: https://www.balena.io/etcher/
- [11]: {{< relref "/change-password.md" >}}
+ [11]: {{< relref "/change-password" >}}
