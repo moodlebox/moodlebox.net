@@ -6,7 +6,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-01
-lastmod: 2018-10-24
+lastmod: 2019-07-13
 description: Für die Anmeldung in der Moodle-Plattform auf der MoodleBox müssen Sie sich zunächst in deren drahtlosem WLAN-Netzwerk verbinden, dann http://moodlebox.home/ öffnen
 slug: anmelden-in-moodle
 weight: 6
@@ -21,16 +21,16 @@ Nachdem Sie mit dem WLAN der MoodleBox verbunden sind, können Sie über Ihren B
   * Anmeldename: __moodlebox__
   * Kennwort: __Moodlebox4$__
 
-{{< notice info >}}
-Der bis zur Version 2.5.1 der MoodleBox verwendete Anmeldename __admin__ (mit dem gleichen Passwort __Moodlebox4$__) ist weiterhin gültig, wird aber nicht mehr empfohlen. Es wird in einer zukünftigen Version des Images gelöscht.
-{{< /notice >}}
-
-{{< figure src="/img/media/moodle-login-de.png" caption="Anmelden in Moodle" caption-position="bottom" caption-effect="appear" width="610px" >}}
+{{< figure src="moodle-login-de.png" caption="Anmelden in Moodle" caption-position="bottom" caption-effect="appear" width="610px" >}}
 
 Sie sind jetzt mit dem Administratorkonto im Moodle auf der MoodleBox verbunden. __Es wird dringend empfohlen, das Initialkennwort__ des Administratorkontos bei der ersten Anmeldung zu ändern.
 
 Die Moodle-Plattform hat genau ein Nutzerkonto (Administrator), wenn es bereit gestellt wird. Alle weiteren Nutzerkonten müssen Sie selber hinzufügen. Beim Start ist die Moodle-Plattform leer und es sind keine Kurse angelegt. Die Moodle-Plattform muss von Ihnen selber angepasst werden, genauso wie Sie auch alle Kursinhalte (Materialien, Aktivitäten, etc.) erstellen müssen. Falls Sie nicht genau wissen wie das geht, finden Sie alle notwendigen Infos in der [Moodle-Dokumentation][3].
 
- [1]: {{< relref "wi-fi-connection.md" >}}
+{{< notice info >}}
+Der seit Version 2.5.2 deprecated Benutzername __admin__ wird ab Version 3.0.0 der MoodleBox nicht mehr installiert.
+{{< /notice >}}
+
+ [1]: {{< relref "wi-fi-connection" >}}
  [2]: http://moodlebox.home/
  [3]: https://docs.moodle.org/de/Kurzanleitung_für_Administrator/innen
