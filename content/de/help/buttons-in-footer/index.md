@@ -13,7 +13,7 @@ categories:
 
 ---
 {{< notice note >}}
-Dieses Feature ist ab der __version 2.7.0__ von MoodleBox verfügbar. Um davon zu profitieren, [aktualisieren Sie einfach das MoodleBox-Plugin](http://moodlebox.home/admin/plugins.php?updatesonly=0&contribonly=1) in der Moodle-Administrationsschnittstelle.
+Dieses Feature ist ab der __version 2.7.0__ von MoodleBox verfügbar. Um davon auf einer früheren Version zu profitieren, [aktualisieren Sie einfach das MoodleBox-Plugin](http://moodlebox.home/admin/plugins.php?updatesonly=0&contribonly=1) in der Moodle-Administrationsschnittstelle.
 {{< /notice >}}
 
 Dank der Anzeige am unteren Ende der Seite der Neustart- und Ausschalten-Schaltflächen der MoodleBox ist die Verwaltung intuitiver und einfacher.
