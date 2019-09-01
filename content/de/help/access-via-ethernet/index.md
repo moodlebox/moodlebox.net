@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-12-23
-lastmod: 2018-08-02
+lastmod: 2019-09-01
 description: Es ist möglich, Ihr lokales Netzwerk für den Zugriff auf die MoodleBox über eine Ethernet-Verbindung zu konfigurieren
 slug: zugang-ueber-ethernet
 weight: 80
@@ -31,9 +31,11 @@ Wenn Sie nur über SSH auf die MoodleBox über Ethernet zugreifen müssen, könn
 
 Der Hostname der MoodleBox ist __moodlebox__. Ihr fully qualified Domain Name (_FQDN_) ist __moodlebox.home__.
 
-### Konfigurationsdatei `hosts` Ihres Computers erweitern
+### Konfigurationsdatei `hosts` Ihres Computers aktualisieren
 
-Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der numerischen IP-Adresse der MoodleBox vorzunehmen, ist die Konfigurationsdatei `hosts`, die es irgendwo im Betriebssystem Ihres Computers gibt. Den oberen Teil der Datei dürfen Sie auf keinen Fall ändern, aber Sie können unten ein paar Zeilen hinzufügen. Wenn Sie den unteren Abschnitt mit der richtigen IP-Adresse der MoodleBox hinzugefügt haben, sollten Sie im Browser Ihres Computers die Startseite der Moodlebox __moodlebox.home__ aufrufen können.
+Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der numerischen IP-Adresse der MoodleBox vorzunehmen, ist die Konfigurationsdatei `hosts`, die es irgendwo im Betriebssystem Ihres Computers gibt.
+
+Den oberen Teil der Datei __dürfen Sie auf keinen Fall ändern__, aber Sie können unten ein paar Zeilen hinzufügen. Wenn Sie den unteren Abschnitt mit der richtigen IP-Adresse der MoodleBox hinzugefügt haben, sollten Sie im Browser Ihres Computers die Startseite der Moodlebox __moodlebox.home__ aufrufen können.
 
 ```bash
 ##
@@ -42,12 +44,11 @@ Eine andere Möglichkeit, eine Zuordnung zwischen dem Domänennamen und der nume
 # localhost is used to configure the loopback interface
 # when the system is booting.  Do not change this entry.
 ##
-127.0.0.1        localhost
-255.255.255.255  broadcasthost
-::1              localhost
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
 ##
 # MoodleBox connection via Ethernet
 # MoodleBox must get an ip address via dhcp
-192.168.1.143    moodlebox.home    moodlebox
-##
+192.168.1.143	moodlebox.home	moodlebox
 ```

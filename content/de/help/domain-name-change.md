@@ -57,5 +57,5 @@ Greifen Sie über Ihren Browser mit der neuen Adresse `http://mybox.me/` auf Ihr
 - [Den Namen des Wi-Fi-Netzwerks ändern der MoodleBox][1].
 - Die MoodleBox zugänglich machen [über ein Ethernet-Kabelnetz][2].
 
- [1]: {{< relref "wi-fi-configuration.md" >}}
- [2]: {{< relref "access-via-ethernet.md" >}}
+ [1]: {{< relref "wi-fi-configuration" >}}
+ [2]: {{< relref "access-via-ethernet" >}}

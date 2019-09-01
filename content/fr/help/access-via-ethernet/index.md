@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-23
-lastmod: 2018-08-02
+lastmod: 2019-09-01
 description: Il est possible de configurer votre réseau local pour accéder à la MoodleBox au moyen d'une connexion Ethernet
 slug: comment-acceder-a-la-moodlebox-par-ethernet
 weight: 80
@@ -29,3 +29,25 @@ Une fois cette modification effectuée, les appareils clients sur le réseau fil
 Si vous n'avez besoin d'accéder à la MoodleBox via Ethernet que par SSH, il est possible de le faire au moyen de son adresse IP numérique, sans nécessiter de modification.
 
 Le nom d'hôte (_hostname_) de la MoodleBox est __moodlebox__. Son nom de domaine complet (_FQDN_) est __moodlebox.home__.
+
+### Modification du fichier de configuration `hosts` de votre ordinateur
+
+Une autre façon de faire correspondre le nom de domaine à l'adresse IP numérique de votre MoodleBox est d'utiliser le fichier de configuration `hosts` quelque part dans le système d'exploitation de votre ordinateur. Vous __ne devez en aucun cas modifier__ la première partie du fichier, mais vous pouvez ajouter les quelques lignes comme ci-dessous.
+
+Après avoir ajouté la section ci-dessous, avec l'adresse IP réelle de votre MoodleBox, vous devriez pouvoir accéder à la page d'accueil de Moodlebox __moodlebox.home__ dans votre navigateur.
+
+```bash
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+##
+# MoodleBox connection via Ethernet
+# MoodleBox must get an ip address via dhcp
+192.168.1.143	moodlebox.home	moodlebox
+```
