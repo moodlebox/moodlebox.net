@@ -3,7 +3,7 @@ title: Datenschutzerklärung
 authors:
   - Nicolas Martignoni
 date: 2018-08-21
-lastmod: 2018-08-21
+lastmod: 2019-09-13
 slug: privacy
 description: Die Datenschutzerklärung von MoodleBox stellt sicher, dass die Daten, die Sie bei der Nutzung unserer Dienste eingeben, geschützt sind.
 weight: 10
@@ -26,7 +26,7 @@ Sie können in Übereinstimmung mit dieser Datenschutzerklärung eine Kopie Ihre
 
 ### Statistik
 
-Diese Website verwendet einen eigenen Piwik-Server (stats.martignoni.net), um anonyme Besucherdaten zu statistischen Zwecken zu sammeln. Diese Daten werden nur für interne Zwecke verwendet und nicht an Dritte weitergegeben. Dieser Dienst verwendet ein Cookie. Sie können das Speichern von Cookies jedoch deaktivieren oder Ihren Browser so einstellen, dass er Sie benachrichtigt, sobald Cookies gesendet werden.
+Diese Website verwendet einen eigenen Matomo-Server (stats.martignoni.net), um anonyme Besucherdaten zu statistischen Zwecken zu sammeln. Diese Daten werden nur für interne Zwecke verwendet und nicht an Dritte weitergegeben. Dieser Dienst verwendet ein Cookie. Sie können das Speichern von Cookies jedoch deaktivieren oder Ihren Browser so einstellen, dass er Sie benachrichtigt, sobald Cookies gesendet werden.
 
 ### Testimonials
 

@@ -3,7 +3,7 @@ title: Politique de confidentialité
 authors:
   - Nicolas Martignoni
 date: 2018-08-21
-lastmod: 2018-08-21
+lastmod: 2019-09-13
 slug: privacy
 description: La politique de confidentialité de MoodleBox vous assure de la bonne protection des données que vous saisissez en utilisant nos services.
 weight: 10
@@ -26,7 +26,7 @@ Vous pouvez demander une copie de toutes les données personnelles vous concerna
 
 ### Statistiques
 
-Ce site web utilise son propre serveur Piwik (stats.martignoni.net) pour collecter à des fins statistiques des données anonymisées sur les visites. Elles ne sont utilisées qu'à des fins internes et ne sont pas transmises à des tiers. Ce service utilise un cookie. Vous pouvez, toutefois, désactiver l'enregistrement des cookies ou régler votre navigateur web de manière à ce qu'il vous informe dès que les cookies sont envoyés.
+Ce site web utilise son propre serveur Matomo (stats.martignoni.net) pour collecter à des fins statistiques des données anonymisées sur les visites. Elles ne sont utilisées qu'à des fins internes et ne sont pas transmises à des tiers. Ce service utilise un cookie. Vous pouvez, toutefois, désactiver l'enregistrement des cookies ou régler votre navigateur web de manière à ce qu'il vous informe dès que les cookies sont envoyés.
 
 ### Témoignages
 

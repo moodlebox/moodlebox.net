@@ -3,7 +3,7 @@ title: Privacy policy
 authors:
   - Nicolas Martignoni
 date: 2018-08-21
-lastmod: 2018-08-21
+lastmod: 2019-09-13
 slug: privacy
 description: MoodleBox's privacy policy ensures that the data you enter when using our services is protected.
 weight: 10
@@ -26,7 +26,7 @@ You may request a copy of any personal data concerning you in accordance with th
 
 ### Statistics
 
-This website uses its own Piwik server (stats.martignoni.net) to collect anonymous visitor data for statistical purposes. This data is only used for internal purposes and is not passed on to third parties. This service uses a cookie. You can, however, deactivate the recording of cookies or set your web browser so that it informs you as soon as cookies are sent.
+This website uses its own Matomo server (stats.martignoni.net) to collect anonymous visitor data for statistical purposes. This data is only used for internal purposes and is not passed on to third parties. This service uses a cookie. You can, however, deactivate the recording of cookies or set your web browser so that it informs you as soon as cookies are sent.
 
 ### Testimonials
 
