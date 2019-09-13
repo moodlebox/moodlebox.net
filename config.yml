@@ -381,6 +381,10 @@ related:
       weight: 1
       pattern: "2006"
 
+privacy:
+  youtube:
+    privacyEnhanced: true
+
 blackfriday:
   hrefTargetBlank: false
 
