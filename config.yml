@@ -111,7 +111,7 @@ languages:
 
     clients:
       enable: true
-      subtitle: ONG and organizations using MoodleBox for their own projects
+      subtitle: NGO and organizations using MoodleBox for their own projects
       title: Our users
 
   fr:
