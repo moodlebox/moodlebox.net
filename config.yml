@@ -256,7 +256,7 @@ languages:
 
     clients:
       enable: true
-      subtitle: ONG und Organisationen, die MoodleBox für eigene Projekte einsetzen
+      subtitle: NRO und Organisationen, die MoodleBox für eigene Projekte einsetzen
       title: Unsere Benutzer
 
 menu:
