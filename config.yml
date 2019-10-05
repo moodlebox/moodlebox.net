@@ -55,38 +55,56 @@ languages:
     date_format: January 2, 2006
     menu:
       main:
-      - identifier: help
-        name: Using MoodleBox
+      - identifier: support
+        name: Support
         weight: 2
 
-      - parent: help
+      - parent: support
         name: Knowledge base
         url: /help/
         weight: 1
-      - parent: help
-        name: Forum
+      - parent: support
+        name: Community Support
         url: https://discuss.moodlebox.net/
         weight: 2
-      - parent: help
-        name: About MoodleBox
-        url: /about/
+
+      - identifier: community
+        name: Community
         weight: 3
-      - parent: help
-        name: MoodleBox Project
-        url: /help/moodlebox-project/
-        weight: 4
-      - parent: help
+
+      - parent: community
+        name: Code on GitHub
+        url: https://github.com/moodlebox/moodlebox
+        weight: 2
+      - parent: community
+        name: Report a bug
+        url: https://github.com/moodlebox/moodlebox/issues/new/choose
+        weight: 2
+      - parent: community
         name: Make a Donation
         url: /give/
-        weight: 5
-      - parent: help
+        weight: 9
+
+      - identifier: about
+        name: About
+        weight: 4
+
+      - parent: about
+        name: About us
+        url: /about/
+        weight: 1
+      - parent: about
+        name: Project
+        url: /help/moodlebox-project/
+        weight: 2
+      - parent: about
         name: Contact
         url: /contact/
-        weight: 6
+        weight: 9
 
       - identifier: get
         name: Get MoodleBox
-        weight: 3
+        weight: 9
       - parent: get
         name: Download the disk image
         url: /dl/
@@ -127,31 +145,31 @@ languages:
     date_format: 2 January 2006
     menu:
       main:
-      - identifier: help
+      - identifier: support
         name: Utiliser la MoodleBox
         weight: 2
 
-      - parent: help
+      - parent: support
         name: Documentation
         url: /help/
         weight: 1
-      - parent: help
+      - parent: support
         name: Forum
         url: https://discuss.moodlebox.net/
         weight: 2
-      - parent: help
+      - parent: support
         name: À propos de MoodleBox
         url: /about/
         weight: 3
-      - parent: help
+      - parent: support
         name: Le projet MoodleBox
         url: /help/projet-moodlebox/
         weight: 4
-      - parent: help
+      - parent: support
         name: Faire un don
         url: /give/
         weight: 5
-      - parent: help
+      - parent: support
         name: Contact
         url: /contact/
         weight: 6
@@ -200,31 +218,31 @@ languages:
     date_format: 2. January 2006
     menu:
       main:
-      - identifier: help
+      - identifier: support
         name: MoodleBox benutzen
         weight: 2
 
-      - parent: help
+      - parent: support
         name: Dokumentation
         url: /help/
         weight: 1
-      - parent: help
+      - parent: support
         name: Forum
         url: https://discuss.moodlebox.net/
         weight: 2
-      - parent: help
+      - parent: support
         name: Über MoodleBox
         url: /about/
         weight: 3
-      - parent: help
+      - parent: support
         name: MoodleBox Projekt
         url: /help/moodlebox-projekt
         weight: 4
-      - parent: help
+      - parent: support
         name: Spenden
         url: /give/
         weight: 5
-      - parent: help
+      - parent: support
         name: Kontakt
         url: /contact/
         weight: 6
