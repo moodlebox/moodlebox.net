@@ -1,6 +1,7 @@
 baseurl: https://moodlebox.net/
 title: MoodleBox
 theme:
+  - hugo-video
   - hugo-notice
   - hugo-cloak-email
   - hugo-moodlebox-theme
