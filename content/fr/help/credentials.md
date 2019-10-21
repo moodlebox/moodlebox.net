@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-09-16
-lastmod: 2018-10-24
+lastmod: 2019-10-21
 description: Tous les identifiants utilisés sur la MoodleBox (WiFi, SSH, Moodle, base de données) sont indiqués ici
 slug: noms-dutilisateur-et-mots-de-passe
 weight: 8
@@ -27,10 +27,6 @@ Ces données d'identification doivent être utilisées pour [se connecter au com
 
   * Nom d'utilisateur : __moodlebox__
   * Mot de passe : __Moodlebox4$__
-
-{{< notice info >}}
-Le nom d'utilisateur __admin__ (avec le même mot de passe __Moodlebox4$__), utilisé jusqu'à la version 2.5.1 de la MoodleBox, est encore valable, mais n'est plus conseillé. Il sera supprimé dans une version future de l'image.
-{{< /notice >}}
 
 ### Accès en ligne de commande (compte Unix, SSH, SFTP)
 
