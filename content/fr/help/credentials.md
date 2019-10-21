@@ -5,7 +5,7 @@ authors:
 type: kb
 date: 2017-09-16
 lastmod: 2019-10-21
-description: Tous les identifiants utilisés sur la MoodleBox (WiFi, SSH, Moodle, base de données) sont indiqués ici
+description: Tous les identifiants (noms d'utilisateur et mots de passe) utilisés sur la MoodleBox (WiFi, SSH, Moodle, base de données) sont indiqués ici
 slug: noms-dutilisateur-et-mots-de-passe
 weight: 8
 categories:

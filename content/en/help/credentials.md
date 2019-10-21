@@ -5,7 +5,7 @@ authors:
 type: kb
 date: 2017-09-16
 lastmod: 2019-10-21
-description: All credentials used in the MoodleBox (WiFi, SSH, Moodle, database) are provided here
+description: All credentials (username and passwords) used in the MoodleBox (WiFi, SSH, Moodle, database) are provided here
 slug: moodlebox-credentials
 weight: 8
 categories:
@@ -13,7 +13,7 @@ categories:
   - Usage
 
 ---
-This page lists all the credentials used in the MoodleBox. Of course the credentials are different if you have changed something.
+This page lists all the credentials (usernames and passwords) used in the MoodleBox. Of course the credentials are different if you have changed something.
 
 ### Wi-Fi access
 
