@@ -4,12 +4,11 @@ authors:
   - Nicolas Martignoni
 date: 2017-04-21
 lastmod: 2019-10-30
-description: MoodleBox is a standalone small footprint mobile device working without Internet.
+description: MoodleBox is a standalone small footprint mobile device working without Internet, combining a wireless access point with a full featured Moodle server.
 slug: what-is-moodlebox
 weight: 1
 categories:
   - About
-
 ---
 MoodleBox is a standalone small and cheap mobile device working without Internet. It combines a wireless access point with a full featured Moodle server.
 
@@ -35,5 +34,5 @@ MoodleBox used to enhance online learning and teaching:
 It offers small groups (about 20-30 participants) the opportunity to work in a learning environment without the need for heavy setup.
 
  [1]: https://moodle.org/
- [2]: {{< relref "hardware.md" >}}
+ [2]: {{< relref "hardware" >}}
  [3]: https://www.raspberrypi.org

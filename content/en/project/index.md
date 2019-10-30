@@ -2,10 +2,9 @@
 title: The MoodleBox project
 authors:
   - Nicolas Martignoni
-type: kb
 date: 2017-04-21
 lastmod: 2019-10-30
-description: The MoodleBox project is a free (as in speech and in beer) project that provides a complete Moodle learning management system with minimal infrastructure
+description: The MoodleBox project is a free (as in speech and in beer) project that provides a complete Moodle learning management system with minimal infrastructure.
 slug: project
 weight: 2
 categories:
@@ -36,8 +35,7 @@ The author does not commit himself to any correction of the disk image or of thi
  [6]: https://moodle.org/mod/forum/discuss.php?d=330291
  [7]: http://moodlebox.tuxfamily.org/
  [8]: https://moodle.org/mod/forum/discuss.php?d=331170
- [9]: https://twitter.com/nmartignoni
  [10]: https://moodle.org/user/profile.php?id=70180
  [11]: https://moodle.org/user/profile.php?id=41095
  [12]: https://moodle.org/mod/forum/discuss.php?d=278493
- [13]: {{< relref "download-the-disk-image.md" >}}
+ [13]: {{< relref "download-the-disk-image" >}}
