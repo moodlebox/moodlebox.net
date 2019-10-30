@@ -47,7 +47,7 @@ Les canaux Wi-Fi autorisés dépendent du pays de régulation. Suivant le pays c
 
 ### Retirer le mot de passe du réseau Wi-Fi ou le changer
 
-Pour permettre un accès simplifié au point d'accès sans fils de la MoodleBox, il est possible de permettre son accès sans mot de passe, en décochant la case __Protégé par mot de passe__. Ce réglage peut être modifié en tout temps.
+Pour permettre un accès simplifié au point d'accès sans fils de la MoodleBox, il est possible d'autoriser son accès sans mot de passe, en décochant la case __Protégé par mot de passe__. Ce réglage peut être modifié en tout temps.
 
 Il est également possible de modifier le mot de passe du point d'accès sans fils de la MoodleBox. Pour ce faire, saisir un nouveau mot de passe, composé d'au minimum 8 caractères et au maximum 63 caractères. Si le mot de passe choisi n'est pas valide, le mot de passe par défaut __moodlebox__ sera automatiquement remis.
 
