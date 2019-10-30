@@ -21,12 +21,6 @@ The idea of MoodleBox arose between january 2015 and spring 2016 in some forum d
 
 MoodleBox is a volunteer and non-profit project lead by [Nicolas Martignoni][2] on his spare time.
 
-### Disclaimer
-
-The [MoodleBox disk image][13] and the information of the web site are provided "as is". The author has made every effort to ensure the proper functioning of the MoodleBox and the accuracy of the information given. However, he declines all responsibility for any direct or indirect damage that would harm the users during use of the MoodleBox. In particular, it can not be held responsible for deterioration of material or loss of data.
-
-The author does not commit himself to any correction of the disk image or of this website and documentation.
-
  [1]: https://moodle.org
  [2]: {{< relref "about" >}}
  [3]: https://www.raspberrypi.org

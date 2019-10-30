@@ -1,20 +1,20 @@
 ---
-title: "MoodleBox c'est quoi"
+title: MoodleBox c'est quoi
 authors:
   - Nicolas Martignoni
 date: 2017-04-17
 lastmod: 2019-10-30
-description: "MoodleBox est un petit appareil mobile bon marché qui fonctionne sans Internet, et qui combine un point d'accès sans fils avec un serveur Moodle complet."
+description: MoodleBox est un petit appareil mobile bon marché qui fonctionne sans Internet, et qui combine un point d'accès sans fils avec un serveur Moodle complet.
 slug: moodlebox-cest-quoi
 weight: 1
 categories:
   - À propos
 ---
-La MoodleBox est un dispositif mobile indépendant d'Internet permettant de créer un réseau local auquel chacun peut se connecter par Wi-Fi au moyen d'un smartphone, d'une tablette ou d'un ordinateur.
+MoodleBox est un petit appareil mobile bon marché qui fonctionne sans Internet. Elle combine un point d'accès sans fils avec un serveur Moodle complet.
 
-{{< figure src="/img/carousel/small-versatile.png" alt="MoodleBox creates a Wi-Fi network" width="550" class="right-aligned-image" >}} Elle fournit un environnement d'apprentissage [Moodle][1] complet pour des activités d'apprentissage et pour partager des fichiers.
+{{< figure src="/img/carousel/small-versatile.png" alt="MoodleBox crée un réseau Wi-Fi" width="550" class="right-aligned-image" >}} Allumez la MoodleBox pour créer un réseau Wi-Fi local et permettez aux apprenants à s'y connecter avec leurs propres appareils pour récupérer des documents, collaborer en temps réel et suivre intégralement des cours en ligne avec [Moodle][1].
 
-Lorsqu'elle est connectée à Internet via un réseau câblé (Ethernet), la MoodleBox fournit également un accès à Internet aux appareils qui y sont connectés par Wi-Fi.
+Connectez la box à Internet via un réseau câblé (Ethernet) et donnez en plus accès à Internet aux apprenants.
 
 ### Technologie
 

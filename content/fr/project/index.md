@@ -21,12 +21,6 @@ L'idée d'une MoodleBox est issue de discussions [dans les forums de la communau
 
 MoodleBox est un projet bénévole et sans but lucratif conduit par [Nicolas Martignoni][2] sur son temps libre.
 
-### Responsabilité
-
-L'[image-disque de la MoodleBox][13] et les informations présentées sur ce site web sont fournies « telles quelles ». L'auteur a fait tout son possible pour assurer le bon fonctionnement de la MoodleBox et l'exactitude des informations données. Cependant il décline toute responsabilité pour tout dommage direct ou indirect qui porterait préjudice aux utilisateurs lors de l'utilisation de la MoodleBox. Notamment, il ne saurait être rendu responsable de détérioration de matériel ou de perte de données.
-
-L'auteur ne s'engage par ailleurs à aucune correction de l'image-disque ou de ce site web et de cette documentation.
-
  [1]: https://moodle.org
  [2]: {{< relref "/about" >}}
  [3]: https://www.raspberrypi.org
