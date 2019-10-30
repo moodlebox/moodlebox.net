@@ -1,17 +1,17 @@
 ---
-title: About MoodleBox
+title: About us
 authors:
   - Nicolas Martignoni
 date: 2019-10-30
 lastmod: 2019-10-30
-description: The MoodleBox project is a free (as in speech and in beer) project that provides a complete Moodle learning management system with minimal infrastructure
+description: MoodleBox is a volunteer and non-profit project carried out by Nicolas Martignoni on his spare time.
 slug: about
-weight: 1
+weight: 2
 categories:
   - About
 ---
 
-The MoodleBox is a volunteer and non-profit project lead by [Nicolas Martignoni][nicolas] on his spare time.
+MoodleBox is a volunteer and non-profit project lead by [Nicolas Martignoni][nicolas] on his spare time.
 
 Nicolas Martignoni is a mathematics and computer science teacher and e-learning specialist. He has been the coordinator of the French-speaking community of [Moodle][1] users since 2003. He is also the main translator of Moodle into French. He is or has been involved in the French translation of various open source software, including [Stellarium][2], [Mahara][3], [Webtrees][4] and [ModX][5]. He is a regular speaker at national and international conferences in French, English and German.
 

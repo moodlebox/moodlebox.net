@@ -95,13 +95,17 @@ languages:
         weight: 4
 
       - parent: about
-        name: About us
-        url: /about/
+        name: What is MoodleBox
+        url: /what-is-moodlebox/
         weight: 1
       - parent: about
         name: Project
         url: /project/
-        weight: 2
+        weight: 3
+      - parent: about
+        name: About us
+        url: /about/
+        weight: 5
       - parent: about
         name: Contact
         url: /contact/
