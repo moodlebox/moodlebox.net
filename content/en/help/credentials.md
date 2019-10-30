@@ -4,8 +4,8 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-09-16
-lastmod: 2018-10-24
-description: All credentials used in the MoodleBox (WiFi, SSH, Moodle, database) are provided here
+lastmod: 2019-10-21
+description: All credentials (username and passwords) used in the MoodleBox (WiFi, SSH, Moodle, database) are provided here
 slug: moodlebox-credentials
 weight: 8
 categories:
@@ -13,7 +13,7 @@ categories:
   - Usage
 
 ---
-This page lists all the credentials used in the MoodleBox. Of course the credentials are different if you have changed something.
+This page lists all the credentials (usernames and passwords) used in the MoodleBox. Of course the credentials are different if you have changed something.
 
 ### Wi-Fi access
 
@@ -27,10 +27,6 @@ These credentials should be used to [log into the Moodle][4] default administrat
 
   * Username: __moodlebox__
   * Password: __Moodlebox4$__
-
-{{< notice info >}}
-The username __admin__ (with the same password __Moodlebox4$__), used up to version 2.5.1 of the MoodleBox, is still valid, but is no longer recommended. It will be removed in a future version of the image.
-{{< /notice >}}
 
 ### Command line access (Unix account, SSH, SFTP)
 

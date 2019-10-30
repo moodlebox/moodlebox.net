@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-09-16
-lastmod: 2018-10-24
+lastmod: 2019-10-21
 description: Alle auf der MoodleBox verwendeten Anmeldedaten (Anmeldename und Kennwort) für WiFi, SSH, Moodle und Datenbank sind hier aufgelistet
 slug: zugangsdaten
 weight: 8
@@ -13,7 +13,7 @@ categories:
   - Maintenance
   - Usage
 ---
-Diese Seite listet alle Anmeldedaten der Zugänge auf, die für die MoodleBox standardmäßig festgelegt sind. Natürlich lauten die Zugänge anders, wenn Sie etwas geändert haben.
+Diese Seite listet alle Anmeldedaten (Anmeldename und Kennwort) der Zugänge auf, die für die MoodleBox standardmäßig festgelegt sind. Natürlich lauten die Zugänge anders, wenn Sie etwas geändert haben.
 
 ### Zugang zum WLAN
 
@@ -28,10 +28,6 @@ Diese Anmeldedaten werden für das [Anmelden in Moodle][4] verwendet, wenn Sie m
 
   * Anmeldename: __moodlebox__
   * Passwort: __Moodlebox4$__
-
-{{< notice info >}}
-Der bis zur Version 2.5.1 der MoodleBox verwendete Anmeldename __admin__ (mit dem gleichen Passwort __Moodlebox4$__) ist weiterhin gültig, wird aber nicht mehr empfohlen. Es wird in einer zukünftigen Version des Images gelöscht.
-{{< /notice >}}
 
 ### Zugang zum Betriebssystem (Unix Account, SSH, SFTP)
 
