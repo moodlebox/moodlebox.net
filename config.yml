@@ -177,15 +177,15 @@ languages:
 
       - parent: about
         name: À propos de MoodleBox
-        url: /about/
+        url: /moodlebox-cest-quoi/
         weight: 1
       - parent: about
         name: Le projet
-        url: /help/projet-moodlebox/
+        url: /projet/
         weight: 3
       - parent: about
-        name: Qui sommes-nous ?
-        url: /about/
+        name: "Qui sommes-nous ?"
+        url: /a-propos/
         weight: 5
       - parent: about
         name: Contact
