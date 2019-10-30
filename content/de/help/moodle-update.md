@@ -6,7 +6,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2019-05-15
+lastmod: 2019-10-30
 description: Möchten Sie Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 slug: moodle-aktualisieren
 categories:
@@ -30,7 +30,7 @@ cd /var/www/moodle/
 sudo -u moodlebox -g www-data git pull
 ```
 
-Öffnen Sie anschließend im Browser die URL http://moodlebox.home/admin/ und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][1]).
+Öffnen Sie anschließend im Browser die URL http://moodlebox.home/admin/ und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][update]).
 
 ### Aktualisierung auf eine _Major_ Version (großer Versionssprung)
 
@@ -42,13 +42,13 @@ sudo -u moodlebox -g www-data git fetch origin
 sudo -u moodlebox -g www-data git checkout MOODLE_38_STABLE
 ```
 
-Öffnen Sie auch hier die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][1]).
+Öffnen Sie auch hier die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][update]).
 
 {{< notice warning >}}
 Wenn Sie eine MoodleBox Version 2.5.0 und früher haben, verwenden Sie `sudo -u www-data git ...` anstelle von `sudo -u moodlebox -g www-data git ...` in den oben angegebenen Anweisungen.
 {{< /notice >}}
 
- [1]: https://docs.moodle.org/de/Aktualisierung_von_Moodle
+ [update]: https://docs.moodle.org/de/Aktualisierung_von_Moodle
  [2]: {{< relref "command-line-access.md" >}}
  [3]: {{< relref "change-password.md" >}}
  [4]: {{< relref "credentials.md" >}}

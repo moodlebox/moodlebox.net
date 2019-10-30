@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-09-15
-lastmod: 2019-04-16
+lastmod: 2019-10-30
 description: Diese Vorgehensweise ist notwendig, um die MoodleBox für die erste Verwendung zu installieren
 slug: moodlebox-installieren
 weight: 1
@@ -19,9 +19,9 @@ Die folgende Vorgehensweise ist notwendig, um die MoodleBox für die erste Verwe
 
 ### Schritt 1: Hardware kaufen
 
-Die [Sachen, die Sie für Ihre MoodleBox benötigen][1], sind im Wesentlichen ein Raspberry Pi Model 3B oder Model 3B+, ein Netzteil und eine MicroSD-Karte. [Weitere Informationen][1].
+Die [Sachen, die Sie für Ihre MoodleBox benötigen][1], sind im Wesentlichen ein Raspberry Pi Model 3A, 3B, 3B+ oder 4B, ein Netzteil und eine MicroSD-Karte. [Weitere Informationen][1].
 
-{{< notice warning >}}
+{{< notice tip >}}
 Der Erwerb einer __hochqualitativen__ microSD-Karte und einer geeigneten Stromversorgung sind für den störungsfreien Betrieb der MoodleBox __unerlässlich__.
 
 Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) der Raspberry Foundation und eine microSD-Karte mit geprüfter Leistung, z.B. [von Wirecutter empfohlen](http://thewirecutter.com/reviews/best-microsd-card/). Die Verwendung anderer Netzteile sowie von microSD-Karten aus zweifelhaften Quellen kann zu systematischen Störungen führen, für die __keine Unterstützung geleistet werden kann__.
