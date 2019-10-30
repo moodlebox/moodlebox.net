@@ -4,20 +4,23 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-21
-lastmod: 2018-07-22
-description: The MoodleBox is an Internet-independent mobile device that creates a local network to which everyone can connect via WiFi. It provides a complete Moodle learning management system
-slug: moodlebox-project
+lastmod: 2019-10-30
+description: The MoodleBox project is a free (as in speech and in beer) project that provides a complete Moodle learning management system with minimal infrastructure
+slug: project
 weight: 2
 categories:
   - About
-
+aliases:
+  - help/moodlebox-project
 ---
 
-The MoodleBox project is a free (as in speech and in beer) project. The idea of MoodleBox arose between january 2015 and spring 2016 in some forum discussions [in the french community][4] of [Moodle][1], when discussing about the construction of a [Moodle platform in a little box][12] or [on a local computer][5], to provide an LMS in regions without any network infrastructure. The [idea quickly emerged][6] to build it with a Raspberry Pi 3, and to make it accessible via Wi-Fi. Thanks to the perseverance of [Christian Westphal][7], a [first proof of concept][8] was proposed.
+{{< figure src="osi_standard_logo_0.png" alt="open source initiative logo" width="300px" class="right-aligned-image" >}}The MoodleBox project is a free (as in speech and in beer) and open source project.
 
-The MoodleBox project is made by [Nicolas Martignoni][9] on his spare time.
+### History
 
-The translation of the website into German was mainly done by [Ralf Krause][10]. He is the maintainer of the German Moodle language packages (de, de_du, de_kids) and is very active in the German and international Moodle community. [Visvanath Ratnaweera][11] also took part.
+The idea of MoodleBox arose between january 2015 and spring 2016 in some forum discussions [in the french community][4] of [Moodle][1], when discussing about the construction of a [Moodle platform in a little box][12] or [on a local computer][5], to provide an LMS in regions without any network infrastructure. The [idea quickly emerged][6] to build it with a Raspberry Pi 3, and to make it accessible via Wi-Fi. Thanks to the perseverance of [Christian Westphal][7], a [first proof of concept][8] was proposed.
+
+MoodleBox is a volunteer and non-profit project lead by [Nicolas Martignoni][2] on his spare time.
 
 ### Disclaimer
 
@@ -26,7 +29,7 @@ The [MoodleBox disk image][13] and the information of the web site are provided 
 The author does not commit himself to any correction of the disk image or of this website and documentation.
 
  [1]: https://moodle.org
- [2]: {{< relref "hardware.md" >}}
+ [2]: {{< relref "about" >}}
  [3]: https://www.raspberrypi.org
  [4]: https://moodle.org/course/view.php?id=20
  [5]: https://moodle.org/mod/forum/discuss.php?d=318719

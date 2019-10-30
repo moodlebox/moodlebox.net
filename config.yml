@@ -7,14 +7,8 @@ theme:
   - hugo-moodlebox-theme
 languageCode: en-us
 
-# Do not inject generator meta tag on homepage
-# disableHugoGeneratorInject: true
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage: en
-# Enable comments by entering your Disqus shortname
-# disqusShortname: ''
-# Enable Google Analytics by entering your tracking code
-# googleAnalytics: ''
 
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir: true
@@ -47,8 +41,8 @@ languages:
     languageName: English
     title: MoodleBox
     description: A Moodle platform on Raspberry Pi
-    about: MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://twitter.com/nmartignoni).
-    footertext: MoodleBox project is made by [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    about: MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
+    footertext: MoodleBox project is made by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
     copyright: Copyright © 2016 onwards
     contentDir: content/en
     weight: 1
@@ -56,38 +50,61 @@ languages:
     date_format: January 2, 2006
     menu:
       main:
-      - identifier: help
-        name: Using MoodleBox
-        weight: 2
+      - identifier: support
+        name: Support
+        weight: 1
 
-      - parent: help
+      - parent: support
         name: Knowledge base
         url: /help/
         weight: 1
-      - parent: help
-        name: Forum
+      - parent: support
+        name: Community Support
         url: https://discuss.moodlebox.net/
-        weight: 2
-      - parent: help
-        name: About MoodleBox
-        url: /about/
         weight: 3
-      - parent: help
-        name: MoodleBox Project
-        url: /help/moodlebox-project/
-        weight: 4
-      - parent: help
+
+      - identifier: get-involved
+        name: Get involved
+        weight: 2
+
+      - parent: get-involved
+        name: Report a bug
+        url: https://github.com/moodlebox/moodlebox/issues/new/choose
+        weight: 1
+      - parent: get-involved
+        name: Code on GitHub
+        url: https://github.com/moodlebox/moodlebox
+        weight: 3
+      - parent: get-involved
         name: Make a Donation
         url: /give/
+        weight: 10
+
+      - identifier: about
+        name: About
+        weight: 3
+
+      - parent: about
+        name: What is MoodleBox
+        url: /what-is-moodlebox/
+        weight: 1
+      - parent: about
+        name: Project
+        url: /project/
+        weight: 3
+      - parent: about
+        name: About us
+        url: /about/
         weight: 5
-      - parent: help
+      - parent: about
         name: Contact
         url: /contact/
-        weight: 6
+        weight: 10
 
       - identifier: get
         name: Get MoodleBox
-        weight: 3
+        weight: 10
+
       - parent: get
         name: Download the disk image
         url: /dl/
@@ -95,15 +112,11 @@ languages:
       - parent: get
         name: Get the hardware
         url: /hardware/
-        weight: 2
+        weight: 3
       - parent: get
         name: Install MoodleBox
         url: /install/
-        weight: 3
-      - parent: get
-        name: Make your own disk image
-        url: /diy/
-        weight: 4
+        weight: 5
 
     testimonials:
       enable: true
@@ -119,8 +132,8 @@ languages:
     languageName: Français
     title: MoodleBox
     description: Une plateforme Moodle sur Raspberry Pi
-    about: MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://twitter.com/nmartignoni).
-    footertext: MoodleBox est un projet réalisé par [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    about: MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
+    footertext: MoodleBox est un projet réalisé par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
     copyright: Copyright © 2016 et suivantes
     contentDir: content/fr
     weight: 2
@@ -128,38 +141,60 @@ languages:
     date_format: 2 January 2006
     menu:
       main:
-      - identifier: help
-        name: Utiliser la MoodleBox
-        weight: 2
+      - identifier: support
+        name: Assistance
+        weight: 1
 
-      - parent: help
+      - parent: support
         name: Documentation
         url: /help/
         weight: 1
-      - parent: help
-        name: Forum
+      - parent: support
+        name: Assistance de la communauté
         url: https://discuss.moodlebox.net/
-        weight: 2
-      - parent: help
-        name: À propos de MoodleBox
-        url: /about/
         weight: 3
-      - parent: help
-        name: Le projet MoodleBox
-        url: /help/projet-moodlebox/
-        weight: 4
-      - parent: help
+
+      - identifier: get-involved
+        name: Participer
+        weight: 2
+
+      - parent: get-involved
+        name: Annoncer un bogue
+        url: https://github.com/moodlebox/moodlebox/issues/new/choose
+        weight: 1
+      - parent: get-involved
+        name: Code sur GitHub
+        url: https://github.com/moodlebox/moodlebox
+        weight: 3
+      - parent: get-involved
         name: Faire un don
         url: /give/
+        weight: 10
+
+      - identifier: about
+        name: À propos
+        weight: 3
+
+      - parent: about
+        name: À propos de MoodleBox
+        url: /about/
+        weight: 1
+      - parent: about
+        name: Le projet
+        url: /help/projet-moodlebox/
+        weight: 3
+      - parent: about
+        name: Qui sommes-nous ?
+        url: /about/
         weight: 5
-      - parent: help
+      - parent: about
         name: Contact
         url: /contact/
-        weight: 6
+        weight: 10
 
       - identifier: get
-        name: Obtenir la MoodleBox
-        weight: 3
+        name: Obtenir MoodleBox
+        weight: 10
 
       - parent: get
         name: Télécharger l'image-disque
@@ -168,15 +203,11 @@ languages:
       - parent: get
         name: Obtenir le matériel
         url: /hardware/
-        weight: 2
+        weight: 3
       - parent: get
         name: Installer MoodleBox
         url: /install/
-        weight: 3
-      - parent: get
-        name: Créer son image-disque
-        url: /diy/
-        weight: 4
+        weight: 5
 
     testimonials:
       enable: true
@@ -192,8 +223,8 @@ languages:
     languageName: Deutsch
     title: MoodleBox
     description: Eine Moodle-Plattform auf dem Raspberry Pi
-    about: MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://twitter.com/nmartignoni).
-    footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://twitter.com/nmartignoni)
+    about: MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
+    footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
     copyright: Copyright © 2016 und später
     contentDir: content/de
     weight: 3
@@ -201,38 +232,61 @@ languages:
     date_format: 2. January 2006
     menu:
       main:
-      - identifier: help
-        name: MoodleBox benutzen
-        weight: 2
+      - identifier: support
+        name: Support
+        weight: 1
 
-      - parent: help
+      - parent: support
         name: Dokumentation
         url: /help/
         weight: 1
-      - parent: help
-        name: Forum
+      - parent: support
+        name: Community-Support
         url: https://discuss.moodlebox.net/
-        weight: 2
-      - parent: help
-        name: Über MoodleBox
-        url: /about/
         weight: 3
-      - parent: help
-        name: MoodleBox Projekt
-        url: /help/moodlebox-projekt
-        weight: 4
-      - parent: help
+
+      - identifier: get-involved
+        name: Mitmachen
+        weight: 2
+
+      - parent: get-involved
+        name: Bug melden
+        url: https://github.com/moodlebox/moodlebox/issues/new/choose
+        weight: 1
+      - parent: get-involved
+        name: Code auf GitHub
+        url: https://github.com/moodlebox/moodlebox
+        weight: 3
+      - parent: get-involved
         name: Spenden
         url: /give/
         weight: 5
-      - parent: help
+
+      - identifier: about
+        name: Über MoodleBox
+        weight: 4
+
+      - parent: about
+        name: Was ist MoodleBox?
+        url: /about/
+        weight: 1
+      - parent: about
+        name: MoodleBox Projekt
+        url: /help/moodlebox-projekt
+        weight: 4
+      - parent: about
+        name: Über uns
+        url: /about/
+        weight: 5
+      - parent: about
         name: Kontakt
         url: /contact/
         weight: 6
 
       - identifier: get
-        name: MoodleBox erhalten
-        weight: 3
+        name: Erhalten
+        weight: 10
+
       - parent: get
         name: Disk-Image herunterladen
         url: /dl/
@@ -245,10 +299,6 @@ languages:
         name: MoodleBox installieren
         url: /install/
         weight: 3
-      - parent: get
-        name: Disk-Image selber erstellen
-        url: /diy/
-        weight: 4
 
     testimonials:
       enable: true

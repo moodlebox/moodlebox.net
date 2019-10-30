@@ -6,9 +6,9 @@ type: kb
 date: 2017-04-21
 description: If you wish to create your own MoodleBox disk image, here is the desired information
 slug: make-your-own-customized-moodlebox-disk-image
-weight: 4
+weight: 100
 categories:
-  - About
+  - Usage
 aliases:
   - ../diy
 
