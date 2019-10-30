@@ -24,7 +24,7 @@ MoodleBox is [built][2] around a mini-computer [Raspberry Pi][3] 3A, 3B, 3B+ or 
 
 ### Use cases
 
-MoodleBox used to enhance online learning and teaching:
+MoodleBox is used to enhance online learning and teaching:
 
   - where infrastructure is non-existent or inadequate, for example in developing countries;
   - where infrastructure has been destroyed, in the wake of war episodes or natural disasters;

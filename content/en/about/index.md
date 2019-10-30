@@ -9,6 +9,9 @@ slug: about
 weight: 2
 categories:
   - About
+aliases:
+  - about-us
+  - about
 ---
 MoodleBox is a volunteer and non-profit project lead by [Nicolas Martignoni][nicolas] on his spare time.
 

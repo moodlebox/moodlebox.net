@@ -268,15 +268,15 @@ languages:
 
       - parent: about
         name: Was ist MoodleBox?
-        url: /about/
+        url: /was-ist-moodlebox/
         weight: 1
       - parent: about
         name: MoodleBox Projekt
-        url: /help/moodlebox-projekt
+        url: /projekt/
         weight: 4
       - parent: about
         name: Über uns
-        url: /about/
+        url: /ueber-uns/
         weight: 5
       - parent: about
         name: Kontakt
