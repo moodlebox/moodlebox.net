@@ -80,11 +80,15 @@ languages:
       - parent: community
         name: Report a bug
         url: https://github.com/moodlebox/moodlebox/issues/new/choose
-        weight: 2
+        weight: 3
+      - parent: community
+        name: Make your own disk image
+        url: /diy/
+        weight: 4
       - parent: community
         name: Make a Donation
         url: /give/
-        weight: 9
+        weight: 10
 
       - identifier: about
         name: About
@@ -118,10 +122,6 @@ languages:
         name: Install MoodleBox
         url: /install/
         weight: 3
-      - parent: get
-        name: Make your own disk image
-        url: /diy/
-        weight: 4
 
     testimonials:
       enable: true
