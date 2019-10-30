@@ -7,14 +7,8 @@ theme:
   - hugo-moodlebox-theme
 languageCode: en-us
 
-# Do not inject generator meta tag on homepage
-# disableHugoGeneratorInject: true
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage: en
-# Enable comments by entering your Disqus shortname
-# disqusShortname: ''
-# Enable Google Analytics by entering your tracking code
-# googleAnalytics: ''
 
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir: true
@@ -69,23 +63,19 @@ languages:
         url: https://discuss.moodlebox.net/
         weight: 2
 
-      - identifier: community
-        name: Community
+      - identifier: involve
+        name: Get involved
         weight: 3
 
-      - parent: community
+      - parent: involve
         name: Code on GitHub
         url: https://github.com/moodlebox/moodlebox
         weight: 2
-      - parent: community
+      - parent: involve
         name: Report a bug
         url: https://github.com/moodlebox/moodlebox/issues/new/choose
         weight: 3
-      - parent: community
-        name: Make your own disk image
-        url: /diy/
-        weight: 4
-      - parent: community
+      - parent: involve
         name: Make a Donation
         url: /give/
         weight: 10
