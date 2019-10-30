@@ -100,7 +100,7 @@ languages:
         weight: 1
       - parent: about
         name: Project
-        url: /help/moodlebox-project/
+        url: /project/
         weight: 2
       - parent: about
         name: Contact
