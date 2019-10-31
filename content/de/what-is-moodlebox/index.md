@@ -4,15 +4,17 @@ authors:
   - Nicolas Martignoni
 date: 2017-04-21
 lastmod: 2019-10-30
-description: Die MoodleBox stellt eine Moodle-Plattform außerhalb jeder Netzwerk-Infrastruktur bereit, und zwar unter Verwendung eines kleinen, preiswerten und sehr vielseitigen Geräts
+description: MoodleBox ist ein eigenständiges kleines und kostengünstiges mobiles Gerät, mit einem WLAN-Access Point und einem voll ausgestatteten Moodle-Server, das ohne Internet funktioniert.
 slug: was-ist-moodlebox
 weight: 1
 categories:
   - About
 ---
-Die MoodleBox ist ein kleines Gerät, mobil und internetunabhängig. Die MoodleBox bietet ein drahtloses Netzwerk für Smartphones, Tablets oder Computer.
+MoodleBox ist ein eigenständiges kleines und kostengünstiges mobiles Gerät, das ohne Internet funktioniert. Sie kombiniert einen WLAN-Access Point mit einem voll ausgestatteten Moodle-Server.
 
-{{< figure src="/img/carousel/small-versatile.png" alt="MoodleBox creates a Wi-Fi network" width="550" class="right-aligned-image" >}} Die MoodleBox stellt eine vollständige [Moodle][1]-Lernplattform zur Verfügung, auf der Lernaktivitäten online angeboten und Dateien untereinander ausgetauscht werden können. Wenn die MoodleBox über ein Kabel mit dem Netzwerk (Ethernet) und dem Internet-Router verbunden ist, liefert sie für alle über WLAN angebundenen Geräte neben der lokalen Lernplattform außerdem auch einen Internetzugang.
+{{< figure src="/img/carousel/small-versatile.png" alt="MoodleBox creates a Wi-Fi network" width="550" class="right-aligned-image" >}} Starten Sie MoodleBox, um ein drahtloses lokales Netzwerk zu erstellen und es den Lernenden zu ermöglichen, sich mit ihren eigenen Geräten mit ihm zu verbinden, um Dokumente abzurufen, in Realtime zusammenzuarbeiten und komplette Trainingskurse mit [Moodle][1] durchzuführen.
+
+Verbinden Sie die Box über ein kabelgebundenes Netzwerk (Ethernet) mit dem Internet und geben Sie den Lernenden zusätzlich Zugang zum Internet.
 
 ### Technology
 
