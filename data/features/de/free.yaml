@@ -1,5 +1,5 @@
 weight: 4
 name: "Frei und billig"
 icon: "fa fa-gift"
-description: "Die MoodleBox ist ein freies Projekt, eine auf Raspberry Pi 3 basierte Plattform und sehr preiswert. Die Gesamtstückliste beträgt ca. 80 €."
+description: "MoodleBox ist eine freie und sehr preiswerte Plattform auf Basis von Raspberry Pi 3 oder 4. Die Gesamtstückliste beträgt ca. 80 €."
 link: "/help/hardware"

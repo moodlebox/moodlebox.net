@@ -1,5 +1,5 @@
 weight: 4
 name: "Free and cheap"
 icon: "fa fa-gift"
-description: "The MoodleBox is a free project, a platform based on Raspberry Pi 3, and very cheap. The whole bill of materials amounts to about $90."
+description: "MoodleBox is a free and very cheap platform based on Raspberry Pi 3 or 4. The whole bill of materials amounts to about $90."
 link: "/help/hardware"
