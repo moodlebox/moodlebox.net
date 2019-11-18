@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/18618668",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/18618668/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/18618668/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.1.0",
-  "id": 18618668,
-  "node_id": "MDc6UmVsZWFzZTE4NjE4NjY4",
-  "tag_name": "v3.1.0",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/19828147",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/19828147/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/19828147/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.5.0",
+  "id": 19828147,
+  "node_id": "MDc6UmVsZWFzZTE5ODI4MTQ3",
+  "tag_name": "v3.5.0",
   "target_commitish": "master",
-  "name": "v3.1.0",
+  "name": "v3.5.0",
   "draft": false,
   "author": {
     "login": "martignoni",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2019-08-23T16:57:18Z",
-  "published_at": "2019-08-23T16:57:18Z",
+  "created_at": "2019-11-18T12:20:07Z",
+  "published_at": "2019-11-18T15:35:55Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/14548401",
-      "id": 14548401,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE0NTQ4NDAx",
-      "name": "moodlebox-3.1.0.img.gz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/16236849",
+      "id": 16236849,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2MjM2ODQ5",
+      "name": "moodlebox-3.5.0.img.gz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,14 +61,14 @@
       },
       "content_type": "application/x-gzip",
       "state": "uploaded",
-      "size": 801933584,
+      "size": 750908533,
       "download_count": 0,
-      "created_at": "2019-08-23T16:57:18Z",
-      "updated_at": "2019-08-23T16:57:18Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.1.0/moodlebox-3.1.0.img.gz"
+      "created_at": "2019-11-18T15:34:15Z",
+      "updated_at": "2019-11-18T15:35:55Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.5.0/moodlebox-3.5.0.img.gz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.1.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.1.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.1.0/total.svg)\r\n### Changed\r\n- Updated to [version v2.4.0](\r\nhttps://github.com/moodlebox/moodle-tool_moodlebox/releases/tag/v2.4.0) of [MoodleBox plugin](https://moodle.org/plugins/tool_moodlebox) (issue #146).\r\n- Update [Nodogsplash](https://github.com/nodogsplash/nodogsplash) to v4.0.2 (issue #144), with temporary workaround for issue https://github.com/nodogsplash/nodogsplash/issues/419.\r\n\r\n### Added\r\n- Add `yamllint` to CI (no issue number)\r\n\r\n### Fixed\r\n- Fix `yaml` syntax (no issue number)"
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.5.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.5.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.5.0/total.svg)\r\n### Changed\r\n- Update Moodle to version 3.8.0 (issue #156).\r\n- Update to Raspbian version 2019-09-26 (issue #149).\r\n- Update [MoodleBox plugin](https://moodle.org/plugins/tool_moodlebox) to [version v2.4.2](\r\nhttps://github.com/moodlebox/moodle-tool_moodlebox/releases/tag/v2.4.2) of (issue #152).\r\n- Update [MathJax](https://mathjax.org) to version 2.7.6 (issue #154).\r\n- Update [Nodogsplash](https://github.com/nodogsplash/nodogsplash) to version 4.3.2 (issue #153).\r\n\r\n### Added\r\n- Add support for HTTPS connexion (issue #27). This feature is not enabled by default; it must be manually enabled by a technically savvy administrator. See MoodleBox documentation.\r\n\r\n### Fixed\r\n- Fix author link (no issue number, commit b336068).\r\n"
 }
