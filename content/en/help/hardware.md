@@ -27,7 +27,7 @@ gallery_item:
 ---
 Here is the stuff you will need to build your MoodleBox:
 
-  * Raspberry Pi [4 modèle B][RPi4B], [3 modèle B+][RPi3Bplus], [3 modèle B][RPi3B] or [3 modèle A+][RPi3Aplus],
+  * Raspberry Pi [4 Model B][RPi4B], [3 Model B+][RPi3Bplus], [3 Model B][RPi3B] or [3 Model A+][RPi3Aplus],
   * High quality [Power supply][supply],
   * [MicroSD card][sdcard] of sufficient size; we recommend a capacity of 32 GB or more, even if MoodleBox can work with a smaller card size,
   * [Raspberry Pi case][case] (not essential, but very useful to protect the Raspberry Pi).
