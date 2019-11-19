@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2019-03-02
+lastmod: 2019-11-19
 description: Here is the stuff you will need to build your MoodleBox
 slug: hardware-needed
 weight: 3
@@ -27,10 +27,10 @@ gallery_item:
 ---
 Here is the stuff you will need to build your MoodleBox:
 
-  * [Raspberry Pi 3 Model B+][5] or [Raspberry Pi 3 Model B][1],
-  * High quality [Power supply][2],
-  * [MicroSD card][3] of sufficient size; we recommend a capacity of 32 GB or more, even if MoodleBox can work with a smaller card size,
-  * [Raspberry Pi case][4] (not essential, but very useful to protect the Raspberry Pi 3).
+  * Raspberry Pi [4 modèle B][RPi4B], [3 modèle B+][RPi3Bplus], [3 modèle B][RPi3B] or [3 modèle A+][RPi3Aplus],
+  * High quality [Power supply][supply],
+  * [MicroSD card][sdcard] of sufficient size; we recommend a capacity of 32 GB or more, even if MoodleBox can work with a smaller card size,
+  * [Raspberry Pi case][case] (not essential, but very useful to protect the Raspberry Pi).
 
 The total hardware amount is approximately USD 90, 80 € or CHF 90.
 
@@ -42,8 +42,10 @@ We recommend the [official Raspberry Foundation power supply](https://www.raspbe
 
 {{< gallery >}}
 
- [1]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
- [2]: https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/
- [3]: http://thewirecutter.com/reviews/best-microsd-card/
- [4]: https://www.raspberrypi.org/products/raspberry-pi-3-case/
- [5]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/
+ [RPi3Aplus]: https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/
+ [RPi3B]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
+ [RPi3Bplus]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/
+ [RPi4B]: https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
+ [case]: https://www.raspberrypi.org/products/raspberry-pi-3-case/
+ [sdcard]: https://thewirecutter.com/reviews/best-microsd-card/
+ [supply]: https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/

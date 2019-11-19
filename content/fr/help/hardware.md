@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2019-03-02
+lastmod: 2019-11-19
 description: Voici le matériel nécessaire pour construire votre MoodleBox
 slug: materiel-necessaire
 weight: 3
@@ -27,10 +27,10 @@ gallery_item:
 ---
 Pour mettre en oeuvre la MoodleBox, le matériel suivant est nécessaire :
 
-  * une [Raspberry Pi 3 modèle B+][5] ou [Raspberry Pi 3 modèle B][1],
-  * une [alimentation][2] de qualité élevée,
-  * une [carte microSD][3] de taille suffisante ; nous recommandons une taille de 32 Go ou plus, même si MoodleBox peut fonctionner avec une carte de taille plus petite,
-  * un [boîtier pour Raspberry Pi 3][4] (pas indispensable, mais très utile pour protéger la Raspberry Pi 3).
+  * une Raspberry Pi [4 modèle B][RPi4B], [3 modèle B+][RPi3Bplus], [3 modèle B][RPi3B] ou [3 modèle A+][RPi3Aplus],
+  * une [alimentation][supply] de qualité élevée,
+  * une [carte microSD][sdcard] de taille suffisante ; nous recommandons une taille de 32 Go ou plus, même si MoodleBox peut fonctionner avec une carte de taille plus petite,
+  * un [boîtier pour Raspberry Pi][case] (pas indispensable, mais très utile pour protéger la Raspberry Pi).
 
 La totalité de l'investissement matériel nécessaire est d'environ 80 €, USD 90 ou CHF 90.
 
@@ -42,8 +42,10 @@ Nous recommandons l'[alimentation officielle](https://www.raspberrypi.org/produc
 
 {{< gallery >}}
 
- [1]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
- [2]: https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/
- [3]: http://thewirecutter.com/reviews/best-microsd-card/
- [4]: https://www.raspberrypi.org/products/raspberry-pi-3-case/
- [5]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/
+ [RPi3Aplus]: https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/
+ [RPi3B]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
+ [RPi3Bplus]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/
+ [RPi4B]: https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
+ [case]: https://www.raspberrypi.org/products/raspberry-pi-3-case/
+ [sdcard]: https://thewirecutter.com/reviews/best-microsd-card/
+ [supply]: https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/
