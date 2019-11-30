@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2019-11-18
+lastmod: 2019-11-30
 description: L'image-disque de la MoodleBox est disponible sur cette page.
 slug: telecharger-limage-disque
 weight: 3
@@ -28,7 +28,7 @@ aliases:
       Version : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}</strong>
     </div>
     <div class="image-details">
-      Version de Moodle : <strong>3.8 (Build: 20191118)</strong>
+      Version de Moodle : <strong>3.8+ (Build: 20191129)</strong>
     </div>
     <div class="image-details">
       Taille : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" >}} Mo</strong>
@@ -41,6 +41,9 @@ aliases:
     </div>
     <div class="image-download-links">
       <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download"></i>Télécharger l'image</a>
+    </div>
+    <div class="image-details">
+      SHA-256 : <strong><a href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}" target="_blank">{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=1 >}}</a></strong>
     </div>
   </div>
 </div>

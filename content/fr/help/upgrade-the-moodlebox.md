@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-22
-lastmod: 2019-03-04
+lastmod: 2019-11-29
 description: Suivez les instructions ci-dessous pour mettre à jour régulièrement votre MoodleBox
 slug: comment-mettre-a-jour-la-moodlebox
 categories:
@@ -17,17 +17,16 @@ Pour cette opération, la MoodleBox doit être connectée à Internet au moyen d
 
 ### Mise à jour des logiciels de la MoodleBox
 
-  1. Se connecter à l'[interface en ligne de commande de la MoodleBox][1] via SSH, en utilisant les nom et mot de passe appropriés. Consulter au besoin les [noms d'utilisateur et des mots de passe par défaut][2].
-  2. Brancher la MoodleBox à un réseau local ayant accès à Internet, au moyen d'un câble Ethernet.
-  3. Taper la commande suivante dans l'interface du terminal :
+1. Se connecter à l'[interface en ligne de commande de la MoodleBox][1] via SSH, en utilisant les nom et mot de passe appropriés. Consulter au besoin les [noms d'utilisateur et des mots de passe par défaut][2].
+2. Brancher la MoodleBox à un réseau local ayant accès à Internet, au moyen d'un câble Ethernet.
+3. Taper la commande suivante dans l'interface du terminal :
 
     ```bash
     sudo apt-get update && sudo apt-get dist-upgrade -y
     ```
-
     et confirmer avec la touche Retour.
-  4. Cette opération durera quelques minutes. La durée dépend du nombre des logiciels à mettre à jour, de votre bande passante Internet et de la qualité de votre carte microSD.
-  5. Lorsque la mise à jour se termine, tapez `exit`, et confirmer avec la touche Retour.
+4. Cette opération durera quelques minutes. La durée dépend du nombre des logiciels à mettre à jour, de votre bande passante Internet et de la qualité de votre carte microSD.
+5. Lorsque la mise à jour se termine, tapez `exit`, et confirmer avec la touche Retour.
 
  [1]: {{< relref "command-line-access.md" >}}
  [2]: {{< relref "credentials.md" >}}

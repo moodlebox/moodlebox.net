@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/19828147",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/19828147/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/19828147/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.5.0",
-  "id": 19828147,
-  "node_id": "MDc6UmVsZWFzZTE5ODI4MTQ3",
-  "tag_name": "v3.5.0",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/21873484",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/21873484/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/21873484/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.5.1",
+  "id": 21873484,
+  "node_id": "MDc6UmVsZWFzZTIxODczNDg0",
+  "tag_name": "v3.5.1",
   "target_commitish": "master",
-  "name": "v3.5.0",
+  "name": "v3.5.1",
   "draft": false,
   "author": {
     "login": "martignoni",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2019-11-18T12:20:07Z",
-  "published_at": "2019-11-18T15:35:55Z",
+  "created_at": "2019-11-30T20:37:02Z",
+  "published_at": "2019-11-30T22:10:13Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/16236849",
-      "id": 16236849,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2MjM2ODQ5",
-      "name": "moodlebox-3.5.0.img.gz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/16503369",
+      "id": 16503369,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2NTAzMzY5",
+      "name": "moodlebox-3.5.1.img.gz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/x-gzip",
       "state": "uploaded",
-      "size": 750908533,
+      "size": 838586814,
       "download_count": 0,
-      "created_at": "2019-11-18T15:34:15Z",
-      "updated_at": "2019-11-18T15:35:55Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.5.0/moodlebox-3.5.0.img.gz"
+      "created_at": "2019-11-30T22:20:36Z",
+      "updated_at": "2019-11-30T22:21:43Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.5.1/moodlebox-3.5.1.img.gz"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/16269947",
-      "id": 16269947,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2MjY5OTQ3",
-      "name": "moodlebox-3.5.0.sha256",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/16503407",
+      "id": 16503407,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDE2NTAzNDA3",
+      "name": "moodlebox-3.5.1.sha256",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -96,13 +96,13 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 88,
-      "download_count": 1,
-      "created_at": "2019-11-19T21:07:42Z",
-      "updated_at": "2019-11-19T21:07:43Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.5.0/moodlebox-3.5.0.sha256"
+      "download_count": 0,
+      "created_at": "2019-11-30T22:25:15Z",
+      "updated_at": "2019-11-30T22:25:15Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.5.1/moodlebox-3.5.1.sha256"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.5.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.5.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.5.0/total.svg)\r\n### Changed\r\n- Update Moodle to version 3.8.0 (issue #156).\r\n- Update to Raspbian version 2019-09-26 (issue #149).\r\n- Update [MoodleBox plugin](https://moodle.org/plugins/tool_moodlebox) to [version v2.4.2](\r\nhttps://github.com/moodlebox/moodle-tool_moodlebox/releases/tag/v2.4.2) of (issue #152).\r\n- Update [MathJax](https://mathjax.org) to version 2.7.6 (issue #154).\r\n- Update [Nodogsplash](https://github.com/nodogsplash/nodogsplash) to version 4.3.2 (issue #153).\r\n\r\n### Added\r\n- Add support for HTTPS connexion (issue #27). This feature is not enabled by default; it must be manually enabled by a technically savvy administrator. See MoodleBox documentation.\r\n\r\n### Fixed\r\n- Fix author link (no issue number, commit b336068).\r\n"
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.5.1",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.5.1",
+  "body": "![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.5.1/total.svg)\r\n### Fixed\r\n- Fix partition auto-resize (issue #157).\r\n"
 }

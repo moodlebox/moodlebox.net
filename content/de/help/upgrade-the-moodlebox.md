@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-12-22
-lastmod: 2019-03-04
+lastmod: 2019-11-29
 description: Folgen Sie den Anweisungen unten, um Ihre MoodleBox regelmäßig zu aktualisieren
 slug: moodlebox-aktualisieren
 categories:
@@ -22,9 +22,9 @@ Für diese Operation muss die MoodleBox über ein Ethernetkabel mit dem Internet
   2. Verbinden Sie die MoodleBox über ein Ethernetkabel mit einem Internetrouter oder einem lokalen Netzwerk mit Internetzugang.
   3. Schreiben Sie die folgenden Anweisung ins Terminal und bestätigen Sie dies mit der Eingabetaste:
 
-    ```bash
-    sudo apt-get update && sudo apt-get dist-upgrade -y
-    ```
+      ```bash
+      sudo apt-get update && sudo apt-get dist-upgrade -y
+      ```
 
   4. Die Verarbeitung dieser Anweisung wird wohl eine Weile dauern, wahrscheinlich mehrere Minuten. Die Dauer hängt vom Umfang der zu aktualisierenden Software, von der Bandbreite Ihrer Internetverbindung und von der Qualität Ihrer MicroSD-Karte ab.
   5. Am Ende des Update-Vorgangs geben Sie `exit` ein und bestätigen dies mit der Eingabetaste.
