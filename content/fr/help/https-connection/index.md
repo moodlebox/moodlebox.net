@@ -34,5 +34,5 @@ L'installation du certificat CA dépend du navigateur et du système d'exploitat
 - [Installation pour macOS]({{< relref "install-certificate-macos" >}})
 - [Installation pour Windows]({{< relref "install-certificate-windows" >}})
 
-  [project]: {{< relref "/project" >}}
-  [ssh-connect]: {{< relref "command-line-access" >}}
+[project]: {{< relref "/project" >}}
+[ssh-connect]: {{< relref "command-line-access" >}}
