@@ -17,7 +17,7 @@ This page lists all the credentials (usernames and passwords) used in the Moodle
 
 ### Wi-Fi access
 
-This password should be used to [connect to the Wi-F][3]i network of the MoodleBox. The network name (SSID) is __MoodleBox__.
+This password should be used to [connect to the Wi-Fi][3] network of the MoodleBox. The network name (SSID) is __MoodleBox__.
 
   * Password: __moodlebox__
 
