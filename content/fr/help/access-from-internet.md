@@ -66,8 +66,8 @@ Si vous n'avez pas d'adresse IP fixe, configurer le DNS dynamique.
 Cette étape n'est pas nécessaire. Elle est cependant __très fortement recommandée__.
 
 1. Changer tous les mots de passe de la MoodleBox, en privilégiant des mots de passe forts :
-  - à l'aide du tableau de bord de la MoodleBox pour le mot de passe principal et pour le mot de passe du réseau Wi-Fi,
-  - dans le profil du compte administrateur de Moodle.
+    - à l'aide du tableau de bord de la MoodleBox pour le mot de passe principal et pour le mot de passe du réseau Wi-Fi,
+    - dans le profil du compte administrateur de Moodle.
 2. Imposer des mots de passe forts pour tous les comptes utilisateurs de Moodle.
 3. Installer le logiciel [fail2ban][3] sur votre MoodleBox. Ce logiciel permet de bloquer certaines attaques systématiques contre les serveurs exposés sur Internet.
 4. [Activer le protocole HTTPS][4] sur le serveur web nginx de votre MoodleBox, en utilisant par exemple des certificats LetsEncrypt. Dans ce cas, n'oubliez pas de rediriger le trafic du port 443 (https) sur votre routeur (voir ci-dessus).
