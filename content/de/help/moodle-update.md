@@ -6,7 +6,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2019-10-30
+lastmod: 2019-12-23
 description: Möchten Sie Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 slug: moodle-aktualisieren
 categories:
@@ -23,7 +23,7 @@ ssh moodlebox@moodlebox.home
 
 ### Aktualisierung auf eine _Minor_ Version (kleiner Versionssprung)
 
-Um Ihr Moodle auf die nächste __Minor Version__ (3.7.1, 3.7.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^1]
+Um Ihr Moodle auf die nächste __Minor Version__ (3.8.1, 3.8.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^1]
 
 ```bash
 cd /var/www/moodle/
@@ -34,7 +34,7 @@ sudo -u moodlebox -g www-data git pull
 
 ### Aktualisierung auf eine _Major_ Version (großer Versionssprung)
 
-Um mit Ihrem Moodle auf die nächste __Major Version__ (3.8, 3.9, usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen:
+Um mit Ihrem Moodle auf die nächste __Major Version__ (3.9, 4.0, usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen:
 
 ```bash
 sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"

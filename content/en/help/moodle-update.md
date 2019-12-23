@@ -5,7 +5,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-20
-lastmod: 2019-10-30
+lastmod: 2019-12-23
 description: Want to update Moodle on the MoodleBox? Follow these instructions
 slug: moodle-version-update
 categories:
@@ -22,7 +22,7 @@ ssh moodlebox@moodlebox.home
 
 ### Update to a _minor_ version
 
-To update to the next __minor version__ of Moodle (3.7.1, 3.7.2, etc.), type the following commands in the terminal:[^1]
+To update to the next __minor version__ of Moodle (3.8.1, 3.8.2, etc.), type the following commands in the terminal:[^1]
 
 ```bash
 cd /var/www/moodle/
@@ -33,7 +33,7 @@ Visit then in your browser the URL http://moodlebox.home/admin and follow the up
 
 ### Update to a _major_ version
 
-To update to the next __major version__ of Moodle (3.8, 3.9, etc.), type the commands above, then the __additional__ following commands:
+To update to the next __major version__ of Moodle (3.9, 4.0, etc.), type the commands above, then the __additional__ following commands:
 
 ```bash
 sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
