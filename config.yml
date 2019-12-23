@@ -436,16 +436,23 @@ privacy:
   youtube:
     privacyEnhanced: true
 
-blackfriday:
-  hrefTargetBlank: false
-
-pygmentsCodeFences: true
-pygmentsCodeFencesGuessSyntax: true
-pygmentsUseClasses: true
+# pygmentsCodeFences: true
+# pygmentsCodeFencesGuessSyntax: true
+# pygmentsUseClasses: true
 # pygmentsStyle: "emacs"
 
-footnoteReturnLinkContents: ↩
-# footnoteReturnLinkContents: ↑
+markup:
+  blackFriday:
+    hrefTargetBlank: true
+    footnoteReturnLinkContents: ↩
+#     footnoteReturnLinkContents: ↑
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: emacs
+    lineNumbersInTable: true
+    noClasses: true
 
 #outputFormats:
 #  JS:
