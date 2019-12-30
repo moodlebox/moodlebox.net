@@ -25,7 +25,7 @@ Ce mot de passe fait partie des informations d'identification principales de la 
 Dans la section __Mot de passe MoodleBox__, saisissez votre nouveau mot de passe, le même dans les deux champs. En cliquant sur l'icône d'œil, vous pouvez faire apparaître les caractères que vous avez tapés. Nous recommandons de choisir un mot de passe fort.
 
 {{< notice info >}}
-Le mot de passe du compte administrateur de Moodle __n'est pas modifié__ par cette opération. Pour changer ce mot de passe-là, connectez-vous à Moodle, visitez les <a href="http://moodlebox.home/user/preferences.php">préférences de votre profil</a> et <a href="http://moodlebox.home/login/change_password.php">changez le mot de passe</a>.
+Le mot de passe du compte administrateur de Moodle __n'est pas modifié__ par cette opération. Pour changer ce mot de passe-là, connectez-vous à Moodle, visitez les <a href="http://moodlebox.home/user/preferences.php" target="_blank">préférences de votre profil</a> et <a href="http://moodlebox.home/login/change_password.php" target="_blank">changez le mot de passe</a>.
 {{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php

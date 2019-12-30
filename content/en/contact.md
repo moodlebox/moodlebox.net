@@ -12,7 +12,7 @@ aliases:
 
 If you have [technical questions][1] or if you need support, check out the MoodleBox [knowledge base][1] or search the [MoodleBox support forum][2] to see if your question has already been answered. Otherwise, feel free to [open a new discussion][2] in the [forum][2].
 
-<p class="text-center"><a href="https://discuss.moodlebox.net/" class="btn btn-template-main btn-lg">MoodleBox support forum</a></p>
+<p class="text-center"><a href="https://discuss.moodlebox.net/" target="_blank" class="btn btn-template-main btn-lg">MoodleBox support forum</a></p>
 
 ### Contact the author
 

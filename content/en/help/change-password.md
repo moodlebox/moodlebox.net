@@ -25,7 +25,7 @@ This password is part of the main credentials of your MoodleBox. It gives access
 In the __MoodleBox password section__, enter your new password, the same in both fields. By clicking on the eye icon, you can display the characters you have typed. We recommend choosing a strong password.
 
 {{< notice info >}}
-The password for the Moodle administrator account __is not changed__ by this operation. To change that password, log in to Moodle, visit the <a href="http://moodlebox.home/user/preferences.php">preferences for your profile</a> and <a href="http://moodlebox.home/login/change_password.php">change the password</a>.
+The password for the Moodle administrator account __is not changed__ by this operation. To change that password, log in to Moodle, visit the <a href="http://moodlebox.home/user/preferences.php" target="_blank">preferences for your profile</a> and <a href="http://moodlebox.home/login/change_password.php" target="_blank">change the password</a>.
 {{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php

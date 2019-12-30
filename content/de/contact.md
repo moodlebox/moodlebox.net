@@ -10,7 +10,7 @@ lastmod: 2018-11-16
 
 Wenn Sie [technische Fragen][1] haben oder Hilfe benötigen, besuchen Sie die [Wissensdatenbank][1] von MoodleBox oder suchen Sie im [MoodleBox Support Forum][2] nach, ob Ihre Frage bereits beantwortet wurde. Sonst können Sie jederzeit eine [neue Diskussion im Forum eröffnen][2].
 
-<p class="text-center"><a href="https://discuss.moodlebox.net/" class="btn btn-template-main btn-lg">MoodleBox Support Forum</a></p>
+<p class="text-center"><a href="https://discuss.moodlebox.net/" target="_blank" class="btn btn-template-main btn-lg">MoodleBox Support Forum</a></p>
 
 ### Kontaktieren Sie den Autor
 
