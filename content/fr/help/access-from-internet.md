@@ -4,15 +4,19 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-09-30
-lastmod: 2018-09-30
-description: Il est possible de rendre une MoodleBox accessible directement depuis Internet. Ce guide explique la démarche à effectuer pour cela.
+lastmod: 2020-01-06
+description: Ce guide explique la démarche à effectuer pour rendre une MoodleBox accessible directement depuis Internet. Attention ! Ceci implique  des risques de sécurité importants.
 slug: acces-depuis-internet
 weight: 95
 categories:
   - Utilisation
 
 ---
-{{< notice info >}}
+Il est possible de configurer une MoodleBox pour la rendre accessible directement depuis Internet, moyennant de __trè bonnes connaissances__ en administration système.
+
+La MoodleBox n'a pas été conçue comme fournir une plateforme Moodle accessible depuis Internet de façon permanente, comme l'est habituellement un serveur Moodle. Néanmoins, pour des scénarios spécifiques, une telle fonctionnalité peut être utile.
+
+{{< notice warning >}}
 La MoodleBox est constituée d'un ordinateur peu puissant. Elle pourrait être rapidement surchargée et __devenir très lente__, voire totalement paralysée en cas d'afflux massif de visiteurs.
 
 La mise à disposition sur le web d'une MoodleBox __implique des risques de sécurité importants__. En particulier, le serveur peut être attaqué et rendu inopérant par divers moyens. __Changez tous les mots de passe__ de la MoodleBox avant d'effectuer ces modifications.
@@ -21,10 +25,6 @@ Les opérations décrites sur cette page sont susceptibles de __rendre votre Moo
 
 Nous déclinons toute responsabilité pour tout dommage direct ou indirect lors de l'utilisation de la MoodleBox, notamment suite à une modification de configuration en vue d'exposer la MoodleBox sur Internet.
 {{< /notice >}}
-
-La MoodleBox n'a pas été conçue comme fournir une plateforme Moodle accessible depuis Internet de façon permanente, comme l'est habituellement un serveur Moodle. Néanmoins, pour des scénarios spécifiques, une telle fonctionnalité peut être utile.
-
-Il est possible de configurer une MoodleBox pour la rendre accessible directement depuis Internet, moyennant de __bonnes connaissances en administration système__.
 
 ### Prérequis
 
@@ -43,6 +43,10 @@ Cette documentation n'explique pas comment gérer un nom de domaine, ni comment 
 #### Étape 1 : changer le nom de domaine de votre MoodleBox
 
 Consulter la [page de la documentation y relative][2]. Indiquer le nom de domaine dont vous possédez les droits de gestion. Il est aussi possible d'utiliser un sous-domaine, par exemple : `learn.example.com`.
+
+{{< notice tip >}}
+Cette étape est cruciale, car elle configure le [masquage de nom de domaine (masquerading)](https://docs.moodle.org/en/Masquerading), qui est indispensable pour que Moodle fonctionne correctement.
+{{< /notice >}}
 
 #### Étape 2 : autoriser le passage du trafic web vers la MoodleBox
 
@@ -76,3 +80,4 @@ Cette étape n'est pas nécessaire. Elle est cependant __très fortement recomma
  [2]: {{< relref "domain-name-change.md" >}}
  [3]: https://www.fail2ban.org/
  [4]: https://github.com/moodlebox/moodlebox/issues/27#issuecomment-326818647
+ [5]: https://docs.moodle.org/en/Masquerading

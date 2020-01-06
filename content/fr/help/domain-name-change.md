@@ -4,8 +4,8 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-09-27
-lastmod: 2018-09-30
-description: On peut changer le nom de domaine de la MoodleBox, de sorte à mieux refléter votre propre situation locale. Ce guide explique la démarche à effectuer pour changer le nom de domaine de votre MoodleBox.
+lastmod: 2020-01-06
+description: Ce guide explique la démarche à effectuer pour changer le nom de domaine de votre MoodleBox, de sorte à mieux refléter votre propre situation locale.
 slug: changer-nom-de-domaine
 weight: 90
 categories:
@@ -20,7 +20,7 @@ Nous déclinons toute responsabilité pour tout dommage direct ou indirect lors 
 
 ### Marche à suivre
 
-L'exemple ci-dessous montre comment changer le nom de domaine d'une MoodleBox, ce qui permettra à un appareil local de l'atteindre au moyen d'une nouvelle URL. L'exemple indique comment donner à la MoodleBox le nom de domaine `mybox.me`.
+L'exemple ci-dessous montre comment changer le nom de domaine d'une MoodleBox, ce qui permettra à un appareil local de l'atteindre au moyen d'une nouvelle URL. L'exemple indique comment donner à la MoodleBox le nom de domaine __learn.example.com__.
 
 {{< notice info >}}
 Cette opération n'a pas d'influence sur l'accès à la MoodleBox depuis un réseau Ethernet ou depuis Internet : la MoodleBox __restera accessible uniquement depuis le réseau Wi-Fi qu'elle fournit__, depuis les appareils qui s'y sont connectés.
@@ -28,21 +28,21 @@ Cette opération n'a pas d'influence sur l'accès à la MoodleBox depuis un rés
 
 #### Étape 1 : changer le nom d'hôte (_hostname_)
 
-À la dernière ligne du fichier `/etc/hosts`, remplacer `moodlebox` par `mybox`.
+À la dernière ligne du fichier `/etc/hosts`, remplacer `moodlebox` par __learn.example.com__.
 
-Dans le fichier `/etc/hostname`, remplacer `moodlebox` par `mybox` (cette modification n'est n'est pas indispensable, mais vivement recommandée).
+Dans le fichier `/etc/hostname`, remplacer `moodlebox` par __learn.example.com__ (cette modification n'est n'est pas indispensable, mais vivement recommandée).
 
 #### Étape 2 : adapter la configuration du serveur web nginx
 
-Modifier le fichier `/etc/nginx/sites-available/default`, en y remplaçant `moodlebox` par le nom de domaine complet (_FQDN_) `mybox.me` dans la directive `server_name`.
+Modifier le fichier `/etc/nginx/sites-available/default`, en y remplaçant `moodlebox` par le nom de domaine complet (_FQDN_) __learn.example.com__ dans la directive `server_name`.
 
 #### Étape 3 : adapter la configuration du serveur DHCP
 
-Modifier le fichier `/etc/dnsmasq.conf`, en y remplaçant `home` par `mybox.me` dans les deux lignes qui commencent par `domain` et `local`.
+Modifier le fichier `/etc/dnsmasq.conf`, en y remplaçant `home` par __learn.example.com__ dans les deux lignes qui commencent par `domain` et `local`. Commenter ou effacer complètement la ligne commençant par `address`.
 
 #### Étape 4 : Adapter la configuration de Moodle (URL de Moodle)
 
-Dans le fichier `/var/www/moodle/config.php`, à la ligne qui commence par `$CFG->wwwroot`, remplacer l'URL `http://moodlebox.home` par `http://mybox.me`. Ne pas ajouter de barre oblique à la fin de l'URL.
+Dans le fichier `/var/www/moodle/config.php`, à la ligne qui commence par `$CFG->wwwroot`, remplacer l'URL `http://moodlebox.home` par `http://learn.example.com`. Ne pas ajouter de barre oblique à la fin de l'URL.
 
 #### Étape 5 : Redémarrer la MoodleBox
 
@@ -50,12 +50,17 @@ Afin de prendre en compte ces modifications, redémarrer votre MoodleBox.
 
 #### Étape 6 : Remplacer les URLs de Moodle
 
-Accéder à votre MoodleBox au moyen votre navigateur en utilisant la nouvelle adresse `http://mybox.me/` et utiliser l'outil de remplacement d'URL à l'adresse `http://mybox.me/admin/tool/replace/index.php` pour remplacer les URLs dans la base de données de Moodle.
+Accéder à votre MoodleBox au moyen votre navigateur en utilisant la nouvelle adresse `http://learn.example.com/` et utiliser l'outil de remplacement d'URL à l'adresse `http://learn.example.com/admin/tool/replace/index.php` pour remplacer les URLs dans la base de données de Moodle.
 
-### Autres possibilités
+#### Step 7: Remplacer les certificats SSL (optionel)
+
+Si vous voulez [utiliser HTTPS][3], vous devrez obtenir vos propres certificats SSL, car ceux fournis par MoodleBox ne fonctionneront pas avec votre nom de domaine personnalisé __learn.example.com__. N'oubliez pas de changer également l'URL.
+
+### Options similaires
 
 - [Changer le nom du réseau Wi-Fi][1] de la MoodleBox.
 - Rendre accessible la MoodleBox [depuis un réseau câblé Ethernet][2].
 
  [1]: {{< relref "wi-fi-configuration" >}}
  [2]: {{< relref "access-via-ethernet" >}}
+ [3]: {{< relref "https-connection" >}}

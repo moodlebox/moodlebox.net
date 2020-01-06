@@ -4,14 +4,18 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-09-30
-lastmod: 2018-09-30
-description: It is possible to make a MoodleBox directly accessible from the Internet. This guide explains how to do this.
+lastmod: 2020-01-06
+description: This guide explains how to make a MoodleBox directly accessible from the Internet. Be advised that this implies significant security risks.
 slug: access-from-internet
 weight: 95
 categories:
   - Usage
 
 ---
+It is possible to configure a MoodleBox to make it accessible directly from the Internet, provided that you have __very good knowledge__ in system administration.
+
+The MoodleBox was not designed to provide a Moodle platform permanently accessible from the Internet, as it is usually the case with a Moodle server. However, for specific use cases, this feature may be useful.
+
 {{< notice warning >}}
 The MoodleBox is built on a low-performance computer. It could quickly be overloaded and __become very slow__, or even totally frozen in the event of a massive amount of visitors.
 
@@ -21,10 +25,6 @@ The operations described on this page may __render your MoodleBox unusable__, re
 
 We accept no responsibility for any direct or indirect damage caused by the use of the MoodleBox, in particular following a change in configuration in order to expose the MoodleBox on the Internet.
 {{< /notice >}}
-
-The MoodleBox was not designed to provide a Moodle platform permanently accessible from the Internet, as it is usually the case with a Moodle server. However, for specific use cases, this feature may be useful.
-
-It is possible to configure a MoodleBox to make it accessible directly from the Internet, provided that you have __good knowledge in system administration__.
 
 ### Requirements
 
@@ -43,6 +43,10 @@ This documentation does not explain how to manage a domain name, how to obtain a
 #### Step 1 - Change the domain name of your MoodleBox
 
 Read the [related documentation page][2]. Specify the domain name for which you have administrative rights. It is also possible to use a subdomain, for example: `learn.example.com`.
+
+{{< notice tip >}}
+This step is crucial, as it configures [domain name masquerading](https://docs.moodle.org/en/Masquerading), which is required for Moodle to work properly.
+{{< /notice >}}
 
 #### Step 2 - Allow web traffic to the MoodleBox
 
@@ -76,3 +80,4 @@ This step is not required. However is __very highly recommended__.
  [2]: {{< relref "domain-name-change.md" >}}
  [3]: https://www.fail2ban.org/
  [4]: https://github.com/moodlebox/moodlebox/issues/27#issuecomment-326818647
+ [5]: https://docs.moodle.org/en/Masquerading

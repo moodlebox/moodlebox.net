@@ -4,14 +4,18 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-09-30
-lastmod: 2018-09-30
-description: Es ist möglich, eine MoodleBox direkt aus dem Internet zugänglich zu machen. In diesem Handbuch wird erklärt, wie dies zu bewerkstelligen ist.
+lastmod: 2020-01-06
+description: Diese Anleitung erklärt, wie man eine MoodleBox direkt aus dem Internet zugänglich macht. Beachten Sie, dass dies erhebliche Sicherheitsrisiken beinhaltet.
 slug: access-from-internet
 weight: 95
 categories:
   - Usage
 
 ---
+Es ist möglich, eine MoodleBox so zu konfigurieren, dass sie direkt aus dem Internet zugänglich ist, vorausgesetzt, Sie verfügen über __sehr gute Kenntnisse__ in der Systemadministration.
+
+Die MoodleBox wurde nicht so konzipiert, dass sie eine Moodle-Plattform zur Verfügung stellt, die dauerhaft über das Internet zugänglich ist, wie es normalerweise bei einem Moodle-Server der Fall ist. Für spezielle Anwendungsfälle kann diese Funktion jedoch nützlich sein.
+
 {{< notice warning >}}
 Die MoodleBox basiert auf einem leistungsschwachen Computer. Sie könnte schnell überlastet sein und __sehr langsam__ werden, oder sogar völlig blockiert bei einer massiven Besucherzahl.
 
@@ -21,10 +25,6 @@ Die auf dieser Seite beschriebenen Vorgänge können __Ihre MoodleBox unbrauchba
 
 Wir übernehmen keine Verantwortung für direkte oder indirekte Schäden, die durch die Nutzung der MoodleBox, insbesondere nach einer Konfigurationsänderung zur Veröffentlichung der MoodleBox im Internet, entstehen.
 {{< /notice >}}
-
-Die MoodleBox wurde nicht so konzipiert, dass sie eine Moodle-Plattform zur Verfügung stellt, die dauerhaft über das Internet zugänglich ist, wie es normalerweise bei einem Moodle-Server der Fall ist. Für spezielle Anwendungsfälle kann diese Funktion jedoch nützlich sein.
-
-Es ist möglich, eine MoodleBox so zu konfigurieren, dass sie direkt aus dem Internet zugänglich ist, vorausgesetzt, Sie verfügen über __gute Kenntnisse in der Systemadministration__.
 
 ### Voraussetzungen
 
@@ -43,6 +43,10 @@ Diese Dokumentation beschreibt nicht, wie man einen Domänennamen verwaltet, wie
 #### Schritt 1: Domain-Name der MoodleBox ändern
 
 Beachten Sie die [entsprechende Dokumentationsseite][2]. Spezifizieren Sie den Domänennamen, für den Sie Administratorrechte haben. Es ist auch möglich, eine Subdomain zu verwenden, z.B.: `learn.example.com`.
+
+{{< notice tip >}}
+Dieser Schritt ist entscheidend, da er das [domain name masquerading](https://docs.moodle.org/en/Masquerading) konfiguriert, das für die einwandfreie Funktion von Moodle erforderlich ist.
+{{< /notice >}}
 
 #### Schritt 2: Web-Traffic zur MoodleBox zulassen
 
@@ -76,3 +80,4 @@ Dieser Schritt ist nicht erforderlich. Es wird jedoch __sehr dringend empfohlen_
  [2]: {{< relref "domain-name-change.md" >}}
  [3]: https://www.fail2ban.org/
  [4]: https://github.com/moodlebox/moodlebox/issues/27#issuecomment-326818647
+ [5]: https://docs.moodle.org/en/Masquerading
