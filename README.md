@@ -16,7 +16,7 @@ __Note:__ _It's important that the versions of the web site in different languag
 
 1. Fork this repository by clicking "Fork" in the top right corner of this page.
 1. Clone your fork to your computer: `git clone https://github.com/<your-username>/moodlebox.net`.
-1. Duplicate the folder containing the english content of the website. This folder is located here: `content/en`. Rename the duplicated folder with your language [ISO code](https://www.w3schools.com/tags/ref_language_codes.asp), e.g. `es` for Spanish, `ja` for Japanese, `zh` for Chinese, `ru` for russian, etc. Don't change the hierarchic structure of your new folder.
+1. On your computer, duplicate the folder containing the english content of the website. This folder is located here: `content/en`. Rename the duplicated folder with your language [ISO code](https://www.w3schools.com/tags/ref_language_codes.asp), e.g. `es` for Spanish, `ja` for Japanese, `zh` for Chinese, `ru` for russian, etc. Don't change the hierarchic structure of your new folder.
 1. Open the page(s) you want to translate with a text editor, translate it (them) and save. __Do not change the filenames.__ Then commit your changes, e.g.: `git add content/es/<name-of-the-translated-page>.md ; git commit -a`. Don't commit the files you didn't translate yet.
 1. Push your changes to Github: `git push`.
 1. Create a pull request by visiting `https://github.com/<your-username>/moodlebox.net` and following the instructions at the top of the screen.
