@@ -24,7 +24,7 @@ Starting with version 3.5.2 of the MoodleBox image, information about whether an
 The interface name, usually `eth0`, as well as the IP address of the MoodleBox, obtained via DHCP, and the address of the default gateway are also displayed.
 {{< /notice >}}
 
-{{< figure src="ethernet-connexion.png" caption="Ethernet cable connected" class="centered-image" width="610px" >}}
+{{< figure src="ethernet-connexion.png" caption="Ethernet cable connected" class="centered-image" width="700px" >}}
 
 Have a look at the [MoodleBox network topology][1] for more information about this.
 

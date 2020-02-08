@@ -24,7 +24,7 @@ Si au contraire on veut utiliser la MoodleBox __sans connexion à Internet__, pa
 Le nom de l'interface, usuellement `eth0`, ainsi que l'adresse IP de la MoodleBox, obtenue via DHCP, et l'adresse de la passerelle par défaut y sont également affichés.
 {{< /notice >}}
 
-{{< figure src="ethernet-connexion.png" caption="Câble ethernet connecté" class="centered-image" width="610px" >}}
+{{< figure src="ethernet-connexion.png" caption="Câble ethernet connecté" class="centered-image" width="700px" >}}
 
 Pour en savoir plus à ce sujet, jetez un œil à la [topologie du réseau de la MoodleBox][1].
 
