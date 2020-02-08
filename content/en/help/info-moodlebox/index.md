@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-11-12
-lastmod: 2019-04-16
+lastmod: 2020-02-08
 description: MoodleBox comes with a dashboard to display different information about the hardware and software installed.
 slug: moodlebox-dashboard
 weight: 10
@@ -22,7 +22,7 @@ When the MoodleBox power supply is not adequate, a __warning is displayed at the
 
 The dashboard provides access to important information on the operation of the MoodleBox.
 
-{{< figure src="info-moodlebox.png" width="750" caption="MoodleBox information" class="centered-image" >}}
+{{< figure src="info-moodlebox.png" width="800" caption="MoodleBox information" class="centered-image" >}}
 
 The dashboard also allows you to perform the following operations.
 

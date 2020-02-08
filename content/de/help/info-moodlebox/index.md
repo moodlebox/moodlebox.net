@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-13
-lastmod: 2019-04-16
+lastmod: 2020-02-08
 description: MoodleBox wird mit einem Dashboard ausgestattet, um verschiedene Informationen über die installierte Hard- und Software anzuzeigen.
 slug: moodlebox-dashboard
 weight: 10
@@ -24,7 +24,7 @@ Wenn die Stromversorgung der MoodleBox nicht ausreichend ist, wird __oben auf je
 
 Das Dashboard bietet Zugang zu wichtigen Informationen über die Funktionen der MoodleBox.
 
-{{< figure src="info-moodlebox.png" width="750" caption="MoodleBox Informationen" class="centered-image" >}}
+{{< figure src="info-moodlebox.png" width="800" caption="MoodleBox Informationen" class="centered-image" >}}
 
 Das Dashboard ermöglicht es Ihnen auch, die folgenden Aktionen durchzuführen.
 

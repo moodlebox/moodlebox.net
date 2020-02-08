@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-11-12
-lastmod: 2019-04-16
+lastmod: 2020-02-08
 description: MoodleBox est fournie avec un tableau de bord permettant d'afficher différentes informations sur le matériel et le logiciel installé.
 slug: tableau-de-bord
 weight: 10
@@ -22,7 +22,7 @@ Lorsque l'alimentation de la MoodleBox est insuffisante, __un avertissement est 
 {{< /notice >}}
 
 Le tableau de bord donne accès aux informations importantes sur le fonctionnement de la MoodleBox.
-{{< figure src="info-moodlebox.png" width="750" caption="Informations MoodleBox" class="centered-image" >}}
+{{< figure src="info-moodlebox.png" width="800" caption="Informations MoodleBox" class="centered-image" >}}
 
 Il permet également d'effectuer les opérations ci-dessous.
 
