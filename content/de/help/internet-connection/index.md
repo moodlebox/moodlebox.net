@@ -25,7 +25,7 @@ Ab Version 3.5.2 des MoodleBox-Images werden Informationen darüber, ob ein Ethe
 Der Name der Interface, normalerweise `eth0`, sowie die IP-Adresse der MoodleBox, die über DHCP ermittelt wurde, und die Adresse des Default-Gateways werden ebenfalls angezeigt.
 {{< /notice >}}
 
-{{< figure src="ethernet-connexion.png" caption="Ethernet-Kabel angeschlossen" caption-position="bottom" caption-effect="appear" width="610px" >}}
+{{< figure src="ethernet-connexion.png" caption="Ethernet-Kabel angeschlossen" class="centered-image" width="610px" >}}
 
 Weitere Informationen hierzu finden Sie in der [MoodleBox Netzwerktopologie][1].
 
