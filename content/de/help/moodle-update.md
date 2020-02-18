@@ -6,13 +6,19 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2019-12-23
+lastmod: 2020-02-18
 description: Möchten Sie Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 slug: moodle-aktualisieren
 categories:
   - Maintenance
 
 ---
+{{< notice warning >}}
+Bevor Sie Ihre Version von Moodle aktualisieren, stellen Sie sicher, dass die Serveranforderungen auf Ihrem MoodleBox erfüllt sind. Melden Sie sich dazu bei Moodle an, besuchen Sie [Website-Administration > Server > Serverkonfiguration](http://moodlebox.home/admin/environment.php), klicken Sie auf _Komponente aktualisieren_, dann überprüfen Sie, dass keine Zeile in rot _Prüfen_ sagt.
+
+Warnungen _site nicht https_ und _php nicht 64 bit_ sind kein Problem und können ignoriert werden.
+{{< /notice >}}
+
 Für eine Aktualisierung führen Sie folgende Anweisungen über die Kommandozeile im Terminal aus.
 
 Erstens [verbinden Sie sich mit der MoodleBox über SSH][2] und geben Sie Ihr Kennwort ein. Falls Sie [das Kennwort noch nicht geändert][3] haben, müssen sie natürlich [das standardmäßige Kennwort][4] __Moodlebox4$__ eingeben.
@@ -44,7 +50,7 @@ sudo -u moodlebox -g www-data git checkout MOODLE_38_STABLE
 
 Öffnen Sie auch hier die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede beliebige Moodle-Installation. ([Weitere Infos in der Dokumentation][update]).
 
-{{< notice warning >}}
+{{< notice tip >}}
 Wenn Sie eine MoodleBox Version 2.5.0 und früher haben, verwenden Sie `sudo -u www-data git ...` anstelle von `sudo -u moodlebox -g www-data git ...` in den oben angegebenen Anweisungen.
 {{< /notice >}}
 

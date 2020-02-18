@@ -5,16 +5,21 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-20
-lastmod: 2019-12-23
+lastmod: 2020-02-18
 description: Want to update Moodle on the MoodleBox? Follow these instructions
 slug: moodle-version-update
 categories:
   - Maintenance
-
 ---
+{{< notice warning >}}
+Before updating your version of Moodle, make sure that the server requirements are met on your MoodleBox. To do this, log in to Moodle, visit [Site Administration > Server > Environment](http://moodlebox.home/admin/environment.php), click on _Update component_, then check that no line says _Check_ in red.
+
+Warnings _site not https_ and _php not 64 bits_ are not a problem and can be ignored.
+{{< /notice >}}
+
 To update Moodle, perform the following operations, using the command line.
 
-First [log into the MoodleBox via SSH][2], with your admin password. [If you didn't change it][3] yet, use [the default main][4] password __Moodlebox4$__.
+First [log into the MoodleBox via SSH][2], with the main password. [If you didn't change it][3] yet, use [the default main][4] password __Moodlebox4$__.
 
 ```bash
 ssh moodlebox@moodlebox.home
@@ -43,7 +48,7 @@ sudo -u moodlebox -g www-data git checkout MOODLE_38_STABLE
 
 Then visit the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the documentation][update]).
 
-{{< notice warning >}}
+{{< notice tip >}}
 If you have a MoodleBox version 2.5.0 and earlier, use `sudo -u www-data git ...` instead of `sudo -u moodlebox -g www-data git ...` in the all the commands above.
 {{< /notice >}}
 
