@@ -1,5 +1,6 @@
+---
+os: linux
 dist: bionic
-sudo: required
 
 language: node_js
 node_js:
@@ -23,13 +24,13 @@ script:
 
 deploy:
   provider: script
-  skip-cleanup: true
+  skip_cleanup: true
   script: rsync -r --quiet --delete-after ${TRAVIS_BUILD_DIR}/public/* ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_DIRECTORY}
   on:
     branch: master
 
 env:
-  matrix:
+  jobs:
     - PRODUCTION=true
   global:
     - HUGO_RELEASE=0.63.2
