@@ -29,10 +29,10 @@ sudo systemctl stop nodogsplash
 Lors des démarrages suivants de la MoodleBox, l'état actif ou inactif du portail captif reste celui qui a été choisi en dernier.
 
 {{< notice info >}}
-Le portail captif ne fonctionne que __si la MoodleBox est connectée à Internet__. Dans le cas contraire, les utilisateurs [se connectant au réseau Wi-Fi]({{< relref "wi-fi-connection" >}}) de la MoodleBox ne seront pas interceptés par le portail captif.
+Le portail captif ne fonctionne que __si la MoodleBox est connectée à Internet__. Dans le cas contraire, les utilisateurs [se connectant au réseau Wi-Fi]({{< relref "help/wi-fi-connection" >}}) de la MoodleBox ne seront pas interceptés par le portail captif.
 {{< /notice >}}
 
  [1]: https://fr.wikipedia.org/wiki/Portail_captif
  [2]: https://nodogsplashdocs.readthedocs.io/
- [3]: {{< relref "command-line-access" >}}
- [4]: {{< relref "wi-fi-connection" >}}
+ [3]: {{< relref "help/command-line-access" >}}
+ [4]: {{< relref "help/wi-fi-connection" >}}

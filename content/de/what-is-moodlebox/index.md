@@ -34,5 +34,5 @@ Die MoodleBox wird verwendet, um Online-Lernen und Online-Lehren zu unterstütze
 Die MoodleBox bietet kleinen Gruppen (mit bis zu 20 oder 30 Teilnehmern) die Möglichkeit, in einer Lernplattform zu arbeiten, ohne ein aufwendiges Setup zu erfordern.
 
  [1]: https://moodle.org/
- [2]: {{< relref "hardware" >}}
+ [2]: {{< relref "help/hardware" >}}
  [3]: https://www.raspberrypi.org

@@ -23,7 +23,7 @@ Scénario 2
 
 {{< notice warning >}}
 - Il n'est pas possible de copier un cours d'une version plus récente de Moodle vers une version plus ancienne de Moodle. Avant de commencer les opérations décrites ci-dessous, il faut donc s'assurer que la version du Moodle de la MoodleBox cible soit __égale ou plus récente__ que celle du serveur Moodle source (sur une autre MoodleBox ou sur le serveur de votre école).
-- Si votre cours dépasse une taille de 50 Mo, il faut <a href="{{< relref "using-files-with-the-moodlebox" >}}">utiliser une clef USB ou l'option de serveur SFTP</a> de la MoodleBox pour pouvoir le restaurer.
+- Si votre cours dépasse une taille de 50 Mo, il faut <a href="{{< relref "help/using-files-with-the-moodlebox" >}}">utiliser une clef USB ou l'option de serveur SFTP</a> de la MoodleBox pour pouvoir le restaurer.
 {{< /notice >}}
 
 Le processus de copie d'un cours d'un Moodle vers une MoodleBox est exactement le même qu'avec n'importe quel serveur Moodle. Il s'agit dans un premier temps d'effectuer sur le serveur Moodle de l'école ou de la première MoodleBox une [sauvegarde du cours (backup)][backup] que l'on veut copier, de l'enregistrer sur un support adéquat, puis de [restaurer cette sauvegarde][restore] sur la MoodleBox cible.
@@ -47,7 +47,7 @@ Pour plus d'aide sur cette étape, consultez la [documentation officielle Moodle
 
 Pour plus d'aide sur cette étape, consultez la [documentation officielle Moodle sur la restauration de cours][restore].
 
-  [bigfile]: {{< relref "using-files-with-the-moodlebox" >}}
+  [bigfile]: {{< relref "help/using-files-with-the-moodlebox" >}}
   [backup]: https://docs.moodle.org/fr/Sauvegarde_de_cours
   [restore]: https://docs.moodle.org/fr/Restauration_de_cours
   [restoreadmin]: http://moodlebox.home/backup/restorefile.php?contextid=1

@@ -29,6 +29,6 @@ The initial Moodle installation has only one account (administrator) and no cour
 The username __admin__, deprecated since version 2.5.2, is no longer installed as of version 3.0.0 of the MoodleBox.
 {{< /notice >}}
 
- [1]: {{< relref "wi-fi-connection" >}}
+ [1]: {{< relref "help/wi-fi-connection" >}}
  [2]: http://moodlebox.home/
  [3]: https://docs.moodle.org/en/Admin_quick_guide

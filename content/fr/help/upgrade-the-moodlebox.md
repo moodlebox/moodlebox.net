@@ -28,5 +28,5 @@ Pour cette opération, la MoodleBox doit être connectée à Internet au moyen d
 4. Cette opération durera quelques minutes. La durée dépend du nombre des logiciels à mettre à jour, de votre bande passante Internet et de la qualité de votre carte microSD.
 5. Lorsque la mise à jour se termine, tapez `exit`, et confirmer avec la touche Retour.
 
- [1]: {{< relref "command-line-access.md" >}}
- [2]: {{< relref "credentials.md" >}}
+ [1]: {{< relref "help/command-line-access" >}}
+ [2]: {{< relref "help/credentials" >}}

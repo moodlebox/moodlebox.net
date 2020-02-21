@@ -40,4 +40,4 @@ Les données personnelles sont collectées sur notre site par Nicolas Martignoni
 Cette politique de confidentialité a été modifiée pour la dernière fois le {{< lastmod >}}.
 {{< /notice >}}
 
- [1]: {{< relref "contact.md" >}}
+ [1]: {{< relref "contact" >}}

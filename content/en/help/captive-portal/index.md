@@ -29,10 +29,10 @@ sudo systemctl stop nodogsplash
 When the MoodleBox is started again, the active or inactive state of the captive portal remains the one that was last selected.
 
 {{< notice info >}}
-The captive portal only works __if the MoodleBox is connected to the Internet__. Otherwise, users [connecting to the Wi-Fi network]({{< relref "wi-fi-connection" >}}) of the MoodleBox will not be intercepted by the captive portal.
+The captive portal only works __if the MoodleBox is connected to the Internet__. Otherwise, users [connecting to the Wi-Fi network]({{< relref "help/wi-fi-connection" >}}) of the MoodleBox will not be intercepted by the captive portal.
 {{< /notice >}}
 
  [1]: https://en.wikipedia.org/wiki/Captive_portal
  [2]: https://nodogsplashdocs.readthedocs.io/
- [3]: {{< relref "command-line-access" >}}
- [4]: {{< relref "wi-fi-connection" >}}
+ [3]: {{< relref "help/command-line-access" >}}
+ [4]: {{< relref "help/wi-fi-connection" >}}

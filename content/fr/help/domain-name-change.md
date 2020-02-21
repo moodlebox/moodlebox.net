@@ -61,6 +61,6 @@ Si vous voulez [utiliser HTTPS][3], vous devrez obtenir vos propres certificats 
 - [Changer le nom du réseau Wi-Fi][1] de la MoodleBox.
 - Rendre accessible la MoodleBox [depuis un réseau câblé Ethernet][2].
 
- [1]: {{< relref "wi-fi-configuration" >}}
- [2]: {{< relref "access-via-ethernet" >}}
- [3]: {{< relref "https-connection" >}}
+ [1]: {{< relref "help/wi-fi-configuration" >}}
+ [2]: {{< relref "help/access-via-ethernet" >}}
+ [3]: {{< relref "help/https-connection" >}}

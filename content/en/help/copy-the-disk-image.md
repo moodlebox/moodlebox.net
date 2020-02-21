@@ -24,7 +24,7 @@ If you prefer to use a command line interface to flash your card: extract the __
   * [Windows instructions][5]
   * [Linux instructions][6]
 
- [1]: {{< relref "download-the-disk-image.md" >}}
+ [1]: {{< relref "help/download-the-disk-image" >}}
  [2]: https://www.balena.io/etcher/
  [3]: https://www.raspberrypi.org/documentation/installation/installing-images/README.md
  [4]: https://www.raspberrypi.org/documentation/installation/installing-images/mac.md

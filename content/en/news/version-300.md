@@ -23,12 +23,12 @@ This version also provides a preliminary version of the MoodleBox update script.
 
 See the [release notes on Github][2] for all info about this release.
 
- [1]: {{< relref "download-the-disk-image" >}}
+ [1]: {{< relref "help/download-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v3.0.0
  [3]: https://moodle.org/
  [4]: https://www.raspberrypi.org/downloads/raspbian/
  [5]: https://moodle.org/plugins/tool_moodlebox
- [6]: {{< relref "access-to-the-database" >}}
+ [6]: {{< relref "help/access-to-the-database" >}}
  [7]: https://www.adminer.org/
  [8]: https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
- [9]: {{< relref "access-to-moodle" >}}
+ [9]: {{< relref "help/access-to-moodle" >}}

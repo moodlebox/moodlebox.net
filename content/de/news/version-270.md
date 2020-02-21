@@ -20,10 +20,10 @@ Diese Version enthält auch eine erste Version des MoodleBox-Update-Skripts. Das
 
 Alle Informationen über dieser Version finden Sie in den [Release Notes auf Github][2].
 
- [1]: {{< relref "download-the-disk-image.md" >}}
+ [1]: {{< relref "help/download-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.7.0
  [3]: https://moodle.org/
  [4]: https://www.raspberrypi.org/downloads/raspbian/
  [5]: https://moodle.org/plugins/tool_moodlebox
- [6]: {{< relref "captive-portal" >}}
- [7]: {{< relref "buttons-in-footer" >}}
+ [6]: {{< relref "help/captive-portal" >}}
+ [7]: {{< relref "help/buttons-in-footer" >}}

@@ -42,8 +42,8 @@ Ces données d'identification doivent être utilisées pour [accéder à l'inter
   * Nom d'utilisateur : __moodlebox__
   * Mot de passe : __Moodlebox4$__
 
- [1]: {{< relref "command-line-access" >}}
- [2]: {{< relref "using-files-with-the-moodlebox" >}}
- [3]: {{< relref "wi-fi-connection" >}}
- [4]: {{< relref "access-to-moodle" >}}
- [5]: {{< relref "access-to-the-database" >}}
+ [1]: {{< relref "help/command-line-access" >}}
+ [2]: {{< relref "help/using-files-with-the-moodlebox" >}}
+ [3]: {{< relref "help/wi-fi-connection" >}}
+ [4]: {{< relref "help/access-to-moodle" >}}
+ [5]: {{< relref "help/access-to-the-database" >}}

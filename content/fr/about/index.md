@@ -41,4 +41,4 @@ L'auteur ne s'engage par ailleurs à aucune correction de l'image-disque ou de c
  [ratna]: https://moodle.org/user/profile.php?id=41095
  [adpe]: https://adrianperez.me/
  [smallhacks]: https://github.com/smallhacks
- [image]: {{< relref "download-the-disk-image" >}}
+ [image]: {{< relref "help/download-the-disk-image" >}}

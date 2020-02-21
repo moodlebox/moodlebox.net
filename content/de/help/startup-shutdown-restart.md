@@ -53,6 +53,6 @@ Die Installation einer Hardwaretaste ist sehr einfach. Sie müssen lediglich ein
 {{< figure src="/img/media/hardware-button.jpg" thumb="-small" caption="Hardwaretaste" caption-position="bottom" caption-effect="appear" width="400px" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
- [2]: {{< relref "download-the-disk-image.md" >}}
+ [2]: {{< relref "help/download-the-disk-image" >}}
  [3]: https://www.aliexpress.com/item/5pcs-TTP223-TTP223B-Jog-digital-touch-sensor-capacitive-touch-touch-switch-modules-Accessories/32694092023.html
  [4]: https://www.aliexpress.com/item/40pcs-lot-10cm-2-54mm-1pin-feMale-to-feMale-jumper-wire-Dupont-cable/32800215149.html

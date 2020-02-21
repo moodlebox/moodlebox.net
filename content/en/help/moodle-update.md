@@ -53,8 +53,8 @@ If you have a MoodleBox version 2.5.0 and earlier, use `sudo -u www-data git ...
 {{< /notice >}}
 
  [update]: https://docs.moodle.org/en/Upgrading
- [2]: {{< relref "command-line-access.md" >}}
- [3]: {{< relref "change-password.md" >}}
- [4]: {{< relref "credentials.md" >}}
+ [2]: {{< relref "help/command-line-access" >}}
+ [3]: {{< relref "help/change-password" >}}
+ [4]: {{< relref "help/credentials" >}}
 
  [^1]: In order to allow a simplified update of Moodle, its installation was done using Git.

@@ -19,7 +19,7 @@ Simply connect the MoodleBox with an Ethernet cable to a network that has Intern
 If however, you want to use the MoodleBox __without an Internet connection__, for example for activities such as an escape game or assessments where student access to the Internet is not desired, simply disconnect the Ethernet cable from the MoodleBox. Without an Ethernet cable connection, devices connected via Wi-Fi can only access the resources available on the MoodleBox.
 
 {{< notice note >}}
-Starting with version 3.5.2 of the MoodleBox image, information about whether an Ethernet cable is connected is displayed on the [MoodleBox dashboard]({{< relref "info-moodlebox" >}}).
+Starting with version 3.5.2 of the MoodleBox image, information about whether an Ethernet cable is connected is displayed on the [MoodleBox dashboard]({{< relref "help/info-moodlebox" >}}).
 
 The interface name, usually `eth0`, as well as the IP address of the MoodleBox, obtained via DHCP, and the address of the default gateway are also displayed.
 {{< /notice >}}
@@ -28,5 +28,5 @@ The interface name, usually `eth0`, as well as the IP address of the MoodleBox, 
 
 Have a look at the [MoodleBox network topology][1] for more information about this.
 
- [1]: {{< relref "network-topology.md" >}}
- [2]: {{< relref "info-moodlebox" >}}
+ [1]: {{< relref "help/network-topology" >}}
+ [2]: {{< relref "help/info-moodlebox" >}}

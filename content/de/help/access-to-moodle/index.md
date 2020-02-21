@@ -31,6 +31,6 @@ Die Moodle-Plattform hat genau ein Nutzerkonto (Administrator), wenn es bereit g
 Der seit Version 2.5.2 deprecated Benutzername __admin__ wird ab Version 3.0.0 der MoodleBox nicht mehr installiert.
 {{< /notice >}}
 
- [1]: {{< relref "wi-fi-connection" >}}
+ [1]: {{< relref "help/wi-fi-connection" >}}
  [2]: http://moodlebox.home/
  [3]: https://docs.moodle.org/de/Kurzanleitung_für_Administrator/innen

@@ -15,7 +15,7 @@ La [version 2.4.0][2] de l'[image of the MoodleBox][2] est publiée aujourd'hui.
 
 Consultez les [notes de mise à jour sur Github][2] pour plus de détails sur la totalité des modifications de cette version.
 
- [1]: {{< relref "download-the-disk-image.md" >}}
+ [1]: {{< relref "help/download-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.4.0
  [3]: https://www.raspberrypi.org/downloads/raspbian/
  [4]: https://moodle.org/

@@ -77,7 +77,7 @@ Dieser Schritt ist nicht erforderlich. Es wird jedoch __sehr dringend empfohlen_
 4. [HTTPS aktivieren][4] auf dem nginx-Webserver der MoodleBox, z.B. mit LetsEncrypt-Zertifikaten. Vergessen Sie in diesem Fall nicht, den Port 443 (https) Datenverkehr auf Ihren Router umzuleiten (siehe oben).
 
  [1]: https://en.wikipedia.org/wiki/Dynamic_DNS
- [2]: {{< relref "domain-name-change.md" >}}
+ [2]: {{< relref "help/domain-name-change" >}}
  [3]: https://www.fail2ban.org/
  [4]: https://github.com/moodlebox/moodlebox/issues/27#issuecomment-326818647
  [5]: https://docs.moodle.org/en/Masquerading

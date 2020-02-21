@@ -53,8 +53,8 @@ Si vous possédez une version de MoodleBox version 2.5.0 ou antérieure, utilise
 {{< /notice >}}
 
  [update]: https://docs.moodle.org/fr/Mise_à_jour
- [2]: {{< relref "command-line-access.md" >}}
- [3]: {{< relref "change-password.md" >}}
- [4]: {{< relref "credentials.md" >}}
+ [2]: {{< relref "help/command-line-access" >}}
+ [3]: {{< relref "help/change-password" >}}
+ [4]: {{< relref "help/credentials" >}}
 
  [^1]: Afin de permettre une mise à jour simplifiée de Moodle, son installation a été faite au moyen de Git.

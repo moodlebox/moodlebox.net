@@ -19,7 +19,7 @@ Die [Version 3.6.0][2] des [Disk-Image der MoodleBox][1] wurde gerade veröffent
 
 Alle Informationen über dieser Version finden Sie in den [Release Notes auf Github][2].
 
- [1]: {{< relref "download-the-disk-image" >}}
+ [1]: {{< relref "help/download-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v3.6.0
  [moodle]: https://moodle.org/
  [plugin]: https://moodle.org/plugins/tool_moodlebox

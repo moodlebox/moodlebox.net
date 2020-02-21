@@ -40,4 +40,4 @@ Personal data is collected on our site by Nicolas Martignoni, Maintainer of the 
 This privacy policy was last modified on {{< lastmod >}}.
 {{< /notice >}}
 
- [1]: {{< relref "contact.md" >}}
+ [1]: {{< relref "contact" >}}

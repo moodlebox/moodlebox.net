@@ -29,9 +29,9 @@ sudo systemctl stop nodogsplash
 Wenn die MoodleBox erneut gestartet wird, bleibt der aktive oder inaktive Zustand des Captive-Portals derjenige, der zuletzt ausgewählt wurde.
 
 {{< notice info >}}
-Das Captive-Portal funktioniert nur dann, wenn die MoodleBox mit dem Internet verbunden ist. Andernfalls werden Benutzer [die sich mit dem Wi-Fi-Netzwerk verbinden]({{< relref "wi-fi-connection" >}}) der MoodleBox nicht vom Captive-Portal abgefangen.
+Das Captive-Portal funktioniert nur dann, wenn die MoodleBox mit dem Internet verbunden ist. Andernfalls werden Benutzer [die sich mit dem Wi-Fi-Netzwerk verbinden]({{< relref "help/wi-fi-connection" >}}) der MoodleBox nicht vom Captive-Portal abgefangen.
 {{< /notice >}}
 
  [1]: https://de.wikipedia.org/wiki/Captive_Portal
  [2]: https://nodogsplashdocs.readthedocs.io/
- [3]: {{< relref "command-line-access" >}}
+ [3]: {{< relref "help/command-line-access" >}}

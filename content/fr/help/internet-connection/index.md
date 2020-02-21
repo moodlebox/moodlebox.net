@@ -19,7 +19,7 @@ Il suffit de brancher la MoodleBox à un réseau ayant lui-même accès à Inter
 Si au contraire on veut utiliser la MoodleBox __sans connexion à Internet__, par exemple pour des activités telle qu'un _escape game_ ou des évaluations pour lesquelles l'accès à Internent des étudiants n'est pas désiré, il suffit de déconnecter le câble Ethernet de la MoodleBox. Sans connexion d'un câble Ethernet, les appareils connectés via Wi-Fi ne peuvent accéder qu'aux ressources disponibles sur la MoodleBox.
 
 {{< notice note >}}
-À partir de la version 3.5.2 de l'image MoodleBox, l'information indiquant si un câble Ethernet est branché est affichée sur le [tableau de bord de la MoodleBox]({{< relref "info-moodlebox" >}}).
+À partir de la version 3.5.2 de l'image MoodleBox, l'information indiquant si un câble Ethernet est branché est affichée sur le [tableau de bord de la MoodleBox]({{< relref "help/info-moodlebox" >}}).
 
 Le nom de l'interface, usuellement `eth0`, ainsi que l'adresse IP de la MoodleBox, obtenue via DHCP, et l'adresse de la passerelle par défaut y sont également affichés.
 {{< /notice >}}
@@ -28,5 +28,5 @@ Le nom de l'interface, usuellement `eth0`, ainsi que l'adresse IP de la MoodleBo
 
 Pour en savoir plus à ce sujet, jetez un œil à la [topologie du réseau de la MoodleBox][1].
 
- [1]: {{< relref "network-topology" >}}
- [2]: {{< relref "info-moodlebox" >}}
+ [1]: {{< relref "help/network-topology" >}}
+ [2]: {{< relref "help/info-moodlebox" >}}

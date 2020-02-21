@@ -22,9 +22,9 @@ This version __cannot be automatically updated with the update script__ under de
 
 See the [release notes on Github][2] for more info about all changes to this version.
 
- [1]: {{< relref "download-the-disk-image.md" >}}
+ [1]: {{< relref "help/download-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.6.0
  [3]: https://moodle.org/plugins/tool_moodlebox
  [4]: https://www.raspberrypi.org/downloads/raspbian/
- [5]: {{< relref "moodle-update.md" >}}
+ [5]: {{< relref "help/moodle-update" >}}
  [6]: https://moodle.org/

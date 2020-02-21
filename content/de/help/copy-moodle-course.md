@@ -23,7 +23,7 @@ Szenario 2
 
 {{< notice warning >}}
 - Es ist nicht möglich, einen Kurs von einer neueren Version von Moodle auf eine ältere Version von Moodle zu kopieren. Bevor Sie mit den nachfolgend beschriebenen Aktionen beginnen, ist es daher notwendig, sicherzustellen, dass die Moodle-Version der Ziel-MoodleBox __gleich oder neuer__ ist als die des Quell-Moodle-Servers (auf einer anderen MoodleBox oder auf Ihrem Schulserver).
-- Wenn Ihr Kurs eine Größe von 50 MB überschreitet, müssen Sie <a href="{{< relref "using-files-with-the-moodlebox" >}}">einen USB-Stick oder die SFTP-Serveroption der MoodleBox verwenden</a>, um ihn wiederherzustellen.
+- Wenn Ihr Kurs eine Größe von 50 MB überschreitet, müssen Sie <a href="{{< relref "help/using-files-with-the-moodlebox" >}}">einen USB-Stick oder die SFTP-Serveroption der MoodleBox verwenden</a>, um ihn wiederherzustellen.
 {{< /notice >}}
 
 Der Prozess des Kopierens eines Kurses von einer Moodle zu einer MoodleBox ist genau derselbe wie bei jedem Moodle-Server. Der erste Schritt besteht darin, ein [Kurs-Backup][Backup] auf dem Moodle-Server der Schule oder der ersten MoodleBox, die Sie kopieren möchten, zu erstellen, sie auf einem geeigneten Medium zu speichern und dann [dieses Backup wiederherzustellen][Restore] auf der Ziel-MoodleBox.
@@ -47,7 +47,7 @@ Weitere Hilfe zu diesem Schritt finden Sie in der [offiziellen Moodle-Dokumentat
 
 Weitere Hilfe zu diesem Schritt finden Sie in der [offiziellen Moodle-Dokumentation zur Kurswiederherstellung][Wiederherstellung].
 
-  [bigfile]: {{< relref "using-files-with-the-moodlebox" >}}
+  [bigfile]: {{< relref "help/using-files-with-the-moodlebox" >}}
   [backup]: https://docs.moodle.org/de/Kurssicherung
   [restore]: https://docs.moodle.org/de/Kurswiederherstellung
   [restoreadmin]: http://moodlebox.home/backup/restorefile.php?contextid=1

@@ -20,6 +20,6 @@ La version 2.6.0 de l'image de la MoodleBox, publiée le 3 décembre 2018, __ne 
 
 Consultez les [notes de mise à jour sur Github][2] pour tous les détails de cette version.
 
- [1]: {{< relref "download-the-disk-image.md" >}}
+ [1]: {{< relref "help/download-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.6.2
  [3]: https://moodle.org/

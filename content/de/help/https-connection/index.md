@@ -31,8 +31,8 @@ Um sich über HTTPS mit der MoodleBox zu verbinden, ohne ein Warnungsfenster anz
 
 Die Installation des CA-Zertifikats ist abhängig vom Browser und Betriebssystem.
 
-- [Installation auf macOS]({{< relref "install-certificate-macos" >}})
-- [Installation auf Windows]({{< relref "install-certificate-windows" >}})
+- [Installation auf macOS]({{< relref "help/install-certificate-macos" >}})
+- [Installation auf Windows]({{< relref "help/install-certificate-windows" >}})
 
 [project]: {{< relref "/project" >}}
-[ssh-connect]: {{< relref "command-line-access" >}}
+[ssh-connect]: {{< relref "help/command-line-access" >}}

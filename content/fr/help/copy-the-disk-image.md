@@ -24,7 +24,7 @@ Si vous préférez utiliser la ligne de commande pour copier l'image-disque sur 
   * [Instructions pour Windows][5]
   * [Instructions pour Linux][6]
 
- [1]: {{< relref "download-the-disk-image.md" >}}
+ [1]: {{< relref "help/download-the-disk-image" >}}
  [2]: https://www.balena.io/etcher/
  [3]: https://www.raspberrypi.org/documentation/installation/installing-images/README.md
  [4]: https://www.raspberrypi.org/documentation/installation/installing-images/mac.md

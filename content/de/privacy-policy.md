@@ -40,4 +40,4 @@ Personenbezogene Daten werden auf unserer Website erhoben von Nicolas Martignoni
 Diese Datenschutzerklärung wurde zuletzt geändert am {{< lastmod >}}.
 {{< /notice >}}
 
- [1]: {{< relref "contact.md" >}}
+ [1]: {{< relref "contact" >}}

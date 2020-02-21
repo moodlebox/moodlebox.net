@@ -34,6 +34,6 @@ Das Dashboard ermöglicht es Ihnen auch, die folgenden Aktionen durchzuführen.
 - [Neustart oder Herunterfahren][5] der MoodleBox
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
- [3]: {{< relref "change-password" >}}
- [4]: {{< relref "wi-fi-configuration" >}}
- [5]: {{< relref "startup-shutdown-restart" >}}
+ [3]: {{< relref "help/change-password" >}}
+ [4]: {{< relref "help/wi-fi-configuration" >}}
+ [5]: {{< relref "help/startup-shutdown-restart" >}}

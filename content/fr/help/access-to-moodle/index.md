@@ -29,6 +29,6 @@ L'installation initiale de Moodle ne comporte qu'un seul compte utilisateur (un 
 Le nom d'utilisateur __admin__, déconseillé depuis la version 2.5.1, n'est plus valable depuis la version 3.0.0 de la MoodleBox.
 {{< /notice >}}
 
- [1]: {{< relref "wi-fi-connection" >}}
+ [1]: {{< relref "help/wi-fi-connection" >}}
  [2]: http://moodlebox.home/
  [3]: https://docs.moodle.org/fr/Guide_rapide_d'administration

@@ -28,5 +28,5 @@ For this operation, the MoodleBox must be connected to the Internet via Ethernet
   4. This operation will take a couple of minutes. The duration depends on the number of the softwares to update, on your Internet bandwidth and on the quality of your microSD card.
   5. At the end of the update process, type `exit`, and confirm with Return.
 
- [1]: {{< relref "command-line-access.md" >}}
- [2]: {{< relref "credentials.md" >}}
+ [1]: {{< relref "help/command-line-access" >}}
+ [2]: {{< relref "help/credentials" >}}

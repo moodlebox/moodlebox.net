@@ -32,6 +32,6 @@ The password for the Moodle administrator account __is not changed__ by this ope
  [2]: http://moodlebox.home/
  [3]: http://moodlebox.home/user/preferences.php
  [4]: http://moodlebox.home/login/change_password.php
- [5]: {{< relref "command-line-access" >}}
- [6]: {{< relref "using-files-with-the-moodlebox" >}}
- [7]: {{< relref "access-to-the-database" >}}
+ [5]: {{< relref "help/command-line-access" >}}
+ [6]: {{< relref "help/using-files-with-the-moodlebox" >}}
+ [7]: {{< relref "help/access-to-the-database" >}}

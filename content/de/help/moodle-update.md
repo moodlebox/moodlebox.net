@@ -55,8 +55,8 @@ Wenn Sie eine MoodleBox Version 2.5.0 und früher haben, verwenden Sie `sudo -u 
 {{< /notice >}}
 
  [update]: https://docs.moodle.org/de/Aktualisierung_von_Moodle
- [2]: {{< relref "command-line-access.md" >}}
- [3]: {{< relref "change-password.md" >}}
- [4]: {{< relref "credentials.md" >}}
+ [2]: {{< relref "help/command-line-access" >}}
+ [3]: {{< relref "help/change-password" >}}
+ [4]: {{< relref "help/credentials" >}}
 
  [^1]: Um die Aktualisierung von Moodle auf der MoodleBox möglichst einfach zu machen, wurde die Installation über Git durchgeführt.

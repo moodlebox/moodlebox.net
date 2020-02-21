@@ -20,7 +20,7 @@ Schließen Sie die MoodleBox einfach mit einem Ethernet-Kabel an ein Netzwerk mi
 Wenn Sie die MoodleBox jedoch __ohne Internetverbindung__ verwenden möchten, z.B. für Aktivitäten wie ein Escape Game oder Assessments, bei denen ein Internetzugang der Studierenden nicht erwünscht ist, trennen Sie einfach das Ethernet-Kabel von der MoodleBox. Ohne eine Ethernet-Kabelverbindung können über Wi-Fi angeschlossene Geräte nur auf die auf der MoodleBox verfügbaren Ressourcen zugreifen.
 
 {{< notice note >}}
-Ab Version 3.5.2 des MoodleBox-Images werden Informationen darüber, ob ein Ethernet-Kabel angeschlossen ist, auf dem [MoodleBox-Dashboard]({{{< relref "info-moodlebox" >}}) angezeigt.
+Ab Version 3.5.2 des MoodleBox-Images werden Informationen darüber, ob ein Ethernet-Kabel angeschlossen ist, auf dem [MoodleBox-Dashboard]({{{< relref "help/info-moodlebox" >}}) angezeigt.
 
 Der Name der Interface, normalerweise `eth0`, sowie die IP-Adresse der MoodleBox, die über DHCP ermittelt wurde, und die Adresse des Default-Gateways werden ebenfalls angezeigt.
 {{< /notice >}}
@@ -29,5 +29,5 @@ Der Name der Interface, normalerweise `eth0`, sowie die IP-Adresse der MoodleBox
 
 Weitere Informationen hierzu finden Sie in der [MoodleBox Netzwerktopologie][1].
 
- [1]: {{< relref "network-topology.md" >}}
- [2]: {{< relref "info-moodlebox" >}}
+ [1]: {{< relref "help/network-topology" >}}
+ [2]: {{< relref "help/info-moodlebox" >}}

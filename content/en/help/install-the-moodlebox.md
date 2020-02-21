@@ -51,13 +51,13 @@ There is no other manipulation to do: after the boot, your MoodleBox is ready an
 
 For more information, browse the [knowledge base][9].
 
- [1]: {{< relref "hardware" >}}
- [2]: {{< relref "download-the-disk-image" >}}
- [3]: {{< relref "copy-the-disk-image" >}}
- [4]: {{< relref "access-to-moodle" >}}
- [5]: {{< relref "wi-fi-connection" >}}
- [6]: {{< relref "wi-fi-configuration" >}}
- [7]: {{< relref "command-line-access" >}}
+ [1]: {{< relref "help/hardware" >}}
+ [2]: {{< relref "help/download-the-disk-image" >}}
+ [3]: {{< relref "help/copy-the-disk-image" >}}
+ [4]: {{< relref "help/access-to-moodle" >}}
+ [5]: {{< relref "help/wi-fi-connection" >}}
+ [6]: {{< relref "help/wi-fi-configuration" >}}
+ [7]: {{< relref "help/command-line-access" >}}
  [8]: {{< relref "/support-moodlebox" >}}
  [9]: {{< relref "/help" >}}
  [10]: https://www.balena.io/etcher/
