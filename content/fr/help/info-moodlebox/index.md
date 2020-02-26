@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-11-12
-lastmod: 2020-02-08
+lastmod: 2020-02-26
 description: MoodleBox est fournie avec un tableau de bord permettant d'afficher différentes informations sur le matériel et le logiciel installé.
 slug: tableau-de-bord
 weight: 10
@@ -17,10 +17,6 @@ categories:
 
 Le tableau de bord de la MoodleBox se trouve dans l'interface d'administration, sous [Administration du site > Serveur > MoodleBox][1]. Il n'est accessible que pour les administrateurs de la plateforme.
 
-{{< notice note >}}
-Lorsque l'alimentation de la MoodleBox est insuffisante, __un avertissement est affiché en haut de chaque page__. Cette avertissement n'est visible que pour l'administrateur. Les autres utilisateurs de la MoodleBox ne le voient pas.
-{{< /notice >}}
-
 Le tableau de bord donne accès aux informations importantes sur le fonctionnement de la MoodleBox.
 {{< figure src="info-moodlebox.png" width="800" caption="Informations MoodleBox" class="centered-image" >}}
 
@@ -30,6 +26,11 @@ Il permet également d'effectuer les opérations ci-dessous.
 - [Changer le mot de passe principal][3] de la MoodleBox
 - [Modifier la configuration du réseau Wi-Fi][4] fourni par la MoodleBox
 - [Redémarrer ou éteindre][5] la MoodleBox
+
+{{< notice note >}}
+Lorsque l'alimentation de la MoodleBox est insuffisante, __un avertissement est affiché en haut de chaque page__. Cette avertissement n'est visible que pour l'administrateur. Les autres utilisateurs de la MoodleBox ne le voient pas.
+{{< figure src="undervoltage.png" width="700" title="Avertissement d'alimentation insuffisante" class="centered-image" >}}
+{{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
  [3]: {{< relref "help/change-password" >}}
