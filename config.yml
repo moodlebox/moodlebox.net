@@ -29,9 +29,9 @@ preserveTaxonomyNames: true
 enableRobotsTXT: true
 
 # Disable taxonomy pages
-disableKinds:
-  - taxonomy
-  - taxonomyTerm
+# disableKinds:
+#   - taxonomy
+#   - taxonomyTerm
 
 # Disable incomplete languages
 #disableLanguages: [ "de" ]
