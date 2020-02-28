@@ -5,8 +5,8 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-02
-lastmod: 2020-02-12
-description: Das MoodleBox Disk-Image ist auf dieser Seite verfügbar.
+lastmod: 2020-02-28
+description: Das MoodleBox Disk-Image kann von dieser Seite frei heruntergeladen werden.
 slug: disk-image-herunterladen
 weight: 3
 categories:
@@ -38,13 +38,15 @@ aliases:
       Datum: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_date" >}}</strong>
     </div>
     <div class="image-details">
-      Update weitere Informationen: <strong><a href="https://github.com/moodlebox/moodlebox/blob/master/CHANGELOG.md" target="_blank">on Github</a></strong>
+      Update weitere Informationen: <strong><a href="https://github.com/moodlebox/moodlebox/blob/master/CHANGELOG.md" target="_blank">auf Github</a></strong>
     </div>
     <div class="image-details">
       SHA-256: <strong><a href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=1 >}}" target="_blank">{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=1 >}}</a></strong>
     </div>
     <div class="image-download-links">
-      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download"></i>Disk-Image herunterladen</a>
+      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download" aria-hidden="true"></i>Disk-Image herunterladen</a>
+      &nbsp;&nbsp;&nbsp;
+      <a class="btn" href="{{< relref "/support-moodlebox" >}}"><i class="fa fa-heart" aria-hidden="true"></i>Jetzt spenden</a>
     </div>
   </div>
 </div>
@@ -53,7 +55,7 @@ Folgen Sie nach dem Herunterladen des Disk-Images den Anweisungen für [Kopieren
 
 Wenn Sie möchten, können Sie die [Entwicklung der MoodleBox unterstützen][3], indem Sie eine [freiwillige Spende machen][3].
 
-Das MoodleBox Disk-Image wird auf der Basis der Distribution [Raspbian Lite für Raspberry Pi][6] gebaut.
+Das MoodleBox Disk-Image wird auf der Basis der Distribution [Raspbian Lite für Raspberry Pi][raspbian] gebaut.
 
 ### Probleme beim Herunterladen
 
@@ -66,12 +68,17 @@ wget -c {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
 oder mit diesem
 
 ```bash
-curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
+curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
 ```
+
+### Ältere Versionen des Disk-Images
+
+Die Disk-Images älterer Versionen von MoodleBox [sind auf Github verfügbar][releases].
 
  [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: {{< relref "help/startup-shutdown-restart" >}}
  [3]: {{< relref "/support-moodlebox" >}}
  [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
  [5]: {{< relref "help/install-the-moodlebox" >}}
- [6]: https://www.raspberrypi.org/downloads/raspbian/
+ [raspbian]: https://www.raspberrypi.org/downloads/raspbian/
+ [releases]: https://github.com/moodlebox/moodlebox/releases

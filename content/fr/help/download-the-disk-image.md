@@ -4,8 +4,8 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2020-02-12
-description: L'image-disque de la MoodleBox est disponible sur cette page.
+lastmod: 2020-02-28
+description: L'image-disque de la MoodleBox peut être téléchargée gratuitement et librement sur sur cette page.
 slug: telecharger-limage-disque
 weight: 3
 categories:
@@ -43,7 +43,9 @@ aliases:
       SHA-256 : <strong><a href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=1 >}}" target="_blank">{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=1 >}}</a></strong>
     </div>
     <div class="image-download-links">
-      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download"></i>Télécharger l'image</a>
+      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download" aria-hidden="true"></i>Télécharger l'image</a>
+      &nbsp;&nbsp;&nbsp;
+      <a class="btn" href="{{< relref "/support-moodlebox" >}}"><i class="fa fa-heart" aria-hidden="true"></i>Faire un don</a>
     </div>
   </div>
 </div>
@@ -52,11 +54,11 @@ Après avoir téléchargé l'image-disque, suivez les [instructions pour la copi
 
 Si vous le souhaitez, vous pouvez [soutenir le développement][3] de la MoodleBox en [faisant un don][3].
 
-L'image-disque MoodleBox est construite sur la base de la distribution [Raspbian Lite pour Raspberry Pi][6].
+L'image-disque MoodleBox est construite sur la base de la distribution [Raspbian Lite pour Raspberry Pi][raspbian].
 
 ### En cas de difficulté
 
-En cas de difficulté de téléchargement, utilisez la ligne de commande pour télécharger l'image-disque, soit avec la commande
+En cas de difficulté de téléchargement, utilisez la ligne de commande pour télécharger l'image-disque, soit avec la commande
 
 ```bash
 wget -c {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
@@ -65,12 +67,17 @@ wget -c {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
 soit avec celle-ci
 
 ```bash
-curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
+curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
 ```
+
+### Anciennes versions de l'image disque
+
+Les images disques des anciennes versions de MoodleBox [sont disponibles sur Github][releases].
 
  [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: {{< relref "help/startup-shutdown-restart" >}}
  [3]: {{< relref "/support-moodlebox" >}}
  [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
  [5]: {{< relref "help/install-the-moodlebox" >}}
- [6]: https://www.raspberrypi.org/downloads/raspbian/
+ [raspbian]: https://www.raspberrypi.org/downloads/raspbian/
+ [releases]: https://github.com/moodlebox/moodlebox/releases
