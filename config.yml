@@ -40,7 +40,7 @@ languages:
   en:
     languageName: English
     title: MoodleBox
-    description: A Moodle platform on Raspberry Pi
+    description: MoodleBox is a standalone small and cheap mobile device working without Internet. It combines a wireless access point with a full featured Moodle server.
     about: MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
     footertext: MoodleBox project is made by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
     copyright: Copyright © 2016 onwards
@@ -131,7 +131,7 @@ languages:
   fr:
     languageName: Français
     title: MoodleBox
-    description: Une plateforme Moodle sur Raspberry Pi
+    description: MoodleBox est un petit appareil mobile bon marché qui fonctionne sans Internet. Elle combine un point d’accès sans fils avec un serveur Moodle complet.
     about: MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
     footertext: MoodleBox est un projet réalisé par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
     copyright: Copyright © 2016 et suivantes
@@ -222,7 +222,7 @@ languages:
   de:
     languageName: Deutsch
     title: MoodleBox
-    description: Eine Moodle-Plattform auf dem Raspberry Pi
+    description: MoodleBox ist ein eigenständiges kleines und kostengünstiges mobiles Gerät, das ohne Internet funktioniert. Sie kombiniert einen WLAN-Access Point mit einem voll ausgestatteten Moodle-Server.
     about: MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
     footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
     copyright: Copyright © 2016 und später
@@ -332,7 +332,7 @@ menu:
 params:
   author: Nicolas Martignoni
   address: ''
-  defaultDescription: A Moodle platform on Raspberry Pi
+  defaultDescription: MoodleBox is a standalone small and cheap mobile device working without Internet. It combines a wireless access point with a full featured Moodle server.
   defaultKeywords:
   - MoodleBox
   - Moodle
