@@ -129,6 +129,14 @@ languages:
       subtitle: NGO and organizations using MoodleBox for their own projects
       title: Our users
 
+    sponsors:
+      enable: true
+      subtitle: MoodleBox is sponsored by [E-learning Touch'](https://www.elearningtouch.com/)
+      title: Our sponsor
+      name: E-learning Touch'
+      url: https://www.elearningtouch.com/
+      image: /img/media/elt.png
+
   fr:
     languageName: Français
     title: MoodleBox
@@ -221,6 +229,14 @@ languages:
       subtitle: ONG et organisations qui utilisent la MoodleBox pour leurs projets
       title: Nos utilisateurs
 
+    sponsors:
+      enable: true
+      subtitle: MoodleBox est parrainé par [E-learning Touch'](https://www.elearningtouch.com/)
+      title: Notre sponsor
+      name: E-learning Touch'
+      url: https://www.elearningtouch.com/
+      image: /img/media/elt.png
+
   de:
     languageName: Deutsch
     title: MoodleBox
@@ -312,6 +328,14 @@ languages:
       enable: true
       subtitle: NRO und Organisationen, die MoodleBox für eigene Projekte einsetzen
       title: Unsere Benutzer
+
+    sponsors:
+      enable: true
+      subtitle: MoodleBox wird von [E-learning Touch'](https://www.elearningtouch.com/) gesponsert
+      title: Unser Sponsor
+      name: E-learning Touch'
+      url: https://www.elearningtouch.com/
+      image: /img/media/elt.png
 
 menu:
   topbar:
