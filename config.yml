@@ -90,7 +90,7 @@ languages:
         url: /what-is-moodlebox/
         weight: 1
       - parent: about
-        name: Project
+        name: MoodleBox Project
         url: /project/
         weight: 3
       - parent: about
@@ -186,15 +186,15 @@ languages:
         weight: 3
 
       - parent: about
-        name: À propos de MoodleBox
+        name: "Qu'est-ce que MoodleBox ?"
         url: /moodlebox-cest-quoi/
         weight: 1
       - parent: about
-        name: Le projet
+        name: Le projet MoodleBox
         url: /projet/
         weight: 3
       - parent: about
-        name: "Qui sommes-nous ?"
+        name: À propos de nous
         url: /a-propos/
         weight: 5
       - parent: about
