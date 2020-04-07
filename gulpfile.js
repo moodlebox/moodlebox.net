@@ -63,4 +63,4 @@ gulp.task('clean', function () {
   ])
 })
 
-gulp.task('default', gulp.series('hugo', 'css', 'html', 'clean'))
+gulp.task('default', gulp.series('hugo', 'html', 'clean'))
