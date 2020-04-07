@@ -13,7 +13,9 @@
     "url": "https://github.com/moodlebox/moodlebox.net/issues"
   },
   "homepage": "https://moodlebox.net/",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-purgecss": "^2.1.0"
+  },
   "devDependencies": {
     "del": "^5.1.0",
     "gulp": "^4.0.2",

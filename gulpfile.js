@@ -8,6 +8,7 @@ var rename = require('gulp-ext-replace')
 var gulpif = require('gulp-if')
 var exec = require('child_process').exec
 var del = require('del')
+var purgecss = require('gulp-purgecss')
 
 gulp.task('reset', function () {
   return del([
@@ -17,12 +18,19 @@ gulp.task('reset', function () {
   ])
 })
 
-gulp.task('css', function () {
-  return gulp.src(['themes/hugo-moodlebox-theme/static/css/**/*.css', 'static/css/**/*.css'])
-    .pipe(gulpif(file => !(file.path.includes('.min.css')), rename('min.css')))
-    // .pipe(concat('main.css'))
-    .pipe(minify())
-    .pipe(gulp.dest('static/css'))
+// gulp.task('css', function () {
+//   return gulp.src(['themes/hugo-moodlebox-theme/static/css/**/*.css', 'static/css/**/*.css'])
+//     .pipe(gulpif(file => !(file.path.includes('.min.css')), rename('min.css')))
+//     // .pipe(concat('main.css'))
+//     .pipe(minify())
+//     .pipe(gulp.dest('static/css'))
+// })
+
+gulp.task('css', () => {
+  return gulp
+    .src('public/**/*.css')
+    .pipe(purgecss({content: ['public/**/*.html']}))
+    .pipe(gulp.dest('public'))
 })
 
 gulp.task('js', function () {
