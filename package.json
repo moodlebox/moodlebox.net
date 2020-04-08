@@ -14,7 +14,8 @@
   },
   "homepage": "https://moodlebox.net/",
   "dependencies": {
-    "gulp-purgecss": "^2.1.0"
+    "cssnano": "^4.1.10",
+    "purgecss": "^2.1.0"
   },
   "devDependencies": {
     "del": "^5.1.0",
