@@ -8,7 +8,6 @@ var rename = require('gulp-ext-replace')
 var gulpif = require('gulp-if')
 var exec = require('child_process').exec
 var del = require('del')
-var purgecss = require('gulp-purgecss')
 
 gulp.task('reset', function () {
   return del([
@@ -25,13 +24,6 @@ gulp.task('reset', function () {
 //     .pipe(minify())
 //     .pipe(gulp.dest('static/css'))
 // })
-
-gulp.task('css', () => {
-  return gulp
-    .src('public/**/*.css')
-    .pipe(purgecss({content: ['public/**/*.html']}))
-    .pipe(gulp.dest('public'))
-})
 
 gulp.task('js', function () {
   return gulp.src(['themes/hugo-moodlebox-theme/static/js/**/*.js', 'static/js/**/*.js'])
