@@ -1,6 +1,6 @@
 var gulp = require('gulp')
 // var concat = require('gulp-concat')
-var minify = require('gulp-clean-css')
+// var minify = require('gulp-clean-css')
 var uglify = require('gulp-uglify')
 var beautify = require('gulp-jsbeautifier')
 var replace = require('gulp-replace')
@@ -12,18 +12,11 @@ var del = require('del')
 gulp.task('reset', function () {
   return del([
     'public',
+    'resources',
     //'static/css/**/*.min.css',
     'static/js/**/*.min.js'
   ])
 })
-
-// gulp.task('css', function () {
-//   return gulp.src(['themes/hugo-moodlebox-theme/static/css/**/*.css', 'static/css/**/*.css'])
-//     .pipe(gulpif(file => !(file.path.includes('.min.css')), rename('min.css')))
-//     // .pipe(concat('main.css'))
-//     .pipe(minify())
-//     .pipe(gulp.dest('static/css'))
-// })
 
 gulp.task('js', function () {
   return gulp.src(['themes/hugo-moodlebox-theme/static/js/**/*.js', 'static/js/**/*.js'])
@@ -33,13 +26,13 @@ gulp.task('js', function () {
     .pipe(gulp.dest('static/js'))
 })
 
-gulp.task('hugo', gulp.series('reset', 'js', function (fetch) {
+gulp.task('hugo', function (fetch) {
   return exec('hugo', function (err, stdout, stderr) {
     console.log(stdout)
     console.log(stderr)
     fetch(err)
   })
-}))
+})
 
 gulp.task('html', function () {
   return gulp.src(['public/**/*.html', 'public/**/*.xml'])
@@ -50,9 +43,12 @@ gulp.task('html', function () {
 
 gulp.task('clean', function () {
   return del([
+    'resources',
     // 'static/css/**/*.min.css',
     'static/js/**/*.min.js'
   ])
 })
 
-gulp.task('default', gulp.series('hugo', 'html', 'clean'))
+gulp.task('default', gulp.series('reset', 'js', 'hugo', 'html', 'clean'))
+
+gulp.task('build', gulp.series('reset', 'js', 'hugo'))

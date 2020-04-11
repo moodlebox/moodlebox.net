@@ -3,29 +3,28 @@
   "version": "1.0.0",
   "description": "MoodleBox website",
   "main": "gulpfile.js",
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-jsbeautifier": "^3.0.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-uglify": "^3.0.2",
+    "purgecss": "^2.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "github:moodlebox/moodlebox.net",
+  "repository": {
+    "type": "git",
+    "url": "github:moodlebox/moodlebox.net.git"
+  },
   "author": "Nicolas Martignoni",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/moodlebox/moodlebox.net/issues"
   },
-  "homepage": "https://moodlebox.net/",
-  "dependencies": {
-    "cssnano": "^4.1.10",
-    "purgecss": "^2.1.0"
-  },
-  "devDependencies": {
-    "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-ext-replace": "^0.3.0",
-    "gulp-if": "^3.0.0",
-    "gulp-jsbeautifier": "^3.0.1",
-    "gulp-replace": "^1.0.0",
-    "gulp-uglify": "^3.0.2"
-  }
+  "homepage": "https://moodlebox.net/"
 }
