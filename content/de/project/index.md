@@ -22,7 +22,7 @@ Die Idee zur MoodleBox stammt aus einigen 2015-2016 geführten Diskussion im [Fo
 MoodleBox ist ein freiwilliges und Non-Profit-Projekt, das von [Nicolas Martignoni][2] in seiner Freizeit durchgeführt wird.
 
  [1]: https://moodle.org
- [2]: {{< relref "about" >}}
+ [2]: https://blog.martignoni.net/a-propos/
  [3]: https://www.raspberrypi.org
  [4]: https://moodle.org/course/view.php?id=20
  [5]: https://moodle.org/mod/forum/discuss.php?d=318719
