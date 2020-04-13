@@ -51,14 +51,19 @@ languages:
     date_format: January 2, 2006
     menu:
       main:
+      - identifier: give
+        name: Donate ❤
+        weight: 1
+        url: /give/
+
       - identifier: support
         name: Support
-        weight: 1
+        weight: 2
 
       - parent: support
         name: Knowledge base
         url: /help/
-        weight: 1
+        weight: 2
       - parent: support
         name: Community Support
         url: https://discuss.moodlebox.net/
@@ -66,7 +71,7 @@ languages:
 
       - identifier: get-involved
         name: Get involved
-        weight: 2
+        weight: 3
 
       - parent: get-involved
         name: Report a bug
@@ -83,7 +88,7 @@ languages:
 
       - identifier: about
         name: About
-        weight: 3
+        weight: 4
 
       - parent: about
         name: What is MoodleBox
@@ -151,9 +156,14 @@ languages:
     date_format: 2 January 2006
     menu:
       main:
+      - identifier: give
+        name: Faire un don ❤
+        weight: 1
+        url: /give/
+
       - identifier: support
         name: Assistance
-        weight: 1
+        weight: 2
 
       - parent: support
         name: Documentation
@@ -166,7 +176,7 @@ languages:
 
       - identifier: get-involved
         name: Participer
-        weight: 2
+        weight: 3
 
       - parent: get-involved
         name: Annoncer un bogue
@@ -183,7 +193,7 @@ languages:
 
       - identifier: about
         name: À propos
-        weight: 3
+        weight: 4
 
       - parent: about
         name: "Qu'est-ce que MoodleBox ?"
@@ -251,9 +261,14 @@ languages:
     date_format: 2. January 2006
     menu:
       main:
+      - identifier: give
+        name: Spenden ❤
+        weight: 1
+        url: /give/
+
       - identifier: support
         name: Support
-        weight: 1
+        weight: 2
 
       - parent: support
         name: Dokumentation
@@ -266,7 +281,7 @@ languages:
 
       - identifier: get-involved
         name: Mitmachen
-        weight: 2
+        weight: 3
 
       - parent: get-involved
         name: Bug melden
