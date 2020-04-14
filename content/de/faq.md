@@ -4,6 +4,7 @@ description: Frequently asked questions (FAQ) about MoodleBox, a standalone smal
 slug: faq
 id: faq
 layout: faq
+type: faq
 date: 2020-04-14
 lastmod: 2020-04-14
 sitemap:

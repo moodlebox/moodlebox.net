@@ -4,6 +4,7 @@ description: Questions fréquemment posées (FAQ) au sujet de MoodleBox, un peti
 slug: faq
 id: faq
 layout: faq
+type: faq
 date: 2020-04-14
 lastmod: 2020-04-14
 sitemap:
