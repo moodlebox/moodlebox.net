@@ -61,6 +61,10 @@ languages:
         weight: 2
 
       - parent: support
+        name: FAQ
+        url: /faq/
+        weight: 1
+      - parent: support
         name: Knowledge base
         url: /help/
         weight: 2
@@ -166,9 +170,13 @@ languages:
         weight: 2
 
       - parent: support
+        name: FAQ
+        url: /faq/
+        weight: 1
+      - parent: support
         name: Documentation
         url: /help/
-        weight: 1
+        weight: 2
       - parent: support
         name: Assistance de la communauté
         url: https://discuss.moodlebox.net/
@@ -271,9 +279,13 @@ languages:
         weight: 2
 
       - parent: support
+        name: FAQ
+        url: /faq/
+        weight: 1
+      - parent: support
         name: Dokumentation
         url: /help/
-        weight: 1
+        weight: 2
       - parent: support
         name: Community-Support
         url: https://discuss.moodlebox.net/

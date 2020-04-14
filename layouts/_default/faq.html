@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <header>
+    {{ partial "nav.html" . }}
+  </header>
+  {{ partial "breadcrumbs.html" . }}
+  <div id="content" itemscope itemtype="https://schema.org/FAQPage">
+    <div class="container">
+      <div class="row">
+        <div id="faq-container" class="col-md-9">
+          {{ with .Content }}
+            <div class="faq-intro">{{ . }}</div>
+          {{ end }}
+          <section class="faq">
+          {{ with index .Site.Data.faq .Site.Language.Lang }}
+            {{ range sort . "weight" }}
+            <div class="faq-group" id="faq-group-{{ .id }}">
+              <h4 id="{{ .id }}">{{ .name }}</h4>
+                {{ range .items }}
+                <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                  <summary itemprop="name">{{ .question }}</summary>
+                  <div class="faq-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <div itemprop="text">{{ .answer | markdownify }}</div>
+                  </div>
+                </details>
+                {{ end }}
+            </div>
+            {{ end }}
+          {{ end }}
+          </section>
+        </div>
+        <div class="col-md-3">
+          {{ partial "widgets/search.html" . }}
+        </div> <!-- col-md-3 -->
+        <div class="col-md-3">
+          {{ partial "widgets/recentnews.html" . }}
+        </div> <!-- col-md-3 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+  </div> <!-- /#content -->
+{{ end }}
+{{ define "footerfiles" }}
+{{ end }}

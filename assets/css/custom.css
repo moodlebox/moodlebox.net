@@ -153,3 +153,66 @@ a[href^="#fn:"]:before{
 a[href^="#fn:"]:after{
   content: ']';
 }
+
+/* faq */
+details {
+  margin: .5rem auto;
+  border-bottom: 1px solid #da4d4d;
+  color: #2a2a2a;
+}
+details > :last-child {
+  margin-bottom: 0;
+  padding: 0.7rem 1.2rem;
+}
+summary {
+  margin: 1rem 2em 1.2rem 0;
+  margin: 1rem 0 1rem 0;
+  padding: 0 2em 0 0;
+  display: block;
+  position: relative;
+  font-weight: 600;
+  cursor: pointer;
+}
+summary::before, summary::after {
+  width: .75em;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  content: '';
+  background-color: #da4d4d;
+  text-align: right;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+summary::after {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+          transform: translateY(-50%) rotate(90deg);
+}
+[open] summary::after {
+  -webkit-transform: translateY(-50%) rotate(180deg);
+          transform: translateY(-50%) rotate(180deg);
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+.faq h4 {
+  color: #da4d4d;
+}
+.faq-group {
+  margin-top: 2rem;
+}
+.faq-group:first-child {
+  margin-top: 1rem;
+}
+.faq-content {
+  background: #eee;
+  font-size: 14px;
+}
+.faq-content p {
+  margin: 0 0 6px;
+}

@@ -1,0 +1,30 @@
+id: usage
+name: Utilisation de MoodleBox
+weight: 2
+
+items:
+  - question: J'ai connecté mon clavier et mon moniteur à la MoodleBox, mais je ne vois pas l'interface graphique. Que faire ?
+    answer: >-
+      La MoodleBox n'a pas besoin de clavier, ni de moniteur : elle est conçue pour fonctionner comme un serveur sans écran. Pour accéder à l'interface graphique, démarrez la MoodleBox, connectez votre appareil personnel (ordinateur, tablette, smartphone) au réseau Wi-Fi de la MoodleBox et ouvrez l'URL http://moodlebox.home dans votre navigateur favori.
+
+
+      Consultez la [documentation à ce sujet](../help/acces-a-moodle).
+
+  - question: Comment réinitialiser le mot de passe principal de la MoodleBox ?
+    answer: >-
+      Connectez-vous à Moodle avec le compte et le mot de passe administrateur, puis accédez au tableau de bord de la MoodleBox : [Administration du site > Serveur > MoodleBox](http://moodlebox.home/admin/tool/moodlebox/index.php) et changez le mot de passe principal.
+
+
+      Consultez la [documentation à ce sujet](../help/changer-mot-de-passe-principal).
+
+#   - question: Comment mettre à jour la MoodleBox ?
+#     answer: >-
+#       Réponse compliquée: https://discuss.moodlebox.net/d/18-upgrade-moodlebox/
+
+  - question: Moodle me dit que la version de PHP n'est pas en 64 bits. Est-ce problématique ?
+    answer: >-
+      Non. Moodle fonctionne bien avec une version 32 bits de PHP. Cet avertissement est dû au noyau Linux utilisé par Raspbian, qui tourne en 32 bits. Il n'est actuellement pas possible de le corriger.
+
+  - question: Certains utilisateurs n'arrivent pas à accéder à la MoodleBox, alors que d'autres y arrivent. Que faire ?
+    answer: >
+      Cela arrive avec certains smartphones lorsque les données mobiles sont activées. Il est dans ce cas recommandé de désactiver les données mobiles.

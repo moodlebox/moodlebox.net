@@ -1,0 +1,21 @@
+name: General questions
+id: common
+weight: 1
+
+items:
+  - question: Where can I buy a MoodleBox?
+    answer: >
+      The [hardware required](../hardware) can be purchased from any electronics retailer.
+
+  - question: Do you sell MoodleBox's?
+    answer: >-
+      No. The MoodleBox project doesn't sell hardware. The [necessary hardware](../hardware) can be purchased from any electronics retailer.
+
+  - question: How many Wi-Fi devices can MoodleBox handle at the same time?
+    answer: >
+      MoodleBox supports the simultaneous connection of 20-30 devices via Wi-Fi.
+
+  - question: How much data can I store on a MoodleBox?
+    answer: >
+      It depends on the SD card used. MoodleBox store everything on the SD card inserted in the device. A card with a capacity of 32 GB or more is recommended, even if MoodleBox can work with a smaller card size. There is no maximum limit.
+

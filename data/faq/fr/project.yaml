@@ -1,0 +1,23 @@
+id: project
+name: Le projet MoodleBox
+weight: 3
+
+items:
+  - question: Quelle entité gère le projet MoodleBox ?
+    answer: >
+      MoodleBox est un projet bénévole et sans but lucratif conduit par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/) sur son temps libre.
+
+  - question: Quel est le modèle économique de MoodleBox ?
+    answer: >
+      MoodleBox est un projet libre (open source) et gratuit, développé bénévolement et sans but lucratif. À ce titre, il ne nécessite de financement que pour acquérir le matériel nécessaire à son développement, louer l'hébergement et les noms de domaines nécessaires à sa distribution et maintenir la motivation de son développeur.
+
+
+      Pour le moment les [dons](../give) et le parrainage de [E-learning Touch'](https://www.elearningtouch.com/) suffisent à couvrir partiellement ces besoins.
+
+  - question: Comment puis-je aider MoodleBox ?
+    answer: >-
+      MoodleBox est un projet bénévole et sans but lucratif et ne peut fonctionner que [grâce à vos dons](../soutenir-le-projet-moodlebox). Votre don permettra de contribuer au financement du matériel nécessaire au développement de la MoodleBox et à celui de l'hébergement et des noms de domaines nécessaires à sa distribution.
+
+  - question: Je n'ai pas trouvé de réponse à ma question. Où puis-je obtenir de l'aide ?
+    answer: >
+      Consultez la [documentation complète de MoodleBox](../help) ou recherchez si votre question a déjà été abordée dans le [forum d'assistance de MoodleBox](https://discuss.moodlebox.net/). Si ce n'est pas le cas, n'hésitez pas à [ouvrir une nouvelle discussion dans le forum](https://discuss.moodlebox.net/).

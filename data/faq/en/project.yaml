@@ -1,0 +1,23 @@
+id: project
+name: MoodleBox project
+weight: 3
+
+items:
+  - question: Which organization is managing the project MoodleBox?
+    answer: >
+      MoodleBox is a volunteer and non-profit project lead by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/) on his spare time.
+
+  - question: What is the business model of MoodleBox ?
+    answer: >
+      MoodleBox is a free (as in speech and in beer) and open source project developed on a voluntary and non-profit basis. As such, it only requires financing to acquire the equipment necessary for its development, to contract the hosting and domain names necessary for its distribution and to maintain the motivation of its developer.
+
+
+      For the time being, [donations](../give) and sponsorship by [E-learning Touch'](https://www.elearningtouch.com/) are sufficient to partially cover these needs.
+
+  - question: How can I help MoodleBox?
+    answer: >-
+      MoodleBox is a volunteer and non-profit project. I can only be made possible with [your donations](../give). Your donation will help fund the hardware needed to MoodleBox development and hosting and domain names needed for its distribution.
+
+  - question: I couldn't find an answer to my question. Where can I get help?
+    answer: >
+      Browse the [MoodleBox complete documentation](../help) or search if your question has already been addressed in the [MoodleBox support forum](https://discuss.moodlebox.net/). If you cannot find it, don't hesitate to [open a new discussion in the forum][forum].

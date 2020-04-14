@@ -1,0 +1,26 @@
+id: usage
+name: MoodleBox usage
+weight: 2
+
+items:
+  - question: I connected my keyboard and monitor to the MoodleBox, but I can't see the graphical interface. What's happening?
+    answer: >-
+      MoodleBox does not need a keyboard or monitor: it is designed as a headless server. To access the user interface, start MoodleBox, connect your personal device (computer, tablet, smartphone) to the MoodleBox's Wi-Fi and open URL http://moodlebox.home in your favorite browser.
+
+
+      Have a look at the [documentation about this](../help/access-to-moodle).
+
+  - question: How do I reset MoodleBox's main password?
+    answer: >-
+      Log into Moodle with the admin credentials, visit the dashboard in the administration interface: [Site Administration > Server > MoodleBox](http://moodlebox.home/admin/tool/moodlebox/index.php) and change the main password.
+
+
+      Have a look at the [documentation about this](../help/change-main-password).
+
+  - question: Moodle tells me that the version of PHP is not 64-bit. Is that a problem?
+    answer: >-
+      No. Moodle works fine with a 32-bit version of PHP. This warning is due to the Linux kernel used by Raspbian, which runs in 32 bits. It is currently not possible to fix it.
+
+  - question: Some users are unable to access the MoodleBox, while others can. What can be done?
+    answer: >
+      This happens with some smartphones when mobile data is enabled. In this case, it is recommended that you turn off mobile data.
