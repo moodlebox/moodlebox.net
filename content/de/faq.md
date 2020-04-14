@@ -8,7 +8,6 @@ date: 2020-04-14
 lastmod: 2020-04-14
 sitemap:
   priority : 0.5
-draft: true
 ---
 {{< notice tip >}}
 Diese Seite ist noch nicht auf Deutsch übersetzt. Sie können uns helfen, indem Sie es übersetzen.
