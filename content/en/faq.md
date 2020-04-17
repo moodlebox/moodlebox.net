@@ -9,6 +9,8 @@ date: 2020-04-14
 lastmod: 2020-04-14
 sitemap:
   priority : 0.5
+aliases:
+  - /faq
 ---
 You'll find here answers to the most frequently asked questions. If you don't find an answer to your question, please browse the [MoodleBox complete documentation][doc] or search if your question has already been addressed in the [MoodleBox support forum][forum]. If you do not find it, do not hesitate to [open a new discussion in the forum][forum].
 
