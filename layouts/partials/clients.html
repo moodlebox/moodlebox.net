@@ -1,0 +1,35 @@
+{{ if isset .Site.Params "clients" }}
+{{ if .Site.Params.clients.enable }}
+{{ with .Site.Data.clients }}
+<section class="bar background-gray no-mb">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heading text-center">
+          <h2>{{ $.Site.Params.clients.title }}</h2>
+        </div>
+
+        <p class="lead text-center">
+          {{ $.Site.Params.clients.subtitle | markdownify }}
+        </p>
+
+        <ul class="owl-carousel customers">
+          {{ range sort . "weight" }}
+          <li class="item" title="{{ .name }}">
+            {{ if .url }}
+              <a href="{{ .url }}" target="_blank">
+              <img src="{{ .image | absURL }}" alt="{{ .name }}" class="img-responsive" />
+              </a>
+            {{ else }}
+              <img src="{{ .image | absURL }}" alt="{{ .name }}" class="img-responsive" />
+            {{ end }}
+          </li>
+          {{ end }}
+        </ul> <!-- /.owl-carousel -->
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

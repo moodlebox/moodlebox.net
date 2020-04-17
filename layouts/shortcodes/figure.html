@@ -1,0 +1,42 @@
+<!-- count how many times we've called this shortcode; load the css if it's the first time -->
+{{- if not ($.Page.Scratch.Get "figurecount") }}<link rel="stylesheet" href="/css/hugo-easy-gallery.min.css" />{{ end }}
+{{- $.Page.Scratch.Add "figurecount" 1 -}}
+<!-- begin -->
+{{ $image_src := .Get "src" }}
+{{ $image_link := .Get "link" }}
+{{ $image_alt := .Get "alt" }}
+{{ $image_title := .Get "title" }}
+{{ $image_attr := .Get "attr" }}
+{{ $image_attrlink := .Get "attrlink" }}
+{{ $image_width := .Get "width" }}
+{{ $image_height := .Get "height" }}
+{{ $image_caption := .Get "caption" }}
+{{ $image_rel := .Get "rel" }}
+{{ $image_target := .Get "target" }}
+<div class="image-box fancy-figure caption-position-bottom caption-effect-appear">
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+{{/* Attempt to automatically load image from page bundle */}}
+{{ $img_url := (index (($.Page.Resources.ByType "image").Match (printf "%s*" $image_src)) 0).Permalink }}
+{{ with $img_url }}
+  <img src="{{ $img_url }}" {{ if or $image_alt $image_caption }}alt="{{ with $image_alt }}{{ . }}{{ else }}{{ $image_caption }}{{ end }}" {{ end }}{{ with $image_width }}width="{{ . }}" {{ end }}{{ with $image_height }}height="{{ . }}" {{ end }}/>
+{{ else }}
+  {{/* Load gallery images from the `static` media library */}}
+  {{ $img_url := (printf "%s" $image_src | relURL) }}
+  <img src="{{ $img_url }}" {{ if or $image_alt $image_caption }}alt="{{ with $image_alt }}{{ . }}{{ else }}{{ $image_caption }}{{ end }}" {{ end }}{{ with $image_width }}width="{{ . }}" {{ end }}{{ with $image_height }}height="{{ . }}" {{ end }}/>
+{{ end }}
+{{ with $image_link }}
+  <a href="{{ . }}"{{ with $image_target }} target="{{ . }}"{{ end }}{{ with $image_rel }} rel="{{ . }}"{{ end }} itemprop="contentUrl"></a>
+{{ end }}
+{{ if or (or $image_title $image_caption) $image_attr }}
+  <figcaption>
+    {{ with $image_title }}<p><em>{{ . | markdownify | emojify }}</em></p>{{ end }}
+    {{ if or $image_caption $image_attr }}<p>
+      {{ $image_caption | markdownify | emojify }}
+      {{ with $image_attrlink }}<a href="{{ . }}">{{ end }}
+      {{ $image_attr }}
+      {{ if $image_attrlink }}</a> {{ end }}
+    </p> {{ end }}
+  </figcaption>
+{{ end }}
+</figure>
+</div>

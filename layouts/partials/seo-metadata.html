@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "WebPage",
+  "mainEntityOfPage": {
+    "@type": "WebSite",
+    "@id": "{{ "/" | absLangURL }}",
+    "url": "{{ "/" | absLangURL }}",
+    "sameAs": [
+      "https://twitter.com/moodlebox",
+      "https://github.com/moodlebox"
+    ]
+  },
+  "@id": "{{ .Permalink }}",
+  "url": "{{ .Permalink }}",
+  "name" : "{{ partial "title" . }}",
+  "headline" : "{{ partial "title" . }}",
+  "description": "{{ partial "description" . }}",
+  "image" : "{{ .Site.Params.logo | absURL }}",
+  "inLanguage" : "{{ .Language }}",
+  "author" : "{{ .Site.Params.Author }}",
+  "creator" : "{{ .Site.Params.Author }}",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "MoodleBox"
+  },
+  "accountablePerson" : "{{ .Site.Params.Author }}",
+  "copyrightHolder" : "{{ .Site.Params.Author }}",
+  "copyrightYear" : "{{ .Date.Format "2006" }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified" : "{{ .Page.Lastmod.Format "2006-01-02" }}",
+  "wordCount" : "{{ .WordCount }}",
+  {{ if .Keywords -}}
+  "keywords" : "{{ delimit .Keywords ", " }}"
+  {{- else if .Site.Params.DefaultKeywords -}}
+  "keywords" : "{{ delimit .Site.Params.DefaultKeywords ", " }}"
+  {{- end }}
+}
+</script>

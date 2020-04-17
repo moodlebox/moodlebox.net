@@ -1,0 +1,54 @@
+<div class="container" id="contact">
+  <div class="row">
+    <div class="col-md-9">
+      <section>
+        {{ .Content }}
+        {{ if isset .Site.Params "email" }}
+        <div role="form" class="contact-form">
+          <form name="contact" id="contact" action="#" class="moodlebox-form" method="post">
+            <div class="control-group">
+              <input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
+            </div>
+            <div class="control-group">
+              <label>{{ i18n "contactName" }}</label><br />
+              <div class="controls">
+                <input type="text" name="name" placeholder="{{ i18n "whatsYourName" }}" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <label>{{ i18n "contactMail" }}</label><br />
+              <input type="email" name="_email" id="_email">
+              <input type="email" name="email" placeholder="{{ i18n "whatsYourEmail" }}" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
+              <p class="help-block text-danger"></p>
+            </div>
+            <div class="control-group">
+              <label>{{ i18n "contactSubject" }}</label><br />
+              <input type="text" name="subject" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
+              <p class="help-block text-danger"></p>
+            </div>
+            <div class="control-group">
+              <label>{{ i18n "contactMessage" }}</label><br />
+              <textarea name="message" class="form-control text" rows="10"></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+            <div class="control-group">
+              <div id="success"></div>
+              <input type="submit" value="{{ i18n "contactSend" }}" class="form-control submit"></input>
+            </div>
+          </form>
+        </div>
+        {{ end }}
+      </section>
+    </div> <!-- col-md-9 -->
+    <div class="col-md-3">
+      {{ partial "widgets/recentnews.html" . }}
+      {{/* if isset .Site.Params "address" }}
+      <section>
+        <h3 class="text-uppercase"> {{ i18n "contactAddrTitle" }}</h3>
+        {{ .Site.Params.address | safeHTML }}
+      </section>
+      {{ end */}}
+    </div> <!-- col-md-3 -->
+  </div> <!-- /.row -->
+</div>

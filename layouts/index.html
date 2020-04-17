@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <header>
+    {{ partial "top.html" . }}
+    {{ partial "nav.html" . }}
+  </header>
+  {{ partial "carousel.html" . }}
+  {{ partial "news.html" . }}
+  {{ partial "features.html" . }}
+  {{ partial "testimonials.html" . }}
+  {{ partial "see_more.html" . }}
+  {{- if false -}}
+    {{ partial "recent_posts.html" . }}
+  {{- end -}}
+  {{ partial "clients.html" . }}
+  {{ partial "sponsors.html" . }}
+{{ end }}
