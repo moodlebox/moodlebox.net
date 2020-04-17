@@ -216,3 +216,41 @@ summary::-webkit-details-marker {
 .faq-content p {
   margin: 0 0 6px;
 }
+
+/* footer third column */
+#footer .important-links {
+  margin-bottom: 1.2em;
+}
+
+#footer .important-links .item {
+  clear: both;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #2a2a2a;
+}
+#footer .important-links .item .image {
+  float: left;
+  width: 15%;
+  margin-right: 10px;
+}
+#footer .important-links .item .name {
+  width: 75%;
+  margin-left: 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+#footer .important-links .item .name h5 {
+  margin: 0;
+  letter-spacing: 0.04em;
+}
+#footer .important-links .item .name h5 a {
+  color: #eeeeee;
+}
+#footer .important-links .item .text {
+  width: 100%;
+  clear: both;
+}
+#footer .important-links .item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
