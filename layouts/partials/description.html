@@ -1,0 +1,11 @@
+{{- with .Description -}}
+  {{- . | safeHTML -}}
+{{- else -}}
+  {{- with .Site.Params.Description -}}
+    {{- . | safeHTML -}}
+  {{- else -}}
+    {{- with .Site.Params.DefaultDescription -}}
+      {{- . | safeHTML -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

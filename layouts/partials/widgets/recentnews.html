@@ -1,0 +1,21 @@
+{{ if isset .Site.Params.widgets "recentnews" -}}
+{{ if .Site.Params.widgets.recentnews -}}
+<div class="panel panel-default sidebar-menu">
+
+  <div class="panel-heading">
+    <h3 class="panel-title">{{ i18n "recentNews" }}</h3>
+  </div>
+
+  {{ $recentnews := first 5 (where .Site.RegularPages "Type" "news") }}
+  {{- with $recentnews -}}
+  <div class="panel-body">
+    <ul class="nav nav-pills nav-stacked">
+    {{- range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end }}
+    </ul>
+  </div>
+  {{- end }}
+</div>
+{{- end }}
+{{- end }}

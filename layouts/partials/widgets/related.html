@@ -1,0 +1,23 @@
+{{- if isset .Site.Params.widgets "related" -}}
+{{- if .Site.Params.widgets.related -}}
+{{- if and (eq .Kind "page") (ne .Type "news") -}}
+<div class="panel panel-default sidebar-menu">
+
+  <div class="panel-heading">
+    <h3 class="panel-title">{{ i18n "relatedTitle" }}</h3>
+  </div>
+
+  {{ $related := .Site.RegularPages.Related . | first 5 }}
+  {{- with $related -}}
+  <div class="panel-body">
+    <ul class="nav nav-pills nav-stacked">
+    {{- range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end }}
+    </ul>
+  </div>
+  {{- end }}
+</div>
+{{- end -}}
+{{- end -}}
+{{- end -}}

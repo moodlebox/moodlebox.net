@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ with .Language }}{{ . }}{{ else }}en-us{{ end }}">
+<head>
+  {{ hugo.Generator }}
+  <meta charset="utf-8">
+  <meta name="referrer" content="same-origin">
+  <meta name="robots" content="all,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-title" content="MoodleBox">
+  <meta name="application-name" content="MoodleBox">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-config" content="/img/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <title>{{ block "title" . }}{{ partial "title" . }}{{ end }}</title>
+  <!-- OpenGraph metatags -->
+  {{ template "_internal/opengraph.html" . }}
+  <!-- OpenGraph supplementary metatags -->
+  <meta property="og:image" content="{{ .Site.Params.logo | absURL }}" />
+  <!-- Standard metatags -->
+  <meta name="author" content="{{ .Site.Params.Author }}" />
+  {{ if .Keywords -}}
+  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
+  {{- else if .Site.Params.DefaultKeywords -}}
+  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
+  {{- end }}
+  <meta name="description" content="{{ partial "description" . }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ partial "hreflang.html" . }}
+  {{ partial "seo-metadata.html" . }}
+  {{ block "stylesheets" . }}{{ partial "stylesheets.html" . }}{{ end }}
+  <!-- Responsivity for older IE -->
+  {{- `<!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->` | safeHTML }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.6/lunr.min.js" integrity="sha256-M/Awbb/BYh+Rh0aGjpQid26p1b2OBsrk2k9yAvQxPV0=" crossorigin="anonymous"></script>
+  {{ if .Site.IsServer }}
+    {{ $lunrStemmerJS := resources.Get "js/lunr.stemmer.support.js" }}
+    <script src="{{ $lunrStemmerJS.Permalink }}"></script>
+    {{- if not (eq .Site.Language.Lang "en") }}
+      {{ $lunrLangJS := resources.Get (printf "js/lunr.%s.js" (.Language | safeJS)) }}
+      <script src="{{ $lunrLangJS.Permalink }}"></script>
+    {{ end -}}
+  {{ else }}
+    {{ $lunrStemmerJS := resources.Get "js/lunr.stemmer.support.js" | minify | fingerprint }}
+    <script src="{{ $lunrStemmerJS.Permalink }}" integrity="{{ $lunrStemmerJS.Data.Integrity }}"></script>
+    {{- if not (eq .Site.Language.Lang "en") }}
+      {{ $lunrLangJS := resources.Get (printf "js/lunr.%s.js" (.Language | safeJS)) | minify | fingerprint }}
+      <script src="{{ $lunrLangJS.Permalink }}" integrity="{{ $lunrLangJS.Data.Integrity }}"></script>
+    {{ end -}}
+  {{ end }}
+  <link rel="alternate" href="{{ "/index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  <!-- Favicon and various touch icons-->
+  <link rel="shortcut icon" href="{{ "img/favicon.ico" | absURL }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | absURL }}" sizes="180x180">
+  <link rel="icon" type="image/png" href="{{ "img/favicon-32x32.png" | absURL }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ "img/favicon-16x16.png" | absURL }}" sizes="16x16">
+  <link rel="manifest" href="{{ "img/manifest.json" | absURL }}">
+  {{ block "headfiles" . }}
+   <!-- pl;aceholder -->
+  {{ end }}
+</head>
+  <body>
+    <div id="all">
+      {{ block "main" . }}{{ end }}
+      {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+    </div>  <!-- /#all -->
+    {{ block "scripts" . }}{{ partial "scripts.html" . }}{{ end }}
+    {{ block "footerfiles" . }}{{ end }}
+    {{ block "analytics" . }}{{ partial "matomo_analytics.html" . }}{{ end }}
+  </body>
+</html>

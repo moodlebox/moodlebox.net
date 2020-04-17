@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <header>
+    {{ partial "nav.html" . }}
+  </header>
+  {{ partial "breadcrumbs.html" . }}
+  <div id="content">
+    {{ if isset .Params "id" }}
+      {{ partial .Params.id . }}
+    {{ else }}
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div>
+            {{ .Content }}
+            </div>
+          </div>
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    {{ end }}
+  </div> <!-- /#content -->
+{{ end }}
+{{ define "footerfiles" }}
+  {{ if .Site.IsServer }}
+    {{ $jqBSValidationJS := resources.Get "js/jqBootstrapValidation.js" }}
+    {{ $contactJS := resources.Get "js/contact.js" }}
+    <script src="{{ $jqBSValidationJS.Permalink }}"></script>
+    <script src="{{ $contactJS.Permalink }}"></script>
+  {{ else }}
+    {{ $jqBSValidationJS := resources.Get "js/jqBootstrapValidation.js" | minify | fingerprint }}
+    {{ $contactJS := resources.Get "js/contact.js" | minify | fingerprint }}
+    <script src="{{ $jqBSValidationJS.Permalink }}" integrity="{{ $jqBSValidationJS.Data.Integrity }}"></script>
+    <script src="{{ $contactJS.Permalink }}" integrity="{{ $contactJS.Data.Integrity }}"></script>
+  {{ end }}
+{{ end }}
