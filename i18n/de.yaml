@@ -45,9 +45,9 @@
 - id: older
   translation: "Älter"
 - id: previous
-  translation: "Previous"
+  translation: "Vorherige"
 - id: next
-  translation: "Next"
+  translation: "Nächste"
 - id: publishedOn
   translation: "am"
 - id: testimonials
@@ -55,35 +55,35 @@
 - id: relatedTitle
   translation: "Verwandte Seiten"
 - id: whatsYourName
-  translation: "Geben Sie Ihren Namen"
+  translation: "Geben Sie Ihren Namen ein"
 - id: whatsYourEmail
-  translation: "Geben Sie Ihre E-Mail Adresse"
+  translation: "Geben Sie Ihre E-Mail Adresse ein"
 - id: contactSubject
-  translation: "Objekt"
+  translation: "Betreff"
 - id: donationAmount
   translation: "Spendenbetrag"
 - id: customAmount
-  translation: "Custom Betrag"
+  translation: "Anderer Betrag"
 - id: donateNow
   translation: "Jetzt spenden"
 - id: searchDocTitle
-  translation: "Suche knowledge base"
+  translation: "Wissensbasis durchsuchen"
 - id: searchDocVerb
-  translation: "Dokumentation suchen..."
+  translation: "Begriff eingeben ..."
 - id: searchButton
   translation: "Suchen"
 - id: collapseArticles
-  translation: "Artikeln einklappen"
+  translation: "Artikel einklappen"
 - id: showAllArticles
-  translation: "Artikeln ausklappen"
+  translation: "Artikel ausklappen"
 - id: error404
   translation: "Fehler 404 - Seite nicht gefunden"
 - id: error404Message
-  translation: "Es tut uns Leid - Diese Seite gibt es nicht mehr"
+  translation: "Es tut uns Leid - Diese Seite gibt es nicht mehr."
 - id: noResultsTitle
   translation: "Kein Dokument gefunden"
 - id: noResultsText
-  translation: "Tut uns leid, aber Ihre Suche hat nichts ergeben. Bitte versuchen Sie es noch einmal mit anderen Begriffen oder [schauen Sie unsere Knowledgebase](/de/help) an."
+  translation: "Tut uns leid, aber Ihre Suche hat nichts ergeben. Bitte versuchen Sie es noch einmal mit anderen Begriffen oder [schauen Sie unsere Wissensbasis](/de/help) an."
 - id: searchTermTooShort
   translation: "Ihr Suchbegriff muss mindestens 3 Zeichen lang sein."
 - id: recentNews
@@ -95,7 +95,7 @@
 - id: info
   translation: "Info"
 - id: tip
-  translation: "Hint"
+  translation: "Hinweis"
 - id: lastUpdated
   translation: "Letzte Aktualisierung:"
 - id: seeAllDoc
@@ -109,7 +109,7 @@
 - id: cookiesTitle
   translation: "Cookies"
 - id: faqTitle
-  translation: "Frequently asked questions"
+  translation: "Frequently Asked Questions"
 
 - id: January
   translation: "Januar"

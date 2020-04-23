@@ -6,7 +6,7 @@ authors:
 type: kb
 date: 2017-04-20
 lastmod: 2020-02-08
-description: Diese Anleitung erklärt, wie man Nutzern, die über Wi-Fi mit einer MoodleBox verbunden sind, eine Internetverbindung zur Verfügung stellt.
+description: Diese Anleitung erklärt, wie man Nutzern, die über WLAN mit einer MoodleBox verbunden sind, eine Internetverbindung zur Verfügung stellt.
 slug: internet-verbindung
 weight: 9
 categories:
@@ -17,7 +17,7 @@ Es ist sehr einfach, Nutzern, die drahtlos mit einer MoodleBox verbunden sind, e
 
 Schließen Sie die MoodleBox einfach mit einem Ethernet-Kabel an ein Netzwerk mit Internetzugang an. Sobald die Verbindung verfügbar ist, haben die über das WLAN __MoodleBox__ verbundenen Geräte selbst Zugang zum Internet.
 
-Wenn Sie die MoodleBox jedoch __ohne Internetverbindung__ verwenden möchten, z.B. für Aktivitäten wie ein Escape Game oder Assessments, bei denen ein Internetzugang der Studierenden nicht erwünscht ist, trennen Sie einfach das Ethernet-Kabel von der MoodleBox. Ohne eine Ethernet-Kabelverbindung können über Wi-Fi angeschlossene Geräte nur auf die auf der MoodleBox verfügbaren Ressourcen zugreifen.
+Wenn Sie die MoodleBox jedoch __ohne Internetverbindung__ verwenden möchten, z.B. für Aktivitäten wie ein Escape Game oder Assessments, bei denen ein Internetzugang der Studierenden nicht erwünscht ist, trennen Sie einfach das Ethernet-Kabel von der MoodleBox. Ohne eine Ethernet-Kabelverbindung können über WLAN angeschlossene Geräte nur auf die auf der MoodleBox verfügbaren Ressourcen zugreifen.
 
 {{< notice note >}}
 Ab Version 3.5.2 des MoodleBox-Images werden Informationen darüber, ob ein Ethernet-Kabel angeschlossen ist, auf dem [MoodleBox-Dashboard]({{{< relref "help/info-moodlebox" >}}) angezeigt.

@@ -26,7 +26,7 @@ Das Dashboard ermöglicht es Ihnen auch, die folgenden Aktionen durchzuführen.
 
 - Ändern Sie das Datum und die Uhrzeit der MoodleBox, wenn sie nicht mit dem Internet verbunden ist.
 - Das [Hauptpasswort der MoodleBox ändern][3].
-- Die [Konfiguration des Wi-Fi-Netzwerks ändern][4], die von der MoodleBox zur Verfügung wird.
+- Die [Konfiguration des WLAN-Netzwerks ändern][4], die von der MoodleBox zur Verfügung wird.
 - [Neustart oder Herunterfahren][5] der MoodleBox
 
 {{< notice note >}}

@@ -1,21 +1,20 @@
-name: General questions
+name: Allgemeine Fragen
 id: common
 weight: 1
 
 items:
-  - question: Where can I buy a MoodleBox?
+  - question: Wo kann ich eine MoodleBox kaufen?
     answer: >
-      The [hardware required](../hardware) can be purchased from any electronics retailer.
+      Die [notwendige Hardware](../hardware) kann bei vielen Elektronikhändlern gekauft werden.
 
-  - question: Do you sell MoodleBox's?
+  - question: Verkaufen Sie fertige MoodleBoxen?
     answer: >-
-      No. The MoodleBox project doesn't sell hardware. The [necessary hardware](../hardware) can be purchased from any electronics retailer.
+      Nein. Das MoodleBox-Projekt verkauft keine Hardware. Die [erforderliche Hardware](../hardware) kann bei vielen Elektronikhändlern gekauft werden.
 
-  - question: How many Wi-Fi devices can MoodleBox handle at the same time?
+  - question: Wie viele Endgeräte können die MoodleBox gleichzeitig über WLAN erreichen?
     answer: >
-      MoodleBox supports the simultaneous connection of 20-30 devices via Wi-Fi.
+      MoodleBox unterstützt die gleichzeitige Verbindung von 20 bis 30 Endgeräten über WLAN.
 
-  - question: How much data can I store on a MoodleBox?
+  - question: Wie viele Daten kann ich auf einer MoodleBox speichern?
     answer: >
-      It depends on the SD card used. MoodleBox store everything on the SD card inserted in the device. A card with a capacity of 32 GB or more is recommended, even if MoodleBox can work with a smaller card size. There is no maximum limit.
-
+      Die Datenmenge hängt von der verwendeten SD-Karte ab. Die MoodleBox speichert alles auf der in der Box eingelegten SD-Karte ab. Es wird eine SD-Karte mit einer Kapazität von 32 GB (oder mehr) empfohlen, auch wenn MoodleBox mit einer kleineren Kartengröße (ab 8 GB) arbeiten könnte. Es gibt keine Höchstgrenze.

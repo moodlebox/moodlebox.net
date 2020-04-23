@@ -26,12 +26,12 @@ Sie können den WLAN-Namen (SSID) der MoodleBox ändern. Geben Sie einen neuen W
 Der WLAN-Name (SSID) für die MoodleBox kann zwischen 1 und 32 Bytes lang sein. Beachten Sie, dass manche Zeichen (z.B. Emoticons) mehr als nur 1 Byte verwenden.
 {{< /notice >}}
 
-### Hide the Wi-Fi network
+### WLAN verbergen
 
-Ab MoodleBox Version 2.6.0 ist es möglich, das Wi-Fi-Netzwerk der MoodleBox auszublenden, indem Sie das Kontrollkästchen __Hidden Wi-Fi Network__ aktivieren.
+Ab der MoodleBox-Version 2.6.0 ist es möglich, das WLAN der MoodleBox zu verbergen, indem Sie das Kontrollkästchen __Verborgenes WLAN__ aktivieren.
 
 {{< notice tip >}}
-Wenn das Wi-Fi-Netzwerk ausgeblendet ist, ist es schwierig zu wissen, dass eine MoodleBox in diesem Umfeld aktiv ist. Aktivieren Sie diese Option nur, wenn Sie sich sicher sind, was Sie tun, da Benutzer wahrscheinlich mehr Probleme haben werden, die MoodleBox zu finden.
+Wenn das WLAN verborgen wird, ist es schwierig zu wissen, ob eine MoodleBox im Umfeld aktiv ist. Aktivieren Sie diese Option nur, wenn Sie sich sicher sind, was Sie tun. Benutzer haben wahrscheinlich mehr Probleme, die MoodleBox zu finden.
 {{< /notice >}}
 
 
@@ -39,12 +39,12 @@ Wenn das Wi-Fi-Netzwerk ausgeblendet ist, ist es schwierig zu wissen, dass eine 
 
 Um den WLAN-Kanal der MoodleBox zu ändern, wählen Sie einen Kanal und tippen Sie auf die Taste __Einstellungen ändern__.
 
-### WLAN Regulierungsland ändern (ab Version 2.5.0)
+### WLAN-Regulierungsland ändern
 
-Um das WLAN Regulierungsland der MoodleBox zu ändern, Wählen Sie ein Land aus der Dropdown-Liste und tippen Sie auf die Taste __Einstellungen ändern__.
+Ab der MoodleBox-Version 2.5.0 ist es möglich, das WLAN-Regulierungsland einzustellen. Um das WLAN-Regulierungsland der MoodleBox zu ändern, Wählen Sie ein Land aus der Dropdown-Liste und tippen Sie auf die Taste __Einstellungen ändern__.
 
 {{< notice info >}}
-Autorisierte WLAN-Kanäle hängen vom Regulierungsland ab. Je nach gewähltem Land stehen einige Kanäle nicht mehr zur Verfügung.
+Autorisierte WLAN-Kanäle hängen vom Regulierungsland ab. Je nach gewähltem Land stehen einige Kanäle nicht zur Verfügung.
 {{< /notice >}}
 
 ### WLAN-Kennwort entfernen oder ändern
