@@ -377,7 +377,7 @@ menu:
     pre: <i class='fa fa-2x fa-twitter'></i>
     url: https://twitter.com
     weight: 3
-  - name: E-Mail
+  - name: Mail
     pre: <i class='fa fa-2x fa-envelope'></i>
     url: mailto:nicolas@martignoni.net
     weight: 4
