@@ -1,5 +1,5 @@
 weight: 3
-name: "Wi-Fi-Zugangspunkt"
+name: "WLAN-AccessPoint"
 icon: "fa fa-wifi"
-description: "Wenn es an Ihr Ethernet-Netzwerk angeschlossen ist, bietet die MoodleBox Internetzugang zu allen drahtlos verbundenen Geräten."
+description: "Wenn das Ethernet-Netzwerk angeschlossen ist, bietet die MoodleBox den Internetzugang für alle drahtlos verbundenen Endgeräten."
 link: "/help/wi-fi-connection"

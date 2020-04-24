@@ -1,26 +1,26 @@
 id: usage
-name: MoodleBox usage
+name: Nutzung der MoodleBox
 weight: 2
 
 items:
-  - question: I connected my keyboard and monitor to the MoodleBox, but I can't see the graphical interface. What's happening?
+  - question: Ich habe meine Tastatur und meinen Monitor an die MoodleBox angeschlossen, kann aber keine grafische Oberfläche sehen. Was ist da los?
     answer: >-
-      MoodleBox does not need a keyboard or monitor: it is designed as a headless server. To access the user interface, start MoodleBox, connect your personal device (computer, tablet, smartphone) to the MoodleBox's Wi-Fi and open URL http://moodlebox.home in your favorite browser.
+      MoodleBox benötigt keine Tastatur und keinen Monitor: MoodleBox ist als Headless-Server konzipiert. Um auf die Benutzeroberfläche zuzugreifen, starten Sie MoodleBox, verbinden Sie Ihr persönliches Endgerät (Computer, Tablet, Smartphone) mit dem WLAN der MoodleBox und öffnen Sie die URL http://moodlebox.home mit Ihrem bevorzugten Browser.
 
 
-      Have a look at the [documentation about this](../help/access-to-moodle).
+      Schauen Sie sich die [Dokumentation dazu] an (../help/anmelden-in-moodle/).
 
-  - question: How do I reset MoodleBox's main password?
+  - question: Wie setze ich das Hauptkennwort der MoodleBox zurück?
     answer: >-
-      Log into Moodle with the admin credentials, visit the dashboard in the administration interface: [Site Administration > Server > MoodleBox](http://moodlebox.home/admin/tool/moodlebox/index.php) and change the main password.
+      Melden Sie sich mit den Zugangsdaten des Administrators bei Moodle an, rufen Sie das Dashboard der MoodleBox in der Administrationsoberfläche auf: [Website-Administration > Server > MoodleBox](http://moodlebox.home/admin/tool/moodlebox/index.php) und ändern Sie das Hauptkennwort.
 
 
-      Have a look at the [documentation about this](../help/change-main-password).
+      Schauen Sie sich die [Dokumentation dazu] an (../help/change-main-password).
 
-  - question: Moodle tells me that the version of PHP is not 64-bit. Is that a problem?
+  - question: Moodle zeigt an, dass die Version von PHP nicht 64-Bit ist. Ist das ein Problem?
     answer: >-
-      No. Moodle works fine with a 32-bit version of PHP. This warning is due to the Linux kernel used by Raspbian, which runs in 32 bits. It is currently not possible to fix it.
+      Nein. Moodle funktioniert gut mit einer 32-Bit-Version von PHP. Diese Warnung ist auf den von Raspbian verwendeten Linux-Kernel zurückzuführen, der in 32 Bit ausgeführt wird. Es ist derzeit nicht möglich, dies zu ändern.
 
-  - question: Some users are unable to access the MoodleBox, while others can. What can be done?
+  - question: Einige Nutzer/innen können nicht auf die MoodleBox zugreifen, andere aber schon. Was könnte helfen?
     answer: >
-      This happens with some smartphones when mobile data is enabled. In this case, it is recommended that you turn off mobile data.
+      Bei einigen Smartphones passiert dies, wenn die mobilen Daten aktiviert sind. In diesem Fall wird empfohlen, die mobilen Daten zu deaktivieren, um die MoodleBox zu erreichen.

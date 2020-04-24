@@ -23,7 +23,7 @@ Wir übernehmen keine Verantwortung für direkte oder indirekte Schäden, die du
 Das folgende Beispiel zeigt, wie man den Domänennamen einer MoodleBox ändert, damit ein lokales Gerät sie mit einer neuen URL erreichen kann. Das Beispiel zeigt, wie man der MoodleBox den Domainnamen __learn.example.com__ gibt.
 
 {{< notice info >}}
-Dieser Vorgang hat keinen Einfluss auf den Zugriff auf die MoodleBox von einem Ethernet-Netzwerk oder vom Internet aus: Die MoodleBox __bleibt nur über das von ihr bereitgestellte Wi-Fi-Netzwerk__, von den Geräten, die mit ihr verbunden sind, zugänglich.
+Dieser Vorgang hat keinen Einfluss auf den Zugriff auf die MoodleBox von einem Ethernet-Netzwerk oder vom Internet aus: Die MoodleBox __bleibt nur über das von ihr bereitgestellte WLAN-Netzwerk__, von den Geräten, die mit ihr verbunden sind, zugänglich.
 {{< /notice >}}
 
 #### Schritt 1: Änderung des Hostnamens (_Hostname_).
@@ -58,7 +58,7 @@ Wenn Sie [HTTPS][3] verwenden möchten, müssen Sie sich Ihre eigenen SSL-Zertif
 
 ### Ähnliche Möglichkeiten
 
-- [Den Namen des Wi-Fi-Netzwerks ändern der MoodleBox][1].
+- [Den Namen des WLAN-Netzwerks ändern der MoodleBox][1].
 - Die MoodleBox zugänglich machen [über ein Ethernet-Kabelnetz][2].
 
  [1]: {{< relref "help/wi-fi-configuration" >}}

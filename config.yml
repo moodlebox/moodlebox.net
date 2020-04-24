@@ -295,7 +295,7 @@ languages:
         weight: 3
 
       - parent: get-involved
-        name: Bug melden
+        name: Fehler melden
         url: https://github.com/moodlebox/moodlebox/issues/new/choose
         weight: 1
       - parent: get-involved
@@ -377,7 +377,7 @@ menu:
     pre: <i class='fa fa-2x fa-twitter'></i>
     url: https://twitter.com
     weight: 3
-  - name: Email
+  - name: E-Mail
     pre: <i class='fa fa-2x fa-envelope'></i>
     url: mailto:nicolas@martignoni.net
     weight: 4

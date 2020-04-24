@@ -1,23 +1,23 @@
 id: project
-name: MoodleBox project
+name: Projekt MoodleBox
 weight: 3
 
 items:
-  - question: Which organization is managing the project MoodleBox?
+  - question: Welche Organisation verwaltet das Projekt MoodleBox?
     answer: >
-      MoodleBox is a volunteer and non-profit project lead by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/) on his spare time.
+      MoodleBox ist ein freiwilliges und gemeinnütziges Projekt, das von [Nicolas Martignoni] (https://blog.martignoni.net/a-propos/) in seiner Freizeit geleitet wird.
 
-  - question: What is the business model of MoodleBox ?
+  - question: Welches Geschäftsmodell verfolgt die MoodleBox?
     answer: >
-      MoodleBox is a free (as in speech and in beer) and open source project developed on a voluntary and non-profit basis. As such, it only requires financing to acquire the equipment necessary for its development, to contract the hosting and domain names necessary for its distribution and to maintain the motivation of its developer.
+      MoodleBox ist ein freies (wie in Sprache und Bier) Open-Source-Projekt, das ausschließlich auf freiwilliger und gemeinnütziger Basis entwickelt wird. Als solches benötigt es nur eine Finanzierung, um die für seine Entwicklung erforderliche Ausrüstung zu erwerben, die für seine Bereitstellung erforderlichen Hosting- und Domain-Namen zu vergeben und die Motivation seines Entwicklers aufrechtzuerhalten.
 
 
-      For the time being, [donations](../give) and sponsorship by [E-learning Touch'](https://www.elearningtouch.com/) are sufficient to partially cover these needs.
+      Derzeit reichen [Spenden] (../give) und Sponsoring durch [E-learning Touch] (https://www.elearningtouch.com/) aus, um diesen Bedarf teilweise zu decken.
 
-  - question: How can I help MoodleBox?
+  - question: Wie kann ich die MoodleBox unterstützen?
     answer: >-
-      MoodleBox is a volunteer and non-profit project. I can only be made possible with [your donations](../give). Your donation will help fund the hardware needed to MoodleBox development and hosting and domain names needed for its distribution.
+      MoodleBox ist ein freiwilliges und gemeinnütziges Projekt. Dies ist nur mit [Ihren Spenden] (../give) möglich. Ihre Spende hilft bei der Finanzierung der Hardware für die MoodleBox-Entwicklung, außerdem bei der Finanzierung des Hostings und der Domainnamen, die für die Verteilung benötigt werden.
 
-  - question: I couldn't find an answer to my question. Where can I get help?
+  - question: Ich konnte keine Antwort auf meine Frage finden. Wo kann ich Hilfe bekommen?
     answer: >
-      Browse the [MoodleBox complete documentation](../help) or search if your question has already been addressed in the [MoodleBox support forum](https://discuss.moodlebox.net/). If you cannot find it, don't hesitate to [open a new discussion in the forum][forum].
+      Blättern Sie durch die [MoodleBox-Dokumentation] (../help) oder schauen Sie nach, ob Ihre Frage bereits im [MoodleBox-Supportforum] (https://discuss.moodlebox.net/) beantwortet wurde. Wenn Sie Ihr Problem nicht lösen können, zögern Sie nicht, [eine neue Diskussion im Forum zu starten](https://discuss.moodlebox.net/).

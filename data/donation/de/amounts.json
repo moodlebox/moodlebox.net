@@ -16,7 +16,7 @@
     "default": false
 }, {
     "id": "3",
-    "name": "Webhosting, 1 Monaten",
+    "name": "Webhosting, 1 Monat",
     "description": "",
     "price": 20,
     "image": "",
@@ -24,7 +24,7 @@
     "default": false
 }, {
     "id": "4",
-    "name": "Webhosting, 3 Monaten",
+    "name": "Webhosting, 3 Monate",
     "description": "",
     "price": 50,
     "image": "",
@@ -32,7 +32,7 @@
     "default": true
 }, {
     "id": "5",
-    "name": "Webhosting, 6 Monaten",
+    "name": "Webhosting, 6 Monate",
     "description": "",
     "price": 100,
     "image": "",

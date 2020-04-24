@@ -1,11 +1,11 @@
 ---
-title: Nutzung des Wi-Fi Captive-Portals der MoodleBox
+title: Nutzung des WLAN-Captive-Portals der MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2019-05-20
 lastmod: 2019-05-20
-description: Die MoodleBox verfügt über ein Captive-Portal für ihr Wi-Fi-Netzwerk, über das drahtlose Clients auf die MoodleBox-Startseite geleitet werden können.
+description: Die MoodleBox verfügt über ein Captive-Portal für ihr WLAN-Netzwerk, über das drahtlose Clients auf die MoodleBox-Startseite geleitet werden können.
 slug: captive-portal
 weight: 85
 categories:
@@ -29,7 +29,7 @@ sudo systemctl stop nodogsplash
 Wenn die MoodleBox erneut gestartet wird, bleibt der aktive oder inaktive Zustand des Captive-Portals derjenige, der zuletzt ausgewählt wurde.
 
 {{< notice info >}}
-Das Captive-Portal funktioniert nur dann, wenn die MoodleBox mit dem Internet verbunden ist. Andernfalls werden Benutzer [die sich mit dem Wi-Fi-Netzwerk verbinden]({{< relref "help/wi-fi-connection" >}}) der MoodleBox nicht vom Captive-Portal abgefangen.
+Das Captive-Portal funktioniert nur dann, wenn die MoodleBox mit dem Internet verbunden ist. Andernfalls werden Benutzer [die sich mit dem WLAN-Netzwerk verbinden]({{< relref "help/wi-fi-connection" >}}) der MoodleBox nicht vom Captive-Portal abgefangen.
 {{< /notice >}}
 
  [1]: https://de.wikipedia.org/wiki/Captive_Portal
