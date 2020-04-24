@@ -79,7 +79,11 @@
 - id: error404
   translation: "Erreur 404 - Page non trouvée"
 - id: error404Message
-  translation: "Toutes nos excuses - Cette page n'existe plus"
+  translation: "Toutes nos excuses - nous ne trouvons pas la page que vous cherchez"
+- id: error404Explanation
+  translation: "Elle n'existe plus, est appelée autrement ou n'est temporairement plus disponible."
+- id: error404Search
+  translation: "Faites une recherche ci-dessous pour essayer de trouver ce que vous cherchez."
 - id: noResultsTitle
   translation: "Aucun document trouvé"
 - id: noResultsText
