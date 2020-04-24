@@ -79,7 +79,11 @@
 - id: error404
   translation: "Error 404 - Page not found"
 - id: error404Message
-  translation: "We are sorry - This page is not here anymore"
+  translation: "We are sorry - we can't find the page you're looking for"
+- id: error404Explanation
+  translation: "It may no longer exist, be called something different or be temporarily unavailable."
+- id: error404Search
+  translation: "Try to find what you're looking for by searching below."
 - id: noResultsTitle
   translation: "No document found"
 - id: noResultsText
