@@ -24,7 +24,7 @@ Die [Dinge, die Sie für Ihre MoodleBox benötigen][1], sind im Wesentlichen ein
 {{< notice tip >}}
 Der Erwerb einer __hochwertigen__ microSD-Karte und einer geeigneten Stromversorgung sind für den störungsfreien Betrieb der MoodleBox __unerlässlich__.
 
-Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) der Raspberry Foundation und eine microSD-Karte mit geprüfter Leistung, z.B. [von Wirecutter empfohlen](http://thewirecutter.com/reviews/best-microsd-card/). Die Verwendung anderer Netzteile sowie von microSD-Karten aus zweifelhaften Quellen kann zu systematischen Störungen führen, für die __keine Unterstützung geleistet werden kann__.
+Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) der Raspberry Foundation und eine microSD-Karte mit geprüfter Leistung, z.B. [von Wirecutter empfohlen](https://thewirecutter.com/reviews/best-microsd-card/). Die Verwendung anderer Netzteile sowie von microSD-Karten aus zweifelhaften Quellen kann zu systematischen Störungen führen, für die __keine Unterstützung geleistet werden kann__.
 {{< /notice >}}
 
 ### Schritt 2: MoodleBox Disk-Image herunterladen
