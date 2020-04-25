@@ -9,7 +9,7 @@ description: Die MoodleBox verfügt über ein Captive-Portal für ihr WLAN-Netzw
 slug: captive-portal
 weight: 85
 categories:
-  - Usage
+  - Nutzung
 
 ---
 {{< notice note >}}

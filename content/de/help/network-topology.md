@@ -10,9 +10,9 @@ description: Das folgende Diagramm beschreibt die Netzwerktopologie der MoodleBo
 slug: moodlebox-netzwerktopologie
 weight: 70
 categories:
-  - First steps
-  - Maintenance
-  - Usage
+  - Erste Schritte
+  - Wartung
+  - Nutzung
 
 ---
 Das folgende Diagramm beschreibt die Netzwerktopologie der MoodleBox. Der Hostname der MoodleBox ist __moodlebox__. Ihr fully qualified Domain Name (_FQDN_) ist __moodlebox.home__.

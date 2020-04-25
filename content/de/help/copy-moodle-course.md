@@ -9,7 +9,7 @@ description: Es ist einfach, einen Moodle-Kurs von einem anderen Moodle-Server a
 slug: moodle-kurs-kopieren
 weight: 6
 categories:
-  - Usage
+  - Nutzung
 
 ---
 

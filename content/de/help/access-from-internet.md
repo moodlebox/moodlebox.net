@@ -9,7 +9,7 @@ description: Diese Anleitung erklärt, wie man eine MoodleBox direkt aus dem Int
 slug: access-from-internet
 weight: 95
 categories:
-  - Usage
+  - Nutzung
 
 ---
 Es ist möglich, eine MoodleBox so zu konfigurieren, dass sie direkt aus dem Internet zugänglich ist, vorausgesetzt, Sie verfügen über __sehr gute Kenntnisse__ in der Systemadministration.

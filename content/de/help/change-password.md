@@ -9,7 +9,7 @@ description: Sie können das Hauptpasswort der MoodleBox ändern, indem Sie das 
 slug: change-main-password
 weight: 5
 categories:
-  - Usage
+  - Nutzung
 ---
 
 {{< notice warning >}}

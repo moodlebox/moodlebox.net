@@ -9,7 +9,7 @@ description: MoodleBox kann konfiguriert werden, um sichere Verbindungen über H
 slug: connexion-https
 weight: 90
 categories:
-  - Maintenance
+  - Wartung
 ---
 Die folgende Vorgehensweise kann verwendet werden, um die MoodleBox so zu konfigurieren, dass sie sichere Verbindungen über HTTPS bereitstellt. Danach ist es __nicht mehr möglich, sich über HTTP__ zu verbinden.
 

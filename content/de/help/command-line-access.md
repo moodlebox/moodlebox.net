@@ -10,8 +10,8 @@ description: Bei Bedarf können Sie über SSH auf das Betriebssystem der MoodleB
 slug: zugang-zum-betriebssystem
 weight: 15
 categories:
-  - Maintenance
-  - Usage
+  - Wartung
+  - Nutzung
 
 ---
 Für normale Nutzer besteht keinerlei Notwendigkeit, auf das Betriebssystem der MoodleBox zuzugreifen. Als Administrator können Sie aber bei Bedarf über SSH eine Verbindung zum Betriebssystem herstellen, indem Sie die Adresse __moodlebox.home__ und die folgenden Anmeldedaten verwenden:

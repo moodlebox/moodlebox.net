@@ -10,7 +10,7 @@ description: Wenn Sie Ihr eigenes Disk-Image der MoodleBox erstellen möchten, h
 slug: disk-image-selber-erstellen
 weight: 4
 categories:
-  - About
+  - Über…
 aliases:
   - ../diy
 

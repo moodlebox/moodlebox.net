@@ -10,7 +10,7 @@ lastmod: 2020-02-18
 description: Möchten Sie Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 slug: moodle-aktualisieren
 categories:
-  - Maintenance
+  - Wartung
 
 ---
 {{< notice warning >}}

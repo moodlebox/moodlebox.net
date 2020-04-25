@@ -10,7 +10,7 @@ description: Das MoodleBox Disk-Image kann von dieser Seite frei heruntergeladen
 slug: disk-image-herunterladen
 weight: 3
 categories:
-  - First steps
+  - Erste Schritte
 aliases:
   - ../dl
 

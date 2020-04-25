@@ -8,7 +8,7 @@ description: Die MoodleBox ist Open Source and freie Software (frei wie in Redef
 slug: projekt
 weight: 2
 categories:
-  - About
+  - Über…
 aliases:
   - help/moodlebox-projekt
 ---

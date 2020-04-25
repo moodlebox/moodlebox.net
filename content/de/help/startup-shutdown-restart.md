@@ -10,8 +10,8 @@ description: Wenn Sie wissen wollen, wie Sie Ihre MoodleBox richtig starten, sto
 slug: einschalten-ausschalten-neustarten
 weight: 1
 categories:
-  - Maintenance
-  - Usage
+  - Wartung
+  - Nutzung
 
 ---
 #### Einschalten

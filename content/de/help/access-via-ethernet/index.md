@@ -10,7 +10,7 @@ description: Es ist möglich, Ihr lokales Netzwerk für den Zugriff auf die Mood
 slug: zugang-ueber-ethernet
 weight: 80
 categories:
-  - Usage
+  - Nutzung
 
 ---
 Normalerweise ist es nicht vorgesehen, mit kabelgebundenen Nutzergeräten im Ethernet-Netzwerk auf die MoodleBox zuzugreifen. Trotzdem ist dies aber möglich, wenn man ein paar zusätzliche Einstellungen vornimmt.

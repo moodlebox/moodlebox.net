@@ -11,7 +11,7 @@ description: Für die Anmeldung in der Moodle-Plattform auf der MoodleBox müsse
 slug: anmelden-in-moodle
 weight: 6
 categories:
-  - Usage
+  - Nutzung
 
 ---
 Für die Anmeldung in der Moodle-Plattform auf der MoodleBox müssen Sie sich zunächst in deren drahtlosem [WLAN-Netzwerk verbinden][1]. Wählen Sie auf Ihrem Gerät das drahtlose Netzwerk __MoodleBox__ aus. Wenn Sie zur Eingabe des Kennworts aufgefordert werden, geben Sie __moodlebox__ (alles Kleinbuchstaben) ein und bestätigen Sie die Eingabe.

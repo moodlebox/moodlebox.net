@@ -10,7 +10,7 @@ description: Die MoodleBox macht es einfach, Dateien mit den unten beschriebenen
 slug: dateien-fuer-moodlebox
 weight: 7
 categories:
-  - Usage
+  - Nutzung
 
 ---
 ### Dateien auf einem USB-Stick

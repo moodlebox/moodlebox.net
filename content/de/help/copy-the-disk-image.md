@@ -10,7 +10,7 @@ description: Um das MoodleBox Disk-Image auf eine SD-Karte zu kopieren, folgen S
 slug: disk-image-kopieren
 weight: 4
 categories:
-  - First steps
+  - Erste Schritte
 
 ---
 Haben Sie das [Disk-Image][1] heruntergeladen?

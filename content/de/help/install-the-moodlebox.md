@@ -10,7 +10,7 @@ description: Diese Vorgehensweise ist notwendig, um die MoodleBox für die erste
 slug: moodlebox-installieren
 weight: 1
 categories:
-  - First steps
+  - Erste Schritte
 aliases:
   - ../install
 

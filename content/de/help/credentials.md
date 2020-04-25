@@ -10,8 +10,8 @@ description: Alle auf der MoodleBox verwendeten Anmeldedaten (Anmeldename und Ke
 slug: zugangsdaten
 weight: 8
 categories:
-  - Maintenance
-  - Usage
+  - Wartung
+  - Nutzung
 ---
 Diese Seite listet alle Anmeldedaten (Anmeldename und Kennwort) der Zugänge auf, die für die MoodleBox standardmäßig festgelegt sind. Natürlich lauten die Zugänge anders, wenn Sie etwas geändert haben.
 

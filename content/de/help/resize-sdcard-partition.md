@@ -10,7 +10,7 @@ description: Mit Hilfe dieser Anleitung können Sie den nutzbaren Speicherplatz 
 slug: sd-karte-partition-vergroessern
 weight: 100
 categories:
-  - Maintenance
+  - Wartung
 ---
 
 ### Folgende Schritte sind notwendig

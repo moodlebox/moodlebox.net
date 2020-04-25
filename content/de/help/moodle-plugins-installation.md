@@ -8,7 +8,7 @@ date: 2017-04-20
 description: Moodle-Plugins werden auf der MoodleBox wie auf jedem anderen Moodle-Server installiert
 slug: moodle-plugins-installieren
 categories:
-  - Maintenance
+  - Wartung
 
 ---
 Die Installation von Moodle-Plugins ist wie bei jeder anderen Moodle-Installation möglich.

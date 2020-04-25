@@ -9,7 +9,7 @@ description: Für eine einfachere Administration ist es möglich, die MoodleBox 
 slug: schaltflaechen-in-fusszeile
 weight: 30
 categories:
-  - Usage
+  - Nutzung
 
 ---
 {{< notice note >}}

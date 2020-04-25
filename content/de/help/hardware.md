@@ -10,8 +10,8 @@ description: Hier ist eine Übersicht alle Dinge, die Sie für Ihre eigene Moodl
 slug: hardware-beschaffen
 weight: 3
 categories:
-  - About
-  - First steps
+  - Über…
+  - Erste Schritte
 aliases:
   - ../hardware
 gallery_item:

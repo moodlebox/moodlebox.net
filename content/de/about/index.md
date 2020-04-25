@@ -8,7 +8,7 @@ description: MoodleBox ist ein freiwilliges und Non-Profit-Projekt, das von Nico
 slug: ueber-uns
 weight: 2
 categories:
-  - About
+  - Über…
 aliases:
   - about-us
   - about

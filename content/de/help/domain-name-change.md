@@ -9,7 +9,7 @@ description: In diesem Leitfaden wird erklärt, wie Sie den Domänennamen Ihrer 
 slug: domainname-aenderung
 weight: 90
 categories:
-  - Usage
+  - Nutzung
 
 ---
 {{< notice warning >}}

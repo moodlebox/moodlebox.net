@@ -9,7 +9,7 @@ lastmod: 2019-11-29
 description: Folgen Sie den Anweisungen unten, um Ihre MoodleBox regelmäßig zu aktualisieren
 slug: moodlebox-aktualisieren
 categories:
-  - Maintenance
+  - Wartung
 
 ---
 Als routinemäßige Sicherheitsmaßnahme wird empfohlen, die Serversoftware auf der MoodleBox regelmäßig zu aktualisieren. Mit dieser Maßnahme können mögliche Schwachstellen in der Raspbian-Distribution gepatcht und andere entdeckte Fehler behoben werden.

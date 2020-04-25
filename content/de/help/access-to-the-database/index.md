@@ -10,7 +10,7 @@ lastmod: 2019-07-12
 description: Um mit Adminer auf die Moodle-Datenbank von MoodleBox zuzugreifen, lesen Sie die folgende Informationen
 slug: zugrif-auf-die-datenbank
 categories:
-  - Maintenance
+  - Wartung
 
 ---
 {{< notice warning >}}

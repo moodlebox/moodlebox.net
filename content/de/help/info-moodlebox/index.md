@@ -12,8 +12,8 @@ weight: 10
 aliases:
   - moodlebox-version-anzeigen
 categories:
-  - First steps
-  - Maintenance
+  - Erste Schritte
+  - Wartung
 
 ---
 Das MoodleBox Dashboard finden Sie in der Administrationsoberfläche unter [Website-Administration > Server > MoodleBox][1]. Es ist nur für Plattformadministratoren zugänglich.

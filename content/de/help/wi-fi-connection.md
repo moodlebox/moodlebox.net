@@ -9,8 +9,8 @@ description: Hier erfahren Sie, wie Sie sich mit dem MoodleBox WiFi-Netzwerk ver
 slug: wlan-verbindung
 weight: 5
 categories:
-  - First steps
-  - Usage
+  - Erste Schritte
+  - Nutzung
 
 ---
 Wählen Sie auf Ihrem Endgerät das drahtlose Netzwerk __MoodleBox__ aus. Geben Sie das Kennwort __moodlebox__ (alles Kleinbuchstaben) ein und bestätigen Sie die Verbindung.

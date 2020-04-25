@@ -8,7 +8,7 @@ description: MoodleBox ist ein eigenständiges kleines und kostengünstiges mobi
 slug: was-ist-moodlebox
 weight: 1
 categories:
-  - About
+  - Über…
 ---
 MoodleBox ist ein eigenständiges kleines und kostengünstiges mobiles Gerät, das ohne Internet funktioniert. Sie kombiniert einen WLAN-Access Point mit einem voll ausgestatteten Moodle-Server.
 

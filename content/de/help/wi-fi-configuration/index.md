@@ -10,8 +10,8 @@ description: Es ist möglich, zahlreiche WiFi-Einstellungen des MoodleBox Access
 slug: wlan-einstellungen-aendern
 weight: 6
 categories:
-  - First steps
-  - Maintenance
+  - Erste Schritte
+  - Wartung
 
 ---
 Wenn Sie die MoodleBox einschalten, arbeitet die MoodleBox wie ein WLAN-AccessPoint. Als Administrator können Sie zahlreiche WLAN-Einstellungen ändern. Um dies zu tun, gehen Sie in den MoodleBox-Einstellungen auf [Website-Administration > Server > MoodleBox][1].

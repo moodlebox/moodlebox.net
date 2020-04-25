@@ -8,7 +8,7 @@ date: 2017-04-20
 description: Ausführliche Informationen zur Konfiguration der Moodle-Installation der MoodleBox finden Sie hier
 slug: moodle-einstellungen
 categories:
-  - Maintenance
+  - Wartung
 
 ---
 Die Moodle-Plattform auf der MoodleBox hat keine besondere Konfiguration. Lediglich die folgenden Einstellungen sind angepasst, um die Verwendung zu erleichtern oder die Leistung zu verbessern.

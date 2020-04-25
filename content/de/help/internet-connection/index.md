@@ -10,7 +10,7 @@ description: Diese Anleitung erklärt, wie man Nutzern, die über WLAN mit einer
 slug: internet-verbindung
 weight: 9
 categories:
-  - Usage
+  - Nutzung
 
 ---
 Es ist sehr einfach, Nutzern, die drahtlos mit einer MoodleBox verbunden sind, eine Internetverbindung zur Verfügung zu stellen.
