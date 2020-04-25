@@ -51,7 +51,8 @@ aliases:
   </div>
 </div>
 
-Folgen Sie nach dem Herunterladen des Disk-Images den Anweisungen für [Kopieren auf die microSD-Karte][1] und [Stelle deine MoodleBox][2] zur ersten Verwendung ein.
+
+Folgen Sie nach dem Herunterladen des Disk-Images den Anleitungen für das [Kopieren auf die microSD-Karte][1] und [Einschalten der MoodleBox][2] zur ersten Verwendung.
 
 Wenn Sie möchten, können Sie die [Entwicklung der MoodleBox unterstützen][3], indem Sie eine [freiwillige Spende machen][3].
 

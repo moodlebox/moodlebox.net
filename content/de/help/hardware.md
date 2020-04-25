@@ -6,7 +6,7 @@ authors:
 type: kb
 date: 2017-04-20
 lastmod: 2020-02-26
-description: Hier ist eine Übersicht alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
+description: Die Übersicht zeigt alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
 slug: hardware-beschaffen
 weight: 3
 categories:
@@ -26,21 +26,21 @@ gallery_item:
     caption: Rapsberry Pi 3
 
 ---
-Hier ist eine Übersicht alle Dinge, die Sie für Ihre eigene MoodleBox brauchen:
+Die Übersicht zeigt alle Dinge, die Sie für Ihre eigene MoodleBox brauchen:
 
-  * Raspberry Pi [4 Model B][RPi4B], [3 Model B+][RPi3Bplus], [3 Model B][RPi3B] oder [3 Model A+][RPi3Aplus],
-  * Hochqualitatives [Stromversorgung][supply],
-  * [MicroSD-Karte][sdcard] von ausreichender Größe; wir empfehlen eine Größe von 32 GB oder mehr, obwohl MoodleBox mit einer kleineren Kartengröße funktionieren kann,
-  * [Gehäuse für Raspberry Pi][case] (nicht notwendig, aber Sie sollten den Raspberry Pi schützen).
+  * Raspberry Pi [4B][RPi4B], [3B+][RPi3Bplus], [3B][RPi3B] oder [3A+][RPi3Aplus],
+  * Hochwertige [Stromversorgung][supply],
+  * [microSD-Karte][sdcard] mit ausreichender Größe. Wir empfehlen eine Kartengröße von 32 GB oder mehr, auch wenn die MoodleBox mit einer kleineren Kartengröße funktioniert,
+  * [Gehäuse für Raspberry Pi][case] (nicht unbedingt notwendig, aber Sie sollten den Raspberry Pi schützen).
 
-Die Kosten für die gesamte Hardware betragen ungefähr 80€, USD 90 oder CHF 90.
+Die Gesamtkosten für die Hardware betragen ungefähr 80€, USD 90 oder CHF 90.
 
 {{< gallery >}}
 
 {{< notice tip >}}
-Der Erwerb einer __hochqualitativen__ microSD-Karte und einer geeigneten Stromversorgung sind für den störungsfreien Betrieb der MoodleBox __unerlässlich__.
+Der Erwerb einer __hochwertigen__ microSD-Karte und einer geeigneten Stromversorgung sind für den störungsfreien Betrieb der MoodleBox __unerlässlich__.
 
-Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) der Raspberry Foundation und eine microSD-Karte mit geprüfter Leistung, z.B. [von Wirecutter empfohlen](http://thewirecutter.com/reviews/best-microsd-card/). Die Verwendung anderer Netzteile sowie von microSD-Karten aus zweifelhaften Quellen kann zu systematischen Störungen führen, für die __keine Unterstützung geleistet werden kann__.
+Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) der Raspberry Foundation und eine microSD-Karte mit geprüfter Qualität, z.B. [von Wirecutter empfohlen](http://thewirecutter.com/reviews/best-microSD-card/). Die Verwendung anderer Netzteile sowie von microSD-Karten aus zweifelhaften Quellen kann zu systematischen Störungen führen, für die __keine Unterstützung geleistet werden kann__.
 {{< /notice >}}
 
  [RPi3Aplus]: https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/
@@ -48,5 +48,5 @@ Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/ras
  [RPi3Bplus]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/
  [RPi4B]: https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
  [case]: https://www.raspberrypi.org/products/raspberry-pi-3-case/
- [sdcard]: https://thewirecutter.com/reviews/best-microsd-card/
+ [sdcard]: https://thewirecutter.com/reviews/best-microSD-card/
  [supply]: https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/

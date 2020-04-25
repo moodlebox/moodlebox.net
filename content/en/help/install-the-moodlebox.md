@@ -18,25 +18,25 @@ This is the procedure to install the MoodleBox for its first utilisation.
 
 ### Step 1: Buy the hardware
 
-The [stuff you will need][1] to build your MoodleBox is essentially a Raspberry Pi Model 3A, 3B, 3B+ or 4B with a power supply and a MicroSD card. [More information here][1].
+The [stuff you will need][1] to build your MoodleBox is essentially a Raspberry Pi Model 3A, 3B, 3B+ or 4B with a power supply and a microSD card. [More information here][1].
 
 {{< notice tip >}}
 Selecting a __good quality__ microSD card and an adequate power supply are __essential__ for the proper operation of the MoodleBox.
 
-We recommend the [official Raspberry Foundation power supply](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) and a microSD card with tested performance, for example [those recommended by Wirecutter](http://thewirecutter.com/reviews/best-microsd-card/). The use of other power supplies, as well as microSD cards from dubious sources, can cause systematic malfunctions, for which __no support can be provided__.
+We recommend the [official Raspberry Foundation power supply](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) and a microSD card with tested performance, for example [those recommended by Wirecutter](http://thewirecutter.com/reviews/best-microSD-card/). The use of other power supplies, as well as microSD cards from dubious sources, can cause systematic malfunctions, for which __no support can be provided__.
 {{< /notice >}}
 
 ### Step 2: Download the MoodleBox disk image
 
 The [MoodleBox disk image][2] is available [here][2].
 
-### Step 3: Copy the disk image on your MicroSD card
+### Step 3: Copy the disk image on your microSD card
 
 For this operation, use preferably [balenaEtcher][10]. [More information here][3].
 
 ### Step 4: Startup your MoodleBox
 
-Insert your microSD card into the Raspberry Pi 3 slot and power it up. The red LED lights up, and after a few seconds the green LED lights up intermittently. If desired, connect the MoodleBox to the network or to an Internet router with an Ethernet cable to allow connected devices to access the Internet.
+Insert your microSD card into the Raspberry Pi slot and power it up. The red LED lights up, and after a few seconds the green LED lights up intermittently. If desired, connect the MoodleBox to the network or to an Internet router with an Ethernet cable to allow connected devices to access the Internet.
 
 There is no other manipulation to do: after the boot, your MoodleBox is ready and totally functional.
 
