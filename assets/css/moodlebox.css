@@ -3854,7 +3854,7 @@ section#news {
   text-align: center;
   line-height: 22px;
   font-size: 18px;
-  padding: 10px 5% !important;
+  padding: 10px 1em !important;
   border-style: solid !important;
   height: 50px;
   display: inline-block;
