@@ -3,15 +3,8 @@
     <div class="col-md-9">
       <section>
         {{ .Content }}
-        <div role="form" class="search-form">
-        <form action="{{ "/search/" | absLangURL }}" id="search-form" method="get" accept-charset="UTF-8" role="search" class="search">
-          <div class="input-group">
-            <input name="q" placeholder="{{ i18n "searchTitle" }}" type="text" id="search-input" class="form-control" />
-            <span class="input-group-btn">
-              <button type="submit" class="btn btn-template-main">{{ i18n "searchTitle" }}</button>
-            </span>
-          </div>
-        </form>
+        <div role="form" class="search-form-page">
+          {{ partial "search-form.html" }}
         </div>
 
         <section>

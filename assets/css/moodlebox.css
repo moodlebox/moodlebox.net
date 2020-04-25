@@ -3699,9 +3699,9 @@ section#news {
 }
 
 /* Search form */
-.search-form {
+.search-form-page {
   margin: 0 0 40px;
-  padding: 0;
+  padding: 0 10em;
 }
 
 /* Knowledge base */
