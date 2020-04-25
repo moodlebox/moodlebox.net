@@ -18,12 +18,12 @@ Voici la procédure pour installer la MoodleBox en vue de sa première utilisati
 
 ### Étape 1 : acheter le matériel
 
-Le [matériel nécessaire][1] pour faire votre MoodleBox consiste essentiellement en une Raspberry Pi modèle 3A, 3B, 3B+ ou 4B avec une alimentation et une carte MicroSD. [Plus d'informations ici][1].
+Le [matériel nécessaire][1] pour faire votre MoodleBox consiste essentiellement en une Raspberry Pi modèle 3A, 3B, 3B+ ou 4B avec une alimentation et une carte microSD. [Plus d'informations ici][1].
 
 {{< notice tip >}}
 Le choix d'une carte microSD de __bonne qualité__ ainsi que d'une alimentation électrique adéquate sont __essentiels__ pour le bon fonctionnement de la MoodleBox.
 
-Nous recommandons l'[alimentation officielle](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) de la Fondation Raspberry et une carte microSD disposant de performances éprouvées, par exemple celles qui sont [recommandées par Wirecutter](http://thewirecutter.com/reviews/best-microsd-card/). L'utilisation d'autres alimentations, ainsi que de cartes microSD de provenances douteuses peuvent être en effet la cause de dysfonctionnements systématiques, pour lesquels __aucune assistance ne peut être assurée__.
+Nous recommandons l'[alimentation officielle](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) de la Fondation Raspberry et une carte microSD disposant de performances éprouvées, par exemple celles qui sont [recommandées par Wirecutter](https://thewirecutter.com/reviews/best-microsd-card/). L'utilisation d'autres alimentations, ainsi que de cartes microSD de provenances douteuses peuvent être en effet la cause de dysfonctionnements systématiques, pour lesquels __aucune assistance ne peut être assurée__.
 {{< /notice >}}
 
 
@@ -31,13 +31,13 @@ Nous recommandons l'[alimentation officielle](https://www.raspberrypi.org/produc
 
 L'[image-disque][2] nécessaire pour construire la MoodleBox est [disponible ici][2].
 
-### Étape 3 : copier l'image-disque sur votre carte MicroSD
+### Étape 3 : copier l'image-disque sur votre carte microSD
 
 Pour cette opération, il est préférable d'utiliser [balenaEtcher][10]. [Plus d'informations ici][3].
 
 ### Étape 4 : démarrer votre MoodleBox
 
-Insérer dans la Raspberry Pi 3 la carte microSD (sur laquelle l'image-disque a été copiée) et brancher l'alimentation. La diode rouge s'allume, puis, après quelques secondes, la diode verte s'allume de façon intermittente. Si désiré, brancher la MoodleBox au réseau ou à un routeur Internet avec un câble ethernet afin de permettre aux appareils connectés d'accéder à Internet.
+Insérer dans la Raspberry Pi la carte microSD (sur laquelle l'image-disque a été copiée) et brancher l'alimentation. La diode rouge s'allume, puis, après quelques secondes, la diode verte s'allume de façon intermittente. Si désiré, brancher la MoodleBox au réseau ou à un routeur Internet avec un câble ethernet afin de permettre aux appareils connectés d'accéder à Internet.
 
 Il n'y a pas d'autre manipulation à effectuer : dès la fin de son démarrage, la MoodleBox est prête et fonctionnelle.
 

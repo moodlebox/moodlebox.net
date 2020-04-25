@@ -5,8 +5,8 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
-lastmod: 2018-08-19
-description: Wenn Sie wissen wollen, wie Sie Ihre MoodleBox richtig starten, stoppen oder neu starten können, finden Sie hier die gewünschten Informationen
+lastmod: 2020-04-25
+description: Informationen, wie Sie Ihre MoodleBox richtig starten, stoppen oder neu starten
 slug: einschalten-ausschalten-neustarten
 categories_weight: 1
 categories:
@@ -14,35 +14,35 @@ categories:
   - Nutzung
 
 ---
-#### Einschalten
+### Einschalten
 
-Setzen Sie die kopierte MicroSD-Karte in den Steckplatz im Raspberry Pi 3 ein. Verbinden Sie die MoodleBox über ein Ethernet-Kabel mit dem Netzwerk oder dem Internetrouter. Schalten Sie die Stromversorgung ein. Die rote LED leuchtet und nach einigen Sekunden beginnt die grüne LED zu blinken.
+Setzen Sie die kopierte microSD-Karte in den Steckplatz im Raspberry Pi ein. Verbinden Sie die MoodleBox über ein Ethernet-Kabel mit dem Netzwerk oder dem Internetrouter. Schalten Sie die Stromversorgung ein. Die rote LED leuchtet und nach einigen Sekunden beginnt die grüne LED zu blinken.
 
 {{< figure src="/img/media/pi-plug-in.gif" caption="Einschalten" caption-position="bottom" caption-effect="appear" width="750px" >}}
 
 Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die MoodleBox fertig und voll funktionsfähig.
 
-Falls es möglich ist, sollten Sie die MoodleBox bei jedem Start über Ethernet mit dem Netzwerk zu verbinden. Nur dann können die Wartungsaufgaben erfolgreich durchgeführt werden, die eine Internetverbindung erfordern (z.B. die Synchronisation der internen Systemuhr).
+Wenn es möglich ist, sollten Sie die MoodleBox bei jedem Start über Ethernet mit dem Netzwerk zu verbinden. Nur dann können die Systemaufgaben erfolgreich ablaufen, die eine Internetverbindung erfordern (z.B. die Synchronisation der internen Systemuhr).
 
-#### Ausschalten
-
-{{< notice warning >}}
-Um das Risiko von Datenbeschädigungen auf der MicroSD-Karte zu minimieren, fahren Sie zuerst die MoodleBox manuell herunter, bevor Sie die Stromversorgung ausschalten.
-{{< /notice >}}
+### Ausschalten
 
 Über die grafische Benutzeroberfläche können Sie die MoodleBox neu starten und sicher ausschalten.
 
-Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleBox an und rufen Sie die Einstellungsseite [Website-Administration > Server > MoodleBox] [1] auf.
+Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleBox an und rufen Sie die Einstellungsseite [Website-Administration > Server > MoodleBox][1] auf.
+
+{{< notice warning >}}
+Um das Risiko von Datenverlusten auf der microSD-Karte zu minimieren, fahren Sie bitte zuerst die MoodleBox manuell herunter, bevor Sie die Stromversorgung ausschalten.
+{{< /notice >}}
 
 {{< figure src="/img/media/restart-shutdown-de.png" caption="Neustarten und ausschalten" caption-position="bottom" caption-effect="appear" width="735px" >}}
 
-Im Abschnitt __Neustarten und ausschalten__ zeigt die Benutzeroberfläche zwei Schaltflächen, mit denen Sie die MoodleBox neustarten oder ausschalten können. Tippen Sie auf die Schaltfläche __MoodleBox ausschalten__, warten Sie einige Sekunden und kontrollieren Sie, dass die grüne LED nicht mehr leuchtet. Jetzt können Sie das Netzteil entfernen.
+Im Abschnitt __Neustarten und ausschalten__ zeigt die Benutzeroberfläche zwei Schaltflächen, mit denen Sie die MoodleBox neustarten oder ausschalten können. Tippen Sie auf die Schaltfläche __MoodleBox ausschalten__ und warten Sie dann einige Sekunden, bis die grüne LED nicht mehr leuchtet. Jetzt können Sie das Netzteil entfernen.
 
 ### Neustarten
 
-Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleBox an und rufen Sie die Einstellungsseite [Website-Administration > Server > MoodleBox] [1] auf.
+Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleBox an und rufen Sie die Einstellungsseite [Website-Administration > Server > MoodleBox][1] auf.
 
-Tippen Sie auf die Schaltfläche __MoodleBox neustarten__. Warten Sie einige Sekunden, bis die MoodleBox wieder verfügbar ist.
+Tippen Sie auf die Schaltfläche __MoodleBox neustarten__ und warten Sie einige Sekunden, bis die MoodleBox wieder verfügbar ist.
 
 ### Hardware zum Ein- und Ausschalten erweitern
 

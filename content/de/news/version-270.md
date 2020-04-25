@@ -1,5 +1,5 @@
 ---
-title: Herausgabe der MoodleBox 2.7.0
+title: Veröffentlichung der MoodleBox 2.7.0
 description: MoodleBox 2.7.0 basiert auf Moodle 3.6.4+. Es erlaubt, die Neustart- und Ausschalten-Schaltflächen auf allen Moodle-Seiten anzuzeigen.
 date: 2019-05-20
 authors:
@@ -10,8 +10,8 @@ slug: version-2.7.0
 Die [Version 2.7.0][2] des [Disk-Image der MoodleBox][1] wurde heute veröffentlicht. Es bringt viele neue Funktionen mit sich.
 
   - Dieses Release basiert auf [Moodle][3] Version 3.6.4+.
-  - Sie basiert auf dem am 8. April 2019 veröffentlichten [Raspbian Stretch Lite Image][4].
-  - Eine neue Version des [MoodleBox Plugins für Moodle][5] ermöglicht es, die [Neustart- und Ausschalten-Schaltflächen][7] in die Fußzeile aller Moodle-Seiten anzuzeigen.
+  - Sie basiert auf dem am 8. April 2019 veröffentlichten [Raspbian Stretch Lite][4].
+  - Eine neue Version des [MoodleBox Plugins][5] ermöglicht es, die [Neustart- und Ausschalten-Schaltflächen][7] in die Fußzeile aller Moodle-Seiten anzuzeigen.
   - Eine Warnung wird dem Moodle-Administrator angezeigt, wenn das Netzteil der MoodleBox eine unzureichende Spannung liefert.
   - Ein [Captive Portal][6] ist in die MoodleBox integriert. Das Captive-Portal ist standardmäßig deaktiviert. [Lesen Sie die Dokumentation][6] für weitere Informationen.
   - Verschiedene Bugs wurden behoben.

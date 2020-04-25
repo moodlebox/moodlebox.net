@@ -43,7 +43,7 @@ To update to the next __major version__ of Moodle (3.9, 4.0, etc.), type the com
 ```bash
 sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git checkout MOODLE_38_STABLE
+sudo -u moodlebox -g www-data git checkout MOODLE_39_STABLE
 ```
 
 Then visit the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the documentation][update]).

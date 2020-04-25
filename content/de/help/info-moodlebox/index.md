@@ -30,7 +30,7 @@ Das Dashboard ermöglicht es Ihnen auch, die folgenden Aktionen durchzuführen.
 - [Neustart oder Herunterfahren][5] der MoodleBox
 
 {{< notice note >}}
-Wenn die Stromversorgung der MoodleBox nicht ausreichend ist, wird __oben auf jeder Seite eine Warnung__ angezeigt. Diese Warnung ist nur für den Administrator sichtbar. Andere MoodleBox-Benutzer sehen es nicht.
+Wenn die Stromversorgung der MoodleBox nicht ausreichend ist, wird __oben auf jeder Seite eine Warnung__ angezeigt. Diese Warnung ist nur für den Administrator sichtbar. Andere MoodleBox-Nutzer sehen diese Warnung nicht.
 {{< figure src="undervoltage.png" width="700" title="Nicht ausreichende Stromversorgung Warnung" class="centered-image" >}}
 {{< /notice >}}
 
