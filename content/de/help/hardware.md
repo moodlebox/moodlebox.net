@@ -40,7 +40,7 @@ Die Gesamtkosten für die Hardware betragen ungefähr 80€, USD 90 oder CHF 90.
 {{< notice tip >}}
 Der Erwerb einer __hochwertigen__ microSD-Karte und einer geeigneten Stromversorgung sind für den störungsfreien Betrieb der MoodleBox __unerlässlich__.
 
-Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) der Raspberry Foundation und eine microSD-Karte mit geprüfter Qualität, z.B. [von Wirecutter empfohlen](http://thewirecutter.com/reviews/best-microSD-card/). Die Verwendung anderer Netzteile sowie von microSD-Karten aus zweifelhaften Quellen kann zu systematischen Störungen führen, für die __keine Unterstützung geleistet werden kann__.
+Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) der Raspberry Foundation und eine microSD-Karte mit geprüfter Qualität, z.B. [von Wirecutter empfohlen](http://thewirecutter.com/reviews/best-microsd-card/). Die Verwendung anderer Netzteile sowie von microSD-Karten aus zweifelhaften Quellen kann zu systematischen Störungen führen, für die __keine Unterstützung geleistet werden kann__.
 {{< /notice >}}
 
  [RPi3Aplus]: https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/
@@ -48,5 +48,5 @@ Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/ras
  [RPi3Bplus]: https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/
  [RPi4B]: https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
  [case]: https://www.raspberrypi.org/products/raspberry-pi-3-case/
- [sdcard]: https://thewirecutter.com/reviews/best-microSD-card/
+ [sdcard]: https://thewirecutter.com/reviews/best-microsd-card/
  [supply]: https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/
