@@ -7,7 +7,7 @@ date: 2017-04-20
 lastmod: 2018-12-15
 description: To copy the MoodleBox disk image to an SD card, follow these instructions.
 slug: copy-the-disk-image-on-a-sd-card
-weight: 4
+categories_weight: 4
 categories:
   - First steps
 

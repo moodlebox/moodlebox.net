@@ -8,7 +8,7 @@ date: 2018-02-13
 lastmod: 2020-02-26
 description: MoodleBox wird mit einem Dashboard ausgestattet, um verschiedene Informationen über die installierte Hard- und Software anzuzeigen.
 slug: moodlebox-dashboard
-weight: 10
+categories_weight: 10
 aliases:
   - moodlebox-version-anzeigen
 categories:

@@ -9,7 +9,7 @@ date: 2018-02-01
 lastmod: 2019-07-13
 description: Für die Anmeldung in der Moodle-Plattform auf der MoodleBox müssen Sie sich zunächst in deren drahtlosem WLAN-Netzwerk verbinden, dann http://moodlebox.home/ öffnen
 slug: anmelden-in-moodle
-weight: 6
+categories_weight: 6
 categories:
   - Nutzung
 

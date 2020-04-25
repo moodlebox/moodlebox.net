@@ -7,7 +7,7 @@ date: 2019-05-20
 lastmod: 2019-05-20
 description: La MoodleBox dispose d'un portail captif pour son réseau WiFi, permettant de diriger les clients sans fils vers la page d'accueil de la MoodleBox.
 slug: portail-captif
-weight: 85
+categories_weight: 85
 categories:
   - Utilisation
 

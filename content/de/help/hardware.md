@@ -8,7 +8,7 @@ date: 2017-04-20
 lastmod: 2020-02-26
 description: Hier ist eine Übersicht alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
 slug: hardware-beschaffen
-weight: 3
+categories_weight: 3
 categories:
   - Über…
   - Erste Schritte

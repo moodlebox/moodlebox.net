@@ -8,7 +8,7 @@ date: 2017-09-16
 lastmod: 2019-10-21
 description: Alle auf der MoodleBox verwendeten Anmeldedaten (Anmeldename und Kennwort) für WiFi, SSH, Moodle und Datenbank sind hier aufgelistet
 slug: zugangsdaten
-weight: 8
+categories_weight: 8
 categories:
   - Wartung
   - Nutzung

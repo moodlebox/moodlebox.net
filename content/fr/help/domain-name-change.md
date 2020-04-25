@@ -7,7 +7,7 @@ date: 2018-09-27
 lastmod: 2020-01-06
 description: Ce guide explique la démarche à effectuer pour changer le nom de domaine de votre MoodleBox, de sorte à mieux refléter votre propre situation locale.
 slug: changer-nom-de-domaine
-weight: 90
+categories_weight: 90
 categories:
   - Utilisation
 

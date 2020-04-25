@@ -8,7 +8,7 @@ date: 2017-04-20
 lastmod: 2020-02-08
 description: Diese Anleitung erklärt, wie man Nutzern, die über WLAN mit einer MoodleBox verbunden sind, eine Internetverbindung zur Verfügung stellt.
 slug: internet-verbindung
-weight: 9
+categories_weight: 9
 categories:
   - Nutzung
 

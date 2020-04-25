@@ -7,7 +7,7 @@ date: 2019-11-17
 lastmod: 2019-11-17
 description: MoodleBox peut être configurée pour offrir une connexion sécurisée par HTTPS. Cette configuration nécessite une intervention manuelle par une personne techniquement compétente.
 slug: connexion-https
-weight: 90
+categories_weight: 90
 categories:
   - Maintenance
 ---

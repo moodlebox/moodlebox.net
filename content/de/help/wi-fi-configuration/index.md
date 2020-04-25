@@ -8,7 +8,7 @@ date: 2017-08-12
 lastmod: 2019-10-30
 description: Es ist möglich, zahlreiche WiFi-Einstellungen des MoodleBox AccessPoint zu ändern.
 slug: wlan-einstellungen-aendern
-weight: 6
+categories_weight: 6
 categories:
   - Erste Schritte
   - Wartung

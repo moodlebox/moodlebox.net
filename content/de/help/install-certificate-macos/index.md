@@ -7,7 +7,7 @@ date: 2019-11-17
 lastmod: 2019-11-17
 description: Um sich über HTTPS mit der MoodleBox zu verbinden, ohne ein Warnungsfenster anzuzeigen, ist es notwendig, das MoodleBox Root-Zertifikat (oder CA-Zertifikat) zu installieren.
 slug: root-zertifikat-installieren-macos
-weight: 90
+categories_weight: 90
 categories:
   - Nutzung
 ---

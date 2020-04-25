@@ -6,7 +6,7 @@ type: kb
 date: 2017-04-18
 description: Si vous désirez créer votre propre image-disque de MoodleBox, voici les informations souhaitées
 slug: creer-une-image-disque-moodlebox-personnalisee
-weight: 4
+categories_weight: 4
 categories:
   - À propos
 aliases:

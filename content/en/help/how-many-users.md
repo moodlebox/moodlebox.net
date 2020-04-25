@@ -7,7 +7,7 @@ date: 2017-04-20
 lastmod: 2019-03-05
 description: Information about the number of user connections (WiFi guests) the MoodleBox can support simultaneously
 slug: moodlebox-for-how-many-users
-weight: 10
+categories_weight: 10
 categories:
   - Usage
 

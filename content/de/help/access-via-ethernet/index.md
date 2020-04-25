@@ -8,7 +8,7 @@ date: 2017-12-23
 lastmod: 2019-09-01
 description: Es ist möglich, Ihr lokales Netzwerk für den Zugriff auf die MoodleBox über eine Ethernet-Verbindung zu konfigurieren
 slug: zugang-ueber-ethernet
-weight: 80
+categories_weight: 80
 categories:
   - Nutzung
 

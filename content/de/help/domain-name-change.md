@@ -7,7 +7,7 @@ date: 2018-09-27
 lastmod: 2020-01-06
 description: In diesem Leitfaden wird erklärt, wie Sie den Domänennamen Ihrer MoodleBox ändern können, dass er besser zu Ihrer eigenen lokalen Situation passt.
 slug: domainname-aenderung
-weight: 90
+categories_weight: 90
 categories:
   - Nutzung
 

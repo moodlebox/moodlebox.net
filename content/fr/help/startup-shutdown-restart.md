@@ -7,7 +7,7 @@ date: 2017-04-17
 lastmod: 2018-08-19
 description: Si vous voulez savoir comment démarrer votre MoodleBox, l'arrêter ou la redémarrer correctement, voici les informations souhaitées
 slug: demarrer-arreter-redemarrer
-weight: 1
+categories_weight: 1
 categories:
   - Maintenance
   - Utilisation

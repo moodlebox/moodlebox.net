@@ -7,7 +7,7 @@ date: 2017-04-20
 lastmod: 2018-03-01
 description: The MoodleBox makes it easy to make files available to its users, using the methods described below
 slug: using-files-with-the-moodlebox
-weight: 7
+categories_weight: 7
 categories:
   - Usage
 

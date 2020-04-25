@@ -7,7 +7,7 @@ date: 2019-11-17
 lastmod: 2019-11-17
 description: To connect to the MoodleBox via HTTPS without displaying a warning window, it is necessary to install MoodleBox root certificate.
 slug: root-certificate-install-windows
-weight: 90
+categories_weight: 90
 categories:
   - Usage
 ---

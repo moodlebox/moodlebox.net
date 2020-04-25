@@ -7,7 +7,7 @@ date: 2018-07-09
 lastmod: 2018-07-09
 description: Follow these instructions to resize your SD card partition.
 slug: resize-sdcard-partition
-weight: 100
+categories_weight: 100
 categories:
   - Maintenance
 ---

@@ -7,7 +7,7 @@ date: 2019-05-20
 lastmod: 2019-07-15
 description: For easier administration, it is possible to display the MoodleBox restart and stop buttons in the footer of all Moodle pages.
 slug: buttons-in-footer
-weight: 30
+categories_weight: 30
 categories:
   - Usage
 

@@ -7,7 +7,7 @@ date: 2017-04-20
 lastmod: 2018-08-19
 description: If you want to know how to start, switch off or restart your MoodleBox correctly, here is the desired information
 slug: startup-shutdown-restart
-weight: 1
+categories_weight: 1
 categories:
   - Maintenance
   - Usage

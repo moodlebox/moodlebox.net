@@ -7,7 +7,7 @@ date: 2017-04-18
 lastmod: 2019-03-05
 description : Vous obtenez ici des informations sur le nombre de connexions utilisateurs que la MoodleBox peut accueillir simultanément
 slug: la-moodlebox-pour-combien-dutilisateurs
-weight: 10
+categories_weight: 10
 categories:
   - Utilisation
 
