@@ -20,6 +20,8 @@
   translation: "Your message"
 - id: contactSend
   translation: "Send message"
+- id: missingValue
+  translation: "Missing value"
 - id: navHome
   translation: "Go to homepage"
 - id: navToggle

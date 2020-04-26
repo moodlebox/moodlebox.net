@@ -20,6 +20,8 @@
   translation: "Votre message"
 - id: contactSend
   translation: "Envoyer le message"
+- id: missingValue
+  translation: "Informations manquantes"
 - id: navHome
   translation: "Aller à la page d'accueil"
 - id: navToggle

@@ -20,6 +20,8 @@
   translation: "Ihre Nachricht an uns"
 - id: contactSend
   translation: "Nachricht senden"
+- id: missingValue
+  translation: "Fehlende Angaben"
 - id: navHome
   translation: "zur Hauptseite"
 - id: navToggle
