@@ -68,6 +68,12 @@
   translation: "Custom amount"
 - id: donateNow
   translation: "Donate now"
+- id: makeDonationEvery
+  translation: "Make this donation every"
+- id: giveOnce
+  translation: "Give once"
+- id: giveMonthly
+  translation: "Give monthly"
 - id: searchDocTitle
   translation: "Search knowledge base"
 - id: searchDocVerb

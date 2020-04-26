@@ -7,6 +7,19 @@
   {{ end }}
 {{ end }}
 <div>
+{{/* <!--
+  <h4 class="title">{{ i18n "chooseDonation" }}</h4>
+  <ul id="give-donation-type-radio-list" class="give-donation-type-wrap">
+  <li class="btn btn-template-main">
+    <input type="radio" id="give-donation-once" class="give-donation-type give-radio-input" name="donation-frequency" value="once" checked="checked">
+    <label for="give-donation-once">{{ i18n "giveOnce" }}</label>
+  </li>
+  <li class="btn btn-template-main">
+    <input type="radio" id="give-donation-monthly" class="give-donation-type give-radio-input" name="donation-frequency" value="monthly">
+    <label for="give-donation-monthly">{{ i18n "giveMonthly" }}</label>
+  </li>
+  </ul>
+ --> */}}
   <form id="give-form" action="https://www.paypal.com/cgi-bin/webscr" data-currency_symbol="&euro;" data-currency_code="EUR" data-currency_position="before" data-thousands_separator="," data-decimal_separator="." data-number_decimals="0" method="post">
     <!-- The following field is for robots only, invisible to humans. -->
     <span class="give-hidden">
@@ -25,6 +38,9 @@
       <div class="give-donation-amount form-row-wide">
         <span class="give-currency-symbol give-currency-position-before">€</span> <label class="give-hidden" for="amount">{{ i18n "donationAmount" }}</label>
         <input class="give-text-input give-amount-top" id="give-amount" name="amount" type="tel" value="{{ $defaultamount }}" autocomplete="off">
+        <span id="give-recurring-modal-period-wrap" class="" style="display: none;">
+          <span id="give-recurring-modal-period"></span>
+          </span>
       </div>
     </div>
     <ul id="give-donation-level-radio-list" class="give-donation-levels-wrap">
@@ -39,6 +55,20 @@
         <label for="give-radio-level-custom">{{ i18n "customAmount" }}</label>
       </li>
     </ul>
+    <div class="give-recurring-choice">
+      <input id="give-recurring-choice" class="give-recurring-period" name="give-recurring-period" type="checkbox" data-period-label="Monthly" data-period="month" data-interval="1" checked="" data-com.bitwarden.browser.user-edited="yes">
+      <label for="give-recurring-choice">{{ i18n "makeDonationEvery" }}
+        <select class="give-recurring-choice-period" name="give-recurring-period-choice">
+          {{/* <option value="day">day</option> */}}
+          <option value="week">week</option>
+          <option value="month" selected="">month</option>
+          <option value="quarter">quarter</option>
+          <option value="year">year</option>
+        </select>
+      </label>
+    </div>
+    <input type="hidden" name="_give_is_donation_recurring">
+    <input type="hidden" name="give_recurring_donation_details" value="{&quot;give_recurring_option&quot;:&quot;yes_donor&quot;}">
     <div id="give_purchase_form_wrap">
       <fieldset id="give_purchase_submit">
         <input type="hidden" name="give_action" value="purchase">
