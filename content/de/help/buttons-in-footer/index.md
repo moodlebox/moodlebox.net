@@ -27,7 +27,7 @@ Diese Funktion wird aktiviert, indem Sie die MoodleBox-Einstellungen in der Admi
 Nach dem Speichern der Änderungen werden die MoodleBox Neustart- und Ausschalten-Schaltflächen für Moodle-Rollen mit dem `tool/moodlebox:viewbuttonsinfooter` Recht angezeigt, das standardmäßig der Managerrolle und natürlich den Administratoren gewährt wird. Sie werden für andere Benutzer nicht angezeigt.
 
 {{< notice warning >}}
-Um das Risiko von Datenbeschädigungen auf der microSD-Karte zu minimieren, fahren Sie zuerst die MoodleBox manuell herunter, bevor Sie die Stromversorgung ausschalten.
+Um das Risiko von Datenverlusten auf der microSD-Karte zu minimieren, fahren Sie bitte zuerst die MoodleBox manuell herunter, bevor Sie die Stromversorgung ausschalten.
 {{< /notice >}}
 
  [1]: http://moodlebox.home/admin/settings.php?section=tool_moodlebox_settings
