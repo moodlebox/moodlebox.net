@@ -7,7 +7,7 @@ date: 2018-11-02
 lastmod: 2018-11-02
 description: On peut changer le mot de passe principal de la MoodleBox en visitant le tableau de bord dans l'interface d'administration
 slug: changer-mot-de-passe-principal
-weight: 5
+categories_weight: 5
 categories:
   - Utilisation
 ---

@@ -7,7 +7,7 @@ date: 2017-04-17
 lastmod: 2018-06-26
 description: Voici comment se connecter au réseau WiFi de la MoodleBox
 slug: connexion-wi-fi
-weight: 5
+categories_weight: 5
 categories:
   - Premiers pas
   - Utilisation

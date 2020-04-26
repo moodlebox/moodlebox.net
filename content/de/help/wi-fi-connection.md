@@ -7,7 +7,7 @@ date: 2018-02-13
 lastmod: 2018-06-26
 description: Hier erfahren Sie, wie Sie sich mit dem MoodleBox WiFi-Netzwerk verbinden können
 slug: wlan-verbindung
-weight: 5
+categories_weight: 5
 categories:
   - Erste Schritte
   - Nutzung

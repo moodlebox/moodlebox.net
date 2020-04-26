@@ -3731,6 +3731,7 @@ section#news {
   text-align: left;
   font-weight: 600;
   color: #da4d4d;
+  text-transform: uppercase;
 }
 @media (max-width: 767px) {
   .section-head .kb-category-level-1 {

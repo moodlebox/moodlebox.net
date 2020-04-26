@@ -7,7 +7,7 @@ date: 2019-05-20
 lastmod: 2019-07-15
 description: Pour une administration plus simple, il est possible d'afficher les boutons de redémarrage et d'arrêt de la MoodleBox dans le pied de toutes les pages de Moodle.
 slug: boutons-dans-le-pied-de-page
-weight: 30
+categories_weight: 30
 categories:
   - Utilisation
 

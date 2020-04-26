@@ -8,7 +8,7 @@ date: 2017-09-23
 lastmod: 2018-01-02
 description: Das folgende Diagramm beschreibt die Netzwerktopologie der MoodleBox
 slug: moodlebox-netzwerktopologie
-weight: 70
+categories_weight: 70
 categories:
   - Erste Schritte
   - Wartung

@@ -7,7 +7,7 @@ date: 2017-09-15
 lastmod: 2019-10-30
 description: The procedure to install the MoodleBox for its first utilisation is described here
 slug: install-the-moodlebox
-weight: 1
+categories_weight: 1
 categories:
   - First steps
 aliases:

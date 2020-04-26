@@ -7,7 +7,7 @@ date: 2018-09-30
 lastmod: 2020-01-06
 description: Diese Anleitung erklärt, wie man eine MoodleBox direkt aus dem Internet zugänglich macht. Beachten Sie, dass dies erhebliche Sicherheitsrisiken beinhaltet.
 slug: access-from-internet
-weight: 95
+categories_weight: 95
 categories:
   - Nutzung
 

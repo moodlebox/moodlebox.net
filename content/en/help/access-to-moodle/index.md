@@ -7,7 +7,7 @@ date: 2017-04-20
 lastmod: 2019-07-13
 description: To access to the Moodle installation of the MoodleBox, you must be connected to its Wi-Fi network and open http://moodlebox.home/
 slug: access-to-moodle
-weight: 6
+categories_weight: 6
 categories:
   - Usage
 

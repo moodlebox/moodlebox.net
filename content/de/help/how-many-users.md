@@ -8,7 +8,7 @@ date: 2017-04-20
 lastmod: 2019-03-05
 description: Hier erhalten Sie Informationen über die Anzahl der User-Verbindungen (WiFi Guests), die die MoodleBox gleichzeitig unterstützen kann
 slug: moodlebox-wie-viele-benutzer
-weight: 10
+categories_weight: 10
 categories:
   - Nutzung
 

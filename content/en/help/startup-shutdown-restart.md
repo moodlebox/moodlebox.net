@@ -4,10 +4,10 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2018-08-19
+lastmod: 2020-04-25
 description: If you want to know how to start, switch off or restart your MoodleBox correctly, here is the desired information
 slug: startup-shutdown-restart
-weight: 1
+categories_weight: 1
 categories:
   - Maintenance
   - Usage
@@ -25,13 +25,13 @@ If possible, it is recommended to connect the MoodleBox via Ethernet to the netw
 
 #### Shutdown
 
-{{< notice warning >}}
-In order to minimize the risk of data corruption on the microSD card, it is not recommended to unplug the power supply without care to shutdown the MoodleBox. It is preferable to manually control its shutdown beforehand.
-{{< /notice >}}
-
 The graphical interface of the MoodleBox allows you to safely stop and restart the MoodleBox.
 
 Log in the Moodle instance of the MoodleBox and visit [Site administration > Server > MoodleBox][1] in the administration interface.
+
+{{< notice warning >}}
+In order to minimize the risk of data corruption on the microSD card, it is not recommended to unplug the power supply without care to shutdown the MoodleBox. It is preferable to manually control its shutdown beforehand.
+{{< /notice >}}
 
 {{< figure src="/img/media/restart-shutdown-en.png" caption="Shutdown and restart" caption-position="bottom" caption-effect="appear" width="735px" >}}
 

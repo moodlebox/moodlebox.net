@@ -8,7 +8,7 @@ date: 2017-04-20
 lastmod: 2020-04-25
 description: Informationen, wie Sie Ihre MoodleBox richtig starten, stoppen oder neu starten
 slug: einschalten-ausschalten-neustarten
-weight: 1
+categories_weight: 1
 categories:
   - Wartung
   - Nutzung

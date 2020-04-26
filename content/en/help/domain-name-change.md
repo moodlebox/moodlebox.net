@@ -7,7 +7,7 @@ date: 2018-09-27
 lastmod: 2020-01-06
 description:  This guide explains how to change the domain name of your MoodleBox to better match your own local situation.
 slug: domain-name-change
-weight: 90
+categories_weight: 90
 categories:
   - Usage
 

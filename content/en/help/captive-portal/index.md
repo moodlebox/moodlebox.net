@@ -7,7 +7,7 @@ date: 2019-05-20
 lastmod: 2019-05-20
 description: The MoodleBox has a captive portal for its Wi-Fi network, allowing wireless clients to be directed to the MoodleBox home page.
 slug: captive-portal
-weight: 85
+categories_weight: 85
 categories:
   - Usage
 

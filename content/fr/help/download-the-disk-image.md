@@ -7,7 +7,7 @@ date: 2017-04-17
 lastmod: 2020-02-28
 description: L'image-disque de la MoodleBox peut être téléchargée gratuitement et librement sur sur cette page.
 slug: telecharger-limage-disque
-weight: 3
+categories_weight: 3
 categories:
   - Premiers pas
 aliases:

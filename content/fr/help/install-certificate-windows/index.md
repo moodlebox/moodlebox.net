@@ -7,7 +7,7 @@ date: 2019-11-17
 lastmod: 2019-11-17
 description: Pour se connecter en HTTPS à la MoodleBox sans affichage d'une fenêtre d'avertissement, il est nécessaire d'installer le certificat racine de la MoodleBox.
 slug: installer-certificat-racine-windows
-weight: 90
+categories_weight: 90
 categories:
   - Utilisation
 ---

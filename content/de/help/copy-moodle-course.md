@@ -7,7 +7,7 @@ date: 2019-03-06
 lastmod: 2019-03-06
 description: Es ist einfach, einen Moodle-Kurs von einem anderen Moodle-Server auf eine MoodleBox zu kopieren.
 slug: moodle-kurs-kopieren
-weight: 6
+categories_weight: 6
 categories:
   - Nutzung
 

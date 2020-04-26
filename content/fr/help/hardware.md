@@ -7,7 +7,7 @@ date: 2017-04-17
 lastmod: 2020-02-26
 description: Voici le matériel nécessaire pour construire votre MoodleBox
 slug: materiel-necessaire
-weight: 3
+categories_weight: 3
 categories:
   - À propos
   - Premiers pas

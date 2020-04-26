@@ -7,7 +7,7 @@ date: 2017-04-20
 lastmod: 2020-02-26
 description: Here is the stuff you will need to build your MoodleBox
 slug: hardware-needed
-weight: 3
+categories_weight: 3
 categories:
   - About
   - First steps

@@ -7,7 +7,7 @@ date: 2017-04-17
 lastmod: 2019-07-13
 description: Pour accéder à Moodle sur la MoodleBox, vous devez d'abord être connecté à son réseau Wi-Fi, puis visiter http://moodlebox.home/
 slug: acces-a-moodle
-weight: 6
+categories_weight: 6
 categories:
   - Utilisation
 

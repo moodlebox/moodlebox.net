@@ -7,7 +7,7 @@ date: 2017-09-16
 lastmod: 2019-10-21
 description: All credentials (username and passwords) used in the MoodleBox (WiFi, SSH, Moodle, database) are provided here
 slug: moodlebox-credentials
-weight: 8
+categories_weight: 8
 categories:
   - Maintenance
   - Usage

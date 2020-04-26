@@ -7,7 +7,7 @@ date: 2018-11-02
 lastmod: 2018-11-02
 description: Sie können das Hauptpasswort der MoodleBox ändern, indem Sie das Dashboard in der Administration durchsuchen.
 slug: change-main-password
-weight: 5
+categories_weight: 5
 categories:
   - Nutzung
 ---

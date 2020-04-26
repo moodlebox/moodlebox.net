@@ -4,10 +4,10 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2018-08-19
+lastmod: 2020-04-25
 description: Si vous voulez savoir comment démarrer votre MoodleBox, l'arrêter ou la redémarrer correctement, voici les informations souhaitées
 slug: demarrer-arreter-redemarrer
-weight: 1
+categories_weight: 1
 categories:
   - Maintenance
   - Utilisation
@@ -25,13 +25,13 @@ Si possible, il est recommandé de brancher la MoodleBox au réseau câblé lors
 
 #### Arrêter la MoodleBox
 
-{{< notice warning >}}
-Afin de limiter au maximum les risques de corruption de données sur la carte microSD, pour éteindre la MoodleBox, il n'est pas recommandé de débrancher l'alimentation sans précaution. Il est préférable de commander manuellement son arrêt au préalable.
-{{< /notice >}}
-
 L'interface graphique de la MoodleBox permet d'arrêter et de redémarrer la MoodleBox sans risque.
 
 Pour ce faire, après s'être connecté comme administrateur dans le Moodle de la MoodleBox, on visite [Administration du site > Serveur > MoodleBox][1] dans l'interface d'administration.
+
+{{< notice warning >}}
+Afin de limiter au maximum les risques de corruption de données sur la carte microSD, pour éteindre la MoodleBox, il n'est pas recommandé de débrancher l'alimentation sans précaution. Il est préférable de commander manuellement son arrêt au préalable.
+{{< /notice >}}
 
 {{< figure src="/img/media/restart-shutdown-fr.png" caption="Éteindre et redémarrer" caption-position="bottom" caption-effect="appear" width="735px" >}}
 

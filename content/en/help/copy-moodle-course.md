@@ -7,7 +7,7 @@ date: 2019-03-06
 lastmod: 2019-03-06
 description: It is easy to copy (move) a Moodle course from another Moodle server to a MoodleBox.
 slug: copy-moodle-course
-weight: 6
+categories_weight: 6
 categories:
   - Usage
 

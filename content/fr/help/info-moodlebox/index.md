@@ -7,7 +7,7 @@ date: 2017-11-12
 lastmod: 2020-02-26
 description: MoodleBox est fournie avec un tableau de bord permettant d'afficher différentes informations sur le matériel et le logiciel installé.
 slug: tableau-de-bord
-weight: 10
+categories_weight: 10
 aliases:
   - quelle-est-la-version-de-ma-moodlebox
 categories:

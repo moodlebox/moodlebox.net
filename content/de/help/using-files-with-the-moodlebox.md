@@ -8,7 +8,7 @@ date: 2017-04-20
 lastmod: 2018-03-01
 description: Die MoodleBox macht es einfach, Dateien mit den unten beschriebenen Methoden zur Verfügung zu stellen
 slug: dateien-fuer-moodlebox
-weight: 7
+categories_weight: 7
 categories:
   - Nutzung
 

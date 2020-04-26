@@ -7,7 +7,7 @@ date: 2017-04-20
 lastmod: 2020-02-28
 description: The MoodleBox disk image can be freely downloaded from this page.
 slug: download-the-disk-image
-weight: 3
+categories_weight: 3
 categories:
   - First steps
 aliases:

@@ -8,7 +8,7 @@ date: 2018-07-09
 lastmod: 2018-07-09
 description: Mit Hilfe dieser Anleitung können Sie den nutzbaren Speicherplatz auf der SD-Karte vergrößern.
 slug: sd-karte-partition-vergroessern
-weight: 100
+categories_weight: 100
 categories:
   - Wartung
 ---

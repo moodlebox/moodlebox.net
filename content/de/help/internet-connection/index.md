@@ -8,7 +8,7 @@ date: 2017-04-20
 lastmod: 2020-02-25
 description: Internetverbindung für Nutzer zur Verfügung stellen, die über WLAN mit einer MoodleBox verbunden sind.
 slug: internet-verbindung
-weight: 9
+categories_weight: 9
 categories:
   - Nutzung
 

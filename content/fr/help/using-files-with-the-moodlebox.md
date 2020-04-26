@@ -7,7 +7,7 @@ date: 2017-04-20
 lastmod: 2018-03-01
 description: La MoodleBox permet de mettre facilement des fichiers à disposition de ses utilisateurs, au moyen des méthodes décrites ci-dessous
 slug: utilisation-de-fichiers-avec-la-moodlebox
-weight: 7
+categories_weight: 7
 categories:
   - Utilisation
 
