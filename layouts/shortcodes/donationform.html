@@ -1,13 +1,14 @@
 {{ with index .Site.Data.donation .Site.Language.Lang }}
 {{ $products := .amounts }}
+{{ $defaultamount := 0 }}
 {{ range $products }}
   {{ if .default }}
-    {{ $.Scratch.Set "amount" .price }}
+    {{ $defaultamount = .price }}
   {{ end }}
 {{ end }}
 <div>
   <form id="give-form" action="https://www.paypal.com/cgi-bin/webscr" data-currency_symbol="&euro;" data-currency_code="EUR" data-currency_position="before" data-thousands_separator="," data-decimal_separator="." data-number_decimals="0" method="post">
-<!-- The following field is for robots only, invisible to humans: -->
+    <!-- The following field is for robots only, invisible to humans. -->
     <span class="give-hidden">
     <div>
       <label for="give-form-honeypot"></label>
@@ -23,16 +24,20 @@
     <div class="give-total-wrap">
       <div class="give-donation-amount form-row-wide">
         <span class="give-currency-symbol give-currency-position-before">€</span> <label class="give-hidden" for="amount">{{ i18n "donationAmount" }}</label>
-        <input class="give-text-input give-amount-top" id="give-amount" name="amount" type="tel" value="{{ $.Scratch.Get "amount" }}" autocomplete="off">
+        <input class="give-text-input give-amount-top" id="give-amount" name="amount" type="tel" value="{{ $defaultamount }}" autocomplete="off">
       </div>
     </div>
     <ul id="give-donation-level-radio-list" class="give-donation-levels-wrap">
       {{ range $products }}
-      <li><input type="radio" data-price-id="{{ .id }}" class="give-radio-input give-radio-input-level give-radio-level-{{ .id }}{{ if .default }} give-default-level{{ end }}" name="radio-donation-level" id="amount-{{ .id }}" value="{{ .price }}"{{ if .default }} checked="checked"{{ end }}>
-      <label for="amount-{{ .id }}">€{{ .price }} – {{ .name }}</label></li>
+      <li>
+        <input type="radio" data-price-id="{{ .id }}" class="give-radio-input give-radio-input-level give-radio-level-{{ .id }}{{ if .default }} give-default-level{{ end }}" name="radio-donation-level" id="amount-{{ .id }}" value="{{ .price }}"{{ if .default }} checked="checked"{{ end }}>
+        <label for="amount-{{ .id }}">€{{ .price }} – {{ .name }}</label>
+      </li>
       {{ end }}
-      <li><input type="radio" data-price-id="custom" class="give-radio-input give-radio-input-level give-radio-level-custom" name="radio-donation-level" id="give-radio-level-custom" value="custom">
-      <label for="give-radio-level-custom">{{ i18n "customAmount" }}</label></li>
+      <li>
+        <input type="radio" data-price-id="custom" class="give-radio-input give-radio-input-level give-radio-level-custom" name="radio-donation-level" id="give-radio-level-custom" value="custom">
+        <label for="give-radio-level-custom">{{ i18n "customAmount" }}</label>
+      </li>
     </ul>
     <div id="give_purchase_form_wrap">
       <fieldset id="give_purchase_submit">
@@ -40,8 +45,6 @@
         <input type="hidden" name="give-gateway" value="paypal">
         <div class="give-submit-button-wrap give-clearfix">
           <input type="submit" class="give-submit give-btn" id="give-purchase-button" name="give-purchase" value="{{ i18n "donateNow" }}">
-          <!-- PayPal Logo -->
-          <!-- <img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" border="0" alt="PayPal Logo" /> -->
         </div>
       </fieldset>
     </div>
