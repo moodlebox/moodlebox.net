@@ -1,17 +1,10 @@
 {
   "name": "moodlebox.net",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MoodleBox website",
   "main": "gulpfile.js",
   "dependencies": {
     "cssnano": "^4.1.10",
-    "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-ext-replace": "^0.3.0",
-    "gulp-if": "^3.0.0",
-    "gulp-jsbeautifier": "^3.0.1",
-    "gulp-replace": "^1.0.0",
-    "gulp-uglify": "^3.0.2",
     "purgecss": "^2.1.0"
   },
   "scripts": {
