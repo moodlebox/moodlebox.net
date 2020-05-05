@@ -3688,10 +3688,6 @@ section#news {
 }
 
 /* Language switch menu */
-#language-switch a.dropdown-toggle {
-  font-size: 135%;
-}
-
 #language-switch ul.dropdown-menu {
   min-width: auto;
   left: auto;
