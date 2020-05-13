@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ with .Language }}{{ . }}{{ else }}en-us{{ end }}">
+<html lang="{{ with .Language }}{{ . }}{{ else }}{{ .Site.LanguageCode }}{{ end }}">
 <head>
   {{ hugo.Generator }}
   <meta charset="utf-8">
