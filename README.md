@@ -8,8 +8,6 @@ This repository contains the content pages of the [MoodleBox][moodlebox] website
 
 You're welcome to enhance the text, fix typos, etc. and to add other translations. Pages are written in [Markdown format][markdown].
 
-As for everything else in the project, the contributions to MoodleBox project are governed by our [Code of Conduct](https://github.com/moodlebox/moodlebox.net/blob/master/CODE_OF_CONDUCT.md).
-
 ## How to contribute a new language translation
 
 __Note:__ _It's important that the versions of the web site in different languages are in synchronisation (i.e. have the same structure and reflect the same meaning). Your translation must be __equivalent to the original content of the English pages__ (same structure, same meaning). If you would like to add content to a page (or change its meaning) or add new help pages, please [contact me][contact] beforehand!_
