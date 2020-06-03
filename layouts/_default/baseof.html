@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ with .Language }}{{ . }}{{ else }}{{ .Site.LanguageCode }}{{ end }}">
 <head>
-  {{ hugo.Generator }}
   <meta charset="utf-8">
+  {{ hugo.Generator }}
+  <meta name="generated" content="{{ now.Format "2006-01-02T15:04:05-07:00" }}">
   <meta name="referrer" content="same-origin">
   <meta name="robots" content="all,follow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
