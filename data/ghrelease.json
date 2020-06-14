@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/23574624",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/23574624/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/23574624/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.6.0",
-  "id": 23574624,
-  "node_id": "MDc6UmVsZWFzZTIzNTc0NjI0",
-  "tag_name": "v3.6.0",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/24129350",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/24129350/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/24129350/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.7.0",
+  "id": 24129350,
+  "node_id": "MDc6UmVsZWFzZTI0MTI5MzUw",
+  "tag_name": "v3.7.0",
   "target_commitish": "master",
-  "name": "v3.6.0",
+  "name": "v3.7.0",
   "draft": false,
   "author": {
     "login": "martignoni",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2020-02-11T19:36:13Z",
-  "published_at": "2020-02-12T14:56:48Z",
+  "created_at": "2020-06-14T17:16:27Z",
+  "published_at": "2020-06-14T22:42:13Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/17976812",
-      "id": 17976812,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE3OTc2ODEy",
-      "name": "moodlebox-3.6.0.img.gz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/21743839",
+      "id": 21743839,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNzQzODM5",
+      "name": "moodlebox-3.7.0.img.gz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/x-gzip",
       "state": "uploaded",
-      "size": 781776540,
+      "size": 786375179,
       "download_count": 0,
-      "created_at": "2020-02-12T14:58:52Z",
-      "updated_at": "2020-02-12T15:01:13Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.6.0/moodlebox-3.6.0.img.gz"
+      "created_at": "2020-06-14T22:31:43Z",
+      "updated_at": "2020-06-14T22:32:48Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.7.0/moodlebox-3.7.0.img.gz"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/17976936",
-      "id": 17976936,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDE3OTc2OTM2",
-      "name": "moodlebox-3.6.0.sha256",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/21743868",
+      "id": 21743868,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDIxNzQzODY4",
+      "name": "moodlebox-3.7.0.sha256",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -95,14 +95,14 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 88,
+      "size": 114,
       "download_count": 0,
-      "created_at": "2020-02-12T15:05:07Z",
-      "updated_at": "2020-02-12T15:05:08Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.6.0/moodlebox-3.6.0.sha256"
+      "created_at": "2020-06-14T22:34:44Z",
+      "updated_at": "2020-06-14T22:34:45Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.7.0/moodlebox-3.7.0.sha256"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.6.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.6.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.6.0/total.svg)\r\n\r\n### Changed\r\n- Update Moodle to version 3.8.1+ (issue #161).\r\n- Update to Raspbian version 2020-02-05 (issue #163).\r\n- Update [MoodleBox plugin](https://moodle.org/plugins/tool_moodlebox) to [version v2.5.0](\r\nhttps://github.com/moodlebox/moodle-tool_moodlebox/releases/tag/v2.50) of (issue #160).\r\n- Update [Nodogsplash](https://github.com/nodogsplash/nodogsplash) to version 4.4.0 (issue #159).\r\n- Update [MathJax](https://mathjax.org) to version 2.7.7 (issue #164).\r\n\r\n### Added\r\n- Add support for multiple subdomains (issue #158)."
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.7.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.7.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.7.0/total.svg)\r\n### Changed\r\n- Update Moodle to version 3.9.0 (issue #173).\r\n- Update to Raspberry Pi OS version 2020-05-27 (issue #172).\r\n- Update [MoodleBox plugin](https://moodle.org/plugins/tool_moodlebox) to [version v2.6.0](\r\nhttps://github.com/moodlebox/moodle-tool_moodlebox/releases/tag/v2.6.0) of (issue #174).\r\n- Update [Nodogsplash](https://github.com/nodogsplash/nodogsplash) to version 4.5.1 (issues #169, #175).\r\n- Update [MathJax](https://mathjax.org) to version 2.7.8 (issue #170).\r\n\r\n### Added\r\n- Add temporary workaround for WiFi disabling problem when swapping device (issue #176).\r\n\r\n### Fixed\r\n- Fix file ownership and permissions to enable edition by default user (issue #166).\r\n- Update Ansible instructions (issue #167).\r\n- Remove useless PHP module (no issue number).\r\n"
 }
