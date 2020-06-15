@@ -1,5 +1,5 @@
 ---
-title: Where to download the disk image
+title: Download the disk image
 authors:
   - Nicolas Martignoni
 type: kb
