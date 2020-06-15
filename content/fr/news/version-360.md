@@ -13,7 +13,7 @@ La [version 3.6.0][2] de l'[image  de la MoodleBox][1] vient d'être publiée.
 
   - Une nouvelle version du [Plugin MoodleBox pour Moodle][plugin] offre un tableau de bord réorganisé, incorporant la mention de l'adresse IP et de la passerelle de la MoodleBox
   - Cette version fournit [Moodle][moodle] version 3.8.1+.
-  - Elle est basée sur la dernière version de [Raspbian Buster Lite][raspbian], publiée le 5 février 2019.
+  - Elle est basée sur la dernière version de [Raspbian Buster Lite][raspbian], publiée le 5 février 2020.
   - Le logiciel du portail captif [Nodogsplash][nds] a été mis à jour à sa dernière version.
   - [MathJax][mathjax] a été mis à jour à la version 2.7.7.
 
