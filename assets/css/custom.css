@@ -40,7 +40,7 @@
   color: #da4d4d;
   background: white;
 }
-.downloads .image-download-links a.btn i.fa {
+.downloads .image-download-links a.btn i[class^="fa"] {
     margin-left: 0;
 }
 
