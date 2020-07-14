@@ -29,7 +29,9 @@
   "copyrightYear" : "{{ .Date.Format "2006" }}",
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   "dateModified" : "{{ .Page.Lastmod.Format "2006-01-02" }}",
+  {{ if .WordCount -}}
   "wordCount" : "{{ .WordCount }}",
+  {{- end }}
   {{ if .Keywords -}}
   "keywords" : "{{ delimit .Keywords ", " }}"
   {{- else if .Site.Params.DefaultKeywords -}}
