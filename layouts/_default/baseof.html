@@ -27,7 +27,7 @@
   <meta name="description" content="{{ partial "description" . }}">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ partial "hreflang.html" . }}
-  {{ partial "seo-metadata.html" . }}
+  {{ partial "seo/metadata.html" . }}
   {{ block "stylesheets" . }}{{ partial "stylesheets.html" . }}{{ end }}
   <!-- Responsivity for older IE -->
   {{- `<!--[if lt IE 9]>
