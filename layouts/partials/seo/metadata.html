@@ -1,41 +1,29 @@
+<!-- Manage @web type on all pages -->
+{{- $var := "seo/metadata-js-web.html" }}
+{{ "<!-- schema.org : Web -->" | safeHTML }}
 <script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "WebPage",
-  "mainEntityOfPage": {
-    "@type": "WebSite",
-    "@id": "{{ "/" | absLangURL }}",
-    "url": "{{ "/" | absLangURL }}",
-    "sameAs": [
-      "https://twitter.com/moodlebox",
-      "https://github.com/moodlebox"
-    ]
-  },
-  "@id": "{{ .Permalink }}",
-  "url": "{{ .Permalink }}",
-  "name" : "{{ partial "title" . }}",
-  "headline" : "{{ partial "title" . }}",
-  "description": "{{ partial "description" . }}",
-  "image" : "{{ .Site.Params.logo | absURL }}",
-  "inLanguage" : "{{ .Language }}",
-  "author" : "{{ .Site.Params.Author }}",
-  "creator" : "{{ .Site.Params.Author }}",
-  "publisher" : {
-    "@type": "Organization",
-    "name" : "MoodleBox"
-  },
-  "accountablePerson" : "{{ .Site.Params.Author }}",
-  "copyrightHolder" : "{{ .Site.Params.Author }}",
-  "copyrightYear" : "{{ .Date.Format "2006" }}",
-  "datePublished": "{{ .Date.Format "2006-01-02" }}",
-  "dateModified" : "{{ .Page.Lastmod.Format "2006-01-02" }}",
-  {{ if .WordCount -}}
-  "wordCount" : "{{ .WordCount }}",
-  {{- end }}
-  {{ if .Keywords -}}
-  "keywords" : "{{ delimit .Keywords ", " }}"
-  {{- else if .Site.Params.DefaultKeywords -}}
-  "keywords" : "{{ delimit .Site.Params.DefaultKeywords ", " }}"
-  {{- end }}
-}
+  {{- partial $var . | safeJS -}}
 </script>
+
+
+<!-- Manage partial depending on ".typeseo" in page -->
+{{- $context := . }}
+{{- if .IsHome }}
+  <!-- Home page -->
+  {{- range site.Params.typeseo }}
+    {{- $var = (printf "seo/metadata-js-%s.html" . ) }}
+    {{- $infoschema := (printf "<!-- schema.org : %s -->" . ) }}
+    {{- $infoschema | safeHTML }}
+    <script type="application/ld+json">
+      {{- partial $var $context | safeJS -}}
+    </script>
+  {{- end }}
+{{- else -}}
+  <!-- Other pages -->
+  {{- range .Params.typeseo }}
+    {{- $var = (printf "seo/metadata-js-%s.html" . ) -}}
+    <script type="application/ld+json">
+      {{- partial $var $context | safeJS -}}
+    </script>
+  {{- end }}
+{{- end }}

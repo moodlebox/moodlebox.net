@@ -1,0 +1,40 @@
+<!--  SEO code for ld-+son -->
+{
+  "@context": "http://schema.org/",
+  "@type": "WebPage",
+  "mainEntityOfPage": {
+    "@type": "WebSite",
+    "@id": "{{ .Permalink }}",
+    "url": "{{ .Permalink }}",
+    "sameAs": [
+      {{- with site.Params.social.github }}"https://github.com/{{ . }}",{{ end -}}
+      {{- with site.Params.social.twitter }}"https://twitter.com/{{ . }}"{{ end -}}
+    ]
+  },
+  "@id": "{{ .Permalink }}",
+  "url": "{{ .Permalink }}",
+  "name" : "{{ partial "seo/metadata-title" . }}",
+  "headline" : "{{ partial "seo/metadata-title" . }}",
+  "description": "{{ partial "seo/metadata-description" . }}",
+  "image": "{{ .Site.Params.logo | absURL }}",
+  "inLanguage" : "{{ .Language }}",
+  "author" : "{{ .Site.Params.Author }}",
+  "creator" : "{{ .Site.Params.Author }}",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "{{ .Site.Params.title }}"
+  },
+  "accountablePerson" : "{{ .Site.Params.Author }}",
+  "copyrightHolder" : "{{ .Site.Params.Author }}",
+  "copyrightYear" : "{{ .Date.Format "2006" }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  {{ if not .Lastmod.IsZero }}"dateModified" : "{{ .Lastmod.Format "2006-01-02" }}",{{ end }}
+  {{ if .WordCount -}}
+  "wordCount" : "{{ .WordCount }}",
+  {{- end }}
+  {{ if .Keywords -}}
+  "keywords" : "{{ delimit .Keywords ", " }}"
+  {{- else if .Site.Params.DefaultKeywords -}}
+  "keywords" : "{{ delimit .Site.Params.DefaultKeywords ", " }}"
+  {{- end }}
+}
