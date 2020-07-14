@@ -20,4 +20,4 @@ items:
 
   - question: I couldn't find an answer to my question. Where can I get help?
     answer: >
-      Browse the [MoodleBox complete documentation](../help) or search if your question has already been addressed in the [MoodleBox support forum](https://discuss.moodlebox.net/). If you cannot find it, don't hesitate to [open a new discussion in the forum][forum].
+      Browse the [MoodleBox complete documentation](../help) or search if your question has already been addressed in the [MoodleBox support forum](https://discuss.moodlebox.net/). If you cannot find it, don't hesitate to [open a new discussion in the forum](https://discuss.moodlebox.net/).
