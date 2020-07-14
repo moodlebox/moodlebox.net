@@ -39,7 +39,7 @@
         "name": "{{ .question | markdownify | htmlUnescape | plainify }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ replace (.answer | markdownify | htmlUnescape | plainify) "\n" "" }}"
+          "text": "{{ replace (.answer | markdownify | htmlUnescape | plainify) "\n" " " }}"
         }
       }
       {{- end -}}
