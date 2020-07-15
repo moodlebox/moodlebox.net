@@ -2,15 +2,6 @@
 {
   "@context": "http://schema.org/",
   "@type": "FAQPage",
-  "mainEntityOfPage": {
-    "@type": "WebSite",
-    "@id": "{{ .Permalink }}",
-    "url": "{{ .Permalink }}",
-    "sameAs": [
-      {{- with site.Params.social.github }}"https://github.com/{{ . }}",{{ end -}}
-      {{- with site.Params.social.twitter }}"https://twitter.com/{{ . }}"{{ end -}}
-    ]
-  },
   "@id": "{{ .Permalink }}",
   "url": "{{ .Permalink }}",
   "name" : "{{ partial "seo/metadata-title" . }}",
@@ -36,10 +27,10 @@
       {{- if (or $i $j) -}},{{ end }}
       {
         "@type": "Question",
-        "name": "{{ .question | markdownify | htmlUnescape | plainify }}",
+        "name": "{{ .question | markdownify | safeHTML | plainify }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ replace (.answer | markdownify | htmlUnescape | plainify) "\n" " " }}"
+          "text": "{{ (replace .answer "\n" " ") | markdownify | plainify | safeHTML }}"
         }
       }
       {{- end -}}
