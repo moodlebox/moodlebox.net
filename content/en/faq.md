@@ -9,6 +9,8 @@ date: 2020-04-14
 lastmod: 2020-04-14
 sitemap:
   priority : 0.5
+typeseo:
+  - faq
 aliases:
   - /faq
 ---

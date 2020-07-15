@@ -9,6 +9,8 @@ date: 2020-04-14
 lastmod: 2020-04-14
 sitemap:
   priority : 0.5
+typeseo:
+  - faq
 ---
 Vous trouverez ici les réponses aux questions les plus fréquentes. Si vous ne trouvez pas réponse à votre question, consultez la [documentation complète de MoodleBox][doc] ou recherchez si votre question a déjà été abordée dans le [forum d'assistance de MoodleBox][forum]. Si ce n'est pas le cas, n'hésitez pas à [ouvrir une nouvelle discussion dans le forum][forum].
 
