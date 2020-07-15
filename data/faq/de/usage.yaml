@@ -8,14 +8,14 @@ items:
       MoodleBox benötigt keine Tastatur und keinen Monitor: MoodleBox ist als Headless-Server konzipiert. Um auf die Benutzeroberfläche zuzugreifen, starten Sie MoodleBox, verbinden Sie Ihr persönliches Endgerät (Computer, Tablet, Smartphone) mit dem WLAN der MoodleBox und öffnen Sie die URL http://moodlebox.home mit Ihrem bevorzugten Browser.
 
 
-      Schauen Sie sich die [Dokumentation dazu] an (../help/anmelden-in-moodle/).
+      Schauen Sie sich die [Dokumentation dazu](../help/anmelden-in-moodle/) an.
 
   - question: Wie setze ich das Hauptkennwort der MoodleBox zurück?
     answer: >-
       Melden Sie sich mit den Zugangsdaten des Administrators bei Moodle an, rufen Sie das Dashboard der MoodleBox in der Administrationsoberfläche auf: [Website-Administration > Server > MoodleBox](http://moodlebox.home/admin/tool/moodlebox/index.php) und ändern Sie das Hauptkennwort.
 
 
-      Schauen Sie sich die [Dokumentation dazu] an (../help/change-main-password).
+      Schauen Sie sich die [Dokumentation dazu](../help/change-main-password) an.
 
   - question: Moodle zeigt an, dass die Version von PHP nicht 64-Bit ist. Ist das ein Problem?
     answer: >-
