@@ -432,7 +432,6 @@ params:
 
   typeseo:
     - app
-    - faq
 
   app:
     price: "0"
