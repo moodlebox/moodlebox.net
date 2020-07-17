@@ -1,5 +1,5 @@
 {{- if .IsHome -}}
   {{- site.Title | safeHTML -}}
 {{- else -}}
-  {{- site.Title | safeHTML -}}{{- with .Title -}}{{ " | " }}{{- . | safeHTML -}}{{- end -}}
+  {{- site.Title | safeHTML -}}{{- with .Title -}}{{ " | " }}{{- . | htmlEscape | safeHTML -}}{{- end -}}
 {{- end -}}

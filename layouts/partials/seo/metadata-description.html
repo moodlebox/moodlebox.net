@@ -1,5 +1,5 @@
 {{- with .Description -}}
-  {{- . | safeHTML -}}
+  {{- . | htmlEscape | safeHTML -}}
 {{- else -}}
   {{- with site.Params.Description -}}
     {{- . | safeHTML -}}

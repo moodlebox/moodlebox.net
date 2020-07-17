@@ -24,7 +24,7 @@
   {{- else if .Site.Params.DefaultKeywords -}}
   <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
   {{- end }}
-  <meta name="description" content="{{ partial "description" . }}">
+  <meta name="description" content="{{ partial "seo/metadata-description" . }}">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ partial "hreflang.html" . }}
   {{ partial "seo/metadata.html" . }}
