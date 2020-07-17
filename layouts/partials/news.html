@@ -15,7 +15,7 @@
               <span class="date-month">{{default .Date.Month (i18n .Date.Month)}}</span>
               <span class="date-year">{{ .Date.Format "2006" }}</span>
             </span>
-            {{ partial "description" . | markdownify | truncate 140 "…"}}
+            {{ partial "seo/metadata-description" . | truncate 140 "…"}}
           </a>
         </div> <!-- col-md-4 -->
       {{ end }}

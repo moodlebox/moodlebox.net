@@ -1,11 +1,11 @@
 {{- with .Description -}}
-  {{- . | htmlEscape | safeHTML -}}
+  {{- . | markdownify | safeHTML | htmlUnescape -}}
 {{- else -}}
   {{- with site.Params.Description -}}
-    {{- . | safeHTML -}}
+    {{- . | markdownify | safeHTML | htmlUnescape -}}
   {{- else -}}
     {{- with site.Params.DefaultDescription -}}
-      {{- . | safeHTML -}}
+      {{- . | markdownify | safeHTML | htmlUnescape -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
