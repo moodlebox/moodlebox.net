@@ -3469,7 +3469,9 @@ abbr[data-original-title] {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
+  font-style: italic;
   font-size: 14px;
+  background: #eee;
   border-left: 5px solid #da4d4d;
 }
 blockquote footer,
