@@ -7,6 +7,10 @@ items:
     answer: >
       Die [notwendige Hardware](../hardware) kann bei vielen Elektronikhändlern gekauft werden.
 
+  - question: Welche Raspberry Pi-Modelle werden unterstützt?
+    answer: >-
+      MoodleBox kann mit folgenden Modellen von Raspberry Pi verwendet werden: 3A+, 3B, 3B+ und 4B.
+
   - question: Verkaufen Sie fertige MoodleBoxen?
     answer: >-
       Nein. Das MoodleBox-Projekt verkauft keine Hardware. Die [erforderliche Hardware](../hardware) kann bei vielen Elektronikhändlern gekauft werden.

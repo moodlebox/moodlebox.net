@@ -7,6 +7,10 @@ items:
     answer: >-
       Le [matériel nécessaire](../hardware) peut être acheté chez n'importe quel marchand de matériel électronique.
 
+  - question: Quels modèles de Raspberry Pi sont-ils supportés ?
+    answer: >-
+      MoodleBox fonctionne avec les modèles suivants de Raspberry Pi : 3A+, 3B, 3B+ et 4B.
+
   - question: Est-ce que vous vendez des MoodleBox ?
     answer: >-
       Non. Le projet MoodleBox de vend pas de matériel. Le [matériel nécessaire](../hardware) peut être acheté chez n'importe quel marchand de matériel électronique.
@@ -18,4 +22,3 @@ items:
   - question: Quelle quantité de données puis-je enregistrer sur une MoodleBox ?
     answer: >-
       Cela dépend de la carte SD utilisée. MoodleBox enregistre toutes ses données sur la carte SD insérée dans l'appareil. Une carte d'une capacité de 32 Go ou plus est recommandée, même si MoodleBox peut fonctionner avec une carte de moindre capacité. Il n'y a pas de limite maximale.
-
