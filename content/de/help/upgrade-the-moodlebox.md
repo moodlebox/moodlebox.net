@@ -5,14 +5,14 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-12-22
-lastmod: 2020-04-25
+lastmod: 2020-08-04
 description: Folgen Sie den folgenden Anweisungen, um Ihre MoodleBox regelmäßig zu aktualisieren
 slug: moodlebox-aktualisieren
 categories:
   - Wartung
 
 ---
-Als routinemäßige Sicherheitsmaßnahme wird empfohlen, das Betriebssystem auf der MoodleBox in regelmäßigen Abständen zu aktualisieren. Mit dieser Maßnahme können mögliche Schwachstellen im Betriebssystem Raspbian gepatcht und andere entdeckte Fehler behoben werden.
+Als routinemäßige Sicherheitsmaßnahme wird empfohlen, das Betriebssystem auf der MoodleBox in regelmäßigen Abständen zu aktualisieren. Mit dieser Maßnahme können mögliche Schwachstellen im Betriebssystem Raspberry Pi OS gepatcht und andere entdeckte Fehler behoben werden.
 
 Für diese Operation muss die MoodleBox über ein Ethernetkabel mit dem Internet verbunden sein.
 

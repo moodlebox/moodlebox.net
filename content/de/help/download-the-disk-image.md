@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-02
-lastmod: 2020-07-25
+lastmod: 2020-08-04
 description: Das MoodleBox Disk-Image kann von dieser Seite frei heruntergeladen werden.
 slug: disk-image-herunterladen
 categories_weight: 3
@@ -56,7 +56,7 @@ Folgen Sie nach dem Herunterladen des Disk-Images den Anleitungen für das [Kopi
 
 Wenn Sie möchten, können Sie die [Entwicklung der MoodleBox unterstützen][3], indem Sie eine [freiwillige Spende machen][3].
 
-Das MoodleBox Disk-Image wird auf der Basis der Distribution [Raspbian Lite für Raspberry Pi][raspbian] gebaut.
+Das MoodleBox Disk-Image wird auf der Basis der Distribution [Raspberry Pi OS Lite][rpios] gebaut.
 
 ### Probleme beim Herunterladen
 
@@ -81,5 +81,5 @@ Die Disk-Images älterer Versionen von MoodleBox [sind auf Github verfügbar][re
  [3]: {{< relref "/support-moodlebox" >}}
  [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
  [5]: {{< relref "help/install-the-moodlebox" >}}
- [raspbian]: https://www.raspberrypi.org/downloads/raspbian/
+ [rpios]: https://www.raspberrypi.org/downloads/raspberry-pi-os/
  [releases]: https://github.com/moodlebox/moodlebox/releases

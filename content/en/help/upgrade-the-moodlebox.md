@@ -4,14 +4,14 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-22
-lastmod: 2019-11-29
+lastmod: 2020-08-04
 description: Follow the instructions below to regularly update your MoodleBox
 slug: how-to-upgrade-the-moodlebox
 categories:
   - Maintenance
 
 ---
-As a routine security measure, it is recommended to update regularly the server software on the MoodleBox to patch vulnerabilities found in the Raspbian distribution and to fix other discovered bugs.
+As a routine security measure, it is recommended to update regularly the server software on the MoodleBox to patch vulnerabilities found in the Raspberry Pi OS distribution and to fix other discovered bugs.
 
 For this operation, the MoodleBox must be connected to the Internet via Ethernet cable.
 
