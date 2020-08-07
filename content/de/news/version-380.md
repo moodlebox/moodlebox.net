@@ -11,7 +11,7 @@ Die [Version 3.8.0][release] des [Disk-Image der MoodleBox][disk] wurde gerade v
 
 &gt; [Disk-Image herunterladen][disk]
 
-{{< figure src="/img/media/pi4-8gb-labelled.png" width="500" class="centered-image" >}}
+{{< figure src="/img/media/pi4-8gb-labelled.png" width="500" class="centered-image" alt="Raspberry Pi 4 8GB" >}}
 
   - Eine neue Version des [MoodleBox-Plugins für Moodle][Plugin] behebt einen Fehler, der die korrekte Verwendung mit dem Raspberry Pi 4B mit 8 GB RAM verhinderte.
   - Diese Version bietet [Moodle][moodle] 3.9.1+.

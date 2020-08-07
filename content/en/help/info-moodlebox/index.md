@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-11-12
-lastmod: 2020-02-26
+lastmod: 2020-08-07
 description: MoodleBox comes with a dashboard to display different information about the hardware and software installed.
 slug: moodlebox-dashboard
 categories_weight: 10
@@ -29,7 +29,7 @@ The dashboard also allows you to perform the following operations.
 
 {{< notice note >}}
 When the MoodleBox power supply is not adequate, a __warning is displayed at the top of each page__. This warning is only visible to the administrator. Other MoodleBox users do not see it.
-{{< figure src="undervoltage.png" width="700" title="Undervoltage warning" class="centered-image" >}}
+{{< figure src="undervoltage.png" width="700" title="Undervoltage warning" class="centered-image" alt="Undervoltage warning" >}}
 {{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php

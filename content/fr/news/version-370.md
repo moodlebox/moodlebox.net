@@ -11,7 +11,7 @@ La [version 3.7.0][release] de l'[image  de la MoodleBox][disk] vient d'être pu
 
 &gt; [Télécharger l'image disque][disk]
 
-{{< figure src="/img/media/moodle39.png" width="700" class="centered-image" >}}
+{{< figure src="/img/media/moodle39.png" width="700" class="centered-image" alt="Moodle 3.9" >}}
 
   - Cette version fournit [Moodle][moodle] version 3.9.0 et toutes ses [nouvelles fonctionnalités][moodle39], y compris l'intégration H5P, un sélecteur d'activités complètement repensé et la possibilité de copier des cours.
   - Une nouvelle version du [Plugin MoodleBox pour Moodle][plugin] supporte la nouvelle Raspberry Pi 4B avec 8 Go de mémoire, et une meilleure gestion de la détection des alimentations insuffisantes.

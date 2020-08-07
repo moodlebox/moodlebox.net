@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-13
-lastmod: 2020-02-26
+lastmod: 2020-08-07
 description: MoodleBox wird mit einem Dashboard ausgestattet, um verschiedene Informationen über die installierte Hard- und Software anzuzeigen.
 slug: moodlebox-dashboard
 categories_weight: 10
@@ -31,7 +31,7 @@ Das Dashboard ermöglicht es Ihnen auch, die folgenden Aktionen durchzuführen.
 
 {{< notice note >}}
 Wenn die Stromversorgung der MoodleBox nicht ausreichend ist, wird __oben auf jeder Seite eine Warnung__ angezeigt. Diese Warnung ist nur für den Administrator sichtbar. Andere MoodleBox-Nutzer sehen diese Warnung nicht.
-{{< figure src="undervoltage.png" width="700" title="Nicht ausreichende Stromversorgung Warnung" class="centered-image" >}}
+{{< figure src="undervoltage.png" width="700" title="Nicht ausreichende Stromversorgung Warnung" class="centered-image" alt="Nicht ausreichende Stromversorgung Warnung" >}}
 {{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php

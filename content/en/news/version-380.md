@@ -13,7 +13,7 @@ slug: version-3.8.0
 
 ### What's new and corrections
 
-{{< figure src="/img/media/pi4-8gb-labelled.png" width="500" class="centered-image" >}}
+{{< figure src="/img/media/pi4-8gb-labelled.png" width="500" class="centered-image" alt="Raspberry Pi 4 8GB" >}}
 
   - A new version of the [MoodleBox Plugin for Moodle][plugin] fixes a bug that prevented its correct use with the Raspberry Pi 4B with 8 GB RAM.
   - This version provides [Moodle][moodle] version 3.9.1+.

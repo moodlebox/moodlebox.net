@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-11-12
-lastmod: 2020-02-26
+lastmod: 2020-08-07
 description: MoodleBox est fournie avec un tableau de bord permettant d'afficher différentes informations sur le matériel et le logiciel installé.
 slug: tableau-de-bord
 categories_weight: 10
@@ -29,7 +29,7 @@ Il permet également d'effectuer les opérations ci-dessous.
 
 {{< notice note >}}
 Lorsque l'alimentation de la MoodleBox est insuffisante, __un avertissement est affiché en haut de chaque page__. Cette avertissement n'est visible que pour l'administrateur. Les autres utilisateurs de la MoodleBox ne le voient pas.
-{{< figure src="undervoltage.png" width="700" title="Avertissement d'alimentation insuffisante" class="centered-image" >}}
+{{< figure src="undervoltage.png" width="700" title="Avertissement d'alimentation insuffisante" class="centered-image" alt="Avertissement d'alimentation insuffisante" >}}
 {{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php

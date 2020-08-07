@@ -11,7 +11,7 @@ slug: version-3.7.0
 
 &gt; [Download disk image][disk]
 
-{{< figure src="/img/media/moodle39.png" width="700" class="centered-image" >}}
+{{< figure src="/img/media/moodle39.png" width="700" class="centered-image" alt="Moodle 3.9" >}}
 
   - This version provides [Moodle][moodle] version 3.9 and all its [new features][moodle39], including H5P integration, an newly designed activity chooser and the possibility to quickly copy courses.
   - A new version of the [MoodleBox Plugin for Moodle][plugin] supports the new Raspberry Pi 4B with 8GB of memory, and offers a better management of insufficient power supplies detection.
