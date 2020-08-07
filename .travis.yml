@@ -10,6 +10,7 @@ install:
   - wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
   - sudo dpkg -i hugo*.deb
   - npm install
+  - gem install html-proofer
 
 before_deploy:
   - openssl aes-256-cbc -K $encrypted_682f6865c22e_key -iv $encrypted_682f6865c22e_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
@@ -21,6 +22,7 @@ before_deploy:
 script:
   - hugo version
   - hugo --minify --i18n-warnings
+  - htmlproofer ${TRAVIS_BUILD_DIR}/public/
 
 deploy:
   provider: script
