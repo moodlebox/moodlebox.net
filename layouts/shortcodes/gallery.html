@@ -19,7 +19,7 @@
       {{ end }}
     {{ end }}
     <a data-fancybox="gallery-{{ $album }}" href="{{ .RelPermalink }}" {{ with $caption }}data-caption="{{ . }}"{{ end }}>
-    <img src="{{ .RelPermalink }}" alt="">
+    <img src="{{ .RelPermalink }}" alt="{{ with $caption }}{{ . }}{{ end }}">
     </a>
   {{ end }}
 
@@ -34,8 +34,8 @@
           {{ $.Scratch.Set "src" (printf "img/%s" .image | relURL) }}
         {{ end }}
       {{ end }}
-      <a data-fancybox="gallery{{ with .album }}-{{.}}{{ end }}" {{ with .caption }}data-caption="{{.}}"{{ end }} href="{{$.Scratch.Get "src"}}">
-        <img src="{{$.Scratch.Get "src"}}" alt="">
+      <a data-fancybox="gallery{{ with .album }}-{{.}}{{ end }}" {{ with .caption }}data-caption="{{ . }}"{{ end }} href="{{$.Scratch.Get "src"}}">
+        <img src="{{$.Scratch.Get "src"}}" alt="{{ with .caption }}{{ . }}{{ end }}">
       </a>
     {{ end }}
   {{ end }}
