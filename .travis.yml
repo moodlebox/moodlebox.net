@@ -22,7 +22,7 @@ before_deploy:
 script:
   - hugo version
   - hugo --minify --i18n-warnings
-  - htmlproofer ${TRAVIS_BUILD_DIR}/public/ --url-ignore "#" || true
+  - htmlproofer ${TRAVIS_BUILD_DIR}/public/ --allow-hash-href --url-ignore "/moodlebox.home/,/stats.martignoni.net/" || true
 
 deploy:
   provider: script
@@ -43,6 +43,7 @@ env:
 cache:
   directories:
     - node_modules
+    - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 
 notifications:
   email:
