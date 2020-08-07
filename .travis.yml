@@ -22,7 +22,7 @@ before_deploy:
 script:
   - hugo version
   - hugo --minify --i18n-warnings
-  - htmlproofer ${TRAVIS_BUILD_DIR}/public/
+  - htmlproofer ${TRAVIS_BUILD_DIR}/public/ || true
 
 deploy:
   provider: script
