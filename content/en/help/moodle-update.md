@@ -5,8 +5,8 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-20
-lastmod: 2020-06-14
-description: Want to update Moodle on the MoodleBox? Follow these instructions
+lastmod: 2020-10-20
+description: Do you want to update Moodle on the MoodleBox? Follow these instructions!
 slug: moodle-version-update
 categories:
   - Maintenance
@@ -27,7 +27,7 @@ ssh moodlebox@moodlebox.home
 
 ### Update to a _minor_ version
 
-To update to the next __minor version__ of Moodle (3.9.1, 3.9.2, etc.), type the following commands in the terminal:[^1]
+To update to the next __minor version__ of Moodle (3.9.1, 3.9.2, etc.), type the following commands in the terminal:[^git]
 
 ```bash
 cd /var/www/moodle/
@@ -38,12 +38,12 @@ Visit then in your browser the URL http://moodlebox.home/admin and follow the up
 
 ### Update to a _major_ version
 
-To update to the next __major version__ of Moodle (4.0, 4.1, etc.), type the commands above, then the __additional__ following commands:
+To update to the next __major version__ of Moodle (3.9, 3.10[^future], 3.11[^future], 4.0[^future], etc.), type the commands above, then the __additional__ following commands, indicating the adequate branch, e.g. `MOODLE_39_STABLE`, `MOODLE_40_STABLE`, etc.:
 
 ```bash
 sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git checkout MOODLE_40_STABLE
+sudo -u moodlebox -g www-data git checkout MOODLE_39_STABLE
 ```
 
 Then visit the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the documentation][update]).
@@ -57,4 +57,5 @@ If you have a MoodleBox version 2.5.0 and earlier, use `sudo -u www-data git ...
  [3]: {{< relref "help/change-password" >}}
  [4]: {{< relref "help/credentials" >}}
 
- [^1]: In order to allow a simplified update of Moodle, its installation was done using Git.
+ [^git]: In order to allow a simplified update of Moodle, its installation was done using Git.
+ [^future]: Of course, you'll have to choose an existing and stable branch, so wait for the [official release](https://docs.moodle.org/dev/Releases#General_release_calendar) of the wanted Moodle version to do so.

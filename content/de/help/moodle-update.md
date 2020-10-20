@@ -6,7 +6,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2020-06-14
+lastmod: 2020-10-20
 description: Möchten Sie das Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 slug: moodle-aktualisieren
 categories:
@@ -29,7 +29,7 @@ ssh moodlebox@moodlebox.home
 
 ### Aktualisierung auf eine _Minor_ Version (kleiner Versionssprung)
 
-Um Ihr Moodle auf die nächste __Minor Version__ (3.9.1, 3.9.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^1]
+Um Ihr Moodle auf die nächste __Minor Version__ (3.9.1, 3.9.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^git]
 
 ```bash
 cd /var/www/moodle/
@@ -40,12 +40,12 @@ sudo -u moodlebox -g www-data git pull
 
 ### Aktualisierung auf eine _Major_ Version (großer Versionssprung)
 
-Um mit Ihrem Moodle auf die nächste __Major Version__ (4.0, 4.1, usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen:
+Um mit Ihrem Moodle auf die nächste __Major Version__ (3.9, 3.10[^future], 3.11[^future], 4.0[^future], usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen, wobei der entsprechende Branch angegeben wird, z.B. `MOODLE_39_STABLE`, `MOODLE_40_STABLE`, usw.:
 
 ```bash
 sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git checkout MOODLE_40_STABLE
+sudo -u moodlebox -g www-data git checkout MOODLE_39_STABLE
 ```
 
 Öffnen Sie auch hier im Browser die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede andere Moodle-Installation. ([Weitere Infos finden Sie in der Dokumentation][update]).
@@ -59,4 +59,5 @@ Wenn Sie eine MoodleBox Version 2.5.0 und früher haben, verwenden Sie `sudo -u 
  [3]: {{< relref "help/change-password" >}}
  [4]: {{< relref "help/credentials" >}}
 
- [^1]: Um die Aktualisierung von Moodle auf der MoodleBox möglichst einfach zu machen, wurde die Installation über Git durchgeführt.
+ [^git]: Um die Aktualisierung von Moodle auf der MoodleBox möglichst einfach zu machen, wurde die Installation über Git durchgeführt.
+ [^future]: Natürlich müssen Sie sich für einen vorhandenen und stabilen Branch entscheiden, also warten Sie auf die [offizielle Veröffentlichung](https://docs.moodle.org/dev/Releases#General_release_calendar) der gewünschten Moodle-Version, um dies zu tun.
