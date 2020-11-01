@@ -1,10 +1,10 @@
-{{- $.Scratch.Add "index" slice -}}
+{{- $index := slice -}}
 {{/*- range where .Site.Pages "Type" "not in" (slice "page" "json") -*/}}
 {{- range where .Site.Pages "Type" "in" (slice "kb" "news") -}}
   {{ if ne .Plain "" }}
     {{- if ne .Params.noindex true -}}
-      {{- $.Scratch.Add "index" (dict "url" .RelPermalink "title" .Title "description" .Description "content" (.Content |  markdownify | safeHTML | replaceRE "(?m)(?s:<(style|script)[^>]*>[^<]*<\\/(style|script)>)" "" | plainify)) -}}
+      {{- $index = $index | append (dict "url" .RelPermalink "title" (.Title | plainify) "description" (.Description | plainify) "content" (.Content | markdownify | safeHTML | replaceRE "(?m)(?s:<(style|script)[^>]*>[^<]*<\\/(style|script)>)" "" | plainify | replaceRE "\\x{00B6}" "" | replaceRE "\\s+" " ")) -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}}
+{{- $index | jsonify -}}
