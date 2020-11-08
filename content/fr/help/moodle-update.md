@@ -5,7 +5,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-17
-lastmod: 2020-10-20
+lastmod: 2020-11-08
 description: Vous voulez mettre à jour Moodle sur la MoodleBox ? Suivez ces instructions !
 slug: mise-a-jour-de-la-version-de-moodle
 categories:
@@ -27,7 +27,7 @@ ssh moodlebox@moodlebox.home
 
 ### Mise à jour vers une version _mineure_
 
-Pour une mise à jour à une __version mineure__ de Moodle (3.9.1, 3.9.2, etc.), tapez les commandes suivantes dans le terminal[^git] :
+Pour une mise à jour à une __version mineure__ de Moodle (3.10.1, 3.10.2, etc.), tapez les commandes suivantes dans le terminal[^git] :
 
 ```bash
 cd /var/www/moodle/
@@ -38,12 +38,12 @@ Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez 
 
 ### Mise à jour vers une version _majeure_
 
-Pour une mise à jour à une __version majeure__ de Moodle (3.9, 3.10[^future], 3.11[^future], 4.0[^future], etc.), tapez les commandes ci-dessus, puis __en plus__ les commandes suivantes, en indiquant la branche adéquate, par exemple `MOODLE_39_STABLE`, `MOODLE_40_STABLE`, etc. :
+Pour une mise à jour à une __version majeure__ de Moodle (3.10, 3.11[^future], 4.0[^future], 4.1[^future], etc.), tapez les commandes ci-dessus, puis __en plus__ les commandes suivantes, en indiquant la branche adéquate, par exemple `MOODLE_39_STABLE`, `MOODLE_310_STABLE`, `MOODLE_40_STABLE`, etc. :
 
 ```bash
 sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git checkout MOODLE_39_STABLE
+sudo -u moodlebox -g www-data git checkout MOODLE_310_STABLE
 ```
 
 Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez les instructions de mise à jour, comme avec un Moodle standard ([voir la documentation][update]).
