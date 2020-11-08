@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-02
-lastmod: 2020-08-04
+lastmod: 2020-11-08
 description: Das MoodleBox Disk-Image kann von dieser Seite frei heruntergeladen werden.
 slug: disk-image-herunterladen
 categories_weight: 3
@@ -29,7 +29,7 @@ aliases:
       Version: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}</strong>
     </div>
     <div class="image-details">
-      Moodle Version: <strong>3.9.1+ (Build: 20200723)</strong>
+      Moodle Version: <strong>3.10.0 (Build: 20201109)</strong>
     </div>
     <div class="image-details">
       Größe: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" >}} MB</strong>

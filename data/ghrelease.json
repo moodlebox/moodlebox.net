@@ -1,13 +1,13 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/28936993",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/28936993/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/28936993/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.8.0",
-  "id": 28936993,
-  "node_id": "MDc6UmVsZWFzZTI4OTM2OTkz",
-  "tag_name": "v3.8.0",
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/30011872",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/30011872/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/30011872/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.9.0",
+  "id": 30011872,
+  "node_id": "MDc6UmVsZWFzZTMwMDExODcy",
+  "tag_name": "v3.9.0",
   "target_commitish": "master",
-  "name": "v3.8.0",
+  "name": "v3.9.0",
   "draft": false,
   "author": {
     "login": "martignoni",
@@ -30,14 +30,14 @@
     "site_admin": false
   },
   "prerelease": false,
-  "created_at": "2020-07-25T16:38:43Z",
-  "published_at": "2020-07-25T20:24:36Z",
+  "created_at": "2020-11-08T14:00:04Z",
+  "published_at": "2020-11-08T17:20:57Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/23238032",
-      "id": 23238032,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIzMjM4MDMy",
-      "name": "moodlebox-3.8.0.img.gz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/28070290",
+      "id": 28070290,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDI4MDcwMjkw",
+      "name": "moodlebox-3.9.0.img.gz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/x-gzip",
       "state": "uploaded",
-      "size": 788242812,
+      "size": 772866119,
       "download_count": 0,
-      "created_at": "2020-07-25T20:22:25Z",
-      "updated_at": "2020-07-25T20:24:36Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.8.0/moodlebox-3.8.0.img.gz"
+      "created_at": "2020-11-08T17:18:17Z",
+      "updated_at": "2020-11-08T17:20:57Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.9.0/moodlebox-3.9.0.img.gz"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/23238087",
-      "id": 23238087,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDIzMjM4MDg3",
-      "name": "moodlebox-3.8.0.sha256",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/28070312",
+      "id": 28070312,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDI4MDcwMzEy",
+      "name": "moodlebox-3.9.0.sha256",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -95,14 +95,14 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 126,
+      "size": 112,
       "download_count": 0,
-      "created_at": "2020-07-25T20:27:16Z",
-      "updated_at": "2020-07-25T20:27:17Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.8.0/moodlebox-3.8.0.sha256"
+      "created_at": "2020-11-08T17:20:10Z",
+      "updated_at": "2020-11-08T17:20:11Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.9.0/moodlebox-3.9.0.sha256"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.8.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.8.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.8.0/total.svg)\r\n### Changed\r\n- Update Moodle to latest stable 3.9.x version (no issue number).\r\n- Update Moodle to latest stable Adminer version (no issue number).\r\n- Update [MoodleBox plugin](https://moodle.org/plugins/tool_moodlebox) to [version v2.7.0](\r\nhttps://github.com/moodlebox/moodle-tool_moodlebox/releases/tag/v2.7.0) of (issue #179).\r\n- Update [Nodogsplash](https://github.com/nodogsplash/nodogsplash) to version 5.0.0 (issues #177).\r\n\r\n### Added\r\n- Raspberry Pi 4B 8GB model is now fully supported (via issue #179).\r\n\r\n### Fixed\r\n- Fix definitely WiFi disabled issue on Raspberry Pi 3B (issue #176).\r\n- Fix for php7.3-fpm SIGSEGV problem (issue #142).\r\n- Fix Nodogsplash bad redirect (issue #162).\r\n"
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.9.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.9.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.9.0/total.svg)\r\n### Changed\r\n- Update to Moodle 3.10 (issue #185).\r\n- Update to Raspberry Pi OS version 2020-08-20 (issue #183).\r\n- Update Mathjax library to version 2.7.9 (issue #188).\r\n- Move upgrade tasks and files to specific branch (no issue number; commit 6ffe5f8; see issue #111).\r\n- Remove build assets from repository (no issue number; commit d2b2916).\r\n- Refactor roles (#181, commits 9ea8ac3, 2d92721, e3b564f).\r\n- Remove useless screen blanking setting (no issue number; commit a84a802).\r\n- Remove useless theme SCSS compilation task (no issue number; commit 51d7119).\r\n- Do not remove whole Moodle source when uninstalling (no issue number; commit 6f29254).\r\n\r\n### Added\r\n- Add debug messages (no issue number; commits e804d6e, 04008c4, 1ead61a, b6865ae, 4338aa0).\r\n- Add custom 'crt' file type in `config.php` for certificate (no issue number; commit bc67beb).\r\n\r\n### Fixed\r\n- Fix incron role idempotency (no issue number; commit 4fc16cd).\r\n- Fix role for inexistent file (no issue number; commit a02af69).\r\n- Fix timezone to correctly reflect MoodleBox origin country (no issue number; commit c8cbc2e).\r\n- Silence a warning (no issue number; commit 8215a74).\r\n- Increase timeout after cleanup (no issue number; commit b99b04c).\r\n- Add two more files where to change pi name account (no issue number; commit c163f52).\r\n"
 }
