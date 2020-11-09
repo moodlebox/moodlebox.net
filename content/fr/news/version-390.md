@@ -1,6 +1,6 @@
 ---
 title: "MoodleBox 3.9.0 vous offre Moodle 3.10 et d'autres correctifs"
-description: MoodleBox version 3.9.0 fournit Moodle 3.10. Elle est basée sur la version de Raspberry Pi OS du 20 août 2020.
+description: Moodle 3.10 arrive dans la version 3.9.0 de MoodleBox. La nouvelle image est basée sur la version de Raspberry Pi OS du 20 août 2020.
 date: 2020-11-09
 authors:
   - Nicolas Martignoni
