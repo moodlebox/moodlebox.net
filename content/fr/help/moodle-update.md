@@ -5,7 +5,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-17
-lastmod: 2020-11-08
+lastmod: 2020-11-09
 description: Vous voulez mettre à jour Moodle sur la MoodleBox ? Suivez ces instructions !
 slug: mise-a-jour-de-la-version-de-moodle
 categories:
@@ -31,7 +31,7 @@ Pour une mise à jour à une __version mineure__ de Moodle (3.10.1, 3.10.2, etc.
 
 ```bash
 cd /var/www/moodle/
-sudo -u moodlebox -g www-data git pull
+sudo -u www-data -g moodlebox git pull
 ```
 
 Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez les instructions de mise à jour, comme avec un Moodle standard ([voir la documentation][update]).
@@ -41,15 +41,15 @@ Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez 
 Pour une mise à jour à une __version majeure__ de Moodle (3.10, 3.11[^future], 4.0[^future], 4.1[^future], etc.), tapez les commandes ci-dessus, puis __en plus__ les commandes suivantes, en indiquant la branche adéquate, par exemple `MOODLE_39_STABLE`, `MOODLE_310_STABLE`, `MOODLE_40_STABLE`, etc. :
 
 ```bash
-sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
-sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git checkout MOODLE_310_STABLE
+sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+sudo -u www-data -g moodlebox git fetch origin
+sudo -u www-data -g moodlebox git checkout MOODLE_310_STABLE
 ```
 
 Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez les instructions de mise à jour, comme avec un Moodle standard ([voir la documentation][update]).
 
 {{< notice tip >}}
-Si vous possédez une version de MoodleBox version 2.5.0 ou antérieure, utilisez `sudo -u www-data git ...` au lieu de `sudo -u moodlebox -g www-data git ...` dans les commandes indiquées ci-dessus.
+Si vous possédez une version de MoodleBox version 3.6.0 ou antérieure, utilisez `sudo -u moodlebox -g www-data git ...` au lieu de `sudo -u www-data -g moodlebox git ...` dans les commandes indiquées ci-dessus.
 {{< /notice >}}
 
  [update]: https://docs.moodle.org/fr/Mise_à_jour

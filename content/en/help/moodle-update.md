@@ -5,7 +5,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-20
-lastmod: 2020-11-08
+lastmod: 2020-11-09
 description: Do you want to update Moodle on the MoodleBox? Follow these instructions!
 slug: moodle-version-update
 categories:
@@ -31,7 +31,7 @@ To update to the next __minor version__ of Moodle (3.10.1, 3.10.2, etc.), type t
 
 ```bash
 cd /var/www/moodle/
-sudo -u moodlebox -g www-data git pull
+sudo -u www-data -g moodlebox git pull
 ```
 
 Visit then in your browser the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the documentation][update]).
@@ -41,15 +41,15 @@ Visit then in your browser the URL http://moodlebox.home/admin and follow the up
 To update to the next __major version__ of Moodle (3.10, 3.11[^future], 4.0[^future], 4.1[^future], etc.), type the commands above, then the __additional__ following commands, indicating the adequate branch, e.g. `MOODLE_39_STABLE`, `MOODLE_310_STABLE`, `MOODLE_40_STABLE`, etc.:
 
 ```bash
-sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
-sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git checkout MOODLE_310_STABLE
+sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+sudo -u www-data -g moodlebox git fetch origin
+sudo -u www-data -g moodlebox git checkout MOODLE_310_STABLE
 ```
 
 Then visit the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the documentation][update]).
 
 {{< notice tip >}}
-If you have a MoodleBox version 2.5.0 and earlier, use `sudo -u www-data git ...` instead of `sudo -u moodlebox -g www-data git ...` in the all the commands above.
+If you have a MoodleBox version 3.6.0 and earlier, use `sudo -u moodlebox -g www-data git ...` instead of `sudo -u www-data -g moodlebox git ...` in the all the commands above.
 {{< /notice >}}
 
  [update]: https://docs.moodle.org/en/Upgrading

@@ -33,7 +33,7 @@ Um Ihr Moodle auf die nächste __Minor Version__ (3.10.1, 3.10.2, usw.) zu aktua
 
 ```bash
 cd /var/www/moodle/
-sudo -u moodlebox -g www-data git pull
+sudo -u www-data -g moodlebox git pull
 ```
 
 Öffnen Sie anschließend im Browser die URL http://moodlebox.home/admin/ und folgen Sie der Anleitung wie für jede andere Moodle-Installation. ([Weitere Infos finden Sie in der Dokumentation][update]).
@@ -43,15 +43,15 @@ sudo -u moodlebox -g www-data git pull
 Um mit Ihrem Moodle auf die nächste __Major Version__ (3.10, 3.11[^future], 4.0[^future], 4.1[^future], usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen, wobei der entsprechende Branch angegeben wird, z.B. `MOODLE_39_STABLE`, `MOODLE_310_STABLE`, `MOODLE_40_STABLE`, usw.:
 
 ```bash
-sudo -u moodlebox -g www-data git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
-sudo -u moodlebox -g www-data git fetch origin
-sudo -u moodlebox -g www-data git checkout MOODLE_310_STABLE
+sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+sudo -u www-data -g moodlebox git fetch origin
+sudo -u www-data -g moodlebox git checkout MOODLE_310_STABLE
 ```
 
 Öffnen Sie auch hier im Browser die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede andere Moodle-Installation. ([Weitere Infos finden Sie in der Dokumentation][update]).
 
 {{< notice tip >}}
-Wenn Sie eine MoodleBox Version 2.5.0 und früher haben, verwenden Sie `sudo -u www-data git ...` anstelle von `sudo -u moodlebox -g www-data git ...` in den oben angegebenen Anweisungen.
+Wenn Sie eine MoodleBox Version 3.6.0 und früher haben, verwenden Sie `sudo -u moodlebox -g www-data git ...` anstelle von `sudo -u www-data -g moodlebox git ...` in den oben angegebenen Anweisungen.
 {{< /notice >}}
 
  [update]: https://docs.moodle.org/de/Aktualisierung_von_Moodle
