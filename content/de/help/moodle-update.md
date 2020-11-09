@@ -6,7 +6,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2020-11-08
+lastmod: 2020-11-09
 description: Möchten Sie das Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 slug: moodle-aktualisieren
 categories:
