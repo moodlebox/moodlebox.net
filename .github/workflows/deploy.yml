@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install Hugo
-        uses: jakejarvis/hugo-build-action@v${HUGO_RELEASE}
+        uses: "jakejarvis/hugo-build-action@v${HUGO_RELEASE}"
         with:
           args: --build-arg --minify --i18n-warnings
 #       - name: Get Hugo deb package
