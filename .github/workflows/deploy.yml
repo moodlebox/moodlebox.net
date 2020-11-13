@@ -18,7 +18,7 @@ env:
 jobs:
 
   build:
-    name: Build with Hugo
+    name: Build with Hugo and deploy to web server with rsync
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -34,11 +34,6 @@ jobs:
         run: hugo env
       - name: Build website
         run: hugo --minify --i18n-warnings
-
-  deploy:
-    name: Deploy to web server with rsync
-    runs-on: ubuntu-latest
-    steps:
       - name: List directory content
         run: ls -l
       - name: Check rsync
