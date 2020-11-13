@@ -9,7 +9,7 @@ on:
       - master
 
 env:
-  HUGO_RELEASE: 0.76.5
+  HUGO_VERSION: 0.76.5
   SERVER: production
   DEPLOY_USER: blabla
   DEPLOY_HOST: blublu
@@ -23,10 +23,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Install Hugo
-        uses: "jakejarvis/hugo-build-action@v${HUGO_RELEASE}"
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          args: --build-arg --minify --i18n-warnings
+          hugo-version: ${HUGO_RELEASE}
+          extended: true
+      - name: Build website
+        run: --minify --i18n-warnings
+
 #       - name: Get Hugo deb package
 #         uses: wei/wget@v1
 #         with:
