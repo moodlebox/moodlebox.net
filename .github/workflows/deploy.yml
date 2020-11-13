@@ -11,6 +11,9 @@ on:
 env:
   HUGO_RELEASE: 0.76.5
   SERVER: production
+  DEPLOY_USER: blabla
+  DEPLOY_HOST: blublu
+  DEPLOY_DIRECTORY: bloblo
 
 jobs:
 
@@ -20,9 +23,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Get Hugo deb package
-        uses: wei/wget@v1
-        with:
-          args: "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
       - name: Install Hugo
-        run: sudo dpkg -i hugo*.deb
+        uses: jakejarvis/hugo-build-action@v${HUGO_RELEASE}
+        with:
+          args: --build-arg --minify --i18n-warnings
+#       - name: Get Hugo deb package
+#         uses: wei/wget@v1
+#         with:
+#           args: "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
+#       - name: Install and get Hugo version
+#         run: sudo dpkg -i hugo*.deb && hugo version && hugo env
