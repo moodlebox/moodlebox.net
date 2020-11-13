@@ -9,7 +9,7 @@ on:
       - master
 
 env:
-  HUGO_VERSION: 0.76.5
+  HUGO_RELEASE: 0.76.5
   SERVER: production
   DEPLOY_USER: blabla
   DEPLOY_HOST: blublu
