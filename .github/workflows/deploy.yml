@@ -2,9 +2,15 @@ name: Hugo CI & deploy
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
+
+env:
+  HUGO_RELEASE: 0.76.5
+  SERVER: production
 
 jobs:
   build:
@@ -12,4 +18,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: wget
+      uses: wei/wget@v1
+      with:
+        args: "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
