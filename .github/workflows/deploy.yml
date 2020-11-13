@@ -36,7 +36,7 @@ jobs:
         with:
           switches: -avzr --quiet --delete
           path: public/
-          remote_path: ${{ secret.DEPLOY_DIRECTORY }}
+          remote_path: ${{ secrets.DEPLOY_DIRECTORY }}
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}
