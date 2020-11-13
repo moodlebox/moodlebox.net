@@ -9,12 +9,11 @@ on:
       - master
 
 env:
-  HUGO_RELEASE: '0.76.5'
   SERVER: production
 
 jobs:
   build:
-    name: Build with Hugo and deploy to web server with rsync
+    name: Build and deploy website
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,17 +25,17 @@ jobs:
         with:
           hugo-version: ${{ env.HUGO_RELEASE }}
           extended: true
+        env:
+          HUGO_RELEASE: '0.76.5'
       - name: Check Hugo installation
         run: hugo env
       - name: Build website
         run: hugo --minify --i18n-warnings
-      - name: rsync deployments
-        uses: burnett01/rsync-deployments@4.1
-        with:
-          switches: -avzr --delete
-          path: public/
-          remote_path: /home/${{ secrets.DEPLOY_USER }}/ghdeploytest/
-#           remote_path: ${{ secret.DEPLOY_DIRECTORY }}
-          remote_host: ${{ secrets.DEPLOY_HOST }}
-          remote_user: ${{ secrets.DEPLOY_USER }}
-          remote_key: ${{ secrets.DEPLOY_KEY }}
+      - name: Deploy via rsync
+        uses: contention/action-rsync-deploy@master
+        secrets: ${{ secrets.DEPLOY_KEY }}
+        args:
+          - '-avzr --delete'
+          - ''
+          - '${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/home/${{ secrets.DEPLOY_USER }}/ghdeploytest/'
+#          - ${{ secret.DEPLOY_DIRECTORY }}
