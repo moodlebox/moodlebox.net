@@ -32,10 +32,11 @@ jobs:
       - name: Build website
         run: hugo --minify --i18n-warnings
       - name: Deploy via rsync
-        uses: contention/action-rsync-deploy@master
-        secrets: ${{ secrets.DEPLOY_KEY }}
-        args:
-          - '-avzr --delete'
-          - ''
-          - '${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/home/${{ secrets.DEPLOY_USER }}/ghdeploytest/'
+        uses: pendect/action-rsyncer@v1.1.0
+        env:
+          DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+        with:
+          flags: '-avzr --delete'
+          src: 'public/'
+          dest: '${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/home/${{ secrets.DEPLOY_USER }}/ghdeploytest/'
 #          - ${{ secret.DEPLOY_DIRECTORY }}
