@@ -35,9 +35,8 @@ jobs:
         with:
           switches: -avzr --delete
           path: public/
-          remote_path: /home/${{ secret.DEPLOY_USER }}/ghdeploytest/
+          remote_path: /home/${{ secrets.DEPLOY_USER }}/ghdeploytest/
 #           remote_path: ${{ secret.DEPLOY_DIRECTORY }}
-          remote_host: ${{ secret.DEPLOY_HOST }}
-          remote_port: ${{ secrets.DEPLOY_PORT }}
-          remote_user: ${{ secret.DEPLOY_USER }}
-          remote_key: ${{ secret.DEPLOY_KEY }}
+          remote_host: ${{ secrets.DEPLOY_HOST }}
+          remote_user: ${{ secrets.DEPLOY_USER }}
+          remote_key: ${{ secrets.DEPLOY_KEY }}
