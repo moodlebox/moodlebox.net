@@ -18,7 +18,7 @@ env:
 jobs:
 
   build:
-    name: Build
+    name: Build with Hugo
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,9 +35,11 @@ jobs:
       - name: Build website
         run: hugo --minify --i18n-warnings
 
-#       - name: Get Hugo deb package
-#         uses: wei/wget@v1
-#         with:
-#           args: "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
-#       - name: Install and get Hugo version
-#         run: sudo dpkg -i hugo*.deb && hugo version && hugo env
+  deploy:
+    name: Deploy to web server with rsync
+    runs-on: ubuntu-latest
+    steps:
+      - name: List directory content
+        run: ls -l
+      - name: Check rsync
+        run: rsync --version
