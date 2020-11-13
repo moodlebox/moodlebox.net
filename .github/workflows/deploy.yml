@@ -8,9 +8,6 @@ on:
     branches:
       - master
 
-env:
-  SERVER: production
-
 jobs:
   build:
     name: Build and deploy website
@@ -26,12 +23,12 @@ jobs:
           hugo-version: ${{ env.HUGO_RELEASE }}
           extended: true
         env:
-          HUGO_RELEASE: '0.76.5'
+          HUGO_RELEASE: '0.78.2'
       - name: Check Hugo installation
         run: hugo env
-      - name: Build website
+      - name: Build website with Hugo
         run: hugo --minify --i18n-warnings
-      - name: rsync deployments
+      - name: Deploy website with rsync
         uses: burnett01/rsync-deployments@4.1
         with:
           switches: -avzr --quiet --delete
