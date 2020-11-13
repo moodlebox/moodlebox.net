@@ -28,8 +28,10 @@ jobs:
         with:
           hugo-version: '0.76.5'
           extended: true
+      - name: Check Hugo installation
+        run: hugo version && hugo env
       - name: Build website
-        run: --minify --i18n-warnings
+        run: hugo --minify --i18n-warnings
 
 #       - name: Get Hugo deb package
 #         uses: wei/wget@v1
