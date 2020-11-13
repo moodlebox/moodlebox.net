@@ -9,7 +9,7 @@ on:
       - master
 
 env:
-  HUGO_RELEASE: 0.76.5
+  HUGO_RELEASE: '0.76.5'
   SERVER: production
   DEPLOY_USER: blabla
   DEPLOY_HOST: blublu
@@ -23,12 +23,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Checkout submodules
-        run: git submodule update --init --recursive
+        with:
+          submodules: true
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.76.5'
+          hugo-version: ${HUGO_RELEASE}
           extended: true
       - name: Check Hugo installation
         run: hugo env
