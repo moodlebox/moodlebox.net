@@ -13,14 +13,16 @@ env:
   SERVER: production
 
 jobs:
+
   build:
-
+    name: Build
     runs-on: ubuntu-latest
-
     steps:
-    - name: checkout
-      uses: actions/checkout@v2
-    - name: wget
-      uses: wei/wget@v1
-      with:
-        args: "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Get Hugo deb package
+        uses: wei/wget@v1
+        with:
+          args: "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb"
+      - name: Install Hugo
+        run: sudo dpkg -i hugo*.deb
