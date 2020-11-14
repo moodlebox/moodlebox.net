@@ -1,6 +1,6 @@
 # Website moodlebox.net
 
-[![Build Status](https://travis-ci.org/moodlebox/moodlebox.net.svg?branch=master)](https://travis-ci.org/moodlebox/moodlebox.net/)
+[![Build Status](https://github.com/moodlebox/moodlebox.net/workflows/Hugo%20CI%20&%20deploy/badge.svg)](https://github.com/moodlebox/moodlebox.net/actions?query=workflow%3A%22Hugo+CI+%26+deploy%22)
 
 This repository contains the content pages of the [MoodleBox][moodlebox] website, [moodlebox.net][moodlebox].
 
