@@ -20,7 +20,7 @@ The Campus connected label will give a new dimension to the Moodlebox, offering 
 
 MoodleBox is a small, inexpensive mobile device that works without the Internet. It combines a wireless access point with a complete Moodle platform.
 
-Quellen :
+Sources :
 - [Ministère de l'Enseignement supérieur, de la Recherche et de l'Innovation](https://www.enseignementsup-recherche.gouv.fr/cid153057/www.enseignementsup-recherche.gouv.fr/cid153057/ameliorer-la-formation-et-l-orientation-des-jeunes-et-favoriser-l-enseignement-superieur-de-proximite.html)
 - [Université Caen Normandie](http://www.unicaen.fr/actualites/innovation-pedagogique/des-campus-connectes-a-l-universite-de-caen-normandie-1029389.kjsp)
 - [Région Normandie](https://www.normandie.fr/les-campus-normands)
