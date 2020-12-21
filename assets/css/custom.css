@@ -254,3 +254,33 @@ summary::-webkit-details-marker {
   border-bottom: none;
   margin-bottom: 0;
 }
+
+/* Anchor links. */
+.anchor-faq {
+  color: transparent;
+  display: none;
+  font-size: smaller;
+  margin-left: 1ex;
+  display:inline;
+}
+
+summary:hover > .anchor-faq,
+.anchor-faq:focus {
+  display: inline;
+  color: #da4d4d;
+}
+
+a.anchor-faq {
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+  -webkit-transition: color 80ms ease-in;
+  transition: color 240ms ease-in;
+}
+
+a.anchor-faq:hover,
+a.anchor-faq:focus {
+  color: #da4d4d;
+  -webkit-box-shadow: initial;
+  box-shadow: initial;
+}
+
