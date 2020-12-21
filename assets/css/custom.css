@@ -256,7 +256,8 @@ summary::-webkit-details-marker {
 }
 
 /* Anchor links. */
-.anchor-faq {
+.anchor-faq,
+.anchor-heading {
   color: transparent;
   display: none;
   font-size: smaller;
@@ -264,13 +265,16 @@ summary::-webkit-details-marker {
   display:inline;
 }
 
-summary:hover > .anchor-faq,
-.anchor-faq:focus {
+:hover > .anchor-faq,
+:hover > .anchor-heading,
+.anchor-faq:focus,
+.anchor-heading:focus {
   display: inline;
   color: #da4d4d;
 }
 
-a.anchor-faq {
+a.anchor-faq,
+a.anchor-heading {
   -webkit-box-shadow: initial;
   box-shadow: initial;
   -webkit-transition: color 80ms ease-in;
@@ -278,7 +282,9 @@ a.anchor-faq {
 }
 
 a.anchor-faq:hover,
-a.anchor-faq:focus {
+a.anchor-faq:focus,
+a.anchor-heading:hover,
+a.anchor-heading:focus {
   color: #da4d4d;
   -webkit-box-shadow: initial;
   box-shadow: initial;
