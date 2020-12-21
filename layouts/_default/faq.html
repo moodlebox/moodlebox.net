@@ -17,7 +17,7 @@
               <h4 id="{{ .id }}">{{ .name }}</h4>
                 {{ range .items }}
                 <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                  <summary itemprop="name">{{ .question }}</summary>
+                  <summary itemprop="name" id="{{ .question | anchorize }}">{{ .question }} <a href="#{{ .question | anchorize }}" class="anchor-faq"><i class="fa fa-link fa-flip-horizontal"></i></a></summary>
                   <div class="faq-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <div itemprop="text">{{ .answer | markdownify }}</div>
                   </div>
