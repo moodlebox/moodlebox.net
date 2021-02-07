@@ -1,10 +1,10 @@
 {{- with .Description -}}
   {{- . | safeHTML -}}
 {{- else -}}
-  {{- with .Site.Params.Description -}}
+  {{- with site.Params.Description -}}
     {{- . | safeHTML -}}
   {{- else -}}
-    {{- with .Site.Params.DefaultDescription -}}
+    {{- with site.Params.DefaultDescription -}}
       {{- . | safeHTML -}}
     {{- end -}}
   {{- end -}}

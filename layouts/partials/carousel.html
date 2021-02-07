@@ -1,6 +1,6 @@
-{{ if isset .Site.Params "carousel" }}
-{{ if .Site.Params.carousel.enable }}
-{{ with index .Site.Data.carousel .Site.Language.Lang }}
+{{ if isset site.Params "carousel" }}
+{{ if site.Params.carousel.enable }}
+{{ with index site.Data.carousel site.Language.Lang }}
 <section>
   <div class="home-carousel">
     <div class="dark-mask"></div>

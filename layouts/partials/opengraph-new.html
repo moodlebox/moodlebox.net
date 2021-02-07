@@ -1,12 +1,12 @@
 <meta property='og:title' content='{{ partial "title" . }}'>
 <meta property='og:description' content='{{ partial "seo/metadata-description" . }}'>
 <meta property='og:url' content='{{ .Permalink }}'>
-<meta property='og:site_name' content='{{ .Site.Title }}'>
+<meta property='og:site_name' content='{{ site.Title }}'>
 <meta property='og:type' content='{{- if .IsPage -}}article{{- else -}}website{{- end -}}'>
 {{- with .Params.image -}}
   <meta property='og:image' content='{{ . | absURL }}'>
 {{- else -}}
-{{- with .Site.Params.Social.email -}}
+{{- with site.Params.Social.email -}}
     <meta property='og:image' content='https://www.gravatar.com/avatar/
         {{- . | md5 -}}
         ?s=256'>
@@ -25,12 +25,12 @@
 {{- end -}}
 
 {{- if .IsPage -}}
-    {{- with .Site.Params.Social.facebook -}}
+    {{- with site.Params.Social.facebook -}}
       <meta property='article:author' content='https://facebook.com/{{ . }}'>
     {{- end -}}
   {{- end -}}
 
-  {{- with .Site.Params.opengraph.facebook.pageid -}}
+  {{- with site.Params.opengraph.facebook.pageid -}}
     <meta property='article:publisher' content='{{ . }}'>
   {{- end -}}
 
@@ -56,12 +56,12 @@
     <meta property='article:expiration_time' content='{{ .ExpiryDate.Format $dateFormat }}'/>
   {{- end -}}
 {{- else -}}
-  {{- if not .Site.LastChange.IsZero -}}
-    <meta property='og:updated_time' content='{{ .Site.LastChange.Format $dateFormat }}'/>
+  {{- if not site.LastChange.IsZero -}}
+    <meta property='og:updated_time' content='{{ site.LastChange.Format $dateFormat }}'/>
   {{- end -}}
 {{- end -}}
 
-{{- with .Site.Params.opengraph.facebook -}}
+{{- with site.Params.opengraph.facebook -}}
   {{- with .appid -}}
     <meta property='fb:app_id' content='{{ . }}'>
   {{- end -}}
@@ -71,9 +71,9 @@
 {{- end -}}
 
 <meta name='twitter:card' content='summary{{- if .Params.cover -}}_large_image{{- end -}}'>
-{{- if .Site.Params.opengraph.twitter.page -}}
-  <meta name='twitter:site' content='@{{- .Site.Params.opengraph.twitter.page -}}'>
+{{- if site.Params.opengraph.twitter.page -}}
+  <meta name='twitter:site' content='@{{- site.Params.opengraph.twitter.page -}}'>
 {{- else -}}
-    <meta name='twitter:site' content='@{{- .Site.Params.Social.twitter -}}'>
+    <meta name='twitter:site' content='@{{- site.Params.Social.twitter -}}'>
 {{- end -}}
-<meta name='twitter:creator' content='@{{- .Site.Params.Social.twitter -}}'>
+<meta name='twitter:creator' content='@{{- site.Params.Social.twitter -}}'>

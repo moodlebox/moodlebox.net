@@ -1,6 +1,6 @@
 {{- $index := slice -}}
-{{/*- range where .Site.Pages "Type" "not in" (slice "page" "json") -*/}}
-{{- range where .Site.Pages "Type" "in" (slice "kb" "news") -}}
+{{/*- range where site.Pages "Type" "not in" (slice "page" "json") -*/}}
+{{- range where site.Pages "Type" "in" (slice "kb" "news") -}}
   {{ if ne .Plain "" }}
     {{- if ne .Params.noindex true -}}
       {{- $index = $index | append (dict "date" (.Date.Format "2006-01-02") "url" .RelPermalink "title" (.Title | plainify) "description" (.Description | plainify) "content" (.Content | markdownify | safeHTML | replaceRE "(?m)(?s:<(style|script)[^>]*>[^<]*<\\/(style|script)>)" "" | plainify | replaceRE "\\x{00B6}" "" | replaceRE "\\s+" " ")) -}}

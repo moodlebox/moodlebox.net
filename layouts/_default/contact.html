@@ -20,7 +20,7 @@
   </div> <!-- /#content -->
 {{ end }}
 {{ define "footerfiles" }}
-  {{ if .Site.IsServer }}
+  {{ if site.IsServer }}
     {{ $jqBSValidationJS := resources.Get "js/jqBootstrapValidation.js" }}
     {{ $contactJS := resources.Get "js/contact.js" }}
     <script src="{{ $jqBSValidationJS.Permalink }}"></script>

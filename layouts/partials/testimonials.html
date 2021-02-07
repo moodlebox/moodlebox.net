@@ -1,16 +1,16 @@
-{{ if isset .Site.Params "testimonials" }}
-{{ if .Site.Params.testimonials.enable }}
-{{ with index .Site.Data.testimonials .Site.Language.Lang }}
+{{ if isset site.Params "testimonials" }}
+{{ if site.Params.testimonials.enable }}
+{{ with index site.Data.testimonials site.Language.Lang }}
 <section class="bar background-pentagon no-mb">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="heading text-center">
-          <h2>{{ $.Site.Params.testimonials.title }}</h2>
+          <h2>{{ site.Params.testimonials.title }}</h2>
         </div>
 
         <p class="lead text-center">
-          {{ $.Site.Params.testimonials.subtitle | markdownify }}
+          {{ site.Params.testimonials.subtitle | markdownify }}
         </p>
 
         <ul class="owl-carousel testimonials same-height-row">

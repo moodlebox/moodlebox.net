@@ -1,11 +1,11 @@
-{{ if isset .Site.Params "news" }}
-{{ if .Site.Params.news.enable }}
-{{ if gt (len (where .Site.RegularPages "Section" "news")) 0 }}
+{{ if isset site.Params "news" }}
+{{ if site.Params.news.enable }}
+{{ if gt (len (where site.RegularPages "Section" "news")) 0 }}
 <section id="news">
   <div class="container">
     <div class="col-md-12">
       <div class="row equal">
-      {{ range first 3 ( sort (where .Site.RegularPages "Section" "news") "Date" "desc" ) }}
+      {{ range first 3 ( sort (where site.RegularPages "Section" "news") "Date" "desc" ) }}
       {{- $.Scratch.Add "i" 1 -}}{{- $i := $.Scratch.Get "i" -}}
         <div class="col-md-4{{- if ge $i 3 }} hidden-xs{{- end -}}">
           <a class="news-item" href="{{ .RelPermalink }}">

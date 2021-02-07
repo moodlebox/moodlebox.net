@@ -5,7 +5,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" rel="stylesheet" crossorigin="anonymous" />
 {{ end }}
 <!-- Custom fonts and styles for this template -->
-{{ if .Site.IsServer }}
+{{ if site.IsServer }}
   {{ $cssOpts := (dict "enableSourceMap" true ) }}
   {{ $fontAwesomeCSS := resources.Get "css/font-awesome.css" | toCSS $cssOpts }}
   {{ $fontsCSS := resources.Get "css/fonts.css" | toCSS $cssOpts }}

@@ -1,5 +1,5 @@
-{{- if isset .Site.Params.widgets "related" -}}
-{{- if .Site.Params.widgets.related -}}
+{{- if isset site.Params.widgets "related" -}}
+{{- if site.Params.widgets.related -}}
 {{- if and (eq .Kind "page") (ne .Type "news") -}}
 <div class="panel panel-default sidebar-menu">
 
@@ -7,7 +7,7 @@
     <h3 class="panel-title">{{ i18n "relatedTitle" }}</h3>
   </div>
 
-  {{ $related := .Site.RegularPages.Related . | first 5 }}
+  {{ $related := site.RegularPages.Related . | first 5 }}
   {{- with $related -}}
   <div class="panel-body">
     <ul class="nav nav-pills nav-stacked">

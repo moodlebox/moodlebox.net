@@ -16,16 +16,16 @@
   "name" : "{{ partial "seo/metadata-title" . }}",
   "headline" : "{{ partial "seo/metadata-title" . }}",
   "description": "{{ partial "seo/metadata-description" . }}",
-  "image": "{{ .Site.Params.logo | absURL }}",
+  "image": "{{ site.Params.logo | absURL }}",
   "inLanguage" : "{{ .Language }}",
-  "author" : "{{ .Site.Params.Author }}",
-  "creator" : "{{ .Site.Params.Author }}",
+  "author" : "{{ site.Params.Author }}",
+  "creator" : "{{ site.Params.Author }}",
   "publisher" : {
     "@type": "Organization",
-    "name" : "{{ .Site.Params.title }}"
+    "name" : "{{ site.Params.title }}"
   },
-  "accountablePerson" : "{{ .Site.Params.Author }}",
-  "copyrightHolder" : "{{ .Site.Params.Author }}",
+  "accountablePerson" : "{{ site.Params.Author }}",
+  "copyrightHolder" : "{{ site.Params.Author }}",
   "copyrightYear" : "{{ .Date.Format "2006" }}",
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   {{ if not .Lastmod.IsZero }}"dateModified" : "{{ .Lastmod.Format "2006-01-02" }}",{{ end }}
@@ -34,7 +34,7 @@
   {{- end }}
   {{ if .Keywords -}}
   "keywords" : "{{ delimit .Keywords ", " }}"
-  {{- else if .Site.Params.DefaultKeywords -}}
-  "keywords" : "{{ delimit .Site.Params.DefaultKeywords ", " }}"
+  {{- else if site.Params.DefaultKeywords -}}
+  "keywords" : "{{ delimit site.Params.DefaultKeywords ", " }}"
   {{- end }}
 }

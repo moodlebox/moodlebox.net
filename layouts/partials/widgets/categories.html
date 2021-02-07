@@ -1,6 +1,6 @@
-{{ if .Site.Params.widgets.categories }}
-{{ if isset .Site.Taxonomies "categories" }}
-{{ if not (eq (len .Site.Taxonomies.categories) 0) }}
+{{ if site.Params.widgets.categories }}
+{{ if isset site.Taxonomies "categories" }}
+{{ if not (eq (len site.Taxonomies.categories) 0) }}
 <div class="panel panel-default sidebar-menu">
 
   <div class="panel-heading">
@@ -9,8 +9,8 @@
 
   <div class="panel-body">
     <ul class="nav nav-pills nav-stacked">
-    {{- range $name, $items := .Site.Taxonomies.categories }}
-    <li><a href="{{ $.Site.BaseURL }}{{ $.Site.LanguagePrefix }}/categories/{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a></li>
+    {{- range $name, $items := site.Taxonomies.categories }}
+    <li><a href="{{ site.BaseURL }}{{ site.LanguagePrefix }}/categories/{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a></li>
     {{- end }}
     </ul>
   </div>

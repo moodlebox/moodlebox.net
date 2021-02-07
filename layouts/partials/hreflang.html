@@ -1,4 +1,4 @@
-{{- if .Site.IsMultiLingual }}
+{{- if site.IsMultiLingual }}
 {{- if .IsTranslated }}
   {{- range .Translations }}
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />

@@ -8,7 +8,7 @@
         <div class="box">
           {{/*
           <p class="text-center">
-            <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo }}" alt="{{ .Title }} logo"></a>
+            <a href="{{ site.BaseURL }}"><img src="{{ site.Params.logo }}" alt="{{ .Title }} logo"></a>
           </p>
           */}}
           <h3>{{ i18n "error404Message" }}</h3>
@@ -18,7 +18,7 @@
           {{ partial "search-form.html" . }}
           {{/*
           <p>Faites un don pour aider à corriger ce problème !</p>
-          <p class="buttons"><a href="{{ .Site.BaseURL }}" class="btn btn-template-main">
+          <p class="buttons"><a href="{{ site.BaseURL }}" class="btn btn-template-main">
             <i class="fa fa-home"></i>{{ i18n "navHome" }}</a>
           </p>
           */}}

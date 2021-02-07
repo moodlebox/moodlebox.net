@@ -3,7 +3,7 @@
     <div class="col-md-9">
       <section>
         {{ .Content }}
-        {{ if isset .Site.Params "email" }}
+        {{ if isset site.Params "email" }}
         <div role="form" class="contact-form">
           <form name="contact" id="contact" action="#" class="moodlebox-form" method="post">
             <div class="control-group">
@@ -43,10 +43,10 @@
     </div> <!-- col-md-9 -->
     <div class="col-md-3">
       {{ partial "widgets/recentnews.html" . }}
-      {{/* if isset .Site.Params "address" }}
+      {{/* if isset site.Params "address" }}
       <section>
         <h3 class="text-uppercase"> {{ i18n "contactAddrTitle" }}</h3>
-        {{ .Site.Params.address | safeHTML }}
+        {{ site.Params.address | safeHTML }}
       </section>
       {{ end */}}
     </div> <!-- col-md-3 -->

@@ -2,19 +2,19 @@
   <div class="container">
     <div class="row">
 
-      {{ if isset .Site.Params "about" }}
+      {{ if isset site.Params "about" }}
       <div id="about-us" class="col-md-4 col-sm-6">
         <h4>{{ i18n "aboutUs" }}</h4>
-        <p>{{ .Site.Params.about | markdownify }}</p>
+        <p>{{ site.Params.about | markdownify }}</p>
         <hr class="hidden-md hidden-lg hidden-sm">
       </div> <!-- /.col-md-4 -->
       {{ end }}
 
-      {{ if isset .Site.Params "recent_posts" }} {{ if .Site.Params.recent_posts.enable }}
+      {{ if isset site.Params "recent_posts" }} {{ if site.Params.recent_posts.enable }}
       <div id="recent-posts" class="col-md-4 col-sm-6">
         <h4>{{ i18n "recentPosts" }}</h4>
         <div class="blog-entries">
-          {{ range first 3 (where .Site.Pages.ByLastmod.Reverse "Type" "kb") }}
+          {{ range first 3 (where site.Pages.ByLastmod.Reverse "Type" "kb") }}
           <div class="item same-height-row clearfix">
             {{ if false }}
             <div class="image same-height-always">
@@ -37,18 +37,18 @@
       </div>  <!-- /.col-md-4 -->
       {{ end }} {{ end }}
 
-      {{ if .Site.Params.donate.enable }}
+      {{ if site.Params.donate.enable }}
       <div id="links" class="col-md-4 col-sm-6">
         <h4>FAQ</h4>
         <div class="important-links">
           <div class="item same-height-row clearfix">
             <div class="name same-height-always">
-              <h5><a href="{{ .Site.LanguagePrefix }}/faq">{{ i18n "faqTitle" }}</a></h5>
+              <h5><a href="{{ site.LanguagePrefix }}/faq">{{ i18n "faqTitle" }}</a></h5>
             </div>
           </div>
         </div>
         <h4>{{ i18n "donateTitle" }}</h4>
-          <a href="{{ .Site.LanguagePrefix }}/give" class="btn btn-small btn-template-main">{{ i18n "donateNow" }}</a>
+          <a href="{{ site.LanguagePrefix }}/give" class="btn btn-small btn-template-main">{{ i18n "donateNow" }}</a>
           <hr class="hidden-md hidden-lg hidden-sm">
       </div> <!-- /.col-md-4 -->
       {{ end }}
@@ -61,29 +61,29 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-      {{ if .Site.Params.privacy.enable }}
+      {{ if site.Params.privacy.enable }}
         <span id="privacy" class="post-footer-item">
-          <a href="{{ .Site.LanguagePrefix }}/privacy" class="">{{ i18n "privacyTitle" }}</a>
+          <a href="{{ site.LanguagePrefix }}/privacy" class="">{{ i18n "privacyTitle" }}</a>
         </span>
       {{ end }}
-      {{ if .Site.Params.cookies.enable }}
+      {{ if site.Params.cookies.enable }}
         <span id="cookies" class="post-footer-item">
-          <a href="{{ .Site.LanguagePrefix }}/cookies" class="">{{ i18n "cookiesTitle" }}</a>
+          <a href="{{ site.LanguagePrefix }}/cookies" class="">{{ i18n "cookiesTitle" }}</a>
         </span>
       {{ end }}
-      {{ if .Site.Params.license.enable }}
+      {{ if site.Params.license.enable }}
         <span id="license" class="post-footer-item">
-          <a href="{{ .Site.LanguagePrefix }}/license" class="">{{ i18n "licenseTitle" }}</a>
+          <a href="{{ site.LanguagePrefix }}/license" class="">{{ i18n "licenseTitle" }}</a>
         </span>
       {{ end }}
-      {{ if .Site.Params.donate.enable }}
+      {{ if site.Params.donate.enable }}
         <span id="donate" class="post-footer-item">
-          <a href="{{ .Site.LanguagePrefix }}/give" class="">{{ i18n "donateTitle" }}</a>
+          <a href="{{ site.LanguagePrefix }}/give" class="">{{ i18n "donateTitle" }}</a>
         </span>
       {{ end }}
-      {{ if isset .Site.Params "address" }}
+      {{ if isset site.Params "address" }}
         <span id="address" class="post-footer-item">
-          <a href="{{ .Site.LanguagePrefix }}/contact" class="">{{ i18n "contactTitle" }}</a>
+          <a href="{{ site.LanguagePrefix }}/contact" class="">{{ i18n "contactTitle" }}</a>
         </span>
       {{ end }}
       </div>

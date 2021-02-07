@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ with .Language }}{{ . }}{{ else }}{{ .Site.LanguageCode }}{{ end }}">
+<html lang="{{ with .Language }}{{ . }}{{ else }}{{ site.LanguageCode }}{{ end }}">
 <head>
   <meta charset="utf-8">
   {{ hugo.Generator }}
@@ -17,13 +17,13 @@
   <!-- OpenGraph metatags -->
   {{ template "_internal/opengraph.html" . }}
   <!-- OpenGraph supplementary metatags -->
-  <meta property="og:image" content="{{ .Site.Params.logo | absURL }}" />
+  <meta property="og:image" content="{{ site.Params.logo | absURL }}" />
   <!-- Standard metatags -->
-  <meta name="author" content="{{ .Site.Params.Author }}" />
+  <meta name="author" content="{{ site.Params.Author }}" />
   {{ if .Keywords -}}
   <meta name="keywords" content="{{ delimit .Keywords ", " }}">
-  {{- else if .Site.Params.DefaultKeywords -}}
-  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
+  {{- else if site.Params.DefaultKeywords -}}
+  <meta name="keywords" content="{{ delimit site.Params.DefaultKeywords ", " }}">
   {{- end }}
   <meta name="description" content="{{ partial "seo/metadata-description" . }}">
   <link rel="canonical" href="{{ .Permalink }}">
@@ -36,22 +36,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->` | safeHTML }}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.6/lunr.min.js" integrity="sha256-M/Awbb/BYh+Rh0aGjpQid26p1b2OBsrk2k9yAvQxPV0=" crossorigin="anonymous"></script>
-  {{ if .Site.IsServer }}
+  {{ if site.IsServer }}
     {{ $lunrStemmerJS := resources.Get "js/lunr.stemmer.support.js" }}
     <script src="{{ $lunrStemmerJS.Permalink }}"></script>
-    {{- if not (eq .Site.Language.Lang "en") }}
+    {{- if not (eq site.Language.Lang "en") }}
       {{ $lunrLangJS := resources.Get (printf "js/lunr.%s.js" (.Language | safeJS)) }}
       <script src="{{ $lunrLangJS.Permalink }}"></script>
     {{ end -}}
   {{ else }}
     {{ $lunrStemmerJS := resources.Get "js/lunr.stemmer.support.js" | minify | fingerprint }}
     <script src="{{ $lunrStemmerJS.Permalink }}" integrity="{{ $lunrStemmerJS.Data.Integrity }}"></script>
-    {{- if not (eq .Site.Language.Lang "en") }}
+    {{- if not (eq site.Language.Lang "en") }}
       {{ $lunrLangJS := resources.Get (printf "js/lunr.%s.js" (.Language | safeJS)) | minify | fingerprint }}
       <script src="{{ $lunrLangJS.Permalink }}" integrity="{{ $lunrLangJS.Data.Integrity }}"></script>
     {{ end -}}
   {{ end }}
-  <link rel="alternate" href="{{ "/index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="alternate" href="{{ "/index.xml" | absLangURL }}" type="application/rss+xml" title="{{ site.Title }}">
   <!-- Favicon and various touch icons-->
   <link rel="shortcut icon" href="{{ "img/favicon.ico" | absURL }}" type="image/x-icon" />
   <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | absURL }}" sizes="180x180">

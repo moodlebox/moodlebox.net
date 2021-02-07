@@ -1,5 +1,5 @@
-{{ if isset .Site.Params.widgets "search" -}}
-{{ if .Site.Params.widgets.search -}}
+{{ if isset site.Params.widgets "search" -}}
+{{ if site.Params.widgets.search -}}
 <div class="panel panel-default sidebar-menu">
 
   <div class="panel-heading">
@@ -10,7 +10,7 @@
     <form action="//duckduckgo.com/" method="get" accept-charset="UTF-8" role="search">
       <div class="input-group">
         <input type="search" name="q" class="form-control" placeholder="{{ i18n "searchTitle" }}">
-        <input type="hidden" name="sites" value="{{ $.Site.LanguagePrefix | absURL }}">
+        <input type="hidden" name="sites" value="{{ site.LanguagePrefix | absURL }}">
         <span class="input-group-btn">
           <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
         </span>

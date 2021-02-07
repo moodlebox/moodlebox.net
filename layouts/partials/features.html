@@ -1,6 +1,6 @@
-{{ if isset .Site.Params "features" }}
-{{ if .Site.Params.features.enable }}
-{{ with index .Site.Data.features .Site.Language.Lang }}
+{{ if isset site.Params "features" }}
+{{ if site.Params.features.enable }}
+{{ with index site.Data.features site.Language.Lang }}
 <section id="features" class="bar background-white">
   <div class="container">
   {{ range $index, $element := sort . "weight" }}
@@ -9,7 +9,7 @@
       <div class="row">
     {{ end }}
         <div class="col-md-3">
-          {{ with $.Site.GetPage (printf "%s" $element.link) }}<a href="{{ .RelPermalink }}">{{ end }}
+          {{ with site.GetPage (printf "%s" $element.link) }}<a href="{{ .RelPermalink }}">{{ end }}
           <div class="box-simple">
             <div class="icon">
               <span class="fa-stack fa-4x">
