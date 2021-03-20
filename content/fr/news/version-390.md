@@ -1,6 +1,6 @@
 ---
-title: "MoodleBox 3.9.0 vous offre Moodle 3.10 et d'autres correctifs"
-description: Moodle 3.10 arrive dans la version 3.9.0 de MoodleBox. La nouvelle image est basée sur la version de Raspberry Pi OS du 20 août 2020.
+title: "MoodleBox 3.9.0 vous offre Moodle 3.10 et d'autres correctifs"
+description: Moodle 3.10 arrive avec la version 3.9.0 de MoodleBox. La nouvelle image est basée sur la version de Raspberry Pi OS du 20 août 2020.
 date: 2020-11-09
 authors:
   - Nicolas Martignoni
@@ -13,7 +13,7 @@ La [version 3.9.0][release] de l'[image  de la MoodleBox][disk] vient d'être pu
 
 {{< figure src="/img/media/moodle310.png" width="700" class="centered-image" alt="Moodle 3.10" >}}
 
-  - Cette version fournit [Moodle][moodle] version 3.10.0 et toutes ses [nouvelles fonctionnalités][moodle39], y compris le téléchargement des contenus de cours d'un seul clic, des améliorations à la banque de contenus et l'inscription aux cours contre paiement.
+  - Cette version fournit [Moodle][moodle] version 3.10.0 et toutes ses [nouvelles fonctionnalités][moodle310], y compris le téléchargement des contenus de cours d'un seul clic, des améliorations à la banque de contenus et l'inscription aux cours contre paiement.
   - Une nouvelle version du [Plugin MoodleBox pour Moodle][plugin] compatible avec Moodle 3.10 est fournie.
   - Elle est basée sur la dernière version de [Raspberry Pi OS Lite][rpios], publiée le 20 août 2020.
   - [MathJax][mathjax] a été mis à jour à la version 2.7.9.

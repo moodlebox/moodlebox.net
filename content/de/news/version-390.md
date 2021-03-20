@@ -15,9 +15,9 @@ Die [Version 3.9.0][release] des [Disk-Image der MoodleBox][disk] wurde gerade v
 
   - Diese Version bietet [Moodle][moodle] 3.10.0 und alle seine [neuen Funktionen][moodle310], einschließlich Herunterladen von Kursinhalten, Inhaltsspeicher Verbesserungen und Kurseinschreibung gegen Bezahlung.
   - Eine neue Version des [MoodleBox-Plugins für Moodle][Plugin] kompatibel mit Moodle 3.10.0 ist inbegriffen.
-  - Es basiert auf [Raspberry Pi OS Lite][rpios] vom 20. August 2020.
+  - Sie basiert auf [Raspberry Pi OS Lite][rpios] vom 20. August 2020.
   - [MathJax][mathjax] ist auf Version 2.7.9 aktualisiert.
-  - Es bringt auch viele andere kleine Verbesserungen.
+  - Sie bringt auch viele andere kleine Verbesserungen.
 
 Alle Informationen über dieser Version finden Sie in den [Release Notes auf Github][release].
 
