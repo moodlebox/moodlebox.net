@@ -1,6 +1,6 @@
 # Hugo
 public/
-resources/
+resources/_gen
 
 # Node
 node_modules/
