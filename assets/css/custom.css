@@ -197,6 +197,7 @@ summary::after {
   -webkit-transform: translateY(-50%) rotate(180deg);
           transform: translateY(-50%) rotate(180deg);
 }
+summary::marker,
 summary::-webkit-details-marker {
   display: none;
 }
