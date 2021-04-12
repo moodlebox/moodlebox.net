@@ -1,11 +1,14 @@
 {
   "name": "moodlebox.net",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "MoodleBox website",
-  "main": "gulpfile.js",
+  "main": "hugo --minify",
   "dependencies": {
-    "cssnano": "^4.1.10",
-    "purgecss": "^2.1.0"
+    "cssnano": "^5.0.0",
+    "purgecss": "^4.0.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
