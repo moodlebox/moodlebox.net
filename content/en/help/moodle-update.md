@@ -5,7 +5,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-20
-lastmod: 2020-11-09
+lastmod: 2021-05-11
 description: Do you want to update Moodle on the MoodleBox? Follow these instructions!
 slug: moodle-version-update
 categories:
@@ -38,12 +38,12 @@ Visit then in your browser the URL http://moodlebox.home/admin and follow the up
 
 ### Update to a _major_ version
 
-To update to the next __major version__ of Moodle (3.10, 3.11[^future], 4.0[^future], 4.1[^future], etc.), type the commands above, then the __additional__ following commands, indicating the adequate branch, e.g. `MOODLE_39_STABLE`, `MOODLE_310_STABLE`, `MOODLE_40_STABLE`, etc.:
+To update to the next __major version__ of Moodle (3.11, 4.0[^future], 4.1[^future], etc.), type the commands above, then the __additional__ following commands, indicating the adequate branch, e.g. `MOODLE_311_STABLE`, `MOODLE_40_STABLE`, `MOODLE_41_STABLE`, etc.:
 
 ```bash
 sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u www-data -g moodlebox git fetch origin
-sudo -u www-data -g moodlebox git checkout MOODLE_310_STABLE
+sudo -u www-data -g moodlebox git checkout MOODLE_311_STABLE
 ```
 
 Then visit the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the documentation][update]).
