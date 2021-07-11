@@ -16,7 +16,7 @@ Um dieses Ereignis zu feiern, wird heute ein [spezielles "Fünftes-Jahres-Jubil�
 &gt; [Disk-Image herunterladen][disk]
 
   - Diese Version basiert auf [Raspberry Pi OS Lite][rpios] vom 7. Mai 2021.
-  - Sie bietet [Moodle 3.11+][moodle311].
+  - Sie bietet [Moodle 3.11.1][moodle311].
   - Sie bringt auch andere Verbesserungen.
 
 Alle Informationen über dieser Version finden Sie in den [Release Notes auf Github][release].

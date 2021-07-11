@@ -16,7 +16,7 @@ To celebrate this event, a [special "fifth anniversary" MoodleBox image][release
 &gt; [Download disk image][disk]
 
   - This release is based on the last version of [Raspberry Pi OS Lite][rpios], published on May 7, 2021.
-  - It provides [Moodle][moodle] version [3.11+][moodle311].
+  - It provides [Moodle][moodle] version [3.11.1][moodle311].
   - Other fixes are also included.
 
 See the [release notes on Github][release] for all info about this release.
