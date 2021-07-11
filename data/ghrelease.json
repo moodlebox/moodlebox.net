@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/43039684",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/43039684/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/43039684/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.11.0",
-  "id": 43039684,
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/46008169",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/46008169/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/46008169/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v3.12.0",
+  "id": 46008169,
   "author": {
     "login": "martignoni",
     "id": 421392,
@@ -24,20 +24,20 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "MDc6UmVsZWFzZTQzMDM5Njg0",
-  "tag_name": "v3.11.0",
+  "node_id": "MDc6UmVsZWFzZTQ2MDA4MTY5",
+  "tag_name": "v3.12.0",
   "target_commitish": "master",
-  "name": "v3.11.0",
+  "name": "v3.12.0",
   "draft": false,
   "prerelease": false,
-  "created_at": "2021-05-17T08:59:01Z",
-  "published_at": "2021-05-17T15:23:37Z",
+  "created_at": "2021-07-11T09:03:40Z",
+  "published_at": "2021-07-11T17:06:57Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/37060550",
-      "id": 37060550,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM3MDYwNTUw",
-      "name": "moodlebox-3.11.0.img.bz2",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/40097468",
+      "id": 40097468,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQwMDk3NDY4",
+      "name": "moodlebox-3.12.0.img.bz2",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/x-bzip2",
       "state": "uploaded",
-      "size": 770682138,
+      "size": 768745290,
       "download_count": 0,
-      "created_at": "2021-05-17T10:47:13Z",
-      "updated_at": "2021-05-17T10:48:48Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.11.0/moodlebox-3.11.0.img.bz2"
+      "created_at": "2021-07-11T17:04:44Z",
+      "updated_at": "2021-07-11T17:06:11Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.12.0/moodlebox-3.12.0.img.bz2"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/37073667",
-      "id": 37073667,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDM3MDczNjY3",
-      "name": "moodlebox-3.11.0.sha256",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/40097832",
+      "id": 40097832,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDQwMDk3ODMy",
+      "name": "moodlebox-3.12.0.sha256",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -97,12 +97,12 @@
       "state": "uploaded",
       "size": 91,
       "download_count": 0,
-      "created_at": "2021-05-17T15:23:10Z",
-      "updated_at": "2021-05-17T15:23:11Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.11.0/moodlebox-3.11.0.sha256"
+      "created_at": "2021-07-11T17:06:46Z",
+      "updated_at": "2021-07-11T17:06:46Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v3.12.0/moodlebox-3.12.0.sha256"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.11.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.11.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.11.0/total.svg)\r\n### Changed\r\n- Update to Raspberry Pi OS version 2021-03-04 (issue #203).\r\n- Update to Moodle 3.11 (issue #206).\r\n\r\n### Added\r\n- Set PHP setting `max_input_vars` to 5000, needed for PHP8 support (issue #205).\r\n\r\n### Fixed\r\n- Prevent `wpa_supplicant` to be started by dhcpcd (issue #204)."
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v3.12.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v3.12.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v3.12.0/total.svg)\r\n\r\n__This is the 5th anniversary release of MoodleBox__, which [version v1.0](https://github.com/moodlebox/moodlebox/releases/tag/v1.0) was released exactly five years ago (but only a few weeks later on Github).\r\n\r\n### Changed\r\n- Update to Raspberry Pi OS version 2021-05-07 (issue #203).\r\n- Update to Moodle 3.11+ (no issue number).\r\n- Don't rebuild apt cache when installing packages to gain some building time (issue #211).\r\n\r\n### Added\r\n- Install Poppler and set its path in Moodle (issue #208).\r\n"
 }
