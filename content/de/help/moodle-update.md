@@ -6,7 +6,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2021-05-11
+lastmod: 2021-08-05
 description: Möchten Sie das Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 slug: moodle-aktualisieren
 categories:
@@ -29,7 +29,7 @@ ssh moodlebox@moodlebox.home
 
 ### Aktualisierung auf eine _Minor_ Version (kleiner Versionssprung)
 
-Um Ihr Moodle auf die nächste __Minor Version__ (3.10.1, 3.10.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^git]
+Um Ihr Moodle auf die nächste __Minor Version__ (3.11.1, 3.11.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^git]
 
 ```bash
 cd /var/www/moodle/
