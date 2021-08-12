@@ -1046,7 +1046,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
 }
 .panel.sidebar-menu.with-icons ul.nav li a:after {
-  font-family: 'FontAwesome';
+  font-family: 'ForkAwesome';
   content: "\f105";
   position: relative;
   top: 0;

@@ -1,5 +1,5 @@
 <!-- CSS to load in header -->
-<!-- Bootstrap and Font Awesome css -->
+<!-- Bootstrap and Fork Awesome css -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" rel="stylesheet" crossorigin="anonymous" />
 {{ if .HasShortcode "gallery" }}
 <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" rel="stylesheet" crossorigin="anonymous" />
@@ -8,7 +8,7 @@
 {{ $css_options := (dict ) }}
 {{ if site.IsServer }}
   {{ $cssOpts := merge $css_options (dict "enableSourceMap" true) }}
-  {{ $fontAwesomeCSS := resources.Get "css/font-awesome.css" | toCSS $cssOpts }}
+  {{ $forkAwesomeCSS := resources.Get "css/fork-awesome.css" | toCSS $cssOpts }}
   {{ $fontsCSS := resources.Get "css/fonts.css" | toCSS $cssOpts }}
   {{ $moodleboxCSS := resources.Get "css/moodlebox.css" | toCSS $cssOpts }}
   {{ $syntaxCSS := resources.Get "css/syntax.css" | toCSS $cssOpts }}
@@ -16,7 +16,7 @@
   {{ $animateCSS := resources.Get "css/animate.css" | toCSS $cssOpts }}
   {{ $owlCarouselCSS := resources.Get "css/owl.carousel.css" | toCSS $cssOpts }}
   {{ $owlThemeCSS := resources.Get "css/owl.theme.css" | toCSS $cssOpts }}
-  <link href="{{ $fontAwesomeCSS.Permalink }}" rel="stylesheet">
+  <link href="{{ $forkAwesomeCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $fontsCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $moodleboxCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $syntaxCSS.Permalink }}" rel="stylesheet">
@@ -26,7 +26,7 @@
   <link href="{{ $owlThemeCSS.Permalink }}" rel="stylesheet">
 {{ else }}
   {{ $cssOpts := merge $css_options (dict "enableSourceMap" false "outputStyle" "compressed") }}
-  {{ $fontAwesomeCSS := resources.Get "css/font-awesome.css" | toCSS $cssOpts | minify | fingerprint }}
+  {{ $forkAwesomeCSS := resources.Get "css/fork-awesome.css" | toCSS $cssOpts | minify | fingerprint }}
   {{ $fontsCSS := resources.Get "css/fonts.css" | toCSS $cssOpts | minify | fingerprint }}
   {{ $moodleboxCSS := resources.Get "css/moodlebox.css" | toCSS $cssOpts | minify | fingerprint }}
   {{ $syntaxCSS := resources.Get "css/syntax.css" | toCSS $cssOpts | minify | fingerprint }}
@@ -34,7 +34,7 @@
   {{ $animateCSS := resources.Get "css/animate.css" | toCSS $cssOpts | minify | fingerprint }}
   {{ $owlCarouselCSS := resources.Get "css/owl.carousel.css" | toCSS $cssOpts | minify | fingerprint }}
   {{ $owlThemeCSS := resources.Get "css/owl.theme.css" | toCSS $cssOpts | minify | fingerprint }}
-  <link href="{{ $fontAwesomeCSS.Permalink }}" integrity="{{ $fontAwesomeCSS.Data.Integrity }}" rel="stylesheet">
+  <link href="{{ $forkAwesomeCSS.Permalink }}" integrity="{{ $forkAwesomeCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $fontsCSS.Permalink }}" integrity="{{ $fontsCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $moodleboxCSS.Permalink }}" integrity="{{ $moodleboxCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $syntaxCSS.Permalink }}" integrity="{{ $syntaxCSS.Data.Integrity }}" rel="stylesheet">
