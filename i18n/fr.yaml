@@ -116,28 +116,3 @@
   translation: "Cookies"
 - id: faqTitle
   translation: "Questions fréquentes"
-
-- id: January
-  translation: "janvier"
-- id: February
-  translation: "février"
-- id: March
-  translation: "mars"
-- id: April
-  translation: "avril"
-- id: May
-  translation: "mai"
-- id: June
-  translation: "juin"
-- id: July
-  translation: "juillet"
-- id: August
-  translation: "août"
-- id: September
-  translation: "septembre"
-- id: October
-  translation: "octobre"
-- id: November
-  translation: "novembre"
-- id: December
-  translation: "décembre"
