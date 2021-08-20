@@ -13,9 +13,7 @@
             {{ partial "seo/metadata-description" . }}
           </p>
           <p class="text-uppercase mb-small">
-            <span class="date-day">{{ .Date.Format "2" }}</span>
-            <span class="date-month">{{default .Date.Month (i18n .Date.Month)}}</span>
-            <span class="date-year">{{ .Date.Format "2006" }}</span>
+            <span class="date">{{ .Date | time.Format ":date_long" }}</span>
           </p>
           <div id="post-content">
             {{ .Content }}

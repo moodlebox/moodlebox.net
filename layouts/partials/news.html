@@ -11,9 +11,7 @@
           <a class="news-item" href="{{ .RelPermalink }}">
             {{/* <!-- <span class="news-title">{{ .Params.title }}</span> --> */}}
             <span class="news-date">
-              <span class="date-day">{{ .Date.Format "2" }}</span>
-              <span class="date-month">{{default .Date.Month (i18n .Date.Month)}}</span>
-              <span class="date-year">{{ .Date.Format "2006" }}</span>
+              <span class="date">{{ .Date | time.Format ":date_long" }}</span>
             </span>
             {{ partial "seo/metadata-description" . | truncate 140 "…"}}
           </a>

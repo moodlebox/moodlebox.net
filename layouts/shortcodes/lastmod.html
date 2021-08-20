@@ -1,3 +1,2 @@
-<span class="date-day">{{ .Page.Lastmod.Format "2" }}</span>
-<span class="date-month">{{ default .Page.Lastmod (i18n .Page.Lastmod.Month) }}</span>
-<span class="date-year">{{ .Page.Lastmod.Format "2006" }}</span>
+<span class="date">{{ .Page.Lastmod | time.Format ":date_long" }}</span>
+{{- /* This comment removes trailing newlines. */ -}}
