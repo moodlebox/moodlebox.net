@@ -9,6 +9,9 @@ languageCode: en-us
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage: en
 
+# Site time zone
+timeZone: Europe/Zurich
+
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir: true
 
