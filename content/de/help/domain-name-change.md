@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-09-27
-lastmod: 2020-04-25
+lastmod: 2021-10-21
 description: In dieser Anleitung wird erklärt, wie Sie den Domainnamen Ihrer MoodleBox ändern können, damit er besser zu Ihrer lokalen Situation passt.
 slug: domainname-aenderung
 categories_weight: 90
@@ -37,9 +37,11 @@ In der Datei `/etc/hostname` ersetzen Sie `moodlebox` durch `learn.example.com` 
 
 Ändern Sie die Datei `/etc/nginx/sites-available/default` und ersetzen Sie `moodlebox` durch den vollständigen Domainnamen (_FQDN_) __learn.example.com__ in der Zuweisung `server_name`.
 
-#### Schritt 3: Anpassung des DHCP-Servers
+#### Schritt 3: Anpassung der DNS-Server-Masquerading-Konfiguration
 
-Ändern Sie die Datei `/etc/dnsmasq.conf` und ersetzen Sie `home` durch __learn.example.com__ in den beiden Zeilen, die mit `domain` und `local` beginnen. Auskommentieren oder löschen Sie die Zeile, die mit `address` beginnt.
+Ändern Sie die Datei `/etc/dnsmasq.conf` und ersetzen Sie `home` durch __learn.example.com__ in den beiden Zeilen, die mit `domain` und `local` beginnen.
+
+Wenn der neue Domänenname öffentlich ist, auskommentieren oder löschen Sie die Zeile, die mit `address` beginnt. Andernfalls, wenn der neue Domänenname lokal bleiben soll und mit `.home` endet, können Sie diese Zeile unverändert lassen.
 
 #### Schritt 4: Anpassung der Moodle-Konfiguration (Moodle-URL)
 

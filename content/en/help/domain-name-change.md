@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-09-27
-lastmod: 2020-01-06
+lastmod: 2021-10-21
 description:  This guide explains how to change the domain name of your MoodleBox to better match your own local situation.
 slug: domain-name-change
 categories_weight: 90
@@ -38,7 +38,9 @@ Change the file `/etc/nginx/sites-available/default`, replacing `moodlebox` with
 
 #### Step 3: Adapt the DNS server masquerading configuration
 
-Change the file `/etc/dnsmasq.conf`, replacing `home` by __learn.example.com__ in the two lines that start with `domain` and `local`. Comment out or delete completely the line starting with `address`.
+Change the file `/etc/dnsmasq.conf`, replacing `home` by __learn.example.com__ in the two lines that start with `domain` and `local`.
+
+If your domain name is a public one, comment out or delete completely the line starting with `address`. Otherwise, if your new domain name will remain local, ending with `.home`, you can keep this line untouched.
 
 #### Step 4: Adapt the Moodle configuration (Moodle URL)
 
