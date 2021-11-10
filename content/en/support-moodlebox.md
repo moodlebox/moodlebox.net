@@ -37,6 +37,6 @@ You're broke or don't want to contribute financially? Doesn't matter, don't leav
   - Any other help.
 
  [1]: https://discuss.moodlebox.net/
- [2]: https://github.com/moodlebox/moodlebox.net/blob/master/README.md
+ [2]: https://github.com/moodlebox/moodlebox.net/blob/main/README.md
  [3]: https://github.com/moodlebox/hugo-moodlebox-theme
  [4]: https://github.com/moodlebox/moodle-tool_moodlebox

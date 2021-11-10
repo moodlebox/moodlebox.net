@@ -38,6 +38,6 @@ Vous êtes fauché ou ne voulez pas contribuer financièrement ? Pas grave, ne p
   - toute autre aide.
 
  [1]: https://discuss.moodlebox.net/
- [2]: https://github.com/moodlebox/moodlebox.net/blob/master/README.md
+ [2]: https://github.com/moodlebox/moodlebox.net/blob/main/README.md
  [3]: https://github.com/moodlebox/hugo-moodlebox-theme
  [4]: https://github.com/moodlebox/moodle-tool_moodlebox

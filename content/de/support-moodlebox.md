@@ -38,6 +38,6 @@ Sie sind zahlungsunfähig oder Sie möchten keinen finanziellen Beitrag leisten?
   - Liefern Sie jede andere Art von Hilfe
 
  [1]: https://discuss.moodlebox.net/
- [2]: https://github.com/moodlebox/moodlebox.net/blob/master/README.md
+ [2]: https://github.com/moodlebox/moodlebox.net/blob/main/README.md
  [3]: https://github.com/moodlebox/hugo-moodlebox-theme
  [4]: https://github.com/moodlebox/moodle-tool_moodlebox

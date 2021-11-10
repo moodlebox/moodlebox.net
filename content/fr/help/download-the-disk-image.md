@@ -37,7 +37,7 @@ aliases:
       Date : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_date" >}}</strong>
     </div>
     <div class="image-details">
-      Notes de mise à jour : <strong><a href="https://github.com/moodlebox/moodlebox/blob/master/CHANGELOG.md" target="_blank">sur Github</a></strong>
+      Notes de mise à jour : <strong><a href="https://github.com/moodlebox/moodlebox/blob/main/CHANGELOG.md" target="_blank">sur Github</a></strong>
     </div>
     <div class="image-details">
       SHA-256 : <strong><a href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=1 >}}" target="_blank">{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=1 >}}</a></strong>
