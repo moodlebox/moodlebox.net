@@ -3,7 +3,7 @@ title: Was ist MoodleBox?
 authors:
   - Nicolas Martignoni
 date: 2017-04-21
-lastmod: 2021-09-01
+lastmod: 2021-12-26
 description: MoodleBox ist ein eigenständiges kleines und kostengünstiges mobiles Gerät, mit einem WLAN-Access Point und einem voll ausgestatteten Moodle-Server, das ohne Internet funktioniert.
 slug: was-ist-moodlebox
 weight: 1
@@ -18,7 +18,7 @@ Verbinden Sie die Box über ein kabelgebundenes Netzwerk (Ethernet) mit dem Inte
 
 ### Technologie
 
-Die MoodleBox [basiert][2] auf dem Mini-Computer [Raspberry Pi][3] 3A+, 3B, 3B+ oder 4B und der [Moodle-Lernumgebung][1], dem weltweit meistgenutzten Open-Source-Learning-Management-System.
+Die MoodleBox [basiert][2] auf dem Mini-Computer [Raspberry Pi][3] Zero W, Zero 2 W, 3A+, 3B, 3B+ oder 4B und der [Moodle-Lernumgebung][1], dem weltweit meistgenutzten Open-Source-Learning-Management-System.
 
 {{< figure src="/img/media/pi4-labelled.png" width="583" alt="Raspberry Pi" class="centered-image" >}}
 
