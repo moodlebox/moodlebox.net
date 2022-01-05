@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/52077920",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/52077920/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/52077920/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v4.0.0",
-  "id": 52077920,
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/56368925",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/56368925/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/56368925/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v4.1.0",
+  "id": 56368925,
   "author": {
     "login": "martignoni",
     "id": 421392,
@@ -24,20 +24,20 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "RE_kwDOA-E9284DGqVg",
-  "tag_name": "v4.0.0",
+  "node_id": "RE_kwDOA-E9284DXB8d",
+  "tag_name": "v4.1.0",
   "target_commitish": "main",
-  "name": "v4.0.0",
+  "name": "v4.1.0",
   "draft": false,
   "prerelease": false,
-  "created_at": "2021-11-09T10:57:30Z",
-  "published_at": "2021-11-09T19:01:01Z",
+  "created_at": "2022-01-05T09:53:48Z",
+  "published_at": "2022-01-05T14:45:27Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/49010516",
-      "id": 49010516,
-      "node_id": "RA_kwDOA-E9284C69dU",
-      "name": "moodlebox-4.0.0.img.bz2",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/53262566",
+      "id": 53262566,
+      "node_id": "RA_kwDOA-E9284DLLjm",
+      "name": "moodlebox-4.1.0.img.bz2",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/x-bzip2",
       "state": "uploaded",
-      "size": 707570821,
+      "size": 717270836,
       "download_count": 0,
-      "created_at": "2021-11-09T18:39:00Z",
-      "updated_at": "2021-11-09T18:42:12Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.0.0/moodlebox-4.0.0.img.bz2"
+      "created_at": "2022-01-05T14:41:02Z",
+      "updated_at": "2022-01-05T14:43:26Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.1.0/moodlebox-4.1.0.img.bz2"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/49010699",
-      "id": 49010699,
-      "node_id": "RA_kwDOA-E9284C69gL",
-      "name": "moodlebox-4.0.0.sha256",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/53262677",
+      "id": 53262677,
+      "node_id": "RA_kwDOA-E9284DLLlV",
+      "name": "moodlebox-4.1.0.sha256",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -97,12 +97,12 @@
       "state": "uploaded",
       "size": 90,
       "download_count": 0,
-      "created_at": "2021-11-09T18:43:10Z",
-      "updated_at": "2021-11-09T18:43:11Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.0.0/moodlebox-4.0.0.sha256"
+      "created_at": "2022-01-05T14:43:26Z",
+      "updated_at": "2022-01-05T14:43:26Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.1.0/moodlebox-4.1.0.sha256"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v4.0.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v4.0.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v4.0.0/total.svg)\r\n\r\n__This is the first Debian Bullseye release of MoodleBox__.\r\n\r\n### Changed\r\n- Update to Raspberry Pi OS version date 2021-10-30, Debian Bullseye 32bit (issue #232).\r\n- Use minimal firmware for more wireless clients (issue #231).\r\n- Update to Moodle 3.11.4 (no issue number).\r\n- Update to MoodleBox plugin v2.11.0 (issue #230).\r\n- Move wireless access point to its own interface (issue #219).\r\n- Change DNS servers (issue #217).\r\n- Change DHCP lease to 1h, instead of 4h (issue #223).\r\n\r\n### Added\r\n- AP+STA mode: MoodleBox can connect to Internet without ethernet connection (issue #77). This enables support of **all Raspberry Pi models with a wireless chip**.\r\n- Full support for Raspberry Pi Zero W and Raspberry Pi Zero 2 W (issue #230).\r\n\r\n### Fixed\r\n- Refactor and cleanup wireless lan settings (issue #218).\r\n- Refactor Ansible role for AP mode configuration (issue #221).\r\n- Refactor Ansible handlers (issue #220).\r\n- Fix some Ansible warnings and task names (no issue number, commits deea816, d9ad970, 2b7f807, 1a830b2).\r\n"
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v4.1.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v4.1.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v4.1.0/total.svg)\r\n\r\n### Changed\r\n- Replace installation routine for minimal wireless chip firmware (issue #235).\r\n- New main color for MoodleBox (issue #240).\r\n- Update brand logos (issue #241).\r\n\r\n### Fixed\r\n- Update to MoodleBox plugin v2.11.1 (issue #236), fixing a nasty bug."
 }
