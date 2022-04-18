@@ -7,7 +7,7 @@ authors:
 slug: version-4.2.0
 ---
 
-La [version 4.2.0][release] est basée sur la version de Raspberry Pi OS du 28 janvier 2022. Elle corrige un problème survenant avec le microcode Wi-Fi lors des mises à jour du système.
+La [version 4.2.0][release] est basée sur la version de [Raspberry Pi OS Lite][rpios] du 28 janvier 2022. Elle corrige un problème survenant avec le microcode Wi-Fi lors des mises à jour du système.
 
 Les modifications apportées par [MoodleBox 4.2.0][release] sont:
 
@@ -22,3 +22,4 @@ Consultez les [notes de mise à jour sur Github][release] pour tous les détails
 [disk]: {{< relref "help/download-the-disk-image" >}}
 [release]: https://github.com/moodlebox/moodlebox/releases/tag/v4.2.0
 [moodle]: https://moodle.org/
+[rpios]: https://www.raspberrypi.com/software/operating-systems/
