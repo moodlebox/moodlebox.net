@@ -6,7 +6,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2021-08-05
+lastmod: 2022-04-18
 description: Möchten Sie das Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 slug: moodle-aktualisieren
 categories:
@@ -29,7 +29,7 @@ ssh moodlebox@moodlebox.home
 
 ### Aktualisierung auf eine _Minor_ Version (kleiner Versionssprung)
 
-Um Ihr Moodle auf die nächste __Minor Version__ (3.11.1, 3.11.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^git]
+Um Ihr Moodle auf die nächste __Minor Version__ (4.0.1, 4.0.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^git]
 
 ```bash
 cd /var/www/moodle/
@@ -40,12 +40,12 @@ sudo -u www-data -g moodlebox git pull
 
 ### Aktualisierung auf eine _Major_ Version (großer Versionssprung)
 
-Um mit Ihrem Moodle auf die nächste __Major Version__ (3.11, 4.0[^future], 4.1[^future], usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen, wobei der entsprechende Branch angegeben wird, z.B. `MOODLE_311_STABLE`, `MOODLE_40_STABLE`, `MOODLE_41_STABLE`, usw.:
+Um mit Ihrem Moodle auf die nächste __Major Version__ (4.0, 4.1[^future], 4.2[^future], usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen, wobei der entsprechende Branch angegeben wird, z.B. `MOODLE_400_STABLE`, `MOODLE_410_STABLE`, `MOODLE_420_STABLE`, usw.:
 
 ```bash
 sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u www-data -g moodlebox git fetch origin
-sudo -u www-data -g moodlebox git checkout MOODLE_311_STABLE
+sudo -u www-data -g moodlebox git checkout MOODLE_400_STABLE
 ```
 
 Öffnen Sie auch hier im Browser die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede andere Moodle-Installation. ([Weitere Infos finden Sie in der Dokumentation][update]).

@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/60835868",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/60835868/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/60835868/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v4.2.0",
-  "id": 60835868,
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/64637651",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/64637651/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/64637651/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v4.3.0",
+  "id": 64637651,
   "author": {
     "login": "martignoni",
     "id": 421392,
@@ -24,20 +24,20 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "RE_kwDOA-E9284DoEgc",
-  "tag_name": "v4.2.0",
+  "node_id": "RE_kwDOA-E9284D2krT",
+  "tag_name": "v4.3.0",
   "target_commitish": "main",
-  "name": "v4.2.0",
+  "name": "v4.3.0",
   "draft": false,
   "prerelease": false,
-  "created_at": "2022-03-05T10:22:06Z",
-  "published_at": "2022-03-05T15:39:15Z",
+  "created_at": "2022-04-18T12:32:52Z",
+  "published_at": "2022-04-18T13:59:48Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/58647492",
-      "id": 58647492,
-      "node_id": "RA_kwDOA-E9284DfuPE",
-      "name": "moodlebox-4.2.0.img.bz2",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/62903818",
+      "id": 62903818,
+      "node_id": "RA_kwDOA-E9284Dv9YK",
+      "name": "moodlebox-4.3.0.img.bz2",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/x-bzip2",
       "state": "uploaded",
-      "size": 713105123,
+      "size": 721266378,
       "download_count": 0,
-      "created_at": "2022-03-05T15:25:21Z",
-      "updated_at": "2022-03-05T15:26:20Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.2.0/moodlebox-4.2.0.img.bz2"
+      "created_at": "2022-04-18T13:53:49Z",
+      "updated_at": "2022-04-18T13:54:46Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.3.0/moodlebox-4.3.0.img.bz2"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/58647520",
-      "id": 58647520,
-      "node_id": "RA_kwDOA-E9284DfuPg",
-      "name": "moodlebox-4.2.0.sha256",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/62904160",
+      "id": 62904160,
+      "node_id": "RA_kwDOA-E9284Dv9dg",
+      "name": "moodlebox-4.3.0.sha256",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -97,12 +97,12 @@
       "state": "uploaded",
       "size": 90,
       "download_count": 0,
-      "created_at": "2022-03-05T15:26:24Z",
-      "updated_at": "2022-03-05T15:26:24Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.2.0/moodlebox-4.2.0.sha256"
+      "created_at": "2022-04-18T13:58:52Z",
+      "updated_at": "2022-04-18T13:58:53Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.3.0/moodlebox-4.3.0.sha256"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v4.2.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v4.2.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v4.2.0/total.svg)\r\n\r\n### Changed\r\n- Update to Raspberry Pi OS version date 2022-01-28, Debian Bullseye 32bit (issue #243).\r\n- Update shell logo and prompt with new colors (issue #240).\r\n- Update to Moodle 3.11.5+ (no issue number).\r\n\r\n### Fixed\r\n- Ensure minimal wireless firmware is used, even after a system update (issue #244).\r\n- Fix Ansible Lint warnings and shell aliases (no issue number)."
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v4.3.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v4.3.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v4.3.0/total.svg)\r\n\r\n### Changed\r\n- MoodleBox runs now on 64bit architecture (issue #171).\r\n- Update to Raspberry Pi OS version date 2022-04-04, Debian Bullseye 64bit (issue #246).\r\n- Update to Moodle 4.0 (issue #229).\r\n- Remove renaming `pi` user logic (issue #247).\r\n\r\n### Fixed\r\n- Fix multiple Ansible Lint warnings (no issue number).\r\n- Change MathJax GitHub repo URL to HTTPS (no issue number)."
 }
