@@ -1,10 +1,3 @@
-/* eslint no-unused-vars: ["error", { "varsIgnorePattern": "animationsSlider" }] */
-
-$(function () {
-  sliderHomepage()
-  sliders()
-})
-
 /* Equal height */
 /* Stolen from https://dev.to/dhruvangg/equal-height-in-vanilla-javascript-49ch */
 function setHeight(el, val) {
