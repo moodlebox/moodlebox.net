@@ -1,79 +1,12 @@
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "animationsSlider" }] */
 
 $(function () {
-  sliderHomepage()
-  sliders()
   fullScreenContainer()
   productDetailGallery(4000)
   menuSliding()
   productDetailSizes()
   utils()
-  animations()
 })
-
-/* slider homepage */
-function sliderHomepage () {
-  if ($('#slider').length) {
-    // var owl = $('#slider')
-
-    $('#slider').owlCarousel({
-      autoPlay: 3000,
-      items: 4,
-      itemsDesktopSmall: [900, 3],
-      itemsTablet: [600, 3],
-      itemsMobile: [500, 2]
-    })
-  }
-}
-
-/* sliders */
-function sliders () {
-  if ($('.owl-carousel').length) {
-    $('.customers').owlCarousel({
-      items: 4,
-      itemsDesktopSmall: [990, 4],
-      itemsTablet: [768, 2],
-      itemsMobile: [480, 1]
-    })
-
-    $('.testimonials').owlCarousel({
-      items: 4,
-      itemsDesktopSmall: [990, 3],
-      itemsTablet: [768, 2],
-      itemsMobile: [480, 1]
-    })
-
-    $('.project').owlCarousel({
-      navigation: true, // Show next and prev buttons
-      navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-      slideSpeed: 300,
-      paginationSpeed: 400,
-      autoPlay: true,
-      stopOnHover: true,
-      singleItem: true,
-      afterInit: '',
-      lazyLoad: true
-    })
-
-    $('.homepage').owlCarousel({
-      navigation: false, // Show next and prev buttons
-      navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-      slideSpeed: 2000,
-      paginationSpeed: 1000,
-      autoPlay: true,
-      stopOnHover: true,
-      singleItem: true,
-      lazyLoad: false,
-      addClassActive: true,
-      afterInit: function () {
-        // animationsSlider()
-      },
-      afterMove: function () {
-        // animationsSlider()
-      }
-    })
-  }
-}
 
 /* menu sliding */
 function menuSliding () {
@@ -91,57 +24,6 @@ function menuSliding () {
     } else {
       $(this).find('.dropdown-menu').first().stop(true, true).hide()
     }
-  })
-}
-
-/* animations */
-function animations () {
-  var delayTime = 0
-  $('[data-animate]').css({opacity: '0'})
-  $('[data-animate]').waypoint(function () {
-    delayTime += 150
-    $(this).delay(delayTime).queue(function (next) {
-      $(this).toggleClass('animated')
-      $(this).toggleClass($(this).data('animate'))
-      delayTime = 0
-      next()
-      // $(this).removeClass('animated')
-      // $(this).toggleClass($(this).data('animate'))
-    })
-  }, {
-    offset: '90%',
-    triggerOnce: true
-  })
-
-  $('[data-animate-hover]').hover(function () {
-    $(this).css({opacity: 1})
-    $(this).addClass('animated')
-    $(this).removeClass($(this).data('animate'))
-    $(this).addClass($(this).data('animate-hover'))
-  }, function () {
-    $(this).removeClass('animated')
-    $(this).removeClass($(this).data('animate-hover'))
-  })
-}
-
-function animationsSlider () {
-  var delayTimeSlider = 400
-
-  $('.owl-item:not(.active) [data-animate-always]').each(function () {
-    $(this).removeClass('animated')
-    $(this).removeClass($(this).data('animate-always'))
-    $(this).stop(true, true, true).css({opacity: 0})
-  })
-
-  $('.owl-item.active [data-animate-always]').each(function () {
-    delayTimeSlider += 500
-
-    $(this).delay(delayTimeSlider).queue(function () {
-      $(this).addClass('animated')
-      $(this).addClass($(this).data('animate-always'))
-
-      console.log($(this).data('animate-always'))
-    })
   })
 }
 
