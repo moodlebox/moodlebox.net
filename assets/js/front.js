@@ -1,48 +1,9 @@
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "animationsSlider" }] */
 
 $(function () {
-  menuSliding()
+  sliderHomepage()
+  sliders()
 })
-
-/* menu sliding */
-function menuSliding () {
-  $('.dropdown').on('show.bs.dropdown', function () {
-    if ($(window).width() > 750) {
-      $(this).find('.dropdown-menu').first().stop(true, true).slideDown()
-    } else {
-      $(this).find('.dropdown-menu').first().stop(true, true).show()
-    }
-  })
-
-  $('.dropdown').on('hide.bs.dropdown', function () {
-    if ($(window).width() > 750) {
-      $(this).find('.dropdown-menu').first().stop(true, true).slideUp()
-    } else {
-      $(this).find('.dropdown-menu').first().stop(true, true).hide()
-    }
-  })
-}
-
-function animationsSlider () {
-  var delayTimeSlider = 400
-
-  $('.owl-item:not(.active) [data-animate-always]').each(function () {
-    $(this).removeClass('animated')
-    $(this).removeClass($(this).data('animate-always'))
-    $(this).stop(true, true, true).css({opacity: 0})
-  })
-
-  $('.owl-item.active [data-animate-always]').each(function () {
-    delayTimeSlider += 500
-
-    $(this).delay(delayTimeSlider).queue(function () {
-      $(this).addClass('animated')
-      $(this).addClass($(this).data('animate-always'))
-
-      console.log($(this).data('animate-always'))
-    })
-  })
-}
 
 /* Equal height */
 /* Stolen from https://dev.to/dhruvangg/equal-height-in-vanilla-javascript-49ch */
