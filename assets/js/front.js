@@ -23,47 +23,68 @@ function menuSliding () {
   })
 }
 
-$.fn.alignElementsSameHeight = function () {
-  $('.same-height-row').each(function () {
-    var maxHeight = 0
-    var children = $(this).find('.same-height')
-    children.height('auto')
+function animationsSlider () {
+  var delayTimeSlider = 400
 
-    if ($(window).width() > 768) {
-      children.each(function () {
-        if ($(this).innerHeight() > maxHeight) {
-          maxHeight = $(this).innerHeight()
-        }
-      })
-      children.innerHeight(maxHeight)
-    }
+  $('.owl-item:not(.active) [data-animate-always]').each(function () {
+    $(this).removeClass('animated')
+    $(this).removeClass($(this).data('animate-always'))
+    $(this).stop(true, true, true).css({opacity: 0})
+  })
 
-    maxHeight = 0
-    children = $(this).find('.same-height-always')
-    children.height('auto')
-    children.each(function () {
-      if ($(this).height() > maxHeight) {
-        maxHeight = $(this).innerHeight()
-      }
+  $('.owl-item.active [data-animate-always]').each(function () {
+    delayTimeSlider += 500
+
+    $(this).delay(delayTimeSlider).queue(function () {
+      $(this).addClass('animated')
+      $(this).addClass($(this).data('animate-always'))
+
+      console.log($(this).data('animate-always'))
     })
-    children.innerHeight(maxHeight)
   })
 }
 
-var windowWidth
-$(function () {
-  windowWidth = $(window).width()
+/* Equal height */
+/* Stolen from https://dev.to/dhruvangg/equal-height-in-vanilla-javascript-49ch */
+function setHeight(el, val) {
+  if (typeof val === "function") val = val();
+  if (typeof val === "string") el.style.height = val;
+  else el.style.height = val + "px";
+}
 
-  $(this).alignElementsSameHeight()
+var equalheight = function(container){
+  var currentTallest = 0,
+      currentRowStart = 0,
+      rowDivs = new Array(),
+      $el,
+      topPosition = 0;
+
+  Array.from(document.querySelectorAll(container)).forEach((el,i) => {
+    el.style.height = "auto";
+    topPostion = el.offsetTop;
+    if(currentRowStart != topPostion){
+      for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+        setHeight(rowDivs[currentDiv], currentTallest)
+      }
+      rowDivs.length = 0;
+      currentRowStart = topPostion;
+      currentTallest = parseFloat(getComputedStyle(el, null).height.replace("px", ""))
+      rowDivs.push(el);
+    } else {
+      rowDivs.push(el);
+      currentTallest = (currentTallest < parseFloat(getComputedStyle(el, null).height.replace("px", ""))) ? (parseFloat(getComputedStyle(el, null).height.replace("px", ""))) : (currentTallest);
+    }
+    for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+      setHeight(rowDivs[currentDiv], currentTallest)
+    }
+  })
+}
+
+window.addEventListener("load", function(){
+  equalheight('.same-height-always')
 })
-
-$(window).resize(function () {
-  var newWindowWidth = $(window).width()
-
-  if (windowWidth !== newWindowWidth) {
-    setTimeout(function () {
-      $(this).alignElementsSameHeight()
-    }, 205)
-    windowWidth = newWindowWidth
-  }
+window.addEventListener("resize", function(){
+  setTimeout(function(){
+    equalheight('.same-height-always')
+  })
 })
