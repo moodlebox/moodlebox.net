@@ -15,7 +15,7 @@
         <h4>{{ i18n "recentPosts" }}</h4>
         <div class="blog-entries">
           {{ range first 3 (where site.Pages.ByLastmod.Reverse "Type" "kb") }}
-          <div class="item same-height-row clearfix">
+          <div class="item clearfix">
             {{ if false }}
             <div class="image same-height-always">
               <a href="{{ .Permalink }}">
@@ -27,7 +27,7 @@
               </a>
             </div>
             {{ end }}
-            <div class="name same-height-always">
+            <div class="name">
               <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
             </div>
           </div>
@@ -41,8 +41,8 @@
       <div id="links" class="col-md-4 col-sm-6">
         <h4>FAQ</h4>
         <div class="important-links">
-          <div class="item same-height-row clearfix">
-            <div class="name same-height-always">
+          <div class="item clearfix">
+            <div class="name">
               <h5><a href="{{ site.LanguagePrefix }}/faq">{{ i18n "faqTitle" }}</a></h5>
             </div>
           </div>

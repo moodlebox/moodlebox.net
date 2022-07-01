@@ -3,7 +3,6 @@
 $(function () {
   sliderHomepage()
   sliders()
-  fullScreenContainer()
   menuSliding()
 })
 
@@ -111,16 +110,6 @@ function animationsSlider () {
   })
 }
 
-/* picture zoom */
-function pictureZoom () {
-  $('.product .image, .post .image, .photostream div').each(function () {
-    var imgHeight = $(this).find('img').height()
-    if (imgHeight) {
-      $(this).height(imgHeight)
-    }
-  })
-}
-
 $.fn.alignElementsSameHeight = function () {
   $('.same-height-row').each(function () {
     var maxHeight = 0
@@ -153,7 +142,6 @@ $(function () {
   windowWidth = $(window).width()
 
   $(this).alignElementsSameHeight()
-  pictureZoom()
 })
 
 $(window).resize(function () {
@@ -162,8 +150,6 @@ $(window).resize(function () {
   if (windowWidth !== newWindowWidth) {
     setTimeout(function () {
       $(this).alignElementsSameHeight()
-      fullScreenContainer()
-      pictureZoom()
     }, 205)
     windowWidth = newWindowWidth
   }
