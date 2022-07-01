@@ -5,7 +5,6 @@ $(function () {
   sliders()
   fullScreenContainer()
   menuSliding()
-  utils()
 })
 
 /* slider homepage */
@@ -120,54 +119,6 @@ function pictureZoom () {
       $(this).height(imgHeight)
     }
   })
-}
-
-function utils () {
-  /* tooltips */
-  $('[data-toggle="tooltip"]').tooltip()
-
-  /* click on the box activates the radio */
-  $('#checkout').on('click', '.box.shipping-method, .box.payment-method', function () {
-    var radio = $(this).find(':radio')
-    radio.prop('checked', true)
-  })
-
-  /* click on the box activates the link in it */
-  $('.box.clickable').on('click', function () {
-    window.location = $(this).find('a').attr('href')
-  })
-
-  /* external links in new window */
-  $('.external').on('click', function (e) {
-    e.preventDefault()
-    window.open($(this).attr('href'))
-  })
-
-  /* animated scrolling */
-  $('.scroll-to, .scroll-to-top').click(function (event) {
-    var fullUrl = this.href
-    var parts = fullUrl.split('#')
-
-    if (parts.length > 1) {
-      scrollTo(fullUrl)
-      event.preventDefault()
-    }
-  })
-
-  function scrollTo (fullUrl) {
-    var parts = fullUrl.split('#')
-    var trgt = parts[1]
-    var targetOffset = $('#' + trgt).offset()
-    var targetTop = targetOffset.top - 100
-
-    if (targetTop < 0) {
-      targetTop = 0
-    }
-
-    $('html, body').animate({
-      scrollTop: targetTop
-    }, 1000)
-  }
 }
 
 $.fn.alignElementsSameHeight = function () {
