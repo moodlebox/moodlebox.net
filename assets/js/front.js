@@ -1,7 +1,6 @@
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "animationsSlider" }] */
 
 $(function () {
-  fullScreenContainer()
   menuSliding()
 })
 
@@ -20,16 +19,6 @@ function menuSliding () {
       $(this).find('.dropdown-menu').first().stop(true, true).slideUp()
     } else {
       $(this).find('.dropdown-menu').first().stop(true, true).hide()
-    }
-  })
-}
-
-/* picture zoom */
-function pictureZoom () {
-  $('.product .image, .post .image, .photostream div').each(function () {
-    var imgHeight = $(this).find('img').height()
-    if (imgHeight) {
-      $(this).height(imgHeight)
     }
   })
 }
@@ -66,7 +55,6 @@ $(function () {
   windowWidth = $(window).width()
 
   $(this).alignElementsSameHeight()
-  pictureZoom()
 })
 
 $(window).resize(function () {
@@ -75,8 +63,6 @@ $(window).resize(function () {
   if (windowWidth !== newWindowWidth) {
     setTimeout(function () {
       $(this).alignElementsSameHeight()
-      fullScreenContainer()
-      pictureZoom()
     }, 205)
     windowWidth = newWindowWidth
   }
