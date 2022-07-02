@@ -1,67 +1,97 @@
 /* MoodleBox web site specific Javascript code */
-jQuery(document).ready(function (e) {
-//
-  /* Make dropdown link work correctly when clicked */
-  $('.dropdown-toggle').click(function (e) {
-    if ($(document).width() > 750) {
+
+/* Make dropdown link work correctly when clicked */
+const dropDownToggles = document.querySelectorAll('.dropdown-toggle')
+for (const dropDown of dropDownToggles) {
+  dropDown.addEventListener('click', function (e) {
+    if (document.body.clientWidth > 750) {
       e.preventDefault()
-      var url = $(this).attr('href')
+      var url = this.getAttribute('href')
       if (url !== '#') {
         window.location.href = url
       }
     }
   })
+}
 
-  /* Make dropdown open on hover and close when leaving */
-  $('.dropdown').hover(function (e) {
-    if ($(document).width() > 750) {
-      $(this).children('a').addClass('open')
+/* Make dropdown open on hover and close when leaving */
+const dropDowns = document.querySelectorAll('.dropdown')
+for (const dropDown of dropDowns) {
+  dropDown.addEventListener('mouseover', function (e) {
+    if (document.body.clientWidth > 750) {
+      this.querySelector('a').classList.add('open')
     }
-  }, function (e) {
-    if ($(document).width() > 750) {
-      $(this).removeClass('open')
-      $(this).children('a').blur()
-      $(this).children('a').removeClass('open')
+  }),
+  dropDown.addEventListener('mouseout', function (e) {
+    if (document.body.clientWidth > 750) {
+      this.classList.remove('open')
+      this.querySelector('a').blur()
+      this.querySelector('a').classList.remove('open')
     }
   })
+}
 
-  /* Donation form */
-  $("input[name='radio-donation-level']:radio").change(function () {
-    var parentForm = $(this).parents('form')
-    parentForm.find('.give-default-level, .give-radio-input').removeClass('give-default-level')
-    $(this).addClass('give-default-level')
-    if ($.isNumeric($(this).val())) {
-      parentForm.find('.give-text-input').val($(this).val())
+/* Utility function */
+function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n)
+}
+
+/* Donation form */
+const radioButtons = document.querySelectorAll("input[name='radio-donation-level']")
+for (const radioButton of radioButtons) {
+  radioButton.addEventListener('change', function (e) {
+    const parentFormElements = this.form.querySelectorAll('.give-default-level, .give-radio-input')
+    for (const elem of parentFormElements) {
+      elem.classList.remove('give-default-level')
+    }
+    this.classList.add('give-default-level')
+    if (isNumeric(this.value)) {
+      this.form.querySelector('.give-text-input').value = this.value
     } else {
-      parentForm.find('.give-text-input').focus()
+      this.form.querySelector('.give-text-input').focus()
     }
   })
-  $("input[name='amount']#give-amount").focus(function () {
-    var parentForm = $(this).parents('form')
-    parentForm.find('.give-default-level, .give-radio-input').removeClass('give-default-level')
-    parentForm.find('.give-radio-input').prop('checked', false)
-    parentForm.find('.give-radio-input.give-radio-level-custom').prop('checked', true)
-  })
+}
 
-  /* Knowledge base */
-  $('#kb-container').find('.kb-show-all-articles').on('click', function () {
-    var kbElems = $(this).parent('ul').find('li')
-    $(this).toggleClass('active')
-    if ($(this).hasClass('active')) {
-      $(this).find('.kb-show-text').addClass('kb-hidden-elem')
-      $(this).find('.kb-hide-text').removeClass('kb-hidden-elem')
-    } else {
-      $(this).find('.kb-show-text').removeClass('kb-hidden-elem')
-      $(this).find('.kb-hide-text').addClass('kb-hidden-elem')
-    }
-    kbElems.each(function () {
-      if ($(this).hasClass('kb-hidden-elem')) {
-        $(this).removeClass('kb-hidden-elem')
-        $(this).addClass('visible')
+const giveAmount = document.querySelector("input[name='amount']#give-amount")
+if (giveAmount) {
+  giveAmount.addEventListener('focus', function (e) {
+      const parentFormElements = this.form.querySelectorAll('.give-default-level, .give-radio-input')
+      for (const elem of parentFormElements) {
+        elem.classList.remove('give-default-level')
+        elem.checked = false
+      }
+      this.form.querySelector('.give-radio-input.give-radio-level-custom').checked = true
+  })
+}
+
+const kbContainer = document.querySelector("#kb-container")
+if (kbContainer) {
+  const showAllArticlesLinks = kbContainer.querySelectorAll('.kb-show-all-articles')
+  for (const link of showAllArticlesLinks) {
+    link.addEventListener('click', function (e) {
+      this.classList.toggle('active')
+      if (this.classList.contains('active')) {
+        this.querySelector('.kb-show-text').classList.add('kb-hidden-elem')
+        this.querySelector('.kb-hide-text').classList.remove('kb-hidden-elem')
       } else {
-        $(this).hasClass('visible') && ($(this).removeClass('visible'), $(this).addClass('kb-hidden-elem'))
+        this.querySelector('.kb-show-text').classList.remove('kb-hidden-elem')
+        this.querySelector('.kb-hide-text').classList.add('kb-hidden-elem')
+      }
+
+      const kbElems = this.closest('ul').querySelectorAll('li')
+      for (const elem of kbElems) {
+        //console.log(elem)
+        if (elem.classList.contains('kb-hidden-elem')) {
+          elem.classList.remove('kb-hidden-elem')
+          elem.classList.add('kb-originally-hidden-elem')
+        } else {
+          if (elem.classList.contains('kb-originally-hidden-elem')) {
+            elem.classList.add('kb-hidden-elem')
+            elem.classList.remove('kb-originally-hidden-elem')
+          }
+        }
       }
     })
-  })
-//
-})
+  }
+}
