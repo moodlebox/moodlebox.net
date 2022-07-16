@@ -4,7 +4,7 @@
 {{ $items := len . }}
 {{ $height := "450px" }}
 <section>
-  <div id="home-carousel" class="carousel" duration="5000 " items="{{ $items }}">
+  <div id="home-carousel" class="carousel" duration="5000" items="{{ $items }}">
     <ul>
       {{ range $index, $slide := (sort . "weight") }}
       <li id="home-slide{{ add $index 1 }}" class="item" style="min-width: calc(100%/{{ $items }}); padding-bottom: {{ $height }};">

@@ -65,9 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 }); //end onload
 
-
-
-
 /**
  * Debounce functions for better performance
  * (c) 2021 Chris Ferdinandi, MIT License, https://gomakethings.com
