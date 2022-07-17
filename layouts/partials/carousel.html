@@ -8,11 +8,15 @@
     <ul>
       {{ range $index, $slide := (sort . "weight") }}
       <li id="home-slide{{ add $index 1 }}" class="item" style="min-width: calc(100%/{{ $visibleitems }}); padding-bottom: {{ $height }};">
-        <img src="{{ .image }}" alt="{{ .title }}" />
-        <div class="">
-          <div class="">
-            <h1>{{ .title }}</h1>
-            {{ .description | safeHTML }}
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5 right">
+              <h1>{{ .title }}</h1>
+              {{ .description | safeHTML }}
+            </div>
+            <div class="col-sm-7">
+              <img class="img-responsive" src="{{ .image }}" alt="{{ .title }}" />
+            </div>
           </div>
         </div>
       </li>
