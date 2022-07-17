@@ -324,6 +324,10 @@ a.anchor-heading:focus {
   letter-spacing: 0.10em;
 }
 
+#home-carousel ul li > div {
+  color: #fff;
+}
+
 @media (max-width: 767px) {
   #home-carousel {
     text-align: center !important;
