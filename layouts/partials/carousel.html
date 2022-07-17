@@ -1,13 +1,13 @@
 {{ if isset site.Params "carousel" }}
 {{ if site.Params.carousel.enable }}
-{{ with index site.Data.carousel site.Language.Lang }}
-{{ $items := len . }}
+{{ $visibleitems := 1 }}
 {{ $height := "450px" }}
+{{ with index site.Data.carousel site.Language.Lang }}
 <section>
-  <div id="home-carousel" class="carousel" duration="5000" items="{{ $items }}">
+  <div id="home-carousel" class="carousel" duration="5000">
     <ul>
       {{ range $index, $slide := (sort . "weight") }}
-      <li id="home-slide{{ add $index 1 }}" class="item" style="min-width: calc(100%/{{ $items }}); padding-bottom: {{ $height }};">
+      <li id="home-slide{{ add $index 1 }}" class="item" style="min-width: calc(100%/{{ $visibleitems }}); padding-bottom: {{ $height }};">
         <img src="{{ .image }}" alt="{{ .title }}" />
         <div class="">
           <div class="">
