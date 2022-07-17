@@ -291,3 +291,46 @@ a.anchor-heading:focus {
   box-shadow: initial;
 }
 
+#home-carousel > ul {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/banner-tablet.jpg') center center repeat;
+  background-size: cover;
+}
+
+#home-carousel .row {
+  width: 1140px;
+}
+
+#home-carousel h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 46px;
+  letter-spacing: .08em;
+  color: #fff;
+}
+
+#home-carousel .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#home-carousel .item ul,
+#home-carousel .item p {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.10em;
+}
+
+@media (max-width: 767px) {
+  #home-carousel {
+    text-align: center !important;
+  }
+}
+@media (min-width: 992px) {
+  #home-carousel .right {
+    text-align: right;
+  }
+}
