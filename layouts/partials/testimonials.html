@@ -1,7 +1,9 @@
 {{ if isset site.Params "testimonials" }}
 {{ if site.Params.testimonials.enable }}
+{{ $visibleitems := 4 }}
+{{ $height := "430px" }}
 {{ with index site.Data.testimonials site.Language.Lang }}
-<section class="bar background-pentagon no-mb">
+<section id="testimonials" class="bar background-pentagon no-mb">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -13,25 +15,37 @@
           {{ site.Params.testimonials.subtitle | markdownify }}
         </p>
 
-        <ul class="owl-carousel testimonials same-height-row">
-          {{ range . }}
-          <li class="item">
-            <div class="testimonial same-height-always">
-              <div class="text">
-                <p>{{ .text | markdownify }}</p>
-              </div>
-              <div class="bottom">
-                <div class="icon"><i class="fa fa-quote-left"></i>
+        <div id="testimonials-carousel" class="carousel">
+          <ul class="same-height-row">
+            {{ range $index, $slide := . }}
+            <li id="testimonial-slide{{ $index }}" class="item" style="min-width: calc(100%/{{ $visibleitems }}); padding-bottom: {{ $height }};">
+              <div class="container">
+                <div class="box same-height-always">
+                  <div class="text">
+                    <p>{{ .text | markdownify }}</p>
+                  </div>
+                  <div class="bottom">
+                    <div class="icon"><i class="fa fa-quote-left"></i></div>
+                    <div class="name-picture">
+                      <h5>{{ .name }}</h5>
+                      <p>{{ .position }}</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="name-picture">
-                  <h5>{{ .name }}</h5>
-                  <p>{{ .position }}</p>
-                </div>
               </div>
-            </div>
-          </li>
-          {{ end }}
-        </ul> <!-- /.owl-carousel -->
+            </li>
+            {{ end }}
+          </ul>
+          <ol>
+            {{ range $index, $slide := . }}
+            <li>
+              <a href="#testimonial-slide{{ $index }}"></a>
+            </li>
+            {{ end }}
+          </ol>
+          <div class="prev">&lsaquo;</div>
+          <div class="next">&rsaquo;</div>
+        </div>
 
       </div>
     </div>

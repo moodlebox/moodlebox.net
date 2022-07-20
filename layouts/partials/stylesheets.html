@@ -13,16 +13,14 @@
   {{ $syntaxCSS := resources.Get "css/syntax.css" | toCSS $cssOpts }}
   {{ $customCSS := resources.Get "css/custom.css" | toCSS $cssOpts }}
   {{ $animateCSS := resources.Get "css/animate.css" | toCSS $cssOpts }}
-  {{ $owlCarouselCSS := resources.Get "css/owl.carousel.css" | toCSS $cssOpts }}
-  {{ $owlThemeCSS := resources.Get "css/owl.theme.css" | toCSS $cssOpts }}
+  {{ $carouselCSS := resources.Get "css/carousel.css" | toCSS $cssOpts }}
   <link href="{{ $forkAwesomeCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $fontsCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $moodleboxCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $syntaxCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $customCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $animateCSS.Permalink }}" rel="stylesheet">
-  <link href="{{ $owlCarouselCSS.Permalink }}" rel="stylesheet">
-  <link href="{{ $owlThemeCSS.Permalink }}" rel="stylesheet">
+  <link href="{{ $carouselCSS.Permalink }}" rel="stylesheet">
 {{ else }}
   {{ $cssOpts := (dict "enableSourceMap" false ) }}
   {{ $forkAwesomeCSS := resources.Get "css/fork-awesome.css" | toCSS $cssOpts | minify | fingerprint }}
@@ -31,14 +29,12 @@
   {{ $syntaxCSS := resources.Get "css/syntax.css" | toCSS $cssOpts | minify | fingerprint }}
   {{ $customCSS := resources.Get "css/custom.css" | toCSS $cssOpts | minify | fingerprint }}
   {{ $animateCSS := resources.Get "css/animate.css" | toCSS $cssOpts | minify | fingerprint }}
-  {{ $owlCarouselCSS := resources.Get "css/owl.carousel.css" | toCSS $cssOpts | minify | fingerprint }}
-  {{ $owlThemeCSS := resources.Get "css/owl.theme.css" | toCSS $cssOpts | minify | fingerprint }}
+  {{ $carouselCSS := resources.Get "css/carousel.css" | toCSS $cssOpts | minify | fingerprint }}
   <link href="{{ $forkAwesomeCSS.Permalink }}" integrity="{{ $forkAwesomeCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $fontsCSS.Permalink }}" integrity="{{ $fontsCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $moodleboxCSS.Permalink }}" integrity="{{ $moodleboxCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $syntaxCSS.Permalink }}" integrity="{{ $syntaxCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $customCSS.Permalink }}" integrity="{{ $customCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $animateCSS.Permalink }}" integrity="{{ $animateCSS.Data.Integrity }}" rel="stylesheet">
-  <link href="{{ $owlCarouselCSS.Permalink }}" integrity="{{ $owlCarouselCSS.Data.Integrity }}" rel="stylesheet">
-  <link href="{{ $owlThemeCSS.Permalink }}" integrity="{{ $owlThemeCSS.Data.Integrity }}" rel="stylesheet">
+  <link href="{{ $carouselCSS.Permalink }}" integrity="{{ $carouselCSS.Data.Integrity }}" rel="stylesheet">
 {{ end }}

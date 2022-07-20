@@ -1,27 +1,37 @@
 {{ if isset site.Params "carousel" }}
 {{ if site.Params.carousel.enable }}
+{{ $visibleitems := 1 }}
+{{ $height := "450px" }}
 {{ with index site.Data.carousel site.Language.Lang }}
 <section>
-  <div class="home-carousel">
-    <div class="dark-mask"></div>
-    <div class="container">
-      <div class="homepage owl-carousel">
-        {{ range sort . "weight" }}
-        <div class="item">
+  <div id="home-carousel" class="carousel" duration="5000">
+    <ul>
+      {{ range $index, $slide := (sort . "weight") }}
+      <li id="home-slide{{ add $index 1 }}" class="item" style="min-width: calc(100%/{{ $visibleitems }}); padding-bottom: {{ $height }};">
+        <div class="container">
           <div class="row">
             <div class="col-sm-5 right">
               <h1>{{ .title }}</h1>
               {{ .description | safeHTML }}
             </div>
             <div class="col-sm-7">
-              <img class="img-responsive" src="{{ .image }}" alt="{{ .title }}">
+              <img class="img-responsive" src="{{ .image }}" alt="{{ .title }}" />
             </div>
           </div>
         </div>
-        {{ end }}
-      </div>  <!-- /.owl-carousel -->
-    </div>
-  </div>
+      </li>
+      {{ end }}
+    </ul>
+    <ol>
+      {{ range $index, $slide := (sort . "weight") }}
+      <li>
+        <a href="#home-slide{{ add $index 1 }}"></a>
+      </li>
+      {{ end }}
+    </ol>
+    <div class="prev">&lsaquo;</div>
+    <div class="next">&rsaquo;</div>
+  </div>  <!-- /.carousel -->
 </section>
 {{ end }}
 {{ end }}

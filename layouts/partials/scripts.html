@@ -9,15 +9,15 @@
 {{ if site.IsServer }}
   {{ $frontJS := resources.Get "js/front.js" }}
   {{ $moodleboxJS := resources.Get "js/moodlebox.js" }}
-  {{ $owlJS := resources.Get "js/owl.carousel.js" }}
+  {{ $carouselJS := resources.Get "js/carousel.js" }}
   <script src="{{ $frontJS.Permalink }}"></script>
   <script src="{{ $moodleboxJS.Permalink }}"></script>
-  <script src="{{ $owlJS.Permalink }}"></script>
+  <script src="{{ $carouselJS.Permalink }}"></script>
 {{ else }}
   {{ $frontJS := resources.Get "js/front.js" | minify | fingerprint }}
   {{ $moodleboxJS := resources.Get "js/moodlebox.js" | minify | fingerprint }}
-  {{ $owlJS := resources.Get "js/owl.carousel.js" | minify | fingerprint }}
+  {{ $carouselJS := resources.Get "js/carousel.js" | minify | fingerprint }}
   <script src="{{ $frontJS.Permalink }}" integrity="{{ $frontJS.Data.Integrity }}"></script>
   <script src="{{ $moodleboxJS.Permalink }}" integrity="{{ $moodleboxJS.Data.Integrity }}"></script>
-  <script src="{{ $owlJS.Permalink }}" integrity="{{ $owlJS.Data.Integrity }}"></script>
+  <script src="{{ $carouselJS.Permalink }}" integrity="{{ $carouselJS.Data.Integrity }}"></script>
 {{ end }}
