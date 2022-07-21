@@ -7,29 +7,29 @@
         <div role="form" class="contact-form">
           <form name="contact" id="contact" action="#" class="moodlebox-form" method="post">
             <div class="control-group">
-              <input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
+              <input type="hidden" name="_subject" id="_subject" value="Form sent from page: {{ .Permalink }}">
             </div>
             <div class="control-group">
               <label>{{ i18n "contactName" }}</label><br />
               <div class="controls">
-                <input type="text" name="name" placeholder="{{ i18n "whatsYourName" }}" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
+                <input type="text" name="name" id="name" placeholder="{{ i18n "whatsYourName" }}" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <label>{{ i18n "contactMail" }}</label><br />
               <input type="email" name="_email" id="_email">
-              <input type="email" name="email" placeholder="{{ i18n "whatsYourEmail" }}" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
+              <input type="email" name="email" id="email" placeholder="{{ i18n "whatsYourEmail" }}" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
               <p class="help-block text-danger"></p>
             </div>
             <div class="control-group">
               <label>{{ i18n "contactSubject" }}</label><br />
-              <input type="text" name="subject" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
+              <input type="text" name="subject" id="subject" required data-validation-required-message="{{ i18n "missingValue" }}" class="form-control text">
               <p class="help-block text-danger"></p>
             </div>
             <div class="control-group">
               <label>{{ i18n "contactMessage" }}</label><br />
-              <textarea name="message" class="form-control text" rows="10"></textarea>
+              <textarea name="message" id="message" class="form-control text" rows="10"></textarea>
               <p class="help-block text-danger"></p>
             </div>
             <div class="control-group">
