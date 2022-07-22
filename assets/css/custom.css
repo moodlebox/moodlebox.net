@@ -291,6 +291,7 @@ a.anchor-heading:focus {
   box-shadow: initial;
 }
 
+/* Carousel on home page */
 #home-carousel > ul {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/banner-tablet.jpg') center center repeat;
   background-size: cover;
@@ -300,12 +301,32 @@ a.anchor-heading:focus {
   width: 1140px;
 }
 
+#home-carousel h1,
+#home-carousel h2,
+#home-carousel h3,
+#home-carousel p,
+#home-carousel ul {
+  color: #fff;
+}
+
 #home-carousel h1 {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 46px;
   letter-spacing: .08em;
-  color: #fff;
+}
+
+@media (max-width: 991px) {
+  #home-carousel h1 {
+    font-size: 36px;
+  }
+}
+
+#home-carousel h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 0.08em;
 }
 
 #home-carousel .img-responsive {
@@ -324,6 +345,17 @@ a.anchor-heading:focus {
   letter-spacing: 0.10em;
 }
 
+@media (max-width: 991px) {
+  #home-carousel .item ul,
+  #home-carousel .item p {
+    font-size: 14px;
+  }
+}
+
+#home-carousel ul li {
+  margin-bottom: 10px;
+}
+
 #home-carousel ul li > div {
   color: #fff;
 }
@@ -339,6 +371,7 @@ a.anchor-heading:focus {
   }
 }
 
+/* Testimonials on home page */
 #testimonials-carousel {
   margin-bottom: 40px;
 }
@@ -432,4 +465,83 @@ a.anchor-heading:focus {
 
 #testimonials-carousel ol li.selected a {
   background: #da4d4d;
+}
+
+/* Contact form */
+.contact-form {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.contact-form label {
+  width: 100%;
+  margin-top: 10px;
+}
+
+textarea.form-control {
+  max-height: 190px;
+  color: #2a2a2a;
+  font-size: 15px;
+}
+
+.contact-form input[type="submit"] {
+  margin-top: 20px;
+}
+
+/* Contact form honeypot field */
+.contact-form #_email {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: default;
+  pointer-events: none;
+  color: transparent;
+}
+.contact-form #_email:hover{
+  height: 0px;
+  cursor: default;
+}
+.contact-form #_email:blur{
+  height: 0px;
+  cursor: default;
+}
+.contact-form #_email:focus{
+  height: 0px;
+  outline: none;
+  cursor: default;
+}
+
+input[type="reset"], input[type="submit"], input[type="submit"], button.submit {
+  cursor: pointer;
+  background: #da4d4d;
+  border: 1px solid #da4d4d;
+  line-height: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  padding: 15px 23px 15px 23px;
+/*
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+ */
+  margin: 3px 0;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  height: 43px;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover, input[type="submit"]:hover {
+  color: #da4d4d;
+  background: white;
+  /* opacity: 0.8; */
 }
