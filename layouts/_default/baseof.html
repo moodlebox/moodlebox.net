@@ -29,11 +29,6 @@
   {{ partial "hreflang.html" . }}
   {{ partial "seo/metadata.html" . }}
   {{ block "stylesheets" . }}{{ partial "stylesheets.html" . }}{{ end }}
-  <!-- Responsivity for older IE -->
-  {{- `<!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->` | safeHTML }}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.6/lunr.min.js" integrity="sha256-M/Awbb/BYh+Rh0aGjpQid26p1b2OBsrk2k9yAvQxPV0=" crossorigin="anonymous"></script>
   {{ if site.IsServer }}
     {{ $lunrStemmerJS := resources.Get "js/lunr.stemmer.support.js" }}
