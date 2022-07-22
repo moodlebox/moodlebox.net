@@ -18,8 +18,9 @@
       {{ end }}
     {{ end }}
     <li>
-      <a href="{{ .RelPermalink }}" class="lightbox-image" {{ with $caption }}data-caption="{{ . }}"{{ end }}>
-        <img src="{{ .RelPermalink }}" alt="{{ with $caption }}{{ . }}{{ end }}">
+      <a href="{{ .RelPermalink }}" class="lightbox-image"{{ with $caption }} data-caption="{{ . }}"{{ end }}>
+        <img src="{{ .RelPermalink }}"{{ with $caption }} alt="{{ . }}" title="{{ . }}"{{ end }}>
+        {{ with $caption }}<span>{{ . }}</span>{{ end }}
       </a>
     </li>
   {{ end }}
@@ -36,8 +37,9 @@
         {{ end }}
       {{ end }}
       <li>
-        <a href="{{$.Scratch.Get "src"}}" class="lightbox-image" {{ with .caption }}data-caption="{{ . }}"{{ end }}>
-          <img src="{{$.Scratch.Get "src"}}" alt="{{ with .caption }}{{ . }}{{ end }}">
+        <a href="{{$.Scratch.Get "src"}}" class="lightbox-image"{{ with .caption }} data-caption="{{ . }}"{{ end }}>
+          <img src="{{$.Scratch.Get "src"}}"{{ with .caption }} alt="{{ . }}" title="{{ . }}"{{ end }}>
+          {{ with .caption }}<span>{{ . }}</span>{{ end }}
         </a>
       </li>
     {{ end }}
