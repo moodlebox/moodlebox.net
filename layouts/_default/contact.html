@@ -21,14 +21,10 @@
 {{ end }}
 {{ define "footerfiles" }}
   {{ if site.IsServer }}
-    {{ $jqBSValidationJS := resources.Get "js/jqBootstrapValidation.js" }}
     {{ $contactJS := resources.Get "js/contact.js" }}
-    <script src="{{ $jqBSValidationJS.Permalink }}"></script>
     <script src="{{ $contactJS.Permalink }}"></script>
   {{ else }}
-    {{ $jqBSValidationJS := resources.Get "js/jqBootstrapValidation.js" | minify | fingerprint }}
     {{ $contactJS := resources.Get "js/contact.js" | minify | fingerprint }}
-    <script src="{{ $jqBSValidationJS.Permalink }}" integrity="{{ $jqBSValidationJS.Data.Integrity }}"></script>
     <script src="{{ $contactJS.Permalink }}" integrity="{{ $contactJS.Data.Integrity }}"></script>
   {{ end }}
 {{ end }}
