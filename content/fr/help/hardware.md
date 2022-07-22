@@ -22,7 +22,7 @@ gallery_item:
     caption: Alimentation pour Raspberry Pi
   - album: gallery
     image: media/rpi3.png
-    caption: Rapsberry Pi 3
+    caption: Raspberry Pi 3
 
 ---
 Pour mettre en oeuvre la MoodleBox, le matériel suivant est nécessaire :

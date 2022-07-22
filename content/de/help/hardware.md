@@ -23,7 +23,7 @@ gallery_item:
     caption: Alimentation pour Raspberry Pi
   - album: gallery
     image: media/rpi3.png
-    caption: Rapsberry Pi 3
+    caption: Raspberry Pi 3
 
 ---
 Die Übersicht zeigt alle Dinge, die Sie für Ihre eigene MoodleBox brauchen:
