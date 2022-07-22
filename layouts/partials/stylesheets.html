@@ -1,9 +1,6 @@
 <!-- CSS to load in header -->
 <!-- Bootstrap and Fork Awesome css -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha512-Dop/vW3iOtayerlYAqCgkVr2aTr2ErwwTYOvRFUpzl2VhCMJyjQF0Q9TjUXIo6JhuM/3i0vVEt2e/7QQmnHQqw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-{{ if .HasShortcode "gallery" }}
-<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" rel="stylesheet" crossorigin="anonymous" />
-{{ end }}
 <!-- Custom fonts and styles for this template -->
 {{ if site.IsServer }}
   {{ $cssOpts := (dict "enableSourceMap" true) }}
@@ -19,6 +16,12 @@
   <link href="{{ $syntaxCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $customCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $carouselCSS.Permalink }}" rel="stylesheet">
+  {{ if .HasShortcode "gallery" }}
+  {{ $lightboxCSS := resources.Get "css/lightbox.css" | toCSS $cssOpts }}
+  {{ $galleryCSS := resources.Get "css/gallery.css" | toCSS $cssOpts }}
+  <link href="{{ $lightboxCSS.Permalink }}" rel="stylesheet">
+  <link href="{{ $galleryCSS.Permalink }}" rel="stylesheet">
+  {{ end }}
 {{ else }}
   {{ $cssOpts := (dict "enableSourceMap" false ) }}
   {{ $forkAwesomeCSS := resources.Get "css/fork-awesome.css" | toCSS $cssOpts | minify | fingerprint }}
@@ -33,4 +36,10 @@
   <link href="{{ $syntaxCSS.Permalink }}" integrity="{{ $syntaxCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $customCSS.Permalink }}" integrity="{{ $customCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $carouselCSS.Permalink }}" integrity="{{ $carouselCSS.Data.Integrity }}" rel="stylesheet">
+  {{ if .HasShortcode "gallery" }}
+  {{ $lightboxCSS := resources.Get "css/lightbox.css" | toCSS $cssOpts | minify | fingerprint }}
+  {{ $galleryCSS := resources.Get "css/gallery.css" | toCSS $cssOpts | minify | fingerprint }}
+  <link href="{{ $lightboxCSS.Permalink }}" integrity="{{ $lightboxCSS.Data.Integrity }}" rel="stylesheet">
+  <link href="{{ $galleryCSS.Permalink }}" integrity="{{ $galleryCSS.Data.Integrity }}" rel="stylesheet">
+  {{ end }}
 {{ end }}
