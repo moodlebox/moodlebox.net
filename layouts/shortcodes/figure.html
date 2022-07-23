@@ -1,7 +1,4 @@
-<!-- count how many times we've called this shortcode; load the css if it's the first time -->
-{{- if not ($.Page.Scratch.Get "figurecount") }}<link rel="stylesheet" href="/css/hugo-easy-gallery.min.css" />{{ end }}
-{{- $.Page.Scratch.Add "figurecount" 1 -}}
-<!-- begin -->
+{{/* begin  */}}
 {{ $image_src := .Get "src" }}
 {{ $image_link := .Get "link" }}
 {{ $image_alt := .Get "alt" }}

@@ -6,7 +6,7 @@
   <script src="{{ $frontJS.Permalink }}"></script>
   <script src="{{ $moodleboxJS.Permalink }}"></script>
   <script src="{{ $carouselJS.Permalink }}"></script>
-  {{ if .HasShortcode "gallery" }}
+  {{ if or (.HasShortcode "gallery") (.HasShortcode "figure") }}
   {{ $lightboxJS := resources.Get "js/lightbox.js" }}
   <script src="{{ $lightboxJS.Permalink }}"></script>
   {{ end }}
@@ -17,7 +17,7 @@
   <script src="{{ $frontJS.Permalink }}" integrity="{{ $frontJS.Data.Integrity }}"></script>
   <script src="{{ $moodleboxJS.Permalink }}" integrity="{{ $moodleboxJS.Data.Integrity }}"></script>
   <script src="{{ $carouselJS.Permalink }}" integrity="{{ $carouselJS.Data.Integrity }}"></script>
-  {{ if .HasShortcode "gallery" }}
+  {{ if or (.HasShortcode "gallery") (.HasShortcode "figure") }}
   {{ $lightboxJS := resources.Get "js/lightbox.js" | minify | fingerprint }}
   <script src="{{ $lightboxJS.Permalink }}" integrity="{{ $lightboxJS.Data.Integrity }}"></script>
   {{ end }}

@@ -16,11 +16,13 @@
   <link href="{{ $syntaxCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $customCSS.Permalink }}" rel="stylesheet">
   <link href="{{ $carouselCSS.Permalink }}" rel="stylesheet">
-  {{ if .HasShortcode "gallery" }}
-  {{ $lightboxCSS := resources.Get "css/lightbox.css" | toCSS $cssOpts }}
-  {{ $galleryCSS := resources.Get "css/gallery.css" | toCSS $cssOpts }}
-  <link href="{{ $lightboxCSS.Permalink }}" rel="stylesheet">
-  <link href="{{ $galleryCSS.Permalink }}" rel="stylesheet">
+  {{ if or (.HasShortcode "gallery") (.HasShortcode "figure") }}
+    {{ $lightboxCSS := resources.Get "css/lightbox.css" | toCSS $cssOpts }}
+    <link href="{{ $lightboxCSS.Permalink }}" rel="stylesheet">
+    {{ if .HasShortcode "gallery" }}
+      {{ $galleryCSS := resources.Get "css/gallery.css" | toCSS $cssOpts }}
+      <link href="{{ $galleryCSS.Permalink }}" rel="stylesheet">
+    {{ end }}
   {{ end }}
 {{ else }}
   {{ $cssOpts := (dict "enableSourceMap" false ) }}
@@ -36,10 +38,12 @@
   <link href="{{ $syntaxCSS.Permalink }}" integrity="{{ $syntaxCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $customCSS.Permalink }}" integrity="{{ $customCSS.Data.Integrity }}" rel="stylesheet">
   <link href="{{ $carouselCSS.Permalink }}" integrity="{{ $carouselCSS.Data.Integrity }}" rel="stylesheet">
-  {{ if .HasShortcode "gallery" }}
-  {{ $lightboxCSS := resources.Get "css/lightbox.css" | toCSS $cssOpts | minify | fingerprint }}
-  {{ $galleryCSS := resources.Get "css/gallery.css" | toCSS $cssOpts | minify | fingerprint }}
-  <link href="{{ $lightboxCSS.Permalink }}" integrity="{{ $lightboxCSS.Data.Integrity }}" rel="stylesheet">
-  <link href="{{ $galleryCSS.Permalink }}" integrity="{{ $galleryCSS.Data.Integrity }}" rel="stylesheet">
+  {{ if or (.HasShortcode "gallery") (.HasShortcode "figure") }}
+    {{ $lightboxCSS := resources.Get "css/lightbox.css" | toCSS $cssOpts | minify | fingerprint }}
+    <link href="{{ $lightboxCSS.Permalink }}" integrity="{{ $lightboxCSS.Data.Integrity }}" rel="stylesheet">
+    {{ if .HasShortcode "gallery" }}
+      {{ $galleryCSS := resources.Get "css/gallery.css" | toCSS $cssOpts | minify | fingerprint }}
+      <link href="{{ $galleryCSS.Permalink }}" integrity="{{ $galleryCSS.Data.Integrity }}" rel="stylesheet">
+    {{ end }}
   {{ end }}
 {{ end }}
