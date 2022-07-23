@@ -1,47 +1,19 @@
-{{ $album := "gallery" }}
-{{ with .Get "album" }}{{ $album = . }}{{ end }}
-<ul class="image-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-  {{/* Attempt to automatically load gallery images from page bundle */}}
-  {{ $images := ($.Page.Resources.ByType "image").Match (printf "%s/*" $album) }}
-  {{ with $images }}
-    {{ range $images }}
-      {{/* Check if the user set a caption for this image */}}
-      {{ $filename := .Name }}
-      {{ $caption := "" }}
-      {{ if $.Page.Params.gallery_item }}
-      {{ range (where $.Page.Params.gallery_item "album" $album) }}
-        {{if eq (printf "%s/%s" $album .image) $filename}}
-          {{ with .caption }}
-            {{ $caption = . }}
-          {{end}}
-        {{end}}
-      {{ end }}
-    {{ end }}
-    <li>
-      <a href="{{ .RelPermalink }}" class="lightbox-image"{{ with $caption }} data-caption="{{ . }}"{{ end }}>
-        <img src="{{ .RelPermalink }}"{{ with $caption }} alt="{{ . }}" title="{{ . }}"{{ end }}>
-        {{ with $caption }}<span>{{ . }}</span>{{ end }}
-      </a>
-    </li>
-  {{ end }}
+{{/*
+See https://hugocodex.org/add-ons/image-gallery/
+Source: https://raw.githubusercontent.com/jhvanderschee/hugocodex/main/layouts/shortcodes/image-gallery.html
+*/}}
 
-  {{else}}
-    {{/* Load gallery images from the `static/img/` media library or internet */}}
-
-    {{ range (where $.Page.Params.gallery_item "album" $album) }}
-      {{/* Set image path. */}}
-      {{ $.Scratch.Set "src" .image }}
-      {{ if gt (len .image) 4 }}
-        {{ if ne "http" (slicestr .image 0 4) }}
-          {{ $.Scratch.Set "src" (printf "img/%s" .image | relURL) }}
-        {{ end }}
-      {{ end }}
-      <li>
-        <a href="{{$.Scratch.Get "src"}}" class="lightbox-image"{{ with .caption }} data-caption="{{ . }}"{{ end }}>
-          <img src="{{$.Scratch.Get "src"}}"{{ with .caption }} alt="{{ . }}" title="{{ . }}"{{ end }}>
-          {{ with .caption }}<span>{{ . }}</span>{{ end }}
-        </a>
-      </li>
-    {{ end }}
-  {{ end }}
+{{ $dir := string (.Get "directory") }}
+<ul class="image-gallery">
+{{ range (readDir (printf "%s/%s" "/assets" $dir)) }}
+  {{- $imageurl := printf "%s/%s" $dir .Name -}}
+  {{- $imagetitle := index (split .Name ".") 0 -}}
+  {{- $image := resources.Get $imageurl -}}
+  <li>
+    <a href="{{ ($image.Fit "1600x1600 q50 webp picture").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
+      <img src="{{ ($image.Fit "300x300 q50 webp picture").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+      <span>{{ $imagetitle }}</span>
+    </a>
+  </li>
+{{ end }}
 </ul>

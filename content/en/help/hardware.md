@@ -34,7 +34,7 @@ Here is the stuff you will need to build your MoodleBox:
 
 The total hardware amount is approximately USD 90, 80 € or CHF 90.
 
-{{< gallery >}}
+{{< gallery directory="img/hardware" >}}
 
 {{< notice tip >}}
 Selecting a __good quality__ microSD card and an adequate power supply are __essential__ for the proper operation of the MoodleBox.

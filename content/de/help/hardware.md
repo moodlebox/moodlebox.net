@@ -35,7 +35,7 @@ Die Übersicht zeigt alle Dinge, die Sie für Ihre eigene MoodleBox brauchen:
 
 Die Gesamtkosten für die Hardware betragen ungefähr 80€, USD 90 oder CHF 90.
 
-{{< gallery >}}
+{{< gallery directory="img/hardware" >}}
 
 {{< notice tip >}}
 Der Erwerb einer __hochwertigen__ microSD-Karte und einer geeigneten Stromversorgung sind für den störungsfreien Betrieb der MoodleBox __unerlässlich__.

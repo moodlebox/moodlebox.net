@@ -34,7 +34,7 @@ Pour mettre en oeuvre la MoodleBox, le matériel suivant est nécessaire :
 
 La totalité de l'investissement matériel nécessaire est d'environ 80 €, USD 90 ou CHF 90.
 
-{{< gallery >}}
+{{< gallery directory="img/hardware" >}}
 
 {{< notice tip >}}
 Le choix d'une carte microSD de __bonne qualité__ ainsi que d'une alimentation électrique adéquate sont __essentiels__ pour le bon fonctionnement de la MoodleBox.
