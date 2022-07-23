@@ -301,9 +301,9 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.06em;
   border-top: solid 5px transparent;
 }
@@ -349,14 +349,13 @@ ul.list-style-none {
   list-style-type: none;
   border-bottom: solid 1px #eeeeee;
   text-transform: none;
-  letter-spacing: 0.04em;
   padding: 4px 0;
 }
 .navbar ul.dropdown-menu li a {
   position: relative;
   color: #333;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
   display: block;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -367,7 +366,7 @@ ul.list-style-none {
   color: #da4d4d;
   text-decoration: none;
   background: none;
-  left: 2px;
+  left: 3px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -418,7 +417,7 @@ ul.list-style-none {
 .navbar .yamm-content ul li a:hover {
   color: #da4d4d;
   text-decoration: none;
-  padding-left: 2px;
+  padding-left: 3px;
 }
 .navbar .yamm-content .banner {
   margin-bottom: 10px;
@@ -2832,7 +2831,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0;
   margin-top: 5px;
   color: #da4d4d;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 23px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -3137,7 +3136,7 @@ hr {
 /* dropdowns */
 .dropdown-menu {
   z-index: 1000;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 15px;
   background-color: #ffffff;
   border: 1px solid #cccccc;
@@ -3298,7 +3297,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 600;
   line-height: 1.1;
   color: #333333;
