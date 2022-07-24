@@ -20,7 +20,7 @@ Pour changer le mot de passe principal de votre MoodleBox, visitez le tableau de
 
 Ce mot de passe fait partie des informations d'identification principales de la MoodleBox. Il donne accès à l'[interface en ligne de commande][5] de la MoodleBox, au [téléchargement de fichiers par SFTP][6] ainsi qu'à l'[administration de la base de données][7].
 
-{{< figure src="/img/media/change-password-fr.png" caption="Changer le mot de passe principal" caption-position="bottom" caption-effect="appear" width="600px"  >}}
+{{< figure src="/img/media/change-password-fr.png" title="Changer le mot de passe principal" caption-position="bottom" caption-effect="appear" width="600"  >}}
 
 Dans la section __Mot de passe MoodleBox__, saisissez votre nouveau mot de passe, le même dans les deux champs. En cliquant sur l'icône d'œil, vous pouvez faire apparaître les caractères que vous avez tapés. Nous recommandons de choisir un mot de passe fort.
 

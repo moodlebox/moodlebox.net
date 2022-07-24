@@ -21,7 +21,7 @@ Er ist der Hauptentwickler und Maintainer des MoodleBox-Projekts.
 
 ### Beitragende
 
-{{< figure src="connected.png" alt="Connected" width="300px" class="right-aligned-image" >}} Die deutsche Übersetzung der Website wurde hauptsächlich von [Ralf Krause][krause] durchgeführt. Er ist Maintainer der deutschen Moodle-Sprachpakete (de, de_du, de_kids) und sehr aktiv in der deutschen und internationalen Moodle-Community. [Visvanath Ratnaweera][ratna] hat ebenfalls mitgemacht.
+{{< figure src="connected.png" alt="Connected" width="300" class="right-aligned-image" >}} Die deutsche Übersetzung der Website wurde hauptsächlich von [Ralf Krause][krause] durchgeführt. Er ist Maintainer der deutschen Moodle-Sprachpakete (de, de_du, de_kids) und sehr aktiv in der deutschen und internationalen Moodle-Community. [Visvanath Ratnaweera][ratna] hat ebenfalls mitgemacht.
 
 Andere Beitragende:
 
@@ -31,7 +31,7 @@ Andere Beitragende:
 ### Sponsor
 
 MoodleBox wird von der [E-learning Touch'][elt] gesponsert.
-{{< figure src="/img/media/elt.png" alt="E-learning Touch'" width="300px" >}}
+{{< figure src="/img/media/elt.png" alt="E-learning Touch'" width="300" >}}
 
 ### Haftungsausschluss
 

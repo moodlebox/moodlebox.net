@@ -9,7 +9,7 @@ slug: version-3.0.0
 
 La [version 3.0.0][2] de l'[image  de la MoodleBox][1] est publiée aujourd'hui. Elle apporte de nombreuses nouvelles fonctionnalités.
 
-{{< figure src="/img/media/pi4-labelled.png" width="583" caption="Raspberry Pi modèle 4B" class="centered-image" >}}
+{{< figure src="/img/media/pi4-labelled.png" width="583" title="Raspberry Pi modèle 4B" class="centered-image" >}}
 
   - Cette version supporte la nouvelle [Raspberry Pi modèle 4B][8] (1 Go, 2 Go ou 4 Go de mémoire vive), offrant des gains de performance importants.
   - Elle fournit [Moodle][3] version 3.7.1, ainsi qu'une nouvelle version du [plugin MoodleBox pour Moodle][5].

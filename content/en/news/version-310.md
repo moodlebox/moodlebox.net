@@ -14,7 +14,7 @@ slug: version-3.1.0
   - Captive portal software [Nodogsplash][6] is updated to its latest version.
   - Various minor bugs have been fixed.
 
-{{< figure src="/img/media/pijuice.png" width="450" caption="Pi Juice HAT" class="centered-image" >}}
+{{< figure src="/img/media/pijuice.png" width="450" title="Pi Juice HAT" class="centered-image" >}}
 
 This version also provides a preliminary version of the MoodleBox update script. The script is functional, but no documentation is yet provided.
 

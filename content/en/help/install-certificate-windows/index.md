@@ -16,7 +16,7 @@ To connect to the MoodleBox via HTTPS without displaying a warning window, it is
 ### Root certificate installation on Windows (Edge and Chrome)
 
 1. Launch Edge or Chrome, access [MoodleBox home page][moodlebox], click link _Install root CA certificate_, then _Open_.
-  {{< figure src="download-CA-cert.png" caption="Download CA certificate" width="380px" >}}
+  {{< figure src="download-CA-cert.png" title="Download CA certificate" width="380" >}}
 2. In window _Do you want to open this file?_, click _Open_.
 3. In _Certificate_ window, click _Install Certificate…_.
 4. This will bring up the Certificate Import Wizard. Select _Local Machine_, then click _Next_.
@@ -33,7 +33,7 @@ To connect to the MoodleBox via HTTPS without displaying a warning window, it is
 
 1. Launch Firefox, access [MoodleBox home page][moodlebox] and click link _Install root CA certificate_.
 2. In the window that is now displayed, check the box _Trust this CA to identify websites_ and click OK.
-  {{< figure src="firefox-ca-cert.png" caption="CA certificate configuration for Firefox" width="650px" >}}
+  {{< figure src="firefox-ca-cert.png" title="CA certificate configuration for Firefox" width="650" >}}
 
   [project]: {{< relref "/project" >}}
   [moodlebox]: http://moodlebox.home/

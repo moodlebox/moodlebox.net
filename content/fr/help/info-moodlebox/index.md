@@ -18,7 +18,7 @@ categories:
 Le tableau de bord de la MoodleBox se trouve dans l'interface d'administration, sous [Administration du site > Serveur > MoodleBox][1]. Il n'est accessible que pour les administrateurs de la plateforme.
 
 Le tableau de bord donne accès aux informations importantes sur le fonctionnement de la MoodleBox.
-{{< figure src="info-moodlebox.png" width="800" caption="Informations MoodleBox" class="centered-image" >}}
+{{< figure src="info-moodlebox.png" width="800" title="Informations MoodleBox" class="centered-image" >}}
 
 Il permet également d'effectuer les opérations ci-dessous.
 

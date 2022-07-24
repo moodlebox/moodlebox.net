@@ -25,7 +25,7 @@ Die Operation ist nicht erforderlich, wenn Sie das Disk-Image von dieser Website
 - Greifen Sie auf die [Administrationsoberfläche][6] der MoodleBox zu ([Website-Administration > Server > MoodleBox][6]).
 - Klicken Sie auf die Taste _Partitionsgröße der SD-Karte ändern_.
 
-{{< figure src="/img/media/resize-sdcard-de.png" caption="Partitionsgröße der SD-Karte ändern" caption-position="bottom" caption-effect="appear" width="800px" >}}
+{{< figure src="/img/media/resize-sdcard-de.png" title="Partitionsgröße der SD-Karte ändern" caption-position="bottom" caption-effect="appear" width="800" >}}
 
 Die MoodleBox wird anschließend automatisch neu gestartet und ist einige Sekunden nach diesem Vorgang einsatzbereit.
 

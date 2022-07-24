@@ -13,7 +13,7 @@ aliases:
   - help/moodlebox-projekt
 ---
 
-{{< figure src="osi_standard_logo_0.png" alt="open source initiative logo" width="300px" class="right-aligned-image" >}}MoodleBox-Projekt ist Open Source and freie Softwareprojekt (frei wie in Redefreiheit oder in Freibier).
+{{< figure src="osi_standard_logo_0.png" alt="open source initiative logo" width="300" class="right-aligned-image" >}}MoodleBox-Projekt ist Open Source and freie Softwareprojekt (frei wie in Redefreiheit oder in Freibier).
 
 ### Geschichte
 

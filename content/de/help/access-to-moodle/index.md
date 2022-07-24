@@ -21,7 +21,7 @@ Nachdem Sie mit dem WLAN der MoodleBox verbunden sind, können Sie über Ihren B
   * Anmeldename: __moodlebox__
   * Kennwort: __Moodlebox4$__
 
-{{< figure src="moodle-login-de.png" caption="Anmelden in Moodle" caption-position="bottom" caption-effect="appear" width="610px" >}}
+{{< figure src="moodle-login-de.png" title="Anmelden in Moodle" caption-position="bottom" caption-effect="appear" width="610" >}}
 
 Sie sind jetzt mit dem Administratorkonto im Moodle auf der MoodleBox verbunden. __Es wird dringend empfohlen, das Initialkennwort__ des Administratorkontos bei der ersten Anmeldung zu ändern.
 

@@ -41,7 +41,7 @@ L'opération décrite ci-dessous n'est pas requise {{< cloakemail "nicolas@marti
 L'opération décrite ci-dessous n'est pas requise si vous avez téléchargé l'image-disque sur ce site web. Toutefois, il peut être nécessaire de l'exécuter si vous avez reçu une image-disque personnalisée.
 {{< /notice >}}
 
-{{< figure src="gallery/rpi3.png" link="https://blog.martignoni.net" height="280px" caption="Raspberry Pi 3" sizes="480,500,800" >}}
+{{< figure src="gallery/rpi3.png" link="https://blog.martignoni.net" height="280px" title="Raspberry Pi 3" sizes="480,500,800" >}}
 
 {{< notice warning >}}
 L'opération décrite ci-dessous n'est pas requise si vous avez téléchargé l'image-disque sur ce site web. Toutefois, il peut être nécessaire de l'exécuter si vous avez reçu une image-disque personnalisée.

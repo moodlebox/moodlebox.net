@@ -9,7 +9,7 @@ slug: version-3.6.0
 
 La [version 3.6.0][2] de l'[image  de la MoodleBox][1] vient d'être publiée.
 
-{{< figure src="/img/media/dashboard.png" width="730" caption="Dashboard" class="centered-image" >}}
+{{< figure src="/img/media/dashboard.png" width="730" title="Dashboard" class="centered-image" >}}
 
   - Une nouvelle version du [Plugin MoodleBox pour Moodle][plugin] offre un tableau de bord réorganisé, incorporant la mention de l'adresse IP et de la passerelle de la MoodleBox
   - Cette version fournit [Moodle][moodle] version 3.8.1+.

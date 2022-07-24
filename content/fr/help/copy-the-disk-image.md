@@ -14,7 +14,7 @@ categories:
 
 Commencez par [télécharger balenaEtcher][2] (anciennement appelé _Etcher_), puis suivez les instructions dans balenaEtcher pour copier sur votre carte microSD le fichier __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ que [vous avez téléchargé][1].
 
-{{< figure src="/img/media/etcher-copy.png" caption="Copie avec balenaEtcher" caption-position="bottom" caption-effect="appear" width="800px" >}}
+{{< figure src="/img/media/etcher-copy.png" title="Copie avec balenaEtcher" caption-position="bottom" caption-effect="appear" width="800" >}}
 
 ### Pour les geeks
 

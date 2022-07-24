@@ -17,7 +17,7 @@ categories:
 
 Insérer dans la Raspberry Pi la carte microSD (sur laquelle l'image-disque a été copiée) et brancher l'alimentation ainsi qu'un câble ethernet pour la connexion au réseau. La diode rouge s'allume, puis, après quelques secondes, la diode verte s'allume de façon intermittente.
 
-{{< figure src="/img/media/pi-plug-in.gif" caption="Démarrage" caption-position="bottom" caption-effect="appear" width="750px" >}}
+{{< figure src="/img/media/pi-plug-in.gif" title="Démarrage" caption-position="bottom" caption-effect="appear" width="750" >}}
 
 Il n'y a pas d'autre manipulation à effectuer : dès la fin de son démarrage, la MoodleBox est prête et fonctionnelle.
 
@@ -33,7 +33,7 @@ Pour ce faire, après s'être connecté comme administrateur dans le Moodle de l
 Afin de limiter au maximum les risques de corruption de données sur la carte microSD, pour éteindre la MoodleBox, il n'est pas recommandé de débrancher l'alimentation sans précaution. Il est préférable de commander manuellement son arrêt au préalable.
 {{< /notice >}}
 
-{{< figure src="/img/media/restart-shutdown-fr.png" caption="Éteindre et redémarrer" caption-position="bottom" caption-effect="appear" width="735px" >}}
+{{< figure src="/img/media/restart-shutdown-fr.png" title="Éteindre et redémarrer" caption-position="bottom" caption-effect="appear" width="735" >}}
 
 Dans la section __Redémarrage et arrêt__, l'interface présente deux boutons, permettant de redémarrer et d'arrêter la MoodleBox. Après avoir cliqué sur le bouton __Arrêter la MoodleBox__, patienter quelques secondes et vérifier que la diode verte ne clignote plus. L'alimentation peut alors être débranchée sans risque.
 
@@ -49,7 +49,7 @@ Il est possible d'installer un bouton matériel permettant d'arrêter et de dém
 
 L'installation d'un bouton matériel est très simple : il suffit d'acheter un interrupteur, par exemple [ce bouton tactile][3], et de le relier aux broches du port GPIO de la MoodleBox (broches 5 et 6) grâce à [des cavaliers][4] (voir l'image ci-dessous, merci à Laurent Fleron), puis de redémarrer la MoodleBox.
 
-{{< figure src="/img/media/hardware-button.jpg" caption="Bouton matériel" caption-position="bottom" caption-effect="appear" width="400px" >}}
+{{< figure src="/img/media/hardware-button.jpg" title="Bouton matériel" caption-position="bottom" caption-effect="appear" width="400" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
  [2]: {{< relref "help/download-the-disk-image" >}}

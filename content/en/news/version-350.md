@@ -9,7 +9,7 @@ slug: version-3.5.0
 
 [Version 3.5.0][2] of the [MoodleBox disk image][1] was just released.
 
-{{< figure src="/img/media/moodle38.jpg" width="600" caption="Moodle 3.8" class="centered-image" >}}
+{{< figure src="/img/media/moodle38.jpg" width="600" title="Moodle 3.8" class="centered-image" >}}
 
   - This version provides [Moodle][3] version 3.8.
   - It's based on the last version of [Raspbian Buster Lite][raspbian], published on September 26, 2019.

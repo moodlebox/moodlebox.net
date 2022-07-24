@@ -18,11 +18,11 @@ Cette fonctionnalité est disponible à partir de la __version 2.7.0__ de Moodle
 
 Grâce à l'affichage en pied de page des boutons de redémarrage et d'arrêt de la MoodleBox, son administration est plus intuitive et plus simple.
 
-{{< figure src="buttons-footer.png" width="800" caption="Boutons de redémarrage et d'arrêt en pied de page" class="centered-image" >}}
+{{< figure src="buttons-footer.png" width="800" title="Boutons de redémarrage et d'arrêt en pied de page" class="centered-image" >}}
 
 L'activation de cette fonctionnalité s'effectue en visitant les options de la MoodleBox, dans l'interface d'administration : [Administration du site > Serveur > MoodleBox > Options MoodleBox][1], puis en cochant la case « Afficher les boutons dans le pied de page ».
 
-{{< figure src="buttons-settings.png" width="720" caption="Case à cocher Afficher les boutons dans le pied de page" class="centered-image" >}}
+{{< figure src="buttons-settings.png" width="720" title="Case à cocher Afficher les boutons dans le pied de page" class="centered-image" >}}
 
 Après avoir enregistré les modifications, les boutons de redémarrage et d'arrêt de la MoodleBox seront affichés pour les rôles Moodle avec la capacité `tool/moodlebox:viewbuttonsinfooter`, accordée par défaut au rôle de gestionnaire et bien entendu aux administrateurs. Ils ne sont pas affichés pour les autres utilisateurs.
 

@@ -18,7 +18,7 @@ The MoodleBox dashboard can be found in the administration interface, under [Sit
 
 The dashboard provides access to important information on the operation of the MoodleBox.
 
-{{< figure src="info-moodlebox.png" width="800" caption="MoodleBox information" class="centered-image" >}}
+![MoodleBox dashboard screenshot](info-moodlebox.png "MoodleBox dashboard")
 
 The dashboard also allows you to perform the following operations.
 
@@ -27,9 +27,10 @@ The dashboard also allows you to perform the following operations.
 - [Change the configuration of the Wi-Fi network][4] provided by the MoodleBox.
 - [Restart or shutdown][5] the MoodleBox
 
+
 {{< notice note >}}
 When the MoodleBox power supply is not adequate, a __warning is displayed at the top of each page__. This warning is only visible to the administrator. Other MoodleBox users do not see it.
-{{< figure src="undervoltage.png" width="700" title="Undervoltage warning" class="centered-image" alt="Undervoltage warning" >}}
+{{< figure src="undervoltage.png" title="Undervoltage warning" class="centered-image" width="700" >}}
 {{< /notice >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php

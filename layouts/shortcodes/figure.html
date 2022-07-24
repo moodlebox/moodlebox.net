@@ -1,39 +1,65 @@
-{{/* begin  */}}
+{{/* Adapted from: https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-image.html  */}}
 {{ $image_src := .Get "src" }}
 {{ $image_link := .Get "link" }}
 {{ $image_alt := .Get "alt" }}
 {{ $image_title := .Get "title" }}
 {{ $image_attr := .Get "attr" }}
 {{ $image_attrlink := .Get "attrlink" }}
-{{ $image_width := .Get "width" }}
-{{ $image_height := .Get "height" }}
+{{ $image_width := printf "%spx" (.Get "width") }}
+{{ $image_height := printf "%spx" (.Get "height") }}
 {{ $image_caption := .Get "caption" }}
 {{ $image_rel := .Get "rel" }}
 {{ $image_target := .Get "target" }}
-<div class="image-box fancy-figure caption-position-bottom caption-effect-appear">
-<figure{{ with .Get "class" }} class="{{ . }}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-{{/* Attempt to automatically load image from page bundle */}}
-{{ $img_url := (index (($.Page.Resources.ByType "image").Match (printf "%s*" $image_src)) 0).Permalink }}
-{{ with $img_url }}
-  <img src="{{ $img_url }}" {{ if or $image_alt $image_caption }}alt="{{ with $image_alt }}{{ . }}{{ else }}{{ $image_caption }}{{ end }}" {{ end }}{{ with $image_width }}width="{{ . }}" {{ end }}{{ with $image_height }}height="{{ . }}" {{ end }}/>
-{{ else }}
-  {{/* Load gallery images from the `static` media library */}}
-  {{ $img_url := (printf "%s" $image_src | relURL) }}
-  <img src="{{ $img_url }}" {{ if or $image_alt $image_caption }}alt="{{ with $image_alt }}{{ . }}{{ else }}{{ $image_caption }}{{ end }}" {{ end }}{{ with $image_width }}width="{{ . }}" {{ end }}{{ with $image_height }}height="{{ . }}" {{ end }}/>
-{{ end }}
-{{ with $image_link }}
-  <a href="{{ . }}"{{ with $image_target }} target="{{ . }}"{{ end }}{{ with $image_rel }} rel="{{ . }}"{{ end }} itemprop="contentUrl"></a>
-{{ end }}
-{{ if or (or $image_title $image_caption) $image_attr }}
-  <figcaption>
-    {{ with $image_title }}<p><em>{{ . | markdownify | emojify }}</em></p>{{ end }}
-    {{ if or $image_caption $image_attr }}<p>
-      {{ $image_caption | markdownify | emojify }}
-      {{ with $image_attrlink }}<a href="{{ . }}">{{ end }}
-      {{ $image_attr }}
-      {{ if $image_attrlink }}</a> {{ end }}
-    </p> {{ end }}
-  </figcaption>
-{{ end }}
-</figure>
+{{ $image_class := .Get "class" }}
+
+{{/* Attempt to load image from page bundle */}}
+{{- $image := .Page.Resources.GetMatch $image_src -}}
+{{- if and (not $image) .Page.File -}}
+  {{- $path := path.Join .Page.File.Dir $image_src -}}
+  {{- $image = resources.Get $path -}}
+{{- end -}}
+{{/* No image in page bundle, let's try in assets */}}
+{{- if not $image }}
+  {{ $image = resources.GetMatch (printf "%s" $image_src | relURL) }}
+{{- end -}}
+{{- with $image -}}
+{{/* No processing for GIF images */}}
+{{- if eq (string $image.MediaType) "image/gif" -}}
+<div class="image-box caption-position-bottom caption-effect-appear">
+  <figure class="image-caption">
+    <img src="{{ $image_src | safeURL }}" alt="{{ $image_alt }}" />
+    <figcaption>
+      <p><em>{{ with $image_title | safeHTML }}{{ . }}{{ end }}</em></p>
+    </figcaption>
+  </figure>
 </div>
+{{- else -}}
+  {{- $large := $image.Resize "1200x webp" -}}
+  {{- $medium := $large.Resize "768x webp" -}}
+  {{- $small := $medium.Resize "450x webp" -}}
+<div class="image-box caption-position-bottom caption-effect-appear">
+  <figure{{ with $image_class }} class="{{ . }}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <img alt="{{ $image_alt }}"
+      srcset="
+        {{ $small.RelPermalink }} 450w,
+        {{ $medium.RelPermalink }} 768w,
+        {{ $large.RelPermalink }} 1200w"
+      sizes="{{ $image_width }}"
+      src="{{ $small.RelPermalink }}" />
+    <figcaption>
+      <p><em>{{ with $image_title | safeHTML }}{{ . }}{{ end }}</em></p>
+    </figcaption>
+  </figure>
+</div>
+{{- end -}}
+{{- else -}}
+<div class="image-box caption-position-bottom caption-effect-appear">
+  <figure class="image-caption">
+    <img src="{{ $image_src | safeURL }}" alt="{{ $image_alt }}" />
+    <figcaption>
+      <p><em>{{ with $image_title | safeHTML }}{{ . }}{{ end }}</em></p>
+    </figcaption>
+  </figure>
+</div>
+{{- end -}}
+

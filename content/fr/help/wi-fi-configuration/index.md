@@ -15,7 +15,7 @@ categories:
 ---
 En tant qu'administrateur, il est possible de modifier différents réglages du point d'accès sans fils de la MoodleBox, en visitant [Administration du site > Serveur > MoodleBox][1] dans le bloc d'administration.
 
-{{< figure src="wifi-settings.png" caption="Réglages Wi-Fi" width="800px" >}}
+{{< figure src="wifi-settings.png" title="Réglages Wi-Fi" width="800" >}}
 
 ### Changer le nom du réseau Wi-Fi (SSID)
 

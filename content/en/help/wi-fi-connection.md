@@ -17,6 +17,6 @@ On your device, choose __MoodleBox__ wireless network. When prompted type the pa
 
 You're now connected on the Wi-Fi network, and you can access to the Moodle environment via your browser, using the following address: http://moodlebox.home/. The home page of your Moodle will now display.
 
-{{< figure src="/img/media/moodlebox-home-en.png" thumb="-small" caption="Moodle home page" caption-position="bottom" caption-effect="appear" width="550px" >}}
+{{< figure src="/img/media/moodlebox-home-en.png" thumb="-small" title="Moodle home page" caption-position="bottom" caption-effect="appear" width="550" >}}
 
 If the MoodleBox is connected the an ethernet network providing Internet access, you can access via your device to other web sites or services on the Internet. Otherwise, your device is offline and can only access resources stored on the MoodleBox.

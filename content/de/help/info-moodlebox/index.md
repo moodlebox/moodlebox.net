@@ -20,7 +20,7 @@ Das MoodleBox Dashboard finden Sie in der Administrationsoberfläche unter [Webs
 
 Das Dashboard bietet Zugang zu wichtigen Informationen über die Funktionen der MoodleBox.
 
-{{< figure src="info-moodlebox.png" width="800" caption="MoodleBox Informationen" class="centered-image" >}}
+{{< figure src="info-moodlebox.png" width="800" title="MoodleBox Informationen" class="centered-image" >}}
 
 Das Dashboard ermöglicht es Ihnen auch, die folgenden Aktionen durchzuführen.
 

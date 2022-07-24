@@ -17,7 +17,7 @@ categories:
 
 Insert your microSD card into the Raspberry Pi slot, power it up and connect it to the network via an Ethernet cable. The red LED lights up, and after a few seconds the green LED lights up intermittently.
 
-{{< figure src="/img/media/pi-plug-in.gif" caption="Startup" caption-position="bottom" caption-effect="appear" width="750px" >}}
+{{< figure src="/img/media/pi-plug-in.gif" title="Startup" caption-position="bottom" caption-effect="appear" width="750" >}}
 
 There is no other manipulation to do: after the boot, your MoodleBox ready and totally functional.
 
@@ -33,7 +33,7 @@ Log in the Moodle instance of the MoodleBox and visit [Site administration > Ser
 In order to minimize the risk of data corruption on the microSD card, it is not recommended to unplug the power supply without care to shutdown the MoodleBox. It is preferable to manually control its shutdown beforehand.
 {{< /notice >}}
 
-{{< figure src="/img/media/restart-shutdown-en.png" caption="Shutdown and restart" caption-position="bottom" caption-effect="appear" width="735px" >}}
+{{< figure src="/img/media/restart-shutdown-en.png" title="Shutdown and restart" caption-position="bottom" caption-effect="appear" width="735" >}}
 
 In the section __Restart and shutdown__, the interface displays two buttons allowing to restart and shutdown the MoodleBox. Click on the button __Shutdown MoodleBox__, wait a few seconds and check that the green LED doesn't lights up any more. You may now safely unplug the power supply.
 
@@ -49,7 +49,7 @@ It is possible to install a hardware button to switch off and start the MoodleBo
 
 The installation of a hardware button is very simple: you just have to buy a button, for example [this capacitive button][3], and connect it to the pins of the MoodleBox GPIO (pins 5 and 6) port using [jumpers][4] (see the image below, thanks to Laurent Fleron), then restart the MoodleBox.
 
-{{< figure src="/img/media/hardware-button.jpg" caption="Hardware button" caption-position="bottom" caption-effect="appear" width="400px" >}}
+{{< figure src="/img/media/hardware-button.jpg" title="Hardware button" caption-position="bottom" caption-effect="appear" width="400" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
  [2]: {{< relref "help/download-the-disk-image" >}}

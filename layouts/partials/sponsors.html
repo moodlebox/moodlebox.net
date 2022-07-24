@@ -14,7 +14,8 @@
 
         <p class="text-center">
           <a href="{{ site.Params.sponsors.url }}" target="_blank">
-              <img src="{{ site.Params.sponsors.image }}" width="400px" alt="{{ site.Params.sponsors.name }}" class=".centered-image" />
+              {{ $image := ((resources.GetMatch site.Params.sponsors.image).Resize `400x webp`) }}
+              <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ site.Params.sponsors.name }}" class="centered-image" />
           </a>
         </p>
 

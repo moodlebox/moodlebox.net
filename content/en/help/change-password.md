@@ -20,7 +20,7 @@ To change the main password of your MoodleBox, visit the dashboard in the admini
 
 This password is part of the main credentials of your MoodleBox. It gives access to the [command line interface][5] of the MoodleBox, to the [SFTP file upload][6]  as well as to the [database administration][7].
 
-{{< figure src="/img/media/change-password-en.png" caption="Change the main password" caption-position="bottom" caption-effect="appear" width="600px"  >}}
+{{< figure src="/img/media/change-password-en.png" title="Change the main password" caption-position="bottom" caption-effect="appear" width="600"  >}}
 
 In the __MoodleBox password section__, enter your new password, the same in both fields. By clicking on the eye icon, you can display the characters you have typed. We recommend choosing a strong password.
 

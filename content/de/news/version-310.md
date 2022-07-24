@@ -14,7 +14,7 @@ Die [Version 3.1.0][2] des [Disk-Image der MoodleBox][1] wurde gerade veröffent
   - Captive Portal Software [Nodogsplash][6] ist auf die neueste Version aktualisiert.
   - Verschiedene kleinere Bugs wurden korrigiert.
 
-{{< figure src="/img/media/pijuice.png" width="450" caption="Pi Juice HAT" class="centered-image" >}}
+{{< figure src="/img/media/pijuice.png" width="450" title="Pi Juice HAT" class="centered-image" >}}
 
 Diese Version enthält auch eine erste Version des MoodleBox-Update-Skripts. Das Skript ist funktional, aber es gibt noch keine Dokumentation.
 

@@ -10,7 +10,7 @@ slug: version-3.6.0
 
 Die [Version 3.6.0][2] des [Disk-Image der MoodleBox][1] wurde gerade veröffentlicht.
 
-{{< figure src="/img/media/dashboard.png" width="730" caption="Dashboard" class="centered-image" >}}
+{{< figure src="/img/media/dashboard.png" width="730" title="Dashboard" class="centered-image" >}}
 
   - Eine neue Version des [MoodleBox-Plugin für Moodle][Plugin] bietet ein überarbeitetes Dashboard, das jetzt auch die IP-Adresse der MoodleBox und die IP-Adresse des Standard-Gateways anzeigt.
   - [Moodle][moodle] ist aktualisiert auf Version 3.8.1+.

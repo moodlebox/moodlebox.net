@@ -17,7 +17,7 @@ categories:
 
 Sobald ein USB-Stick in einen der USB-Ports der MoodleBox eingesteckt wird, sind automatisch alle Dateien auf dem USB-Stick für Administratoren und Trainer in der Dateiauswahl von Moodle verfügbar, u.z. über das Repository __USB Drive__.
 
-{{< figure src="/img/media/usb-drive.png" thumb="-small" caption="Repository USB-Drive " caption-position="bottom" caption-effect="appear" width="550px" >}}
+{{< figure src="/img/media/usb-drive.png" thumb="-small" title="Repository USB-Drive " caption-position="bottom" caption-effect="appear" width="550" >}}
 
 Wenn mehrere USB-Sticks in die MoodleBox eingesteckt werden, sind ausschließlich die Dateien auf dem zuerst eingesteckten USB-Stick verfügbar.
 
@@ -29,7 +29,7 @@ Die MoodleBox kommt mit folgenden Formatierungen zurecht: FAT32, VFAT, ext2, ext
 
 Dateien können auf die MoodleBox auch über SFTP hochgeladen werden. Dateien im Verzeichnis __files__ sind ebenfalls für Administrator und Trainer in der Dateiauswahl von Moodle verfügbar, u.z. über das Repository __SFTP Documents__.
 
-{{< figure src="/img/media/sftp-documents.png" thumb="-small" caption="Repository SFTP Documents" caption-position="bottom" caption-effect="appear" width="550px" >}}
+{{< figure src="/img/media/sftp-documents.png" thumb="-small" title="Repository SFTP Documents" caption-position="bottom" caption-effect="appear" width="550" >}}
 
 Um Dateien über SFTP hochzuladen, nehmen Sie eine Software wie [FileZilla][1], [Cyberduck][2], [WinSCP][3] oder [Documents][4] und geben Sie folgende Anmeldedaten ein:
 

@@ -16,7 +16,7 @@ Pour se connecter en HTTPS à la MoodleBox sans affichage d'une fenêtre d'avert
 ### Installation du certificat racine sur Windows (Edge et Chrome)
 
 1. Lancer Edge ou Chrome, accéder à la [page d'accueil de la MoodleBox][moodlebox] et cliquer le lien _Installer le certificat CA racine_, puis sur _Ouvrir_.
-  {{< figure src="download-CA-cert.png" caption="Télécharger le certificat CA" width="380px" >}}
+  {{< figure src="download-CA-cert.png" title="Télécharger le certificat CA" width="380" >}}
 2. Dans la fenêtre _Voulez-vous ouvrir ce fichier ?_, cliquer _Ouvrir_.
 3. Dans la fenêtre _Certificat_, cliquer _Installer un certificat…_.
 4. L'Assistant Importation du certificat s'ouvre. Sélectionner _Ordinateur local_, puis cliquer _Suivant_.
@@ -33,7 +33,7 @@ Pour se connecter en HTTPS à la MoodleBox sans affichage d'une fenêtre d'avert
 
 1. Lancer Firefox, accéder à la [page d'accueil de la MoodleBox][moodlebox] et cliquer le lien _Installer le certificat CA racine_.
 2. Dans la fenêtre qui s'ouvre, cocher la case _Confirmer cette AC pour identifier des sites web_ et cliquer OK.
-  {{< figure src="firefox-ca-cert.png" caption="Configurer le certificat CA avec Firefox" width="650px" >}}
+  {{< figure src="firefox-ca-cert.png" title="Configurer le certificat CA avec Firefox" width="650" >}}
 
   [project]: {{< relref "/project" >}}
   [moodlebox]: http://moodlebox.home/

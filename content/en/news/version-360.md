@@ -9,7 +9,7 @@ slug: version-3.6.0
 
 [Version 3.6.0][2] of the [MoodleBox disk image][1] was just released.
 
-{{< figure src="/img/media/dashboard.png" width="730" caption="Dashboard" class="centered-image" >}}
+{{< figure src="/img/media/dashboard.png" width="730" title="Dashboard" class="centered-image" >}}
 
   - A new version of the [MoodleBox Plugin for Moodle][plugin] provides a refactored dashboard, including display of MoodleBox and its default gateway IP address.
   - This version provides [Moodle][moodle] version 3.8.1+.

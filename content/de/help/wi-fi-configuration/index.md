@@ -16,7 +16,7 @@ categories:
 ---
 Wenn Sie die MoodleBox einschalten, arbeitet die MoodleBox wie ein WLAN-AccessPoint. Als Administrator können Sie zahlreiche WLAN-Einstellungen ändern. Um dies zu tun, gehen Sie in den MoodleBox-Einstellungen auf [Website-Administration > Server > MoodleBox][1].
 
-{{< figure src="wifi-settings.png" caption="WLAN-Eistellungen" width="800px" >}}
+{{< figure src="wifi-settings.png" title="WLAN-Eistellungen" width="800" >}}
 
 ### WLAN-Namen (SSID) ändern
 

@@ -13,7 +13,7 @@ aliases:
   - help/projet-moodlebox
 ---
 
-{{< figure src="osi_standard_logo_0.png" alt="open source initiative logo" width="300px" class="right-aligned-image" >}}Le projet MoodleBox est un projet libre (open source) et gratuit.
+{{< figure src="osi_standard_logo_0.png" alt="open source initiative logo" width="300" class="right-aligned-image" >}}Le projet MoodleBox est un projet libre (open source) et gratuit.
 
 ### Histoire
 

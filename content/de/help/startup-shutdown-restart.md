@@ -18,7 +18,7 @@ categories:
 
 Setzen Sie die kopierte microSD-Karte in den Steckplatz im Raspberry Pi ein. Verbinden Sie die MoodleBox über ein Ethernet-Kabel mit dem Netzwerk oder dem Internetrouter. Schalten Sie die Stromversorgung ein. Die rote LED leuchtet und nach einigen Sekunden beginnt die grüne LED zu blinken.
 
-{{< figure src="/img/media/pi-plug-in.gif" caption="Einschalten" caption-position="bottom" caption-effect="appear" width="750px" >}}
+{{< figure src="/img/media/pi-plug-in.gif" title="Einschalten" caption-position="bottom" caption-effect="appear" width="750" >}}
 
 Es sind keine weiteren Einstellungen notwendig. Sofort nach dem Start ist die MoodleBox fertig und voll funktionsfähig.
 
@@ -34,7 +34,7 @@ Melden Sie sich mit einem Administratorkonto in der Moodle-Plattform der MoodleB
 Um das Risiko von Datenverlusten auf der microSD-Karte zu minimieren, fahren Sie bitte zuerst die MoodleBox manuell herunter, bevor Sie die Stromversorgung ausschalten.
 {{< /notice >}}
 
-{{< figure src="/img/media/restart-shutdown-de.png" caption="Neustarten und ausschalten" caption-position="bottom" caption-effect="appear" width="735px" >}}
+{{< figure src="/img/media/restart-shutdown-de.png" title="Neustarten und ausschalten" caption-position="bottom" caption-effect="appear" width="735" >}}
 
 Im Abschnitt __Neustarten und ausschalten__ zeigt die Benutzeroberfläche zwei Schaltflächen, mit denen Sie die MoodleBox neustarten oder ausschalten können. Tippen Sie auf die Schaltfläche __MoodleBox ausschalten__ und warten Sie dann einige Sekunden, bis die grüne LED nicht mehr leuchtet. Jetzt können Sie das Netzteil entfernen.
 
@@ -50,7 +50,7 @@ Wenn Sie möchten, können Sie eine Hardwaretaste installieren, um die MoodleBox
 
 Die Installation einer Hardwaretaste ist sehr einfach. Sie müssen lediglich eine Taste kaufen, z.B. eine [kapazitive Taste][3], und sie mit [Jumperkabeln][4] an die richtigen Pins des GPIO-Ports (Pins 5 und 6) der MoodleBox anschließen (siehe Bild unten, dank an Laurent Fleron). Danach starten Sie die MoodleBox neu.
 
-{{< figure src="/img/media/hardware-button.jpg" thumb="-small" caption="Hardwaretaste" caption-position="bottom" caption-effect="appear" width="400px" >}}
+{{< figure src="/img/media/hardware-button.jpg" thumb="-small" title="Hardwaretaste" caption-position="bottom" caption-effect="appear" width="400" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
  [2]: {{< relref "help/download-the-disk-image" >}}

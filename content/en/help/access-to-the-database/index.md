@@ -20,7 +20,7 @@ The MoodleBox allows access to the Moodle database for administration purpose,
   * Username: __moodlebox__
   * Password: __Moodlebox4$__
 
-{{< figure src="adminer.png" width="782" caption="Database access with Adminer" class="centered-image" >}}
+{{< figure src="adminer.png" width="782" title="Database access with Adminer" class="centered-image" >}}
 
 {{< notice info >}}
 In MoodleBox versions prior to version 3.0.0, the phpMyAdmin tool was used to access the database, via the URL [http://moodlebox.home/phpmyadmin](http://moodlebox.home/phpmyadmin).

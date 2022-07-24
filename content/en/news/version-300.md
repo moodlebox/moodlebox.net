@@ -9,7 +9,7 @@ slug: version-3.0.0
 
 [Version 3.0.0][2] of the [MoodleBox disk image][1] is released today. It brings many new features.
 
-{{< figure src="/img/media/pi4-labelled.png" width="583" caption="Raspberry Pi model 4B" class="centered-image" >}}
+{{< figure src="/img/media/pi4-labelled.png" width="583" title="Raspberry Pi model 4B" class="centered-image" >}}
 
   - This version supports the new [Raspberry Pi model 4B][8] (1GB, 2GB or 4GB of RAM), delivering significant performance gains.
   - It provides [Moodle][3] version 3.7.1 and a new version of the [MoodleBox plugin for Moodle][5].

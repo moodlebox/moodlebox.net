@@ -23,7 +23,7 @@ Für normale Nutzer besteht keinerlei Notwendigkeit, auf das Betriebssystem der 
 
 Öffnen Sie eine neue Verbindung, schreiben Sie die Adresse __moodlebox.home__ in das Feld _Host Name_, klicken Sie dann auf _Öffnen_ und geben Sie das Kennwort __Moodlebox4$__ ein.
 
-{{< figure src="/img/media/putty-moodlebox.png" caption="Verbindung mit PuTTY" caption-position="bottom" caption-effect="appear" width="516px" >}}
+{{< figure src="/img/media/putty-moodlebox.png" title="Verbindung mit PuTTY" caption-position="bottom" caption-effect="appear" width="516" >}}
 
 ### Im klassischen Terminal (Linux, macOS)
 

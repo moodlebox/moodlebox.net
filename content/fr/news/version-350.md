@@ -9,7 +9,7 @@ slug: version-3.5.0
 
 La [version 3.5.0][2] de l'[image  de la MoodleBox][1] vient d'être publiée.
 
-{{< figure src="/img/media/moodle38.jpg" width="600" caption="Moodle 3.8" class="centered-image" >}}
+{{< figure src="/img/media/moodle38.jpg" width="600" title="Moodle 3.8" class="centered-image" >}}
 
   - Cette version fournit [Moodle][3] version 3.8.
   - Elle est basée sur la dernière version de [Raspbian Buster Lite][raspbian], publiée le 26 septembre 2019.

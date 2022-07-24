@@ -19,7 +19,7 @@ You may now log into Moodle in your browser. Open your browser and type [http://
   * username: __moodlebox__
   * password: __Moodlebox4$__
 
-{{< figure src="moodle-login-en.png" caption="Moodle Login" caption-position="bottom" caption-effect="appear" width="610px" >}}
+{{< figure src="moodle-login-en.png" title="Moodle Login" caption-position="bottom" caption-effect="appear" width="610" >}}
 
 You're now logged into the Moodle administrator account of the MoodleBox. It's __strongly recommended that you change the default password__ of the Moodle admin account at the first login.
 

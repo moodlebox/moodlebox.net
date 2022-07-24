@@ -14,7 +14,7 @@ La [version 3.1.0][2] de l'[image  de la MoodleBox][1] vient d'être publiée.
   - Le logiciel du portail captif [Nodogsplash][6] a été mis à jour à sa dernière version.
   - Divers bogues mineurs ont été corrigés.
 
-{{< figure src="/img/media/pijuice.png" width="450" caption="Pi Juice HAT" class="centered-image" >}}
+{{< figure src="/img/media/pijuice.png" width="450" title="Pi Juice HAT" class="centered-image" >}}
 
 Cette version fournit également une version préliminaire du script de mise à jour de la MoodleBox. Le script est fonctionnel, mais aucune documentation n'est encore fournie.
 

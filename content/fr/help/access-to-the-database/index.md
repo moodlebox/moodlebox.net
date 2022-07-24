@@ -20,7 +20,7 @@ La MoodleBox permet à des fins d'administration un accès direct à la base de 
   * Nom d'utilisateur : __moodlebox__
   * Mot de passe : __Moodlebox4$__
 
-{{< figure src="adminer.png" width="782" caption="Accès base de données avec Adminer" class="centered-image" >}}
+{{< figure src="adminer.png" width="782" title="Accès base de données avec Adminer" class="centered-image" >}}
 
 {{< notice info >}}
 Dans les versions de la MoodleBox antérieure à la version 3.0.0, l'outil phpMyAdmin était utilisé pour accéder à la base de données, via l'URL [http://moodlebox.home/phpmyadmin](http://moodlebox.home/phpmyadmin).
