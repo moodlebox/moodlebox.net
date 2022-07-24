@@ -1,0 +1,29 @@
+{{/* Source: https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-image.html */}}
+{{- $image := .Page.Resources.GetMatch .Destination -}}
+{{- if and (not $image) .Page.File -}}
+{{- $path := path.Join .Page.File.Dir .Destination -}}
+{{- $image = resources.Get $path -}}
+{{- end -}}
+{{- with $image -}}
+{{- $large := $image.Resize "1200x webp" -}}
+{{- $medium := $large.Fill "726x402 webp" -}}
+{{- $small := $medium.Fill "458x254 webp" -}}
+<div class="image-box caption-position-bottom caption-effect-appear">
+  <figure class="centered-image" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <img alt="{{ $.Text }}" srcset="
+      {{ $small.RelPermalink }} 458w,
+      {{ $medium.RelPermalink }} 726w,
+      {{ $large.RelPermalink }} 1200w" sizes="60vw" src="{{ $small.RelPermalink }}" />
+    <figcaption>
+      <p><em>{{ with $.Title | safeHTML }}{{ . }}{{ end }}</em></p>
+    </figcaption>
+  </figure>
+</div>
+{{- else -}}
+<div class="image-box caption-position-bottom caption-effect-appear">
+  <figure class="image-caption">
+    <img src="{{ .Destination | safeURL }}" alt="{{ $.Text }}" />
+  </figure>
+</div>
+{{- end -}}
+{{- /* This comment removes trailing newlines. */ -}}

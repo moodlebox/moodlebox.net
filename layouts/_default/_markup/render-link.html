@@ -1,3 +1,4 @@
+{{/* Source: https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html */}}
 {{ $link := .Destination }}
 {{ $isRemote := strings.HasPrefix $link "http" }}
 {{- if not $isRemote -}}
