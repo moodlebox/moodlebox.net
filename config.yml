@@ -526,12 +526,23 @@ markup:
     footnoteReturnLinkContents: ↩
 #     footnoteReturnLinkContents: ↑
   goldmark:
+    parser:
+      attribute:
+        block: true
+        title: true
     renderer:
       unsafe: true
   highlight:
     style: emacs
     lineNumbersInTable: true
     noClasses: true
+
+imaging:
+  anchor: Smart
+  bgColor: '#ffffff'
+  hint: drawing
+  quality: 90
+  resampleFilter: Lanczos
 
 #outputFormats:
 #  JS:
