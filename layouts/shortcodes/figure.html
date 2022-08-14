@@ -55,7 +55,7 @@
 {{- else -}}
 <div class="image-box">
   <figure{{ with $image_class }} class="{{ . }}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <img src="{{ $image_src | safeURL }}" alt="{{ $image_alt }}" />
+    <img src="{{ $image_src | safeURL }}" width="{{ $image_width }}" alt="{{ $image_alt }}" />
     <figcaption>
       <p><em>{{ with $image_title | safeHTML }}{{ . }}{{ end }}</em></p>
     </figcaption>
