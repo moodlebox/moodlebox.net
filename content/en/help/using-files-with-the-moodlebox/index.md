@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2022-07-14
+lastmod: 2022-08-14
 description: The MoodleBox makes it easy to make files available to its users, using the methods described below
 slug: using-files-with-the-moodlebox
 categories_weight: 7
