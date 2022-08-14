@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-07-09
-lastmod: 2018-07-09
+lastmod: 2022-08-14
 description: Follow these instructions to resize your SD card partition.
 slug: resize-sdcard-partition
 categories_weight: 100
@@ -14,8 +14,8 @@ categories:
 
 ### Steps to follow
 
-{{< notice warning >}}
-The operation described below is not required if you have downloaded the disk image from this website. However, it may be necessary to run it if you have received a custom disk image.
+{{< notice note >}}
+This operation is not required if you have downloaded the disk image from this website. However, it may be necessary to run it if you have received a custom disk image.
 {{< /notice >}}
 
 - [Copy your custom disk image][2] to the microSD card.
@@ -24,11 +24,11 @@ The operation described below is not required if you have downloaded the disk im
 - Access the [administration interface][6] of the MoodleBox ([Site Administration > Server > MoodleBox][6] in the administration block).
 - Click on the button _Resize SD card partition_.
 
-{{< figure src="/img/media/resize-sdcard-en.png" title="Resize SD card partition" caption-position="bottom" caption-effect="appear" width="800" >}}
+{{< figure src="resize-sdcard-en.png" title="Resize SD card partition" class="centered-image" width="700" >}}
 
 The MoodleBox restarts immediately and is ready for use seconds after this operation.
 
-{{< notice info >}}
+{{< notice tip >}}
 There is no problem clicking the _Resize SD card partition_ button when the SD card is already resized. The only consequence will be the restart of the MoodleBox.
 {{< /notice >}}
 

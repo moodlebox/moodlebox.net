@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-07-09
-lastmod: 2018-07-09
+lastmod: 2022-08-14
 description: Pour redimensionner la partition de votre carte SD, suivez ces instructions.
 slug: redimensionner-partition-carte-sd
 categories_weight: 100
@@ -14,8 +14,8 @@ categories:
 
 ### Marche à suivre
 
-{{< notice warning >}}
-L'opération décrite ci-dessous n'est pas requise si vous avez téléchargé l'image-disque sur ce site web. Toutefois, il peut être nécessaire de l'exécuter si vous avez reçu une image-disque personnalisée.
+{{< notice note >}}
+Cette opération n'est pas requise si vous avez téléchargé l'image-disque sur ce site web. Toutefois, il peut être nécessaire de l'exécuter si vous avez reçu une image-disque personnalisée.
 {{< /notice >}}
 
 - [Copier votre image-disque personnalisée][2] sur la carte microSD ;
@@ -24,11 +24,11 @@ L'opération décrite ci-dessous n'est pas requise si vous avez téléchargé l'
 - [accédez à l'interface d'administration][6] de la MoodleBox ([Administration du site > Serveur > MoodleBox][6] dans le bloc d'administration) ;
 - cliquez sur le bouton _Redimensionner la partition de la carte SD_.
 
-{{< figure src="/img/media/resize-sdcard-fr.png" title="Redimensionner la carte SD" caption-position="bottom" caption-effect="appear" width="800" >}}
+{{< figure src="resize-sdcard-fr.png" title="Redimensionner la carte SD" class="centered-image" width="700" >}}
 
 La MoodleBox redémarre immédiatement et est prête à l'emploi quelques secondes après cette opération.
 
-{{< notice info >}}
+{{< notice tip >}}
 Il n'y a aucune conséquence problématique à cliquer sur le bouton _Redimensionner la partition de la carte SD_ alors que la carte SD est déjà redimensionnée. La seule conséquence sera le redémarrage de la MoodleBox.
 {{< /notice >}}
 

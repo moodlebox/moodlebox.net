@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-07-09
-lastmod: 2018-07-09
+lastmod: 2022-08-14
 description: Mit Hilfe dieser Anleitung können Sie den nutzbaren Speicherplatz auf der SD-Karte vergrößern.
 slug: sd-karte-partition-vergroessern
 categories_weight: 100
@@ -13,9 +13,9 @@ categories:
   - Wartung
 ---
 
-### Folgende Schritte sind notwendig
+### Vorgehen
 
-{{< notice warning >}}
+{{< notice note >}}
 Die Operation ist nicht erforderlich, wenn Sie das Disk-Image von dieser Website heruntergeladen haben. Die Ausführung kann jedoch sinnvoll sein, wenn Sie ein angepasstes Disk-Image haben, das den Platz auf der SD-Karte nicht vollständig belegt.
 {{< /notice >}}
 
@@ -25,11 +25,11 @@ Die Operation ist nicht erforderlich, wenn Sie das Disk-Image von dieser Website
 - Greifen Sie auf die [Administrationsoberfläche][6] der MoodleBox zu ([Website-Administration > Server > MoodleBox][6]).
 - Klicken Sie auf die Taste _Partitionsgröße der SD-Karte ändern_.
 
-{{< figure src="/img/media/resize-sdcard-de.png" title="Partitionsgröße der SD-Karte ändern" caption-position="bottom" caption-effect="appear" width="800" >}}
+{{< figure src="resize-sdcard-de.png" title="Partitionsgröße der SD-Karte ändern" class="centered-image" width="700" >}}
 
 Die MoodleBox wird anschließend automatisch neu gestartet und ist einige Sekunden nach diesem Vorgang einsatzbereit.
 
-{{< notice info >}}
+{{< notice tip >}}
 Kein Problem ist es, wenn Sie auf die Taste _Partitionsgröße der SD-Karte ändern_ klicken und die Partitionsgröße bereits vorher geändert wurde. Als einzige Konsequenz erfolgt ein Neustart der MoodleBox.
 {{< /notice >}}
 
