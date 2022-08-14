@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2022-04-18
+lastmod: 2022-08-14
 description: L'image-disque de la MoodleBox peut être téléchargée gratuitement et librement sur sur cette page.
 slug: telecharger-limage-disque
 categories_weight: 3
@@ -28,7 +28,7 @@ aliases:
       Version : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}</strong>
     </div>
     <div class="image-details">
-      Version de Moodle : <strong>4.0 (Build: 20220419)</strong>
+      Version de Moodle : <strong>4.0.2+ (Build: 20220812)</strong>
     </div>
     <div class="image-details">
       Taille : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" >}} Mo</strong>
