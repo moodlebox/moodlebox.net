@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2019-11-17
-lastmod: 2019-11-17
+lastmod: 2022-08-14
 description: Um sich über HTTPS mit der MoodleBox zu verbinden, ohne ein Warnungsfenster anzuzeigen, ist es notwendig, das MoodleBox Root-Zertifikat (oder CA-Zertifikat) zu installieren.
 slug: installer-certificat-racine-windows
 categories_weight: 90
@@ -16,7 +16,7 @@ Um sich über HTTPS mit der MoodleBox zu verbinden, ohne ein Warnungsfenster anz
 ### MoodleBox Root-Zertifikat auf Windows installieren (Edge und Chrome)
 
 1. Starten Sie Edge oder Chrome, rufen Sie die [MoodleBox-Startseite][moodlebox] auf und klicken Sie auf Link _Root CA Zertifikat installieren_, dann _Öffnen_.
-  {{< figure src="download-CA-cert.png" title="CA Zertifikat herunterladen" width="380" >}}
+  {{< figure src="download-CA-cert.png" title="CA Zertifikat herunterladen" width="313" class="centered-image" >}}
 2. In Fenster _Möchten Sie diese Datei öffnen?_, klicken Sie _Öffnen_.
 3. In _Zertifikat_ Fenster, klicken Sie _Zertifikat installieren…_.
 4. Es öffnet sich ein Zertifikatimport-Assistent. Wählen Sie _Local Computer_, dann klicken Sie _Weiter_.
@@ -33,7 +33,7 @@ Um sich über HTTPS mit der MoodleBox zu verbinden, ohne ein Warnungsfenster anz
 
 1. Starten Sie Firefox, rufen Sie die [MoodleBox-Startseite][moodlebox] auf und klicken Sie auf Link _Root CA Zertifikat installieren_.
 2. Aktivieren Sie in dem nun angezeigten Fenster das Kontrollkästchen _Dieser CA vertrauen, um Websites zu identifizieren_ und klicken Sie OK.
-  {{< figure src="firefox-ca-cert.png" title="CA Zertifikat Configuration für Firefox" width="650" >}}
+  {{< figure src="firefox-ca-cert.png" title="CA Zertifikat Configuration für Firefox" width="650" class="centered-image" >}}
 
   [project]: {{< relref "/project" >}}
   [moodlebox]: http://moodlebox.home/

@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-11-12
-lastmod: 2020-08-07
+lastmod: 2022-08-14
 description: MoodleBox comes with a dashboard to display different information about the hardware and software installed.
 slug: moodlebox-dashboard
 categories_weight: 10
@@ -17,8 +17,7 @@ categories:
 The MoodleBox dashboard can be found in the administration interface, under [Site Administration > Server > MoodleBox][1]. It is only accessible to platform administrators.
 
 The dashboard provides access to important information on the operation of the MoodleBox.
-
-![MoodleBox dashboard screenshot](info-moodlebox.png "MoodleBox dashboard")
+{{< figure src="info-moodlebox.png" width="700" title="MoodleBox Information" class="centered-image" >}}
 
 The dashboard also allows you to perform the following operations.
 

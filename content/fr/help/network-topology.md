@@ -16,4 +16,4 @@ categories:
 ---
 Le diagramme ci-dessous décrit la topologie du réseau de la MoodleBox. Le nom d'hôte (_hostname_) de la MoodleBox est __moodlebox__. Son nom de domaine complet (_FQDN_) est __moodlebox.home__.
 
-{{< figure src="/img/media/moodlebox-network.png" thumb="-small" title="Diagramme réseau de la MoodleBox" caption-position="bottom" caption-effect="appear" width="550" >}}
+{{< figure src="/img/media/moodlebox-network.png" title="Diagramme réseau de la MoodleBox" class="centered-image" width="550" >}}

@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-13
-lastmod: 2020-08-07
+lastmod: 2022-08-14
 description: MoodleBox wird mit einem Dashboard ausgestattet, um verschiedene Informationen über die installierte Hard- und Software anzuzeigen.
 slug: moodlebox-dashboard
 categories_weight: 10
@@ -20,7 +20,7 @@ Das MoodleBox Dashboard finden Sie in der Administrationsoberfläche unter [Webs
 
 Das Dashboard bietet Zugang zu wichtigen Informationen über die Funktionen der MoodleBox.
 
-{{< figure src="info-moodlebox.png" width="800" title="MoodleBox Informationen" class="centered-image" >}}
+{{< figure src="info-moodlebox.png" width="700" title="MoodleBox Informationen" class="centered-image" >}}
 
 Das Dashboard ermöglicht es Ihnen auch, die folgenden Aktionen durchzuführen.
 

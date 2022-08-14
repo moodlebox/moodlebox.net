@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2020-02-08
+lastmod: 2022-08-14
 description: This guide explains how to provide an Internet connection to users connected via Wi-Fi to a MoodleBox.
 slug: internet-connection
 categories_weight: 9
@@ -18,13 +18,13 @@ Simply connect the MoodleBox with an Ethernet cable to a network that has Intern
 
 If however, you want to use the MoodleBox __without an Internet connection__, for example for activities such as an escape game or assessments where student access to the Internet is not desired, simply disconnect the Ethernet cable from the MoodleBox. Without an Ethernet cable connection, devices connected via Wi-Fi can only access the resources available on the MoodleBox.
 
-{{< notice note >}}
+{{< notice tip >}}
 Starting with version 3.5.2 of the MoodleBox image, information about whether an Ethernet cable is connected is displayed on the [MoodleBox dashboard]({{< relref "help/info-moodlebox" >}}).
 
 The interface name, usually `eth0`, as well as the IP address of the MoodleBox, obtained via DHCP, and the address of the default gateway are also displayed.
 {{< /notice >}}
 
-{{< figure src="ethernet-connexion.png" title="Ethernet cable connected" class="centered-image" width="700" >}}
+{{< figure src="ethernet-connexion.png" title="Ethernet cable connected" class="centered-image" width="710" >}}
 
 Have a look at the [MoodleBox network topology][1] for more information about this.
 

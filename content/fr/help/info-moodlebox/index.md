@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-11-12
-lastmod: 2020-08-07
+lastmod: 2022-08-14
 description: MoodleBox est fournie avec un tableau de bord permettant d'afficher différentes informations sur le matériel et le logiciel installé.
 slug: tableau-de-bord
 categories_weight: 10
@@ -18,7 +18,7 @@ categories:
 Le tableau de bord de la MoodleBox se trouve dans l'interface d'administration, sous [Administration du site > Serveur > MoodleBox][1]. Il n'est accessible que pour les administrateurs de la plateforme.
 
 Le tableau de bord donne accès aux informations importantes sur le fonctionnement de la MoodleBox.
-{{< figure src="info-moodlebox.png" width="800" title="Informations MoodleBox" class="centered-image" >}}
+{{< figure src="info-moodlebox.png" width="700" title="Informations MoodleBox" class="centered-image" >}}
 
 Il permet également d'effectuer les opérations ci-dessous.
 
