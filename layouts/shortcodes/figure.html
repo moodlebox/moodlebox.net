@@ -25,8 +25,8 @@
 {{- with $image -}}
 {{/* No processing for GIF images */}}
 {{- if eq (string $image.MediaType) "image/gif" -}}
-<div class="image-box caption-position-bottom caption-effect-appear">
-  <figure class="image-caption">
+<div class="image-box">
+  <figure{{ with $image_class }} class="{{ . }}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <img src="{{ $image_src | safeURL }}" alt="{{ $image_alt }}" />
     <figcaption>
       <p><em>{{ with $image_title | safeHTML }}{{ . }}{{ end }}</em></p>
@@ -37,7 +37,7 @@
   {{- $large := $image.Resize "1200x webp" -}}
   {{- $medium := $large.Resize "768x webp" -}}
   {{- $small := $medium.Resize "450x webp" -}}
-<div class="image-box caption-position-bottom caption-effect-appear">
+<div class="image-box">
   <figure{{ with $image_class }} class="{{ . }}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <img alt="{{ $image_alt }}"
       srcset="
@@ -53,8 +53,8 @@
 </div>
 {{- end -}}
 {{- else -}}
-<div class="image-box caption-position-bottom caption-effect-appear">
-  <figure class="image-caption">
+<div class="image-box">
+  <figure{{ with $image_class }} class="{{ . }}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <img src="{{ $image_src | safeURL }}" alt="{{ $image_alt }}" />
     <figcaption>
       <p><em>{{ with $image_title | safeHTML }}{{ . }}{{ end }}</em></p>
