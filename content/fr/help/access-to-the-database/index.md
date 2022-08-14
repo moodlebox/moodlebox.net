@@ -16,7 +16,7 @@ La MoodleBox permet à des fins d'administration un accès direct à la base de 
   * Nom d'utilisateur : __moodlebox__
   * Mot de passe : __Moodlebox4$__
 
-{{< figure src="adminer.png" width="782" title="Accès base de données avec Adminer" class="centered-image" >}}
+{{< figure src="adminer.png" width="650" title="Accès base de données avec Adminer" class="centered-image" >}}
 
 {{< notice info >}}
 Il est fortement déconseillé de modifier manuellement la base de données de Moodle. N’effectuez de telles opérations que si vous savez exactement ce que vous faites. Dans tous les cas, __aucune assistance n'est assurée__ sur ce sujet et nous déclinons toute responsabilité pour des pertes de données.

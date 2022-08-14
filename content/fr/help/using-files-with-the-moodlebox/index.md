@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2018-03-01
+lastmod: 2022-08-14
 description: La MoodleBox permet de mettre facilement des fichiers à disposition de ses utilisateurs, au moyen des méthodes décrites ci-dessous
 slug: utilisation-de-fichiers-avec-la-moodlebox
 categories_weight: 7
@@ -16,19 +16,21 @@ categories:
 
 Quand une clef USB est insérée dans l'un des ports USB de la MoodleBox, tous les fichiers sur la clef sont automatiquement disponibles pour les administrateurs et les enseignants définis dans Moodle, au moyen du sélecteur de fichiers, via un dépôt dont le nom est __USB Drive__.
 
-{{< figure src="/img/media/usb-drive.png" thumb="-small" title="Dépôt USB Drive" caption-position="bottom" caption-effect="appear" width="550" >}}
+{{< figure src="usb-drive.png" title="Dépôt USB Drive" class="centered-image" width="650" >}}
 
 Si plusieurs clefs USB sont insérées dans la MoodleBox, seuls les fichiers de la première à avoir été insérée sont disponibles.
 
-Au lieu d'une clef USB, un disque dur (ou SSD) USB peut également être connecté à la MoodleBox et rendu disponible via le dépôt __USB Drive__. Veuillez noter qu'un disque dur USB peut nécessiter plus de courant que le port USB de la MoodleBox peut en fournir, et nécessitera donc une alimentation externe.
+La MoodleBox prend en charge les formats suivants : FAT32, VFAT, ext2, ext3, ext4, NTFS, exFAT et HFS+.
 
-La MoodleBox prend en charge les formats suivants : FAT32, VFAT, ext2, ext3, ext4 et HFS+. Les versions 2.2.0 et ultérieures de la MoodleBox prennent également en charge les clefs et disques formatés en NTFS et en exFAT.
+{{< notice tip >}}
+Au lieu d'une clef USB, un disque dur (ou SSD) USB peut également être connecté à la MoodleBox et rendu disponible via le dépôt __USB Drive__. Veuillez noter qu'un disque dur USB peut nécessiter plus de courant que le port USB de la MoodleBox peut en fournir, et nécessitera donc une alimentation externe.
+{{< /notice >}}
 
 ### Fichiers via SFTP
 
 Les fichiers déposés dans la MoodleBox par SFTP, dans le dossier dénommé __files__, sont aussi disponibles les administrateurs et les enseignants définis dans Moodle, au moyen du sélecteur de fichiers, via un dépôt dont le nom est __SFTP Documents__.
 
-{{< figure src="/img/media/sftp-documents.png" thumb="-small" title="Dépôt SFTP Documents" caption-position="bottom" caption-effect="appear" width="550" >}}
+{{< figure src="sftp-documents.png" title="Dépôt SFTP Documents" class="centered-image" width="650" >}}
 
 Pour déposer des fichiers, utiliser un logiciel comme [FileZilla][1], [Cyberduck][2], [WinSCP][3] ou [Documents][4], avec les informations suivantes d'authentification :
 

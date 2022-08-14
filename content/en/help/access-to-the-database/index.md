@@ -16,7 +16,7 @@ The MoodleBox allows access to the Moodle database for administration purpose,
   * Username: __moodlebox__
   * Password: __Moodlebox4$__
 
-{{< figure src="adminer.png" width="782" title="Database access with Adminer" class="centered-image" >}}
+{{< figure src="adminer.png" width="560" title="Database access with Adminer" class="centered-image" >}}
 
 {{< notice info >}}
 It is strongly advised not to manually change the Moodle database unless you know exactly what you are doing. In any case, __no support is provided__ on this subject and we take no responsability for any loss of data.

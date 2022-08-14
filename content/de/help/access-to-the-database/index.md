@@ -18,7 +18,7 @@ Die MoodleBox erlaubt den direkten Zugriff auf die Moodle-Datenbank mit der Soft
   * Username: __moodlebox__
   * Password: __Moodlebox4$__
 
-{{< figure src="adminer.png" width="782" title="Datenbank Zugriff mit Adminer" class="centered-image" >}}
+{{< figure src="adminer.png" width="625" title="Datenbank Zugriff mit Adminer" class="centered-image" >}}
 
 {{< notice info >}}
 Es wird dringend davon abgeraten, die Moodle-Datenbank direkt zu manipulieren. Tun Sie dies nur, wenn Sie genau wissen, was Sie tun. In jedem Fall wird __keine Unterstützung__ zu diesem Thema geleistet und der Autor übernimmt keinerlei Verantwortung für Datenverluste.

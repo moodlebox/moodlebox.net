@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
-lastmod: 2018-03-01
+lastmod: 2022-08-14
 description: Die MoodleBox macht es einfach, Dateien mit den unten beschriebenen Methoden zur Verfügung zu stellen
 slug: dateien-fuer-moodlebox
 categories_weight: 7
@@ -17,19 +17,21 @@ categories:
 
 Sobald ein USB-Stick in einen der USB-Ports der MoodleBox eingesteckt wird, sind automatisch alle Dateien auf dem USB-Stick für Administratoren und Trainer in der Dateiauswahl von Moodle verfügbar, u.z. über das Repository __USB Drive__.
 
-{{< figure src="/img/media/usb-drive.png" thumb="-small" title="Repository USB-Drive " caption-position="bottom" caption-effect="appear" width="550" >}}
+{{< figure src="usb-drive.png" title="Repository USB-Drive " class="centered-image" width="650" >}}
 
 Wenn mehrere USB-Sticks in die MoodleBox eingesteckt werden, sind ausschließlich die Dateien auf dem zuerst eingesteckten USB-Stick verfügbar.
 
-An Stelle eines USB-Sticks kann auch eine USB-Festplatte oder eine USB-SSD an die MoodleBox angeschlossen und als Repository __USB Drive__ bereit gestellt werden. Beachten Sie bitte, dass eine USB-Festplatte möglicherweise zu viel Strom benötigt, mehr als der USB-Port der MoodleBox liefert.
+Die MoodleBox unterstützt folgenden Formatierungen zurecht: FAT32, VFAT, ext2, ext3, ext4, NTFS, exFAT und HFS+.
 
-Die MoodleBox kommt mit folgenden Formatierungen zurecht: FAT32, VFAT, ext2, ext3, ext4 und HFS+. Die MoodleBox ab Version 2.2.0 unterstützt auch NTFS und exFAT-formatierte Laufwerke.
+{{< notice tip >}}
+An Stelle eines USB-Sticks kann auch eine USB-Festplatte oder eine USB-SSD an die MoodleBox angeschlossen und als Repository __USB Drive__ bereit gestellt werden. Beachten Sie bitte, dass eine USB-Festplatte möglicherweise zu viel Strom benötigt, mehr als der USB-Port der MoodleBox liefert.
+{{< /notice >}}
 
 ### Dateien über SFTP
 
 Dateien können auf die MoodleBox auch über SFTP hochgeladen werden. Dateien im Verzeichnis __files__ sind ebenfalls für Administrator und Trainer in der Dateiauswahl von Moodle verfügbar, u.z. über das Repository __SFTP Documents__.
 
-{{< figure src="/img/media/sftp-documents.png" thumb="-small" title="Repository SFTP Documents" caption-position="bottom" caption-effect="appear" width="550" >}}
+{{< figure src="sftp-documents.png" title="Repository SFTP Documents" class="centered-image" width="650" >}}
 
 Um Dateien über SFTP hochzuladen, nehmen Sie eine Software wie [FileZilla][1], [Cyberduck][2], [WinSCP][3] oder [Documents][4] und geben Sie folgende Anmeldedaten ein:
 
