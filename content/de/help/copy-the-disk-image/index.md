@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
-lastmod: 2018-12-15
+lastmod: 2022-08-14
 description: Um das MoodleBox Disk-Image auf eine SD-Karte zu kopieren, folgen Sie diese Anweisungen.
 slug: disk-image-kopieren
 categories_weight: 4
@@ -17,8 +17,9 @@ Haben Sie das [Disk-Image][1] heruntergeladen?
 
 Installieren Sie zuerst [balenaEtcher][2] (früher bekannt als _Etcher_) auf Ihrem Computer. Befolgen Sie dann die Anleitung für balenaEtcher, um das Disk-Image __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ auf Ihre microSD-Karte zu flashen.
 
-{{< figure src="/img/media/etcher-copy.png" title="Kopieren mit balenaEtcher" caption-position="bottom" caption-effect="appear" width="800" >}}
+{{< figure src="/img/media/etcher-copy.png" title="Kopieren mit balenaEtcher" class="centered-image" width="700" >}}
 
+<!--
 ### Für Experten
 
 Falls Sie es als Experte bevorzugen, zum Flashen der microSD-Karte einige Befehlszeilen ins Terminal einzugeben, geht dies auch. Extrahieren Sie die heruntergeladene Datei __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" >}}__ und folgen Sie dann den [Anweisungen][3], um das Disk-Image __moodlebox-{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}.img__ auf Ihre microSD-Karte zu kopieren.
@@ -27,6 +28,7 @@ Falls Sie es als Experte bevorzugen, zum Flashen der microSD-Karte einige Befehl
   * [Anleitung für Windows][5]
   * [Anleitung für Linux][6]
 
+ -->
 
  [1]: {{< relref "help/download-the-disk-image" >}}
  [2]: https://www.balena.io/etcher/
