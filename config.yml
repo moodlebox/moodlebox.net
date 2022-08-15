@@ -542,7 +542,7 @@ imaging:
   bgColor: '#ffffff'
   hint: drawing
   quality: 90
-  resampleFilter: Lanczos
+  resampleFilter: Box
 
 #outputFormats:
 #  JS:
