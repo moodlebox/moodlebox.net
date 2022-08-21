@@ -1,7 +1,7 @@
 <div class="navbar navbar-default" role="navigation" id="navbar">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand home" href="{{ site.LanguagePrefix | absURL | replaceRE "[^/]$" "${0}/" }}" rel="home">
+      <a class="navbar-brand" href="{{ site.LanguagePrefix | absURL | replaceRE "[^/]$" "${0}/" }}" rel="home">
         <div class="site-branding">
           <p class="site-title">{{ site.Params.Title }}</p>
           <p class="site-description">{{ site.Params.Slogan | default site.Params.defaultSlogan }}</p>
