@@ -376,55 +376,6 @@ ul.list-style-none {
     left: 0;
   }
 }
-.navbar .yamm-content h3 {
-  font-size: 18px;
-  text-transform: uppercase;
-  padding-bottom: 10px;
-  margin-top: 5px;
-  border-bottom: dotted 1px #2a2a2a;
-  letter-spacing: 0.08em;
-}
-@media (max-width: 767px) {
-  .navbar .yamm-content h3 {
-    font-size: 14px;
-  }
-}
-.navbar .yamm-content h5 {
-  text-transform: uppercase;
-  padding-bottom: 10px;
-  border-bottom: dotted 1px #2a2a2a;
-  letter-spacing: 0.08em;
-}
-.navbar .yamm-content ul {
-  margin: 0;
-  padding: 0;
-}
-.navbar .yamm-content ul li {
-  list-style-type: none;
-  border-bottom: solid 1px #eeeeee;
-  text-transform: uppercase;
-  padding: 4px 0;
-}
-.navbar .yamm-content ul li a {
-  position: relative;
-  color: #999999;
-  font-size: 12px;
-  display: block;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-.navbar .yamm-content ul li a:hover {
-  color: #da4d4d;
-  text-decoration: none;
-  padding-left: 3px;
-}
-.navbar .yamm-content .banner {
-  margin-bottom: 10px;
-}
-.navbar .yamm-fw .dropdown-menu {
-  padding: 0;
-}
 .navbar .navbar-buttons {
   float: right;
 }
@@ -3428,35 +3379,6 @@ a.list-group-item.active > .badge,
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-/*!
- * Yamm!3 - Yet another megamenu for Bootstrap 3
- * http://geedmo.github.com/yamm3
- *
- * @geedmo - Licensed under the MIT license
- */
-.yamm .nav,
-.yamm .collapse,
-.yamm .dropup.use-yamm,
-.yamm .dropdown.use-yamm {
-  position: static;
-}
-.yamm .container {
-  position: relative;
-}
-.yamm .dropdown-menu {
-  left: auto;
-}
-.yamm .nav.navbar-right .dropdown-menu {
-  left: 0;
-  right: auto;
-}
-.yamm .yamm-content {
-  padding: 20px 30px;
-}
-.yamm .dropdown.yamm-fw .dropdown-menu {
-  left: 15px;
-  right: 15px;
 }
 
 /* Some custom styles */
