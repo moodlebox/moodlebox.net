@@ -12,7 +12,7 @@ weight: 20
 
 Sofern nicht anders angegeben, unterliegt alles auf dieser Website der folgenden Lizenz:
 
-{{< figure src="/img/media/cc-by-sa.png" alt="CC-BY-SA" link="https://creativecommons.org/licenses/by-nc-sa/4.0/" >}}
+{{< figure src="/img/media/cc-by-sa.png" alt="CC-BY-SA" link="https://creativecommons.org/licenses/by-nc-sa/4.0/" width="88" >}}
 
 Die MoodleBox Website und die gesamte Dokumentation steht unter einer Creative Commons Attribution 4.0 International Lizenz.
 
