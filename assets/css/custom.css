@@ -165,8 +165,7 @@ details > :last-child {
   padding: 0.7rem 1.2rem;
 }
 summary {
-  margin: 1rem 2em 1.2rem 0;
-  margin: 1rem 0 1rem 0;
+  margin: .5rem 0 .5rem 0;
   padding: 0 2em 0 0;
   display: block;
   position: relative;
@@ -203,6 +202,7 @@ summary::-webkit-details-marker {
 }
 .faq h4 {
   color: #da4d4d;
+  margin-bottom: .7rem;
 }
 .faq-group {
   margin-top: 2rem;
