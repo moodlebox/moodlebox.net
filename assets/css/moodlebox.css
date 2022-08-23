@@ -706,72 +706,6 @@ fieldset[disabled] .btn-template-primary.active {
   height: 100%;
   position: relative;
 }
-.jumbotron {
-  padding: 30px;
-  margin-bottom: 0;
-  position: relative;
-  background: url('/img/banner-tablet.jpg') center center repeat;
-  background-size: cover;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-.jumbotron .dark-mask {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #da4d4d;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-}
-.jumbotron h1,
-.jumbotron h2,
-.jumbotron h3,
-.jumbotron p,
-.jumbotron ul {
-  color: #fff;
-}
-.jumbotron h1,
-.jumbotron h2,
-.jumbotron h3 {
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-.jumbotron p {
-  margin-bottom: 20px;
-  font-size: 21px;
-  font-weight: 400;
-}
-.jumbotron p.text-uppercase {
-  font-weight: 700;
-}
-.jumbotron > hr {
-  border-top-color: #d5d5d5;
-}
-.container .jumbotron {
-  border-radius: 0;
-}
-.jumbotron .container {
-  max-width: 100%;
-  z-index: 2;
-}
-@media screen and (min-width: 768px) {
-  .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-  .container .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  .jumbotron h1,
-  .jumbotron .h1 {
-    font-size: 46px;
-  }
-}
 #categoryMenu h3 {
   padding: 20px;
   background: #f7f7f7;
@@ -847,14 +781,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .panel.sidebar-menu .panel-body label:hover {
   color: #2a2a2a;
-}
-.panel.sidebar-menu ul.nav.category-menu {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-}
-.panel.sidebar-menu ul.nav.category-menu li a {
 }
 .panel.sidebar-menu ul.nav ul {
   list-style: none;
