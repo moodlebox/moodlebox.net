@@ -3193,45 +3193,6 @@ address {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-.panel-group {
-  margin-bottom: 20px;
-}
-.panel-group .panel {
-  margin-bottom: 0;
-  border-radius: 0;
-  overflow: hidden;
-}
-.panel-group .panel + .panel {
-  margin-top: 5px;
-}
-.panel-group.accordion .panel {
-  border-color: #ccc;
-}
-.panel-primary {
-  border-color: #da4d4d;
-}
-.panel-primary > .panel-heading {
-  color: #ffffff;
-  background-color: #da4d4d;
-  border-color: #da4d4d;
-}
-.panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #da4d4d;
-}
-.panel-primary > .panel-heading .badge {
-  color: #da4d4d;
-  background-color: #ffffff;
-}
-.panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #da4d4d;
-}
-.panel-primary .panel-title {
-  font-weight: 300;
-}
-.panel-primary .panel-title a:hover {
-  color: #fff;
-  text-decoration: none;
-}
 a.badge:hover,
 a.badge:focus {
   color: #ffffff;
