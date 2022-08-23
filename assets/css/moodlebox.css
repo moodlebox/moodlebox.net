@@ -1726,18 +1726,11 @@ fieldset[disabled] .btn-template-primary.active {
   background: #333;
   color: #ccc;
   padding: 30px 0;
-  font-size: 14px;
+  font-size: .875rem;
   font-weight: 500;
-  line-height: 28px;
-}
-#post-footer p {
-  margin: 0;
 }
 #post-footer a {
   color: #ccc;
-}
-#post-footer .post-footer-item {
-  margin: 0 2rem;
 }
 #about-us a {
   color: #eee;
