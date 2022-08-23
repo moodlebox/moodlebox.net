@@ -173,7 +173,7 @@ ul.list-style-none {
   text-align: center;
 }
 .pages-listing .item h3 {
-  font-size: 18px;
+  font-size: 1.2rem;
   text-transform: uppercase;
   margin-bottom: 20px;
   letter-spacing: 0.08em;
@@ -186,7 +186,7 @@ ul.list-style-none {
 }
 .pages-listing .item .text p {
   color: #999999;
-  font-size: 12px;
+  font-size: .85rem;
   margin-bottom: 20px;
 }
 .banner {
@@ -236,7 +236,7 @@ ul.list-style-none {
 }
 #top p {
   margin: 0;
-  font-size: 12px;
+  font-size: .85rem;
 }
 #top .social {
   float: right;
@@ -249,7 +249,7 @@ ul.list-style-none {
   height: 24px;
   border-radius: 12px;
   line-height: 20px;
-  font-size: 12px;
+  font-size: .85rem;
   text-align: center;
   vertical-align: bottom;
 }
@@ -275,7 +275,7 @@ ul.list-style-none {
   float: right;
 }
 #top .login a {
-  font-size: 12px;
+  font-size: .85rem;
   color: #eeeeee;
   margin-right: 15px;
   text-decoration: none;
@@ -301,7 +301,7 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: .9rem;
   font-weight: 600;
   letter-spacing: 0.06em;
   border-top: solid 5px transparent;
@@ -353,7 +353,7 @@ ul.list-style-none {
 .navbar ul.dropdown-menu li a {
   position: relative;
   color: #333;
-  font-size: 14px;
+  font-size: .95rem;
   font-weight: 500;
   display: block;
   -webkit-transition: all 0.2s ease-out;
@@ -435,7 +435,7 @@ ul.list-style-none {
 #login-modal p {
   font-weight: 300;
   margin-bottom: 20px;
-  font-size: 13px;
+  font-size: .9rem;
 }
 /* buttons  */
 .btn {
@@ -443,28 +443,28 @@ ul.list-style-none {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
-  font-size: 13px;
+  font-size: .9rem;
   line-height: 1.42857143;
   border-radius: 0;
 }
 .input-group .btn {
-  font-size: 14px;
+  font-size: .95rem;
 }
 .btn-lg {
   padding: 10px 16px;
-  font-size: 14px;
+  font-size: .95rem;
   line-height: 1.33;
   border-radius: 0;
 }
 .btn-sm {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: .85rem;
   line-height: 1.5;
   border-radius: 0;
 }
 .btn-xs {
   padding: 1px 5px;
-  font-size: 12px;
+  font-size: .85rem;
   line-height: 1.5;
   border-radius: 0;
 }
@@ -2955,7 +2955,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* scaffolding */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 1.7;
   color: #2a2a2a;
 }
