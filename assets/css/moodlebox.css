@@ -368,13 +368,13 @@ ul.list-style-none {
 }
 .btn-sm {
   padding: 5px 10px;
-  font-size: .8125rem;
+  font-size: .75rem;
   line-height: 1.5;
   border-radius: 0;
 }
 .btn-xs {
   padding: 1px 5px;
-  font-size: .8125rem;
+  font-size: .75rem;
   line-height: 1.5;
   border-radius: 0;
 }
@@ -2014,7 +2014,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: 1px solid transparent;
 }
 .navbar-toggler:focus {
-  outliner: 0;
+  outline: 0;
 }
 .navbar-nav {
   margin: 10.5px -15px;
