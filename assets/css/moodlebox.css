@@ -2534,11 +2534,12 @@ dd {
   line-height: inherit;
 }
 
-code {
-  padding: 2px 4px;
-  font-size: 0.9375rem;
-  color: #333;
-  background-color: #f0f0f0;
+pre {
+  padding: 8px 12px;
+  margin: 0 0 1ex;
+  font-size: .8125rem;
+  line-height: 1.4;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 
