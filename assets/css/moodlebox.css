@@ -301,7 +301,6 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -441,7 +440,6 @@ ul.list-style-none {
 /* buttons  */
 .btn {
   font-weight: 700;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
@@ -666,7 +664,6 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 #intro .item {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   height: 100%;
 }
 #intro .item h1 {
@@ -858,7 +855,6 @@ fieldset[disabled] .btn-template-primary.active {
   letter-spacing: 0.08em;
 }
 .panel.sidebar-menu ul.nav.category-menu li a {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 .panel.sidebar-menu ul.nav ul {
   list-style: none;
@@ -869,7 +865,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .panel.sidebar-menu ul.nav ul li a {
   position: relative;
-  font-family: "Times New Roman", Times, serif;
   font-weight: normal;
   text-transform: none !important;
   display: block;
@@ -994,7 +989,6 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 30px 10px 10px -71px;
   color: #fff;
   background-color: #da4d4d;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 .ribbon .theribbon:before,
 .ribbon .theribbon:after {
@@ -1549,7 +1543,6 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 0;
 }
 #heading-breadcrumbs h1 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #333333;
   font-size: 33px;
   font-weight: 600;
@@ -2002,7 +1995,6 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
 }
 #blog-post .comment .reply {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 #blog-post .comment.last {
   margin-bottom: 0;
@@ -2154,7 +2146,6 @@ fieldset[disabled] .btn-template-primary.active {
   color: #2a2a2a;
   text-align: center;
   text-decoration: none;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 #productMain .sizes a.active,
 #productMain .sizes a:hover {
@@ -2446,7 +2437,6 @@ fieldset[disabled] .btn-template-primary.active {
 /* Original Boostrap template overwrite */
 /* breadcrumbs */
 .breadcrumb {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   background-color: none;
   letter-spacing: 0.08em;
@@ -2712,7 +2702,6 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0;
   margin-top: 5px;
   color: #da4d4d;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 23px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -2965,7 +2954,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 /* scaffolding */
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 15px;
   line-height: 1.7;
   color: #2a2a2a;
@@ -3017,7 +3006,6 @@ hr {
 /* dropdowns */
 .dropdown-menu {
   z-index: 1000;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 15px;
   background-color: #ffffff;
   border: 1px solid #cccccc;
@@ -3044,7 +3032,6 @@ hr {
 }
 /* labels */
 .label {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -3075,7 +3062,6 @@ label {
   padding-top: 20px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 .pager li {
   display: inline;
@@ -3103,7 +3089,6 @@ label {
 /* pagination */
 .pagination {
   margin: 20px 0;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   border-radius: 0;
 }
 .pagination > li > a,
@@ -3178,7 +3163,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 600;
   line-height: 1.1;
   color: #333333;
