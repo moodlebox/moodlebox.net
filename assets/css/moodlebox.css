@@ -714,6 +714,9 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
+.panel-title {
+  font-size: 1.1rem;
+}
 .panel.sidebar-menu h3 {
   padding: 5px 0;
   margin: 0;
@@ -3376,7 +3379,7 @@ section#news {
   line-height: 1.3em;
   margin-left: 0em;
   color: #2a2a2a;
-  font-size: 14px;
+  font-size: 1rem;
 }
 .kb-article-title span:hover {
   text-decoration: underline;
