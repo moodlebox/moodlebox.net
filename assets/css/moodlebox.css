@@ -360,12 +360,8 @@ ul.list-style-none {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
-  font-size: .9rem;
-  line-height: 1.42857143;
+  font-size: 1rem;
   border-radius: 0;
-}
-.input-group .btn {
-  font-size: .95rem;
 }
 .btn-lg {
   padding: 10px 16px;
