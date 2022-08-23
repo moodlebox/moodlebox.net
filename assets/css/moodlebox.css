@@ -301,10 +301,11 @@ ul.list-style-none {
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
-  font-size: .9rem;
+  font-size: .85rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   border-top: solid 5px transparent;
+  display: inline-block;
 }
 .navbar ul.nav > li > a:hover {
   border-top: solid 5px #da4d4d;
@@ -381,8 +382,8 @@ ul.list-style-none {
 .navbar .navbar-buttons button,
 .navbar .navbar-buttons a.btn,
 .navbar .navbar-buttons .btn-default.navbar-toggle {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 9px;
+  margin-bottom: 9px;
   margin-left: 0;
   margin-right: 5px;
 }
@@ -2377,6 +2378,7 @@ fieldset[disabled] .btn-template-primary.active {
 .nav > li > a:hover,
 .nav > li > a:focus {
   background-color: #eeeeee;
+  text-decoration: none;
 }
 .nav > li.disabled > a {
   color: #999999;
