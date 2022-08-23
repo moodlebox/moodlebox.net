@@ -5,8 +5,14 @@
       {{ if isset site.Params "about" }}
       <div id="about-us" class="col-md-4 col-sm-6">
         <h4>{{ i18n "aboutUs" }}</h4>
-        <p>{{ site.Params.about | markdownify }}</p>
-        <hr class="hidden-md hidden-lg hidden-sm">
+        <div class="about-entries">
+          <div class="item clearfix">
+            <div class="name">
+              <p>{{ site.Params.about | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+        <hr class="d-md-none d-lg-none d-sm-none">
       </div> <!-- /.col-md-4 -->
       {{ end }}
 
@@ -28,12 +34,12 @@
             </div>
             {{ end }}
             <div class="name">
-              <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+              <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
             </div>
           </div>
           {{ end }}
         </div>
-        <hr class="hidden-md hidden-lg">
+        <hr class="d-md-none d-lg-none d-sm-none">
       </div>  <!-- /.col-md-4 -->
       {{ end }} {{ end }}
 
@@ -43,13 +49,13 @@
         <div class="important-links">
           <div class="item clearfix">
             <div class="name">
-              <h5><a href="{{ site.LanguagePrefix }}/faq">{{ i18n "faqTitle" }}</a></h5>
+              <p><a href="{{ site.LanguagePrefix }}/faq">{{ i18n "faqTitle" }}</a></p>
             </div>
           </div>
         </div>
         <h4>{{ i18n "donateTitle" }}</h4>
           <a href="{{ site.LanguagePrefix }}/give" class="btn btn-small btn-template-main">{{ i18n "donateNow" }}</a>
-          <hr class="hidden-md hidden-lg hidden-sm">
+          <hr class="d-md-none d-lg-none d-sm-none">
       </div> <!-- /.col-md-4 -->
       {{ end }}
 
