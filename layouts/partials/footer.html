@@ -64,35 +64,33 @@
 </footer> <!-- /#footer -->
 
 <div id="post-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
+  <div class="container text-center">
+    <div class="row gx-0 gy-3 justify-content-center">
       {{ if site.Params.privacy.enable }}
-        <span id="privacy" class="post-footer-item">
+        <div id="privacy" class="col-6 col-sm-2 post-footer-item">
           <a href="{{ site.LanguagePrefix }}/privacy" class="">{{ i18n "privacyTitle" }}</a>
-        </span>
+        </div>
       {{ end }}
       {{ if site.Params.cookies.enable }}
-        <span id="cookies" class="post-footer-item">
+        <div id="cookies" class="col-6 col-sm-2 post-footer-item">
           <a href="{{ site.LanguagePrefix }}/cookies" class="">{{ i18n "cookiesTitle" }}</a>
-        </span>
+        </div>
       {{ end }}
       {{ if site.Params.license.enable }}
-        <span id="license" class="post-footer-item">
+        <div id="license" class="col-6 col-sm-2 post-footer-item">
           <a href="{{ site.LanguagePrefix }}/license" class="">{{ i18n "licenseTitle" }}</a>
-        </span>
+        </div>
       {{ end }}
       {{ if site.Params.donate.enable }}
-        <span id="donate" class="post-footer-item">
+        <div id="donate" class="col-6 col-sm-2 post-footer-item">
           <a href="{{ site.LanguagePrefix }}/give" class="">{{ i18n "donateTitle" }}</a>
-        </span>
+        </div>
       {{ end }}
       {{ if isset site.Params "address" }}
-        <span id="address" class="post-footer-item">
+        <div id="address" class="col-6 col-sm-2 post-footer-item">
           <a href="{{ site.LanguagePrefix }}/contact" class="">{{ i18n "contactTitle" }}</a>
-        </span>
+        </div>
       {{ end }}
-      </div>
     </div> <!-- /.row -->
   </div> <!-- /.container -->
 </div> <!-- /#post-footer -->
