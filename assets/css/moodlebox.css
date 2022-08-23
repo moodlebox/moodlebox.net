@@ -2328,7 +2328,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #eeeeee;
 }
 #footer h4 {
-  font-size: 14px;
+  font-size: .85rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -2344,35 +2344,37 @@ fieldset[disabled] .btn-template-primary.active {
   color: #da4d4d;
   text-decoration: none;
 }
-#footer .blog-entries .item {
+#footer .item {
   clear: both;
-  padding: 5px 0;
+  padding: 4px 0;
   margin-bottom: 10px;
   border-bottom: solid 1px #2a2a2a;
 }
-#footer .blog-entries .item .image {
+#footer .item .image {
   float: left;
   width: 15%;
   margin-right: 10px;
 }
-#footer .blog-entries .item .name {
+#footer .item .name {
   width: 75%;
   margin-left: 10px;
   display: table-cell;
   vertical-align: middle;
 }
-#footer .blog-entries .item .name h5 {
-  margin: 0;
+#footer .item .name p {
+  font-size: .9rem;
+  font-weight: 600;
   letter-spacing: 0.04em;
+  margin: 0;
 }
-#footer .blog-entries .item .name h5 a {
+#footer .item .name p a {
   color: #eeeeee;
 }
-#footer .blog-entries .item .text {
+#footer .item .text {
   width: 100%;
   clear: both;
 }
-#footer .blog-entries .item:last-child {
+#footer .item:last-child {
   border-bottom: none;
   margin-bottom: 0;
 }
