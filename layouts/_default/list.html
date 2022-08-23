@@ -50,7 +50,7 @@
             </div>
           </section>
           {{ end }}
-          <ul class="pager">
+          <ul class="pagination">
             {{ if .Paginator.HasPrev }}
             <li class="previous"><a href="{{ .Paginator.Prev.URL | absURL }}">&larr; {{ i18n "newer" }}</a></li>
             {{ else }}
