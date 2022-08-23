@@ -3076,12 +3076,14 @@ p {
   margin: 0 0 15px;
 }
 .lead {
-  margin-bottom: 20px;
-  font-size: 18px;
+  margin: 0 0 20px 0;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 300;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 1.4rem;
   }
 }
 .text-small {
@@ -3092,12 +3094,6 @@ p {
 }
 .text-italic {
   font-style: italic;
-}
-.text-primary {
-  color: #da4d4d;
-}
-a.text-primary:hover {
-  color: #ca2a2a;
 }
 .bg-primary {
   color: #fff;
