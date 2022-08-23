@@ -1,15 +1,12 @@
 .clearfix:before,
 .clearfix:after,
 .navbar:before,
-.navbar:after,
-.navbar-header:before,
-.navbar-header:after {
+.navbar:after {
   content: " ";
   display: table;
 }
 .clearfix:after,
-.navbar:after,
-.navbar-header:after {
+.navbar:after {
   clear: both;
 }
 .center-block {
@@ -376,28 +373,31 @@ ul.list-style-none {
     left: 0;
   }
 }
+.navbar .navbar-buttons.navbar-toggler {
+  border: none;
+}
 .navbar .navbar-buttons {
   float: right;
 }
 .navbar .navbar-buttons button,
 .navbar .navbar-buttons a.btn,
-.navbar .navbar-buttons .btn-default.navbar-toggle {
+.navbar .navbar-buttons .btn-default.navbar-toggler {
   margin-top: 9px;
   margin-bottom: 9px;
   margin-left: 0;
   margin-right: 5px;
 }
 .navbar .btn-default,
-.navbar .btn-default.navbar-toggle {
+.navbar .btn-default.navbar-toggler {
   color: #999999;
   background-color: #fff;
   margin-left: 7px;
   margin-right: 0;
 }
 .navbar .btn-default:hover,
-.navbar .btn-default.navbar-toggle:hover,
+.navbar .btn-default.navbar-toggler:hover,
 .navbar .btn-default:focus,
-.navbar .btn-default.navbar-toggle:focus {
+.navbar .btn-default.navbar-toggler:focus {
   background-color: #fff;
   border-color: #da4d4d;
   color: #da4d4d;
@@ -1841,15 +1841,12 @@ fieldset[disabled] .btn-template-primary.active {
 #blog-listing-medium .post .clearfix:before,
 #blog-listing-medium .post .clearfix:after,
 #blog-listing-medium .post .navbar:before,
-#blog-listing-medium .post .navbar:after,
-#blog-listing-medium .post .navbar-header:before,
-#blog-listing-medium .post .navbar-header:after {
+#blog-listing-medium .post .navbar:after {
   content: " ";
   display: table;
 }
 #blog-listing-medium .post .clearfix:after,
-#blog-listing-medium .post .navbar:after,
-#blog-listing-medium .post .navbar-header:after {
+#blog-listing-medium .post .navbar:after {
   clear: both;
 }
 #blog-listing-medium .post .image {
@@ -2531,11 +2528,6 @@ fieldset[disabled] .btn-template-primary.active {
     border-radius: 0px;
   }
 }
-@media (min-width: 768px) {
-  .navbar-header {
-    float: left;
-  }
-}
 .navbar-collapse {
   overflow-x: visible;
   padding-right: 15px;
@@ -2564,22 +2556,6 @@ fieldset[disabled] .btn-template-primary.active {
   .navbar-fixed-bottom .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
-  }
-}
-.container > .navbar-header,
-.container-fluid > .navbar-header,
-.container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-@media (min-width: 768px) {
-  .container > .navbar-header,
-  .container-fluid > .navbar-header,
-  .container > .navbar-collapse,
-  .container-fluid > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
   }
 }
 .navbar-static-top {
@@ -2618,7 +2594,7 @@ fieldset[disabled] .btn-template-primary.active {
 .navbar-brand {
   float: left;
   height: 62px;
-  padding: 10px 5px 10px 15px;
+  padding: 10px 0;
   font-size: 18px;
   line-height: 20px;
 }
@@ -2645,26 +2621,15 @@ fieldset[disabled] .btn-template-primary.active {
   line-height: 18px;
   margin-bottom: 0;
 }
-@media (min-width: 768px) {
-  .navbar > .container .navbar-brand,
-  .navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
-  }
-}
-.navbar-toggle {
-  position: relative;
-  float: right;
-  margin-right: 15px;
-  padding: 9px 10px;
+.navbar-toggler {
+  padding: 9px;
   margin-top: 14px;
   margin-bottom: 14px;
   background-color: transparent;
-  background-image: none;
   border: 1px solid transparent;
-  border-radius: 0;
 }
-.navbar-toggle:focus {
-  outline: 0;
+.navbar-toggler:focus {
+  outliner: 0;
 }
 .navbar-nav {
   margin: 10.5px -15px;
@@ -2823,14 +2788,14 @@ fieldset[disabled] .btn-template-primary.active {
   color: #cccccc;
   background-color: transparent;
 }
-.navbar-default .navbar-toggle {
+.navbar-default .navbar-toggler {
   border-color: #dddddd;
 }
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggler:hover,
+.navbar-default .navbar-toggler:focus {
   background-color: #da4d4d;
 }
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggler .icon-bar {
   background-color: #888888;
 }
 .navbar-default .navbar-collapse,
