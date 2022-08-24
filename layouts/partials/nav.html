@@ -5,8 +5,8 @@
         <p class="site-title">{{ site.Params.Title }}</p>
         <p class="site-description">{{ site.Params.Slogan | default site.Params.defaultSlogan }}</p>
         {{/* commented out
-        <img src="{{ "img/logo.png" | absURL }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
-        <img src="{{ "img/logo-small.png" | absURL }}" alt="{{ .Title }} logo" class="visible-xs visible-sm">
+        <img src="{{ "img/logo.png" | absURL }}" alt="{{ .Title }} logo" class="d-none d-md-block">
+        <img src="{{ "img/logo-small.png" | absURL }}" alt="{{ .Title }} logo" class="d-block d-md-none">
         */}}
         <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
       </div>

@@ -291,10 +291,6 @@ a.anchor-heading:focus {
 }
 
 /* Carousel on home page */
-#home-carousel .row {
-  width: 1140px;
-}
-
 #home-carousel h1,
 #home-carousel h2,
 #home-carousel h3,
@@ -306,21 +302,14 @@ a.anchor-heading:focus {
 #home-carousel h1 {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 46px;
+  font-size: 2.25rem;
   letter-spacing: .08em;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   #home-carousel h1 {
-    font-size: 36px;
+    font-size: 2rem;
   }
-}
-
-#home-carousel h2 {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 40px;
-  letter-spacing: 0.08em;
 }
 
 #home-carousel .img-responsive {
@@ -359,7 +348,7 @@ a.anchor-heading:focus {
     text-align: center !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #home-carousel .right {
     text-align: right;
   }

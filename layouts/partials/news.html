@@ -6,10 +6,8 @@
     <div class="col-md-12">
       <div class="row equal">
       {{ range first 3 ( sort (where site.RegularPages "Section" "news") "Date" "desc" ) }}
-      {{- $.Scratch.Add "i" 1 -}}{{- $i := $.Scratch.Get "i" -}}
-        <div class="col-md-4{{- if ge $i 3 }} hidden-xs{{- end -}}">
+        <div class="col-md-4">
           <a class="news-item" href="{{ .RelPermalink }}">
-            {{/* <!-- <span class="news-title">{{ .Params.title }}</span> --> */}}
             <span class="news-date">
               <span class="date">{{ .Date | time.Format ":date_long" }}</span>
             </span>
