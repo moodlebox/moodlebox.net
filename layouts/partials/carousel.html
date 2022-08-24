@@ -4,35 +4,37 @@
 {{ $height := "450px" }}
 {{ with index site.Data.carousel site.Language.Lang }}
 <section>
-  <div id="home-carousel" class="carousel" duration="5000">
-    {{ $image := ((resources.GetMatch "/img/banner-tablet.jpg")) }}
-    <ul style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{ $image.RelPermalink }}') center center repeat;background-size: cover;">
-      {{ range $index, $slide := (sort . "weight") }}
-      <li id="home-slide{{ add $index 1 }}" class="item" style="min-width: calc(100%/{{ $visibleitems }}); padding-bottom: {{ $height }};">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-5 right">
-              <h1>{{ .title }}</h1>
-              {{ .description | safeHTML }}
-            </div>
-            <div class="col-sm-7">
-              {{ $image := (resources.GetMatch .image).Resize `640x webp` }}
-              <img class="img-responsive" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .title }}" />
+  {{ $image := ((resources.GetMatch "/img/banner-tablet.jpg")) }}
+  <div id="home-carousel" class="carousel" duration="5000" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{ $image.RelPermalink }}') center center repeat;background-size: cover;">
+    <div class="container justify-content-center">
+      <ul>
+        {{ range $index, $slide := (sort . "weight") }}
+        <li id="home-slide{{ add $index 1 }}" class="item" style="min-width: calc(100%/{{ $visibleitems }}); padding-bottom: {{ $height }};">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 right">
+                <h1>{{ .title }}</h1>
+                {{ .description | safeHTML }}
+              </div>
+              <div class="col-md-7">
+                {{ $image := (resources.GetMatch .image).Resize `640x webp` }}
+                <img class="img-responsive" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .title }}" />
+              </div>
             </div>
           </div>
-        </div>
-      </li>
-      {{ end }}
-    </ul>
-    <ol>
-      {{ range $index, $slide := (sort . "weight") }}
-      <li>
-        <a href="#home-slide{{ add $index 1 }}"></a>
-      </li>
-      {{ end }}
-    </ol>
-    <div class="prev">&lsaquo;</div>
-    <div class="next">&rsaquo;</div>
+        </li>
+        {{ end }}
+      </ul>
+      <ol>
+        {{ range $index, $slide := (sort . "weight") }}
+        <li>
+          <a href="#home-slide{{ add $index 1 }}"></a>
+        </li>
+        {{ end }}
+      </ol>
+      <div class="prev">&lsaquo;</div>
+      <div class="next">&rsaquo;</div>
+    </div>  <!-- /.container -->
   </div>  <!-- /.carousel -->
 </section>
 {{ end }}
