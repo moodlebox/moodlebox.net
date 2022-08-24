@@ -304,11 +304,13 @@ a.anchor-heading:focus {
   text-transform: uppercase;
   font-size: 2.25rem;
   letter-spacing: .08em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 767px) {
   #home-carousel h1 {
-    font-size: 2rem;
+    font-size: 1.6875rem;
   }
 }
 
@@ -337,6 +339,12 @@ a.anchor-heading:focus {
 
 #home-carousel ul li {
   margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  #home-carousel ul li {
+    margin-bottom: 0;
+  }
 }
 
 #home-carousel ul li > div {
