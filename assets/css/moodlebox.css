@@ -1655,6 +1655,12 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 50px 0;
   color: #eee;
 }
+@media (max-width: 575px) {
+  #footer {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+}
 #footer h1,
 #footer h2,
 #footer h3,
