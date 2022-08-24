@@ -22,10 +22,10 @@
         {{ $topLevel := replace .URL "/" "" }}
         <li class="dropdown{{ if eq $current.RelPermalink .URL | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}">
         {{ if .HasChildren }}
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
         <ul class="dropdown-menu">
           {{ range .Children }}
-          <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+          <li><a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
         {{ else }}
