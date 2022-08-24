@@ -1109,7 +1109,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box-image .name h3 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 1.125px;
+  font-size: 1.125rem;
   letter-spacing: 0.08em;
 }
 .box-image .name h3 a {
@@ -1187,7 +1187,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box-image-text .top .name h3 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 1.125px;
+  font-size: 1.125rem;
   letter-spacing: 0.08em;
 }
 .box-image-text .top .name h3 a {
@@ -1980,7 +1980,7 @@ fieldset[disabled] .btn-template-primary.active {
   float: left;
   height: 62px;
   padding: 10px 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 20px;
 }
 .navbar-brand:hover,
