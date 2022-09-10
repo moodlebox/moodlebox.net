@@ -1991,8 +1991,7 @@ fieldset[disabled] .btn-template-primary.active {
   float: left;
 }
 .navbar-brand .site-branding .site-title {
-  margin: 0;
-  margin-top: 5px;
+  margin: 2px 0 0 0;
   color: #da4d4d;
   font-size: 23px;
   font-weight: 600;
