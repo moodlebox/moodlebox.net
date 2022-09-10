@@ -29,7 +29,7 @@
   {{ partial "hreflang.html" . }}
   {{ partial "seo/metadata.html" . }}
   {{ block "stylesheets" . }}{{ partial "stylesheets.html" . }}{{ end }}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.6/lunr.min.js" integrity="sha256-M/Awbb/BYh+Rh0aGjpQid26p1b2OBsrk2k9yAvQxPV0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" integrity="sha256-DFDZACuFeAqEKv/7Vnu1Tt5ALa58bcWZegGGFNgET8g=" crossorigin="anonymous"></script>
   {{ if site.IsServer }}
     {{ $lunrStemmerJS := resources.Get "js/lunr.stemmer.support.js" }}
     <script src="{{ $lunrStemmerJS.Permalink }}"></script>
