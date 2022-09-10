@@ -1,25 +1,19 @@
-<div class="navbar navbar-default" role="navigation" id="navbar">
+<div class="navbar navbar-expand-md navbar-default py-0" role="navigation" id="navbar">
   <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="{{ site.LanguagePrefix | absURL | replaceRE "[^/]$" "${0}/" }}" rel="home">
-        <div class="site-branding">
-          <p class="site-title">{{ site.Params.Title }}</p>
-          <p class="site-description">{{ site.Params.Slogan | default site.Params.defaultSlogan }}</p>
-          {{/* commented out
-          <img src="{{ "img/logo.png" | absURL }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
-          <img src="{{ "img/logo-small.png" | absURL }}" alt="{{ .Title }} logo" class="visible-xs visible-sm">
-          */}}
-          <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
-        </div>
-      </a>
-      <div class="navbar-buttons">
-        <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-          <span class="sr-only">{{ i18n "navToggle" }}</span>
-          <i class="fa fa-align-justify"></i>
-        </button>
+    <a class="navbar-brand" href="{{ site.LanguagePrefix | absURL | replaceRE "[^/]$" "${0}/" }}" rel="home">
+      <div class="site-branding">
+        <p class="site-title">{{ site.Params.Title }}</p>
+        <p class="site-description">{{ site.Params.Slogan | default site.Params.defaultSlogan }}</p>
+        {{/* commented out
+        <img src="{{ "img/logo.png" | absURL }}" alt="{{ .Title }} logo" class="d-none d-md-block">
+        <img src="{{ "img/logo-small.png" | absURL }}" alt="{{ .Title }} logo" class="d-block d-md-none">
+        */}}
+        <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
       </div>
-    </div>
-    <!--/.navbar-header -->
+    </a>
+    <button type="button" class="navbar-toggler btn-template-main" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="{{ i18n "navToggle" }}">
+      <i class="fa fa-bars"></i>
+    </button>
 
     <div class="navbar-collapse collapse" id="navigation">
       <ul class="nav navbar-nav navbar-right">
@@ -28,10 +22,10 @@
         {{ $topLevel := replace .URL "/" "" }}
         <li class="dropdown{{ if eq $current.RelPermalink .URL | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}">
         {{ if .HasChildren }}
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
         <ul class="dropdown-menu">
           {{ range .Children }}
-          <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+          <li><a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
         {{ else }}

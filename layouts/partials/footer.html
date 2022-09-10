@@ -5,8 +5,14 @@
       {{ if isset site.Params "about" }}
       <div id="about-us" class="col-md-4 col-sm-6">
         <h4>{{ i18n "aboutUs" }}</h4>
-        <p>{{ site.Params.about | markdownify }}</p>
-        <hr class="hidden-md hidden-lg hidden-sm">
+        <div class="about-entries">
+          <div class="item clearfix">
+            <div class="name">
+              <p>{{ site.Params.about | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+        <hr class="d-md-none d-lg-none d-sm-none">
       </div> <!-- /.col-md-4 -->
       {{ end }}
 
@@ -28,12 +34,12 @@
             </div>
             {{ end }}
             <div class="name">
-              <h5><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+              <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
             </div>
           </div>
           {{ end }}
         </div>
-        <hr class="hidden-md hidden-lg">
+        <hr class="d-md-none d-lg-none d-sm-none">
       </div>  <!-- /.col-md-4 -->
       {{ end }} {{ end }}
 
@@ -43,13 +49,13 @@
         <div class="important-links">
           <div class="item clearfix">
             <div class="name">
-              <h5><a href="{{ site.LanguagePrefix }}/faq">{{ i18n "faqTitle" }}</a></h5>
+              <p><a href="{{ site.LanguagePrefix }}/faq">{{ i18n "faqTitle" }}</a></p>
             </div>
           </div>
         </div>
         <h4>{{ i18n "donateTitle" }}</h4>
           <a href="{{ site.LanguagePrefix }}/give" class="btn btn-small btn-template-main">{{ i18n "donateNow" }}</a>
-          <hr class="hidden-md hidden-lg hidden-sm">
+          <hr class="d-md-none d-lg-none d-sm-none">
       </div> <!-- /.col-md-4 -->
       {{ end }}
 
@@ -58,35 +64,33 @@
 </footer> <!-- /#footer -->
 
 <div id="post-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
+  <div class="container text-center">
+    <div class="row gx-0 gy-3 justify-content-center">
       {{ if site.Params.privacy.enable }}
-        <span id="privacy" class="post-footer-item">
+        <div id="privacy" class="col-6 col-sm-2 post-footer-item">
           <a href="{{ site.LanguagePrefix }}/privacy" class="">{{ i18n "privacyTitle" }}</a>
-        </span>
+        </div>
       {{ end }}
       {{ if site.Params.cookies.enable }}
-        <span id="cookies" class="post-footer-item">
+        <div id="cookies" class="col-6 col-sm-2 post-footer-item">
           <a href="{{ site.LanguagePrefix }}/cookies" class="">{{ i18n "cookiesTitle" }}</a>
-        </span>
+        </div>
       {{ end }}
       {{ if site.Params.license.enable }}
-        <span id="license" class="post-footer-item">
+        <div id="license" class="col-6 col-sm-2 post-footer-item">
           <a href="{{ site.LanguagePrefix }}/license" class="">{{ i18n "licenseTitle" }}</a>
-        </span>
+        </div>
       {{ end }}
       {{ if site.Params.donate.enable }}
-        <span id="donate" class="post-footer-item">
+        <div id="donate" class="col-6 col-sm-2 post-footer-item">
           <a href="{{ site.LanguagePrefix }}/give" class="">{{ i18n "donateTitle" }}</a>
-        </span>
+        </div>
       {{ end }}
       {{ if isset site.Params "address" }}
-        <span id="address" class="post-footer-item">
+        <div id="address" class="col-6 col-sm-2 post-footer-item">
           <a href="{{ site.LanguagePrefix }}/contact" class="">{{ i18n "contactTitle" }}</a>
-        </span>
+        </div>
       {{ end }}
-      </div>
     </div> <!-- /.row -->
   </div> <!-- /.container -->
 </div> <!-- /#post-footer -->

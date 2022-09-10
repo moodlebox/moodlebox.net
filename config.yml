@@ -132,7 +132,7 @@ languages:
 
     testimonials:
       enable: true
-      subtitle: Have a look at what users around the world said about the MoodleBox.
+      subtitle: Have a look at what users around the world said about the MoodleBox
       title: What users say
 
     clients:
@@ -168,7 +168,7 @@ languages:
         url: /give/
 
       - identifier: support
-        name: Assistance
+        name: Aide
         weight: 2
 
       - parent: support
@@ -180,7 +180,7 @@ languages:
         url: /help/
         weight: 2
       - parent: support
-        name: Assistance de la communauté
+        name: Aide de la communauté
         url: https://discuss.moodlebox.net/
         weight: 3
 
@@ -231,7 +231,7 @@ languages:
         url: /dl/
         weight: 1
       - parent: get
-        name: Obtenir le matériel
+        name: Acquérir le matériel
         url: /hardware/
         weight: 3
       - parent: get
@@ -241,7 +241,7 @@ languages:
 
     testimonials:
       enable: true
-      subtitle: Découvrez ce que des utilisateurs du monde entier disent de la MoodleBox.
+      subtitle: Découvrez ce que des utilisateurs du monde entier disent de la MoodleBox
       title: Ce que les utilisateurs en disent
 
     clients:
@@ -350,7 +350,7 @@ languages:
 
     testimonials:
       enable: true
-      subtitle: Finden Sie die Meinungen von Benutzern aus aller Welt über die MoodleBox heraus.
+      subtitle: Finden Sie die Meinungen von Benutzern aus aller Welt über die MoodleBox heraus
       title: Was Benutzer dazu sagen
 
     clients:

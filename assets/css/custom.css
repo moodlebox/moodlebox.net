@@ -71,7 +71,7 @@
   padding: 0 12px;
   height: 35px;
   line-height: 35px;
-  font-size: 18px;
+  font-size: 1.125rem;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -103,7 +103,7 @@
   line-height: 35px;
   padding: 0 12px;
   margin: 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -165,8 +165,7 @@ details > :last-child {
   padding: 0.7rem 1.2rem;
 }
 summary {
-  margin: 1rem 2em 1.2rem 0;
-  margin: 1rem 0 1rem 0;
+  margin: .5rem 0 .5rem 0;
   padding: 0 2em 0 0;
   display: block;
   position: relative;
@@ -203,6 +202,7 @@ summary::-webkit-details-marker {
 }
 .faq h4 {
   color: #da4d4d;
+  margin-bottom: .7rem;
 }
 .faq-group {
   margin-top: 2rem;
@@ -212,7 +212,6 @@ summary::-webkit-details-marker {
 }
 .faq-content {
   background: #eee;
-  font-size: 14px;
 }
 .faq-content p {
   margin: 0 0 6px;
@@ -292,10 +291,6 @@ a.anchor-heading:focus {
 }
 
 /* Carousel on home page */
-#home-carousel .row {
-  width: 1140px;
-}
-
 #home-carousel h1,
 #home-carousel h2,
 #home-carousel h3,
@@ -307,21 +302,16 @@ a.anchor-heading:focus {
 #home-carousel h1 {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 46px;
+  font-size: 2.25rem;
   letter-spacing: .08em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   #home-carousel h1 {
-    font-size: 36px;
+    font-size: 1.6875rem;
   }
-}
-
-#home-carousel h2 {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 40px;
-  letter-spacing: 0.08em;
 }
 
 #home-carousel .img-responsive {
@@ -333,7 +323,7 @@ a.anchor-heading:focus {
 #home-carousel .item ul,
 #home-carousel .item p {
   display: block;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   padding: 0;
   text-transform: uppercase;
@@ -343,12 +333,18 @@ a.anchor-heading:focus {
 @media (max-width: 991px) {
   #home-carousel .item ul,
   #home-carousel .item p {
-    font-size: 14px;
+    font-size: .875rem;
   }
 }
 
 #home-carousel ul li {
   margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  #home-carousel ul li {
+    margin-bottom: 0;
+  }
 }
 
 #home-carousel ul li > div {
@@ -360,7 +356,7 @@ a.anchor-heading:focus {
     text-align: center !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #home-carousel .right {
     text-align: right;
   }
@@ -402,7 +398,7 @@ a.anchor-heading:focus {
 }
 
 #testimonials-carousel .box .text {
-  font-size: 15px;
+  font-size: .9375rem;
   font-weight: 400;
   line-height: 1.7;
   overflow: hidden;
@@ -416,7 +412,7 @@ a.anchor-heading:focus {
 
 #testimonials-carousel .box .bottom .icon {
   color: #da4d4d;
-  font-size: 30px;
+  font-size: 1.875rem;
   width: 15%;
   display: flex;
   flex-direction: column;
@@ -432,7 +428,7 @@ a.anchor-heading:focus {
   justify-content: flex-start;
 }
 #testimonials-carousel .box .name-picture h5 {
-  font-size: 14px;
+  font-size: .875rem;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -440,7 +436,7 @@ a.anchor-heading:focus {
 #testimonials-carousel .box .name-picture p {
   color: #999999;
   margin: 0;
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: normal;
 }
 #testimonials-carousel .box .name-picture img {
@@ -465,7 +461,7 @@ a.anchor-heading:focus {
 /* Contact form */
 .contact-form {
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: .6875rem;
   letter-spacing: 2px;
   font-weight: 600;
   width: 100%;
@@ -479,7 +475,7 @@ a.anchor-heading:focus {
 textarea.form-control {
   max-height: 190px;
   color: #2a2a2a;
-  font-size: 15px;
+  font-size: .9375rem;
 }
 
 .contact-form input[type="submit"] {
@@ -531,7 +527,7 @@ input[type="reset"], input[type="submit"], input[type="submit"], button.submit {
   margin: 3px 0;
   text-decoration: none;
   font-weight: 700;
-  font-size: 13px;
+  font-size: .8125rem;
   height: 43px;
 }
 
