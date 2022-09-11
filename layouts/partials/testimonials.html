@@ -1,7 +1,5 @@
 {{ if isset site.Params "testimonials" }}
 {{ if site.Params.testimonials.enable }}
-{{ $visibleitems := 4 }}
-{{ $height := "430px" }}
 {{ with index site.Data.testimonials site.Language.Lang }}
 <section id="testimonials" class="bar background-pentagon no-mb">
   <div class="container">
@@ -18,7 +16,7 @@
         <div id="testimonials-carousel" class="carousel">
           <ul class="same-height-row">
             {{ range $index, $slide := . }}
-            <li id="testimonial-slide{{ $index }}" class="item" style="min-width: calc(100%/{{ $visibleitems }}); padding-bottom: {{ $height }};">
+            <li id="testimonial-slide{{ $index }}" class="item">
               <div class="container">
                 <div class="box same-height-always">
                   <div class="text">
