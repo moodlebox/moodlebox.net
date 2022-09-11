@@ -1,40 +1,21 @@
 /* Download page */
 .downloads {
   margin: 8px 0;
-  padding: 0;
-  overflow: auto;
-  clear: both;
-}
-.downloads .image-info {
-  width: 100%;
-  float: left;
-  list-style-type: none;
-}
-.downloads .image-icon {
-  width: 172px;
-  float: left;
-}
-.downloads .image-info {
-  width: 60%;
-  float: left;
-  line-height: 1.5;
 }
 .downloads .image-description {
   margin-bottom: 5px;
   font-weight: bold;
 }
-.downloads .image-details span {
-  width: 160px;
-  float: left;
-}
 .downloads .image-download-links {
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .downloads .image-download-links a.btn {
   background: #da4d4d;
   border: 1px solid #da4d4d;
   line-height: 20px;
   color: white;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 .downloads .image-download-links a.btn:hover {
   color: #da4d4d;

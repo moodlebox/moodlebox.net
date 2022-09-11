@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2022-08-14
+lastmod: 2022-09-11
 description: The MoodleBox disk image can be freely downloaded from this page.
 slug: download-the-disk-image
 categories_weight: 3
@@ -17,11 +17,11 @@ aliases:
 ---
 ### MoodleBox Disk Image
 
-<div class="downloads">
-  <div class="image-icon">
+<div class="downloads row gx-0">
+  <div class="image-icon text-center col-sm-3">
     <a class="piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><img alt="MoodleBox SD card" src="/img/media/moodlebox-sdcard.png" width="150" height="150"></a>
   </div>
-  <div class="image-info">
+  <div class="image-info col-sm-9">
     <div class="image-description">
       MoodleBox disk image for microSD card
     </div>
@@ -45,7 +45,6 @@ aliases:
     </div>
     <div class="image-download-links">
       <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download" aria-hidden="true"></i>Download image</a>
-      &nbsp;&nbsp;&nbsp;
       <a class="btn" href="{{< relref "/support-moodlebox" >}}"><i class="fa fa-heart" aria-hidden="true"></i>Donate</a>
     </div>
   </div>
