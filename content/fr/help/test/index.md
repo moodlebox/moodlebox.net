@@ -7,17 +7,6 @@ robotsdisallow: true
 draft: true
 aliases:
   - /bla
-gallery_item:
-  - album: gallery
-    image: media/rpi-case.png
-    caption: Boîtier pour Raspberry Pi 3
-  - album: gallery
-    image: media/rpi-power-supply.png
-    caption: Alimentation pour Raspberry Pi
-  - album: gallery
-    image: media/rpi3.png
-    caption: Rapsberry Pi 3
-
 ---
 
 ### Titre de niveau 3
@@ -25,8 +14,6 @@ gallery_item:
 {{< lastmod >}}
 
 Si vous avez des [questions techniques][1] ou avez besoin d'aide, consultez la [documentation][1] de MoodleBox. Bla bla {{< cloakemail protocol="tel" address="nicolas@martignoni.net" >}} blu blu.
-
-{{< gallery >}}
 
 L'opération décrite ci-dessous n'est pas requise {{< cloakemail "nicolas@martignoni.net" >}} si vous avez téléchargé l'image-disque sur ce site web. Toutefois, il peut être nécessaire de l'exécuter si vous avez reçu une image-disque personnalisée.
 
