@@ -1,16 +1,17 @@
 ---
 title: MoodleBox Knowledge Base
 description: Find answers to questions about MoodleBox and its usage.
-lastmod: 2018-11-14
+lastmod: 2022-10-01
 aliases:
   - using
   - /help
 ---
 
-If you can't find an answer to your question, search the [MoodleBox support forum][1] to see if your question has already been answered. Otherwise, feel free to [open a new discussion][1] in the [forum][1].
+If you can't find an answer to your question, search the [MoodleBox support forum][forum] to see if your question has already been answered. Otherwise, feel free to [open a new discussion][forum] in the [forum][forum].
 
 <p class="text-center"><a href="https://discuss.moodlebox.net/" target="_blank" class="btn btn-template-main btn-lg">MoodleBox support forum</a></p>
 
-You will find below the most common and useful pages of the MoodleBox documentation. It is also possible to search through all the documentation.
+Don't forget to [have a look at the MoodleBox FAQ][faq] too.
 
- [1]: https://discuss.moodlebox.net/
+ [forum]: https://discuss.moodlebox.net/
+ [faq]: {{< relref "faq" >}}

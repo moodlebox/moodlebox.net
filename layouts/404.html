@@ -2,28 +2,40 @@
   <header>
     {{ partial "nav.html" . }}
   </header>
+  <div id="heading-breadcrumbs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>{{ i18n "error404" }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
   <div id="content">
     <div class="container">
-      <div class="col-sm-6 col-sm-offset-3" id="error-page">
-        <div class="box">
-          {{/*
-          <p class="text-center">
-            <a href="{{ site.BaseURL }}"><img src="{{ site.Params.logo }}" alt="{{ .Title }} logo"></a>
-          </p>
-          */}}
+      <div class="row">
+
+        <!-- *** LEFT COLUMN *** -->
+        <div class="col-md-9" id="blog-post">
           <h3>{{ i18n "error404Message" }}</h3>
-          {{/* <h4 class="text-muted">{{ i18n "error404" }}</h4> */}}
-          <h4 class="text-muted">{{ i18n "error404Explanation" }}</h4>
-          <h4 class="">{{ i18n "error404Search" }}</h4>
-          {{ partial "search-form.html" . }}
-          {{/*
-          <p>Faites un don pour aider à corriger ce problème !</p>
-          <p class="buttons"><a href="{{ site.BaseURL }}" class="btn btn-template-main">
-            <i class="fa fa-home"></i>{{ i18n "navHome" }}</a>
-          </p>
-          */}}
-        </div>
-      </div> <!-- /.col-sm-6 -->
+          <div id="post-content">
+            <p>{{ i18n "error404Explanation" }}</p>
+            <p>{{ i18n "error404Search" | markdownify }}</p>
+            {{ partial "kbsearch.html" . }}
+          </div> <!-- /#post-content -->
+        </div> <!-- /.col-md-9 -->
+        <!-- *** LEFT COLUMN END *** -->
+
+        <!-- *** RIGHT COLUMN *** -->
+        <div class="col-md-3">
+          <!-- *** MENUS AND WIDGETS *** -->
+          {{ partial "sidebar.html" . }}
+          <!-- *** MENUS AND FILTERS END *** -->
+        </div> <!-- /.col-md-3 -->
+        <!-- *** RIGHT COLUMN END *** -->
+
+      </div> <!-- /.row -->
+
     </div> <!-- /.container -->
   </div> <!-- /#content -->
 {{ end }}

@@ -79,13 +79,13 @@
 - id: showAllArticles
   translation: "Show all articles"
 - id: error404
-  translation: "Error 404 - Page not found"
+  translation: "Error 404 – Page not found"
 - id: error404Message
-  translation: "We are sorry - we can't find the page you're looking for"
+  translation: "Sorry – we can't find the page you're looking for"
 - id: error404Explanation
-  translation: "It may no longer exist, be called something different or be temporarily unavailable."
+  translation: "It is possible it exists no longer, is called something different or is temporarily unavailable."
 - id: error404Search
-  translation: "Try to find what you're looking for by searching below."
+  translation: "Try to find what you're looking for by [browsing our knowledge base](/en/help), [checking the faq](/en/faq) or searching below."
 - id: noResultsTitle
   translation: "No document found"
 - id: noResultsText

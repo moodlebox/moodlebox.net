@@ -79,17 +79,17 @@
 - id: showAllArticles
   translation: "Afficher tous les articles"
 - id: error404
-  translation: "Erreur 404 - Page non trouvée"
+  translation: "Erreur 404 – Page non trouvée"
 - id: error404Message
-  translation: "Toutes nos excuses - nous ne trouvons pas la page que vous cherchez"
+  translation: "Désolé, nous ne trouvons pas la page que vous cherchez"
 - id: error404Explanation
-  translation: "Elle n'existe plus, est appelée autrement ou n'est temporairement plus disponible."
+  translation: "Il est possible qu'elle n'existe plus, qu'elle est appelée autrement ou n'est temporairement plus disponible."
 - id: error404Search
-  translation: "Faites une recherche ci-dessous pour essayer de trouver ce que vous cherchez."
+  translation: "Essayez de trouver ce que vous cherchez en [consultant notre documentation](/fr/help), [lisant les questions fréquemment posées](/fr/faq) ou en effectuant une recherche ci-dessous."
 - id: noResultsTitle
   translation: "Aucun document trouvé"
 - id: noResultsText
-  translation: "Désolé, mais rien ne correspond à votre recherche. Veuillez réessayer avec des termes différents ou [consultez la documentation](/fr/help)."
+  translation: "Désolé, mais aucun document ne correspond à votre recherche. Veuillez réessayer avec des termes différents ou [consultez la documentation](/fr/help)."
 - id: searchTermTooShort
   translation: "Le terme recherché doit comporter au moins 3 caractères."
 - id: recentNews

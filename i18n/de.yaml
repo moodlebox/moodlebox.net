@@ -79,13 +79,13 @@
 - id: showAllArticles
   translation: "Mehr anzeigen"
 - id: error404
-  translation: "Fehler 404 - Seite nicht gefunden"
+  translation: "Fehler 404 – Seite nicht gefunden"
 - id: error404Message
-  translation: "Es tut uns Leid - wir können die von Ihnen gewünschte Seite nicht finden"
+  translation: "Leider können wir die von Ihnen gewünschte Seite nicht finden"
 - id: error404Explanation
-  translation: "Sie existiert vielleicht nicht mehr, nennt sich anders oder ist vorübergehend nicht verfügbar."
+  translation: "Es ist möglich, dass sie nicht mehr existiert, einen anderen Namen hat oder vorübergehend nicht verfügbar ist."
 - id: error404Search
-  translation: "Versuchen Sie, mithilfe der folgenden Suche zu finden, was Sie brauchen."
+  translation: "Versuchen Sie, die gewünschten Informationen zu finden, indem Sie [in unserer Wissensbasis](/de/help) browsen, [in den FAQ](/de/faq) nachsehen oder mithilfe der folgenden Suche."
 - id: noResultsTitle
   translation: "Kein Dokument gefunden"
 - id: noResultsText

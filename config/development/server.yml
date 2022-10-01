@@ -1,0 +1,13 @@
+redirects:
+  - from: /en/**
+    to: /en/404.html
+    status: 404
+  - from: /fr/**
+    to: /fr/404.html
+    status: 404
+  - from: /de/**
+    to: /de/404.html
+    status: 404
+  - from: /**
+    to: /en/404.html
+    status: 404

@@ -4,7 +4,6 @@ theme:
   - hugo-video
   - hugo-notice
   - hugo-cloak-email
-languageCode: en-us
 
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage: en
@@ -41,6 +40,7 @@ enableRobotsTXT: true
 languages:
   en:
     languageName: English
+    languageCode: en-us
     title: MoodleBox
     slogan: A Moodle platform on Raspberry Pi
     description: MoodleBox is a standalone small and cheap mobile device working without Internet. It combines a wireless access point with a full featured Moodle server.
@@ -150,6 +150,7 @@ languages:
 
   fr:
     languageName: Français
+    languageCode: fr-fr
     title: MoodleBox
     slogan: Une plateforme Moodle sur Raspberry Pi
     description: MoodleBox est un petit appareil mobile bon marché qui fonctionne sans Internet. Elle combine un point d’accès sans fils avec un serveur Moodle complet.
@@ -259,6 +260,7 @@ languages:
 
   de:
     languageName: Deutsch
+    languageCode: de-de
     title: MoodleBox
     slogan: Eine Moodle-Plattform auf dem Raspberry Pi
     description: MoodleBox ist ein eigenständiges kleines und kostengünstiges mobiles Gerät, das ohne Internet funktioniert. Sie kombiniert einen WLAN-Access Point mit einem voll ausgestatteten Moodle-Server.
