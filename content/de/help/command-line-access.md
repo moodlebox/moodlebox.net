@@ -16,12 +16,12 @@ categories:
 ---
 Für normale Nutzer besteht keinerlei Notwendigkeit, auf das Betriebssystem der MoodleBox zuzugreifen. Als Administrator können Sie aber bei Bedarf über SSH eine Verbindung zum Betriebssystem herstellen, indem Sie die Adresse __moodlebox.home__ und die folgenden Anmeldedaten verwenden:
 
-  * Anmeldename: __moodlebox__
-  * Kennwort: __Moodlebox4$__
+  * Anmeldename: __moodlebox__
+  * Kennwort: __Moodlebox4$__
 
 ### Mit PuTTY (bei Windows)
 
-Öffnen Sie eine neue Verbindung, schreiben Sie die Adresse __moodlebox.home__ in das Feld _Host Name_, klicken Sie dann auf _Öffnen_ und geben Sie das Kennwort __Moodlebox4$__ ein.
+Öffnen Sie eine neue Verbindung, schreiben Sie die Adresse __moodlebox.home__ in das Feld _Host Name_, klicken Sie dann auf _Öffnen_ und geben Sie das Kennwort __Moodlebox4$__ ein.
 
 {{< figure src="/img/media/putty-moodlebox.png" title="Verbindung mit PuTTY" class="centered-image" width="516" >}}
 

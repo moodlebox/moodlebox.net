@@ -11,13 +11,13 @@ categories:
   - Maintenance
 
 ---
-As a routine security measure, it is recommended to update regularly the server software on the MoodleBox to patch vulnerabilities found in the Raspberry Pi OS distribution and to fix other discovered bugs.
+As a routine security measure, it is recommended to update regularly the server software on the MoodleBox to patch vulnerabilities found in the Raspberry Pi OS distribution and to fix other discovered bugs.
 
 For this operation, the MoodleBox must be connected to the Internet via Ethernet cable.
 
 ### Updating the MoodleBox software
 
-  1. Connect to [the command line interface of the MoodleBox][1] via SSH, using your credentials. Here are the [defaults credentials][2].
+  1. Connect to [the command line interface of the MoodleBox][1] via SSH, using your credentials. Here are the [defaults credentials][2].
   2. Branch the MoodleBox with an Ethernet cable to a local network with Internet access.
   3. Type the following command in the terminal interface:
 

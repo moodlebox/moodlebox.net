@@ -29,7 +29,7 @@ Vos dons contribuent à financer du matériel nécessaire au développement de M
 
 Vous êtes fauché ou ne voulez pas contribuer financièrement ? Pas grave, ne partez pas 😉. Vous pouvez soutenir la MoodleBox d'autres manières, par exemple
 
-  - [partager votre expérience pédagogique][1] avec nous,
+  - [partager votre expérience pédagogique][1] avec nous,
   - décrivez [votre scénario d'utilisation de la MoodleBox][1],
   - [traduire la documentation][2] dans d'autres langues,
   - [améliorer le design de ce site web][3],

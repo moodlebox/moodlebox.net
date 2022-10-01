@@ -11,7 +11,7 @@ categories:
   - Maintenance
 
 ---
-La MoodleBox permet à des fins d'administration un accès direct à la base de données de Moodle, au moyen du logiciel [Adminer][3]. Pour accéder à l'interface de connexion, on charge l'URL [http://moodlebox.home/adminer.php][1] dans un navigateur. Les données de connexion sont indiquées ci-dessous. Bien entendu le mot de passe sera différent si vous l'avez changé d'une façon ou d'une autre.
+La MoodleBox permet à des fins d'administration un accès direct à la base de données de Moodle, au moyen du logiciel [Adminer][3]. Pour accéder à l'interface de connexion, on charge l'URL [http://moodlebox.home/adminer.php][1] dans un navigateur. Les données de connexion sont indiquées ci-dessous. Bien entendu le mot de passe sera différent si vous l'avez changé d'une façon ou d'une autre.
 
   * Nom d'utilisateur : __moodlebox__
   * Mot de passe : __Moodlebox4$__

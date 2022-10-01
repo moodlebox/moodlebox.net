@@ -33,11 +33,11 @@ Il est possible de cacher le réseau Wi-Fi de la MoodleBox en cochant la case __
 Lorsque le réseau Wi-Fi est caché, il est difficile de savoir qu'une MoodleBox est active dans les environs. N'activez cette option que si vous êtes sûr de ce que vous faites, car les utilisateurs auront alors sans doute plus de peine à trouver la MoodleBox.
 {{< /notice >}}
 
-### Changer le canal Wi-Fi du point d'accès
+### Changer le canal Wi-Fi du point d'accès
 
 Pour changer le canal Wi-Fi du point d'accès de la MoodleBox, sélectionner un numéro de canal et cliquer sur le bouton __Changer les réglages Wi-Fi__.
 
-### Changer le pays de régulation du point d'accès sans fils
+### Changer le pays de régulation du point d'accès sans fils
 
 Pour changer le pays de régulation du point d'accès sans fils de la MoodleBox, sélectionner un pays dans la liste déroulante et cliquer sur le bouton __Changer les réglages Wi-Fi__.
 

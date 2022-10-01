@@ -13,9 +13,9 @@ aliases:
   - ../diy
 
 ---
-You may make your own MoodleBox disk image and configure it to your own needs.
+You may make your own MoodleBox disk image and configure it to your own needs.
 
-[Source code][1] allowing to make a MoodleBox disk image is [provided at GitHub][1] under [GPL license][2]. Documentation is available under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International][3] licence.
+[Source code][1] allowing to make a MoodleBox disk image is [provided at GitHub][1] under [GPL license][2]. Documentation is available under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International][3] licence.
 
  [1]: https://github.com/moodlebox/moodlebox
  [2]: https://www.gnu.org/licenses/gpl-3.0.en.html

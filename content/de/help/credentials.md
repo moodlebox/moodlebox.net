@@ -20,21 +20,21 @@ Diese Seite listet alle Anmeldedaten (Anmeldename und Kennwort) der Zugänge auf
 Dieses Kennwort ist notwendig, wenn Sie sich mit der MoodleBox über [WLAN verbinden][3].
 
   * WLAN-Name (SSID): __MoodleBox__
-  * Passwort: __moodlebox__
+  * Passwort: __moodlebox__
 
 ### Zugang zu Moodle
 
 Diese Anmeldedaten werden für das [Anmelden in Moodle][4] verwendet, wenn Sie mit dem voreingestellten Administratorkonto auf die Plattform zugreifen.
 
-  * Anmeldename: __moodlebox__
-  * Passwort: __Moodlebox4$__
+  * Anmeldename: __moodlebox__
+  * Passwort: __Moodlebox4$__
 
 ### Zugang zum Betriebssystem (Unix Account, SSH, SFTP)
 
-Diese Anmeldedaten erlauben den Zugang zum Betriebssystem (Unix Account). Nutzen Sie diese Daten, um [über SSH][1] oder [über SFTP][2] auf die MoodleBox zuzugreifen.
+Diese Anmeldedaten erlauben den Zugang zum Betriebssystem (Unix Account). Nutzen Sie diese Daten, um [über SSH][1] oder [über SFTP][2] auf die MoodleBox zuzugreifen.
 
-  * Anmeldename: __moodlebox__
-  * Passwort: __Moodlebox4$__
+  * Anmeldename: __moodlebox__
+  * Passwort: __Moodlebox4$__
 
 ### Zugang zur Datenbank
 

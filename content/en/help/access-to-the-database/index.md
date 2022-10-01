@@ -11,7 +11,7 @@ categories:
   - Maintenance
 
 ---
-The MoodleBox allows access to the Moodle database for administration purpose, via the [Adminer][3] software. To access to login interface, type the following URL [http://moodlebox.home/adminer.php][1] in the address bar of your browser, and type the credentials below. Of course the password is different if you have changed it.
+The MoodleBox allows access to the Moodle database for administration purpose, via the [Adminer][3] software. To access to login interface, type the following URL [http://moodlebox.home/adminer.php][1] in the address bar of your browser, and type the credentials below. Of course the password is different if you have changed it.
 
   * Username: __moodlebox__
   * Password: __Moodlebox4$__

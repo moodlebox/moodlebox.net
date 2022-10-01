@@ -1,5 +1,5 @@
 ---
-title: "MoodleBox 3.7.0 vous offre Moodle 3.9"
+title: "MoodleBox 3.7.0 vous offre Moodle 3.9"
 description: MoodleBox version 3.7.0 fournit Moodle 3.9. Elle est basée sur la version de Raspberry Pi OS du 27 mai 2020.
 date: 2020-06-15
 authors:

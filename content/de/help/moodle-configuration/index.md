@@ -28,7 +28,7 @@ Lediglich die folgenden Einstellungen sind angepasst, um die Verwendung von Mood
 :   Der _cron_ ist so konfiguriert, dass er __jede Minute__ abläuft. Mehrere zeitgesteuerte Prozesse benötigen einen Internetzugang. Es wird empfohlen, die MoodleBox über ein Ethernet-Kabel mit dem Internet zu verbinden.
 
 [Multi-Language Filter](http://moodlebox.home/admin/settings.php?section=filtersettingmultilang)
-:   Der Multi-Language Inhaltsfilter ist aktiviert.
+:   Der Multi-Language Inhaltsfilter ist aktiviert.
 
 [Cache](http://moodlebox.home/cache/admin.php)
 :   Der Cache von Moodle ist so konfiguriert, dass eine __optimierte Reaktionsgeschwindigkeit__ der MoodleBox sichergestellt wird.

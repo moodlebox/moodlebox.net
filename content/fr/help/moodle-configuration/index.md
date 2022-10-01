@@ -18,7 +18,7 @@ Les réglages de Moodle ci-dessous ont été configurés pour faciliter son util
 ### Réglages Moodle configurés
 
 [App Mobile](http://moodlebox.home/admin/category.php?category=mobileapp)
-:   Le service mobile permettant l'accès au moyen de l'[app mobile Moodle][1] officielle est activé. Vous pouvez télécharger l'app mobile Moodle à l'adresse https://download.moodle.org/mobile/.
+:   Le service mobile permettant l'accès au moyen de l'[app mobile Moodle][1] officielle est activé. Vous pouvez télécharger l'app mobile Moodle à l'adresse https://download.moodle.org/mobile/.
 
 [Taille des fichiers déposés](http://moodlebox.home/admin/settings.php?section=sitepolicies#admin-maxbytes)
 :   La taille maximale des fichiers déposés est fixée à __50 Mo__ (au moyen des variables `post_max_size` et `upload_max_filesize` de PHP).
@@ -33,7 +33,7 @@ Les réglages de Moodle ci-dessous ont été configurés pour faciliter son util
 :   Les mécanismes de cache de Moodle sont configurés pour __optimiser la réactivité__ de la MoodleBox.
 
 [Plugin MoodleBox](http://moodlebox.home/admin/category.php?category=moodlebox)
-:   Le [plugin d'administration MoodleBox][2] pour Moodle est installé. Ce plugin permet à un administrateur Moodle de redémarrer et d'arrêter la MoodleBox, de changer ses date et heure, d'en modifier certains paramètres et de surveiller son fonctionnement au moyen d'une interface graphique simple.
+:   Le [plugin d'administration MoodleBox][2] pour Moodle est installé. Ce plugin permet à un administrateur Moodle de redémarrer et d'arrêter la MoodleBox, de changer ses date et heure, d'en modifier certains paramètres et de surveiller son fonctionnement au moyen d'une interface graphique simple.
 
 [Bibliothèque MathJax](http://moodlebox.home/admin/settings.php?section=filtersettingmathjaxloader)
 :   La bibliothèque MathJax est installée en local, permettant au filtre MathJax de fonctionner correctement même si la MoodleBox n'est pas connectée à Internet.

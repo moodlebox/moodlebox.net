@@ -15,7 +15,7 @@ categories:
 ---
 #### Startup
 
-Insert your microSD card into the Raspberry Pi slot, power it up and connect it to the network via an Ethernet cable. The red LED lights up, and after a few seconds the green LED lights up intermittently.
+Insert your microSD card into the Raspberry Pi slot, power it up and connect it to the network via an Ethernet cable. The red LED lights up, and after a few seconds the green LED lights up intermittently.
 
 {{< figure src="/img/media/pi-plug-in.gif" title="Startup" class="centered-image" width="600" >}}
 

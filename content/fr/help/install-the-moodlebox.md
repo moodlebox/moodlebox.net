@@ -18,7 +18,7 @@ Voici la procédure pour installer la MoodleBox en vue de sa première utilisati
 
 ### Étape 1 : acheter le matériel
 
-Le [matériel nécessaire][1] pour faire votre MoodleBox consiste essentiellement en une Raspberry Pi modèle 3A+, 3B, 3B+ ou 4B avec une alimentation et une carte microSD. [Plus d'informations ici][1].
+Le [matériel nécessaire][1] pour faire votre MoodleBox consiste essentiellement en une Raspberry Pi modèle 3A+, 3B, 3B+ ou 4B avec une alimentation et une carte microSD. [Plus d'informations ici][1].
 
 {{< notice tip >}}
 Le choix d'une carte microSD de __bonne qualité__ ainsi que d'une alimentation électrique adéquate sont __essentiels__ pour le bon fonctionnement de la MoodleBox.
@@ -31,9 +31,9 @@ Nous recommandons l'[alimentation officielle](https://www.raspberrypi.org/produc
 
 L'[image-disque][2] nécessaire pour construire la MoodleBox est [disponible ici][2].
 
-### Étape 3 : copier l'image-disque sur votre carte microSD
+### Étape 3 : copier l'image-disque sur votre carte microSD
 
-Pour cette opération, il est préférable d'utiliser [balenaEtcher][10]. [Plus d'informations ici][3].
+Pour cette opération, il est préférable d'utiliser [balenaEtcher][10]. [Plus d'informations ici][3].
 
 ### Étape 4 : démarrer votre MoodleBox
 
@@ -47,7 +47,7 @@ Il n'y a pas d'autre manipulation à effectuer : dès la fin de son démarrage,
   * [Accéder à Moodle][4]
   * [Changer le mot de passe principal][11]
   * [Configurer le réseau Wi-Fi][6]
-  * [Accéder à la MoodleBox via SSH][7]
+  * [Accéder à la MoodleBox via SSH][7]
   * [Soutenir le projet MoodleBox][8]
 
 Pour plus d'informations, [consultez la documentation][9].

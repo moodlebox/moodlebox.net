@@ -17,27 +17,27 @@ This page lists all the credentials (usernames and passwords) used in the Moodle
 
 ### Wi-Fi access
 
-This password should be used to [connect to the Wi-Fi][3] network of the MoodleBox. The network name (SSID) is __MoodleBox__.
+This password should be used to [connect to the Wi-Fi][3] network of the MoodleBox. The network name (SSID) is __MoodleBox__.
 
-  * Password: __moodlebox__
+  * Password: __moodlebox__
 
 ### Moodle access
 
 These credentials should be used to [log into the Moodle][4] default administrator account.
 
-  * Username: __moodlebox__
-  * Password: __Moodlebox4$__
+  * Username: __moodlebox__
+  * Password: __Moodlebox4$__
 
 ### Command line access (Unix account, SSH, SFTP)
 
-These credentials should be used for the Unix account. Use these credentials to [access the MoodleBox via SSH][1] or [via SFTP][2].
+These credentials should be used for the Unix account. Use these credentials to [access the MoodleBox via SSH][1] or [via SFTP][2].
 
-  * Username: __moodlebox__
-  * Password: __Moodlebox4$__
+  * Username: __moodlebox__
+  * Password: __Moodlebox4$__
 
 ### Access to the database
 
-These credentials should be used to [access to the database management interface][5].
+These credentials should be used to [access to the database management interface][5].
 
   * Username: __moodlebox__
   * Password: __Moodlebox4$__

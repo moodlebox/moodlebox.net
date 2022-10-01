@@ -13,14 +13,14 @@ categories:
   - Utilisation
 
 ---
-En tant qu'utilisateur, il n'est en principe pas nécessaire de vous connecter en ligne de commande à la MoodleBox. Cependant, vous pouvez y accéder au besoin via SSH en utilisant l'adresse __moodlebox.home__, avec les informations d'authentification par défaut :
+En tant qu'utilisateur, il n'est en principe pas nécessaire de vous connecter en ligne de commande à la MoodleBox. Cependant, vous pouvez y accéder au besoin via SSH en utilisant l'adresse __moodlebox.home__, avec les informations d'authentification par défaut :
 
-  * nom d'utilisateur : __moodlebox__
-  * mot de passe : __Moodlebox4$__
+  * nom d'utilisateur : __moodlebox__
+  * mot de passe : __Moodlebox4$__
 
 ### Avec PuTTY (sous Windows)
 
-Ouvrir une nouvelle connexion, saisissez l'adresse __moodlebox.home__ dans le champ adéquat (_host name_). Cliquer sur _Open_ et saisissez le mot de passe __Moodlebox4$__.
+Ouvrir une nouvelle connexion, saisissez l'adresse __moodlebox.home__ dans le champ adéquat (_host name_). Cliquer sur _Open_ et saisissez le mot de passe __Moodlebox4$__.
 
 {{< figure src="/img/media/putty-moodlebox.png" title="Connexion avec PuTTY" class="centered-image" width="516" >}}
 

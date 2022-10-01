@@ -13,14 +13,14 @@ categories:
   - Usage
 
 ---
-As a normal user, you should not need to connect into the command line interface of the MoodleBox. Anyway, you may access it if necessary via SSH, using the address __moodlebox.home__, using its default credentials:
+As a normal user, you should not need to connect into the command line interface of the MoodleBox. Anyway, you may access it if necessary via SSH, using the address __moodlebox.home__, using its default credentials:
 
-  * username: __moodlebox__
-  * password: __Moodlebox4$__
+  * username: __moodlebox__
+  * password: __Moodlebox4$__
 
 ### With PuTTY (under Windows)
 
-Open a new connection, type the address __moodlebox.home__ under _Host Name_, then click _Open_. Input the password __Moodlebox4$__.
+Open a new connection, type the address __moodlebox.home__ under _Host Name_, then click _Open_. Input the password __Moodlebox4$__.
 
 {{< figure src="/img/media/putty-moodlebox.png" title="Connection with PuTTY" class="centered-image" width="516" >}}
 

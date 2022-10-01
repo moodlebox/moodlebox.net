@@ -21,7 +21,7 @@ Here is the stuff you will need to build your MoodleBox:
   * [microSD card][sdcard] of sufficient size; we recommend a capacity of 32 GB or more, even if MoodleBox can work with a smaller card size,
   * [Raspberry Pi case][case] (not essential, but very useful to protect the Raspberry Pi).
 
-The total hardware amount is approximately USD 90, 80 € or CHF 90.
+The total hardware amount is approximately USD 90, 80€ or CHF 90.
 
 {{< gallery directory="img/hardware" >}}
 
