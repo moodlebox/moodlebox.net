@@ -524,9 +524,6 @@ privacy:
 # pygmentsStyle: "emacs"
 
 markup:
-  blackFriday:
-    footnoteReturnLinkContents: ↩
-#     footnoteReturnLinkContents: ↑
   goldmark:
     parser:
       attribute:
