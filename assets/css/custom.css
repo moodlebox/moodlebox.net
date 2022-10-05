@@ -125,8 +125,11 @@ ul#give-donation-level-radio-list > li input[type=radio] {
 }
 
 /* footnote link and back to footnote link */
-a[href^="#fn:"], a[href^="#fnref:"] {
+a[href^="#fn:"], a[href^="#fnref"] {
   text-decoration: none;
+}
+a[href^="#fnref"] {
+  font-family: initial;
 }
 a[href^="#fn:"]:before{
   content: '[';
