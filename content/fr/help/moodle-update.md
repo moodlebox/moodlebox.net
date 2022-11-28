@@ -5,7 +5,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-17
-lastmod: 2022-08-15
+lastmod: 2022-11-28
 description: Vous voulez mettre à jour Moodle sur la MoodleBox ? Suivez ces instructions !
 slug: mise-a-jour-de-la-version-de-moodle
 categories:
@@ -38,7 +38,7 @@ Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez 
 
 ### Mise à jour vers une version _majeure_
 
-Pour une mise à jour à une __version majeure__ de Moodle (4.0, 4.1[^future], 4.2[^future], etc.), tapez les commandes ci-dessus, puis __en plus__ les commandes suivantes, en indiquant la branche adéquate, par exemple `MOODLE_400_STABLE`, `MOODLE_410_STABLE`, `MOODLE_420_STABLE`, etc. :
+Pour une mise à jour à une __version majeure__ de Moodle (4.0, 4.1, 4.2[^future], etc.), tapez les commandes ci-dessus, puis __en plus__ les commandes suivantes, en indiquant la branche adéquate, par exemple `MOODLE_400_STABLE`, `MOODLE_401_STABLE`, `MOODLE_402_STABLE`, etc. :
 
 ```bash
 sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
