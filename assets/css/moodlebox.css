@@ -221,6 +221,9 @@ ul.list-style-none {
 #top .social a:hover.email {
   background-color: #4a7f45;
 }
+#top .social a:hover.mastodon {
+  background-color: #3cf;
+}
 #top.light {
   background: #fff;
   color: #999999;
@@ -963,6 +966,9 @@ fieldset[disabled] .btn-template-primary.active {
 .team-member .social a.email {
   background-color: #4a7f45;
 }
+.team-member .social a.mastodon {
+  background-color: #3cf;
+}
 .team-member .text p {
   color: #999999;
   font-size: .75rem;
@@ -1011,6 +1017,10 @@ fieldset[disabled] .btn-template-primary.active {
 .team-member .social a.email,
 .team-member-detail .social a.email {
   background-color: #4a7f45;
+}
+.team-member .social a.mastodon,
+.team-member-detail .social a.mastodon {
+  background-color: #3cf;
 }
 .box-simple {
   text-align: center;

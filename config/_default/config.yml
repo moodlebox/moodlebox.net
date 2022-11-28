@@ -382,6 +382,10 @@ menu:
     pre: <i class='fa fa-2x fa-twitter'></i>
     url: https://twitter.com
     weight: 3
+  - name: Mastodon
+    pre: <i class='fa fa-2x fa-mastodon'></i>
+    url: https://joinmastodon.org/
+    weight: 3
   - name: Mail
     pre: <i class='fa fa-2x fa-envelope'></i>
     url: mailto:nicolas@martignoni.net
@@ -433,6 +437,7 @@ params:
 
   social:
     twitter: moodlebox
+    mastodon: moodlebox
     github: moodlebox
 
   typeseo:
