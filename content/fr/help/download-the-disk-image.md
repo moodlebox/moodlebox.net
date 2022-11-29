@@ -18,32 +18,32 @@ aliases:
 
 <div class="downloads row gx-0">
   <div class="image-icon text-center col-sm-3">
-    <a class="piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><img alt="Carte microSD MoodleBox" src="/img/media/moodlebox-sdcard.png" width="150" height="150"></a>
+    <a class="piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=2 >}}"><img alt="Carte microSD MoodleBox" src="/img/media/moodlebox-sdcard.png" width="150" height="150"></a>
   </div>
   <div class="image-info col-sm-9">
     <div class="image-description">
       Image disque MoodleBox pour carte microSD
     </div>
     <div class="image-details">
-      Version : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}</strong>
+      Version : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" id=2 >}}</strong>
     </div>
     <div class="image-details">
       Version de Moodle : <strong>4.1 (Build: 20221128)</strong>
     </div>
     <div class="image-details">
-      Taille : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" >}} Mo</strong>
+      Taille : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" id=2 >}} Mo</strong>
     </div>
     <div class="image-details">
-      Date : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_date" >}}</strong>
+      Date : <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_date" id=2 >}}</strong>
     </div>
     <div class="image-details">
       Notes de mise à jour : <strong><a href="https://github.com/moodlebox/moodlebox/blob/main/CHANGELOG.md" target="_blank">sur Github</a></strong>
     </div>
     <div class="image-details">
-      SHA-256 : <strong><a href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=1 >}}" target="_blank">{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=1 >}}</a></strong>
+      SHA-256 : <strong><a href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=3 >}}" target="_blank">{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=3 >}}</a></strong>
     </div>
     <div class="image-download-links">
-      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}"><i class="fa fa-download" aria-hidden="true"></i>Télécharger l'image</a>
+      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=2 >}}"><i class="fa fa-download" aria-hidden="true"></i>Télécharger l'image</a>
       <a class="btn" href="{{< relref "/support-moodlebox" >}}"><i class="fa fa-heart" aria-hidden="true"></i>Faire un don</a>
     </div>
   </div>
@@ -60,13 +60,13 @@ L'image-disque MoodleBox est construite sur la base de la distribution [Raspberr
 En cas de difficulté de téléchargement, utilisez la ligne de commande pour télécharger l'image-disque, soit avec la commande
 
 ```bash
-wget -c {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
+wget -c {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=2 >}}
 ```
 
 soit avec celle-ci
 
 ```bash
-curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
+curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=2 >}}
 ```
 
 ### Anciennes versions de l'image disque
@@ -76,7 +76,7 @@ Les images disques des anciennes versions de MoodleBox [sont disponibles sur Git
  [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: {{< relref "help/startup-shutdown-restart" >}}
  [3]: {{< relref "/support-moodlebox" >}}
- [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" >}}
+ [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=2 >}}
  [5]: {{< relref "help/install-the-moodlebox" >}}
  [rpios]: https://www.raspberrypi.org/downloads/raspberry-pi-os/
  [releases]: https://github.com/moodlebox/moodlebox/releases
