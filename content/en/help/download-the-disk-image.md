@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2022-09-11
+lastmod: 2022-11-29
 description: The MoodleBox disk image can be freely downloaded from this page.
 slug: download-the-disk-image
 categories_weight: 3
@@ -29,7 +29,7 @@ aliases:
       Version: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}</strong>
     </div>
     <div class="image-details">
-      Moodle version: <strong>4.0.2+ (Build: 20220812)</strong>
+      Moodle version: <strong>4.1 (Build: 20221128)</strong>
     </div>
     <div class="image-details">
       Size: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" >}} MB</strong>
