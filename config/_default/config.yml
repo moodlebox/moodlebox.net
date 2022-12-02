@@ -372,7 +372,7 @@ menu:
   topbar:
   - name: GitHub
     pre: <i class='fa fa-2x fa-github'></i>
-    url: https://github.com/moodlebox/moodlebox
+    url: https://github.com/moodlebox
     weight: 1
 #  - name: Facebook
 #    pre: <i class='fa fa-2x fa-facebook'></i>
@@ -380,11 +380,11 @@ menu:
 #    weight: 2
   - name: Twitter
     pre: <i class='fa fa-2x fa-twitter'></i>
-    url: https://twitter.com
+    url: https://twitter.com/moodlebox
     weight: 3
   - name: Mastodon
     pre: <i class='fa fa-2x fa-mastodon'></i>
-    url: https://joinmastodon.org/
+    url: https://openedtech.social/@moodlebox
     weight: 3
   - name: Mail
     pre: <i class='fa fa-2x fa-envelope'></i>
@@ -437,7 +437,7 @@ params:
 
   social:
     twitter: moodlebox
-    mastodon: moodlebox
+    mastodon: https://openedtech.social/@moodlebox
     github: moodlebox
 
   typeseo:

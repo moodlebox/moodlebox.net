@@ -53,6 +53,7 @@
   <link rel="icon" type="image/png" href="{{ "img/favicon-16x16.png" | absURL }}" sizes="16x16">
   <link rel="manifest" href="{{ "img/manifest.json" | absURL }}">
   <link rel="mask-icon" href="{{ "img/safari-pinned-tab.svg" | absURL }}" color="#bb1142">
+  {{- with site.Params.social.mastodon }}<link rel="me" href="{{ . }}" />{{ end -}}
   {{ block "headfiles" . }}
    <!-- pl;aceholder -->
   {{ end }}

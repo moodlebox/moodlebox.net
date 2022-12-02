@@ -8,6 +8,7 @@
     "url": "{{ .Permalink }}",
     "sameAs": [
       {{- with site.Params.social.github }}"https://github.com/{{ . }}",{{ end -}}
+      {{- with site.Params.social.mastodon }}"{{ . }}",{{ end -}}
       {{- with site.Params.social.twitter }}"https://twitter.com/{{ . }}"{{ end -}}
     ]
   },
