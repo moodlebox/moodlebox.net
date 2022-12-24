@@ -3,13 +3,14 @@
     {
       "name": "MoodleBox v4.5.0",
       "description": "MoodleBox combines a wireless access point with a full featured Moodle server on a Raspberry Pi.",
+      "website": "https://moodlebox.net/",
       "icon": "https://moodlebox.net/img/icon.png",
       "url": "https://github.com/moodlebox/moodlebox/releases/download/v4.5.0/moodlebox-4.5.0-rpi-imager.img.bz2",
       "extract_size": 2974810112,
       "extract_sha256": "9e2cd606c60f3d6aa09f8853d5fda699b8f9dd22051edd2841fcce93556e122d",
       "image_download_size": 764139348,
       "release_date": "2022-22-29",
-      "website": "https://moodlebox.net/"
+      "init_format": "systemd"
     }
   ]
 }
