@@ -67,13 +67,9 @@ languages:
         url: /hardware/
         weight: 1
       - parent: get
-        name: Download the disk image
-        url: /dl/
-        weight: 3
-      - parent: get
         name: Install MoodleBox
         url: /install/
-        weight: 5
+        weight: 2
 
       - identifier: support
         name: Support
@@ -177,13 +173,9 @@ languages:
         url: /hardware/
         weight: 1
       - parent: get
-        name: Télécharger l'image-disque
-        url: /dl/
-        weight: 3
-      - parent: get
         name: Installer MoodleBox
         url: /install/
-        weight: 5
+        weight: 2
 
       - identifier: support
         name: Aide
@@ -287,13 +279,9 @@ languages:
         url: /hardware/
         weight: 1
       - parent: get
-        name: Disk-Image herunterladen
-        url: /dl/
-        weight: 3
-      - parent: get
         name: MoodleBox installieren
         url: /install/
-        weight: 5
+        weight: 2
 
       - identifier: support
         name: Support
