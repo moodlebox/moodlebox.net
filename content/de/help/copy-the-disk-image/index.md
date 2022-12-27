@@ -15,14 +15,14 @@ categories:
 ---
 Haben Sie das [Disk-Image][1] heruntergeladen?
 
-Installieren Sie zuerst [balenaEtcher][2] (früher bekannt als _Etcher_) auf Ihrem Computer. Befolgen Sie dann die Anleitung für balenaEtcher, um das Disk-Image __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=3 >}}__ auf Ihre microSD-Karte zu flashen.
+Installieren Sie zuerst [balenaEtcher][2] (früher bekannt als _Etcher_) auf Ihrem Computer. Befolgen Sie dann die Anleitung für balenaEtcher, um das Disk-Image __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=2 >}}__ auf Ihre microSD-Karte zu flashen.
 
 {{< figure src="/img/media/etcher-copy.png" title="Kopieren mit balenaEtcher" class="centered-image" width="700" >}}
 
 <!--
 ### Für Experten
 
-Falls Sie es als Experte bevorzugen, zum Flashen der microSD-Karte einige Befehlszeilen ins Terminal einzugeben, geht dies auch. Extrahieren Sie die heruntergeladene Datei __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=3 >}}__ und folgen Sie dann den [Anweisungen][3], um das Disk-Image __moodlebox-{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}.img__ auf Ihre microSD-Karte zu kopieren.
+Falls Sie es als Experte bevorzugen, zum Flashen der microSD-Karte einige Befehlszeilen ins Terminal einzugeben, geht dies auch. Extrahieren Sie die heruntergeladene Datei __{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=2 >}}__ und folgen Sie dann den [Anweisungen][3], um das Disk-Image __moodlebox-{{< ghrelease user="moodlebox" repo="moodlebox" data="version" >}}.img__ auf Ihre microSD-Karte zu kopieren.
 
   * [Anleitung für macOS][4]
   * [Anleitung für Windows][5]
