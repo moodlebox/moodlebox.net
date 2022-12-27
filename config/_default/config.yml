@@ -58,9 +58,26 @@ languages:
         weight: 1
         url: /give/
 
+      - identifier: get
+        name: Get MoodleBox
+        weight: 2
+
+      - parent: get
+        name: Get the hardware
+        url: /hardware/
+        weight: 1
+      - parent: get
+        name: Download the disk image
+        url: /dl/
+        weight: 3
+      - parent: get
+        name: Install MoodleBox
+        url: /install/
+        weight: 5
+
       - identifier: support
         name: Support
-        weight: 2
+        weight: 3
 
       - parent: support
         name: FAQ
@@ -77,7 +94,7 @@ languages:
 
       - identifier: get-involved
         name: Get involved
-        weight: 3
+        weight: 4
 
       - parent: get-involved
         name: Report a bug
@@ -94,7 +111,7 @@ languages:
 
       - identifier: about
         name: About
-        weight: 4
+        weight: 5
 
       - parent: about
         name: What is MoodleBox
@@ -112,23 +129,6 @@ languages:
         name: Contact
         url: /contact/
         weight: 10
-
-      - identifier: get
-        name: Get MoodleBox
-        weight: 10
-
-      - parent: get
-        name: Download the disk image
-        url: /dl/
-        weight: 1
-      - parent: get
-        name: Get the hardware
-        url: /hardware/
-        weight: 3
-      - parent: get
-        name: Install MoodleBox
-        url: /install/
-        weight: 5
 
     testimonials:
       enable: true
@@ -168,9 +168,26 @@ languages:
         weight: 1
         url: /give/
 
+      - identifier: get
+        name: Obtenir MoodleBox
+        weight: 2
+
+      - parent: get
+        name: Acquérir le matériel
+        url: /hardware/
+        weight: 1
+      - parent: get
+        name: Télécharger l'image-disque
+        url: /dl/
+        weight: 3
+      - parent: get
+        name: Installer MoodleBox
+        url: /install/
+        weight: 5
+
       - identifier: support
         name: Aide
-        weight: 2
+        weight: 3
 
       - parent: support
         name: FAQ
@@ -187,7 +204,7 @@ languages:
 
       - identifier: get-involved
         name: Participer
-        weight: 3
+        weight: 4
 
       - parent: get-involved
         name: Annoncer un bogue
@@ -204,7 +221,7 @@ languages:
 
       - identifier: about
         name: À propos
-        weight: 4
+        weight: 5
 
       - parent: about
         name: "Qu'est-ce que MoodleBox ?"
@@ -222,23 +239,6 @@ languages:
         name: Contact
         url: /contact/
         weight: 10
-
-      - identifier: get
-        name: Obtenir MoodleBox
-        weight: 10
-
-      - parent: get
-        name: Télécharger l'image-disque
-        url: /dl/
-        weight: 1
-      - parent: get
-        name: Acquérir le matériel
-        url: /hardware/
-        weight: 3
-      - parent: get
-        name: Installer MoodleBox
-        url: /install/
-        weight: 5
 
     testimonials:
       enable: true
@@ -278,9 +278,26 @@ languages:
         weight: 1
         url: /give/
 
+      - identifier: get
+        name: Erhalten
+        weight: 2
+
+      - parent: get
+        name: Hardware beschaffen
+        url: /hardware/
+        weight: 1
+      - parent: get
+        name: Disk-Image herunterladen
+        url: /dl/
+        weight: 3
+      - parent: get
+        name: MoodleBox installieren
+        url: /install/
+        weight: 5
+
       - identifier: support
         name: Support
-        weight: 2
+        weight: 3
 
       - parent: support
         name: FAQ
@@ -297,7 +314,7 @@ languages:
 
       - identifier: get-involved
         name: Mitmachen
-        weight: 3
+        weight: 4
 
       - parent: get-involved
         name: Fehler melden
@@ -314,7 +331,7 @@ languages:
 
       - identifier: about
         name: Über MoodleBox
-        weight: 4
+        weight: 5
 
       - parent: about
         name: Was ist MoodleBox?
@@ -332,23 +349,6 @@ languages:
         name: Kontakt
         url: /contact/
         weight: 6
-
-      - identifier: get
-        name: Erhalten
-        weight: 10
-
-      - parent: get
-        name: Disk-Image herunterladen
-        url: /dl/
-        weight: 1
-      - parent: get
-        name: Hardware beschaffen
-        url: /hardware/
-        weight: 2
-      - parent: get
-        name: MoodleBox installieren
-        url: /install/
-        weight: 3
 
     testimonials:
       enable: true
