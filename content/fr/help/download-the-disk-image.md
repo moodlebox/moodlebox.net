@@ -1,10 +1,10 @@
 ---
-title: Télécharger l'image-disque
+title: Télécharger l'image-disque manuellement
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2022-11-29
+lastmod: 2022-12-27
 description: L'image-disque de la MoodleBox peut être téléchargée gratuitement et librement sur sur cette page.
 slug: telecharger-limage-disque
 categories_weight: 3
@@ -12,9 +12,11 @@ categories:
   - Premiers pas
 aliases:
   - ../dl
-
 ---
-### Image disque MoodleBox
+
+{{< notice tip >}}
+Pour [copier l'image disque MoodleBox]({{< relref "help/copy-the-disk-image" >}}) sur votre carte microSD, il est recommandé d'employer l'[utilitaire Raspberry Pi Imager]({{< relref "help/copy-the-disk-image" >}}), plutôt que de télécharger l'image ci-dessous et de la copier manuellement.
+{{< /notice >}}
 
 <div class="downloads row gx-0">
   <div class="image-icon text-center col-sm-3">
@@ -49,11 +51,9 @@ aliases:
   </div>
 </div>
 
-Après avoir téléchargé l'image-disque, suivez les [instructions pour la copier sur la carte microSD][1] et [démarrez votre MoodleBox][2]. Consultez les [instructions d'installation][5] pour plus d'informations.
+Après avoir téléchargé l'image-disque, copiez-là manuellement sur la carte microSD, par exemple avec BalenaEtcher ou `dd` et [démarrez votre MoodleBox][2]. Consultez les [instructions d'installation][5] pour plus d'informations.
 
 Si vous le souhaitez, vous pouvez [soutenir le développement][3] de la MoodleBox en [faisant un don][3].
-
-L'image-disque MoodleBox est construite sur la base de la distribution [Raspberry Pi OS Lite][rpios].
 
 ### En cas de difficulté
 
@@ -73,7 +73,7 @@ curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" i
 
 Les images disques des anciennes versions de MoodleBox [sont disponibles sur Github][releases].
 
- [1]: {{< relref "help/copy-the-disk-image" >}}
+ [copyimage]: {{< relref "help/copy-the-disk-image" >}}
  [2]: {{< relref "help/startup-shutdown-restart" >}}
  [3]: {{< relref "/support-moodlebox" >}}
  [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=2 >}}

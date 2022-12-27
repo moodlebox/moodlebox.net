@@ -1,11 +1,11 @@
 ---
-title: Disk-Image herunterladen
+title: Disk-Image manuell herunterladen
 authors:
   - Visvanath Ratnaweera
   - Ralf Krause
 type: kb
 date: 2018-02-02
-lastmod: 2022-11-29
+lastmod: 2022-12-27
 description: Das MoodleBox Disk-Image kann von dieser Seite frei heruntergeladen werden.
 slug: disk-image-herunterladen
 categories_weight: 3
@@ -13,9 +13,11 @@ categories:
   - Erste Schritte
 aliases:
   - ../dl
-
 ---
-### MoodleBox Disk-Image
+
+{{< notice tip >}}
+Um das [MoodleBox-Disk-Image auf Ihre microSD-Karte zu kopieren]({{< relref "help/copy-the-disk-image" >}}), empfehlen wir Ihnen, das [Programm Raspberry Pi Imager]({{< relref "help/copy-the-disk-image" >}}) zu verwenden, anstatt das Bild unten herunterzuladen und es manuell zu kopieren.
+{{< /notice >}}
 
 <div class="downloads row gx-0">
   <div class="image-icon text-center col-sm-3">
@@ -50,12 +52,9 @@ aliases:
   </div>
 </div>
 
-
-Folgen Sie nach dem Herunterladen des Disk-Images den Anleitungen für das [Kopieren auf die microSD-Karte][1] und [Einschalten der MoodleBox][2] zur ersten Verwendung.
+Nach dem Herunterladen des Disk-Images kopieren Sie es manuell auf die microSD-Karte, z.B. mit BalenaEtcher oder `dd`, und folgen Sie die Anleitungen für das [Einschalten der MoodleBox][2] zur ersten Verwendung.
 
 Wenn Sie möchten, können Sie die [Entwicklung der MoodleBox unterstützen][3], indem Sie eine [freiwillige Spende machen][3].
-
-Das MoodleBox Disk-Image wird auf der Basis der Distribution [Raspberry Pi OS Lite][rpios] gebaut.
 
 ### Probleme beim Herunterladen
 
@@ -75,7 +74,7 @@ curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" i
 
 Die Disk-Images älterer Versionen von MoodleBox [sind auf Github verfügbar][releases].
 
- [1]: {{< relref "help/copy-the-disk-image" >}}
+ [copyimage]: {{< relref "help/copy-the-disk-image" >}}
  [2]: {{< relref "help/startup-shutdown-restart" >}}
  [3]: {{< relref "/support-moodlebox" >}}
  [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=2 >}}

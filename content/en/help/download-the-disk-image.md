@@ -1,10 +1,10 @@
 ---
-title: Download the disk image
+title: Download the disk image manually
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2022-11-29
+lastmod: 2022-12-27
 description: The MoodleBox disk image can be freely downloaded from this page.
 slug: download-the-disk-image
 categories_weight: 3
@@ -13,9 +13,11 @@ categories:
 aliases:
   - /download
   - ../dl
-
 ---
-### MoodleBox Disk Image
+
+{{< notice tip >}}
+To [copy the MoodleBox disk image to your microSD card]({{< relref "help/copy-the-disk-image" >}}), we recommend [using the Raspberry Pi Imager tool]({{< relref "help/copy-the-disk-image" >}}) instead of downloading the image below and copying it manually.
+{{< /notice >}}
 
 <div class="downloads row gx-0">
   <div class="image-icon text-center col-sm-3">
@@ -50,11 +52,9 @@ aliases:
   </div>
 </div>
 
-After having downloaded the disk image, follow the instructions to [copy it to the microSD card][1] and [set up your MoodleBox][2] for the first use. Read the [installation instructions][5] for more information.
+After having downloaded the disk image, copy it manually to the microSD card, e.g. with BalenaEtcher or `dd`, and follow the instructions to [set up your MoodleBox][2] for the first use. Read the [installation instructions][5] for more information.
 
 If you wish, you can [support the development][3] of MoodleBox by [making an donation][3].
-
-The MoodleBox disk image is built on [Raspberry Pi OS Lite][rpios] distribution.
 
 ### In case of trouble
 
@@ -74,7 +74,7 @@ curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" i
 
 The disk images of older versions of MoodleBox [are available on Github][releases].
 
- [1]: {{< relref "help/copy-the-disk-image" >}}
+ [copyimage]: {{< relref "help/copy-the-disk-image" >}}
  [2]: {{< relref "help/startup-shutdown-restart" >}}
  [3]: {{< relref "/support-moodlebox" >}}
  [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=2 >}}
