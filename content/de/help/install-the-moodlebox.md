@@ -25,13 +25,13 @@ Als [Hardware für Ihre MoodleBox][1] benötigen Sie im Wesentlichen einen Raspb
 
 ### Schritt 2: Disk-Image auf die microSD-Karte kopieren
 
-Für diese Aufgabe empfehlen wir Ihnen, den [Raspberry Pi Imager][rpi-imager] zu verwenden, das für Sie __automatisch__ das MoodleBox-Disk-Image herunterlädt. Nehmen Sie bitte beim Kopieren des Images zusätzlich die empfohlenen Einstellungen vor.
+Für diese Aufgabe empfehlen wir Ihnen, den [Raspberry Pi Imager][rpi-imager] zu verwenden, der für Sie __automatisch__ das MoodleBox-Disk-Image herunterlädt. Nehmen Sie bitte beim Kopieren des Images zusätzlich die empfohlenen Einstellungen vor.
 
 &Gt; [Weitere Informationen][3]
 
 ### Schritt 3: MoodleBox starten
 
-Stecken Sie die kopierte microSD-Karte in den Steckplatz im Raspberry Pi und schalten Sie die Stromversorgung ein. Die rote LED leuchtet und nach einigen Sekunden beginnt die grüne LED zu blinken. Wenn Sie die MoodleBox über ein Ethernet-Kabel mit dem Netzwerk oder einem Internetrouter verbinden, können die über WLAN verbundenen mobilen Endgeräte auf das Internet zugreifen.
+Stecken Sie die kopierte microSD-Karte in den Steckplatz im Raspberry Pi und schalten Sie die Stromversorgung ein. Die rote LED leuchtet und nach einigen Sekunden beginnt die grüne LED zu blinken. Wenn Sie die MoodleBox über ein Ethernet-Kabel mit dem Netzwerk oder einem Internetrouter verbinden, können alle über WLAN verbundenen mobilen Endgeräte auf das Internet zugreifen.
 
 &Gt; [Weitere Informationen][10]
 
