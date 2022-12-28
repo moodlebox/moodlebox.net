@@ -23,15 +23,9 @@ Als [Hardware für Ihre MoodleBox][1] benötigen Sie im Wesentlichen einen Raspb
 
 &Gt; [Weitere Informationen][1]
 
-{{< notice tip >}}
-Der Erwerb einer __hochwertigen__ microSD-Karte und einer geeigneten Stromversorgung sind für den störungsfreien Betrieb der MoodleBox __unerlässlich__.
-
-Wir empfehlen das [offizielle Netzteil](https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/) der Raspberry Foundation und eine microSD-Karte mit geprüfter Leistung, z.B. [von Wirecutter empfohlen](https://thewirecutter.com/reviews/best-microsd-card/). Die Verwendung anderer Netzteile sowie von microSD-Karten aus zweifelhaften Quellen kann zu systematischen Störungen führen, für die __keine Unterstützung geleistet werden kann__.
-{{< /notice >}}
-
 ### Schritt 2: Disk-Image auf die microSD-Karte kopieren
 
-Für diese Aufgabe empfehlen wir Ihnen, den [Raspberry Pi Imager][rpi-imager] zu verwenden, das für Sie __automatisch__ das MoodleBox-Disk-Image herunterlädt. Nehmen Sie bitte beim Kopieren der MoodleBox zusätzlich die empfohlenen Einstellungen vor.
+Für diese Aufgabe empfehlen wir Ihnen, den [Raspberry Pi Imager][rpi-imager] zu verwenden, das für Sie __automatisch__ das MoodleBox-Disk-Image herunterlädt. Nehmen Sie bitte beim Kopieren des Images zusätzlich die empfohlenen Einstellungen vor.
 
 &Gt; [Weitere Informationen][3]
 
