@@ -1,6 +1,18 @@
 {
   "os_list": [
     {
+      "name": "MoodleBox v4.5.1",
+      "description": "MoodleBox combines a wireless access point with a full featured Moodle server on a Raspberry Pi. Compatible with RPi 4B, 400, 3B+, 3B and 3A+.",
+      "website": "https://moodlebox.net/",
+      "icon": "https://moodlebox.net/img/icon.png",
+      "url": "https://github.com/moodlebox/moodlebox/releases/download/v4.5.1/moodlebox-4.5.1-rpi-imager.img.bz2",
+      "extract_size": 2970615808,
+      "extract_sha256": "ab2489742d1ac3ba9536a141dbfbac3495115045a4ea94d8032d271fcad26ae9",
+      "image_download_size": 764139348,
+      "release_date": "2022-12-30",
+      "init_format": "systemd"
+    },
+    {
       "name": "MoodleBox v4.5.0",
       "description": "MoodleBox combines a wireless access point with a full featured Moodle server on a Raspberry Pi. Compatible with RPi 4B, 400, 3B+, 3B and 3A+.",
       "website": "https://moodlebox.net/",
