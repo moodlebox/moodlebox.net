@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/74434478",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/74434478/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/74434478/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v4.5.0",
-  "id": 74434478,
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/87508127",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/87508127/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/87508127/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v4.5.1",
+  "id": 87508127,
   "author": {
     "login": "martignoni",
     "id": 421392,
@@ -24,20 +24,20 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "RE_kwDOA-E9284Eb8eu",
-  "tag_name": "v4.5.0",
+  "node_id": "RE_kwDOA-E9284FN0Sf",
+  "tag_name": "v4.5.1",
   "target_commitish": "main",
-  "name": "v4.5.0",
+  "name": "v4.5.1",
   "draft": false,
   "prerelease": false,
-  "created_at": "2022-11-29T19:18:04Z",
-  "published_at": "2022-11-29T22:17:57Z",
+  "created_at": "2022-12-30T13:32:21Z",
+  "published_at": "2022-12-30T20:55:01Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/86418853",
-      "id": 86418853,
-      "node_id": "RA_kwDOA-E9284FJqWl",
-      "name": "moodlebox-4.5.0-rpi-imager.img.bz2",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/90002216",
+      "id": 90002216,
+      "node_id": "RA_kwDOA-E9284FXVMo",
+      "name": "moodlebox-4.5.1-rpi-imager.img.bz2",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -61,17 +61,17 @@
       },
       "content_type": "application/x-bzip2",
       "state": "uploaded",
-      "size": 764139348,
-      "download_count": 0,
-      "created_at": "2022-11-29T22:13:31Z",
-      "updated_at": "2022-11-29T22:17:57Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.5.0/moodlebox-4.5.0-rpi-imager.img.bz2"
+      "size": 772502295,
+      "download_count": 1,
+      "created_at": "2022-12-30T20:36:38Z",
+      "updated_at": "2022-12-30T20:38:03Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.5.1/moodlebox-4.5.1-rpi-imager.img.bz2"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/86420283",
-      "id": 86420283,
-      "node_id": "RA_kwDOA-E9284FJqs7",
-      "name": "moodlebox-4.5.0-rpi-imager.sha256",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/90002333",
+      "id": 90002333,
+      "node_id": "RA_kwDOA-E9284FXVOd",
+      "name": "moodlebox-rpi-imager-4.5.1.sha256",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -95,17 +95,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 120,
+      "size": 101,
       "download_count": 0,
-      "created_at": "2022-11-29T22:25:54Z",
-      "updated_at": "2022-11-29T22:26:24Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.5.0/moodlebox-4.5.0-rpi-imager.sha256"
+      "created_at": "2022-12-30T20:38:33Z",
+      "updated_at": "2022-12-30T20:38:33Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.5.1/moodlebox-rpi-imager-4.5.1.sha256"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/86419057",
-      "id": 86419057,
-      "node_id": "RA_kwDOA-E9284FJqZx",
-      "name": "moodlebox-4.5.0.img.bz2",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/89984872",
+      "id": 89984872,
+      "node_id": "RA_kwDOA-E9284FXQ9o",
+      "name": "moodlebox-4.5.1.img.bz2",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -129,17 +129,17 @@
       },
       "content_type": "application/x-bzip2",
       "state": "uploaded",
-      "size": 763249417,
+      "size": 772742040,
       "download_count": 0,
-      "created_at": "2022-11-29T22:14:24Z",
-      "updated_at": "2022-11-29T22:18:19Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.5.0/moodlebox-4.5.0.img.bz2"
+      "created_at": "2022-12-30T16:14:17Z",
+      "updated_at": "2022-12-30T16:14:59Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.5.1/moodlebox-4.5.1.img.bz2"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/86420049",
-      "id": 86420049,
-      "node_id": "RA_kwDOA-E9284FJqpR",
-      "name": "moodlebox-4.5.0.sha256",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/89985661",
+      "id": 89985661,
+      "node_id": "RA_kwDOA-E9284FXRJ9",
+      "name": "moodlebox-4.5.1.sha256",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -163,14 +163,14 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 109,
+      "size": 90,
       "download_count": 0,
-      "created_at": "2022-11-29T22:23:20Z",
-      "updated_at": "2022-11-29T22:23:20Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.5.0/moodlebox-4.5.0.sha256"
+      "created_at": "2022-12-30T16:22:14Z",
+      "updated_at": "2022-12-30T16:22:15Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.5.1/moodlebox-4.5.1.sha256"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v4.5.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v4.5.0",
-  "body": "### Added\r\n- Update to Moodle 4.1 (issue #268).\r\n- Works natively with Raspberry Pi Imager tool (issue #272).\r\n- Update to MoodleBox plugin v2.14.2 (issue #277).\r\n- H5P libraries are now available out of the box (issue #262).\r\n- USBMount updated to version 0.0.26 (issue #270).\r\n- Cloning program `rpi-clone` added (issue #259).\r\n- MathJax download size massively stripped down (issue #267).\r\n- Info about reference RPi OS image is available in `moodlebox-info`; this file is also available in the `boot` partition (issues #256 and #257).\r\n\r\n### Changed\r\n- Update to Raspberry Pi OS version date 2022-09-22, Debian Bullseye 64bit (issue #263).\r\n- Remove `xmlrpc` PHP module, not needed for Moodle 4.1 (issue #278).\r\n- Skip DNS lookup in MariadDB, for better performance (issue #266).\r\n- Simplify cron command (no issue number, commit c63b8f3).\r\n- Make Adminer download more robust (no issue number, commit bbafe4c)\r\n- Update resize2fs_once script to last upstream version (no issue number, commit ab50f5f).\r\n\r\n### Fixed\r\n- Fix readable Moodle private paths in Nginx (issue #264).\r\n- Fix missing Moodle error page configuration in Nginx (issue #265).\r\n- Fix issue preventing Android Moodle Mobile app to connect to the MoodleBox (issue #271).\r\n- Fix issues when using Raspberry Pi Imager (issues #274 and #275).\r\n- Fix an error in localized strings (no issue number, commit d977f9b)\r\n- Fix Ansible Lint errors for task and play names (no issue number, commits c9125d8, 112bcc0, b51ec60 and 112bcc0).\r\n- Fix more Ansible Lint errors, notably in play names (no issue number, commits 74df8b7, 643137f).\r\n- Create temporary build directory to fix an Ansible warning (no issue number, commit bb1a635).\r\n"
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v4.5.1",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v4.5.1",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v4.5.1/total.svg)\r\n\r\n### Changed\r\n-  Remove useless build options (issue #283).\r\n\r\n### Fixed\r\n- Update wireless chip firmware swapping logic (issue #280).\r\n- Make wifi unblocking instructions more robust (issue #279).\r\n- Prevent issue when re-downloading MoodleBox plugin (issue #282).\r\n- Fix `ansible-lint` false positive (no issue number, commit f774321).\r\n"
 }

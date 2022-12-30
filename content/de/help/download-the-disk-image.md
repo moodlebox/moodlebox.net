@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-02-02
-lastmod: 2022-12-27
+lastmod: 2022-12-30
 description: Das MoodleBox Disk-Image kann von dieser Seite frei heruntergeladen werden.
 slug: disk-image-herunterladen
 categories_weight: 3
@@ -31,7 +31,7 @@ Um das [MoodleBox-Disk-Image auf Ihre microSD-Karte zu kopieren]({{< relref "hel
       Version: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" id=2 >}}</strong>
     </div>
     <div class="image-details">
-      Moodle Version: <strong>4.1 (Build: 20221128)</strong>
+      Moodle Version: <strong>Moodle 4.1+ (Build: 20221229)</strong>
     </div>
     <div class="image-details">
       Größe: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" id=2 >}} MB</strong>
