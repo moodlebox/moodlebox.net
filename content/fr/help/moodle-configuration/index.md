@@ -1,5 +1,5 @@
 ---
-title: Quelle est la configuration par défaut de Moodle
+title: Configuration par défaut de Moodle
 authors:
   - Nicolas Martignoni
 type: kb

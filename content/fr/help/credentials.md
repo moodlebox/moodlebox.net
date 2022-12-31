@@ -1,5 +1,5 @@
 ---
-title: Quels sont les mots de passe de la MoodleBox
+title: Mots de passe de la MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb

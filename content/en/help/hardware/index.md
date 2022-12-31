@@ -1,11 +1,11 @@
 ---
-title: Which hardware to get
+title: Hardware requirements
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 lastmod: 2022-10-01
-description: Here is the stuff you will need to build your MoodleBox
+description: Here is the hardware you will need to build your MoodleBox
 slug: hardware-needed
 categories_weight: 3
 categories:

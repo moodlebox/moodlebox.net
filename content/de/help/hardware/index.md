@@ -1,5 +1,5 @@
 ---
-title: Welche Hardware ist notwendig
+title: Erforderliche Hardware
 authors:
   - Nicolas Martignoni
   - Ralf Krause
