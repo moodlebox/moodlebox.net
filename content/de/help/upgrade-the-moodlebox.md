@@ -1,5 +1,5 @@
 ---
-title: Wie wird das Betriebssystem aktualisiert
+title: Aktualisierung des Betriebssystems
 authors:
   - Nicolas Martignoni
   - Ralf Krause

@@ -1,5 +1,5 @@
 ---
-title: How to log into the Moodle site of the MoodleBox
+title: Access the Moodle site of the MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb

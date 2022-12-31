@@ -1,5 +1,5 @@
 ---
-title: Comment installer des plugins Moodle
+title: Installer des plugins Moodle
 authors:
   - Nicolas Martignoni
 type: kb
@@ -8,6 +8,8 @@ description: L'installation de plugins Moodle sur la MoodleBox s'effectue comme 
 slug: installer-des-plugins-dans-moodle
 categories:
   - Maintenance
+aliases:
+  - installer-des-plugins-moodle
 
 ---
 L'installation de plugins Moodle est possible comme sur toute installation de Moodle.

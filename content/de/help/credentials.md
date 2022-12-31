@@ -1,5 +1,5 @@
 ---
-title: Wie lauten die Zugangsdaten
+title: MoodleBox Zugangsdaten
 authors:
   - Nicolas Martignoni
   - Ralf Krause

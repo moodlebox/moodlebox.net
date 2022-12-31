@@ -1,5 +1,5 @@
 ---
-title: Comment changer le mot de passe principal
+title: Changer le mot de passe principal de la MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb

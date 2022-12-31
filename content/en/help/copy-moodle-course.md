@@ -1,5 +1,5 @@
 ---
-title: How to copy a Moodle course to the MoodleBox
+title: Copy a Moodle course to the MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb

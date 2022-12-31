@@ -1,5 +1,5 @@
 ---
-title: How to install Moodle plugins
+title: Install Moodle plugins
 authors:
   - Nicolas Martignoni
 type: kb

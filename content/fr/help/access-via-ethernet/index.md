@@ -1,15 +1,17 @@
 ---
-title: Comment accéder à la MoodleBox par Ethernet
+title: Accéder à la MoodleBox par Ethernet
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-23
 lastmod: 2019-09-01
 description: Il est possible de configurer votre réseau local pour accéder à la MoodleBox au moyen d'une connexion Ethernet
-slug: comment-acceder-a-la-moodlebox-par-ethernet
+slug: acceder-par-ethernet
 categories_weight: 80
 categories:
   - Utilisation
+aliases:
+  - comment-acceder-a-la-moodlebox-par-ethernet
 
 ---
 La MoodleBox n'est pas destinée à servir ses appareils clients par Ethernet. Cependant, il est possible de s'y connecter via Ethernet, moyennant la configuration de votre routeur.

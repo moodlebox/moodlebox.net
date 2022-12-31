@@ -1,16 +1,18 @@
 ---
-title: Comment accéder à l'interface en ligne de commande
+title: Accès à l'interface en ligne de commande
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
 lastmod: 2018-04-10
 description: Si nécessaire, on peut se connecter au système d'exploitation de la MoodleBox en via SSH
-slug: connexion-ssh-en-ligne-de-commande
+slug: acces-en-ligne-de-commande
 categories_weight: 15
 categories:
   - Maintenance
   - Utilisation
+aliases:
+  - connexion-ssh-en-ligne-de-commande
 
 ---
 En tant qu'utilisateur, il n'est en principe pas nécessaire de vous connecter en ligne de commande à la MoodleBox. Cependant, vous pouvez y accéder au besoin via SSH en utilisant l'adresse __moodlebox.home__, avec les informations d'authentification par défaut :

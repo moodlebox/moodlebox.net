@@ -1,14 +1,16 @@
 ---
-title: Comment gérer la base de données
+title: Gérer la base de données de MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 lastmod: 2022-08-14
 description: Pour accéder à la base de données de Moodle de la MoodleBox au moyen de Adminer, consultez les informations ci-dessous.
-slug: acces-base-de-donnees
+slug: gerer-la-base-de-donnees
 categories:
   - Maintenance
+aliases:
+  - acces-base-de-donnees
 
 ---
 La MoodleBox permet à des fins d'administration un accès direct à la base de données de Moodle, au moyen du logiciel [Adminer][3]. Pour accéder à l'interface de connexion, on charge l'URL [http://moodlebox.home/adminer.php][1] dans un navigateur. Les données de connexion sont indiquées ci-dessous. Bien entendu le mot de passe sera différent si vous l'avez changé d'une façon ou d'une autre.

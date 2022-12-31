@@ -1,5 +1,5 @@
 ---
-title: How to install the MoodleBox
+title: MoodleBox installation
 authors:
   - Nicolas Martignoni
 type: kb
@@ -12,6 +12,8 @@ categories:
   - First steps
 aliases:
   - ../install
+aliases:
+  - moodlebox-installation
 
 ---
 Proceed as follows to use the MoodleBox for the first time.

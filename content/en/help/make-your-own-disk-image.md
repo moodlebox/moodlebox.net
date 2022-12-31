@@ -1,17 +1,18 @@
 ---
-title: How to make your own customized disk-image
+title: Build your own customized MoodleBox disk-image
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-21
 lastmod: 2022-12-27
 description: If you wish to create your own MoodleBox disk image, here is the desired information
-slug: make-your-own-customized-moodlebox-disk-image
+slug: build-your-customized-moodlebox-disk-image
 categories_weight: 100
 categories:
   - Usage
 aliases:
   - ../diy
+  - make-your-own-customized-moodlebox-disk-image
 
 ---
 You may make your own MoodleBox disk image and configure it to your own needs.

@@ -1,16 +1,19 @@
 ---
-title: How to access to the command line interface
+title: Access MoodleBox command line interface
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
 lastmod: 2018-04-10
 description: If necessary, you can connect to the MoodleBox operating system via SSH
-slug: command-line-connection
+slug: command-line-interface
 categories_weight: 15
 categories:
   - Maintenance
   - Usage
+aliases:
+  - command-line-connection
+  - cli
 
 ---
 As a normal user, you should not need to connect into the command line interface of the MoodleBox. Anyway, you may access it if necessary via SSH, using the address __moodlebox.home__, using its default credentials:

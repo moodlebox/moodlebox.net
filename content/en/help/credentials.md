@@ -1,5 +1,5 @@
 ---
-title: What are the MoodleBox credentials
+title: MoodleBox credentials
 authors:
   - Nicolas Martignoni
 type: kb

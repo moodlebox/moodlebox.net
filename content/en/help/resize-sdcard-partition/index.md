@@ -1,5 +1,5 @@
 ---
-title: How to resize the partition of the SD card
+title: Resize the partition of the SD card
 authors:
   - Nicolas Martignoni
 type: kb

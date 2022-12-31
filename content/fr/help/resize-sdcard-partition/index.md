@@ -1,5 +1,5 @@
 ---
-title: Comment redimensionner la partition de la carte SD
+title: Redimensionner la partition de la carte SD
 authors:
   - Nicolas Martignoni
 type: kb

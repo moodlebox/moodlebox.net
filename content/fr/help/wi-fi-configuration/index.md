@@ -1,16 +1,18 @@
 ---
-title: Comment configurer le réseau Wi-Fi
+title: Configurer le réseau Wi-Fi
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-08-12
 lastmod: 2022-08-15
 description: Il est possible de modifier différents réglages du point d'accès WiFi de la MoodleBox.
-slug: modification-de-la-configuration-du-reseau-wi-fi
+slug: configurer-le-reseau-wifi
 categories_weight: 6
 categories:
   - Maintenance
   - Premiers pas
+aliases:
+  - modification-de-la-configuration-du-reseau-wi-fi
 
 ---
 Lorsqu'on allume la MoodleBox, elle fonctionne comme un point d'accès sans fil. Un administrateur ou un gestionnaire peut modifier différents réglages du point d'accès sans fil de la MoodleBox, en visitant [Administration du site > Serveur > MoodleBox][1] dans le bloc d'administration.

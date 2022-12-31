@@ -1,5 +1,5 @@
 ---
-title: How to start-up, shutdown and restart the MoodleBox
+title: Start-up, shutdown and restart the MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb

@@ -1,5 +1,5 @@
 ---
-title: Wie sind die Einstellungen von Moodle
+title: Moodle Einstellungen
 authors:
   - Nicolas Martignoni
   - Ralf Krause

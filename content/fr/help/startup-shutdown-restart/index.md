@@ -1,5 +1,5 @@
 ---
-title: Comment démarrer et arrêter la MoodleBox
+title: Démarrer et arrêter la MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb

@@ -1,5 +1,5 @@
 ---
-title: Comment connecter la MoodleBox à Internet
+title: Connecter la MoodleBox à Internet
 authors:
   - Nicolas Martignoni
 type: kb

@@ -1,5 +1,5 @@
 ---
-title: Wie wird die MoodleBox installiert
+title: MoodleBox Installation
 authors:
   - Nicolas Martignoni
   - Ralf Krause
@@ -7,13 +7,13 @@ type: kb
 date: 2017-09-15
 lastmod: 2022-12-28
 description: Diese Schritte sind notwendig, um die MoodleBox für die erste Verwendung zu installieren
-slug: moodlebox-installieren
+slug: moodlebox-installation
 categories_weight: 1
 categories:
   - Erste Schritte
 aliases:
   - ../install
-
+  - moodlebox-installieren
 ---
 Für die erste Verwendung der MoodleBox gehen Sie folgendermassen vor.
 

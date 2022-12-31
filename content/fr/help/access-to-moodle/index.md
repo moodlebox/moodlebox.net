@@ -1,5 +1,5 @@
 ---
-title: Comment se connecter à Moodle
+title: Se connecter au site Moodle de la MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb

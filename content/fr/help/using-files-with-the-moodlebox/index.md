@@ -1,5 +1,5 @@
 ---
-title: Comment mettre à disposition des fichiers sur la MoodleBox
+title: Mettre à disposition des fichiers sur la MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb

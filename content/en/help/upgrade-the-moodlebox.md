@@ -1,14 +1,16 @@
 ---
-title: How to upgrade the MoodleBox
+title: Upgrade the MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-22
 lastmod: 2020-08-04
 description: Follow the instructions below to regularly update your MoodleBox
-slug: how-to-upgrade-the-moodlebox
+slug: upgrade-the-moodlebox
 categories:
   - Maintenance
+aliases:
+  - how-to-upgrade-the-moodlebox
 
 ---
 As a routine security measure, it is recommended to update regularly the server software on the MoodleBox to patch vulnerabilities found in the Raspberry Pi OS distribution and to fix other discovered bugs.

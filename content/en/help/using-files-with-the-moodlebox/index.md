@@ -1,5 +1,5 @@
 ---
-title: How to provide files on the Moodlebox
+title: Provide files on the Moodlebox
 authors:
   - Nicolas Martignoni
 type: kb

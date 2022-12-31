@@ -1,16 +1,18 @@
 ---
-title: How to update the Wi-Fi network configuration
+title: Update MoodleBox Wi-Fi network configuration
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-08-12
 lastmod: 2022-08-15
 description: It is possible to change several settings of the access point WiFi settings of the MoodleBox.
-slug: updating-wi-fi-network-configuration
+slug: update-wifi-configuration
 categories_weight: 6
 categories:
   - First steps
   - Maintenance
+aliases:
+  - updating-wi-fi-network-configuration
 
 ---
 When the MoodleBox is turned on, it works as a wireless access point. An administrator or manager may change several settings of the access point Wi-Fi settings of the MoodleBox. To do this, visit the MoodleBox dashboard at [Site administration > Server > MoodleBox][1] in the administration interface.

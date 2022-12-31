@@ -1,5 +1,5 @@
 ---
-title: How to change the main password
+title: Change MoodleBox main password
 authors:
   - Nicolas Martignoni
 type: kb

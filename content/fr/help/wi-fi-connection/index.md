@@ -1,5 +1,5 @@
 ---
-title: Comment se connecter à la MoodleBox par Wi-Fi
+title: Se connecter à la MoodleBox par Wi-Fi
 authors:
   - Nicolas Martignoni
 type: kb

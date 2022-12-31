@@ -1,14 +1,16 @@
 ---
-title: Comment mettre à jour la MoodleBox
+title: Mettre à jour la MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-22
 lastmod: 2020-08-04
 description: Suivez les instructions ci-dessous pour mettre à jour régulièrement votre MoodleBox
-slug: comment-mettre-a-jour-la-moodlebox
+slug: mettre-a-jour-la-moodlebox
 categories:
   - Maintenance
+aliases:
+  - comment-mettre-a-jour-la-moodlebox
 
 ---
 Comme mesure de sécurité régulière, il est recommandé de mettre à jour les logiciels serveur de la MoodleBox afin de combler les éventuelles failles trouvées dans la distribution Raspberry Pi OS et de corriger d'autres bogues découverts.
