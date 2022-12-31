@@ -20,7 +20,9 @@ Hier einige Änderungen in [MoodleBox 4.5.0][release]:
 - Eine neue Version des [MoodleBox-Plugins für Moodle][plugin].
 - Zahlreiche Verbesserungen und Bugfixes.
 
-&gt; [Download Disk Image][disk]
+Für die Installation der MoodleBox empfehlen wir Ihnen, den [Raspberry Pi Imager][rpi-imager] zu verwenden, der für Sie automatisch das MoodleBox-Disk-Image herunterlädt.
+
+&Gt; [Weitere Informationen zur MoodleBox Installation][install]
 
 Alle Informationen zu dieser Version finden Sie in den [Release Notes auf Github][release].
 
@@ -31,3 +33,4 @@ Alle Informationen zu dieser Version finden Sie in den [Release Notes auf Github
 [rpios]: https://www.raspberrypi.com/software/operating-systems/
 [moodle41]: https://moodle.com/news/announcing-moodle-lms-4-1/
 [rpi-imager]: https://www.raspberrypi.com/software/
+[install]: {{< relref "help/install-the-moodlebox" >}}

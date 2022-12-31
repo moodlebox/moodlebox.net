@@ -1,5 +1,5 @@
 ---
-title: "MoodleBox 4.5.0: avec Moodle 4.1 et le support de l'outil Raspberry Pi Imager"
+title: "MoodleBox 4.5.0 : avec Moodle 4.1 et le support de l'outil Raspberry Pi Imager"
 description: La version 4.5.0 de MoodleBox arrive avec Moodle 4.1 et le support natif de l'outil  Raspberry Pi Imager.
 date: 2022-11-28
 authors:
@@ -20,7 +20,9 @@ Voici quelques-unes des modifications apportées par [MoodleBox 4.5.0][release]�
 - nouvelle version du [plugin MoodleBox pour Moodle][plugin] ;
 - nombreuses améliorations et corrections de bogues.
 
-&gt; [Télécharger l'image disque][disk]
+Pour installer MoodleBox, nous vous recommandons d'utiliser l'utilitaire [Raspberry Pi Imager][rpi-imager], qui télécharge automatiquement pour vous l'image disque MoodleBox.
+
+&Gt; [Plus d'informations sur l'installation de MoodleBox][install]
 
 Consultez les [notes de mise à jour sur Github][release] pour tous les détails de cette version.
 
@@ -31,3 +33,4 @@ Consultez les [notes de mise à jour sur Github][release] pour tous les détails
 [rpios]: https://www.raspberrypi.com/software/operating-systems/
 [moodle41]: https://moodle.com/news/announcing-moodle-lms-4-1/
 [rpi-imager]: https://www.raspberrypi.com/software/
+[install]: {{< relref "help/install-the-moodlebox" >}}
