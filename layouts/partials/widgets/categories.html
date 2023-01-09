@@ -8,9 +8,9 @@
   </div>
 
   <div class="panel-body">
-    <ul class="nav nav-pills nav-stacked">
+    <ul class="nav flex-column">
     {{- range $name, $items := site.Taxonomies.categories }}
-    <li><a href="{{ site.BaseURL }}{{ site.LanguagePrefix }}/categories/{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a></li>
+    <li class="nav-item"><a class="nav-link" href="{{ site.BaseURL }}{{ site.LanguagePrefix }}/categories/{{ $name | urlize | lower }}">{{ $name }} ({{ len $items }})</a></li>
     {{- end }}
     </ul>
   </div>
