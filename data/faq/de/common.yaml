@@ -17,7 +17,10 @@ items:
 
   - question: Wie viele Endgeräte können die MoodleBox gleichzeitig über WLAN erreichen?
     answer: >
-      MoodleBox unterstützt die gleichzeitige Verbindung von 20 bis 30 Endgeräten über WLAN.
+      MoodleBox unterstützt die gleichzeitige Verbindung von 20 Endgeräten über WLAN. Die Verbindung mehrerer Geräte mit dem WLAN kann instabil werden.
+
+
+      Die maximale Anzahl der gleichzeitig über Ethernet angeschlossenen Endgeräte hat keine feste Grenze.
 
   - question: Wie viele Daten kann ich auf einer MoodleBox speichern?
     answer: >

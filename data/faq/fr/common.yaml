@@ -17,7 +17,10 @@ items:
 
   - question: Combien d'appareils Wi-Fi MoodleBox peut-elle accueillir simultanément ?
     answer: >-
-      MoodleBox permet la connexion simultanée par Wi-Fi de 20-30 appareils.
+      MoodleBox permet la connexion simultanée par Wi-Fi de 20 appareils. La connexion en Wi-Fi d'un plus grand nombre d'appareils peut rendre la connexion instable.
+
+
+      Le nombre maximal d'appareils connectés simultanément par Ethernet n'a pas de limite fixe.
 
   - question: Quelle quantité de données puis-je enregistrer sur une MoodleBox ?
     answer: >-
