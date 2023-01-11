@@ -12,7 +12,6 @@ categories:
   - First steps
 aliases:
   - ../install
-aliases:
   - moodlebox-installation
 
 ---
