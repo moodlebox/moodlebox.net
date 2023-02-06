@@ -3,7 +3,7 @@ title: Le projet MoodleBox
 authors:
   - Nicolas Martignoni
 date: 2017-04-17
-lastmod: 2019-10-30
+lastmod: 2023-02-06
 description: "Le projet MoodleBox est un projet libre et gratuit qui fournit un environnement d'apprentissage Moodle complet avec une infrastructure minimale."
 slug: projet
 weight: 2
@@ -15,7 +15,7 @@ aliases:
 
 {{< figure src="osi_standard_logo_0.png" alt="open source initiative logo" width="300" class="right-aligned-image" >}}Le projet MoodleBox est un projet libre (open source) et gratuit.
 
-### Histoire
+MoodleBox™ ainsi que le mot Moodle et les mots et logos associés à Moodle sont des marques commerciales ou des marques déposées de Moodle Pty Ltd ou de ses sociétés affiliées. Le terme MoodleBox™ a été concédé sous licence à Nicolas Martignoni pour une utilisation en association avec du matériel informatique pour une distribution gratuite au profit de la communauté Moodle et n'est pas destiné à être proposé dans le cadre d'un service professionnel payant Moodle.
 
 L'idée d'une MoodleBox est issue de discussions [dans les forums de la communauté francophone][4] de [Moodle][1] dès janvier 2015 autour de la mise à disposition d'une [plateforme Moodle dans une petite boîte][12] ou [sur un ordinateur local][5], afin de fournir un environnement d'apprentissage même dans des régions éloignées de toute infrastructure réseau. L'[idée a rapidement émergé][6] de construire une telle configuration avec une Raspberry Pi 3, et de la rendre accessible directement par Wi-Fi. Grâce à la persévérance de [Christian Westphal][7], un premier _[proof of concept][8]_ a été proposé.
 

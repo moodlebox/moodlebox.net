@@ -3,7 +3,7 @@ title: The MoodleBox project
 authors:
   - Nicolas Martignoni
 date: 2017-04-21
-lastmod: 2019-10-30
+lastmod: 2023-02-06
 description: The MoodleBox project is a free (as in speech and in beer) project that provides a complete Moodle learning management system with minimal infrastructure.
 slug: project
 weight: 2
@@ -14,6 +14,8 @@ aliases:
 ---
 
 {{< figure src="osi_standard_logo_0.png" alt="open source initiative logo" width="300" class="right-aligned-image" >}}The MoodleBox project is a free (as in speech and in beer) and open source project.
+
+MoodleBox™ along with the word Moodle and associated Moodle words and logos are trademarks or registered trademarks of Moodle Pty Ltd or its related affiliates. The term MoodleBox™ has been licensed to Nicolas Martignoni for use in association with IT hardware for free distribution to benefit the Moodle Community and is not intended to be offered as part of a Moodle paid professional service.
 
 ### History
 
