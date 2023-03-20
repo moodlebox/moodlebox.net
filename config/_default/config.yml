@@ -197,7 +197,7 @@ languages:
         url: /help/
         weight: 2
       - parent: support
-        name: Aide de la communauté
+        name: Assistance communautaire
         url: https://discuss.moodlebox.net/
         weight: 3
 
