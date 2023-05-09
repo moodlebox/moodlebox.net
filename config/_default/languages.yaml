@@ -1,0 +1,345 @@
+en:
+  languageName: English
+  languageCode: en-us
+  title: MoodleBox
+  slogan: A Moodle platform on Raspberry Pi
+  description: MoodleBox is a standalone small and cheap mobile device working without Internet. It combines a wireless access point with a full featured Moodle server.
+  about: |
+    MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
+
+    MoodleBox™ is trademark of Moodle Pty Ltd.
+
+  footertext: MoodleBox project is made by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
+  copyright: Copyright © 2016 onwards
+  contentDir: content/en
+  weight: 1
+  # Format dates with Go's time formatting
+  date_format: January 2, 2006
+  menu:
+    main:
+    - identifier: give
+      name: Donate ❤
+      weight: 1
+      url: /give/
+
+    - identifier: get
+      name: Get MoodleBox
+      weight: 2
+
+    - parent: get
+      name: Get the hardware
+      url: /hardware/
+      weight: 1
+    - parent: get
+      name: Install MoodleBox
+      url: /install/
+      weight: 2
+
+    - identifier: support
+      name: Support
+      weight: 3
+
+    - parent: support
+      name: FAQ
+      url: /faq/
+      weight: 1
+    - parent: support
+      name: Knowledge base
+      url: /help/
+      weight: 2
+    - parent: support
+      name: Community Support
+      url: https://discuss.moodlebox.net/
+      weight: 3
+
+    - identifier: get-involved
+      name: Get involved
+      weight: 4
+
+    - parent: get-involved
+      name: Report a bug
+      url: https://github.com/moodlebox/moodlebox/issues/new/choose
+      weight: 1
+    - parent: get-involved
+      name: Code on GitHub
+      url: https://github.com/moodlebox/moodlebox
+      weight: 3
+    - parent: get-involved
+      name: Make a Donation
+      url: /give/
+      weight: 10
+
+    - identifier: about
+      name: About
+      weight: 5
+
+    - parent: about
+      name: What is MoodleBox
+      url: /what-is-moodlebox/
+      weight: 1
+    - parent: about
+      name: MoodleBox Project
+      url: /project/
+      weight: 3
+    - parent: about
+      name: About us
+      url: /about/
+      weight: 5
+    - parent: about
+      name: Contact
+      url: /contact/
+      weight: 10
+
+  testimonials:
+    enable: true
+    subtitle: Have a look at what users around the world said about the MoodleBox
+    title: What users say
+
+  clients:
+    enable: true
+    subtitle: NGO and organizations using MoodleBox for their own projects
+    title: Our users
+
+  sponsors:
+    enable: true
+    subtitle: MoodleBox is sponsored by [E-learning Touch'](https://www.elearningtouch.com/)
+    title: Our sponsor
+    name: E-learning Touch'
+    url: https://www.elearningtouch.com/
+    image: /img/media/elt.png
+
+fr:
+  languageName: Français
+  languageCode: fr-fr
+  title: MoodleBox
+  slogan: Une plateforme Moodle sur Raspberry Pi
+  description: MoodleBox est un petit appareil mobile bon marché qui fonctionne sans Internet. Elle combine un point d’accès sans fils avec un serveur Moodle complet.
+  about: |
+    MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
+
+    MoodleBox™ est une marque déposée de Moodle Pty Ltd.
+  footertext: MoodleBox est un projet réalisé par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
+  copyright: Copyright © 2016 et suivantes
+  contentDir: content/fr
+  weight: 2
+  # Format dates with Go's time formatting
+  date_format: 2 January 2006
+  menu:
+    main:
+    - identifier: give
+      name: Faire un don ❤
+      weight: 1
+      url: /give/
+
+    - identifier: get
+      name: Obtenir MoodleBox
+      weight: 2
+
+    - parent: get
+      name: Acquérir le matériel
+      url: /hardware/
+      weight: 1
+    - parent: get
+      name: Installer MoodleBox
+      url: /install/
+      weight: 2
+
+    - identifier: support
+      name: Aide
+      weight: 3
+
+    - parent: support
+      name: FAQ
+      url: /faq/
+      weight: 1
+    - parent: support
+      name: Documentation
+      url: /help/
+      weight: 2
+    - parent: support
+      name: Assistance communautaire
+      url: https://discuss.moodlebox.net/
+      weight: 3
+
+    - identifier: get-involved
+      name: Participer
+      weight: 4
+
+    - parent: get-involved
+      name: Annoncer un bogue
+      url: https://github.com/moodlebox/moodlebox/issues/new/choose
+      weight: 1
+    - parent: get-involved
+      name: Code sur GitHub
+      url: https://github.com/moodlebox/moodlebox
+      weight: 3
+    - parent: get-involved
+      name: Faire un don
+      url: /give/
+      weight: 10
+
+    - identifier: about
+      name: À propos
+      weight: 5
+
+    - parent: about
+      name: "Qu'est-ce que MoodleBox ?"
+      url: /moodlebox-cest-quoi/
+      weight: 1
+    - parent: about
+      name: Le projet MoodleBox
+      url: /projet/
+      weight: 3
+    - parent: about
+      name: À propos de nous
+      url: /a-propos/
+      weight: 5
+    - parent: about
+      name: Contact
+      url: /contact/
+      weight: 10
+
+  testimonials:
+    enable: true
+    subtitle: Découvrez ce que des utilisateurs du monde entier disent de la MoodleBox
+    title: Ce que les utilisateurs en disent
+
+  clients:
+    enable: true
+    subtitle: ONG et organisations qui utilisent la MoodleBox pour leurs projets
+    title: Nos utilisateurs
+
+  sponsors:
+    enable: true
+    subtitle: MoodleBox est parrainé par [E-learning Touch'](https://www.elearningtouch.com/)
+    title: Notre sponsor
+    name: E-learning Touch'
+    url: https://www.elearningtouch.com/
+    image: /img/media/elt.png
+
+de:
+  languageName: Deutsch
+  languageCode: de-de
+  title: MoodleBox
+  slogan: Eine Moodle-Plattform auf dem Raspberry Pi
+  description: MoodleBox ist ein eigenständiges kleines und kostengünstiges mobiles Gerät, das ohne Internet funktioniert. Sie kombiniert einen WLAN-Access Point mit einem voll ausgestatteten Moodle-Server.
+  about: |
+    MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
+
+    MoodleBox™ ist eine eingetragene Marke von Moodle Pty Ltd.
+  footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
+  copyright: Copyright © 2016 und später
+  contentDir: content/de
+  weight: 3
+  # Format dates with Go's time formatting
+  date_format: 2. January 2006
+  menu:
+    main:
+    - identifier: give
+      name: Spenden ❤
+      weight: 1
+      url: /give/
+
+    - identifier: get
+      name: Erhalten
+      weight: 2
+
+    - parent: get
+      name: Hardware beschaffen
+      url: /hardware/
+      weight: 1
+    - parent: get
+      name: MoodleBox installieren
+      url: /install/
+      weight: 2
+
+    - identifier: support
+      name: Support
+      weight: 3
+
+    - parent: support
+      name: FAQ
+      url: /faq/
+      weight: 1
+    - parent: support
+      name: Dokumentation
+      url: /help/
+      weight: 2
+    - parent: support
+      name: Community-Support
+      url: https://discuss.moodlebox.net/
+      weight: 3
+
+    - identifier: get-involved
+      name: Mitmachen
+      weight: 4
+
+    - parent: get-involved
+      name: Fehler melden
+      url: https://github.com/moodlebox/moodlebox/issues/new/choose
+      weight: 1
+    - parent: get-involved
+      name: Code auf GitHub
+      url: https://github.com/moodlebox/moodlebox
+      weight: 3
+    - parent: get-involved
+      name: Spenden
+      url: /give/
+      weight: 5
+
+    - identifier: about
+      name: Über MoodleBox
+      weight: 5
+
+    - parent: about
+      name: Was ist MoodleBox?
+      url: /was-ist-moodlebox/
+      weight: 1
+    - parent: about
+      name: MoodleBox Projekt
+      url: /projekt/
+      weight: 4
+    - parent: about
+      name: Über uns
+      url: /ueber-uns/
+      weight: 5
+    - parent: about
+      name: Kontakt
+      url: /contact/
+      weight: 6
+
+  testimonials:
+    enable: true
+    subtitle: Finden Sie die Meinungen von Benutzern aus aller Welt über die MoodleBox heraus
+    title: Was Benutzer dazu sagen
+
+  clients:
+    enable: true
+    subtitle: NRO und Organisationen, die MoodleBox für eigene Projekte einsetzen
+    title: Unsere Benutzer
+
+  sponsors:
+    enable: true
+    subtitle: MoodleBox wird von [E-learning Touch'](https://www.elearningtouch.com/) gesponsert
+    title: Unser Sponsor
+    name: E-learning Touch'
+    url: https://www.elearningtouch.com/
+    image: /img/media/elt.png
+
+#   es:
+#     languageName: Español
+#     languageCode: es-es
+#     title: MoodleBox
+#     slogan: Plataforma Moodle en Raspberry Pi
+#     description: MoodleBox es un dispositivo móvil autónomo, pequeño y barato, que funciona sin Internet. Combina un punto de acceso WLAN con un completo servidor Moodle.
+#     about: |
+#       MoodleBox es un proyecto libre realizado en 🇨🇭 por [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
+#
+#       MoodleBox™ es una marca registrada de Moodle Pty Ltd.
+#     footertext: MoodleBox es un proyecto de [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
+#     copyright: Copyright © 2016 y posterior
+#     contentDir: content/de
+#     weight: 4
+#     # Format dates with Go's time formatting
+#     date_format: 2 January 2006
+
