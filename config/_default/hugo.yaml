@@ -366,6 +366,24 @@ languages:
       url: https://www.elearningtouch.com/
       image: /img/media/elt.png
 
+#   es:
+#     languageName: Español
+#     languageCode: es-es
+#     title: MoodleBox
+#     slogan: Plataforma Moodle en Raspberry Pi
+#     description: MoodleBox es un dispositivo móvil autónomo, pequeño y barato, que funciona sin Internet. Combina un punto de acceso WLAN con un completo servidor Moodle.
+#     about: |
+#       MoodleBox es un proyecto libre realizado en 🇨🇭 por [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
+#
+#       MoodleBox™ es una marca registrada de Moodle Pty Ltd.
+#     footertext: MoodleBox es un proyecto de [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
+#     copyright: Copyright © 2016 y posterior
+#     contentDir: content/de
+#     weight: 4
+#     # Format dates with Go's time formatting
+#     date_format: 2 January 2006
+
+
 menu:
   topbar:
   - name: GitHub
