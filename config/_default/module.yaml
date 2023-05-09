@@ -1,0 +1,32 @@
+mounts:
+  # Content mounts
+  # EN content
+  - source: content/en
+    target: content
+    lang: en
+  # FR content
+  - source: content/fr
+    target: content
+    lang: fr
+  # DE content
+  - source: content/de
+    target: content
+    lang: de
+  # ES content
+  - source: content/es
+    target: content
+    lang: es
+
+  # Fill in the missing translations
+  # This fills in the gaps in FR content with EN content
+  - source: content/en
+    target: content
+    lang: fr
+  # This fills in the gaps in FR content with EN content
+  - source: content/en
+    target: content
+    lang: de
+  # This fills in the gaps in ES content with EN content
+  - source: content/en
+    target: content
+    lang: es
