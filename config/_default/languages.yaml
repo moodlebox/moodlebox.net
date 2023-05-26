@@ -2,19 +2,8 @@ en:
   languageName: English
   languageCode: en-us
   title: MoodleBox
-  slogan: A Moodle platform on Raspberry Pi
-  description: MoodleBox is a standalone small and cheap mobile device working without Internet. It combines a wireless access point with a full featured Moodle server.
-  about: |
-    MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
-
-    MoodleBox™ is trademark of Moodle Pty Ltd.
-
-  footertext: MoodleBox project is made by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
-  copyright: Copyright © 2016 onwards
   contentDir: content/en
   weight: 1
-  # Format dates with Go's time formatting
-  date_format: January 2, 2006
   menu:
     main:
     - identifier: give
@@ -90,40 +79,42 @@ en:
       url: /contact/
       weight: 10
 
-  testimonials:
-    enable: true
-    subtitle: Have a look at what users around the world said about the MoodleBox
-    title: What users say
+  params:
+    slogan: A Moodle platform on Raspberry Pi
+    description: MoodleBox is a standalone small and cheap mobile device working without Internet. It combines a wireless access point with a full featured Moodle server.
+    about: |
+      MoodleBox is a free project carried out in 🇨🇭 by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
 
-  clients:
-    enable: true
-    subtitle: NGO and organizations using MoodleBox for their own projects
-    title: Our users
+      MoodleBox™ is trademark of Moodle Pty Ltd.
 
-  sponsors:
-    enable: true
-    subtitle: MoodleBox is sponsored by [E-learning Touch'](https://www.elearningtouch.com/)
-    title: Our sponsor
-    name: E-learning Touch'
-    url: https://www.elearningtouch.com/
-    image: /img/media/elt.png
+    footertext: MoodleBox project is made by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
+    copyright: Copyright © 2016 onwards
+    date_format: January 2, 2006
+
+    testimonials:
+      enable: true
+      subtitle: Have a look at what users around the world said about the MoodleBox
+      title: What users say
+
+    clients:
+      enable: true
+      subtitle: NGO and organizations using MoodleBox for their own projects
+      title: Our users
+
+    sponsors:
+      enable: true
+      subtitle: MoodleBox is sponsored by [E-learning Touch'](https://www.elearningtouch.com/)
+      title: Our sponsor
+      name: E-learning Touch'
+      url: https://www.elearningtouch.com/
+      image: /img/media/elt.png
 
 fr:
   languageName: Français
   languageCode: fr-fr
   title: MoodleBox
-  slogan: Une plateforme Moodle sur Raspberry Pi
-  description: MoodleBox est un petit appareil mobile bon marché qui fonctionne sans Internet. Elle combine un point d’accès sans fils avec un serveur Moodle complet.
-  about: |
-    MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
-
-    MoodleBox™ est une marque déposée de Moodle Pty Ltd.
-  footertext: MoodleBox est un projet réalisé par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
-  copyright: Copyright © 2016 et suivantes
   contentDir: content/fr
   weight: 2
-  # Format dates with Go's time formatting
-  date_format: 2 January 2006
   menu:
     main:
     - identifier: give
@@ -199,40 +190,41 @@ fr:
       url: /contact/
       weight: 10
 
-  testimonials:
-    enable: true
-    subtitle: Découvrez ce que des utilisateurs du monde entier disent de la MoodleBox
-    title: Ce que les utilisateurs en disent
+  params:
+    slogan: Une plateforme Moodle sur Raspberry Pi
+    description: MoodleBox est un petit appareil mobile bon marché qui fonctionne sans Internet. Elle combine un point d’accès sans fils avec un serveur Moodle complet.
+    about: |
+      MoodleBox est un projet libre réalisé en 🇨🇭 par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
 
-  clients:
-    enable: true
-    subtitle: ONG et organisations qui utilisent la MoodleBox pour leurs projets
-    title: Nos utilisateurs
+      MoodleBox™ est une marque déposée de Moodle Pty Ltd.
+    footertext: MoodleBox est un projet réalisé par [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
+    copyright: Copyright © 2016 et suivantes
+    date_format: 2 January 2006
 
-  sponsors:
-    enable: true
-    subtitle: MoodleBox est parrainé par [E-learning Touch'](https://www.elearningtouch.com/)
-    title: Notre sponsor
-    name: E-learning Touch'
-    url: https://www.elearningtouch.com/
-    image: /img/media/elt.png
+    testimonials:
+      enable: true
+      subtitle: Découvrez ce que des utilisateurs du monde entier disent de la MoodleBox
+      title: Ce que les utilisateurs en disent
+
+    clients:
+      enable: true
+      subtitle: ONG et organisations qui utilisent la MoodleBox pour leurs projets
+      title: Nos utilisateurs
+
+    sponsors:
+      enable: true
+      subtitle: MoodleBox est parrainé par [E-learning Touch'](https://www.elearningtouch.com/)
+      title: Notre sponsor
+      name: E-learning Touch'
+      url: https://www.elearningtouch.com/
+      image: /img/media/elt.png
 
 de:
   languageName: Deutsch
   languageCode: de-de
   title: MoodleBox
-  slogan: Eine Moodle-Plattform auf dem Raspberry Pi
-  description: MoodleBox ist ein eigenständiges kleines und kostengünstiges mobiles Gerät, das ohne Internet funktioniert. Sie kombiniert einen WLAN-Access Point mit einem voll ausgestatteten Moodle-Server.
-  about: |
-    MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
-
-    MoodleBox™ ist eine eingetragene Marke von Moodle Pty Ltd.
-  footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
-  copyright: Copyright © 2016 und später
   contentDir: content/de
   weight: 3
-  # Format dates with Go's time formatting
-  date_format: 2. January 2006
   menu:
     main:
     - identifier: give
@@ -308,28 +300,42 @@ de:
       url: /contact/
       weight: 6
 
-  testimonials:
-    enable: true
-    subtitle: Finden Sie die Meinungen von Benutzern aus aller Welt über die MoodleBox heraus
-    title: Was Benutzer dazu sagen
+  params:
+    slogan: Eine Moodle-Plattform auf dem Raspberry Pi
+    description: MoodleBox ist ein eigenständiges kleines und kostengünstiges mobiles Gerät, das ohne Internet funktioniert. Sie kombiniert einen WLAN-Access Point mit einem voll ausgestatteten Moodle-Server.
+    about: |
+      MoodleBox ist ein freies Projekt realisiert in der 🇨🇭 von [Nicolas Martignoni](https://blog.martignoni.net/a-propos/).
 
-  clients:
-    enable: true
-    subtitle: NRO und Organisationen, die MoodleBox für eigene Projekte einsetzen
-    title: Unsere Benutzer
+      MoodleBox™ ist eine eingetragene Marke von Moodle Pty Ltd.
+    footertext: MoodleBox ist ein Projekt realisiert von [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
+    copyright: Copyright © 2016 und später
+    date_format: 2. January 2006
 
-  sponsors:
-    enable: true
-    subtitle: MoodleBox wird von [E-learning Touch'](https://www.elearningtouch.com/) gesponsert
-    title: Unser Sponsor
-    name: E-learning Touch'
-    url: https://www.elearningtouch.com/
-    image: /img/media/elt.png
+    testimonials:
+      enable: true
+      subtitle: Finden Sie die Meinungen von Benutzern aus aller Welt über die MoodleBox heraus
+      title: Was Benutzer dazu sagen
 
-#   es:
-#     languageName: Español
-#     languageCode: es-es
-#     title: MoodleBox
+    clients:
+      enable: true
+      subtitle: NRO und Organisationen, die MoodleBox für eigene Projekte einsetzen
+      title: Unsere Benutzer
+
+    sponsors:
+      enable: true
+      subtitle: MoodleBox wird von [E-learning Touch'](https://www.elearningtouch.com/) gesponsert
+      title: Unser Sponsor
+      name: E-learning Touch'
+      url: https://www.elearningtouch.com/
+      image: /img/media/elt.png
+
+# es:
+#   languageName: Español
+#   languageCode: es-es
+#   title: MoodleBox
+#   contentDir: content/de
+#   weight: 4
+#   params:
 #     slogan: Plataforma Moodle en Raspberry Pi
 #     description: MoodleBox es un dispositivo móvil autónomo, pequeño y barato, que funciona sin Internet. Combina un punto de acceso WLAN con un completo servidor Moodle.
 #     about: |
@@ -338,8 +344,4 @@ de:
 #       MoodleBox™ es una marca registrada de Moodle Pty Ltd.
 #     footertext: MoodleBox es un proyecto de [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
 #     copyright: Copyright © 2016 y posterior
-#     contentDir: content/de
-#     weight: 4
-#     # Format dates with Go's time formatting
 #     date_format: 2 January 2006
-
