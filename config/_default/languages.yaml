@@ -1,7 +1,6 @@
 en:
   languageName: English
   languageCode: en-us
-  title: MoodleBox
   contentDir: content/en
   weight: 1
   menu:
@@ -80,6 +79,7 @@ en:
       weight: 10
 
   params:
+    title: MoodleBox
     slogan: A Moodle platform on Raspberry Pi
     description: MoodleBox is a standalone small and cheap mobile device working without Internet. It combines a wireless access point with a full featured Moodle server.
     about: |
@@ -112,7 +112,6 @@ en:
 fr:
   languageName: Français
   languageCode: fr-fr
-  title: MoodleBox
   contentDir: content/fr
   weight: 2
   menu:
@@ -191,6 +190,7 @@ fr:
       weight: 10
 
   params:
+    title: MoodleBox
     slogan: Une plateforme Moodle sur Raspberry Pi
     description: MoodleBox est un petit appareil mobile bon marché qui fonctionne sans Internet. Elle combine un point d’accès sans fils avec un serveur Moodle complet.
     about: |
@@ -222,7 +222,6 @@ fr:
 de:
   languageName: Deutsch
   languageCode: de-de
-  title: MoodleBox
   contentDir: content/de
   weight: 3
   menu:
@@ -301,6 +300,7 @@ de:
       weight: 6
 
   params:
+    title: MoodleBox
     slogan: Eine Moodle-Plattform auf dem Raspberry Pi
     description: MoodleBox ist ein eigenständiges kleines und kostengünstiges mobiles Gerät, das ohne Internet funktioniert. Sie kombiniert einen WLAN-Access Point mit einem voll ausgestatteten Moodle-Server.
     about: |
@@ -336,6 +336,7 @@ de:
 #   contentDir: content/de
 #   weight: 4
 #   params:
+#     title: MoodleBox
 #     slogan: Plataforma Moodle en Raspberry Pi
 #     description: MoodleBox es un dispositivo móvil autónomo, pequeño y barato, que funciona sin Internet. Combina un punto de acceso WLAN con un completo servidor Moodle.
 #     about: |
