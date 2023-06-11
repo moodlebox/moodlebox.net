@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2022-10-01
+lastmod: 2023-06-12
 description: Voici le matériel nécessaire pour construire votre MoodleBox
 slug: materiel-necessaire
 categories_weight: 3
@@ -16,7 +16,7 @@ aliases:
 ---
 Pour mettre en oeuvre la MoodleBox, le matériel suivant est nécessaire :
 
-  * une Raspberry Pi [4 modèle B][RPi4B], [3 modèle B+][RPi3Bplus], [3 modèle B][RPi3B], [3 modèle A+][RPi3Aplus] ou [400][RPi400],
+  * tout Raspberry Pi [4 modèle B][RPi4B], [3 modèle B+][RPi3Bplus], [3 modèle B][RPi3B], [3 modèle A+][RPi3Aplus] ou [400][RPi400],
   * une [alimentation][supply] de qualité élevée,
   * une [carte microSD][sdcard] de taille suffisante ; nous recommandons une taille de 32 Go ou plus, même si MoodleBox peut fonctionner avec une carte de taille plus petite,
   * un [boîtier pour Raspberry Pi][case] (pas indispensable, mais très utile pour protéger la Raspberry Pi).

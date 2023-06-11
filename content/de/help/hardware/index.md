@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
-lastmod: 2022-10-01
+lastmod: 2023-06-12
 description: Die Übersicht zeigt alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
 slug: hardware-beschaffen
 categories_weight: 3
@@ -17,7 +17,7 @@ aliases:
 ---
 Die Übersicht zeigt alle Dinge, die Sie für Ihre eigene MoodleBox brauchen:
 
-  * Raspberry Pi [4B][RPi4B], [3B+][RPi3Bplus], [3B][RPi3B], [3A+][RPi3Aplus] oder [400][RPi400],
+  * Jeden Raspberry Pi [4B][RPi4B], [3B+][RPi3Bplus], [3B][RPi3B], [3A+][RPi3Aplus] oder [400][RPi400],
   * Hochwertige [Stromversorgung][supply],
   * [microSD-Karte][sdcard] mit ausreichender Größe. Wir empfehlen eine Kartengröße von 32 GB oder mehr, auch wenn die MoodleBox mit einer kleineren Kartengröße funktioniert,
   * [Gehäuse für Raspberry Pi][case] (nicht unbedingt notwendig, aber Sie sollten den Raspberry Pi schützen).

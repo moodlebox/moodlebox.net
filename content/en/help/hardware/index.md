@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2022-10-01
+lastmod: 2023-06-12
 description: Here is the hardware you will need to build your MoodleBox
 slug: hardware-needed
 categories_weight: 3
@@ -16,7 +16,7 @@ aliases:
 ---
 Here is the stuff you will need to build your MoodleBox:
 
-  * Raspberry Pi [4 Model B][RPi4B], [3 Model B+][RPi3Bplus], [3 Model B][RPi3B], [3 Model A+][RPi3Aplus] or [400][RPi400],
+  * Any Raspberry Pi [4 Model B][RPi4B], [3 Model B+][RPi3Bplus], [3 Model B][RPi3B], [3 Model A+][RPi3Aplus] or [400][RPi400],
   * High quality [Power supply][supply],
   * [microSD card][sdcard] of sufficient size; we recommend a capacity of 32 GB or more, even if MoodleBox can work with a smaller card size,
   * [Raspberry Pi case][case] (not essential, but very useful to protect the Raspberry Pi).
