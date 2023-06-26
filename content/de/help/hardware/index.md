@@ -5,8 +5,8 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
-lastmod: 2023-06-12
-description: Die Übersicht zeigt alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
+lastmod: 2023-06-26
+description: Hier sind alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
 slug: hardware-beschaffen
 categories_weight: 3
 categories:
@@ -17,7 +17,7 @@ aliases:
 ---
 Die Übersicht zeigt alle Dinge, die Sie für Ihre eigene MoodleBox brauchen:
 
-  * Jeden Raspberry Pi [4B][RPi4B], [3B+][RPi3Bplus], [3B][RPi3B], [3A+][RPi3Aplus] oder [400][RPi400],
+  * Jeden Raspberry Pi [4B][RPi4B], [3B+][RPi3Bplus], [3B][RPi3B], [3A+][RPi3Aplus], [Zero 2 W][RPiZeroW] oder [400][RPi400],
   * Hochwertige [Stromversorgung][supply],
   * [microSD-Karte][sdcard] mit ausreichender Größe. Wir empfehlen eine Kartengröße von 32 GB oder mehr, auch wenn die MoodleBox mit einer kleineren Kartengröße funktioniert,
   * [Gehäuse für Raspberry Pi][case] (nicht unbedingt notwendig, aber Sie sollten den Raspberry Pi schützen).
@@ -37,6 +37,7 @@ Wir empfehlen das [offizielle Micro-USB Netzteil](https://www.raspberrypi.com/pr
  [RPi3Bplus]: https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/
  [RPi4B]: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
  [RPi400]: https://www.raspberrypi.com/products/raspberry-pi-400/
+ [RPiZeroW]: https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
  [case]: https://www.raspberrypi.com/products/raspberry-pi-3-case/
  [sdcard]: https://www.nytimes.com/wirecutter/reviews/best-microsd-card/
  [supply]: https://www.raspberrypi.com/products/micro-usb-power-supply/
