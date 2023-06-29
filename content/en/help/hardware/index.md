@@ -16,7 +16,7 @@ aliases:
 ---
 Here is the stuff you will need to build your MoodleBox:
 
-  * Any Raspberry Pi [4 Model B][RPi4B], [3 Model B+][RPi3Bplus], [3 Model B][RPi3B], [3 Model A+][RPi3Aplus], [Zero 2 W][RPiZeroW] or [400][RPi400],
+  * Any Raspberry Pi [4 Model B][RPi4B], [3 Model B+][RPi3Bplus], [3 Model B][RPi3B], [3 Model A+][RPi3Aplus], [Zero 2 W][RPiZero2W] or [400][RPi400],
   * High quality [Power supply][supply],
   * [microSD card][sdcard] of sufficient size; we recommend a capacity of 32 GB or more, even if MoodleBox can work with a smaller card size,
   * [Raspberry Pi case][case] (not essential, but very useful to protect the Raspberry Pi).
@@ -36,7 +36,7 @@ We recommend the [Raspberry Pi 12.5W Micro USB Power Supply](https://www.raspber
  [RPi3Bplus]: https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/
  [RPi4B]: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
  [RPi400]: https://www.raspberrypi.com/products/raspberry-pi-400/
- [RPiZeroW]: https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
+ [RPiZero2W]: https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
  [case]: https://www.raspberrypi.com/products/raspberry-pi-3-case/
  [sdcard]: https://www.nytimes.com/wirecutter/reviews/best-microsd-card/
  [supply]: https://www.raspberrypi.com/products/micro-usb-power-supply/
