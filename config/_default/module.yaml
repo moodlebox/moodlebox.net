@@ -22,7 +22,7 @@ mounts:
   - source: content/en
     target: content
     lang: fr
-  # This fills in the gaps in FR content with EN content
+  # This fills in the gaps in DE content with EN content
   - source: content/en
     target: content
     lang: de
