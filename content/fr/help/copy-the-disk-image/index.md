@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2022-12-29
+lastmod: 2022-07-23
 description: Pour copier l'image-disque MoodleBox sur une carte SD, il suffit de télécharger l'utilitaire Raspberry Pi Imager et de suivre ces instructions.
 slug: copier-limage-disque-sur-une-carte-sd
 categories_weight: 4
@@ -25,7 +25,7 @@ Pour copier le système MoodleBox sur votre carte microSD, nous recommandons d'e
 7. Cliquez sur le bouton avec l'icône d'engrenage, et spécifiez les paramètres que vous voulez pour votre MoodleBox (voir la copie-écran ci-dessous, les autres options peuvent être laissées inchangées):
    - indiquez le __nom d'hôte__ (_Set hostname_), par exemple _moodlebox_,
    - cochez la case __Enable SSH__ et l'option __Use password authentication__,
-   - indiquez le __nom d'utilisateur__ et le __mot de passe__, par exemple _moodlebox_ et _MoodleBox4$_, puis
+   - indiquez le __nom d'utilisateur__ et le __mot de passe__, par exemple _moodlebox_ et _Moodlebox4$_, puis
    - cliquez le bouton __Save__.
 8. Cliquez le bouton __Écrire__, puis répondez __Oui__ à la question __Voulez-vous vraiment continuer ?__.
 
