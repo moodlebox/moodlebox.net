@@ -51,5 +51,7 @@ Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in de
  [ratna]: https://moodle.org/user/profile.php?id=41095
  [adpe]: https://adrianperez.me/
  [smallhacks]: https://github.com/smallhacks
+ [steve]: https://www.linkedin.com/in/steve-miley-9a271a4
+ [eric]: https://www.uv.mx/personal/ericsolano/
  [image]: {{< relref "help/download-the-disk-image" >}}
  [elt]: https://www.elearningtouch.com/
