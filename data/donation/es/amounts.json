@@ -1,0 +1,41 @@
+[{
+    "id": "1",
+    "name": "Agradecimiento simbólico",
+    "price": 5,
+    "image": "",
+    "description": "",
+    "url": "//es/help/support-the-moodlebox-project/",
+    "default": false
+}, {
+    "id": "2",
+    "name": "Prima de motivación",
+    "description": "",
+    "price": 10,
+    "image": "",
+    "url": "//es/help/support-the-moodlebox-project/",
+    "default": false
+}, {
+    "id": "3",
+    "name": "Alojamiento web, 1 mes",
+    "description": "",
+    "price": 20,
+    "image": "",
+    "url": "//es/help/support-the-moodlebox-project/",
+    "default": false
+}, {
+    "id": "4",
+    "name": "Alojamiento web, 3 meses",
+    "description": "",
+    "price": 50,
+    "image": "",
+    "url": "//es/help/support-the-moodlebox-project/",
+    "default": true
+}, {
+    "id": "5",
+    "name": "Alojamiento web, 6 meses",
+    "description": "",
+    "price": 100,
+    "image": "",
+    "url": "//es/help/support-the-moodlebox-project/",
+    "default": false
+}]

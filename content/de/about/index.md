@@ -3,7 +3,7 @@ title: Über uns
 authors:
   - Nicolas Martignoni
 date: 2019-10-30
-lastmod: 2020-03-03
+lastmod: 2023-08-04
 description: MoodleBox ist ein freiwilliges und Non-Profit-Projekt, das von Nicolas Martignoni in seiner Freizeit durchgeführt wird.
 slug: ueber-uns
 weight: 2
@@ -21,7 +21,9 @@ Er ist der Hauptentwickler und Maintainer des MoodleBox-Projekts.
 
 ### Beitragende
 
-{{< figure src="connected.png" alt="Connected" width="300" class="right-aligned-image" >}} Die deutsche Übersetzung der Website wurde hauptsächlich von [Ralf Krause][krause] durchgeführt. Er ist Maintainer der deutschen Moodle-Sprachpakete (de, de_du, de_kids) und sehr aktiv in der deutschen und internationalen Moodle-Community. [Visvanath Ratnaweera][ratna] hat ebenfalls mitgemacht.
+{{< figure src="connected.png" alt="Connected" width="300" class="right-aligned-image" >}} Die deutsche Übersetzung der MoodleBox-Dokumentation und dieser Website wurde hauptsächlich von [Ralf Krause][krause] durchgeführt. Er ist Maintainer der deutschen Moodle-Sprachpakete (de, de_du, de_kids) und sehr aktiv in der deutschen und internationalen Moodle-Community. [Visvanath Ratnaweera][ratna] hat ebenfalls mitgemacht.
+
+Die spanische Übersetzung der MoodleBox-Dokumentation und dieser Website wurde von [Steve Miley][steve] durchgeführt. Steve war Administrator der Community der Moodle Users Association. [Eric Efrain Solano-Uscanga][eric] hat ebenfalls mitgemacht.
 
 Andere Beitragende:
 

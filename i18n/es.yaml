@@ -20,6 +20,8 @@
   translation: "Tu Mensaje"
 - id: contactSend
   translation: "Enviar mensaje"
+- id: missingValue
+  translation: "Valor omitido"
 - id: navHome
   translation: "ir a inicio"
 - id: navToggle
@@ -37,12 +39,80 @@
 - id: authorBy
   translation: "Por"
 - id: recentPosts
-  translation: "Posts recientes"
+  translation: "Publicaciones recientes"
 - id: aboutUs
   translation: "Sobre nosotros"
 - id: newer
   translation: "Más reciente"
 - id: older
   translation: "Más antiguo"
+- id: previous
+  translation: "Precedente"
+- id: next
+  translation: "Siguiente"
 - id: publishedOn
   translation: "el"
+- id: testimonials
+  translation: "Testimonios"
+- id: relatedTitle
+  translation: "Contenidos relacionados"
+- id: whatsYourName
+  translation: "¿Cuál es tu nombre?"
+- id: whatsYourEmail
+  translation: "¿Cuál es tu dirección de correo electrónico?"
+- id: contactSubject
+  translation: "Asunto"
+- id: donationAmount
+  translation: "Cantidad de la donación"
+- id: customAmount
+  translation: "Cantidad personalizada"
+- id: donateNow
+  translation: "Donar ahora"
+- id: searchDocTitle
+  translation: "Buscar en la base de conocimientos"
+- id: searchDocVerb
+  translation: "Buscar en la documentación..."
+- id: searchButton
+  translation: "Buscar"
+- id: collapseArticles
+  translation: "Colapsar artículos"
+- id: showAllArticles
+  translation: "Mostrar todos los artículos"
+- id: error404
+  translation: "Error 404 - Página no encontrada"
+- id: error404Message
+  translation: "Lo sentimos – no podemos encontrar la página que busca"
+- id: error404Explanation
+  translation: "Es posible que ya no exista, que se llame de otra manera o que no esté disponible temporalmente."
+- id: error404Search
+  translation: "Intente encontrar lo que busca [consultando nuestra base de conocimientos](/es/help), [consultando las faq](/es/faq) o buscando a continuación."
+- id: noResultsTitle
+  translation: "Ningún documento encontrado"
+- id: noResultsText
+  translation: "Lo sentimos, pero nada coincide con su búsqueda. Vuelva a intentarlo con otros términos o [consulte nuestra base de conocimientos](/es/help)."
+- id: searchTermTooShort
+  translation: "El término de búsqueda debe tener un mínimo de 3 caracteres."
+- id: recentNews
+  translation: "Noticias recientes"
+- id: warning
+  translation: "Aviso"
+- id: note
+  translation: "Nota"
+- id: info
+  translation: "Información"
+- id: tip
+  translation: "Consejo"
+- id: lastUpdated
+  translation: "Última actualización:"
+- id: seeAllDoc
+  translation: "Consultar toda la documentación"
+- id: privacyTitle
+  translation: "Privacidad"
+- id: licenseTitle
+  translation: "Licencia"
+- id: donateTitle
+  translation: "Donar"
+- id: cookiesTitle
+  translation: "Cookies"
+- id: faqTitle
+  translation: "Preguntas más frecuentes"

@@ -1,0 +1,9 @@
+weight: 2
+title: "Pequeño, versátil y autónomo"
+description: >
+  <ul class="list-style-none">
+     <li>Sin necesidad de Internet</li>
+     <li>No se necesita red cableada ni inalámbrica</li>
+     <li>Sin necesidad de infraestructura</li>
+   </ul>
+image: "/img/carousel/small-versatile.png"

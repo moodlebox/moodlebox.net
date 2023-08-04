@@ -1,0 +1,5 @@
+weight: 4
+name: "Gratis y barato"
+icon: "fa fa-gift"
+description: "MoodleBox es una plataforma gratuita y de muy bajo costo basada en Raspberry Pi 3 o 4. Toda la lista de materiales asciende a unos 90 dólares"
+link: "/help/hardware"

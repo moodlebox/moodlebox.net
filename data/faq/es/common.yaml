@@ -1,0 +1,28 @@
+name: Cuestiones generales
+id: common
+weight: 1
+
+items:
+  - question: ¿Dónde puedo comprar una MoodleBox?
+    answer: >
+      El [hardware necesario](../hardware) puede adquirirse en cualquier tienda de electrónica.
+
+  - question: ¿Qué modelos de Raspberry Pi son compatibles?
+    answer: >-
+      MoodleBox funciona con los siguientes modelos de Raspberry Pi: 3A+, 3B, 3B+, 4B and 400.
+
+  - question: ¿Venden MoodleBox?
+    answer: >-
+      No. El proyecto MoodleBox no vende hardware. El [hardware necesario](../hardware) se puede comprar en cualquier tienda de electrónica.
+
+  - question: ¿Cuántos dispositivos Wi-Fi puede manejar MoodleBox al mismo tiempo?
+    answer: >
+      MoodleBox admite la conexión simultánea de 20 dispositivos a través de Wi-Fi. Conectar más dispositivos a Wi-Fi puede hacer que la conexión sea inestable.
+
+
+      El número máximo de dispositivos conectados simultáneamente a través de Ethernet no tiene límite fijo.
+
+  - question: ¿Cuántos datos puedo almacenar en una MoodleBox?
+    answer: >
+      Depende de la tarjeta SD utilizada. MoodleBox almacena todo en la tarjeta SD insertada en el dispositivo. Se recomienda una tarjeta con una capacidad de 32 GB o más, aunque MoodleBox puede trabajar con una tarjeta de menor tamaño. No hay límite máximo.
+

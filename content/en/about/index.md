@@ -3,7 +3,7 @@ title: About us
 authors:
   - Nicolas Martignoni
 date: 2019-10-30
-lastmod: 2020-03-03
+lastmod: 2023-08-04
 description: MoodleBox is a volunteer and non-profit project carried out by Nicolas Martignoni on his spare time.
 slug: about
 weight: 2
@@ -21,7 +21,9 @@ He's the main developer and the maintainer of MoodleBox project.
 
 ### Contributors
 
-{{< figure src="connected.png" alt="Connected" width="300" class="right-aligned-image" >}} The translation of the MoodleBox website into German was mainly done by [Ralf Krause][krause]. Ralf is the maintainer of the German Moodle language packages (de, de_du, de_kids) and is very active in the German and international Moodle community. [Visvanath Ratnaweera][ratna] also took part.
+{{< figure src="connected.png" alt="Connected" width="300" class="right-aligned-image" >}} The translation of the MoodleBox documentation and website into German was mainly done by [Ralf Krause][krause]. Ralf is the maintainer of the German Moodle language packages (de, de_du, de_kids) and is very active in the German and international Moodle community. [Visvanath Ratnaweera][ratna] also took part.
+
+The translation of the MoodleBox documentation and website into Spanish was done by [Steve Miley][steve]. Steve has been community administrator of Moodle Users Association. [Eric Efrain Solano-Uscanga][eric] also took part.
 
 Other contributors include:
 
@@ -49,5 +51,7 @@ The author does not commit himself to any correction of the disk image or of thi
  [ratna]: https://moodle.org/user/profile.php?id=41095
  [adpe]: https://adrianperez.me/
  [smallhacks]: https://github.com/smallhacks
+ [steve]: https://www.linkedin.com/in/steve-miley-9a271a4
+ [eric]: https://www.uv.mx/personal/ericsolano/
  [image]: {{< relref "help/download-the-disk-image" >}}
  [elt]: https://www.elearningtouch.com/

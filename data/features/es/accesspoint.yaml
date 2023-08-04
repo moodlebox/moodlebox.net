@@ -1,0 +1,5 @@
+weight: 3
+name: "Punto de acceso Wi-Fi"
+icon: "fa fa-wifi"
+description: "Cuando está conectada a tu red ethernet, la MoodleBox proporciona acceso a Internet a todos los dispositivos que estén conectados de forma inalámbrica."
+link: "/help/wi-fi-connection"
