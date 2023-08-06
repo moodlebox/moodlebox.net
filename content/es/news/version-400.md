@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-4.0.0
+slug: version-4.0.0
 ---
 
 Con la [versión 4.0.0][release], ¡MoodleBox entra en una nueva era!

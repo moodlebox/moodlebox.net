@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-2.1.0
+slug: version-2.1.0
 ---
 
 Hoy se publica la versión 2.1.0 de la [imagen de la MoodleBox][4]. [Esta versión][4] no es muy grande para el usuario final. Sin embargo, se han hecho grandes cosas bajo el capó.

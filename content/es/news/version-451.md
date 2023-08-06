@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-4.5.1
+slug: version-4.5.1
 ---
 
 La [versión 4.5.1][release] de MoodleBox corrige algunos errores menores, incluyendo un problema que podía ocurrir con el firmware del chip inalámbrico al actualizar el sistema.

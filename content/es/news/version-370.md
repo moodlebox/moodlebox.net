@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-3.7.0
+slug: version-3.7.0
 ---
 
 La [versión 3.7.0][release] de la [imagen de disco de MoodleBox][disk] acaba de ser liberada.

@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-2.5.0
+slug: version-2.5.0
 ---
 
 La [versión 2.5.0][2] de la [imagen de disco de MoodleBox][2] ha sido lanzada hoy. Esta versión incluye Moodle 3.5.1+ y ofrece una versión mejorada del panel de control, con una ayuda contextual mucho mejor.

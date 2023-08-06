@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-2.4.1
+slug: version-2.4.1
 ---
 
 Hoy se publica la [Versión 2.4.1][2] de la [Imagen de disco de MoodleBox][2].

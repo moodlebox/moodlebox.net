@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-4.2.0
+slug: version-4.2.0
 ---
 
 La [versión 4.2.0][release] de MoodleBox está basada en la versión [Raspberry Pi OS Lite][rpios] publicada el 28 de enero de 2022. Corrige un problema con el firmware del chip inalámbrico cada vez que se actualiza el sistema.

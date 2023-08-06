@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-3.10.0
+slug: version-3.10.0
 ---
 
 {{< figure src="/img/media/wireless-logo.png" width="300" class="right-aligned-image" alt="wireless-logo" >}}

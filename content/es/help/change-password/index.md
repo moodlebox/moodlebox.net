@@ -8,7 +8,7 @@ type: kb
 date: 2018-11-02
 lastmod: 2022-08-14
 description: Puede cambiar la contraseña principal de la MoodleBox navegando por el panel de control en la interfaz de administración
-slug: cambiar-contraseña-principal
+slug: cambiar-contrasena-principal
 categories_weight: 5
 categories:
   - Utilización

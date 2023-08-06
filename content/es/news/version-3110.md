@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-3.11.0
+slug: version-3.11.0
 ---
 
 Se acaba de liberar la [versión 3.11.0][release] de la [imagen de disco de MoodleBox][disk], con la [flamante versión 3.11 de Moodle][moodle311].

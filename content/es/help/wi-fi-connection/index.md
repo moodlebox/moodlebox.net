@@ -8,7 +8,7 @@ type: kb
 date: 2017-04-20
 lastmod: 2022-10-01
 description: Así es como puedes conectarte a la red WiFi de MoodleBox
-slug: conexión-wi-fi
+slug: conexion-wi-fi
 categories_weight: 5
 categories:
   - Primeros pasos

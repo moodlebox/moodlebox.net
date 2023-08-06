@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-2.6.0
+slug: version-2.6.0
 ---
 
 {{< notice warning >}}

@@ -11,9 +11,6 @@ slug: sobre
 weight: 2
 categories:
   - Acerca de
-aliases:
-  - about-us
-  - about
 ---
 MoodleBox es un proyecto voluntario y sin ánimo de lucro dirigido por [Nicolas Martignoni][nicolas] en su tiempo libre.
 

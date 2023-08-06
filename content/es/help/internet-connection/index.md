@@ -8,7 +8,7 @@ type: kb
 date: 2017-04-20
 lastmod: 2022-08-14
 description: Esta guía explica cómo proporcionar una conexión a Internet a los usuarios conectados vía Wi-Fi a una MoodleBox.
-slug: conexión a internet
+slug: conexion-a-internet
 categories_weight: 9
 categories:
   - Utilización

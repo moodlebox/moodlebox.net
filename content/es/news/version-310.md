@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-3.1.0
+slug: version-3.1.0
 ---
 
 Se acaba de publicar la [Versión 3.1.0][2] de la [Imagen de disco de MoodleBox][1].

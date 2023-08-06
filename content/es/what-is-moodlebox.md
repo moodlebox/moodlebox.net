@@ -7,7 +7,7 @@ authors:
 date: 2017-04-21
 lastmod: 2022-10-01
 description: MoodleBox es un pequeño dispositivo móvil autónomo que funciona sin Internet y combina un punto de acceso inalámbrico con un servidor Moodle completo.
-slug: qué-es-moodlebox
+slug: que-es-moodlebox
 weight: 1
 categories:
   - Acerca de

@@ -10,9 +10,6 @@ description: Puedes apoyar concretamente el proyecto MoodleBox contribuyendo a l
 slug: apoyar-el-proyecto-moodlebox
 weight: 100
 aliases:
-  - /give
-  - give
-  - donate
   - help/apoyar-el-proyecto-moodlebox
 
 ---

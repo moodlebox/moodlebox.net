@@ -8,7 +8,7 @@ type: kb
 date: 2017-04-20
 lastmod: 2018-04-10
 description: Si es necesario, puede conectarse al sistema operativo MoodleBox a través de SSH
-slug: interfaz-de-línea-de-comandos
+slug: interfaz-de-linea-de-comandos
 categories_weight: 15
 categories:
   - Mantenimiento

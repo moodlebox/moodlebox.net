@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-2.6.1
+slug: version-2.6.1
 ---
 
 La [versión 2.6.1][2] de la [imagen de disco de MoodleBox][1] ha sido liberada hoy.

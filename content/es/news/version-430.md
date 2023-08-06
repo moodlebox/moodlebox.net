@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-4.3.0
+slug: version-4.3.0
 ---
 
 La [versión 4.3.0][release] de MoodleBox está basada en la versión [Raspberry Pi OS Lite][rpios] publicada el 4 de abril de 2022 y cuenta con [Moodle 4.0][moodle40]. Es la primera versión de MoodleBox con arquitectura de 64 bits.

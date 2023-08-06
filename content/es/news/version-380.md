@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-3.8.0
+slug: version-3.8.0
 ---
 
 Se acaba de publicar la [versión 3.8.0][release] de la [imagen de disco de MoodleBox][disk].

@@ -8,7 +8,7 @@ type: kb
 date: 2019-11-17
 lastmod: 2022-08-14
 description: Para conectarse a MoodleBox a través de HTTPS sin que aparezca una ventana de advertencia, es necesario instalar el certificado raíz de MoodleBox.
-slug: root-certificate-install-windows
+slug: certificado-raiz-instalar-windows
 categories_weight: 90
 categories:
   - Utilización

@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-4.1.0
+slug: version-4.1.0
 ---
 
 La [versión 4.1.0][release] de MoodleBox corrige un error importante y facilita su mantenimiento.

@@ -6,7 +6,7 @@ authors:
   - Steve Miley
   - Eric Efrain Solano-Uscanga
 date: 2018-02-14
-slug: centro de detención de caen
+slug: centro-de-detencion-de-caen
 ---
 Desde ayer, MoodleBox se utiliza en el centro penitenciario de Caen.
 

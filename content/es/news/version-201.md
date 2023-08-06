@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-2.0.1
+slug: version-2.0.1
 ---
 
 Hoy se publica la versión 2.0.1 de la [imagen de la MoodleBox][2]. [Esta versión menor][2] corrige un error que impedía la restauración de cursos en la instancia Moodle de la MoodleBox.

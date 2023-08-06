@@ -7,7 +7,7 @@ authors:
 type: kb
 date: 2017-04-20
 description: Los plugins de Moodle se instalan en la MoodleBox como en cualquier servidor Moodle
-slug: moodle-plugins-instalación
+slug: moodle-plugins-instalacion
 categories:
   - Mantenimiento
 

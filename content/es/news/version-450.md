@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-4.5.0
+slug: version-4.5.0
 ---
 
 La [versión 4.5.0][release] de MoodleBox, con el nuevo [Moodle 4.1][moodle41], funciona de forma nativa con la herramienta [Raspberry Pi Imager][rpi-imager], permitiendo una forma más fácil de copiar la imagen en tu tarjeta microSD, a la vez que mejora la seguridad.

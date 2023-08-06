@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-4.4.0
+slug: version-4.4.0
 ---
 
 La [versión 4.4.0][release] de MoodleBox trae muchas pequeñas mejoras y corrige algunos errores menores.

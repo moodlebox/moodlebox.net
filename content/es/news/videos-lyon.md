@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: vídeos-dane-lyon
+slug: videos-dane-lyon
 ---
 
 Los [videotutoriales publicados por el DANE de Lyon][1], en francés, explican de forma sencilla y comprensible cómo [montar una MoodleBox][2], cómo [copiar la imagen-disco a una tarjeta micro-SD][3], cómo [arrancar una MoodleBox][4] y cómo [hacer la primera configuración][5].

@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
   - Steve Miley
   - Eric Efrain Solano-Uscanga
-slug: versión-2.7.0
+slug: version-2.7.0
 ---
 
 La [versión 2.7.0][2] de la [imagen de disco de MoodleBox][1] ha sido lanzada hoy. Trae muchas nuevas características.
