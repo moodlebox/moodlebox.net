@@ -4,7 +4,7 @@ description: Le campus « MoodleBox en détention » est lauréat de l'appel �
 authors:
   - Nicolas Martignoni
 date: 2020-07-17
-slug: moodlebox-en-détention
+slug: moodlebox-en-detention
 ---
 Le campus « MoodleBox en détention » est lauréat de l'appel à projets « Campus connectés, tiers lieux de proximité et poursuite d'études » lancé dans le cadre du troisième volet du Programme d'investissements d'avenir. Porté par la Région Normandie, en partenariat avec le Rectorat de Caen, l'Université de Caen Normandie et le Centre Pénitentiaire de Caen, il permet aux étudiants incarcérés au Centre Pénitentiaire de Caen de bénéficier d'un environnement numérique pour suivre des formations de l'université de Caen Normandie et d'autres établissements à distance.
 
