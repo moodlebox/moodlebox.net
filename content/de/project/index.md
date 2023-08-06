@@ -13,7 +13,7 @@ aliases:
   - help/moodlebox-projekt
 ---
 
-{{< figure src="osi_standard_logo_0.png" alt="open source initiative logo" width="300" class="right-aligned-image" >}}MoodleBox-Projekt ist Open Source and freie Softwareprojekt (frei wie in Redefreiheit oder in Freibier).
+{{< figure src="/img/media/osi_logo.png" alt="open source initiative logo" width="300" class="right-aligned-image" >}}MoodleBox-Projekt ist Open Source and freie Softwareprojekt (frei wie in Redefreiheit oder in Freibier).
 
 MoodleBox™ sowie das Wort Moodle und die zugehörigen Moodle-Wörter und -Logos sind Marken oder eingetragene Marken der Moodle Pty Ltd oder ihrer verbundenen Unternehmen. Der Name MoodleBox™ wurde Nicolas Martignoni zur Verwendung in Verbindung mit IT-Hardware zur kostenlosen Verteilung zugunsten der Moodle-Community lizenziert und soll nicht als Teil einer kostenpflichtigen professionellen Moodle-Dienstleistung angeboten werden.
 

@@ -20,7 +20,7 @@ Es el principal desarrollador y mantenedor del proyecto MoodleBox.
 
 ### Colaboradores
 
-{{< figure src="connected.png" alt="Connected" width="300" class="right-aligned-image" >}} La traducción de la página web de MoodleBox al alemán fue realizada principalmente por [Ralf Krause][krause]. Ralf es el encargado de mantener los paquetes lingüísticos de Moodle en alemán (de, de_du, de_kids) y es muy activo en la comunidad Moodle alemana e internacional. [Visvanath Ratnaweera][ratna] también participó.
+{{< figure src="/img/media/connected.png" alt="Connected" width="300" class="right-aligned-image" >}} La traducción de la página web de MoodleBox al alemán fue realizada principalmente por [Ralf Krause][krause]. Ralf es el encargado de mantener los paquetes lingüísticos de Moodle en alemán (de, de_du, de_kids) y es muy activo en la comunidad Moodle alemana e internacional. [Visvanath Ratnaweera][ratna] también participó.
 
 La traducción en español de la documentación de MoodleBox y de este página web ha sido realizada por [Steve Miley][steve]. Steve era administrador de la comunidad de la Moodle Users Association. [Eric Efrain Solano-Uscanga][eric] también participó.
 

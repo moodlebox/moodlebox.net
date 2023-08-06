@@ -18,7 +18,7 @@ Il est le développeur principal et le mainteneur du projet MoodleBox.
 
 ### Contributeurs
 
-{{< figure src="connected.png" alt="Connected" width="300" class="right-aligned-image" >}} La traduction en allemand de la documentation MoodleBox et de ce site web a été effectuée essentiellement par [Ralf Krause][krause], mainteneur des paquetages de langue allemande de Moodle (de, de_du, de_kids) et très actif dans la communauté Moodle germanophone et internationale. [Visvanath Ratnaweera][ratna] y a également participé.
+{{< figure src="/img/media/connected.png" alt="Connected" width="300" class="right-aligned-image" >}} La traduction en allemand de la documentation MoodleBox et de ce site web a été effectuée essentiellement par [Ralf Krause][krause], mainteneur des paquetages de langue allemande de Moodle (de, de_du, de_kids) et très actif dans la communauté Moodle germanophone et internationale. [Visvanath Ratnaweera][ratna] y a également participé.
 
 La traduction en espagnol de la documentation MoodleBox et de ce site web a été effectuée par [Steve Miley][steve]. Steve a été administrateur de la communauté de la Moodle Users Association. [Eric Efrain Solano-Uscanga][eric] y a également participé.
 

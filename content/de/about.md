@@ -21,7 +21,7 @@ Er ist der Hauptentwickler und Maintainer des MoodleBox-Projekts.
 
 ### Beitragende
 
-{{< figure src="connected.png" alt="Connected" width="300" class="right-aligned-image" >}} Die deutsche Übersetzung der MoodleBox-Dokumentation und dieser Website wurde hauptsächlich von [Ralf Krause][krause] durchgeführt. Er ist Maintainer der deutschen Moodle-Sprachpakete (de, de_du, de_kids) und sehr aktiv in der deutschen und internationalen Moodle-Community. [Visvanath Ratnaweera][ratna] hat ebenfalls mitgemacht.
+{{< figure src="/img/media/connected.png" alt="Connected" width="300" class="right-aligned-image" >}} Die deutsche Übersetzung der MoodleBox-Dokumentation und dieser Website wurde hauptsächlich von [Ralf Krause][krause] durchgeführt. Er ist Maintainer der deutschen Moodle-Sprachpakete (de, de_du, de_kids) und sehr aktiv in der deutschen und internationalen Moodle-Community. [Visvanath Ratnaweera][ratna] hat ebenfalls mitgemacht.
 
 Die spanische Übersetzung der MoodleBox-Dokumentation und dieser Website wurde von [Steve Miley][steve] durchgeführt. Steve war Administrator der Community der Moodle Users Association. [Eric Efrain Solano-Uscanga][eric] hat ebenfalls mitgemacht.
 
