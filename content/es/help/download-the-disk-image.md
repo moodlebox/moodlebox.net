@@ -12,9 +12,6 @@ slug: descargar-la-imagen-disco
 categories_weight: 3
 categories:
   - Primeros pasos
-aliases:
-  - /download
-  - ../dl
 ---
 
 {{< notice tip >}}

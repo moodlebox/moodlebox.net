@@ -10,8 +10,6 @@ lastmod: 2022-08-14
 description: MoodleBox viene con un dashboard para mostrar diferente información sobre el hardware y el software instalado.
 slug: moodlebox-dashboard
 categories_weight: 10
-aliases:
-  - what-is-the-version-of-my-moodlebox
 categories:
   - Primeros pasos
   - Mantenimiento

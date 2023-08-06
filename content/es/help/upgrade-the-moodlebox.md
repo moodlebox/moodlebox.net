@@ -11,9 +11,6 @@ description: Siga las siguientes instrucciones para actualizar regularmente su M
 slug: actualizar-la-moodlebox
 categories:
   - Mantenimiento
-aliases:
-  - cómo-actualizar-el-moodlebox
-
 ---
 Como medida de seguridad rutinaria, se recomienda actualizar regularmente el software del servidor en la MoodleBox para parchear vulnerabilidades encontradas en la distribución del SO Raspberry Pi y para corregir otros bugs descubiertos.
 

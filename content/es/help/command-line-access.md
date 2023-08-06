@@ -13,10 +13,6 @@ categories_weight: 15
 categories:
   - Mantenimiento
   - Utilización
-aliases:
-  - command-line-connection
-  - cli
-
 ---
 Como usuario normal, no debería necesitar conectarse a la interfaz de línea de comandos de MoodleBox. De todas formas, puedes acceder a ella si es necesario vía SSH, usando la dirección __moodlebox.home__, usando sus credenciales por defecto:
 

@@ -13,9 +13,6 @@ categories_weight: 6
 categories:
   - Primeros pasos
   - Mantenimiento
-aliases:
-  - updating-wi-fi-network-configuration
-
 ---
 Cuando la MoodleBox está encendida, funciona como un punto de acceso inalámbrico. Un administrador o gestor puede cambiar varios ajustes de la configuración Wi-Fi del punto de acceso de la MoodleBox. Para ello, visite el panel de control de MoodleBox en [Administración del sitio > Servidor > MoodleBox][1] en la interfaz de administración.
 

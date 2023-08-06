@@ -12,9 +12,6 @@ slug: acceso-moodlebox-via-ethernet
 categories_weight: 80
 categories:
   - Utilización
-aliases:
-  - cómo-acceder-al-moodlebox-vía-ethernet
-
 ---
 La MoodleBox no está pensada para servir a dispositivos cliente a través de Ethernet. Sin embargo, es posible acceder a ella a través de Ethernet con un poco de trabajo extra.
 

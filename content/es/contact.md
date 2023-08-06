@@ -5,7 +5,7 @@ layout: contact
 description: Ponte en contacto¿Tienes alguna pregunta sobre el proyecto MoodleBox? rellena el formulario y nos pondremos en contacto contigo
 lastmod: 2018-11-16
 aliases:
-  - /contacto
+  - contacto
 ---
 
 ### ¿Necesitas ayuda?

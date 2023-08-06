@@ -12,10 +12,6 @@ slug: crea-tu-imagen-de-disco-de-moodlebox-personalizada
 categories_weight: 100
 categories:
   - Utilización
-aliases:
-  - ../diy
-  - make-your-own-customized-moodlebox-disk-image
-
 ---
 Puedes crear tu propia imagen de disco de MoodleBox y configurarla según tus necesidades.
 

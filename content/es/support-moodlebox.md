@@ -14,7 +14,7 @@ aliases:
   - dona
   - donar
   - help/apoyar-el-proyecto-moodlebox
-
+  - ../donar
 ---
 El proyecto MoodleBox es un proyecto voluntario, sin ánimo de lucro y de tiempo libre. Su donación ayudará a financiar el equipo necesario para desarrollar MoodleBox y alojar su documentación.
 
