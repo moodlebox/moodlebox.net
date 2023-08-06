@@ -393,7 +393,7 @@ es:
 
     - parent: about
       name: Qué es MoodleBox
-      url: /qué-es-moodlebox/
+      url: /que-es-moodlebox/
       weight: 1
     - parent: about
       name: Proyecto MoodleBox
