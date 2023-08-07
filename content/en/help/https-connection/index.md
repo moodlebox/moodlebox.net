@@ -6,10 +6,12 @@ type: kb
 date: 2019-11-17
 lastmod: 2022-10-25
 description: MoodleBox can be configured to support secure connections via HTTPS. This configuration requires manual intervention by a technically savvy person.
-slug: connexion-https
+slug: https-connection
 categories_weight: 90
 categories:
   - Maintenance
+aliases:
+  - connexion-https
 ---
 The procedure below can be used to configure the MoodleBox to provide secure connections via HTTPS. Once this is done, __it will no longer be possible to connect via HTTP__.
 

@@ -12,6 +12,8 @@ slug: conexion-https
 categories_weight: 90
 categories:
   - Mantenimiento
+aliases:
+  - connexion-https
 ---
 El siguiente procedimiento se puede utilizar para configurar la MoodleBox para proporcionar conexiones seguras a través de HTTPS. Una vez hecho esto, __ya no será posible conectarse a través de HTTP__.
 
