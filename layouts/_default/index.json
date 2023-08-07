@@ -1,5 +1,4 @@
 {{- $index := slice -}}
-{{/*- range where site.Pages "Type" "not in" (slice "page" "json") -*/}}
 {{- range where site.Pages "Type" "in" (slice "kb" "news") -}}
   {{ if ne .Plain "" }}
     {{- if ne .Params.noindex true -}}
