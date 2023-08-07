@@ -6,7 +6,7 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-04-20
-lastmod: 2022-10-01
+lastmod: 2023-08-07
 description: Este es el hardware que necesitarás para construir tu MoodleBox
 slug: hardware-necesario
 categories_weight: 3
@@ -28,7 +28,7 @@ El costo total del hardware es de aproximadamente 90 dólares estadounidenses, 8
 {{< notice tip >}}
 Seleccionar una tarjeta microSD de __buena calidad__ y una fuente de alimentación adecuada son __esenciales__ para el funcionamiento correcto de la MoodleBox.
 
-Recomendamos la [Raspberry Pi 12.5W Micro USB Power Supply](https://www.raspberrypi.com/products/micro-usb-power-supply/) para Raspberry Pi 3A+, 3B, 3B+ y Zero 2 W, y [Raspberry Pi 15W USB-C Power Supply](https://www.raspberrypi.com/products/type-c-power-supply/) para Raspberry Pi 4B y 400, y una tarjeta microSD con rendimiento probado, por ejemplo [las recomendadas por Wirecutter](https://www.nytimes.com/wirecutter/reviews/best-microsd-card/). El uso de otras fuentes de alimentación, así como de tarjetas microSD de dudosa procedencia, puede causar fallos de funcionamiento sistemáticos, para los que __no se puede proporcionar soporte__.
+Recomendamos la [Raspberry Pi 12.5W Micro USB Power Supply](https://www.raspberrypi.com/products/raspberry-pi-universal-power-supply/) para Raspberry Pi 3A+, 3B, 3B+ y Zero 2 W, y [Raspberry Pi 15W USB-C Power Supply](https://www.raspberrypi.com/products/type-c-power-supply/) para Raspberry Pi 4B y 400, y una tarjeta microSD con rendimiento probado, por ejemplo [las recomendadas por Wirecutter](https://www.nytimes.com/wirecutter/reviews/best-microsd-card/). El uso de otras fuentes de alimentación, así como de tarjetas microSD de dudosa procedencia, puede causar fallos de funcionamiento sistemáticos, para los que __no se puede proporcionar soporte__.
 {{< /notice >}}
 
  [RPi3Aplus]: https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/
