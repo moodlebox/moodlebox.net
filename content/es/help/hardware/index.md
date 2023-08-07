@@ -18,7 +18,7 @@ Aquí está el material que necesitarás para construir tu MoodleBox:
 
   * Raspberry Pi [4 Model B][RPi4B], [3 Model B+][RPi3Bplus], [3 Model B][RPi3B], [3 Model A+][RPi3Aplus] o [400][RPi400],
   * [Fuente de alimentación de alta calidad][supply],
-  * [Tarjeta microSD][sdcard] de tamaño suficiente; recomendamos una capacidad de 32 GB o más, aunque MoodleBox puede trabajar con un tamaño de tarjeta De menor capacidad,
+  * Tarjeta microSD de tamaño suficiente; recomendamos una capacidad de 32 GB o más, aunque MoodleBox puede trabajar con un tamaño de tarjeta De menor capacidad,
   * [Carcasa para Raspberri pi][case] (no es esencial, pero es muy útil para proteger la Raspberry Pi).
 
 El costo total del hardware es de aproximadamente 90 dólares estadounidenses, 80 euros o 90 francos suizos.
@@ -28,7 +28,7 @@ El costo total del hardware es de aproximadamente 90 dólares estadounidenses, 8
 {{< notice tip >}}
 Seleccionar una tarjeta microSD de __buena calidad__ y una fuente de alimentación adecuada son __esenciales__ para el funcionamiento correcto de la MoodleBox.
 
-Recomendamos la [Raspberry Pi 12.5W Micro USB Power Supply](https://www.raspberrypi.com/products/raspberry-pi-universal-power-supply/) para Raspberry Pi 3A+, 3B, 3B+ y Zero 2 W, y [Raspberry Pi 15W USB-C Power Supply](https://www.raspberrypi.com/products/type-c-power-supply/) para Raspberry Pi 4B y 400, y una tarjeta microSD con rendimiento probado, por ejemplo [las recomendadas por Wirecutter](https://www.nytimes.com/wirecutter/reviews/best-microsd-card/). El uso de otras fuentes de alimentación, así como de tarjetas microSD de dudosa procedencia, puede causar fallos de funcionamiento sistemáticos, para los que __no se puede proporcionar soporte__.
+Recomendamos la [Raspberry Pi 12.5W Micro USB Power Supply](https://www.raspberrypi.com/products/raspberry-pi-universal-power-supply/) para Raspberry Pi 3A+, 3B, 3B+ y Zero 2 W, y [Raspberry Pi 15W USB-C Power Supply](https://www.raspberrypi.com/products/type-c-power-supply/) para Raspberry Pi 4B y 400, y una tarjeta microSD con rendimiento probado. El uso de otras fuentes de alimentación, así como de tarjetas microSD de dudosa procedencia, puede causar fallos de funcionamiento sistemáticos, para los que __no se puede proporcionar soporte__.
 {{< /notice >}}
 
  [RPi3Aplus]: https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/
@@ -37,5 +37,4 @@ Recomendamos la [Raspberry Pi 12.5W Micro USB Power Supply](https://www.raspberr
  [RPi4B]: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
  [RPi400]: https://www.raspberrypi.com/products/raspberry-pi-400/
  [case]: https://www.raspberrypi.com/products/raspberry-pi-3-case/
- [sdcard]: https://www.nytimes.com/wirecutter/reviews/best-microsd-card/
- [supply]: https://www.raspberrypi.com/products/micro-usb-power-supply/
+ [supply]: https://www.raspberrypi.com/products/raspberry-pi-universal-power-supply/
