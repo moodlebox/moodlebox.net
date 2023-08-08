@@ -12,6 +12,8 @@ slug: instalar-la-moodlebox
 categories_weight: 1
 categories:
   - Primeros pasos
+aliases:
+  - ../install
 ---
 Proceda de la siguiente manera para utilizar la MoodleBox por primera vez.
 

@@ -13,6 +13,9 @@ categories_weight: 3
 categories:
   - Acerca de
   - Primeros pasos
+aliases:
+  - ../hardware
+
 ---
 Aquí está el material que necesitarás para construir tu MoodleBox:
 
