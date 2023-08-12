@@ -1364,16 +1364,6 @@ fieldset[disabled] .btn-template-primary.active {
 .bar.background-white {
   background: #fff;
 }
-.bar.background-image-fixed-1 {
-  background: url('/img/fixed-background-1.jpg') center top no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.bar.background-image-fixed-2 {
-  background: url('/img/fixed-background-2.jpg') center top no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
 .bar.color-white h1,
 .bar.color-white h2,
 .bar.color-white h3,
