@@ -16,10 +16,10 @@
             <div class="faq-group" id="faq-group-{{ .id }}">
               <h4 id="{{ .id }}">{{ .name }}</h4>
                 {{ range .items }}
-                <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                  <summary itemprop="name" id="{{ .question | anchorize }}">{{ .question }}<a href="#{{ .question | anchorize }}" class="anchor-faq" aria-hidden="true"><i class="fa fa-link fa-flip-horizontal"></i></a></summary>
-                  <div class="faq-content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div itemprop="text">{{ .answer | markdownify }}</div>
+                <details>
+                  <summary id="{{ .question | anchorize }}">{{ .question }}<a href="#{{ .question | anchorize }}" class="anchor-faq" aria-hidden="true"><i class="fa fa-link fa-flip-horizontal"></i></a></summary>
+                  <div class="faq-content">
+                    <div>{{ .answer | markdownify }}</div>
                   </div>
                 </details>
                 {{ end }}
