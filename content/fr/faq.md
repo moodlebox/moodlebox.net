@@ -1,12 +1,12 @@
 ---
-title: "MoodleBox : foire aux questions"
+title: Questions fréquentes sur MoodleBox
 description: Questions fréquemment posées (FAQ) au sujet de MoodleBox, un petit appareil mobile bon marché qui fonctionne sans Internet, combinant un point d'accès sans fils avec un serveur Moodle complet.
 slug: faq
 id: faq
 layout: faq
 type: faq
 date: 2020-04-14
-lastmod: 2022-10-01
+lastmod: 2023-08-13
 sitemap:
   priority : 0.5
 typeseo:

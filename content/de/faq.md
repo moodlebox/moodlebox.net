@@ -6,7 +6,7 @@ id: faq
 layout: faq
 type: faq
 date: 2020-04-14
-lastmod: 2022-10-01
+lastmod: 2023-08-13
 sitemap:
   priority : 0.5
 typeseo:
