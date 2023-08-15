@@ -22,7 +22,7 @@ Die Übersicht zeigt alle Dinge, die Sie für Ihre eigene MoodleBox brauchen:
   * microSD-Karte mit ausreichender Größe. Wir empfehlen eine Kartengröße von 32 GB oder mehr, auch wenn die MoodleBox mit einer kleineren Kartengröße funktioniert,
   * [Gehäuse für Raspberry Pi][case] (nicht unbedingt notwendig, aber Sie sollten den Raspberry Pi schützen).
 
-Die Gesamtkosten für die Hardware betragen ungefähr 80€, USD 90 oder CHF 90.
+Die Gesamtkosten für die Hardware beträgen ungefähr 80€, USD 90 oder CHF 90.
 
 {{< gallery directory="img/hardware" >}}
 
