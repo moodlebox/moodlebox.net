@@ -10,6 +10,7 @@ weight: 100
 aliases:
   - /soutenir
   - /dons
+  - /don
   - give
   - donate
   - help/soutenir-le-projet-moodlebox
