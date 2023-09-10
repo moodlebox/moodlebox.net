@@ -1,9 +1,4 @@
 User-agent: *
-{{ range site.Home.AllTranslations -}}
-{{ range where .RegularPages "Params.robotsdisallow" true }}
-Disallow: {{ .RelPermalink }}
-{{- end -}}
-{{- end }}
 
 Sitemap: {{ "sitemap.xml" | absURL -}}
 {{- if site.IsMultiLingual }}
