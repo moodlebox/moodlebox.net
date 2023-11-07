@@ -10,8 +10,7 @@
       "extract_sha256": "ab2489742d1ac3ba9536a141dbfbac3495115045a4ea94d8032d271fcad26ae9",
       "image_download_size": 586110332,
       "release_date": "2022-12-30",
-      "init_format": "systemd",
-      "devices": ["pi3-64bit", "pi4-64bit"]
+      "init_format": "systemd"
     }
   ]
 }
