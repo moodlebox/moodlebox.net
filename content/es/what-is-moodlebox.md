@@ -5,7 +5,7 @@ authors:
   - Steve Miley
   - Eric Efrain Solano-Uscanga
 date: 2017-04-21
-lastmod: 2022-10-01
+lastmod: 2023-11-10
 description: MoodleBox es un pequeño dispositivo móvil autónomo que funciona sin Internet y combina un punto de acceso inalámbrico con un servidor Moodle completo.
 slug: que-es-moodlebox
 weight: 1
@@ -20,7 +20,7 @@ Conecte la caja a Internet a través de una red cableada (Ethernet) y, además, 
 
 ### Tecnología
 
-MoodleBox está [construido][2] alrededor de un mini-ordenador [Raspberry Pi][3] Zero 2 W, 3A+, 3B, 3B+, 4B o 400 y el [entorno de aprendizaje Moodle][1], el LMS de código abierto más utilizado en el mundo.
+MoodleBox está [construido][2] alrededor de un mini-ordenador [Raspberry Pi][3] Zero 2 W, 3A+, 3B, 3B+, 4B, 400 o 5 y el [entorno de aprendizaje Moodle][1], el LMS de código abierto más utilizado en el mundo.
 
 {{< figure src="/img/media/pi4-labelled.png" width="583" alt="Raspberry Pi" class="centered-image" >}}
 

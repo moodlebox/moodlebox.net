@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
-lastmod: 2023-08-07
+lastmod: 2023-11-10
 description: Hier sind alle Dinge, die Sie für Ihre eigene MoodleBox brauchen
 slug: hardware-beschaffen
 categories_weight: 3
@@ -17,10 +17,10 @@ aliases:
 ---
 Die Übersicht zeigt alle Dinge, die Sie für Ihre eigene MoodleBox brauchen:
 
-  * Jeden Raspberry Pi [4B][RPi4B], [3B+][RPi3Bplus], [3B][RPi3B], [3A+][RPi3Aplus], [Zero 2 W][RPiZero2W] oder [400][RPi400],
+  * Jeden Raspberry Pi [4B][RPi4B], [3B+][RPi3Bplus], [3B][RPi3B], [3A+][RPi3Aplus], [Zero 2 W][RPiZero2W], [400][RPi400] oder [5][RPi5],
   * Hochwertige [Stromversorgung][supply],
   * microSD-Karte mit ausreichender Größe. Wir empfehlen eine Kartengröße von 32 GB oder mehr, auch wenn die MoodleBox mit einer kleineren Kartengröße funktioniert,
-  * [Gehäuse für Raspberry Pi][case] (nicht unbedingt notwendig, aber Sie sollten den Raspberry Pi schützen).
+  * Gehäuse für Raspberry Pi (nicht unbedingt notwendig, aber Sie sollten den Raspberry Pi schützen).
 
 Die Gesamtkosten für die Hardware betragen ungefähr 80€, USD 90 oder CHF 90.
 
@@ -38,5 +38,5 @@ Wir empfehlen das [Raspberry Pi 12.5W Micro-USB-Netzteil](https://www.raspberryp
  [RPi4B]: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
  [RPi400]: https://www.raspberrypi.com/products/raspberry-pi-400/
  [RPiZero2W]: https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
- [case]: https://www.raspberrypi.com/products/raspberry-pi-3-case/
+ [RPi5]: https://www.raspberrypi.com/products/raspberry-pi-5/
  [supply]: https://www.raspberrypi.com/products/raspberry-pi-universal-power-supply/
