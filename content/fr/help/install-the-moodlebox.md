@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-09-15
-lastmod: 2022-12-28
+lastmod: 2023-11-10
 description: La procédure pour installer la MoodleBox en vue de sa première utilisation est décrite ici
 slug: installer-la-moodlebox
 categories_weight: 1
@@ -18,7 +18,7 @@ Pour la première utilisation de la MoodleBox, veuillez procéder de la manière
 
 ### Étape 1 : acheter le matériel
 
-Le [matériel nécessaire][1] pour faire votre MoodleBox consiste essentiellement en une Raspberry Pi modèle 3A+, 3B, 3B+, 4B ou 400, une alimentation électrique adéquate et une carte microSD de qualité supérieure. Un boîtier est également recommandé afin de protéger la Raspberry Pi.
+Le [matériel nécessaire][1] pour faire votre MoodleBox consiste essentiellement en une Raspberry Pi modèle 3A+, 3B, 3B+, 4B, 400 ou 5, une alimentation électrique adéquate et une carte microSD de qualité supérieure. Un boîtier est également recommandé afin de protéger la Raspberry Pi.
 
 &Gt; [Plus d'informations ici][1]
 

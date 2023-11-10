@@ -6,7 +6,7 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-04-20
-lastmod: 2023-01-12
+lastmod: 2023-11-10
 description: La imagen de disco de MoodleBox puede descargarse gratuitamente desde esta página.
 slug: descargar-la-imagen-disco
 categories_weight: 3
@@ -20,32 +20,32 @@ Para [copiar la imagen de disco de MoodleBox a su tarjeta microSD]({{< relref "h
 
 <div class="downloads row gx-0">
   <div class="image-icon text-center col-sm-3">
-    <a class="piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=3 >}}"><img alt="Tarjeta SD MoodleBox" src="/img/media/moodlebox-sdcard.png" width="150" height="150"></a>
+    <a class="piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=4 >}}"><img alt="Tarjeta SD MoodleBox" src="/img/media/moodlebox-sdcard.png" width="150" height="150"></a>
   </div>
   <div class="image-info col-sm-9">
     <div class="image-description">
       Imagen de disco de MoodleBox para tarjeta microSD
     </div>
     <div class="image-details">
-      Versión: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" id=3 >}}</strong>
+      Versión: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" id=4 >}}</strong>
     </div>
     <div class="image-details">
-      Versión de Moodle: <strong>Moodle 4.1+ (Build: 20221229)</strong>
+      Versión de Moodle: <strong>Moodle 4.3+ (Build: 20231110)</strong>
     </div>
     <div class="image-details">
-      Talla: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" id=3 >}} MB</strong>
+      Talla: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" id=4 >}} MB</strong>
     </div>
     <div class="image-details">
-      Fecha: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_date" id=3 >}}</strong>
+      Fecha: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_date" id=4 >}}</strong>
     </div>
     <div class="image-details">
       Notas de publicación: <strong><a href="https://github.com/moodlebox/moodlebox/blob/main/CHANGELOG.md" target="_blank">en Github</a></strong>
     </div>
     <div class="image-details">
-      SHA-256: <strong><a href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=4 >}}" target="_blank">{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=4 >}}</a></strong>
+      SHA-256: <strong><a href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=5 >}}" target="_blank">{{< ghrelease user="moodlebox" repo="moodlebox" data="file_name" id=5 >}}</a></strong>
     </div>
     <div class="image-download-links">
-      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=3 >}}"><i class="fa fa-download" aria-hidden="true"></i>Descargar imagen</a>
+      <a class="btn dl-zip piwik_download" href="{{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=4 >}}"><i class="fa fa-download" aria-hidden="true"></i>Descargar imagen</a>
       <a class="btn" href="{{< relref "/support-moodlebox" >}}"><i class="fa fa-heart" aria-hidden="true"></i>Donar</a>
     </div>
   </div>
@@ -60,13 +60,13 @@ Si lo desea, puede [apoyar el desarrollo][3] de MoodleBox [haciendo una donació
 Si experimenta algún problema al descargar la imagen de disco, utilice su interfaz de línea de comandos, por ejemplo con este comando
 
 ```bash
-wget -c {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=3 >}}
+wget -c {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=4 >}}
 ```
 
 o este otro
 
 ```bash
-curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=3 >}}
+curl -C - {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=4 >}}
 ```
 
 ### Versiones antiguas de la imagen de disco
@@ -76,7 +76,7 @@ Las imágenes de disco de versiones anteriores de MoodleBox [están disponibles 
  [copyimage]: {{< relref "help/copy-the-disk-image" >}}
  [2]: {{< relref "help/startup-shutdown-restart" >}}
  [3]: {{< relref "/support-moodlebox" >}}
- [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=3 >}}
+ [4]: {{< ghrelease user="moodlebox" repo="moodlebox" data="download_link" id=4 >}}
  [5]: {{< relref "help/install-the-moodlebox" >}}
  [rpios]: https://www.raspberrypi.org/downloads/raspberry-pi-os/
  [releases]: https://github.com/moodlebox/moodlebox/releases
