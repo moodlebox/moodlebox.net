@@ -3,7 +3,7 @@ title: Über uns
 authors:
   - Nicolas Martignoni
 date: 2019-10-30
-lastmod: 2023-08-04
+lastmod: 2023-11-10
 description: MoodleBox ist ein freiwilliges und Non-Profit-Projekt, das von Nicolas Martignoni in seiner Freizeit durchgeführt wird.
 slug: ueber-uns
 weight: 2
@@ -15,7 +15,7 @@ aliases:
 ---
 MoodleBox ist ein freiwilliges und Non-Profit-Projekt, das von [Nicolas Martignoni][nicolas] in seiner Freizeit durchgeführt wird.
 
-Nicolas Martignoni ist Lehrer für Mathematik und Informatik und Spezialist für E-Learning. Seit 2003 ist er Koordinator der französischsprachigen Gemeinschaft der [Moodle][1] Nutzer. Er ist auch der Hauptübersetzer von Moodle ins Französische. Er ist oder war an der französischen Übersetzung verschiedener Open-Source-Software beteiligt, darunter [Stellarium][2], [Mahara][3], [Webtrees][4] und [ModX][5]. Er hält regelmäßig Vorträge auf nationalen und internationalen Konferenzen in Französisch, Englisch und Deutsch.
+Nicolas Martignoni ist Lehrer für Mathematik und Informatik und Spezialist für E-Learning. Seit 2003 ist er Koordinator der französischsprachigen Gemeinschaft der [Moodle][1] Nutzer. Er ist auch der Hauptübersetzer von Moodle ins Französische. Er ist oder war an der französischen Übersetzung verschiedener Open-Source-Software beteiligt, darunter [Stellarium][2], [Mahara][3], [Webtrees][4], [ModX][5] und [Raspberry Pi Imager][6]. Er hält regelmäßig Vorträge auf nationalen und internationalen Konferenzen in Französisch, Englisch und Deutsch.
 
 Er ist der Hauptentwickler und Maintainer des MoodleBox-Projekts.
 
@@ -46,6 +46,7 @@ Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in de
  [3]: https://mahara.org/
  [4]: https://www.webtrees.net/
  [5]: https://modx.com/
+ [6]: https://www.raspberrypi.com/software/
  [nicolas]: https://blog.martignoni.net/a-propos/
  [krause]: https://moodle.org/user/profile.php?id=70180
  [ratna]: https://moodle.org/user/profile.php?id=41095

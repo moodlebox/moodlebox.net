@@ -5,7 +5,7 @@ authors:
   - Steve Miley
   - Eric Efrain Solano-Uscanga
 date: 2019-10-30
-lastmod: 2023-08-04
+lastmod: 2023-11-10
 description: MoodleBox es un proyecto voluntario y sin ánimo de lucro llevado a cabo por Nicolas Martignoni en su tiempo libre.
 slug: sobre
 weight: 2
@@ -14,7 +14,7 @@ categories:
 ---
 MoodleBox es un proyecto voluntario y sin ánimo de lucro dirigido por [Nicolas Martignoni][nicolas] en su tiempo libre.
 
-Nicolas Martignoni es profesor de matemáticas e informática y especialista en e-learning. Es coordinador de la comunidad francófona de usuarios de [Moodle][1] desde 2003. También es el principal traductor de Moodle al francés. Participa o ha participado en la traducción al francés de varios programas de código abierto, como [Stellarium][2], [Mahara][3], [Webtrees][4] y [ModX][5]. Es ponente habitual en conferencias nacionales e internacionales en francés, inglés y alemán.
+Nicolas Martignoni es profesor de matemáticas e informática y especialista en e-learning. Es coordinador de la comunidad francófona de usuarios de [Moodle][1] desde 2003. También es el principal traductor de Moodle al francés. Participa o ha participado en la traducción al francés de varios programas de código abierto, como [Stellarium][2], [Mahara][3], [Webtrees][4], [ModX][5] y [Raspberry Pi Imager][6]. Es ponente habitual en conferencias nacionales e internacionales en francés, inglés y alemán.
 
 Es el principal desarrollador y mantenedor del proyecto MoodleBox.
 
@@ -45,6 +45,7 @@ El autor no se compromete a ninguna corrección de la imagen de disco o de este 
  [3]: https://mahara.org/
  [4]: https://www.webtrees.net/
  [5]: https://modx.com/
+ [6]: https://www.raspberrypi.com/software/
  [nicolas]: https://blog.martignoni.net/a-propos/
  [krause]: https://moodle.org/user/profile.php?id=70180
  [ratna]: https://moodle.org/user/profile.php?id=41095
