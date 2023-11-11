@@ -20,7 +20,7 @@ jobs:
           hugo-version: ${{ env.HUGO_RELEASE }}
           extended: true
         env:
-          HUGO_RELEASE: '0.116.1'
+          HUGO_RELEASE: '0.120.4'
       - name: Check Hugo installation
         run: hugo env
       - name: Build website with Hugo
