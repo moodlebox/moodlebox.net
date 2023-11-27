@@ -233,3 +233,6 @@ permalinks:
   help: /help/:slug
   # kb: /kb/:slug
   # blog: "/blog/:year/:month/:day/:filename/"
+
+minify:
+  disableJS: true
