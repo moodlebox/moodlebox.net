@@ -1,4 +1,5 @@
 <!-- Javascript to load in footer -->
+{{ $params := dict "minify" true }}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 {{ if site.IsServer }}
   {{ $frontJS := resources.Get "js/front.js" }}
@@ -12,14 +13,14 @@
   <script src="{{ $lightboxJS.Permalink }}"></script>
   {{ end }}
 {{ else }}
-  {{ $frontJS := resources.Get "js/front.js" | minify | fingerprint }}
-  {{ $moodleboxJS := resources.Get "js/moodlebox.js" | minify | fingerprint }}
-  {{ $carouselJS := resources.Get "js/carousel.js" | minify | fingerprint }}
+  {{ $frontJS := resources.Get "js/front.js" | js.Build $params | fingerprint }}
+  {{ $moodleboxJS := resources.Get "js/moodlebox.js" | js.Build $params | fingerprint }}
+  {{ $carouselJS := resources.Get "js/carousel.js" | js.Build $params | fingerprint }}
   <script src="{{ $frontJS.Permalink }}" integrity="{{ $frontJS.Data.Integrity }}"></script>
   <script src="{{ $moodleboxJS.Permalink }}" integrity="{{ $moodleboxJS.Data.Integrity }}"></script>
   <script src="{{ $carouselJS.Permalink }}" integrity="{{ $carouselJS.Data.Integrity }}"></script>
   {{ if or (.HasShortcode "gallery") (.HasShortcode "figure") }}
-  {{ $lightboxJS := resources.Get "js/lightbox.js" | minify | fingerprint }}
+  {{ $lightboxJS := resources.Get "js/lightbox.js" | js.Build $params | fingerprint }}
   <script src="{{ $lightboxJS.Permalink }}" integrity="{{ $lightboxJS.Data.Integrity }}"></script>
   {{ end }}
 {{ end }}
