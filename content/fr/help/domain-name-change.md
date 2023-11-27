@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-09-27
-lastmod: 2021-10-21
+lastmod: 2023-11-27
 description: Ce guide explique la démarche à effectuer pour changer le nom de domaine de votre MoodleBox, de sorte à mieux refléter votre propre situation locale.
 slug: changer-nom-de-domaine
 categories_weight: 90
@@ -38,23 +38,27 @@ Modifier le fichier `/etc/nginx/sites-available/default`, en y remplaçant `mood
 
 #### Étape 3 : adapter la configuration du serveur DHCP
 
-Modifier le fichier `/etc/dnsmasq.conf`, en y remplaçant `home` par __learn.example.com__ dans les deux lignes qui commencent par `domain` et `local`.
+Modifier le fichier `/etc/NetworkManager/dnsmasq-shared.d/00-dhcp.conf`, en y remplaçant `home` par __learn.example.com__ dans les deux lignes qui commencent par `domain` et `local`.
 
 Si le nouveau nom de domaine est public, commenter ou effacer complètement la ligne commençant par `address`. Sinon, si le nouveau nom de domaine reste local, se teminant par `.home`, cette ligne peut être laissée telle quelle.
 
-#### Étape 4 : Adapter la configuration de Moodle (URL de Moodle)
+#### Étape 4 : Adapter la configuration du portail captif (Nodogsplash)
+
+Dans le fichier `/var/wwww/moodle/config.php`, remplacer l'URL `http://moodlebox.home` par `http://learn.example.com`.
+
+#### Étape 5 : Adapter la configuration de Moodle (URL de Moodle)
 
 Dans le fichier `/var/www/moodle/config.php`, à la ligne qui commence par `$CFG->wwwroot`, remplacer l'URL `http://moodlebox.home` par `http://learn.example.com`. Ne pas ajouter de barre oblique à la fin de l'URL.
 
-#### Étape 5 : Redémarrer la MoodleBox
+#### Étape 6 : Redémarrer la MoodleBox
 
 Afin de prendre en compte ces modifications, redémarrer votre MoodleBox.
 
-#### Étape 6 : Remplacer les URLs de Moodle
+#### Étape 7 : Remplacer les URLs de Moodle
 
 Accéder à votre MoodleBox au moyen votre navigateur en utilisant la nouvelle adresse `http://learn.example.com/` et utiliser l'outil de remplacement d'URL à l'adresse `http://learn.example.com/admin/tool/replace/index.php` pour remplacer les URLs dans la base de données de Moodle.
 
-#### Step 7: Remplacer les certificats SSL (optionel)
+#### Step 8: Remplacer les certificats SSL (optionel)
 
 Si vous voulez [utiliser HTTPS][3], vous devrez obtenir vos propres certificats SSL, car ceux fournis par MoodleBox ne fonctionneront pas avec votre nom de domaine personnalisé __learn.example.com__. N'oubliez pas de changer également l'URL.
 
