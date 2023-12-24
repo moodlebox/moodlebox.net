@@ -9,11 +9,13 @@ Source: https://raw.githubusercontent.com/jhvanderschee/hugocodex/main/layouts/s
   {{- $imageurl := printf "%s/%s" $dir .Name -}}
   {{- $imagetitle := index (split .Name ".") 0 -}}
   {{- $image := resources.Get $imageurl -}}
+  {{ if ne .Name ".DS_Store" }}
   <li>
     <a href="{{ ($image.Fit "1600x1600 q50 webp picture").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
       <img src="{{ ($image.Fit "300x300 q50 webp picture").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
       <span>{{ $imagetitle }}</span>
     </a>
   </li>
+  {{ end }}
 {{ end }}
 </ul>
