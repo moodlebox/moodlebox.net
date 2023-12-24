@@ -4,8 +4,8 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2023-11-10
-description: Voici le matériel nécessaire pour construire votre MoodleBox
+lastmod: 2023-12-24
+description: Le matériel nécessaire (hardware) pour mettre en œuvre une MoodleBox
 slug: materiel-necessaire
 categories_weight: 3
 categories:
@@ -14,10 +14,10 @@ categories:
 aliases:
   - ../hardware
 ---
-Pour mettre en oeuvre la MoodleBox, le matériel suivant est nécessaire :
+Pour mettre en œuvre la MoodleBox, le matériel suivant est nécessaire :
 
-  * tout Raspberry Pi [4 modèle B][RPi4B], [3 modèle B+][RPi3Bplus], [3 modèle B][RPi3B], [3 modèle A+][RPi3Aplus], [Zero 2 W][RPiZero2W], [400][RPi400] ou [5][RPi5],
-  * une [alimentation][supply] de qualité élevée,
+  * une Raspberry Pi [4 modèle B][RPi4B], [3 modèle B+][RPi3Bplus], [3 modèle B][RPi3B], [3 modèle A+][RPi3Aplus], [Zero 2 W][RPiZero2W], [400][RPi400] ou [5][RPi5],
+  * une alimentation de qualité supérieure,
   * une carte microSD de taille suffisante ; nous recommandons une taille de 32 Go ou plus, même si MoodleBox peut fonctionner avec une carte de taille plus petite,
   * un boîtier pour Raspberry Pi (pas indispensable, mais très utile pour protéger la Raspberry Pi).
 
@@ -26,9 +26,11 @@ La totalité de l'investissement matériel nécessaire est d'environ 80 €, US
 {{< gallery directory="img/hardware" >}}
 
 {{< notice tip >}}
-Le choix d'une carte microSD de __bonne qualité__ ainsi que d'une alimentation électrique adéquate sont __essentiels__ pour le bon fonctionnement de la MoodleBox.
+Nous recommandons l'[alimentation Raspberry Pi 12.5W Micro USB](https://www.raspberrypi.com/products/raspberry-pi-universal-power-supply/) pour les modèles Raspberry Pi 3A+, 3B, 3B+ et Zero 2 W, l'[alimentation Raspberry Pi 15W USB-C](https://www.raspberrypi.com/products/type-c-power-supply/) pour les Raspberry Pi 4B et 400 et l'[alimentation Raspberry Pi 27W USB-C](https://www.raspberrypi.com/products/27w-power-supply/) pour la Raspberry Pi 5.
 
-Nous recommandons l'[alimentation Raspberry Pi 12.5W Micro USB](https://www.raspberrypi.com/products/raspberry-pi-universal-power-supply/) pour les modèles Raspberry Pi 3A+, 3B, 3B+ et Zero 2 W, et l'[alimentation Raspberry Pi 15W USB-C](https://www.raspberrypi.com/products/type-c-power-supply/) pour les Raspberry Pi 4B et 400, ainsi qu'une carte microSD disposant de performances éprouvées. L'utilisation d'autres alimentations, ainsi que de cartes microSD de provenances douteuses peuvent être en effet la cause de dysfonctionnements systématiques, pour lesquels __aucune assistance ne peut être assurée__.
+Nous recommandons également une carte microSD disposant de __performances éprouvées__.
+
+L'utilisation d'autres alimentations, ainsi que de cartes microSD de provenances douteuses peuvent être en effet la cause de dysfonctionnements systématiques, pour lesquels __aucune assistance ne peut être assurée__.
 {{< /notice >}}
 
  [RPi3Aplus]: https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/
@@ -38,4 +40,3 @@ Nous recommandons l'[alimentation Raspberry Pi 12.5W Micro USB](https://www.rasp
  [RPi400]: https://www.raspberrypi.com/products/raspberry-pi-400/
  [RPiZero2W]: https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
  [RPi5]: https://www.raspberrypi.com/products/raspberry-pi-5/
- [supply]: https://www.raspberrypi.com/products/raspberry-pi-universal-power-supply/
