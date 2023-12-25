@@ -17,10 +17,6 @@ items:
 
       Schauen Sie sich die [Dokumentation dazu](../help/change-main-password) an.
 
-  - question: Moodle zeigt an, dass die Version von PHP nicht 64-Bit ist. Ist das ein Problem?
-    answer: >-
-      Nein. Moodle funktioniert gut mit einer 32-Bit-Version von PHP. Diese Warnung ist auf den von Raspberry Pi OS verwendeten Linux-Kernel zurückzuführen, der in 32 Bit ausgeführt wird. Es ist derzeit nicht möglich, dies zu ändern.
-
   - question: Einige Nutzer/innen können nicht auf die MoodleBox zugreifen, andere aber schon. Was könnte helfen?
     answer: >
       Bei einigen Smartphones passiert dies, wenn die mobilen Daten aktiviert sind. In diesem Fall wird empfohlen, die mobilen Daten zu deaktivieren, um die MoodleBox zu erreichen.

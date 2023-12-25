@@ -21,10 +21,6 @@ items:
 #     answer: >-
 #       Réponse compliquée: https://discuss.moodlebox.net/d/18-upgrade-moodlebox/
 
-  - question: Moodle me dit que la version de PHP n'est pas en 64 bits. Est-ce problématique ?
-    answer: >-
-      Non. Moodle fonctionne bien avec une version 32 bits de PHP. Cet avertissement est dû au noyau Linux utilisé par Raspberry Pi OS, qui tourne en 32 bits. Il n'est actuellement pas possible de le corriger.
-
   - question: Certains utilisateurs n'arrivent pas à accéder à la MoodleBox, alors que d'autres y arrivent. Que faire ?
     answer: >
       Cela arrive avec certains smartphones lorsque les données mobiles sont activées. Il est dans ce cas recommandé de désactiver les données mobiles.
