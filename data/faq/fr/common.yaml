@@ -9,7 +9,7 @@ items:
 
   - question: Quels modèles de Raspberry Pi sont-ils supportés ?
     answer: >-
-      MoodleBox fonctionne avec tous les modèles suivants de Raspberry Pi : 3A+, 3B, 3B+, 4B (toutes tailles de RAM) et 400.
+      MoodleBox fonctionne avec tous les modèles suivants de Raspberry Pi : Zero 2 W, 3A+, 3B, 3B+, 4B, 400 et 5.
 
   - question: Est-ce que vous vendez des MoodleBox ?
     answer: >-

@@ -9,7 +9,7 @@ items:
 
   - question: Welche Raspberry Pi-Modelle werden unterstützt?
     answer: >-
-      MoodleBox kann mit allen folgenden Modellen von Raspberry Pi verwendet werden: 3A+, 3B, 3B+, 4B (jede RAM-Grösse) und 400.
+      MoodleBox kann mit allen folgenden Modellen von Raspberry Pi verwendet werden: Zero 2 W, 3A+, 3B, 3B+, 4B, 400 und 5.
 
   - question: Verkaufen Sie fertige MoodleBoxen?
     answer: >-
