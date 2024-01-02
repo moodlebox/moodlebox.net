@@ -28,7 +28,7 @@
       <ol>
         {{ range $index, $slide := (sort . "weight") }}
         <li>
-          <a href="#home-slide{{ add $index 1 }}"></a>
+          <a href="#home-slide{{ add $index 1 }}" aria-label="hidden"></a>
         </li>
         {{ end }}
       </ol>

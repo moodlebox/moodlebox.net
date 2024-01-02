@@ -37,7 +37,7 @@
           <ol>
             {{ range $index, $slide := . }}
             <li>
-              <a href="#testimonial-slide{{ $index }}"></a>
+              <a href="#testimonial-slide{{ $index }}" aria-label="hidden"></a>
             </li>
             {{ end }}
           </ol>
