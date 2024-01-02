@@ -2,7 +2,7 @@
   <div class="container">
     <a class="navbar-brand" href="{{ site.LanguagePrefix | absURL | replaceRE "[^/]$" "${0}/" }}" rel="home">
       <div class="site-branding">
-        <p class="site-title">{{ site.Params.Title }}</p>
+        <h1 class="site-title">{{ site.Params.Title }}</h1>
         <p class="site-description">{{ site.Params.Slogan | default site.Params.defaultSlogan }}</p>
         {{/* commented out
         <img src="{{ "img/logo.png" | absURL }}" alt="{{ .Title }} logo" class="d-none d-md-block">

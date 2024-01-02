@@ -433,7 +433,7 @@ a.anchor-heading:focus {
   flex-direction: column;
   justify-content: flex-start;
 }
-#testimonials-carousel .box .name-picture h5 {
+#testimonials-carousel .box .name-picture h2 {
   font-size: .875rem;
   margin: 0;
   text-transform: uppercase;

@@ -9,9 +9,9 @@
           <h2>{{ site.Params.testimonials.title }}</h2>
         </div>
 
-        <p class="lead text-center">
+        <h1 class="lead text-center">
           {{ site.Params.testimonials.subtitle | markdownify }}
-        </p>
+        </h1>
 
         <div id="testimonials-carousel" class="carousel">
           <ul class="same-height-row">
@@ -25,7 +25,7 @@
                   <div class="bottom">
                     <div class="icon"><i class="fa fa-quote-left"></i></div>
                     <div class="name-picture">
-                      <h5>{{ .name }}</h5>
+                      <h2>{{ .name }}</h2>
                       <p>{{ .position }}</p>
                     </div>
                   </div>

@@ -4,7 +4,7 @@
 
       {{ if isset site.Params "about" }}
       <div id="about-us" class="col-md-4 col-sm-6">
-        <h4>{{ i18n "aboutUs" }}</h4>
+        <h2>{{ i18n "aboutUs" }}</h2>
         <div class="about-entries">
           <div class="item clearfix">
             <div class="name">
@@ -18,7 +18,7 @@
 
       {{ if isset site.Params "recent_posts" }} {{ if site.Params.recent_posts.enable }}
       <div id="recent-posts" class="col-md-4 col-sm-6">
-        <h4>{{ i18n "recentPosts" }}</h4>
+        <h2>{{ i18n "recentPosts" }}</h2>
         <div class="blog-entries">
           {{ range first 3 (where site.Pages.ByLastmod.Reverse "Type" "kb") }}
           <div class="item clearfix">
@@ -45,7 +45,7 @@
 
       {{ if site.Params.donate.enable }}
       <div id="links" class="col-md-4 col-sm-6">
-        <h4>FAQ</h4>
+        <h2>FAQ</h2>
         <div class="important-links">
           <div class="item clearfix">
             <div class="name">
@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-        <h4>{{ i18n "donateTitle" }}</h4>
+        <h2>{{ i18n "donateTitle" }}</h2>
           <a href="{{ site.LanguagePrefix }}/give" class="btn btn-small btn-template-main">{{ i18n "donateNow" }}</a>
           <hr class="d-md-none d-lg-none d-sm-none">
       </div> <!-- /.col-md-4 -->
