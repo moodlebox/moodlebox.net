@@ -10,15 +10,15 @@
   margin-bottom: 10px;
 }
 .downloads .image-download-links a.btn {
-  background: #da4d4d;
-  border: 1px solid #da4d4d;
+  background: #d73c3c;
+  border: 1px solid #d73c3c;
   line-height: 20px;
   color: white;
   margin-right: 10px;
   margin-top: 10px;
 }
 .downloads .image-download-links a.btn:hover {
-  color: #da4d4d;
+  color: #d73c3c;
   background: white;
 }
 .downloads .image-download-links a.btn i[class^="fa"] {
@@ -141,7 +141,7 @@ a[href^="#fn:"]:after{
 /* faq */
 details {
   margin: .5rem auto;
-  border-bottom: 1px solid #da4d4d;
+  border-bottom: 1px solid #d73c3c;
   color: #2a2a2a;
 }
 details > :last-child {
@@ -163,7 +163,7 @@ summary::before, summary::after {
   top: 50%;
   right: 0;
   content: '';
-  background-color: #da4d4d;
+  background-color: #d73c3c;
   text-align: right;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -184,9 +184,12 @@ summary::marker,
 summary::-webkit-details-marker {
   display: none;
 }
-.faq h4 {
-  color: #da4d4d;
+.faq h2 {
+  color: #d73c3c;
   margin-bottom: .7rem;
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: 1.5rem;
 }
 .faq-group {
   margin-top: 2rem;
@@ -254,7 +257,7 @@ summary::-webkit-details-marker {
 .anchor-faq:focus,
 .anchor-heading:focus {
   display: inline;
-  color: #da4d4d;
+  color: #d73c3c;
 }
 
 a.anchor-faq,
@@ -269,7 +272,7 @@ a.anchor-faq:hover,
 a.anchor-faq:focus,
 a.anchor-heading:hover,
 a.anchor-heading:focus {
-  color: #da4d4d;
+  color: #d73c3c;
   -webkit-box-shadow: initial;
   box-shadow: initial;
 }
@@ -417,7 +420,7 @@ a.anchor-heading:focus {
 }
 
 #testimonials-carousel .box .bottom .icon {
-  color: #da4d4d;
+  color: #d73c3c;
   font-size: 1.875rem;
   width: 15%;
   display: flex;
@@ -440,7 +443,7 @@ a.anchor-heading:focus {
   letter-spacing: 0.08em;
 }
 #testimonials-carousel .box .name-picture p {
-  color: #999999;
+  color: #666;
   margin: 0;
   font-size: .75rem;
   font-weight: normal;
@@ -461,7 +464,7 @@ a.anchor-heading:focus {
 }
 
 #testimonials-carousel ol li.selected a {
-  background: #da4d4d;
+  background: #d73c3c;
 }
 
 /* Contact form */
@@ -515,8 +518,8 @@ textarea.form-control {
 
 input[type="reset"], input[type="submit"], input[type="submit"], button.submit {
   cursor: pointer;
-  background: #da4d4d;
-  border: 1px solid #da4d4d;
+  background: #d73c3c;
+  border: 1px solid #d73c3c;
   line-height: 20px;
   color: #fff;
   letter-spacing: 1px;
@@ -538,7 +541,7 @@ input[type="reset"], input[type="submit"], input[type="submit"], button.submit {
 }
 
 input[type="reset"]:hover, input[type="submit"]:hover, input[type="submit"]:hover {
-  color: #da4d4d;
+  color: #d73c3c;
   background: white;
   /* opacity: 0.8; */
 }

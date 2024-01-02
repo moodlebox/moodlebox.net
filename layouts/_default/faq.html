@@ -14,10 +14,10 @@
           {{ with index site.Data.faq site.Language.Lang }}
             {{ range sort . "weight" }}
             <div class="faq-group" id="faq-group-{{ .id }}">
-              <h4 id="{{ .id }}">{{ .name }}</h4>
+              <h2 id="{{ .id }}">{{ .name }}</h2>
                 {{ range .items }}
                 <details>
-                  <summary id="{{ .question | anchorize }}">{{ .question }}<a href="#{{ .question | anchorize }}" class="anchor-faq" aria-hidden="true"><i class="fa fa-link fa-flip-horizontal"></i></a></summary>
+                  <summary id="{{ .question | anchorize }}">{{ .question }}<a href="#{{ .question | anchorize }}" class="anchor-faq" aria-label="link"><i class="fa fa-link fa-flip-horizontal"></i></a></summary>
                   <div class="faq-content">
                     <div>{{ .answer | markdownify }}</div>
                   </div>
