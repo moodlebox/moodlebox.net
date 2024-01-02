@@ -102,7 +102,7 @@ en:
 
     sponsors:
       enable: true
-      subtitle: MoodleBox is sponsored by [E-learning Touch'](https://www.elearningtouch.com/)
+      subtitle: MoodleBox is sponsored by E-learning Touch'
       title: Our sponsor
       name: E-learning Touch'
       url: https://www.elearningtouch.com/
@@ -212,7 +212,7 @@ fr:
 
     sponsors:
       enable: true
-      subtitle: MoodleBox est parrainé par [E-learning Touch'](https://www.elearningtouch.com/)
+      subtitle: MoodleBox est parrainé par E-learning Touch'
       title: Notre sponsor
       name: E-learning Touch'
       url: https://www.elearningtouch.com/
@@ -322,7 +322,7 @@ de:
 
     sponsors:
       enable: true
-      subtitle: MoodleBox wird von [E-learning Touch'](https://www.elearningtouch.com/) gesponsert
+      subtitle: MoodleBox wird von E-learning Touch' gesponsert
       title: Unser Sponsor
       name: E-learning Touch'
       url: https://www.elearningtouch.com/
@@ -419,3 +419,22 @@ es:
     footertext: El proyecto MoodleBox está realizado por [Nicolas Martignoni](https://blog.martignoni.net/a-propos/)
     copyright: Copyright © 2016 en adelante
     date_format: 2 January 2006
+
+    testimonials:
+      enable: true
+      subtitle: Descubra lo que opinan usuarios de todo el mundo sobre MoodleBox
+      title: Lo que dicen los usuarios
+
+    clients:
+      enable: true
+      subtitle: ONG y organizaciones que utilizan MoodleBox para sus proyectos
+      title: Nuestros usuarios
+
+    sponsors:
+      enable: true
+      subtitle: MoodleBox está patrocinado por E-learning Touch'
+      title: Nuestro patrocinador
+      name: E-learning Touch'
+      url: https://www.elearningtouch.com/
+      image: /img/media/elt.png
+
