@@ -203,6 +203,7 @@ markup:
       attribute:
         block: true
         title: true
+      autoHeadingIDType: github-ascii
     renderer:
       unsafe: true
   highlight:
