@@ -58,7 +58,7 @@ Afin de prendre en compte ces modifications, redémarrer votre MoodleBox.
 
 Accéder à votre MoodleBox au moyen votre navigateur en utilisant la nouvelle adresse `http://learn.example.com/` et utiliser l'outil de remplacement d'URL à l'adresse `http://learn.example.com/admin/tool/replace/index.php` pour remplacer les URLs dans la base de données de Moodle.
 
-#### Step 8: Remplacer les certificats SSL (optionel)
+#### Étape 8 : Remplacer les certificats SSL (optionel)
 
 Si vous voulez [utiliser HTTPS][3], vous devrez obtenir vos propres certificats SSL, car ceux fournis par MoodleBox ne fonctionneront pas avec votre nom de domaine personnalisé __learn.example.com__. N'oubliez pas de changer également l'URL.
 
