@@ -44,7 +44,7 @@ Si le nouveau nom de domaine est public, commenter ou effacer complètement la l
 
 #### Étape 4 : Adapter la configuration du portail captif (Nodogsplash)
 
-Dans le fichier `/var/www/moodle/config.php`, remplacer l'URL `http://moodlebox.home` par `http://learn.example.com` dans la ligne qui commence par `$CFG->wwwroot`.
+Dans le fichier `/etc/nodogsplash/nodogsplash.conf`, remplacer l'URL `http://moodlebox.home` par `http://learn.example.com`.
 
 #### Étape 5 : Adapter la configuration de Moodle (URL de Moodle)
 
