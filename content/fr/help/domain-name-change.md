@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-09-27
-lastmod: 2023-11-27
+lastmod: 2024-02-10
 description: Ce guide explique la démarche à effectuer pour changer le nom de domaine de votre MoodleBox, de sorte à mieux refléter votre propre situation locale.
 slug: changer-nom-de-domaine
 categories_weight: 90
@@ -44,7 +44,7 @@ Si le nouveau nom de domaine est public, commenter ou effacer complètement la l
 
 #### Étape 4 : Adapter la configuration du portail captif (Nodogsplash)
 
-Dans le fichier `/var/wwww/moodle/config.php`, remplacer l'URL `http://moodlebox.home` par `http://learn.example.com`.
+Dans le fichier `/var/www/moodle/config.php`, remplacer l'URL `http://moodlebox.home` par `http://learn.example.com` dans la ligne qui commence par `$CFG->wwwroot`.
 
 #### Étape 5 : Adapter la configuration de Moodle (URL de Moodle)
 

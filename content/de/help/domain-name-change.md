@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-09-27
-lastmod: 2023-11-27
+lastmod: 2024-02-10
 description: In dieser Anleitung wird erklärt, wie Sie den Domainnamen Ihrer MoodleBox ändern können, damit er besser zu Ihrer lokalen Situation passt.
 slug: domainname-aenderung
 categories_weight: 90
@@ -49,7 +49,7 @@ Ersetzen Sie in der Datei `/etc/nodogsplash/nodogsplash.conf` die URL `http://mo
 
 #### Schritt 5: Anpassung der Moodle-Konfiguration (Moodle-URL)
 
-Ersetzen Sie in der Datei `/var/wwww/moodle/config.php` in der Zeile, die mit `$CFG->wwwwroot` beginnt, die URL `http://moodlebox.home` durch `http://learn.example.com`. Fügen Sie keinen Schrägstrich am Ende der URL hinzu.
+Ersetzen Sie in der Datei `/var/www/moodle/config.php` in der Zeile, die mit `$CFG->wwwroot` beginnt, die URL `http://moodlebox.home` durch `http://learn.example.com`. Fügen Sie keinen Schrägstrich am Ende der URL hinzu.
 
 #### Schritt 6: Neustart der MoodleBox
 
