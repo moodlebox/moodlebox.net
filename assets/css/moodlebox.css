@@ -239,6 +239,7 @@ ul.list-style-none {
   letter-spacing: 0.04em;
   border-top: solid 5px transparent;
   display: inline-block;
+  text-decoration: none;
 }
 .navbar ul.nav > li > a:hover {
   border-top: solid 5px #d73c3c;
@@ -294,6 +295,7 @@ ul.list-style-none {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   left: 0;
+  text-decoration: none;
 }
 .navbar ul.dropdown-menu li a:hover {
   color: #d73c3c;
@@ -1862,6 +1864,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 10px 0;
   font-size: 1.125rem;
   line-height: 20px;
+  text-decoration: none;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -2084,12 +2087,16 @@ body {
 }
 a {
   color: #d73c3c;
-  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.4ex;
 }
 a:hover,
 a:focus {
   color: #b52626;
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.4ex;
 }
 a:focus {
   outline: thin dotted;
@@ -2623,7 +2630,7 @@ a[data-fancybox] img {
   display: inherit;
   margin: 0;
   padding: 4px;
-  box-shadow: none;
+  text-decoration: none;
   vertical-align: inherit;
 }
 
