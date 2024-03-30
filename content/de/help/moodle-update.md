@@ -6,7 +6,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2023-11-10
+lastmod: 2024-03-30
 description: Möchten Sie das Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 slug: moodle-aktualisieren
 categories:
@@ -40,7 +40,7 @@ sudo -u www-data -g moodlebox git pull
 
 ### Aktualisierung auf eine _Major_ Version (großer Versionssprung)
 
-Um mit Ihrem Moodle auf die nächste __Major Version__ (4.4[^future], 4.5[^future], usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen, wobei der entsprechende Branch angegeben wird, z.B. `MOODLE_404_STABLE`, `MOODLE_405_STABLE`, usw.:
+Um mit Ihrem Moodle auf die nächste __Major Version__ (4.4, 4.5[^future], usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen, wobei der entsprechende Branch angegeben wird, z.B. `MOODLE_404_STABLE`, `MOODLE_405_STABLE`, usw.:
 
 ```bash
 sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
@@ -56,4 +56,4 @@ sudo -u www-data -g moodlebox git checkout MOODLE_404_STABLE
  [default-pwd]: {{< relref "help/credentials" >}}
 
  [^git]: Um die Aktualisierung von Moodle auf der MoodleBox möglichst einfach zu machen, wurde die Installation über Git durchgeführt.
- [^future]: Natürlich müssen Sie sich für einen vorhandenen und stabilen Branch entscheiden, also warten Sie auf die [offizielle Veröffentlichung](https://docs.moodle.org/dev/Releases#General_release_calendar) der gewünschten Moodle-Version, um dies zu tun.
+ [^future]: Natürlich müssen Sie sich für einen vorhandenen und stabilen Branch entscheiden, also warten Sie auf die [offizielle Veröffentlichung](https://moodledev.io/general/releases) der gewünschten Moodle-Version, um dies zu tun.
