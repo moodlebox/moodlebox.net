@@ -20,7 +20,7 @@
   </div> <!-- /#content -->
 {{ end }}
 {{ define "footerfiles" }}
-  {{ if site.IsServer }}
+  {{ if hugo.IsServer }}
     {{ $contactJS := resources.Get "js/contact.js" }}
     <script src="{{ $contactJS.Permalink }}"></script>
   {{ else }}

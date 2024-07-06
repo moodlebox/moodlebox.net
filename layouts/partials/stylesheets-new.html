@@ -6,7 +6,7 @@
 {{ end }}
 <!-- Custom fonts and styles for this template -->
 {{ $css_options := (dict ) }}
-{{ if site.IsServer }}
+{{ if hugo.IsServer }}
   {{ $cssOpts := merge $css_options (dict "enableSourceMap" true) }}
   {{ $forkAwesomeCSS := resources.Get "css/fork-awesome.css" | toCSS $cssOpts }}
   {{ $fontsCSS := resources.Get "css/fonts.css" | toCSS $cssOpts }}
