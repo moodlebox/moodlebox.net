@@ -15,11 +15,6 @@
           <div id="post-content">
             {{ .Content }}
           </div> <!-- /#post-content -->
-          {{ if site.DisqusShortname }}
-          <div id="comments">
-            {{ template "_internal/disqus.html" . }}
-          </div>
-          {{ end }}
         </div> <!-- /.col-md-9 -->
         <!-- *** LEFT COLUMN END *** -->
 
