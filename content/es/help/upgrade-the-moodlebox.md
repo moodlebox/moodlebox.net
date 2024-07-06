@@ -6,8 +6,14 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-12-22
-lastmod: 2020-08-04
+lastmod: 2024-07-06
 description: Siga las siguientes instrucciones para actualizar regularmente su MoodleBox
+keywords:
+  - shell
+  - ssh
+  - línea de comandos
+  - sistema operativo
+  - cli
 slug: actualizar-la-moodlebox
 categories:
   - Mantenimiento

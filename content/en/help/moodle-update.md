@@ -5,8 +5,13 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-20
-lastmod: 2024-03-30
+lastmod: 2024-07-06
 description: Do you want to update Moodle on the MoodleBox? Follow these instructions!
+keywords:
+  - shell
+  - ssh
+  - command line
+  - cli
 slug: moodle-version-update
 categories:
   - Maintenance
@@ -19,7 +24,7 @@ Warning _site not https_ is not a problem and can be ignored.
 
 To update Moodle, perform the following operations, using the command line.
 
-First [log into the MoodleBox via SSH][cli], with the main password. [If you didn't change it][change-pwd] yet, use [the default main][default-pwd] password __Moodlebox4$__.
+First [log into the MoodleBox via SSH][cli], with the main password, to get shell access. [If you didn't change it][change-pwd] yet, use [the default main][default-pwd] password __Moodlebox4$__.
 
 ```bash
 ssh moodlebox@moodlebox.home

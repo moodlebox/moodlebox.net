@@ -4,8 +4,13 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-22
-lastmod: 2020-08-04
-description: Follow the instructions below to regularly update your MoodleBox
+lastmod: 2024-07-06
+description: Follow the instructions below to regularly update your MoodleBox via shell access
+keywords:
+  - shell
+  - ssh
+  - command line
+  - cli
 slug: upgrade-the-moodlebox
 categories:
   - Maintenance

@@ -4,8 +4,13 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-12-22
-lastmod: 2020-08-04
+lastmod: 2024-07-06
 description: Suivez les instructions ci-dessous pour mettre à jour régulièrement votre MoodleBox
+keywords:
+  - shell
+  - ssh
+  - ligne de commande
+  - cli
 slug: mettre-a-jour-la-moodlebox
 categories:
   - Maintenance

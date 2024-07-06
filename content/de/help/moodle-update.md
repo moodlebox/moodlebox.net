@@ -6,8 +6,14 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2024-03-30
+lastmod: 2024-07-06
 description: Möchten Sie das Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
+keywords:
+  - shell
+  - ssh
+  - kommandozeile
+  - cli
+  - betriebsystem
 slug: moodle-aktualisieren
 categories:
   - Wartung
@@ -21,7 +27,7 @@ Die Warnung _site not https_ ist kein Problem und kann ignoriert werden.
 
 Für eine Aktualisierung führen Sie folgende Anweisungen über die Kommandozeile im Terminal aus.
 
-Zuerst [verbinden Sie sich mit der MoodleBox über SSH][cli] und geben Sie Ihr Kennwort ein. Falls Sie [das Kennwort noch nicht geändert][change-pwd] haben, müssen sie natürlich [das standardmäßige Kennwort][default-pwd] __Moodlebox4$__ eingeben.
+Zuerst [verbinden Sie sich mit der MoodleBox über SSH][cli] und geben Sie Ihr Kennwort ein, um Shell-Zugang zu erhalten. Falls Sie [das Kennwort noch nicht geändert][change-pwd] haben, müssen sie natürlich [das standardmäßige Kennwort][default-pwd] __Moodlebox4$__ eingeben.
 
 ```bash
 ssh moodlebox@moodlebox.home

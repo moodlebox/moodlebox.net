@@ -6,8 +6,14 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-04-20
-lastmod: 2018-04-10
+lastmod: 2024-07-06
 description: Si es necesario, puede conectarse al sistema operativo MoodleBox a través de SSH
+keywords:
+  - shell
+  - ssh
+  - línea de comandos
+  - sistema operativo
+  - cli
 slug: interfaz-de-linea-de-comandos
 categories_weight: 15
 categories:

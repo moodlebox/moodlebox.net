@@ -4,8 +4,13 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2018-04-10
-description: If necessary, you can connect to the MoodleBox operating system via SSH
+lastmod: 2024-07-06
+description: If necessary, you can connect to the MoodleBox operating system via SSH to get shell access
+keywords:
+  - shell
+  - ssh
+  - command line
+  - cli
 slug: command-line-interface
 categories_weight: 15
 categories:
@@ -16,7 +21,7 @@ aliases:
   - cli
 
 ---
-As a normal user, you should not need to connect into the command line interface of the MoodleBox. Anyway, you may access it if necessary via SSH, using the address __moodlebox.home__, using its default credentials:
+As a normal user, you should not need to connect into the command line interface of the MoodleBox. Anyway, you may access it if necessary via SSH, to get shell access, using the address __moodlebox.home__, using its default credentials:
 
   * username: __moodlebox__
   * password: __Moodlebox4$__

@@ -5,8 +5,14 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-12-22
-lastmod: 2020-08-04
+lastmod: 2024-07-06
 description: Folgen Sie den folgenden Anweisungen, um Ihre MoodleBox regelmäßig zu aktualisieren
+keywords:
+  - shell
+  - ssh
+  - kommandozeile
+  - cli
+  - betriebsystem
 slug: moodlebox-aktualisieren
 categories:
   - Wartung

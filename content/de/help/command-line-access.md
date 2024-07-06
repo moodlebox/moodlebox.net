@@ -7,6 +7,12 @@ type: kb
 date: 2017-04-20
 lastmod: 2018-04-10
 description: Bei Bedarf können Sie über SSH auf das Betriebssystem der MoodleBox zugreifen
+keywords:
+  - shell
+  - ssh
+  - kommandozeile
+  - cli
+  - betriebsystem
 slug: zugang-zum-betriebssystem
 categories_weight: 15
 categories:
