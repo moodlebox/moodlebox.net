@@ -57,5 +57,5 @@ Pour plus d'informations, [consultez la documentation][9].
  [8]: {{< relref "/support-moodlebox" >}}
  [9]: {{< relref "/help" >}}
  [10]: {{< relref "help/startup-shutdown-restart" >}}
- [11]: {{< relref "/change-password" >}}
+ [11]: {{< relref "help/change-password" >}}
  [rpi-imager]: https://www.raspberrypi.com/software/
