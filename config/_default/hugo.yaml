@@ -21,7 +21,8 @@ defaultContentLanguageInSubdir: true
 # logFile: "./hugolog.txt"
 
 # Define the number of posts per page
-paginate: 5
+pagination:
+  pagerSize: 5
 
 # Allow taxonomy term with special characters
 preserveTaxonomyNames: true
