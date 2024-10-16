@@ -16,8 +16,17 @@
     {{- $id = . -}}
   {{ end }}
 
+  {{- $release := dict -}}
   {{- $url := (printf "https://api.github.com/repos/%s/%s/releases/%s" $user $repo $tag) -}}
-  {{- $release := getJSON $url -}}
+  {{ with resources.GetRemote $url }}
+    {{ with .Err }}
+      {{ errorf "%s" . }}
+    {{ else }}
+      {{ $data = . | transform.Unmarshal }}
+    {{ end }}
+  {{ else }}
+    {{ errorf "Unable to get remote resource %q" $url }}
+  {{ end }}
 
   {{- with (index $release.assets $id) -}}
     {{ $p := . }}

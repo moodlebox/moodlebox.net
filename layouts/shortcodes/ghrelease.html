@@ -16,12 +16,18 @@
     {{- $id = . -}}
   {{ end }}
 
-  {{- $url := (printf "https://api.github.com/repos/%s/%s/releases/%s" $user $repo $tag) -}}
-  {{- $url := "data/ghrelease.json" -}}
-  {{- $release := getJSON $url -}}
+  {{- $release := dict -}}
+  {{- $path := "data/ghrelease.json" -}}
+  {{- with resources.Get $path -}}
+    {{- with . | transform.Unmarshal -}}
+      {{- $release = . -}}
+    {{- end -}}
+  {{- else -}}
+    {{ errorf "Unable to get global resource %q" $path }}
+  {{- end -}}
 
   {{- with (index $release.assets $id) -}}
-    {{ $p := . }}
+    {{- $p := . -}}
       {{- if eq $data "file_name" -}}
         {{- $p.name -}}
       {{- else if eq $data "file_size" -}}
