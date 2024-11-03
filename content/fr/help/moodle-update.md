@@ -5,7 +5,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-17
-lastmod: 2024-07-06
+lastmod: 2024-11-03
 description: Vous voulez mettre à jour Moodle sur la MoodleBox ? Suivez ces instructions !
 keywords:
   - shell
@@ -32,7 +32,7 @@ ssh moodlebox@moodlebox.home
 
 ### Mise à jour vers une version _mineure_
 
-Pour une mise à jour à une __version mineure__ de Moodle (4.3.1, 4.3.2, etc.), tapez les commandes suivantes dans le terminal[^git] :
+Pour une mise à jour à une __version mineure__ de Moodle (4.5.1, 4.5.2, etc.), tapez les commandes suivantes dans le terminal[^git] :
 
 ```bash
 cd /var/www/moodle/
@@ -43,12 +43,12 @@ Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez 
 
 ### Mise à jour vers une version _majeure_
 
-Pour une mise à jour à une __version majeure__ de Moodle (4.4, 4.5[^future], etc.), tapez les commandes ci-dessus, puis __en plus__ les commandes suivantes, en indiquant la branche adéquate, par exemple `MOODLE_404_STABLE`, `MOODLE_405_STABLE`, etc. :
+Pour une mise à jour à une __version majeure__ de Moodle (4.5, 4.6[^future], etc.), tapez les commandes ci-dessus, puis __en plus__ les commandes suivantes, en indiquant la branche adéquate, par exemple `MOODLE_405_STABLE`, `MOODLE_406_STABLE`, etc. :
 
 ```bash
 sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u www-data -g moodlebox git fetch origin
-sudo -u www-data -g moodlebox git checkout MOODLE_404_STABLE
+sudo -u www-data -g moodlebox git checkout MOODLE_405_STABLE
 ```
 
 Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez les instructions de mise à jour, comme avec un Moodle standard ([voir la documentation][update]).

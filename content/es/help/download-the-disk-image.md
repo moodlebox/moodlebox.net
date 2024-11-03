@@ -6,7 +6,7 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-04-20
-lastmod: 2024-03-30
+lastmod: 2024-11-03
 description: La imagen de disco de MoodleBox puede descargarse gratuitamente desde esta página.
 slug: descargar-la-imagen-disco
 categories_weight: 3
@@ -30,7 +30,7 @@ Para [copiar la imagen de disco de MoodleBox a su tarjeta microSD]({{< relref "h
       Versión: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" id=4 >}}</strong>
     </div>
     <div class="image-details">
-      Versión de Moodle: <strong>Moodle 4.3.3+ (Build: 20240326)</strong>
+      Versión de Moodle: <strong>Moodle 4.5.0+ (Build: 20241101)</strong>
     </div>
     <div class="image-details">
       Talla: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" id=4 >}} MB</strong>

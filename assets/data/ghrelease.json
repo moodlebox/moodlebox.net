@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/146895079",
-  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/146895079/assets",
-  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/146895079/assets{?name,label}",
-  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v4.7.0",
-  "id": 146895079,
+  "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/150104312",
+  "assets_url": "https://api.github.com/repos/moodlebox/moodlebox/releases/150104312/assets",
+  "upload_url": "https://uploads.github.com/repos/moodlebox/moodlebox/releases/150104312/assets{?name,label}",
+  "html_url": "https://github.com/moodlebox/moodlebox/releases/tag/v4.8.0",
+  "id": 150104312,
   "author": {
     "login": "martignoni",
     "id": 421392,
@@ -22,22 +22,23 @@
     "events_url": "https://api.github.com/users/martignoni/events{/privacy}",
     "received_events_url": "https://api.github.com/users/martignoni/received_events",
     "type": "User",
+    "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOA-E9284IwXDn",
-  "tag_name": "v4.7.0",
+  "node_id": "RE_kwDOA-E9284I8mj4",
+  "tag_name": "v4.8.0",
   "target_commitish": "main",
-  "name": "v4.7.0",
+  "name": "v4.8.0",
   "draft": false,
   "prerelease": false,
-  "created_at": "2024-03-29T11:30:51Z",
-  "published_at": "2024-03-30T09:57:51Z",
+  "created_at": "2024-11-02T20:26:33Z",
+  "published_at": "2024-11-03T15:25:46Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/159332285",
-      "id": 159332285,
-      "node_id": "RA_kwDOA-E9284Jfze9",
-      "name": "moodlebox-4.7.0-rpi-imager.img.bz2",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/203785766",
+      "id": 203785766,
+      "node_id": "RA_kwDOA-E9284MJYYm",
+      "name": "moodlebox-4.8.0-rpi-imager.img.bz2",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -57,21 +58,22 @@
         "events_url": "https://api.github.com/users/martignoni/events{/privacy}",
         "received_events_url": "https://api.github.com/users/martignoni/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/x-bzip2",
       "state": "uploaded",
-      "size": 965972700,
+      "size": 972665318,
       "download_count": 0,
-      "created_at": "2024-03-29T20:53:47Z",
-      "updated_at": "2024-03-29T20:55:26Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.7.0/moodlebox-4.7.0-rpi-imager.img.bz2"
+      "created_at": "2024-11-03T15:19:15Z",
+      "updated_at": "2024-11-03T15:19:46Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.8.0/moodlebox-4.8.0-rpi-imager.img.bz2"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/159331195",
-      "id": 159331195,
-      "node_id": "RA_kwDOA-E9284JfzN7",
-      "name": "moodlebox-4.7.0-rpi-imager.img.xz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/203785820",
+      "id": 203785820,
+      "node_id": "RA_kwDOA-E9284MJYZc",
+      "name": "moodlebox-4.8.0-rpi-imager.img.xz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -91,21 +93,22 @@
         "events_url": "https://api.github.com/users/martignoni/events{/privacy}",
         "received_events_url": "https://api.github.com/users/martignoni/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/x-xz",
       "state": "uploaded",
-      "size": 728710300,
+      "size": 753395236,
       "download_count": 0,
-      "created_at": "2024-03-29T20:41:41Z",
-      "updated_at": "2024-03-29T20:42:40Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.7.0/moodlebox-4.7.0-rpi-imager.img.xz"
+      "created_at": "2024-11-03T15:19:46Z",
+      "updated_at": "2024-11-03T15:20:09Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.8.0/moodlebox-4.8.0-rpi-imager.img.xz"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/159332443",
-      "id": 159332443,
-      "node_id": "RA_kwDOA-E9284Jfzhb",
-      "name": "moodlebox-4.7.0-rpi-imager.sha256",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/203785849",
+      "id": 203785849,
+      "node_id": "RA_kwDOA-E9284MJYZ5",
+      "name": "moodlebox-4.8.0-rpi-imager.sha256",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -125,21 +128,22 @@
         "events_url": "https://api.github.com/users/martignoni/events{/privacy}",
         "received_events_url": "https://api.github.com/users/martignoni/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 125,
       "download_count": 0,
-      "created_at": "2024-03-29T20:55:46Z",
-      "updated_at": "2024-03-29T21:04:22Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.7.0/moodlebox-4.7.0-rpi-imager.sha256"
+      "created_at": "2024-11-03T15:20:09Z",
+      "updated_at": "2024-11-03T15:20:10Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.8.0/moodlebox-4.8.0-rpi-imager.sha256"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/159331775",
-      "id": 159331775,
-      "node_id": "RA_kwDOA-E9284JfzW_",
-      "name": "moodlebox-4.7.0.img.bz2",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/203785850",
+      "id": 203785850,
+      "node_id": "RA_kwDOA-E9284MJYZ6",
+      "name": "moodlebox-4.8.0.img.bz2",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -159,21 +163,22 @@
         "events_url": "https://api.github.com/users/martignoni/events{/privacy}",
         "received_events_url": "https://api.github.com/users/martignoni/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/x-bzip2",
       "state": "uploaded",
-      "size": 966393507,
+      "size": 974473555,
       "download_count": 0,
-      "created_at": "2024-03-29T20:49:02Z",
-      "updated_at": "2024-03-29T20:50:29Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.7.0/moodlebox-4.7.0.img.bz2"
+      "created_at": "2024-11-03T15:20:10Z",
+      "updated_at": "2024-11-03T15:20:45Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.8.0/moodlebox-4.8.0.img.bz2"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/159330376",
-      "id": 159330376,
-      "node_id": "RA_kwDOA-E9284JfzBI",
-      "name": "moodlebox-4.7.0.img.xz",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/203785898",
+      "id": 203785898,
+      "node_id": "RA_kwDOA-E9284MJYaq",
+      "name": "moodlebox-4.8.0.img.xz",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -193,21 +198,22 @@
         "events_url": "https://api.github.com/users/martignoni/events{/privacy}",
         "received_events_url": "https://api.github.com/users/martignoni/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/x-xz",
       "state": "uploaded",
-      "size": 728771592,
+      "size": 754700172,
       "download_count": 0,
-      "created_at": "2024-03-29T20:30:34Z",
-      "updated_at": "2024-03-29T20:36:52Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.7.0/moodlebox-4.7.0.img.xz"
+      "created_at": "2024-11-03T15:20:45Z",
+      "updated_at": "2024-11-03T15:21:08Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.8.0/moodlebox-4.8.0.img.xz"
     },
     {
-      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/159332450",
-      "id": 159332450,
-      "node_id": "RA_kwDOA-E9284Jfzhi",
-      "name": "moodlebox-4.7.0.sha256",
+      "url": "https://api.github.com/repos/moodlebox/moodlebox/releases/assets/203785913",
+      "id": 203785913,
+      "node_id": "RA_kwDOA-E9284MJYa5",
+      "name": "moodlebox-4.8.0.sha256",
       "label": null,
       "uploader": {
         "login": "martignoni",
@@ -227,18 +233,20 @@
         "events_url": "https://api.github.com/users/martignoni/events{/privacy}",
         "received_events_url": "https://api.github.com/users/martignoni/received_events",
         "type": "User",
+        "user_view_type": "public",
         "site_admin": false
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 114,
       "download_count": 0,
-      "created_at": "2024-03-29T20:55:58Z",
-      "updated_at": "2024-03-29T21:04:22Z",
-      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.7.0/moodlebox-4.7.0.sha256"
+      "created_at": "2024-11-03T15:21:08Z",
+      "updated_at": "2024-11-03T15:21:09Z",
+      "browser_download_url": "https://github.com/moodlebox/moodlebox/releases/download/v4.8.0/moodlebox-4.8.0.sha256"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v4.7.0",
-  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v4.7.0",
-  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v4.7.0/total.svg)\r\n\r\n### Added\r\n- Set PHP timezone to have it in sync with OS timezone (issue #324).\r\n- Set default DB collation to `utf8mb4_unicode_ci`, as recommended by Moodle (issue #323).\r\n\r\n### Changed\r\n- Update to Raspberry Pi OS version 2024-03-15, Debian Bullseye 64bit (issue #332).\r\n- Update MoodleBox plugin to version v2.17.5 (issue #333).\r\n\r\n### Fixed\r\n- Set correct file path for relevant boot files (issue #329).\r\n- Replace text logo for better compatibility (issue #251).\r\n- Mitigate Ansible Lint errors (no issue number, commit aa81008).\r\n\r\n**Full Changelog**: https://github.com/moodlebox/moodlebox/compare/v4.6.0...v4.7.0"
+  "tarball_url": "https://api.github.com/repos/moodlebox/moodlebox/tarball/v4.8.0",
+  "zipball_url": "https://api.github.com/repos/moodlebox/moodlebox/zipball/v4.8.0",
+  "body": "## Release notes\r\n![Github Release Downloads](https://img.shields.io/github/downloads/moodlebox/moodlebox/v4.8.0/total.svg)\r\n\r\n### Added\r\n- Install Raspberry Pi Connect (issue #341).\r\n- Install PHP tidy extension (issue #344).\r\n\r\n### Changed\r\n- Update Moodle to version 4.5.0 LTS (issue #357).\r\n- Update MoodleBox plugin to version v2.18.2 (issue #356).\r\n- Update to Raspberry Pi OS version 2024-10-22, Debian Bullseye 64bit (issue #353).\r\n- Update rpi-clone to version maintained by @geerlingguy (issue #337).\r\n- Replace no more supported Adminer with AdminerEvo (issue #349) and update to version 4.8.4 (issue #351).\r\n\r\n### Fixed\r\n- Change the route metric of the wireless STA connection (issue #334).\r\n- Workaround wireless AP bug on Raspberry Pi Model 3B (issue #354).\r\n- Fix several lint warnings and tidy a few files (no issue number, commits fc185a8, 3a51944, 7382ba9, e10b14c, c73aa6f, edbe73d).\r\n\r\n**Full Changelog**: https://github.com/moodlebox/moodlebox/compare/v4.7.0...v4.8.0",
+  "mentions_count": 1
 }

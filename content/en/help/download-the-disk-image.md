@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2024-03-30
+lastmod: 2024-11-03
 description: The MoodleBox disk image can be freely downloaded from this page.
 slug: download-the-disk-image
 categories_weight: 3
@@ -31,7 +31,7 @@ To [copy the MoodleBox disk image to your microSD card]({{< relref "help/copy-th
       Version: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="version" id=4 >}}</strong>
     </div>
     <div class="image-details">
-      Moodle version: <strong>Moodle 4.3.3+ (Build: 20240326)</strong>
+      Moodle version: <strong>Moodle 4.5.0+ (Build: 20241101)</strong>
     </div>
     <div class="image-details">
       Size: <strong>{{< ghrelease user="moodlebox" repo="moodlebox" data="file_size" id=4 >}} MB</strong>
