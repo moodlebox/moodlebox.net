@@ -3,8 +3,8 @@ title: Remote shell access to a MoodleBox
 authors:
   - Nicolas Martignoni
 type: kb
-date: 2024-07-06
-lastmod: 2024-07-06
+date: 2024-11-03
+lastmod: 2024-11-03
 description: Enable remote secure shell access (command line interface) to your MoodleBox from anywhere in the world, using Raspberry Pi Connect.
 keywords:
   - shell
@@ -15,19 +15,23 @@ slug: remote-shell-access
 categories_weight: 10
 categories:
   - Usage
-draft: true
 ---
 It is possible to get a secure remote shell access to your MoodleBox from anywhere in the world using Raspberry Pi Connect.
 Raspberry Pi Connect uses a secure, encrypted connection to communicate between your MoodleBox and your browser.
 
 {{< notice info >}}
 This feature makes use of Raspberry Pi Connect by [Raspberry Pi Ltd](https://www.raspberrypi.com/).
-The software is installed and enabled by default as of MoodleBox image version 4.8.0.
+The software is installed by default as of MoodleBox image version 4.8.0.
 {{< /notice >}}
+
+Start by activating Raspberry Pi Connect using the `rpi-connect` command:
+```bash
+rpi-connect on
+```
 
 #### Link the MoodleBox with a Raspberry Pi ID
 
-You must associate your MoodleBox with a __Raspberry Pi ID__.
+You must then associate your MoodleBox with a __Raspberry Pi ID__.
 If you do not have a Raspberry Pi ID, you have to [create one][rpi-id].
 
 To link your MoodleBox with your Raspberry Pi ID, generate a verification URL using the `rpi-connect` command:
@@ -49,7 +53,7 @@ You can now remotely connect to your MoodleBox.
 Raspberry Pi Connect signs communication with your MoodleBox serial number. Moving your SD card between MoodleBox's will sign you out.
 {{< /notice >}}
 
-Now that your MoodleBox appears on your Connect dashboard, you can access your Raspberry Pi from anywhere using only a browser.
+Now that your MoodleBox appears on your Connect dashboard, you can access it from anywhere using only a browser.
 
 #### Access your MoodleBox via remote shell
 
@@ -69,7 +73,7 @@ You can now use your MoodleBox as you would locally.
 To close a remote shell session, run the `exit` command or close the window.
 
 {{< notice tip >}}
-For more info about the Raspberry Pi Connect feature, refer to the [Raspberry Pi Connect documentation](https://rptl.io/rpi-connect).
+For more info about the Raspberry Pi Connect feature, refer to the [Raspberry Pi Connect documentation](https://www.raspberrypi.com/documentation/services/connect.html).
 {{< /notice >}}
 
 [connect]: https://connect.raspberrypi.com/
