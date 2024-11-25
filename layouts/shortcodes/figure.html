@@ -23,11 +23,11 @@
   {{ $image = resources.GetMatch (printf "%s" $image_src | relURL) }}
 {{- end -}}
 {{- with $image -}}
-{{/* No processing for GIF images */}}
-{{- if eq (string $image.MediaType) "image/gif" -}}
+{{/* No processing for SVG and GIF images */}}
+{{- if or (eq $image.MediaType.SubType "gif") (eq $image.MediaType.SubType "svg") -}}
 <div class="image-box">
   <figure{{ with $image_class }} class="{{ . }}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <img src="{{ $image_src | safeURL }}" alt="{{ $image_alt }}" />
+    <img src="{{ $image.RelPermalink }}" alt="{{ $image_alt }}" width="{{ $image_width }}" />
     <figcaption>
       <p><em>{{ with $image_title | safeHTML }}{{ . }}{{ end }}</em></p>
     </figcaption>
