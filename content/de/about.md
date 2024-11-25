@@ -3,7 +3,7 @@ title: Über uns
 authors:
   - Nicolas Martignoni
 date: 2019-10-30
-lastmod: 2023-11-10
+lastmod: 2024-11-25
 description: MoodleBox ist ein freiwilliges und Non-Profit-Projekt, das von Nicolas Martignoni in seiner Freizeit durchgeführt wird.
 slug: ueber-uns
 weight: 2
@@ -30,10 +30,13 @@ Andere Beitragende:
 - [Adrian Perez][adpe]
 - [Vincent Widmer][smallhacks]
 
-### Sponsor
+### Sponsoren
 
 MoodleBox wird von der [E-learning Touch'][elt] gesponsert.
 {{< figure src="/img/media/elt.png" alt="E-learning Touch'" width="300" >}}
+
+Die MoodleBox-Webüberwachung wird gesponsert von [UptimeRobot][uptimerobot].
+{{< figure src="/img/media/uptimerobot-logo-dark.svg" alt="UptimeRobot" width="200" >}}
 
 ### Haftungsausschluss
 
@@ -56,3 +59,4 @@ Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in de
  [eric]: https://www.uv.mx/personal/ericsolano/
  [image]: {{< relref "help/download-the-disk-image" >}}
  [elt]: https://www.elearningtouch.com/
+ [uptimerobot]: https://uptimerobot.com/
