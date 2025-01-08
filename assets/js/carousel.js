@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   carousels.forEach(function( carousel ) {
 
     const ele = carousel.querySelector('ul');
-    const scrolllength = carousel.querySelector('ul li:nth-child(2)').offsetLeft - carousel.querySelector('ul li:nth-child(1)').offsetLeft;
+    const scrolllength = carousel.querySelector('ul .item:nth-child(2)').offsetLeft - carousel.querySelector('ul .item:nth-child(1)').offsetLeft;
     const amountvisible = Math.round(ele.offsetWidth/scrolllength);
     const bullets = carousel.querySelectorAll('ol li');
     const nextarrow = carousel.querySelector('.next');
