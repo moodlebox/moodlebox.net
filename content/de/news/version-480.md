@@ -6,7 +6,7 @@ authors:
   - Nicolas Martignoni
 slug: version-4.8.0
 ---
-Das Image [MoodleBox Version 4.7.0][release] bietet Fernzugriff über [Raspberry Pi Connect][connect] und weitere Verbesserungen.
+Das Image [MoodleBox Version 4.8.0][release] bietet Fernzugriff über [Raspberry Pi Connect][connect] und weitere Verbesserungen.
 
 {{< figure src="/img/media/connect.webp" width="780" class="centered-image" alt="Raspberry Pi Connect" >}}
 
