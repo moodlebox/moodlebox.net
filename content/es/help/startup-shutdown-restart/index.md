@@ -6,7 +6,7 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-04-20
-lastmod: 2022-08-14
+lastmod: 2025-06-28
 description: Si quieres saber cómo iniciar, apagar o reiniciar correctamente tu MoodleBox, aquí tienes la información deseada
 slug: inicio-apagado-reinicio
 categories_weight: 1
@@ -47,13 +47,12 @@ Haga clic en el botón __Reiniciar MoodleBox__. Espere unos segundos y la Moodle
 
 ### Instalar un botón hardware de encendido y apagado
 
-Es posible instalar un botón hardware para apagar e iniciar la MoodleBox. La [Imagen de Disco de MoodleBox][2] permite el uso de dicho botón sin ningún cambio en la configuración.
+Es posible instalar un botón hardware para apagar e iniciar la MoodleBox. La MoodleBox permite el uso de dicho botón sin ningún cambio en la configuración.
 
 La instalación de un botón hardware es muy sencilla: basta con comprar un botón, por ejemplo [este botón capacitivo][3], y conectarlo a los pines del puerto GPIO de la MoodleBox (pines 5 y 6) mediante [jumpers][4] (ver la imagen de abajo, gracias a Laurent Fleron), luego reiniciar la MoodleBox.
 
 {{< figure src="/img/media/hardware-button.jpg" title="Botón hardware" class="centered-image" width="400" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
- [2]: {{< relref "help/download-the-disk-image" >}}
  [3]: https://www.aliexpress.com/item/32713062171.html
  [4]: https://www.aliexpress.com/item/32800215149.html

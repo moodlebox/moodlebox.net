@@ -22,7 +22,7 @@ Esta versión también proporciona una versión preliminar del script de actuali
 
 Ver las [notas de la versión en Github][2] para toda la información sobre esta versión.
 
- [1]: {{< relref "help/download-the-disk-image" >}}
+ [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v3.1.0
  [3]: https://moodle.org/
  [4]: https://moodle.org/plugins/tool_moodlebox

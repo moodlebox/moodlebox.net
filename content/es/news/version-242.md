@@ -16,7 +16,7 @@ Hoy se publica la [Versión 2.4.2][2] de la [Imagen de disco de MoodleBox][2].
 
 No hay otros cambios. Vea las [notas de la versión en Github][2] para más información sobre todos los cambios de esta versión.
 
- [1]: {{< relref "help/download-the-disk-image" >}}
+ [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.4.2
  [3]: http://moodle.org/plugins/tool_moodlebox
  [4]: https://www.raspberrypi.org/downloads/raspbian/

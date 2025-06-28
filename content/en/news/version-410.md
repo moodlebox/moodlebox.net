@@ -20,7 +20,7 @@ The changes introduced in [ MoodleBox 4.1.0][release] are:
 
 Have a look at the [release notes on Github][release] for all info about this release.
 
-[disk]: {{< relref "help/download-the-disk-image" >}}
+[disk]: {{< relref "help/copy-the-disk-image" >}}
 [release]: https://github.com/moodlebox/moodlebox/releases/tag/v4.1.0
 [moodle]: https://moodle.org/
 [plugin]: https://moodle.org/plugins/tool_moodlebox

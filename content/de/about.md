@@ -3,7 +3,7 @@ title: Über uns
 authors:
   - Nicolas Martignoni
 date: 2019-10-30
-lastmod: 2024-11-25
+lastmod: 2025-06-28
 description: MoodleBox ist ein freiwilliges und Non-Profit-Projekt, das von Nicolas Martignoni in seiner Freizeit durchgeführt wird.
 slug: ueber-uns
 weight: 2
@@ -57,6 +57,6 @@ Der Autor ist nicht verpflichtet, irgendwelche Fehler in der Software oder in de
  [smallhacks]: https://github.com/smallhacks
  [steve]: https://www.linkedin.com/in/steve-miley-9a271a4
  [eric]: https://www.uv.mx/personal/ericsolano/
- [image]: {{< relref "help/download-the-disk-image" >}}
+ [image]: {{< relref "help/copy-the-disk-image" >}}
  [elt]: https://www.elearningtouch.com/
  [uptimerobot]: https://uptimerobot.com/

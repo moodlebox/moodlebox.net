@@ -16,6 +16,6 @@ Diese Version enthält nur kleine Änderungen. Im Wesentlichen:
 
 Weitere Verbesserungen wurden "unter der Haube" vorgenommen. Informationen über alle Änderungen an dieser Version finden Sie in den [Release Notes auf Github][2].
 
- [1]: {{< relref "help/download-the-disk-image" >}}
+ [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.4.1
  [3]: http://moodle.org/plugins/tool_moodlebox

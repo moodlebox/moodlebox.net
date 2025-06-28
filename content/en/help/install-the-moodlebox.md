@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-09-15
-lastmod: 2023-11-10
+lastmod: 2025-06-28
 description: The procedure to install the MoodleBox for its first utilisation is described here
 slug: install-the-moodlebox
 categories_weight: 1
@@ -49,7 +49,6 @@ No further settings are necessary. After starting, the MoodleBox is ready and fu
 For more information, browse our [knowledge base][9].
 
  [1]: {{< relref "help/hardware" >}}
- [2]: {{< relref "help/download-the-disk-image" >}}
  [3]: {{< relref "help/copy-the-disk-image" >}}
  [4]: {{< relref "help/access-to-moodle" >}}
  [5]: {{< relref "help/wi-fi-connection" >}}

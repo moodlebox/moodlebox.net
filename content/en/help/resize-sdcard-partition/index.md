@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2018-07-09
-lastmod: 2022-08-14
+lastmod: 2025-06-28
 description: Follow these instructions to resize your SD card partition.
 slug: resize-sdcard-partition
 categories_weight: 100
@@ -32,7 +32,6 @@ The MoodleBox restarts immediately and is ready for use seconds after this opera
 There is no problem clicking the _Resize SD card partition_ button when the SD card is already resized. The only consequence will be the restart of the MoodleBox.
 {{< /notice >}}
 
- [1]: {{< relref "help/download-the-disk-image" >}}
  [2]: {{< relref "help/copy-the-disk-image" >}}
  [3]: {{< relref "help/startup-shutdown-restart" >}}
  [4]: {{< relref "help/access-to-moodle" >}}

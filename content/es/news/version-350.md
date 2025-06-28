@@ -22,7 +22,7 @@ Se acaba de publicar la [versión 3.5.0][2] de la [imagen de disco de MoodleBox]
 
 Ver las [notas de la versión en Github][2] para toda la información sobre esta versión.
 
- [1]: {{< relref "help/download-the-disk-image" >}}
+ [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v3.5.0
  [3]: https://moodle.org/
  [4]: https://moodle.org/plugins/tool_moodlebox

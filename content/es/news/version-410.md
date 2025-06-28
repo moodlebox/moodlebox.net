@@ -33,7 +33,7 @@ Los cambios introducidos en [ MoodleBox 4.1.0][release] son:
 
 Echa un vistazo a las [notas de la versión en Github][release] para obtener toda la información acerca de esta versión.
 
-[disk]: {{< relref "help/download-the-disk-image" >}}
+[disk]: {{< relref "help/copy-the-disk-image" >}}
 [release]: https://github.com/moodlebox/moodlebox/releases/tag/v4.1.0
 [moodle]: https://moodle.org/
 [plugin]: https://moodle.org/plugins/tool_moodlebox

@@ -18,7 +18,7 @@ Les modifications apportées par [MoodleBox 4.3.0][release] sont:
 
 Consultez les [notes de mise à jour sur Github][release] pour tous les détails de cette version.
 
-[disk]: {{< relref "help/download-the-disk-image" >}}
+[disk]: {{< relref "help/copy-the-disk-image" >}}
 [release]: https://github.com/moodlebox/moodlebox/releases/tag/v4.3.0
 [moodle]: https://moodle.org/
 [rpios]: https://www.raspberrypi.com/software/operating-systems/

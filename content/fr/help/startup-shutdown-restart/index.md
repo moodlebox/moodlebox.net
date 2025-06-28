@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-17
-lastmod: 2022-08-14
+lastmod: 2025-06-28
 description: Si vous voulez savoir comment démarrer votre MoodleBox, l'arrêter ou la redémarrer correctement, voici les informations souhaitées
 slug: demarrer-arreter-redemarrer
 categories_weight: 1
@@ -44,13 +44,12 @@ Cliquer sur le bouton __Redémarrer la MoodleBox__ et patienter quelques seconde
 
 ### Installer un bouton matériel de démarrage et d'arrêt
 
-Il est possible d'installer un bouton matériel permettant d'arrêter et de démarrer la MoodleBox. De base, l'[image-disque de la MoodleBox][2] permet l'utilisation d'un tel bouton sans aucune modification de configuration.
+Il est possible d'installer un bouton matériel permettant d'arrêter et de démarrer la MoodleBox. De base, MoodleBox permet l'utilisation d'un tel bouton sans aucune modification de configuration.
 
 L'installation d'un bouton matériel est très simple : il suffit d'acheter un interrupteur, par exemple [ce bouton tactile][3], et de le relier aux broches du port GPIO de la MoodleBox (broches 5 et 6) grâce à [des cavaliers][4] (voir l'image ci-dessous, merci à Laurent Fleron), puis de redémarrer la MoodleBox.
 
 {{< figure src="/img/media/hardware-button.jpg" title="Bouton matériel" class="centered-image" width="400" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
- [2]: {{< relref "help/download-the-disk-image" >}}
  [3]: https://www.aliexpress.com/item/32713062171.html
  [4]: https://www.aliexpress.com/item/32800215149.html

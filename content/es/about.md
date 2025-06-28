@@ -5,7 +5,7 @@ authors:
   - Steve Miley
   - Eric Efrain Solano-Uscanga
 date: 2019-10-30
-lastmod: 2024-11-25
+lastmod: 2025-06-28
 description: MoodleBox es un proyecto voluntario y sin ánimo de lucro llevado a cabo por Nicolas Martignoni en su tiempo libre.
 slug: sobre
 weight: 2
@@ -56,6 +56,6 @@ El autor no se compromete a ninguna corrección de la imagen de disco o de este 
  [smallhacks]: https://github.com/smallhacks
  [steve]: https://www.linkedin.com/in/steve-miley-9a271a4
  [eric]: https://www.uv.mx/personal/ericsolano/
- [image]: {{< relref "help/download-the-disk-image" >}}
+ [image]: {{< relref "help/copy-the-disk-image" >}}
  [elt]: https://www.elearningtouch.com/
  [uptimerobot]: https://uptimerobot.com/

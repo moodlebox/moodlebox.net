@@ -21,7 +21,7 @@ Se acaba de liberar la [versión 3.11.0][release] de la [imagen de disco de Mood
 
 Ver las [notas de la versión en Github][release] para toda la información sobre esta versión.
 
- [disk]: {{< relref "help/download-the-disk-image" >}}
+ [disk]: {{< relref "help/copy-the-disk-image" >}}
  [release]: https://github.com/moodlebox/moodlebox/releases/tag/v3.11.0
  [moodle]: https://moodle.org/
  [rpios]: https://www.raspberrypi.org/downloads/raspberry-pi-os/

@@ -24,7 +24,7 @@ La [version 3.8.0][release] de l'[image de la MoodleBox][disk] vient d'être pub
 
 Consultez les [notes de mise à jour sur Github][release] pour tous les détails de cette version.
 
- [disk]: {{< relref "help/download-the-disk-image" >}}
+ [disk]: {{< relref "help/copy-the-disk-image" >}}
  [release]: https://github.com/moodlebox/moodlebox/releases/tag/v3.8.0
  [moodle]: https://moodle.org/
  [plugin]: https://moodle.org/plugins/tool_moodlebox

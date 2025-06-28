@@ -12,7 +12,7 @@ Il y a exactement 5 ans aujourd'hui, en juillet 2016, [Nicolas Martignoni][nm] a
 
 Pour fêter cet événement, une [image de MoodleBox spéciale "cinquième anniversaire"][release] est publiée aujourd'hui.
 
-&gt; [Télécharger l'image disque][disk]
+&gt; [Copier l'image disque][disk]
 
   - Cette version est basée sur la dernière version de [Raspberry Pi OS Lite][rpios] du 7 mai 2021.
   - Elle fournit [Moodle][moodle] version [3.11.1][moodle311].
@@ -20,7 +20,7 @@ Pour fêter cet événement, une [image de MoodleBox spéciale "cinquième anniv
 
 Consultez les [notes de mise à jour sur Github][release] pour tous les détails de cette version.
 
- [disk]: {{< relref "help/download-the-disk-image" >}}
+ [disk]: {{< relref "help/copy-the-disk-image" >}}
  [release]: https://github.com/moodlebox/moodlebox/releases/tag/v3.12.0
  [moodle]: https://moodle.org/
  [rpios]: https://www.raspberrypi.org/downloads/raspberry-pi-os/

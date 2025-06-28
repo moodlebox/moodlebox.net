@@ -18,7 +18,7 @@ Die Änderungen in [MoodleBox 4.2.0][release] sind:
 
 Alle Informationen zu dieser Version finden Sie in den [Release Notes auf Github][release].
 
-[disk]: {{< relref "help/download-the-disk-image" >}}
+[disk]: {{< relref "help/copy-the-disk-image" >}}
 [release]: https://github.com/moodlebox/moodlebox/releases/tag/v4.2.0
 [moodle]: https://moodle.org/
 [rpios]: https://www.raspberrypi.com/software/operating-systems/

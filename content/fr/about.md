@@ -3,7 +3,7 @@ title: À propos
 authors:
   - Nicolas Martignoni
 date: 2019-10-30
-lastmod: 2024-11-25
+lastmod: 2025-06-28
 description: MoodleBox est un projet bénévole et sans but lucratif conduit par Nicolas Martignoni sur son temps libre.
 slug: a-propos
 weight: 2
@@ -54,6 +54,6 @@ L'auteur ne s'engage par ailleurs à aucune correction de l'image-disque ou de c
  [smallhacks]: https://github.com/smallhacks
  [steve]: https://www.linkedin.com/in/steve-miley-9a271a4
  [eric]: https://www.uv.mx/personal/ericsolano/
- [image]: {{< relref "help/download-the-disk-image" >}}
+ [image]: {{< relref "help/copy-the-disk-image" >}}
  [elt]: https://www.elearningtouch.com/
  [uptimerobot]: https://uptimerobot.com/

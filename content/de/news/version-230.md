@@ -16,7 +16,7 @@ Die [Version 2.3.0][2] des [Disk-Image der MoodleBox][2]  wurde heute veröffent
 
 Weitere Informationen über alle Änderungen an dieser Version finden Sie in den [Release Notes auf Github][2].
 
- [1]: {{< relref "help/download-the-disk-image" >}}
+ [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.3.0
  [3]: https://www.raspberrypi.org/downloads/raspbian/
  [4]: https://www.raspberrypi.org/blog/raspberry-pi-3-model-bplus-sale-now-35/

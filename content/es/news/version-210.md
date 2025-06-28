@@ -15,7 +15,7 @@ Hoy se publica la versión 2.1.0 de la [imagen de la MoodleBox][4]. [Esta versi�
   - Esta versión se basa en la [Raspbian Stretch Lite image][2] publicada el 2017-11-29.
   - Se hicieron otros pequeños cambios y adiciones. Ver las [notas de la versión en Github][4] para más información.
 
- [1]: {{< relref "help/download-the-disk-image" >}}
+ [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: https://www.raspberrypi.org/downloads/raspbian/
  [3]: https://www.ansible.com
  [4]: https://github.com/moodlebox/moodlebox/releases/tag/v2.1.0

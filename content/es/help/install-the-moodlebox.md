@@ -6,7 +6,7 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-09-15
-lastmod: 2023-11-10
+lastmod: 2025-06-28
 description: El procedimiento para instalar la MoodleBox para su primera utilización se describe aquí
 slug: instalar-la-moodlebox
 categories_weight: 1
@@ -49,7 +49,6 @@ No es necesario realizar más ajustes. Después de arrancar, la MoodleBox está 
 Para más información, consulta nuestra [base de conocimientos][9].
 
  [1]: {{< relref "help/hardware" >}}
- [2]: {{< relref "help/download-the-disk-image" >}}
  [3]: {{< relref "help/copy-the-disk-image" >}}
  [4]: {{< relref "help/access-to-moodle" >}}
  [5]: {{< relref "help/wi-fi-connection" >}}

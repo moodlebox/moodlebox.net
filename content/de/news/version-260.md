@@ -23,7 +23,7 @@ Die [Version 2.6.0][2] des [Disk-Image der MoodleBox][2] wurde heute veröffentl
 
 Weitere Informationen über alle Änderungen an dieser Version finden Sie in den [Release Notes auf Github][2].
 
- [1]: {{< relref "help/download-the-disk-image" >}}
+ [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.6.0
  [3]: https://moodle.org/plugins/tool_moodlebox
  [4]: https://www.raspberrypi.org/downloads/raspbian/

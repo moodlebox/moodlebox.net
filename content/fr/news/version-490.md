@@ -21,7 +21,7 @@ Pour installer MoodleBox, nous vous recommandons d'utiliser l'utilitaire [Raspbe
 
 Consultez les [notes de mise à jour sur Github][release] pour tous les détails de cette version.
 
-[disk]: {{< relref "help/download-the-disk-image" >}}
+[disk]: {{< relref "help/copy-the-disk-image" >}}
 [release]: https://github.com/moodlebox/moodlebox/releases/tag/v4.9.0
 [plugin]: https://moodle.org/plugins/tool_moodlebox
 [moodle]: https://moodle.org/

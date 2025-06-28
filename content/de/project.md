@@ -34,4 +34,3 @@ MoodleBox ist ein freiwilliges und Non-Profit-Projekt, das von [Nicolas Martigno
  [10]: https://moodle.org/user/profile.php?id=70180
  [11]: https://moodle.org/user/profile.php?id=41095
  [12]: https://moodle.org/mod/forum/discuss.php?d=278493
- [13]: {{< relref "help/download-the-disk-image" >}}

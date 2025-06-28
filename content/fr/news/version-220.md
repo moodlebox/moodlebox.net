@@ -17,6 +17,6 @@ Le `cron` de Moodle est désormais effectué toutes les minutes, suivant la [rec
 
 Consultez les [notes de mise à jour sur Github][2] pour plus de détails sur la totalité des modifications de cette version.
 
- [1]: {{< relref "help/download-the-disk-image" >}}
+ [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v2.2.0
  [3]: https://docs.moodle.org/fr/Cron#Cron_depuis_Moodle_2.7

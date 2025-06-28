@@ -5,12 +5,14 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
-lastmod: 2023-12-26
+lastmod: 2025-06-28
 description: Um das MoodleBox Disk-Image auf eine SD-Karte zu kopieren, laden Sie einfach den Raspberry Pi Imager herunter und folgen Sie diese Anweisungen.
 slug: disk-image-kopieren
 categories_weight: 4
 categories:
   - Erste Schritte
+aliases:
+  - ../dl
 ---
 Um das MoodleBox-Betriebssystem auf Ihre microSD-Karte zu kopieren, empfehlen wir den [Raspberry Pi Imager][imager]. Dieses Programm wird von der Raspberry Pi Foundation angeboten.
 
@@ -35,9 +37,4 @@ Um das MoodleBox-Betriebssystem auf Ihre microSD-Karte zu kopieren, empfehlen wi
 
 Das Programm _Raspberry Pi Imager_ lädt jetzt die neueste Version des MoodleBox-Image herunter und kopiert es auf Ihre microSD-Karte. Der Vorgang dauert einige Minuten. Die Dauer hängt von Ihrer Internetverbindung und der microSD-Karte ab.
 
-### Alternative Vorgehensweise für Fortgeschrittene
-
-Sie können auch das [Disk-Image manuell herunterladen][manualdownload] und anschliessend mit einem Tool auf die microSD-Karte kopieren, z.B. mit Raspberry Pi Imager, BalenaEtcher oder `dd`.
-
  [imager]: https://www.raspberrypi.com/software/
- [manualdownload]: {{< relref "help/download-the-disk-image" >}}

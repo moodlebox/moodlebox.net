@@ -23,7 +23,7 @@ La [versión 3.9.0][release] de la [imagen de disco de MoodleBox][disk] acaba de
 
 Consulte las [notas de la versión en Github][release] para obtener toda la información acerca de esta versión.
 
- [disk]: {{< relref "help/download-the-disk-image" >}}
+ [disk]: {{< relref "help/copy-the-disk-image" >}}
  [release]: https://github.com/moodlebox/moodlebox/releases/tag/v3.9.0
  [moodle]: https://moodle.org/
  [plugin]: https://moodle.org/plugins/tool_moodlebox

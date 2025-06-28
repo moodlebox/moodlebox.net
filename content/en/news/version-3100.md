@@ -20,7 +20,7 @@ slug: version-3.10.0
 
 See the [release notes on Github][release] for all info about this release.
 
- [disk]: {{< relref "help/download-the-disk-image" >}}
+ [disk]: {{< relref "help/copy-the-disk-image" >}}
  [release]: https://github.com/moodlebox/moodlebox/releases/tag/v3.10.0
  [moodle]: https://moodle.org/
  [plugin]: https://moodle.org/plugins/tool_moodlebox

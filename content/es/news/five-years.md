@@ -23,7 +23,7 @@ Para celebrar este acontecimiento, hoy se publica una [imagen especial "quinto a
 
 Consulte las [notas de la versión en Github][release] para obtener toda la información sobre esta versión.
 
- [disk]: {{< relref "help/download-the-disk-image" >}}
+ [disk]: {{< relref "help/copy-the-disk-image" >}}
  [release]: https://github.com/moodlebox/moodlebox/releases/tag/v3.12.0
  [moodle]: https://moodle.org/
  [rpios]: https://www.raspberrypi.org/downloads/raspberry-pi-os/

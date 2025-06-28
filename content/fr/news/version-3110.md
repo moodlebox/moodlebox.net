@@ -19,7 +19,7 @@ La [version 3.11.0][release] de l'[image  de la MoodleBox][disk] vient d'être p
 
 Consultez les [notes de mise à jour sur Github][release] pour tous les détails de cette version.
 
- [disk]: {{< relref "help/download-the-disk-image" >}}
+ [disk]: {{< relref "help/copy-the-disk-image" >}}
  [release]: https://github.com/moodlebox/moodlebox/releases/tag/v3.11.0
  [moodle]: https://moodle.org/
  [rpios]: https://www.raspberrypi.org/downloads/raspberry-pi-os/

@@ -23,7 +23,7 @@ Diese Version enthält auch eine erste Version des MoodleBox-Update-Skripts. Das
 
 Alle Informationen über dieser Version finden Sie in den [Release Notes auf Github][2].
 
- [1]: {{< relref "help/download-the-disk-image" >}}
+ [1]: {{< relref "help/copy-the-disk-image" >}}
  [2]: https://github.com/moodlebox/moodlebox/releases/tag/v3.0.0
  [3]: https://moodle.org/
  [4]: https://www.raspberrypi.org/downloads/raspbian/

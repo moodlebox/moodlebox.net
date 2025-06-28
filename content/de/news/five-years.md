@@ -21,7 +21,7 @@ Um dieses Ereignis zu feiern, wird heute ein [spezielles "Fünftes-Jahres-Jubil�
 
 Alle Informationen über dieser Version finden Sie in den [Release Notes auf Github][release].
 
- [disk]: {{< relref "help/download-the-disk-image" >}}
+ [disk]: {{< relref "help/copy-the-disk-image" >}}
  [release]: https://github.com/moodlebox/moodlebox/releases/tag/v3.12.0
  [moodle]: https://moodle.org/
  [rpios]: https://www.raspberrypi.org/downloads/raspberry-pi-os/

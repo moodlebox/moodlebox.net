@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2017-04-20
-lastmod: 2022-08-14
+lastmod: 2025-06-28
 description: Informationen, wie Sie Ihre MoodleBox richtig starten, stoppen oder neu starten
 slug: einschalten-ausschalten-neustarten
 categories_weight: 1
@@ -46,13 +46,12 @@ Tippen Sie auf die Schaltfläche __MoodleBox neustarten__ und warten Sie einige 
 
 ### Hardware zum Ein- und Ausschalten erweitern
 
-Wenn Sie möchten, können Sie eine Hardwaretaste installieren, um die MoodleBox ein- und auszuschalten. Das [MoodleBox Disk-Image][2] erlaubt die Verwendung einer solchen Taste ohne Konfigurationsänderungen.
+Wenn Sie möchten, können Sie eine Hardwaretaste installieren, um die MoodleBox ein- und auszuschalten. Die MoodleBox erlaubt die Verwendung einer solchen Taste ohne Konfigurationsänderungen.
 
 Die Installation einer Hardwaretaste ist sehr einfach. Sie müssen lediglich eine Taste kaufen, z.B. eine [kapazitive Taste][3], und sie mit [Jumperkabeln][4] an die richtigen Pins des GPIO-Ports (Pins 5 und 6) der MoodleBox anschließen (siehe Bild unten, dank an Laurent Fleron). Danach starten Sie die MoodleBox neu.
 
 {{< figure src="/img/media/hardware-button.jpg" title="Hardwaretaste" class="centered-image" width="400" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
- [2]: {{< relref "help/download-the-disk-image" >}}
  [3]: https://www.aliexpress.com/item/32713062171.html
  [4]: https://www.aliexpress.com/item/32800215149.html

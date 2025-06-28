@@ -29,7 +29,7 @@ Voici les nouveautés principales de [MoodleBox version 4.0.0][release].
 
 Consultez les [notes de mise à jour sur Github][release] pour tous les détails de cette version.
 
-[disk]: {{< relref "help/download-the-disk-image" >}}
+[disk]: {{< relref "help/copy-the-disk-image" >}}
 [release]: https://github.com/moodlebox/moodlebox/releases/tag/v4.0.0
 [moodle]: https://moodle.org/
 [plugin]: https://moodle.org/plugins/tool_moodlebox

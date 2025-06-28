@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-04-20
-lastmod: 2022-08-14
+lastmod: 2025-06-28
 description: If you want to know how to start, switch off or restart your MoodleBox correctly, here is the desired information
 slug: startup-shutdown-restart
 categories_weight: 1
@@ -45,13 +45,12 @@ Click on the button __Restart MoodleBox__. Wait a few seconds and the MoodleBox 
 
 ### Install a hardware startup and shutdown button
 
-It is possible to install a hardware button to switch off and start the MoodleBox. The [MoodleBox Disk Image][2] allows the use of such a button without any configuration changes.
+It is possible to install a hardware button to switch off and start the MoodleBox. MoodleBox allows the use of such a button without any configuration changes.
 
 The installation of a hardware button is very simple: you just have to buy a button, for example [this capacitive button][3], and connect it to the pins of the MoodleBox GPIO (pins 5 and 6) port using [jumpers][4] (see the image below, thanks to Laurent Fleron), then restart the MoodleBox.
 
 {{< figure src="/img/media/hardware-button.jpg" title="Hardware button" class="centered-image" width="400" >}}
 
  [1]: http://moodlebox.home/admin/tool/moodlebox/index.php
- [2]: {{< relref "help/download-the-disk-image" >}}
  [3]: https://www.aliexpress.com/item/32713062171.html
  [4]: https://www.aliexpress.com/item/32800215149.html
