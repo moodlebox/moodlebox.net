@@ -18,7 +18,7 @@
               </div>
               <div class="col-md-7">
                 {{ $image := (resources.GetMatch .image).Resize `640x webp` }}
-                <img class="img-responsive" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .title }}" />
+                <img class="img-responsive" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .title }}" fetchpriority="high" />
               </div>
             </div>
           </div>
