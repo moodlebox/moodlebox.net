@@ -35,7 +35,7 @@ jobs:
             --minify \
             --printI18nWarnings
       - name: Deploy website with rsync
-        uses: burnett01/rsync-deployments@7.0.2
+        uses: burnett01/rsync-deployments@v8
         with:
           switches: -avzr --quiet --delete
           path: public/
