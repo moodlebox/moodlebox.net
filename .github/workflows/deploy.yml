@@ -30,6 +30,13 @@ jobs:
           extended: true
       - name: Check Hugo installation
         run: hugo env
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: 'npm'
+      - name: Run Node
+        run: npm ci
       - name: Build website with Hugo
         run: |
           hugo \
