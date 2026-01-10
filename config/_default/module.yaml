@@ -30,3 +30,10 @@ mounts:
   - source: content/en
     target: content
     lang: es
+
+  # This adds hugo_stats.json to Hugo's server watcher, for PurgeCSS
+  - source: assets
+    target: assets
+
+  - source: hugo_stats.json
+    target: assets/watching/hugo_stats.json

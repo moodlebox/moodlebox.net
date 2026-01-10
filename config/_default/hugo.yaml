@@ -30,6 +30,10 @@ preserveTaxonomyNames: true
 # Enable robots.txt generation
 enableRobotsTXT: true
 
+build:
+  buildStats:
+    enable: true
+
 # Disable taxonomy pages
 # disableKinds:
 #   - taxonomy
