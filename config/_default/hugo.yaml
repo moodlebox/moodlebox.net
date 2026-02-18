@@ -5,14 +5,18 @@ theme:
   - hugo-notice
   - hugo-cloak-email
 
-# Site language. Available translations in the theme's `/i18n` directory.
+# The projects’s default content language, conforming to the syntax described in RFC 5646.
 defaultContentLanguage: en
+# The project’s default content version. Default is v1.0.0.
+# defaultContentVersion: v1.0.0
 
 # Site time zone
 timeZone: Europe/Zurich
 
-# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+# Whether to publish the default content language to a subdirectory matching the defaultContentLanguage
 defaultContentLanguageInSubdir: true
+# Whether to publish the default content version to a subdirectory matching the defaultContentVersion
+defaultContentVersionInSubdir: false
 
 # Show a placeholder instead of the default value or an empty string if a translation is missing
 # enableMissingTranslationPlaceholders: false
