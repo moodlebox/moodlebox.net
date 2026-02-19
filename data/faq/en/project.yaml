@@ -7,12 +7,20 @@ items:
     answer: >
       MoodleBox is a volunteer and non-profit project lead by [Nicolas Martignoni](https://blog.martignoni.net/a-propos/) on his spare time.
 
-  - question: What is the business model of MoodleBox ?
+  - question: What is the business model of MoodleBox?
     answer: >
       MoodleBox is a free (as in speech and in beer) and open source project developed on a voluntary and non-profit basis. As such, it only requires financing to acquire the equipment necessary for its development, to contract the hosting and domain names necessary for its distribution and to maintain the motivation of its developer.
 
 
       For the time being, [donations](../give) and sponsorship by [E-learning Touch'](https://www.elearningtouch.com/) are sufficient to partially cover these needs.
+
+  - question: I'm using MoodleBox as part of my work, how should I cite it?
+    answer: >-
+      If you use MoodleBox in your work, your citation should read something like
+
+        > Martignoni, N. (2026). MoodleBox, version v4.11.1 [Computer software]. Available from: https://moodlebox.net. https://doi.org/10.5281/zenodo.15763860
+
+      For more info, see [our About page](../about#citing-moodlebox).
 
   - question: How can I help MoodleBox?
     answer: >-

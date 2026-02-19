@@ -5,7 +5,7 @@ authors:
   - Steve Miley
   - Eric Efrain Solano-Uscanga
 date: 2019-10-30
-lastmod: 2025-06-28
+lastmod: 2026-02-19
 description: MoodleBox es un proyecto voluntario y sin ánimo de lucro llevado a cabo por Nicolas Martignoni en su tiempo libre.
 slug: sobre
 weight: 2
@@ -28,6 +28,27 @@ Otros colaboradores son:
 
 - [Adrian Perez][adpe]
 - [Vincent Widmer][smallhacks]
+
+### Citar MoodleBox
+
+Si utiliza BLABLA en su proyecto o para una publicación, le agradeceríamos que lo indicara en sus citas.
+La cita debería decir algo así como:
+
+> Martignoni, N. (2026). MoodleBox, versión v4.11.1 [Programas informáticos]. Disponible en: https://moodlebox.net. https://doi.org/10.5281/zenodo.15763860
+
+Puedes utilizar esta entrada BibTeX:
+```
+@software{Martignoni_MoodleBox,
+    title = {{MoodleBox}},
+    author = {Martignoni, Nicolas},
+    doi = {10.5281/zenodo.15763860},
+    license = {AGPL-3.0},
+    version = {VERSION},
+    year = YEAR,
+    url = {https://moodlebox.net}
+}
+```
+donde _VERSION_ es la versión de la imagen de MoodleBox, por ejemplo, _v4.11.1_, y _YEAR_ es el año de lanzamiento de la versión.
 
 ### Sponsors
 

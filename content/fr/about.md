@@ -3,7 +3,7 @@ title: À propos
 authors:
   - Nicolas Martignoni
 date: 2019-10-30
-lastmod: 2025-06-28
+lastmod: 2026-02-19
 description: MoodleBox est un projet bénévole et sans but lucratif conduit par Nicolas Martignoni sur son temps libre.
 slug: a-propos
 weight: 2
@@ -26,6 +26,27 @@ Autres contributeurs :
 
 - [Adrian Perez][adpe]
 - [Vincent Widmer][smallhacks]
+
+### Citer MoodleBox
+
+Si vous utilisez MoodleBox dans votre projet ou pour une publication, nous vous serions reconnaissants de l'indiquer dans vos citations.
+Votre citation devrait ressembler à
+
+> Martignoni, N. (2026). MoodleBox, version v4.11.1 [Logiciel]. Disponible sur: https://moodlebox.net. https://doi.org/10.5281/zenodo.15763860
+
+Vous pouvez utiliser le format BibTeX :
+```
+@software{Martignoni_MoodleBox,
+    title = {{MoodleBox}},
+    author = {Martignoni, Nicolas},
+    doi = {10.5281/zenodo.15763860},
+    license = {AGPL-3.0},
+    version = {VERSION},
+    year = YEAR,
+    url = {https://moodlebox.net}
+}
+```
+où _VERSION_ est la version l'image MoodleBox, p.ex. _v4.11.1_, et _YEAR_ est l'année de publication de la version.
 
 ### Sponsors
 

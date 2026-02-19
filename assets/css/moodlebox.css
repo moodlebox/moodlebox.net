@@ -2280,15 +2280,18 @@ a.bg-primary:hover {
 }
 abbr[title],
 abbr[data-original-title] {
-  border-bottom: 1px dotted #999999;
+  border-bottom: 1px dotted #999;
 }
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-style: italic;
-  font-size: .875rem;
-  background: #eee;
+  font-size: .9375rem;
+  background: #efefef;
   border-left: 5px solid #d73c3c;
+}
+blockquote p {
+  margin-bottom: 3px;
 }
 blockquote footer,
 blockquote small,

@@ -14,6 +14,14 @@ items:
 
       Por el momento, [las donaciones](../donaciones) y el patrocinio de [E-learning Touch'](https://www.elearningtouch.com/) son suficientes para cubrir parcialmente estas necesidades.
 
+  - question: Utilizo MoodleBox para mi propia obra. ¿Cómo debo citarla?
+    answer: >-
+      Si utiliza MoodleBox para su proyecto, la cita debería ser similar a la siguiente:
+
+        > Martignoni, N. (2026). MoodleBox, versión v4.11.1 [Programas informáticos]. Disponible en: https://moodlebox.net. https://doi.org/10.5281/zenodo.15763860
+
+      Para más información, consulte nuestra página [Acerca de](../about#citar-moodlebox).
+
   - question: ¿Cómo puedo ayudar a MoodleBox?
     answer: >-
       MoodleBox es un proyecto voluntario y sin ánimo de lucro. Sólo puede ser posible gracias a [sus donaciones](../donar). Su donación ayudará a financiar el hardware necesario para el desarrollo de MoodleBox y el alojamiento y nombres de dominio necesarios para su distribución.
