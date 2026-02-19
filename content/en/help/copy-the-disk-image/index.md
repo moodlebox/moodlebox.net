@@ -27,9 +27,9 @@ To copy the MoodleBox system on your microSD card, we recommend to use the [Rasp
    - the hostname, e.g. _moodlebox_,
    - the localisation settings (city, time zone and keyboard layout),
    - a username and a password, e.g. _moodlebox_ and _Moodlebox4$_,
-   - the SSID and password of your local wireless network,
-   - enable SSH and click the radio button __Use password authentication__
-1. In the tab __Writing__ click the __Write__ button, and when asked if you want to continue, erasing all data on your SD card, click on __I understand, erase and write__.
+   - optionnaly, the SSID and password of your local wireless network,
+   - enable SSH and tick the radio button __Use password authentication__.
+1. Click __Next__ to the tab __Writing__, click the __Write__ button, and when asked if you want to continue, erasing all data on your SD card, click on __I understand, erase and write__.
    {{< figure src="rpi-imager-warning-en.png" alt="Raspberry Pi Imager Warning" class="centered-image" width="700" >}}
 
 The application __Raspberry Pi Imager__ will now download and flash the latest version of the MoodleBox disk image to your microSD card. This may take several minutes depending on the speed of your Internet connection and SD card.
