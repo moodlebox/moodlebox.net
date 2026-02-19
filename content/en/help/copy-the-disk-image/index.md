@@ -14,7 +14,7 @@ aliases:
   - /download
   - ../dl
 ---
-To copy the MoodleBox system on your microSD card, we recommend to use the [Raspberry Pi Imager][imager] utility. This application is published by the Raspberry Pi Foundation.
+To copy the MoodleBox system on your microSD card, use the [Raspberry Pi Imager][imager] utility. This application is published by the Raspberry Pi Foundation.
 
 ### How to proceed
 
@@ -22,8 +22,9 @@ To copy the MoodleBox system on your microSD card, we recommend to use the [Rasp
 1. Launch the _Raspberry Pi Imager_ application.
    {{< figure src="rpi-imager-en.png" alt="Raspberry Pi Imager" class="centered-image" width="700" >}}
 1. Select your model of Raspberry Pi, then click __Next__ to the  _OS_ tab, scroll down and click __Other specific-purpose OS__.
-1. Scroll down, click __MoodleBox__, choose the latest MoodleBox disk image version and click __Next__ to the __Storage__ tab and select your microSD card.
-1. Click __Next__ to the __Customisation__ tab, and specify the settings you want for your MoodleBox in the following windows. Indicate, if needed
+1. Scroll down, click __MoodleBox__, choose the latest MoodleBox disk image version.
+1. Click __Next__ to the __Storage__ tab and select your microSD card.
+1. Click __Next__ to the __Customisation__ tab and specify the settings you want for your MoodleBox in the following windows. Indicate, if needed
    - the hostname, e.g. _moodlebox_,
    - the localisation settings (city, time zone and keyboard layout),
    - a username and a password, e.g. _moodlebox_ and _Moodlebox4$_,
