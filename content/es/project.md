@@ -5,7 +5,7 @@ authors:
   - Steve Miley
   - Eric Efrain Solano-Uscanga
 date: 2017-04-21
-lastmod: 2023-02-06
+lastmod: 2026-02-19
 description: El proyecto MoodleBox es un proyecto libre (como el habla y la cerveza) que proporciona un completo sistema de gestión del aprendizaje Moodle con una infraestructura mínima.
 slug: proyecto
 weight: 2
@@ -31,7 +31,7 @@ MoodleBox es un proyecto voluntario y sin ánimo de lucro liderado por [Nicolas 
  [4]: https://moodle.org/course/view.php?id=20
  [5]: https://moodle.org/mod/forum/discuss.php?d=318719
  [6]: https://moodle.org/mod/forum/discuss.php?d=330291
- [7]: http://moodlebox.tuxfamily.org/
+ [7]: https://forge.apps.education.fr/christian.westphal
  [8]: https://moodle.org/mod/forum/discuss.php?d=331170
  [10]: https://moodle.org/user/profile.php?id=70180
  [11]: https://moodle.org/user/profile.php?id=41095

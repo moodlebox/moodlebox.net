@@ -3,7 +3,7 @@ title: Projekt MoodleBox
 authors:
   - Nicolas Martignoni
 date: 2017-04-21
-lastmod: 2023-02-06
+lastmod: 2026-02-19
 description: Die MoodleBox ist Open Source and freie Software (frei wie in Redefreiheit oder in Freibier). Sie bietet ein komplettes Moodle Learning Management System mit minimaler Infrastruktur.
 slug: projekt
 weight: 2
@@ -29,7 +29,7 @@ MoodleBox ist ein freiwilliges und Non-Profit-Projekt, das von [Nicolas Martigno
  [4]: https://moodle.org/course/view.php?id=20
  [5]: https://moodle.org/mod/forum/discuss.php?d=318719
  [6]: https://moodle.org/mod/forum/discuss.php?d=330291
- [7]: http://moodlebox.tuxfamily.org/
+ [7]: https://forge.apps.education.fr/christian.westphal
  [8]: https://moodle.org/mod/forum/discuss.php?d=331170
  [10]: https://moodle.org/user/profile.php?id=70180
  [11]: https://moodle.org/user/profile.php?id=41095
