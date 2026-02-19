@@ -8,7 +8,7 @@ slug: version-4.10.0
 ---
 L'image [MoodleBox version 4.10.0][release], publiée le 28 juin 2025, est basée sur Moodle 5.0+.
 
-Voici le principales nouveautés de [MoodleBox 4.10.0][release]:
+Voici les principales nouveautés de [MoodleBox 4.10.0][release]:
 - [Moodle][moodle] [version 5.0+][moodle5] (_Long Term Support_).
 - Fondée sur la dernière version de [Raspberry Pi OS Lite][rpios] du 13 mai 2025.
 - MoodleBox peut fournir Internet au moyen d'un smartphone connecté via USB.
