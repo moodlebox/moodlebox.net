@@ -6,7 +6,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2025-04-05
+lastmod: 2026-02-19
 description: Möchten Sie das Moodle auf der MoodleBox aktualisieren? Folgen Sie diese Anweisungen.
 keywords:
   - shell
@@ -27,7 +27,7 @@ Die Warnung _site not https_ ist kein Problem und kann ignoriert werden.
 
 Für eine Aktualisierung führen Sie folgende Anweisungen über die Kommandozeile im Terminal aus.
 
-Zuerst [verbinden Sie sich mit der MoodleBox über SSH][cli] und geben Sie Ihr Kennwort ein, um Shell-Zugang zu erhalten. Falls Sie [das Kennwort noch nicht geändert][change-pwd] haben, müssen sie natürlich [das standardmäßige Kennwort][default-pwd] __Moodlebox4$__ eingeben.
+Zuerst [verbinden Sie sich mit der MoodleBox über SSH][cli] und geben Sie Ihr Kennwort ein, um Shell-Zugang zu erhalten. Falls Sie [das Kennwort noch nicht geändert][change-pwd] haben, müssen sie natürlich [das standardmässige Kennwort][default-pwd] __Moodlebox4$__ eingeben.
 
 ```bash
 ssh moodlebox@moodlebox.home
@@ -35,23 +35,23 @@ ssh moodlebox@moodlebox.home
 
 ### Aktualisierung auf eine _Minor_ Version (kleiner Versionssprung)
 
-Um Ihr Moodle auf die nächste __Minor Version__ (4.5.1, 4.5.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^git]
+Um Ihr Moodle auf die nächste __Minor Version__ (5.1.1, 5.1.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^git]
 
 ```bash
 cd /var/www/moodle/
 sudo -u www-data -g moodlebox git pull
 ```
 
-Öffnen Sie anschließend im Browser die URL http://moodlebox.home/admin/ und folgen Sie der Anleitung wie für jede andere Moodle-Installation. ([Weitere Infos finden Sie in der Dokumentation][update]).
+Öffnen Sie anschliessend im Browser die URL http://moodlebox.home/admin/ und folgen Sie der Anleitung wie für jede andere Moodle-Installation. ([Weitere Infos finden Sie in der Dokumentation][update]).
 
-### Aktualisierung auf eine _Major_ Version (großer Versionssprung)
+### Aktualisierung auf eine _Major_ Version (grosser Versionssprung)
 
-Um mit Ihrem Moodle auf die nächste __Major Version__ (5.0[^future], 6.0[^future], usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen, wobei der entsprechende Branch angegeben wird, z.B. `MOODLE_500_STABLE`, `MOODLE_600_STABLE`, usw.:
+Um mit Ihrem Moodle auf die nächste __Major Version__ (5.2[^future], 5.3[^future], usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen, wobei der entsprechende Branch angegeben wird, z.B. `MOODLE_502_STABLE`, `MOODLE_503_STABLE`, usw.:
 
 ```bash
 sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u www-data -g moodlebox git fetch origin
-sudo -u www-data -g moodlebox git checkout MOODLE_500_STABLE
+sudo -u www-data -g moodlebox git checkout MOODLE_502_STABLE
 ```
 
 Öffnen Sie auch hier im Browser die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede andere Moodle-Installation. ([Weitere Infos finden Sie in der Dokumentation][update]).

@@ -5,7 +5,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-20
-lastmod: 2025-04-05
+lastmod: 2026-02-19
 description: Do you want to update Moodle on the MoodleBox? Follow these instructions!
 keywords:
   - shell
@@ -19,7 +19,7 @@ categories:
 {{< notice info >}}
 Before updating your version of Moodle, make sure that the server requirements are met on your MoodleBox. To do this, log in to Moodle, visit [Site Administration > Server > Environment](http://moodlebox.home/admin/environment.php), click on _Update component_, then check that no line says _Check_ in red.
 
-Warning _site not https_ is not a problem and can be ignored.
+The warning _site not https_ is not a problem and can be ignored.
 {{< /notice >}}
 
 To update Moodle, perform the following operations, using the command line.
@@ -32,7 +32,7 @@ ssh moodlebox@moodlebox.home
 
 ### Update to a _minor_ version
 
-To update to the next __minor version__ of Moodle (4.5.1, 4.5.2, etc.), type the following commands in the terminal:[^git]
+To update to the next __minor version__ of Moodle (5.1.1, 5.1.2, etc.), type the following commands in the terminal:[^git]
 
 ```bash
 cd /var/www/moodle/
@@ -43,12 +43,12 @@ Visit then in your browser the URL http://moodlebox.home/admin and follow the up
 
 ### Update to a _major_ version
 
-To update to the next __major version__ of Moodle (5.0[^future], 6.0[^future], etc.), type the commands above, then the __additional__ following commands, indicating the adequate branch, e.g. `MOODLE_500_STABLE`, `MOODLE_600_STABLE`, etc.:
+To update to the next __major version__ of Moodle (5.2[^future], 5.3[^future], etc.), type the commands above, then the __additional__ following commands, indicating the adequate branch, e.g. `MOODLE_502_STABLE`, `MOODLE_503_STABLE`, etc.:
 
 ```bash
 sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u www-data -g moodlebox git fetch origin
-sudo -u www-data -g moodlebox git checkout MOODLE_500_STABLE
+sudo -u www-data -g moodlebox git checkout MOODLE_502_STABLE
 ```
 
 Then visit the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the documentation][update]).
