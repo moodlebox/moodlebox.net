@@ -13,6 +13,8 @@ Here are the main new features of release [MoodleBox 4.11.1][release]:
 - Based on the latest version of [Raspberry Pi OS Lite][rpios] of December 4, 2025, with Debian Trixie
 - Other improvements and fixes
 
+A big shoutout to Ralf Krause for his help in testing this release!
+
 MoodleBox installation requires the use of the latest version of [Raspberry Pi Imager][rpi-imager] utility, which will automatically download the MoodleBox disk image for you.
 
 &Gt; [More information about MoodleBox installation][install]
