@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-09-15
-lastmod: 2025-06-28
+lastmod: 2026-02-20
 description: La procédure pour installer la MoodleBox en vue de sa première utilisation est décrite ici
 slug: installer-la-moodlebox
 categories_weight: 1
@@ -24,7 +24,7 @@ Le [matériel nécessaire][1] pour faire votre MoodleBox consiste essentiellemen
 
 ### Étape 2 : copier l'image-disque sur la carte microSD
 
-Pour cette opération, nous vous recommandons d'utiliser l'utilitaire [Raspberry Pi Imager][rpi-imager], qui téléchargera __automatiquement__ pour vous l'image disque MoodleBox. Lors de la copie de l'image, n'oubliez pas d'appliquer les réglages recommandés.
+Pour cette opération, utiliser l'utilitaire [Raspberry Pi Imager][rpi-imager], qui téléchargera __automatiquement__ pour vous l'image disque MoodleBox. Lors de la copie de l'image, n'oubliez pas d'appliquer les réglages recommandés.
 
 &Gt; [Plus d'informations ici][3]
 
