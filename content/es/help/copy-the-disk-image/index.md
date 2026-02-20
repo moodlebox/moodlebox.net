@@ -6,14 +6,14 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-04-20
-lastmod: 2025-06-28
+lastmod: 2026-02-20
 description: Para copiar la imagen de disco de MoodleBox a una tarjeta SD, simplemente descarga la utilidad Raspberry Pi Imager y sigue estas instrucciones.
 slug: copiar-la-imagen-disco-en-una-tarjeta-sd
 categories_weight: 4
 categories:
   - Primeros pasos
 ---
-Para copiar el sistema MoodleBox en tu tarjeta microSD, le recomendamos utilizar la utilidad [Raspberry Pi Imager][imager]. Esta aplicación está publicada por la Fundación Raspberry Pi.
+Para copiar el sistema MoodleBox en tu tarjeta microSD, utiliza la utilidad [Raspberry Pi Imager][imager]. Esta aplicación está publicada por la Fundación Raspberry Pi.
 
 ### Cómo proceder
 
@@ -29,10 +29,10 @@ Para copiar el sistema MoodleBox en tu tarjeta microSD, le recomendamos utilizar
    - Marque la casilla __Establecer nombre de anfitrión__ y indique el __nombre de host__, por ejemplo _moodlebox_
    - Marque la casilla __Establecer nombre de usuario y contraseña__ y indique el __nombre de usuario__ y la __contraseña__, por ejemplo _moodlebox_ y _MoodleBox4$_.
    - __No marque__ las demás casillas (_Configurar LAN inalámbrica_ y _Establecer ajustes regionales_).
-   {{< figure src="rpi-imager-os-custom-es.png" alt="Configuración de Raspberry Pi Imager" class="centered-image" width="700" >}}
 1. En la pestaña _Servicios_, marque la casilla __Activar SSH__ y la opción __Usar autenticación por contraseña__.
 1. Haga clic en __Guardar__ y responda __Sí__ a la pregunta __¿Desea aplicar los ajustes de personalización del SO?__
 1. Responda __Sí__ cuando se le pregunte si desea continuar, borrando todos los datos de su tarjeta SD.
+   {{< figure src="rpi-imager-warning-es.png" alt="Aviso de Raspberry Pi Imager" class="centered-image" width="700" >}}
 
 La aplicación __Raspberry Pi Imager__ descargará y flasheará la última versión de la imagen de disco de MoodleBox en tu tarjeta microSD. Esto puede tardar varios minutos dependiendo de la velocidad de tu conexión a Internet y de la tarjeta SD.
 
