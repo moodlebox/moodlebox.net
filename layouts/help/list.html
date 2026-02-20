@@ -24,7 +24,7 @@
                 <ul class="kb-main-category kb-articles">
                 {{ range $index, $page := $taxonomy.Pages }}
                   <li class="kb-article-level-1 {{ if gt $index 4 }}kb-hidden-elem{{ end }}">
-                  <a href="{{ .Permalink}}"> <span class="kb-article-title"> <i class="fa fa-file-text-o" aria-hidden="true"></i> <span>{{ .Title }}</span> </span> </a>
+                  <span class="kb-article-title"><i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="{{ .Permalink}}"><span>{{ .Title }}</span></a></span>
                   </li>
                 {{ end }}
                 {{ if gt (len $taxonomy) 5 }}

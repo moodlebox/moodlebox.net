@@ -2511,7 +2511,7 @@ section#news {
   text-indent: -1em;
 }
 .kb-article-title i {
-  color: #b3b3b3;
+  color: #2a2a2a;
 }
 .kb-articles a {
   color: #2a2a2a;
@@ -2526,11 +2526,13 @@ section#news {
   text-decoration: underline;
 }
 .kb-show-all-articles {
-  color: #b3b3b3;
+  color: #777;
   font-size: .9375em;
   display: block;
   width: 100%;
+/*
   text-align: center;
+ */
 }
 .kb-show-all-articles:hover {
   cursor: pointer;
@@ -2574,7 +2576,7 @@ section#news {
   background-color: #fff;
   background: #fff;
   width: 100%;
-  color: #000000;
+  color: #000;
   font-size: 1.125rem;
   padding: 10px 43px !important;
   border-style: solid !important;
