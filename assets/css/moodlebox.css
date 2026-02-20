@@ -2540,6 +2540,7 @@ section#news {
 }
 
 /* Knowledge base search form */
+/* purgecss start ignore */
 .kb-doc-search-container {
   max-width: 100%;
   text-align: center;
@@ -2615,6 +2616,7 @@ section#news {
   right: -1px;
   margin: 0;
 }
+/* purgecss end ignore */
 
 /* Gallery. */
 .gallery {
