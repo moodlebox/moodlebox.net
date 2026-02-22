@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2024-11-03
-lastmod: 2024-11-03
+lastmod: 2026-02-22
 description: Enable remote secure shell access (command line interface) to your MoodleBox from anywhere in the world, using Raspberry Pi Connect.
 keywords:
   - shell
@@ -62,7 +62,7 @@ You're redirected you to the Raspberry Pi ID service to sign in.
 After signing in, a list of linked devices is presented.
 Devices available for remote shell access show a grey __Remote shell__ badge below the name of the device.
 
-{{< figure src="/img/media/list-connect-devices.png" title="List of devices" class="centered-image" width="550" >}}
+{{< figure src="/img/media/list-connect-devices.png" title="List of devices" class="centered-image" width="700" >}}
 
 Click the __Connect__ button to the right of the device you would like to access, to open a shell session on your MoodleBox.
 
