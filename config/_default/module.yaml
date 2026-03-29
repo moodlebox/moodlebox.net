@@ -1,35 +1,33 @@
 mounts:
-  # Content mounts
-  # EN content
-  - source: content/en
-    target: content
-    lang: en
-  # FR content
+  # Content mounts, fills in the gaps in other languages content with 'en' content
+  # 'fr' content
   - source: content/fr
     target: content
-    lang: fr
-  # DE content
+    sites:
+      matrix:
+        languages:
+          - fr
+  # 'de' content
   - source: content/de
     target: content
-    lang: de
-  # ES content
+    sites:
+      matrix:
+        languages:
+          - de
+  # 'es' content
   - source: content/es
     target: content
-    lang: es
-
-  # Fill in the missing translations
-  # This fills in the gaps in FR content with EN content
+    sites:
+      matrix:
+        languages:
+          - es
+  # 'en' content (default content)
   - source: content/en
     target: content
-    lang: fr
-  # This fills in the gaps in DE content with EN content
-  - source: content/en
-    target: content
-    lang: de
-  # This fills in the gaps in ES content with EN content
-  - source: content/en
-    target: content
-    lang: es
+    sites:
+      matrix:
+        languages:
+          - '*'
 
   # This adds hugo_stats.json to Hugo's server watcher, for PurgeCSS
   - source: assets
