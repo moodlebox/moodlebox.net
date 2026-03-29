@@ -1,6 +1,6 @@
 {{ if isset site.Params "features" }}
 {{ if site.Params.features.enable }}
-{{ with index site.Data.features site.Language.Lang }}
+{{ with index hugo.Data.features site.Language.Lang }}
 <section id="features" class="bar background-white">
   <div class="container">
   {{ range $index, $element := sort . "weight" }}

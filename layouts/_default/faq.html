@@ -11,7 +11,7 @@
             <div class="faq-intro">{{ . }}</div>
           {{ end }}
           <section class="faq">
-          {{ with index site.Data.faq site.Language.Lang }}
+          {{ with index hugo.Data.faq site.Language.Lang }}
             {{ range sort . "weight" }}
             <div class="faq-group" id="faq-group-{{ .id }}">
               <h2 id="{{ .id }}">{{ .name }}</h2>

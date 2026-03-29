@@ -2,7 +2,7 @@
 {{ if site.Params.carousel.enable }}
 {{ $visibleitems := 1 }}
 {{ $height := "450px" }}
-{{ with index site.Data.carousel site.Language.Lang }}
+{{ with index hugo.Data.carousel site.Language.Lang }}
 <section>
   {{ $image := ((resources.GetMatch "/img/banner-tablet.jpg")) }}
   <div id="home-carousel" class="carousel" duration="5000" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('{{ $image.RelPermalink }}') center center repeat;background-size: cover;">

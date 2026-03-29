@@ -1,6 +1,6 @@
 {{ if isset site.Params "testimonials" }}
 {{ if site.Params.testimonials.enable }}
-{{ with index site.Data.testimonials site.Language.Lang }}
+{{ with index hugo.Data.testimonials site.Language.Lang }}
 <section id="testimonials" class="bar background-pentagon no-mb">
   <div class="container">
     <div class="row">

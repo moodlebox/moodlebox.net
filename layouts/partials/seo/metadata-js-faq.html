@@ -3,7 +3,7 @@
   "@context": "http://schema.org/",
   "@type": "FAQPage",
   "mainEntity": [
-  {{- with index site.Data.faq site.Language.Lang }}
+  {{- with index hugo.Data.faq site.Language.Lang }}
     {{- range $i, $e := (sort . "weight") }}
       {{- range $j, $e := .items -}}
       {{- if (or $i $j) -}},{{ end }}

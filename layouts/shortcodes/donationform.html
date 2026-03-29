@@ -1,4 +1,4 @@
-{{ with index site.Data.donation site.Language.Lang }}
+{{ with index hugo.Data.donation site.Language.Lang }}
 {{ $products := .amounts }}
 {{ $defaultamount := 0 }}
 {{ range $products }}
