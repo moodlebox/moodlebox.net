@@ -1,6 +1,6 @@
 en:
-  languageName: English
-  languageCode: en-us
+  label: English
+  locale: en-us
   contentDir: content/en
   weight: 1
   menu:
@@ -109,8 +109,8 @@ en:
       image: /img/media/elt.png
 
 fr:
-  languageName: Français
-  languageCode: fr-fr
+  label: Français
+  locale: fr-fr
   contentDir: content/fr
   weight: 2
   menu:
@@ -219,8 +219,8 @@ fr:
       image: /img/media/elt.png
 
 de:
-  languageName: Deutsch
-  languageCode: de-de
+  label: Deutsch
+  locale: de-de
   contentDir: content/de
   weight: 3
   menu:
@@ -329,8 +329,8 @@ de:
       image: /img/media/elt.png
 
 es:
-  languageName: Español
-  languageCode: es-es
+  label: Español
+  locale: es-es
   contentDir: content/es
   weight: 4
   menu:
