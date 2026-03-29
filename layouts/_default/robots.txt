@@ -1,8 +1,6 @@
 User-agent: *
 
-Sitemap: {{ "sitemap.xml" | absURL -}}
-{{- if hugo.IsMultilingual }}
-{{ range site.Languages -}}
-  Sitemap: {{ printf "%s/sitemap.xml" .Lang | absURL }}
-{{ end }}
+Sitemap: {{ "sitemap.xml" | absURL }}
+{{ range hugo.Sites -}}
+  Sitemap: {{ .Home.Permalink }}sitemap.xml
 {{ end }}
