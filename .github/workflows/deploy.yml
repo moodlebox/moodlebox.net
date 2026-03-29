@@ -50,8 +50,8 @@ jobs:
             --printI18nWarnings \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Deploy website with rsync
-        if: ${{ env.DEPLOY_TO_PROD }}
         uses: burnett01/rsync-deployments@v8
+        if: ${{ env.DEPLOY_TO_PROD }}
         with:
           switches: -avzr --quiet --delete
           path: public/
