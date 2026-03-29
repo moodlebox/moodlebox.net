@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - 'main'
   # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -16,6 +19,8 @@ jobs:
   build:
     name: Build and deploy website
     runs-on: ubuntu-latest
+    env:
+      DEPLOY_TO_PROD: ${{ github.event_name == 'push' && github.ref_name == 'main' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -45,6 +50,7 @@ jobs:
             --printI18nWarnings \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Deploy website with rsync
+        if: ${{ env.DEPLOY_TO_PROD }}
         uses: burnett01/rsync-deployments@v8
         with:
           switches: -avzr --quiet --delete
