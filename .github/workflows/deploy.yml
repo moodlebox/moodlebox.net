@@ -27,7 +27,7 @@ jobs:
       - name: Download and setup Hugo
         uses: peaceiris/actions-hugo@v3
         env:
-          HUGO_RELEASE: '0.158.0'
+          HUGO_RELEASE: '0.159.1'
         with:
           hugo-version: ${{ env.HUGO_RELEASE }}
           extended: true
