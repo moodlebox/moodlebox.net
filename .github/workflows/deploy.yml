@@ -17,7 +17,7 @@ defaults:
 
 jobs:
   build:
-    name: Build and deploy website
+    name: Build website
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -47,6 +47,13 @@ jobs:
             --minify \
             --printI18nWarnings \
             --cacheDir "${{ runner.temp }}/hugo_cache"
+
+  deploy:
+    name: Deploy website to production
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref_name == 'main'
+    steps:
       - name: Deploy website with rsync
         uses: burnett01/rsync-deployments@v8
         with:
