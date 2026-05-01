@@ -28,16 +28,16 @@ en:
       weight: 3
 
     - parent: support
-      name: FAQ
-      url: /faq/
-      weight: 1
-    - parent: support
-      name: Knowledge base
+      name: Documentation
       url: /help/
-      weight: 2
+      weight: 1
     - parent: support
       name: Community Support
       url: https://discuss.moodlebox.net/
+      weight: 2
+    - parent: support
+      name: FAQ
+      url: /faq/
       weight: 3
 
     - identifier: get-involved
@@ -138,16 +138,16 @@ fr:
       weight: 3
 
     - parent: support
-      name: FAQ
-      url: /faq/
-      weight: 1
-    - parent: support
       name: Documentation
       url: /help/
-      weight: 2
+      weight: 1
     - parent: support
       name: Assistance communautaire
       url: https://discuss.moodlebox.net/
+      weight: 2
+    - parent: support
+      name: FAQ
+      url: /faq/
       weight: 3
 
     - identifier: get-involved
@@ -248,16 +248,16 @@ de:
       weight: 3
 
     - parent: support
-      name: FAQ
-      url: /faq/
-      weight: 1
-    - parent: support
       name: Dokumentation
       url: /help/
-      weight: 2
+      weight: 1
     - parent: support
       name: Community-Support
       url: https://discuss.moodlebox.net/
+      weight: 2
+    - parent: support
+      name: FAQ
+      url: /faq/
       weight: 3
 
     - identifier: get-involved
@@ -358,16 +358,16 @@ es:
       weight: 3
 
     - parent: support
-      name: Preguntas frecuentes
-      url: /faq/
-      weight: 1
-    - parent: support
-      name: Base de conocimientos
+      name: Documentación
       url: /help/
-      weight: 2
+      weight: 1
     - parent: support
       name: Apoyo comunitario
       url: https://discuss.moodlebox.net/
+      weight: 2
+    - parent: support
+      name: Preguntas frecuentes
+      url: /faq/
       weight: 3
 
     - identifier: get-involved
