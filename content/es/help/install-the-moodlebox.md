@@ -46,7 +46,7 @@ No es necesario realizar más ajustes. Después de arrancar, la MoodleBox está 
   * [Acceso SSH][7] a la MoodleBox
   * [Apoyar el proyecto MoodleBox][8]
 
-Para más información, consulta nuestra [base de conocimientos][9].
+Para más información, consulta nuestra [documentación][9].
 
  [1]: {{< relref "help/hardware" >}}
  [3]: {{< relref "help/copy-the-disk-image" >}}
