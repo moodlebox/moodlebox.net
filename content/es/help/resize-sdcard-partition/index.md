@@ -14,7 +14,7 @@ categories:
   - Mantenimiento
 ---
 
-### Pasos a seguir
+### Cómo proceder
 
 {{< notice note >}}
 Esta operación no es necesaria si ha descargado la imagen de disco de este sitio web. Sin embargo, puede ser necesario ejecutarla si ha recibido una imagen de disco personalizada.

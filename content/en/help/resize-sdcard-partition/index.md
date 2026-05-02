@@ -12,7 +12,7 @@ categories:
   - Maintenance
 ---
 
-### Steps to follow
+### How to proceed
 
 {{< notice note >}}
 This operation is not required if you have downloaded the disk image from this website. However, it may be necessary to run it if you have received a custom disk image.
