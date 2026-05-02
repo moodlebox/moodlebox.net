@@ -7,21 +7,22 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-04-20
-lastmod: 2026-02-19
-description: ¿Quieres actualizar Moodle en la MoodleBox? ¡Sigue estas instrucciones!
+lastmod: 2026-05-02
+description: Siga las siguientes instrucciones para actualizar Moodle en su MoodleBox
 keywords:
   - shell
   - ssh
   - línea de comandos
   - sistema operativo
   - cli
-slug: moodle-version-update
+slug: actualizacion-de-moodle
+aliases:
+  - moodle-version-update
 categories:
   - Mantenimiento
 ---
 {{< notice info >}}
 Antes de actualizar tu versión de Moodle, asegúrate de que se cumplen los requisitos del servidor en tu MoodleBox. Para ello, inicia sesión en Moodle, visita [Administración del sitio > Servidor > Entorno](http://moodlebox.home/admin/environment.php), haz clic en _Actualizar componente_, y comprueba que ninguna línea diga _Check_ en rojo.
-
 
 La advertencia _site not https_ no es un problema y puede ignorarse.
 {{< /notice >}}
@@ -43,7 +44,7 @@ cd /var/www/moodle/
 sudo -u www-data -g moodlebox git pull
 ```
 
-Después, visita en tu navegador la URL http://moodlebox.home/admin y sigue las instrucciones de actualización, como en cualquier instalación de Moodle ( [lee la documentación][update] ).
+Después, visita en tu navegador la URL http://moodlebox.home/admin y sigue las instrucciones de actualización, como en cualquier instalación de Moodle ([lee la documentación de Moodle][update] ).
 
 ### Actualizar a una versión __mayor
 
@@ -55,7 +56,7 @@ sudo -u www-data -g moodlebox git fetch origen
 sudo -u www-data -g moodlebox git checkout MOODLE_502_STABLE
 ```
 
-A continuación, visita la URL http://moodlebox.home/admin y sigue las instrucciones de actualización, como en cualquier instalación de Moodle ([lee la documentación][update]).
+A continuación, visita la URL http://moodlebox.home/admin y sigue las instrucciones de actualización, como en cualquier instalación de Moodle ([lee la documentación de Moodle][update]).
 
  [update]: https://docs.moodle.org/en/Upgrading
  [cli]: {{< relref "help/command-line-access" >}}

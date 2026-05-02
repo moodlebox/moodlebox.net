@@ -5,16 +5,18 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-20
-lastmod: 2026-02-19
-description: Do you want to update Moodle on the MoodleBox? Follow these instructions!
+lastmod: 2026-05-02
+description: Follow the instructions below to update Moodle on the MoodleBox
 keywords:
   - shell
   - ssh
   - command line
   - cli
-slug: moodle-version-update
+slug: moodle-update
 categories:
   - Maintenance
+aliases:
+  - moodle-version-update
 ---
 {{< notice info >}}
 Before updating your version of Moodle, make sure that the server requirements are met on your MoodleBox. To do this, log in to Moodle, visit [Site Administration > Server > Environment](http://moodlebox.home/admin/environment.php), click on _Update component_, then check that no line says _Check_ in red.
@@ -39,7 +41,7 @@ cd /var/www/moodle/
 sudo -u www-data -g moodlebox git pull
 ```
 
-Visit then in your browser the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the documentation][update]).
+Visit then in your browser the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the Moodle documentation][update]).
 
 ### Update to a _major_ version
 
@@ -51,7 +53,7 @@ sudo -u www-data -g moodlebox git fetch origin
 sudo -u www-data -g moodlebox git checkout MOODLE_502_STABLE
 ```
 
-Then visit the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the documentation][update]).
+Then visit the URL http://moodlebox.home/admin and follow the update instructions, like any Moodle installation ([read the Moodle documentation][update]).
 
  [update]: https://docs.moodle.org/en/Upgrading
  [cli]: {{< relref "help/command-line-access" >}}

@@ -1,20 +1,22 @@
 ---
-title: Mettre à jour Moodle sur la MoodleBox
+title: Mise à jour de Moodle sur la MoodleBox
 authors:
   - Nicolas Martignoni
   - Adrian Perez Rodriguez
 type: kb
 date: 2017-04-17
-lastmod: 2026-02-19
-description: Vous voulez mettre à jour Moodle sur la MoodleBox ? Suivez ces instructions !
+lastmod: 2026-05-02
+description: Les instructions ci-dessous indiquent comment mettre à jour Moodle sur la MoodleBox
 keywords:
   - shell
   - ssh
   - ligne de commande
   - cli
-slug: mise-a-jour-de-la-version-de-moodle
+slug: mise-a-jour-de-moodle
 categories:
   - Maintenance
+aliases:
+  - mise-a-jour-de-la-version-de-moodle
 ---
 {{< notice info >}}
 Avant de mettre à jour votre version de Moodle, vérifiez que les prérequis serveur sont bien présents sur votre MoodleBox. Pour ce faire, connectez-vous à Moodle, visitez la page [Administration du site > Serveur > Environnement](http://moodlebox.home/admin/environment.php), cliquez sur _Mettre à jour le composant_, puis contrôlez qu'aucune des lignes ne comporte un statut _Vérifier_ en rouge.
@@ -39,7 +41,7 @@ cd /var/www/moodle/
 sudo -u www-data -g moodlebox git pull
 ```
 
-Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez les instructions de mise à jour, comme avec un Moodle standard ([voir la documentation][update]).
+Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez les instructions de mise à jour, comme avec un Moodle standard ([voir la documentation de Moodle][update]).
 
 ### Mise à jour vers une version _majeure_
 
@@ -51,7 +53,7 @@ sudo -u www-data -g moodlebox git fetch origin
 sudo -u www-data -g moodlebox git checkout MOODLE_502_STABLE
 ```
 
-Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez les instructions de mise à jour, comme avec un Moodle standard ([voir la documentation][update]).
+Chargez ensuite dans le navigateur l'URL http://moodlebox.home/admin, et suivez les instructions de mise à jour, comme avec un Moodle standard ([voir la documentation de Moodle][update]).
 
  [update]: https://docs.moodle.org/fr/Mise_à_jour
  [cli]: {{< relref "help/command-line-access" >}}
