@@ -4,7 +4,7 @@ authors:
   - Nicolas Martignoni
 type: kb
 date: 2017-09-16
-lastmod: 2019-10-21
+lastmod: 2026-05-02
 description: Tous les identifiants (noms d'utilisateur et mots de passe) utilisés sur la MoodleBox (WiFi, SSH, Moodle, base de données) sont indiqués ici
 slug: noms-dutilisateur-et-mots-de-passe
 categories_weight: 8
@@ -13,7 +13,7 @@ categories:
   - Utilisation
 
 ---
-Cette page fait l'inventaire des identifiants — noms d'utilisateur et mots de passe — utilisés sur la MoodleBox. Bien entendu ces identifiants sont différents vous les avez changés d'une façon ou d'une autre.
+Cette page fait l'inventaire des identifiants — noms d'utilisateur et mots de passe — utilisés sur la MoodleBox. Bien entendu ces identifiants sont différents si vous les avez changés d'une façon ou d'une autre.
 
 ### Accès au réseau Wi-Fi
 
