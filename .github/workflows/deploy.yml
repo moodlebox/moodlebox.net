@@ -27,7 +27,6 @@ jobs:
             hvm_raw=$(cat .hvm)
             echo "HUGO_RELEASE="$(echo "${hvm_raw%/*}" | tr -d 'v') >> "$GITHUB_ENV"
           fi
-          echo "HUGO_RELEASE=0.159.1" >> "$GITHUB_ENV"
       - name: Print ENV var
         run: |
           echo "Hugo release is ${HUGO_RELEASE}"
