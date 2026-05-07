@@ -4,9 +4,6 @@ resources/_gen
 hugo_stats.json
 .hugo_build.lock
 
-# Hugo version manager
-.hvm
-
 # Node
 node_modules/
 
