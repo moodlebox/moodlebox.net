@@ -26,6 +26,7 @@ jobs:
           if [ -f .hvm ]; then
             hvm_raw=$(cat .hvm)
             echo "HUGO_RELEASE="$(echo "${hvm_raw%/*}" | tr -d 'v') >> $GITHUB_ENV
+            echo "HUGO_RELEASE=0.159.1" >> $GITHUB_ENV
           fi
       - name: Checkout
         uses: actions/checkout@v6
