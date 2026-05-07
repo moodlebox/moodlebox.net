@@ -5,7 +5,7 @@
   "main": "hugo --minify",
   "dependencies": {
     "cssnano": "^5.0.0",
-    "postcss": "^8.5.6",
+    "postcss": "^8.5.14",
     "postcss-cli": "^11.0.1",
     "purgecss": "^8.0.0"
   },
