@@ -25,7 +25,7 @@ jobs:
         run: |
           if [ -f .hvm ]; then
             hvm_raw=$(cat .hvm)
-            echo "HUGO_RELEASE="$(echo "${hvm_raw%/*}" | tr -d 'v') >> "$GITHUB_ENV"
+            echo "HUGO_RELEASE=$(echo ${hvm_raw%/*} | tr -d 'v')" >> "$GITHUB_ENV"
           fi
       - name: Print ENV var
         run: |
