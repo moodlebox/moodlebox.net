@@ -27,7 +27,7 @@ jobs:
         run: |
           if [ -f .hvm ]; then
             hvm_raw=$(cat .hvm)
-            echo "${hvm_raw%/*}" | tr -d 'v' >> $GITHUB_OUTPUT
+            GITHUB_OUTPUT=$(echo "${hvm_raw%/*}" | tr -d 'v')
           fi
 
   build:
