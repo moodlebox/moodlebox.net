@@ -30,7 +30,7 @@ jobs:
           fi
       - name: Print ENV var
         run: |
-          echo "Hugo release is ${{ HUGO_RELEASE }}"
+          echo "Hugo release is $HUGO_RELEASE"
       - name: Checkout
         uses: actions/checkout@v6
         with:
@@ -38,7 +38,7 @@ jobs:
       - name: Download and setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: ${{ HUGO_RELEASE }}
+          hugo-version: $HUGO_RELEASE
           extended: true
       - name: Check Hugo installation
         run: hugo env
