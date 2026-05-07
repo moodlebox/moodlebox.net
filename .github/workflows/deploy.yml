@@ -16,26 +16,17 @@ defaults:
     shell: bash
 
 jobs:
-  environment:
-    name: Set environment vars
+  build:
+    name: Build and deploy website
     runs-on: ubuntu-latest
-    outputs:
-      hugo-release: ${{ steps.hugo-release.outputs.version }}
     steps:
-      - name: Get Hugo release
+      - name: Set environment vars
         id: hugo-release
         run: |
           if [ -f .hvm ]; then
             hvm_raw=$(cat .hvm)
-            GITHUB_OUTPUT=$(echo "${hvm_raw%/*}" | tr -d 'v')
+            echo 'HUGO_RELEASE="${hvm_raw%/*}" | tr -d "v")' >> $env:GITHUB_ENV
           fi
-
-  build:
-    name: Build and deploy website
-    runs-on: ubuntu-latest
-    env:
-      HUGO_RELEASE: ${{ needs.hugo-release.outputs.version }}
-    steps:
       - name: Checkout
         uses: actions/checkout@v6
         with:
