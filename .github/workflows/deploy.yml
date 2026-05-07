@@ -31,9 +31,6 @@ jobs:
             hvm_raw=$(cat .hvm)
             echo "HUGO_RELEASE=$(echo ${hvm_raw%/*} | tr -d 'v')" >> "$GITHUB_ENV"
           fi
-      - name: Print ENV var
-        run: |
-          echo "Hugo release is ${HUGO_RELEASE}"
       - name: Download and setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
@@ -41,33 +38,33 @@ jobs:
           extended: true
       - name: Check Hugo installation
         run: hugo env
-#       - name: Setup Node
-#         uses: actions/setup-node@v6
-#         with:
-#           node-version: '24'
-#       - name: Cache dependencies
-#         uses: actions/cache@v5
-#         with:
-#           path: ~/.npm
-#           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-#           restore-keys: |
-#             ${{ runner.os }}-node-
-#       - name: Run Node
-#         run: npm ci
-#       - name: Build website with Hugo
-#         run: |
-#           hugo \
-#             --gc \
-#             --minify \
-#             --printI18nWarnings \
-#             --cacheDir "${{ runner.temp }}/hugo_cache"
-#       - name: Deploy website with rsync
-#         if: github.event_name == 'push' && github.ref_name == 'main'
-#         uses: burnett01/rsync-deployments@v8
-#         with:
-#           switches: -avzr --quiet --delete
-#           path: public/
-#           remote_path: ${{ secrets.DEPLOY_DIRECTORY }}
-#           remote_host: ${{ secrets.DEPLOY_HOST }}
-#           remote_user: ${{ secrets.DEPLOY_USER }}
-#           remote_key: ${{ secrets.DEPLOY_KEY }}
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Cache dependencies
+        uses: actions/cache@v5
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Run Node
+        run: npm ci
+      - name: Build website with Hugo
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --printI18nWarnings \
+            --cacheDir "${{ runner.temp }}/hugo_cache"
+      - name: Deploy website with rsync
+        if: github.event_name == 'push' && github.ref_name == 'main'
+        uses: burnett01/rsync-deployments@v8
+        with:
+          switches: -avzr --quiet --delete
+          path: public/
+          remote_path: ${{ secrets.DEPLOY_DIRECTORY }}
+          remote_host: ${{ secrets.DEPLOY_HOST }}
+          remote_user: ${{ secrets.DEPLOY_USER }}
+          remote_key: ${{ secrets.DEPLOY_KEY }}
