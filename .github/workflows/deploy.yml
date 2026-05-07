@@ -20,6 +20,10 @@ jobs:
     name: Build and deploy website
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: true
       - name: Set environment vars
         id: hugo-release
         run: |
@@ -36,10 +40,6 @@ jobs:
           extended: true
       - name: Check Hugo installation
         run: hugo env
-#       - name: Checkout
-#         uses: actions/checkout@v6
-#         with:
-#           submodules: true
 #       - name: Setup Node
 #         uses: actions/setup-node@v6
 #         with:
