@@ -27,9 +27,10 @@ jobs:
       - name: Set environment vars
         id: hugo-release
         run: |
-          hvm_raw=$(cat .hvm)
-          hugo_version=$(echo "${hvm_raw%/*}" | tr -d 'v')
-          echo "HUGO_RELEASE=$hugo_version" >> "$GITHUB_ENV"
+          if [ -f .hvm ]; then
+            hvm_raw=$(cat .hvm)
+            echo "HUGO_RELEASE=$(echo ${hvm_raw%/*} | tr -d 'v')" >> "$GITHUB_ENV"
+          fi
       - name: Print ENV var
         run: |
           echo "Hugo release is ${HUGO_RELEASE}"
