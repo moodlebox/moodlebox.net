@@ -16,18 +16,36 @@ defaults:
     shell: bash
 
 jobs:
+  environment:
+    name: Set environment vars
+    runs-on: ubuntu-latest
+    outputs:
+      hugo-release: ${{ steps.hugo-release.outputs.version }}
+    steps:
+      - name: Get Hugo release
+        id: hugo-release
+        run: |
+          if [ -f .hvm ]; then
+            hvm_raw=$(cat .hvm)
+            echo "${hvm_raw%/*}" | tr -d 'v' >> $GITHUB_OUTPUT
+          else
+          fi
+
   build:
     name: Build and deploy website
     runs-on: ubuntu-latest
+    env:
+      HUGO_RELEASE: ${{ needs.hugo-release.outputs.version }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6
         with:
           submodules: true
+      - name: Print ENV var
+        run: |
+          echo "Hugo release is ${{ env.HUGO_RELEASE }}"
       - name: Download and setup Hugo
         uses: peaceiris/actions-hugo@v3
-        env:
-          HUGO_RELEASE: '0.159.1'
         with:
           hugo-version: ${{ env.HUGO_RELEASE }}
           extended: true
