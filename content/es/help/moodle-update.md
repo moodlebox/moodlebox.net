@@ -7,7 +7,7 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-04-20
-lastmod: 2026-05-02
+lastmod: 2026-05-12
 description: Siga las siguientes instrucciones para actualizar Moodle en su MoodleBox
 keywords:
   - shell
@@ -52,7 +52,7 @@ Para actualizar a la siguiente __versión mayor__ de Moodle (5.2[^future], 5.3[^
 
 ```bash
 sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
-sudo -u www-data -g moodlebox git fetch origen
+sudo -u www-data -g moodlebox git fetch origin
 sudo -u www-data -g moodlebox git checkout MOODLE_502_STABLE
 ```
 
