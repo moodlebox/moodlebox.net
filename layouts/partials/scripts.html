@@ -1,6 +1,6 @@
 <!-- Javascript to load in footer -->
 {{ $params := dict "minify" true }}
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha256-DOneOY3n5+xj6Da3AJBkPHxaPynqSlGaZ9790gbBOsE="></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha256-DOneOY3n5+xj6Da3AJBkPHxaPynqSlGaZ9790gbBOsE=" crossorigin="anonymous"></script>
 {{ if hugo.IsServer }}
   {{ $frontJS := resources.Get "js/front.js" }}
   {{ $moodleboxJS := resources.Get "js/moodlebox.js" }}
