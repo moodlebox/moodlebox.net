@@ -396,6 +396,7 @@ ul.list-style-none {
   color: #d73c3c;
   background-color: #e6e6e6;
   border-color: #c22828;
+  text-decoration-line: none;
 }
 .btn-template-main:active,
 .btn-template-main.active,
