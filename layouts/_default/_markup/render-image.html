@@ -6,14 +6,25 @@
 {{- end -}}
 {{- with $image -}}
   {{- $large := $image.Resize "1200x webp" -}}
-  {{- $medium := $large.Fill "726x402 webp" -}}
-  {{- $small := $medium.Fill "458x254 webp" -}}
+  {{- $medium := $large.Resize "768x webp" -}}
+  {{- $small := $medium.Resize "450x webp" -}}
 <div class="image-box caption-position-bottom caption-effect-appear">
   <figure class="centered-image" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <img alt="{{ $.Text }}" srcset="
-      {{ $small.RelPermalink }} 458w,
-      {{ $medium.RelPermalink }} 726w,
-      {{ $large.RelPermalink }} 1200w" sizes="60vw" src="{{ $small.RelPermalink }}" />
+    <img alt="{{ $.Text }}"
+      srcset="
+        {{ $small.RelPermalink }} 450w,
+        {{ $medium.RelPermalink }} 768w,
+        {{ $large.RelPermalink }} 1200w
+      "
+      sizes="
+        (min-width: 1400px) calc(1320px*0.7),
+        (min-width: 1200px) calc(1140px*0.7),
+        (min-width: 992px) calc(960px*0.7),
+        (min-width: 778px) calc(720px*0.65),
+        (min-width: 576px) calc(540px*0.9),
+        85vw
+      "
+      src="{{ $small.RelPermalink }}" />
     <figcaption>
       <p><em>{{ with $.Title | safeHTML }}{{ . }}{{ end }}</em></p>
     </figcaption>

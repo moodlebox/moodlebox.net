@@ -43,8 +43,16 @@
       srcset="
         {{ $small.RelPermalink }} 450w,
         {{ $medium.RelPermalink }} 768w,
-        {{ $large.RelPermalink }} 1200w"
-      sizes="{{ $image_width }}"
+        {{ $large.RelPermalink }} 1200w
+      "
+      sizes="
+        (min-width: 1400px) calc( min(1320px*0.7, {{ $image_width }} )),
+        (min-width: 1200px) calc( min(1140px*0.7, {{ $image_width }} )),
+        (min-width: 992px) calc( min(960px*0.7, {{ $image_width }} )),
+        (min-width: 778px) calc( min(720px*0.65, {{ $image_width }} )),
+        (min-width: 576px) calc( min(540px*0.9, {{ $image_width }} )),
+        85vw
+      "
       src="{{ $small.RelPermalink }}" />
     <figcaption>
       <p><em>{{ with $image_title | safeHTML }}{{ . }}{{ end }}</em></p>
