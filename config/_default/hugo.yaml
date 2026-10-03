@@ -223,8 +223,12 @@ markup:
 imaging:
   anchor: Smart
   bgColor: '#ffffff'
-  hint: drawing
-  quality: 90
+  avif:
+    quality: 75
+  jpeg:
+    quality: 90
+  webp:
+    quality: 75
   resampleFilter: Lanczos
 
 #outputFormats:
