@@ -3,7 +3,7 @@ title: Über uns
 authors:
   - Nicolas Martignoni
 date: 2019-10-30
-lastmod: 2026-02-19
+lastmod: 2026-10-03
 description: MoodleBox ist ein freiwilliges und Non-Profit-Projekt, das von Nicolas Martignoni in seiner Freizeit durchgeführt wird.
 slug: ueber-uns
 weight: 2
@@ -35,14 +35,14 @@ Andere Beitragende:
 Wenn Sie MoodleBox in Ihrer Veröffentlichung oder für Ihre Arbeit verwenden, bitten wir Sie, dies in Ihren Zitaten anzugeben.
 Ihr Zitat sollte etwa wie folgt lauten
 
-> Martignoni, N. (2026). MoodleBox, Version v4.11.1 [Computer Software]. Erhältlich bei: https://moodlebox.net. https://doi.org/10.5281/zenodo.15763860
+> Martignoni, N. (2026). MoodleBox, version v4.11.1 [Computer software]. Available from: https://moodlebox.net. https://doi.org/10.5281/zenodo.18684449
 
 Sie können diesen BibTeX-Eintrag verwenden:
 ```
 @software{Martignoni_MoodleBox,
-    title = {{MoodleBox}},
+    title = {{MoodleBox} [Computer software]},
     author = {Martignoni, Nicolas},
-    doi = {10.5281/zenodo.15763860},
+    doi = {10.5281/zenodo.18684449},
     license = {AGPL-3.0},
     version = {VERSION},
     year = YEAR,

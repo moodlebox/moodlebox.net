@@ -3,7 +3,7 @@ title: About us
 authors:
   - Nicolas Martignoni
 date: 2019-10-30
-lastmod: 2026-02-19
+lastmod: 2026-10-03
 description: MoodleBox is a volunteer and non-profit project carried out by Nicolas Martignoni on his spare time.
 slug: about
 weight: 2
@@ -35,14 +35,14 @@ Other contributors include:
 If you use MoodleBox in your work or publication, we kindly request you to cite it.
 Your citation should read something like
 
-> Martignoni, N. (2026). MoodleBox, version v4.11.1 [Computer software]. Available from: https://moodlebox.net. https://doi.org/10.5281/zenodo.15763860
+> Martignoni, N. (2026). MoodleBox, version v4.11.1 [Computer software]. Available from: https://moodlebox.net. https://doi.org/10.5281/zenodo.18684449
 
 You can use this BibTeX entry:
 ```
 @software{Martignoni_MoodleBox,
-    title = {{MoodleBox}},
+    title = {{MoodleBox} [Computer software]},
     author = {Martignoni, Nicolas},
-    doi = {10.5281/zenodo.15763860},
+    doi = {10.5281/zenodo.18684449},
     license = {AGPL-3.0},
     version = {VERSION},
     year = YEAR,
