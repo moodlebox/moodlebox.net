@@ -6,7 +6,7 @@ authors:
   - Adrian Perez Rodriguez
 type: kb
 date: 2018-02-13
-lastmod: 2026-05-02
+lastmod: 2026-10-04
 description: Folgen Sie den folgenden Anweisungen, um das Moodle Ihrer MoodleBox zu aktualisieren
 keywords:
   - shell
@@ -35,7 +35,7 @@ ssh moodlebox@moodlebox.home
 
 ### Aktualisierung auf eine _Minor_ Version (kleiner Versionssprung)
 
-Um Ihr Moodle auf die nächste __Minor Version__ (5.1.1, 5.1.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^git]
+Um Ihr Moodle auf die nächste __Minor Version__ (5.3.1, 5.3.2, usw.) zu aktualisieren, schreiben Sie folgende Anweisungen ins Terminal:[^git]
 
 ```bash
 cd /var/www/moodle/
@@ -46,12 +46,12 @@ sudo -u www-data -g moodlebox git pull
 
 ### Aktualisierung auf eine _Major_ Version (grosser Versionssprung)
 
-Um mit Ihrem Moodle auf die nächste __Major Version__ (5.2[^future], 5.3[^future], usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen, wobei der entsprechende Branch angegeben wird, z.B. `MOODLE_502_STABLE`, `MOODLE_503_STABLE`, usw.:
+Um mit Ihrem Moodle auf die nächste __Major Version__ (6.0[^future], 6.1[^future], usw.) zu gelangen, schreiben Sie oben angegebenen Anweisungen ins Terminal, und dann verwenden Sie noch folgende __zusätzliche__ Anweisungen, wobei der entsprechende Branch angegeben wird, z.B. `MOODLE_600_STABLE`, `MOODLE_601_STABLE`, usw.:
 
 ```bash
 sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u www-data -g moodlebox git fetch origin
-sudo -u www-data -g moodlebox git checkout MOODLE_502_STABLE
+sudo -u www-data -g moodlebox git checkout MOODLE_600_STABLE
 ```
 
 Öffnen Sie auch hier im Browser die URL http://moodlebox.home/admin und folgen Sie der Anleitung wie für jede andere Moodle-Installation. ([Weitere Infos finden Sie in der Moodle-Dokumentation][update]).

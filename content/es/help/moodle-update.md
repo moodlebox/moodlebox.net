@@ -7,7 +7,7 @@ authors:
   - Eric Efrain Solano-Uscanga
 type: kb
 date: 2017-04-20
-lastmod: 2026-05-12
+lastmod: 2026-10-04
 description: Siga las siguientes instrucciones para actualizar Moodle en su MoodleBox
 keywords:
   - shell
@@ -37,7 +37,7 @@ ssh moodlebox@moodlebox.home
 
 ### Actualizar a una versión menor
 
-Para actualizar a la siguiente __versión menor__ de Moodle (5.1.1, 5.1.2, etc.), escribe los siguientes comandos en el terminal:[^git]
+Para actualizar a la siguiente __versión menor__ de Moodle (5.3.1, 5.3.2, etc.), escribe los siguientes comandos en el terminal:[^git]
 
 ```bash
 cd /var/www/moodle/
@@ -48,12 +48,12 @@ Después, visita en tu navegador la URL http://moodlebox.home/admin y sigue las 
 
 ### Actualizar a una versión __mayor
 
-Para actualizar a la siguiente __versión mayor__ de Moodle (5.2[^future], 5.3[^future], etc.), escriba los comandos anteriores, y a continuación los siguientes comandos __adicionales__, indicando la rama adecuada, por ejemplo `MOODLE_502_STABLE`, `MOODLE_503_STABLE`, etc.:
+Para actualizar a la siguiente __versión mayor__ de Moodle (6.0[^future], 6.1[^future], etc.), escriba los comandos anteriores, y a continuación los siguientes comandos __adicionales__, indicando la rama adecuada, por ejemplo `MOODLE_600_STABLE`, `MOODLE_601_STABLE`, etc.:
 
 ```bash
 sudo -u www-data -g moodlebox git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
 sudo -u www-data -g moodlebox git fetch origin
-sudo -u www-data -g moodlebox git checkout MOODLE_502_STABLE
+sudo -u www-data -g moodlebox git checkout MOODLE_600_STABLE
 ```
 
 A continuación, visita la URL http://moodlebox.home/admin y sigue las instrucciones de actualización, como en cualquier instalación de Moodle ([lee la documentación de Moodle][update]).
