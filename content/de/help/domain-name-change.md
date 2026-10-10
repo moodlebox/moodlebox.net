@@ -5,7 +5,7 @@ authors:
   - Ralf Krause
 type: kb
 date: 2018-09-27
-lastmod: 2024-02-10
+lastmod: 2026-10-10
 description: In dieser Anleitung wird erklärt, wie Sie den Domainnamen Ihrer MoodleBox ändern können, damit er besser zu Ihrer lokalen Situation passt.
 slug: domainname-aenderung
 categories_weight: 90
@@ -29,9 +29,9 @@ Dieser Vorgang hat keinen Einfluss auf den Zugriff auf die MoodleBox von einem E
 
 #### Schritt 1: Änderung des Hostnamens (_Hostname_).
 
-In der letzten Zeile der `/etc/hosts`-Datei, ersetzen Sie `moodlebox` durch `learn.example.com`.
+Starten Sie __raspi-config__ mit dem Befehl `sudo raspi-config`, wählen Sie mithilfe der Tastatur zu `System Options > Hostname`, klicken Sie auf OK, um fortzufahren, und ersetzen Sie dann `moodlebox` durch __learn.example.com__.
 
-In der Datei `/etc/hostname` ersetzen Sie `moodlebox` durch `learn.example.com` (diese Änderung ist nicht notwendig, wird aber dringend empfohlen).
+Klicken Sie auf OK und anschliessend auf Finish.
 
 #### Schritt 2: Anpassung des Webservers nginx
 
